@@ -55,7 +55,10 @@ for r in rows:
         assert all(abs(float(r[m])-1)<1e-5 for m in thresholds)
 checks['all_original_self_pairs_near_one_separate_from_A']=True
 before=json.loads((out/'gpu_before.json').read_text())['processes'];after=json.loads((out/'gpu_after.json').read_text())['processes']
-assert ', 14413,' in before and ', 14413,' in after
-checks['existing_GPU5_PID14413_present_before_after']=True
+def process_ids(text):
+    return {int(line.split(',')[1].strip()) for line in text.splitlines()[1:] if line.strip()}
+prior_pids=process_ids(before);final_pids=process_ids(after)
+assert prior_pids.issubset(final_pids), 'a pre-existing process is absent in the final snapshot; investigate its lifecycle'
+checks['preexisting_compute_PIDs_present_before_after']=True
 dump(out/'runtime_checks.json',dict(status='passed',exit_code=0,checks=checks,scope='pre/post presence and own-worker records; not a continuous monitor of all server processes'))
 print(json.dumps(checks,indent=2))
