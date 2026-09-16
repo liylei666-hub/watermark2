@@ -1,0 +1,202 @@
+[
+  {
+    "pair_id": "commons_100018635__commons_100018635_patch0.05",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_100018635__commons_100018635_patch0.15",
+    "clip_visible_mask_fraction": 0.5555555555555556,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_11393212__commons_11393212_patch0.05",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_11393212__commons_11393212_patch0.15",
+    "clip_visible_mask_fraction": 0.9267676767676768,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_114956623__commons_114956623_patch0.05",
+    "clip_visible_mask_fraction": 0.3991228070175439,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_114956623__commons_114956623_patch0.15",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_117574679__commons_117574679_patch0.05",
+    "clip_visible_mask_fraction": 0.6491228070175439,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_117574679__commons_117574679_patch0.15",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_1226206__commons_1226206_patch0.05",
+    "clip_visible_mask_fraction": 0.7543859649122807,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_1226206__commons_1226206_patch0.15",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_141842609__commons_141842609_patch0.05",
+    "clip_visible_mask_fraction": 0.7982456140350878,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_141842609__commons_141842609_patch0.15",
+    "clip_visible_mask_fraction": 0.45454545454545453,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_159279095__commons_159279095_patch0.05",
+    "clip_visible_mask_fraction": 0.9342105263157895,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_159279095__commons_159279095_patch0.15",
+    "clip_visible_mask_fraction": 0.8560606060606061,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_34259360__commons_34259360_patch0.05",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_34259360__commons_34259360_patch0.15",
+    "clip_visible_mask_fraction": 0.9065656565656566,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_38576339__commons_38576339_patch0.05",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_38576339__commons_38576339_patch0.15",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_40710041__commons_40710041_patch0.05",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_40710041__commons_40710041_patch0.15",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_41628507__commons_41628507_patch0.05",
+    "clip_visible_mask_fraction": 0.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_41628507__commons_41628507_patch0.15",
+    "clip_visible_mask_fraction": 0.2601010101010101,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_42069123__commons_42069123_patch0.05",
+    "clip_visible_mask_fraction": 0.5570175438596491,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_42069123__commons_42069123_patch0.15",
+    "clip_visible_mask_fraction": 0.9116161616161617,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_44683621__commons_44683621_patch0.05",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_44683621__commons_44683621_patch0.15",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_47780866__commons_47780866_patch0.05",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_47780866__commons_47780866_patch0.15",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_48575131__commons_48575131_patch0.05",
+    "clip_visible_mask_fraction": 0.06140350877192982,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_48575131__commons_48575131_patch0.15",
+    "clip_visible_mask_fraction": 0.5757575757575758,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_69468782__commons_69468782_patch0.05",
+    "clip_visible_mask_fraction": 0.17982456140350878,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_69468782__commons_69468782_patch0.15",
+    "clip_visible_mask_fraction": 0.398989898989899,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_69586487__commons_69586487_patch0.05",
+    "clip_visible_mask_fraction": 0.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_69586487__commons_69586487_patch0.15",
+    "clip_visible_mask_fraction": 0.4393939393939394,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_73462291__commons_73462291_patch0.05",
+    "clip_visible_mask_fraction": 0.8640350877192983,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_73462291__commons_73462291_patch0.15",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_95847980__commons_95847980_patch0.05",
+    "clip_visible_mask_fraction": 0.5789473684210527,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_95847980__commons_95847980_patch0.15",
+    "clip_visible_mask_fraction": 0.5606060606060606,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_98821976__commons_98821976_patch0.05",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  },
+  {
+    "pair_id": "commons_98821976__commons_98821976_patch0.15",
+    "clip_visible_mask_fraction": 1.0,
+    "note": "continuous center-square approximation; CLIP resize rounding can differ by ~1 pixel"
+  }
+]

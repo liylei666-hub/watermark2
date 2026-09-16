@@ -1,0 +1,14 @@
+test_cache_invalidation (test_stage02.CoreTests) ... ok
+test_cpu_test_entry (test_stage02.CoreTests) ... ok
+test_gpu_config_rejects_invalid_without_cuda (test_stage02.CoreTests) ... ok
+test_manifest_leakage_and_donor (test_stage02.CoreTests) ... ok
+test_normalization_and_self (test_stage02.CoreTests) ... ok
+test_quantile_linear_known (test_stage02.CoreTests) ... ok
+test_self_not_A (test_stage02.CoreTests) ... ok
+test_test_data_cannot_change_thresholds (test_stage02.CoreTests) ... ok
+test_threshold_finite_rule_and_ties (test_stage02.CoreTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+OK

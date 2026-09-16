@@ -22,4 +22,3 @@ git status --short --branch
 限制：远程 Python 3.6.9 和 PyTorch 1.10.2 较旧；本轮没有安装依赖、修改环境、下载权重/数据或运行训练。GPU信息只代表 server249 当前可见资源，不代表全部可用算力。此前本地 Windows/RTX 4070 检查不作为本项目环境结论。
 
 远程项目目录定位更新：/data0/liyanlei 存在，约 296G；/data/liyanlei 不存在。现已建立本阶段工作目录 /data0/liyanlei/instance_authentication_research/research（目录权限 700，属主 liyanlei）。已检查的三个相关目录均未检测到 Git 仓库根目录；未修改其中任何文件。
-

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "commons_100018635",
+    "path": "data/stage02/images/commons_100018635.png",
+    "sha256": "2da73eb4acb08846ecdf1160cfb9c79898487969336a8188b1fd5807c4592062"
+  },
+  {
+    "id": "commons_11393212",
+    "path": "data/stage02/images/commons_11393212.png",
+    "sha256": "6ac591ba30e17cb56f04918c051c30ffe092ec5c960680643d7f185738f008d9"
+  },
+  {
+    "id": "commons_114956623",
+    "path": "data/stage02/images/commons_114956623.png",
+    "sha256": "974f16700a48115606e784b54a3a48044046a583ed3afaa67bdb5bb63d3dcb1d"
+  },
+  {
+    "id": "commons_117574679",
+    "path": "data/stage02/images/commons_117574679.png",
+    "sha256": "5f345bfdf10926f72908609360bacbf414d8110dfb416d373bcffced61403ee4"
+  },
+  {
+    "id": "commons_1226206",
+    "path": "data/stage02/images/commons_1226206.png",
+    "sha256": "a279256915ac40499d095dc1cc88594f4746c24a9af2fb1e0fbe463d1dbc1ff6"
+  },
+  {
+    "id": "commons_141842609",
+    "path": "data/stage02/images/commons_141842609.png",
+    "sha256": "c56ed5c014860f4267750428fba2083782ec9ebd5c9363e6892a2674eae21221"
+  },
+  {
+    "id": "commons_159279095",
+    "path": "data/stage02/images/commons_159279095.png",
+    "sha256": "8dfa1fba6269f7fcdd48133a323f90f85fcc58f09ca34e8648bee0a5081fc463"
+  },
+  {
+    "id": "commons_34259360",
+    "path": "data/stage02/images/commons_34259360.png",
+    "sha256": "1cf6beb7b1bf2bc8e69ccdb94114a46c033f9150fa2b5e4841890f8db5298621"
+  },
+  {
+    "id": "commons_38576339",
+    "path": "data/stage02/images/commons_38576339.png",
+    "sha256": "0b7fc97384c5e9df10884c8e2f911e837094ce84b2b68a5da214a55f1e479fa2"
+  },
+  {
+    "id": "commons_40710041",
+    "path": "data/stage02/images/commons_40710041.png",
+    "sha256": "8e934cae0098136fe3733d23a6cce140b80c1945fe58ef2a16b82fccfe7b1607"
+  },
+  {
+    "id": "commons_41628507",
+    "path": "data/stage02/images/commons_41628507.png",
+    "sha256": "138ff3779d6a37b896a3e970057c3eb3c8b212134ce882a9550a34c96925e6ed"
+  },
+  {
+    "id": "commons_42069123",
+    "path": "data/stage02/images/commons_42069123.png",
+    "sha256": "8a7544413339865e0f39c245580cd76374beb55f9ffd6f6b38176d8304048df6"
+  },
+  {
+    "id": "commons_44683621",
+    "path": "data/stage02/images/commons_44683621.png",
+    "sha256": "ec521beb03fac54196947981147b410b72a0ea8388cfb608f00ecf07c1524989"
+  },
+  {
+    "id": "commons_47780866",
+    "path": "data/stage02/images/commons_47780866.png",
+    "sha256": "436541907ffaf9c81db10e7f231406f66b8251024993f7f6dfdc013dfd98215b"
+  },
+  {
+    "id": "commons_48575131",
+    "path": "data/stage02/images/commons_48575131.png",
+    "sha256": "a1a2e961c8ffb54d6403eae22e9c9c4b808ecb9c2958fc4cf86031790b3a6934"
+  },
+  {
+    "id": "commons_69468782",
+    "path": "data/stage02/images/commons_69468782.png",
+    "sha256": "795b970cbc8f02274b0ed6cfee4485914f2db583da031fe36f73446314a02cd2"
+  },
+  {
+    "id": "commons_69586487",
+    "path": "data/stage02/images/commons_69586487.png",
+    "sha256": "086a75eb89b7db6063c21941ad769ff8f4f371423de757a85d029b097e7e4b6f"
+  },
+  {
+    "id": "commons_73462291",
+    "path": "data/stage02/images/commons_73462291.png",
+    "sha256": "6b5c7a66727a5eb5b091433fbdac4f736a6b575a77240d360c8f8f393db51614"
+  },
+  {
+    "id": "commons_95847980",
+    "path": "data/stage02/images/commons_95847980.png",
+    "sha256": "228c4a0fbc3e33b7333b6a11b239187b7232b213e32a14716e91e716e36718ef"
+  },
+  {
+    "id": "commons_98821976",
+    "path": "data/stage02/images/commons_98821976.png",
+    "sha256": "0c6b9df28751967a4147c17c1db27be91404e3242d91d4e62d43cee6e00f0636"
+  },
+  {
+    "id": "commons_100018635_jpeg90",
+    "path": "data/stage02/images/commons_100018635_jpeg90.png",
+    "sha256": "45aa66b6f6bceab97ee0407be815ce50b078c9754b3836b22b4287079de294db"
+  },
+  {
+    "id": "commons_100018635_jpeg70",
+    "path": "data/stage02/images/commons_100018635_jpeg70.png",
+    "sha256": "4d2c6c0cfc86b79a187191a5937e9a7242264df0f88bdb2d33cec00b991d4795"
+  },
+  {
+    "id": "commons_100018635_scale0.75",
+    "path": "data/stage02/images/commons_100018635_scale0.75.png",
+    "sha256": "afe600deefe884b59019c9a3b216316d9655a50a6a56661934f518adf741fd0c"
+  },
+  {
+    "id": "commons_100018635_scale0.5",
+    "path": "data/stage02/images/commons_100018635_scale0.5.png",
+    "sha256": "39bc4386ce19e310d0a9c662ceb4bf86487c64a56f0f34a9117d73adab6c21cb"
+  },
+  {
+    "id": "commons_100018635_brightness0.95",
+    "path": "data/stage02/images/commons_100018635_brightness0.95.png",
+    "sha256": "3c615e12db9239511376172f6831ae5cb703c19080809729bae57fd8c86e6783"
+  },
+  {
+    "id": "commons_100018635_brightness1.05",
+    "path": "data/stage02/images/commons_100018635_brightness1.05.png",
+    "sha256": "7594004344a91da5fe6b1f1194e19093466c8a025fb70789099118f3bbe8b9e9"
+  },
+  {
+    "id": "commons_100018635_patch0.05",
+    "path": "data/stage02/images/commons_100018635_patch0.05.png",
+    "sha256": "8d354e428dcc1b034ea7eeb2542979ee1ce244f67d26567c366734ee398adcea"
+  },
+  {
+    "id": "commons_100018635_patch0.15",
+    "path": "data/stage02/images/commons_100018635_patch0.15.png",
+    "sha256": "2df6a6edf505bde79be7e5f6dcb7e0eaaa1004d473f5b1f3514ef64ce455809c"
+  },
+  {
+    "id": "commons_11393212_jpeg90",
+    "path": "data/stage02/images/commons_11393212_jpeg90.png",
+    "sha256": "f6e8411821c24d43726db4dd5e2baf10f3e02961c497c685ee53dfc33d04e28a"
+  },
+  {
+    "id": "commons_11393212_jpeg70",
+    "path": "data/stage02/images/commons_11393212_jpeg70.png",
+    "sha256": "0d2b663318c07fd8034005763786a02c1e2e056fe5c4f9a39e8006374394133a"
+  },
+  {
+    "id": "commons_11393212_scale0.75",
+    "path": "data/stage02/images/commons_11393212_scale0.75.png",
+    "sha256": "29ebff75403b9ebe54171815adcc0742ac99b706e29e3a98d74bce3f5cb451e2"
+  },
+  {
+    "id": "commons_11393212_scale0.5",
+    "path": "data/stage02/images/commons_11393212_scale0.5.png",
+    "sha256": "18ffc6b790f53aed79a59d06dc36a524d9501d9fb70158f4950b2bf2f209dadc"
+  },
+  {
+    "id": "commons_11393212_brightness0.95",
+    "path": "data/stage02/images/commons_11393212_brightness0.95.png",
+    "sha256": "8bf45cb071eef2323a3276ed5637b6e903e4e842f3baedefaf150f77e6ba0bab"
+  },
+  {
+    "id": "commons_11393212_brightness1.05",
+    "path": "data/stage02/images/commons_11393212_brightness1.05.png",
+    "sha256": "313946b99887d3837130cf596f8310c467c4d89839f78970808b852bf386aec9"
+  },
+  {
+    "id": "commons_11393212_patch0.05",
+    "path": "data/stage02/images/commons_11393212_patch0.05.png",
+    "sha256": "fa7769cec845bd03af587dee0c179278142049157b2517b886b6433fa6640b79"
+  },
+  {
+    "id": "commons_11393212_patch0.15",
+    "path": "data/stage02/images/commons_11393212_patch0.15.png",
+    "sha256": "6bcf866c9c363a508d3f69c695f4fccdfafc60995f354c5f1b7ae1c11f6f6658"
+  },
+  {
+    "id": "commons_114956623_jpeg90",
+    "path": "data/stage02/images/commons_114956623_jpeg90.png",
+    "sha256": "c922d1e8bf7130ade3ac23deaa80dcb9ee725134a8be77656bf07474fc0f9d83"
+  },
+  {
+    "id": "commons_114956623_jpeg70",
+    "path": "data/stage02/images/commons_114956623_jpeg70.png",
+    "sha256": "cfd1b287da310cd269a99a9398bee90d6b9c8b6da4fd725a09dc917405fec18f"
+  },
+  {
+    "id": "commons_114956623_scale0.75",
+    "path": "data/stage02/images/commons_114956623_scale0.75.png",
+    "sha256": "088c1fb506f2cd4655bf71e32032cbedad338081fbe022825218f535a8e44913"
+  },
+  {
+    "id": "commons_114956623_scale0.5",
+    "path": "data/stage02/images/commons_114956623_scale0.5.png",
+    "sha256": "9455141e7cc4c3fe2b5aedd068d7aec4342430531cd81ea099426f8826edf910"
+  },
+  {
+    "id": "commons_114956623_brightness0.95",
+    "path": "data/stage02/images/commons_114956623_brightness0.95.png",
+    "sha256": "4fc6b9ced6ee7fd4a06ca1456e8e744d93c1be33238072b848946c0a6574be53"
+  },
+  {
+    "id": "commons_114956623_brightness1.05",
+    "path": "data/stage02/images/commons_114956623_brightness1.05.png",
+    "sha256": "f6b4a6e33a84a4d738ae0286891b4c3f848feb76d770781791efab4b655aeb28"
+  },
+  {
+    "id": "commons_114956623_patch0.05",
+    "path": "data/stage02/images/commons_114956623_patch0.05.png",
+    "sha256": "b33527931e666da3533b806eb26168716e1eb3dae8efd5019f50d58e237e8e11"
+  },
+  {
+    "id": "commons_114956623_patch0.15",
+    "path": "data/stage02/images/commons_114956623_patch0.15.png",
+    "sha256": "a8ed3b1b5d1e16c27f5cd6e4a32cf5e68d7dba2c0990cfde8a8ae21100a20051"
+  },
+  {
+    "id": "commons_117574679_jpeg90",
+    "path": "data/stage02/images/commons_117574679_jpeg90.png",
+    "sha256": "b9dccbcb8bf5bb43c47741a20bc1356ebd743b864053fdcb4c72fc4ba5669323"
+  },
+  {
+    "id": "commons_117574679_jpeg70",
+    "path": "data/stage02/images/commons_117574679_jpeg70.png",
+    "sha256": "15f212d6ec1a8c2fcb2934c09566d598febb4c7ff4a12963b4f8184decdf30a2"
+  },
+  {
+    "id": "commons_117574679_scale0.75",
+    "path": "data/stage02/images/commons_117574679_scale0.75.png",
+    "sha256": "6d3cc08d6030e3bc6bd8d1e1626432b91bbbe955ce10fc6c4fb917a4859298d3"
+  },
+  {
+    "id": "commons_117574679_scale0.5",
+    "path": "data/stage02/images/commons_117574679_scale0.5.png",
+    "sha256": "aac0bdd04c90557974e82b86d5a686cb412ce4e075a4659a8706a8699ca66174"
+  },
+  {
+    "id": "commons_117574679_brightness0.95",
+    "path": "data/stage02/images/commons_117574679_brightness0.95.png",
+    "sha256": "d8aadd5e171a1320057369e7185266813d163338db2fbfc281a32eb15ec7f13f"
+  },
+  {
+    "id": "commons_117574679_brightness1.05",
+    "path": "data/stage02/images/commons_117574679_brightness1.05.png",
+    "sha256": "efc6a42e0e3265bba8464a98e35b4cb27c1e49841ff89a5be4e140b9c8b7652b"
+  },
+  {
+    "id": "commons_117574679_patch0.05",
+    "path": "data/stage02/images/commons_117574679_patch0.05.png",
+    "sha256": "e815799c879306b415e1f0e64b63f51e9d9e689d95c555db9a99cdbaef8c3b9f"
+  },
+  {
+    "id": "commons_117574679_patch0.15",
+    "path": "data/stage02/images/commons_117574679_patch0.15.png",
+    "sha256": "452603177cca525bc343dd5f860aaf23152dc7c2f37777ed5d3d4fed4e4dd72c"
+  },
+  {
+    "id": "commons_1226206_jpeg90",
+    "path": "data/stage02/images/commons_1226206_jpeg90.png",
+    "sha256": "6911fa8680652ea584afa011a311ea112b96459c05b63abeaf99a07424c355d2"
+  },
+  {
+    "id": "commons_1226206_jpeg70",
+    "path": "data/stage02/images/commons_1226206_jpeg70.png",
+    "sha256": "e81067807bd3a240e4cc382d85dc158bbc61c57fe456f0043f03d68871b1464e"
+  },
+  {
+    "id": "commons_1226206_scale0.75",
+    "path": "data/stage02/images/commons_1226206_scale0.75.png",
+    "sha256": "2a9a3caa7c5fd3bc4c7de43663fac0462f0e66332e7e995cc18cd75ce484016a"
+  },
+  {
+    "id": "commons_1226206_scale0.5",
+    "path": "data/stage02/images/commons_1226206_scale0.5.png",
+    "sha256": "14572c57bf312114a3ac183b58b95060d83d43a608cd826c7ac808b0d2a2cf24"
+  },
+  {
+    "id": "commons_1226206_brightness0.95",
+    "path": "data/stage02/images/commons_1226206_brightness0.95.png",
+    "sha256": "84e4087cd10df3c14daa0ed3c9c8dfb56e166f7ad969352b0ad15c56f0862d4e"
+  },
+  {
+    "id": "commons_1226206_brightness1.05",
+    "path": "data/stage02/images/commons_1226206_brightness1.05.png",
+    "sha256": "c6c36db8497471b1e6f4196558d1d04bae93e27219cfbdb2ac7bc3848acaa2b5"
+  },
+  {
+    "id": "commons_1226206_patch0.05",
+    "path": "data/stage02/images/commons_1226206_patch0.05.png",
+    "sha256": "5ec68ab47640204ef52e0a11f066f6fc2c42e850b89e0819ea0809b3943a2f3d"
+  },
+  {
+    "id": "commons_1226206_patch0.15",
+    "path": "data/stage02/images/commons_1226206_patch0.15.png",
+    "sha256": "da86577cb78cad4c7d6e7dd882a9366164d6154c6b6315cdff9fc73f8d3a2506"
+  },
+  {
+    "id": "commons_141842609_jpeg90",
+    "path": "data/stage02/images/commons_141842609_jpeg90.png",
+    "sha256": "73bd8e2eceddf8e28eaab55188aae7d220e0bccbc5f2c8188c1dc1a4d4edbf03"
+  },
+  {
+    "id": "commons_141842609_jpeg70",
+    "path": "data/stage02/images/commons_141842609_jpeg70.png",
+    "sha256": "490f4961ba15dfdb22a653a23dbd77b63b6cd50c70107fb255bc083f6095e5b9"
+  },
+  {
+    "id": "commons_141842609_scale0.75",
+    "path": "data/stage02/images/commons_141842609_scale0.75.png",
+    "sha256": "353baf072e8830e426b41d0614478d77bbeb4aea10244991124ccc7321256e70"
+  },
+  {
+    "id": "commons_141842609_scale0.5",
+    "path": "data/stage02/images/commons_141842609_scale0.5.png",
+    "sha256": "a19755b8fa476bd99944901b52f8a9a4107ee0bc760c445fe0ab1b8e599a7ca4"
+  },
+  {
+    "id": "commons_141842609_brightness0.95",
+    "path": "data/stage02/images/commons_141842609_brightness0.95.png",
+    "sha256": "ca215c523efa9be6bf00f32bb6e9167067c2b456723fc88ee352b3d5fb9a04a1"
+  },
+  {
+    "id": "commons_141842609_brightness1.05",
+    "path": "data/stage02/images/commons_141842609_brightness1.05.png",
+    "sha256": "a03e5d04d6aaae07e94dd08ff4dd97038155937381d99c7680aa7eab40d5414d"
+  },
+  {
+    "id": "commons_141842609_patch0.05",
+    "path": "data/stage02/images/commons_141842609_patch0.05.png",
+    "sha256": "c9b2c3469e0e18248e07080f4e667309f95d872185a17685e3e43067d9b12730"
+  },
+  {
+    "id": "commons_141842609_patch0.15",
+    "path": "data/stage02/images/commons_141842609_patch0.15.png",
+    "sha256": "04e209c0383d026a829e877973f2dcdd2c0ad00eec98de57ab742c4c0831fce9"
+  },
+  {
+    "id": "commons_159279095_jpeg90",
+    "path": "data/stage02/images/commons_159279095_jpeg90.png",
+    "sha256": "7ed7b48e83c202ae5dda07b9de66d529f897b1541fb8e81490326a873b4860ee"
+  },
+  {
+    "id": "commons_159279095_jpeg70",
+    "path": "data/stage02/images/commons_159279095_jpeg70.png",
+    "sha256": "9fde82f99b94661b24504849c7afb04309504e7e4ce7424538b24c10972686f2"
+  },
+  {
+    "id": "commons_159279095_scale0.75",
+    "path": "data/stage02/images/commons_159279095_scale0.75.png",
+    "sha256": "8754afd782d3afc53458963e2cc84e2194b56ee184189822d640eb971495251b"
+  },
+  {
+    "id": "commons_159279095_scale0.5",
+    "path": "data/stage02/images/commons_159279095_scale0.5.png",
+    "sha256": "49409d80ae88cde4558911b365b07c70baea16c7e8154389bdc65e55f8740ccf"
+  },
+  {
+    "id": "commons_159279095_brightness0.95",
+    "path": "data/stage02/images/commons_159279095_brightness0.95.png",
+    "sha256": "4bb79437704d17b3b616535ddbe045e1b39c23407df5853b03db75aead393c36"
+  },
+  {
+    "id": "commons_159279095_brightness1.05",
+    "path": "data/stage02/images/commons_159279095_brightness1.05.png",
+    "sha256": "0a76e93edc377647f23861262f880b27f8ae3ffe1fd63d4a2aeb2b7cb64f0c19"
+  },
+  {
+    "id": "commons_159279095_patch0.05",
+    "path": "data/stage02/images/commons_159279095_patch0.05.png",
+    "sha256": "79dd1cf83a78f7a0df7738dfe1537c0f3250fbcda3580e3810787df784904917"
+  },
+  {
+    "id": "commons_159279095_patch0.15",
+    "path": "data/stage02/images/commons_159279095_patch0.15.png",
+    "sha256": "455876c5029b08e7da94330408ba7d738c5915d2aaae17981c01b7b6b4f9dcc2"
+  },
+  {
+    "id": "commons_34259360_jpeg90",
+    "path": "data/stage02/images/commons_34259360_jpeg90.png",
+    "sha256": "e3f91bc49355fd64d057b1ee66d0aee4d215dbd191e781657ac04eafc4d224d9"
+  },
+  {
+    "id": "commons_34259360_jpeg70",
+    "path": "data/stage02/images/commons_34259360_jpeg70.png",
+    "sha256": "f4b3333e4603b60506465fb74622bba0e6a7b7428264233c2d5c1e9f9d5d8227"
+  },
+  {
+    "id": "commons_34259360_scale0.75",
+    "path": "data/stage02/images/commons_34259360_scale0.75.png",
+    "sha256": "ea0aed5057dfca8c6e4d5931bb9b423d8ae1947ed692cfdbd68cf817bd88ef67"
+  },
+  {
+    "id": "commons_34259360_scale0.5",
+    "path": "data/stage02/images/commons_34259360_scale0.5.png",
+    "sha256": "9058b6088003ecbc662e35adec767c116ede5ae00756bd7e49696c7c039a7e8a"
+  },
+  {
+    "id": "commons_34259360_brightness0.95",
+    "path": "data/stage02/images/commons_34259360_brightness0.95.png",
+    "sha256": "2ebb241230d7881a863cc06f8e5c59e8f718deef0fc6e7316b9c6157bf1a7864"
+  },
+  {
+    "id": "commons_34259360_brightness1.05",
+    "path": "data/stage02/images/commons_34259360_brightness1.05.png",
+    "sha256": "fe6997c4215ca833342d2f98dc530f128da62df3781f2cda67e65609c3f584de"
+  },
+  {
+    "id": "commons_34259360_patch0.05",
+    "path": "data/stage02/images/commons_34259360_patch0.05.png",
+    "sha256": "5177edeade2d3482c2146ba2253eb49090060a2d9e0f8f5e41ffc6263e277ace"
+  },
+  {
+    "id": "commons_34259360_patch0.15",
+    "path": "data/stage02/images/commons_34259360_patch0.15.png",
+    "sha256": "da4516621273488fbe0cb1f0add62816a0af14aa7516a5831c606089bde17926"
+  },
+  {
+    "id": "commons_38576339_jpeg90",
+    "path": "data/stage02/images/commons_38576339_jpeg90.png",
+    "sha256": "5b8fc1b5a5c068b76e3b2d34ea0b384b24051296e05547d2ff6606cf26ca8f57"
+  },
+  {
+    "id": "commons_38576339_jpeg70",
+    "path": "data/stage02/images/commons_38576339_jpeg70.png",
+    "sha256": "b0eb590d8bb6c618788a6ff2d30f04a7ba5c58374e08435dd3e29d05bd07297d"
+  },
+  {
+    "id": "commons_38576339_scale0.75",
+    "path": "data/stage02/images/commons_38576339_scale0.75.png",
+    "sha256": "d873546f6b0832a197e7fc4a432855a9b4e57c9c7ace0268caa7db91a4442404"
+  },
+  {
+    "id": "commons_38576339_scale0.5",
+    "path": "data/stage02/images/commons_38576339_scale0.5.png",
+    "sha256": "8c392a11de948526075d9d07c63393c4ef8739f0d4a70c50d67833f9bff6dc54"
+  },
+  {
+    "id": "commons_38576339_brightness0.95",
+    "path": "data/stage02/images/commons_38576339_brightness0.95.png",
+    "sha256": "2c9d8dd86929bb0871aa8caa36fc305c7955a519f89c79c472ce6e89db94d808"
+  },
+  {
+    "id": "commons_38576339_brightness1.05",
+    "path": "data/stage02/images/commons_38576339_brightness1.05.png",
+    "sha256": "7cc1d5451b4b16bdf207359e139ff1881813a3e6506a1c939aa1abefbeb0ed7d"
+  },
+  {
+    "id": "commons_38576339_patch0.05",
+    "path": "data/stage02/images/commons_38576339_patch0.05.png",
+    "sha256": "621fe46b8c16481144cded1c904ae3a9c46f571cb9a6388d3119d81171a46cd2"
+  },
+  {
+    "id": "commons_38576339_patch0.15",
+    "path": "data/stage02/images/commons_38576339_patch0.15.png",
+    "sha256": "6252e041728f1d4146c03fd44c244391f7522cd6dc5271151098c2e97d75a354"
+  },
+  {
+    "id": "commons_40710041_jpeg90",
+    "path": "data/stage02/images/commons_40710041_jpeg90.png",
+    "sha256": "51e18030faa83e803f74db8ddbbcfe5643173b88db0d4096bf41e004b58b37c2"
+  },
+  {
+    "id": "commons_40710041_jpeg70",
+    "path": "data/stage02/images/commons_40710041_jpeg70.png",
+    "sha256": "35d31f73588ee29529edf188e28d76cc23fc0ff3aea4dbaebb48ccd4329922db"
+  },
+  {
+    "id": "commons_40710041_scale0.75",
+    "path": "data/stage02/images/commons_40710041_scale0.75.png",
+    "sha256": "74b4964ccd586e4a0dd83e47c84439f0609416f5d0391634dd2da204b8efd565"
+  },
+  {
+    "id": "commons_40710041_scale0.5",
+    "path": "data/stage02/images/commons_40710041_scale0.5.png",
+    "sha256": "7994c5b04fb62057f2578fdbef17bd1934c48fc4cba446cee70e0e6d87b27ef7"
+  },
+  {
+    "id": "commons_40710041_brightness0.95",
+    "path": "data/stage02/images/commons_40710041_brightness0.95.png",
+    "sha256": "044a10b22c2646766c32b80adfe39823ff3d0e0b313d15095d7174ed3bb5c3c5"
+  },
+  {
+    "id": "commons_40710041_brightness1.05",
+    "path": "data/stage02/images/commons_40710041_brightness1.05.png",
+    "sha256": "9e98cc8c9c0c7fd563de010c72262e0b56028fc2658bf29d884a948604f6d665"
+  },
+  {
+    "id": "commons_40710041_patch0.05",
+    "path": "data/stage02/images/commons_40710041_patch0.05.png",
+    "sha256": "d2c831e5e0039fcf1aed292ab87b084e27f0c8e1c520f8412db29e1fe9a5221b"
+  },
+  {
+    "id": "commons_40710041_patch0.15",
+    "path": "data/stage02/images/commons_40710041_patch0.15.png",
+    "sha256": "0f7afa4bc2a2bcc8587bcc1d92593a4bfd5e7eba3e4df86109979d833a843e1c"
+  },
+  {
+    "id": "commons_41628507_jpeg90",
+    "path": "data/stage02/images/commons_41628507_jpeg90.png",
+    "sha256": "33995fb07fcccc38deb1bab3e54740ff08850bdc5ee6bfc1409dbf41beb6e893"
+  },
+  {
+    "id": "commons_41628507_jpeg70",
+    "path": "data/stage02/images/commons_41628507_jpeg70.png",
+    "sha256": "ba014b95ff68a9a48415a4658e541a4928cc9b5dc2eb9810b16821ea5777ea2c"
+  },
+  {
+    "id": "commons_41628507_scale0.75",
+    "path": "data/stage02/images/commons_41628507_scale0.75.png",
+    "sha256": "fb3626d012e682fe6553490e234629c64221b65934b72004a6a4dbfb752953e7"
+  },
+  {
+    "id": "commons_41628507_scale0.5",
+    "path": "data/stage02/images/commons_41628507_scale0.5.png",
+    "sha256": "a913cf87a4bb4d8aaab50e752a66162e02af03c7d39ba644c34ff57526f4aaaf"
+  },
+  {
+    "id": "commons_41628507_brightness0.95",
+    "path": "data/stage02/images/commons_41628507_brightness0.95.png",
+    "sha256": "21f5b202c518590aa2fb3e102047875125de2590c400611f2a565ccc659c7f41"
+  },
+  {
+    "id": "commons_41628507_brightness1.05",
+    "path": "data/stage02/images/commons_41628507_brightness1.05.png",
+    "sha256": "8cef1014c3a592e5cf340fdecacabe5711498c438a215307e25259e3d2cc2153"
+  },
+  {
+    "id": "commons_41628507_patch0.05",
+    "path": "data/stage02/images/commons_41628507_patch0.05.png",
+    "sha256": "8a30363a060e4976a6c1eb467c9abd07b7f7947db0ba6e9b4bb8f6d1a887df27"
+  },
+  {
+    "id": "commons_41628507_patch0.15",
+    "path": "data/stage02/images/commons_41628507_patch0.15.png",
+    "sha256": "fa15e6a139929fa90fa825cd983eeb7a5342d3f46c3fa04a33d21b7a89948386"
+  },
+  {
+    "id": "commons_42069123_jpeg90",
+    "path": "data/stage02/images/commons_42069123_jpeg90.png",
+    "sha256": "22d7487aae671a6f8b601b14e5f0064f34ebcc79e5b3307be5c7f673c567ab30"
+  },
+  {
+    "id": "commons_42069123_jpeg70",
+    "path": "data/stage02/images/commons_42069123_jpeg70.png",
+    "sha256": "55a4c3b9a64f78e4ec0e40f8af8d6da904d92acd19214c76c343512f620cc048"
+  },
+  {
+    "id": "commons_42069123_scale0.75",
+    "path": "data/stage02/images/commons_42069123_scale0.75.png",
+    "sha256": "2abb8563ecce0554b673e306fd9e1dba30058fcdf59a744ea21105943ea70899"
+  },
+  {
+    "id": "commons_42069123_scale0.5",
+    "path": "data/stage02/images/commons_42069123_scale0.5.png",
+    "sha256": "a11705f931a44b17abccd27d345bd2cacfa01ca78249bd1bce80c5db6a38c3b4"
+  },
+  {
+    "id": "commons_42069123_brightness0.95",
+    "path": "data/stage02/images/commons_42069123_brightness0.95.png",
+    "sha256": "b896d8c970be7e5f165890ffe33668f9c2904efa8e7ec13560393d554274bbfd"
+  },
+  {
+    "id": "commons_42069123_brightness1.05",
+    "path": "data/stage02/images/commons_42069123_brightness1.05.png",
+    "sha256": "f338c956212da8f9c931c6be70a645d1f8a34800fa49486b19583e7e50866769"
+  },
+  {
+    "id": "commons_42069123_patch0.05",
+    "path": "data/stage02/images/commons_42069123_patch0.05.png",
+    "sha256": "03efcaa69d2a80298f017d2111cea0650219451849cfc253decce0bbb884a64e"
+  },
+  {
+    "id": "commons_42069123_patch0.15",
+    "path": "data/stage02/images/commons_42069123_patch0.15.png",
+    "sha256": "663314f221ee33e21b36cac2dcecca3738f717bc539f7807c1eebb2a23f5968b"
+  },
+  {
+    "id": "commons_44683621_jpeg90",
+    "path": "data/stage02/images/commons_44683621_jpeg90.png",
+    "sha256": "971b2b55955a44aa5c4bd3fb6d3d27709a7dd26a3c10f08aec110f3daa6e062c"
+  },
+  {
+    "id": "commons_44683621_jpeg70",
+    "path": "data/stage02/images/commons_44683621_jpeg70.png",
+    "sha256": "49887412f3833c9d7a1d582d1b1c1ee21828648bb66f391746d46bcd623d0c95"
+  },
+  {
+    "id": "commons_44683621_scale0.75",
+    "path": "data/stage02/images/commons_44683621_scale0.75.png",
+    "sha256": "ae3050170490cee926033e5451c57b79c0f7771bea44b128142d12d2616981ba"
+  },
+  {
+    "id": "commons_44683621_scale0.5",
+    "path": "data/stage02/images/commons_44683621_scale0.5.png",
+    "sha256": "2e24aaa74af166c9299e54601281624757dac30fac9b8bd0b031132ae83de837"
+  },
+  {
+    "id": "commons_44683621_brightness0.95",
+    "path": "data/stage02/images/commons_44683621_brightness0.95.png",
+    "sha256": "502a554947f465778530370dc179ae7d6a41564ebf8c737601379cf3147bde1b"
+  },
+  {
+    "id": "commons_44683621_brightness1.05",
+    "path": "data/stage02/images/commons_44683621_brightness1.05.png",
+    "sha256": "17ce8d5db11ca3dc6a2a395a5f440643428dd4ab7a6a0110644f52019e08c32b"
+  },
+  {
+    "id": "commons_44683621_patch0.05",
+    "path": "data/stage02/images/commons_44683621_patch0.05.png",
+    "sha256": "22e4a8e5d9c14efdd75fa9038ca9f94ee4f6ca885eba5c2a3350e6f8366823f2"
+  },
+  {
+    "id": "commons_44683621_patch0.15",
+    "path": "data/stage02/images/commons_44683621_patch0.15.png",
+    "sha256": "1255eef62c4a0463762011ddf551c47ac292e87b753e01257516ed0ccdf183ce"
+  },
+  {
+    "id": "commons_47780866_jpeg90",
+    "path": "data/stage02/images/commons_47780866_jpeg90.png",
+    "sha256": "ae2abc27dc6baa9c6f1c4af3a90163e237a6d643ca109397d78fe1e92654cfc7"
+  },
+  {
+    "id": "commons_47780866_jpeg70",
+    "path": "data/stage02/images/commons_47780866_jpeg70.png",
+    "sha256": "e1dc98093604d42f9778fbe29b726c1158ff163c4c8a573969ce56ccb3f6ef2e"
+  },
+  {
+    "id": "commons_47780866_scale0.75",
+    "path": "data/stage02/images/commons_47780866_scale0.75.png",
+    "sha256": "d0216c07c735614024270ab4acf2b0a846a99139b750c6f76d5681b5dc97242a"
+  },
+  {
+    "id": "commons_47780866_scale0.5",
+    "path": "data/stage02/images/commons_47780866_scale0.5.png",
+    "sha256": "689677deee03c0d55e9aa5f23d72a944a68713c3f7dcc200f501c91a4664bb2a"
+  },
+  {
+    "id": "commons_47780866_brightness0.95",
+    "path": "data/stage02/images/commons_47780866_brightness0.95.png",
+    "sha256": "41f04371c22914a3af36757e372a5f89cf59c3198f6a730e47e7a962a154e5e1"
+  },
+  {
+    "id": "commons_47780866_brightness1.05",
+    "path": "data/stage02/images/commons_47780866_brightness1.05.png",
+    "sha256": "76e1d9ac3b76ebe0bae4d6781e351b064b4f482065d8a96c85b8cd61fbf68994"
+  },
+  {
+    "id": "commons_47780866_patch0.05",
+    "path": "data/stage02/images/commons_47780866_patch0.05.png",
+    "sha256": "1e1a64d6cbbb28b454f23ef9be9442e2729217b6e103e3f0aa736512bf146824"
+  },
+  {
+    "id": "commons_47780866_patch0.15",
+    "path": "data/stage02/images/commons_47780866_patch0.15.png",
+    "sha256": "a2052bb431b211ee0c8f83206e62faa0a9b508c354eb41123285e8ef31aaebda"
+  },
+  {
+    "id": "commons_48575131_jpeg90",
+    "path": "data/stage02/images/commons_48575131_jpeg90.png",
+    "sha256": "1f6222f5aedc793ed5d0fc81a201819a6f303d9467c2a2b0677d8d579c540ae2"
+  },
+  {
+    "id": "commons_48575131_jpeg70",
+    "path": "data/stage02/images/commons_48575131_jpeg70.png",
+    "sha256": "674f0ad94b89a090199fafe3425c3420d9a743ae1f6710d487111813a3c9c424"
+  },
+  {
+    "id": "commons_48575131_scale0.75",
+    "path": "data/stage02/images/commons_48575131_scale0.75.png",
+    "sha256": "4f22436e1e0128bcc814db368f037235b8da98c01fd09f4a42cfbde2a0a6abaa"
+  },
+  {
+    "id": "commons_48575131_scale0.5",
+    "path": "data/stage02/images/commons_48575131_scale0.5.png",
+    "sha256": "68e7ae0d517e6bd1bf873b4e6524572d4f1fb8b3025830e8b81918900ba70ecf"
+  },
+  {
+    "id": "commons_48575131_brightness0.95",
+    "path": "data/stage02/images/commons_48575131_brightness0.95.png",
+    "sha256": "0e7f825654e821c170814a677ff8d63012f9905aab23d5f61ff74b3bd45c81d1"
+  },
+  {
+    "id": "commons_48575131_brightness1.05",
+    "path": "data/stage02/images/commons_48575131_brightness1.05.png",
+    "sha256": "b01457521741e725aeec8635dbbf2c97e42a16c847284b33ffd923e07b874ddb"
+  },
+  {
+    "id": "commons_48575131_patch0.05",
+    "path": "data/stage02/images/commons_48575131_patch0.05.png",
+    "sha256": "e68cdc5f0280acdc0d6145c74e2c3ec0dd5aad32adb5d35c2e79947d95070415"
+  },
+  {
+    "id": "commons_48575131_patch0.15",
+    "path": "data/stage02/images/commons_48575131_patch0.15.png",
+    "sha256": "4a3d4c34c06db3b031ea68ae43d2f46458cb24d4238e879e575f248c9717560a"
+  },
+  {
+    "id": "commons_69468782_jpeg90",
+    "path": "data/stage02/images/commons_69468782_jpeg90.png",
+    "sha256": "e514fc97013ed8d8e55d8e2d2aa637e9e7466fc358ca383527f6d6de9ba67913"
+  },
+  {
+    "id": "commons_69468782_jpeg70",
+    "path": "data/stage02/images/commons_69468782_jpeg70.png",
+    "sha256": "507531a6b545988b56fb29a4e9e79d64808645f8c8eb9b4993e0af19fcd0a77e"
+  },
+  {
+    "id": "commons_69468782_scale0.75",
+    "path": "data/stage02/images/commons_69468782_scale0.75.png",
+    "sha256": "b9df120b453a70e9e601dd33a8c4c3d86cbfa06aa9f18eb66d23caeda900a957"
+  },
+  {
+    "id": "commons_69468782_scale0.5",
+    "path": "data/stage02/images/commons_69468782_scale0.5.png",
+    "sha256": "023f1593c1a5ec6749cd1fedb0bbdb54d71e5e74fa0850d46cd87eefb26244c4"
+  },
+  {
+    "id": "commons_69468782_brightness0.95",
+    "path": "data/stage02/images/commons_69468782_brightness0.95.png",
+    "sha256": "6f13b21f298c1e05810a10225b13a500561f48d86a73ca4acc47806eec443cc6"
+  },
+  {
+    "id": "commons_69468782_brightness1.05",
+    "path": "data/stage02/images/commons_69468782_brightness1.05.png",
+    "sha256": "20c7fc01b53f025709de5fd52fab83979c94c4dd879e102ec22c56fae3cd3d8a"
+  },
+  {
+    "id": "commons_69468782_patch0.05",
+    "path": "data/stage02/images/commons_69468782_patch0.05.png",
+    "sha256": "ea2ab2ebab4e0e805dee9fd8e144db7025d30eb5a08f732c7037e7008dee4ac2"
+  },
+  {
+    "id": "commons_69468782_patch0.15",
+    "path": "data/stage02/images/commons_69468782_patch0.15.png",
+    "sha256": "bcb17fdd25a96676c726bf7095a5e8698037d2bfa7b11176b64222aba573ead5"
+  },
+  {
+    "id": "commons_69586487_jpeg90",
+    "path": "data/stage02/images/commons_69586487_jpeg90.png",
+    "sha256": "8babf482f9799ef0cef147a042e40222cacae1b931646edea33744cc6fdd5cac"
+  },
+  {
+    "id": "commons_69586487_jpeg70",
+    "path": "data/stage02/images/commons_69586487_jpeg70.png",
+    "sha256": "b3d56cb9127cfd0522330455e532888297c52782e96cef434d7bb563655593b9"
+  },
+  {
+    "id": "commons_69586487_scale0.75",
+    "path": "data/stage02/images/commons_69586487_scale0.75.png",
+    "sha256": "4d6c62c25f8036335bb6647286fc3127bcc23d1c64bfba4c12e8c5c7f9bc96f1"
+  },
+  {
+    "id": "commons_69586487_scale0.5",
+    "path": "data/stage02/images/commons_69586487_scale0.5.png",
+    "sha256": "0bc207eaf94bffe39d1b6c790e43a4314c847248d421340a63da927b7c929469"
+  },
+  {
+    "id": "commons_69586487_brightness0.95",
+    "path": "data/stage02/images/commons_69586487_brightness0.95.png",
+    "sha256": "cbe7916cff26ca56988259c388894940d64e2f71593487faf5464c423e4e01dd"
+  },
+  {
+    "id": "commons_69586487_brightness1.05",
+    "path": "data/stage02/images/commons_69586487_brightness1.05.png",
+    "sha256": "65618a1a601330b35c42c56e35f85fbe4422b1dac8b191a3f3323a0b8a374279"
+  },
+  {
+    "id": "commons_69586487_patch0.05",
+    "path": "data/stage02/images/commons_69586487_patch0.05.png",
+    "sha256": "7ea55f5f2168dbfb818e7c132b363ddebde12897e3a68ef6a3ccbb381c6c8ce1"
+  },
+  {
+    "id": "commons_69586487_patch0.15",
+    "path": "data/stage02/images/commons_69586487_patch0.15.png",
+    "sha256": "1a684fbac2b0837929712f08f6d6c023f91b70d3ecaa12308ae5dbd7f22d0044"
+  },
+  {
+    "id": "commons_73462291_jpeg90",
+    "path": "data/stage02/images/commons_73462291_jpeg90.png",
+    "sha256": "6a60606d9e86bb5222a53d1f27add4d8ac8d2d33aa49dad0a116c15c76d310c8"
+  },
+  {
+    "id": "commons_73462291_jpeg70",
+    "path": "data/stage02/images/commons_73462291_jpeg70.png",
+    "sha256": "d1726c524f56b709428b0f393a9cbf8bb50c825be1828ec1437ec1883bc6c29b"
+  },
+  {
+    "id": "commons_73462291_scale0.75",
+    "path": "data/stage02/images/commons_73462291_scale0.75.png",
+    "sha256": "07cdfcfbfebe55baddf6c2a2e6c4164372738133acce2617352fdca10d2db4a1"
+  },
+  {
+    "id": "commons_73462291_scale0.5",
+    "path": "data/stage02/images/commons_73462291_scale0.5.png",
+    "sha256": "9016080d6eb110967bc51f10eb5f64a660b17e87f87e11563b575f2244a548b9"
+  },
+  {
+    "id": "commons_73462291_brightness0.95",
+    "path": "data/stage02/images/commons_73462291_brightness0.95.png",
+    "sha256": "a2754922e940cc8c509713fe780026d7c5ecb345d46cb9f15254c0894015c5e8"
+  },
+  {
+    "id": "commons_73462291_brightness1.05",
+    "path": "data/stage02/images/commons_73462291_brightness1.05.png",
+    "sha256": "0e0a7385cfb51d1b7fd10ba6a9f9c9d9ce02d84e9e9026261f54d3209f308270"
+  },
+  {
+    "id": "commons_73462291_patch0.05",
+    "path": "data/stage02/images/commons_73462291_patch0.05.png",
+    "sha256": "8770aba55d53ae919b3120f48b1c261cb625c2c36e829eea5c84fe9a3379c82e"
+  },
+  {
+    "id": "commons_73462291_patch0.15",
+    "path": "data/stage02/images/commons_73462291_patch0.15.png",
+    "sha256": "30af27470fb284aa6a0d2fca4cc8984a700da121afd0a8adea57ddc716774790"
+  },
+  {
+    "id": "commons_95847980_jpeg90",
+    "path": "data/stage02/images/commons_95847980_jpeg90.png",
+    "sha256": "83e275a41fb6f7e90686981eadbd0f9fc37ba9817491e25ff09ed1953cea0c77"
+  },
+  {
+    "id": "commons_95847980_jpeg70",
+    "path": "data/stage02/images/commons_95847980_jpeg70.png",
+    "sha256": "f2265e0a12fd51dfc72c04019c487cc1907b27deebd72ced54dbd17074dcd329"
+  },
+  {
+    "id": "commons_95847980_scale0.75",
+    "path": "data/stage02/images/commons_95847980_scale0.75.png",
+    "sha256": "ce08ef6742954a67807a08ed2fbeafb55b0101d40a33ff618646ebf3c9eb93a5"
+  },
+  {
+    "id": "commons_95847980_scale0.5",
+    "path": "data/stage02/images/commons_95847980_scale0.5.png",
+    "sha256": "c9ec071f89893a3f0cc65226125d1b7c1b6d286e4f6139092e632c0b82839a63"
+  },
+  {
+    "id": "commons_95847980_brightness0.95",
+    "path": "data/stage02/images/commons_95847980_brightness0.95.png",
+    "sha256": "878526460ea99a13c8ced71c3b544dc1b6923e12bc4d2cb997e7a8e6312e532e"
+  },
+  {
+    "id": "commons_95847980_brightness1.05",
+    "path": "data/stage02/images/commons_95847980_brightness1.05.png",
+    "sha256": "41078ccb8719c82bc9917aa0361a96a25e33953037dd8d77cc6758ec3b05238f"
+  },
+  {
+    "id": "commons_95847980_patch0.05",
+    "path": "data/stage02/images/commons_95847980_patch0.05.png",
+    "sha256": "b9d863a18629c2fb1535b76f34c15d762b9ebd3ac6939ea7c8c43c229e517e0c"
+  },
+  {
+    "id": "commons_95847980_patch0.15",
+    "path": "data/stage02/images/commons_95847980_patch0.15.png",
+    "sha256": "9bce3b2d0c0db935a8c43f784016a7cc3a4da92eff7bceaa8fffbb8eee918d30"
+  },
+  {
+    "id": "commons_98821976_jpeg90",
+    "path": "data/stage02/images/commons_98821976_jpeg90.png",
+    "sha256": "1f741ef41d0eb8d07151b0bfac6dcf0b0b9ce31b19d4e484eb998cd24d85c0df"
+  },
+  {
+    "id": "commons_98821976_jpeg70",
+    "path": "data/stage02/images/commons_98821976_jpeg70.png",
+    "sha256": "cbeeca656b76d84be0dea5721cafea4c5418d5ca32bb20c6fa9d737faac2065a"
+  },
+  {
+    "id": "commons_98821976_scale0.75",
+    "path": "data/stage02/images/commons_98821976_scale0.75.png",
+    "sha256": "86f29beb82be51a00fc7eae732e342c9fac48cdefee3aa0c77954b100fdc6220"
+  },
+  {
+    "id": "commons_98821976_scale0.5",
+    "path": "data/stage02/images/commons_98821976_scale0.5.png",
+    "sha256": "538789af9c341beb103bfac83ef9a46274edc6d4dbe7b1e10734089dc860b10e"
+  },
+  {
+    "id": "commons_98821976_brightness0.95",
+    "path": "data/stage02/images/commons_98821976_brightness0.95.png",
+    "sha256": "62a4f39d57ef97c9e7e56a8094739f6fcaa9b3e2c2f543b8a8a85801d6f57812"
+  },
+  {
+    "id": "commons_98821976_brightness1.05",
+    "path": "data/stage02/images/commons_98821976_brightness1.05.png",
+    "sha256": "9a0c33664b85887bcd5a84ec47ab4f647150826f35be7ee7ce38a64ca4a19559"
+  },
+  {
+    "id": "commons_98821976_patch0.05",
+    "path": "data/stage02/images/commons_98821976_patch0.05.png",
+    "sha256": "db1364d0ebd19d84f0b86eaa85b6ef1bca3211c951521edc09526e9eab462445"
+  },
+  {
+    "id": "commons_98821976_patch0.15",
+    "path": "data/stage02/images/commons_98821976_patch0.15.png",
+    "sha256": "cccfcc3ae0a9bdc7fd1cb1ecaa15d9692dbe76483197d445c20692c740744862"
+  }
+]

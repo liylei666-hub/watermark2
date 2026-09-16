@@ -1,0 +1,191 @@
+[
+  {
+    "url": "https://codeload.github.com/openai/CLIP/tar.gz/d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+    "path": "artifacts\\clip.tar.gz",
+    "bytes": 4312596,
+    "sha256": "553c80a6364ac7350dd7800f535531175f22c11fa742bda1b50b62121eb5f40f",
+    "status": "complete"
+  },
+  {
+    "url": "https://codeload.github.com/facebookresearch/dinov2/tar.gz/7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "path": "artifacts\\dinov2.tar.gz",
+    "bytes": 2869642,
+    "sha256": "c27dcdaf50e9fb5bbdf2bb529da357716372e19c6afab17d5350f3f0094aed4b",
+    "status": "complete"
+  },
+  {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "path": "weights\\ViT-B-32.pt",
+    "bytes": 353976522,
+    "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "status": "complete"
+  },
+  {
+    "url": "https://dl.fbaipublicfiles.com/sscd-copy-detection/sscd_disc_mixup.torchscript.pt",
+    "path": "weights\\sscd_disc_mixup.torchscript.pt",
+    "bytes": 98791638,
+    "sha256": "9f26bd4c848cc19b73d2ae92eea6e04886f61a7b764ceb7a13aeee62e6a6db56",
+    "status": "complete"
+  },
+  {
+    "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth",
+    "path": "weights\\dinov2_vits14_pretrain.pth",
+    "bytes": 88283115,
+    "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+    "status": "complete"
+  },
+  {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=landscape+filetype%3Abitmap&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=640",
+    "path": "artifacts\\commons_query.json",
+    "bytes": 460750,
+    "sha256": "31e43e28d108a0e237e4df69a92d18d25e0179711482e3ea9e32e4f910f535c5",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Landscape_Arnisee-region.JPG/960px-Landscape_Arnisee-region.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_1226206.jpg",
+    "bytes": 207981,
+    "sha256": "c89cb61f4db6b534dc2405858f6b475d464581e4767ee43e11a228447ae630aa",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Landscape_during_Laugavegur_hiking_trail_2-CA_reduced.jpg/960px-Landscape_during_Laugavegur_hiking_trail_2-CA_reduced.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_11393212.jpg",
+    "bytes": 224062,
+    "sha256": "b47e39a382ffaa23a31b00be4fa4af5da66dc6b9d44cd76aeb2ffec3881d828d",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Icelandic_Landscape_near_Neskaupsta%C3%B0ur_July_2014.JPG/960px-Icelandic_Landscape_near_Neskaupsta%C3%B0ur_July_2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_34259360.jpg",
+    "bytes": 155173,
+    "sha256": "d545d8b1fd5ebf8821e1a85070cbf2085cdf1c5eae44f9cff7397ab9881b0278",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Swedish_landscape_near_Bj%C3%B6rnlunda_%28by_Pudelek%29_01.jpg/960px-Swedish_landscape_near_Bj%C3%B6rnlunda_%28by_Pudelek%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_41628507.jpg",
+    "bytes": 89520,
+    "sha256": "f2b6f9ac08def8f8779c8359a2bdb2bd68d3ca9125b740e487da308ac4fbd845",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Large_cloud_over_Mexican_landscape.jpg/960px-Large_cloud_over_Mexican_landscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_73462291.jpg",
+    "bytes": 156364,
+    "sha256": "815e2316ee56398239138b7bc1020ba0018d4823e3a6b617f8d37af8974c5e0b",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Landscape_with_rainbow_and_the_Old_Bridge_over_the_Nam_Khan_river_in_Luang_Prabang_Laos.jpg/960px-Landscape_with_rainbow_and_the_Old_Bridge_over_the_Nam_Khan_river_in_Luang_Prabang_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_100018635.jpg",
+    "bytes": 138707,
+    "sha256": "a1df112a4c939833a5535bfaa6ffabfe5a0dcfd6072b22df7756a13aa8ae91f1",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Hendrik_Voogd_-_Italian_landscape_with_Umbrella_Pines.jpg/960px-Hendrik_Voogd_-_Italian_landscape_with_Umbrella_Pines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_30727835.jpg",
+    "bytes": 216854,
+    "sha256": "dbfa36fbe34e6a45ff10487f5ccc0ce2b60154715f6f3a7807b07f26d38e1a6a",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Water_reflection_of_stringy_gray_and_white_clouds_in_a_pond_on_a_sand_beach_of_Don_Khon_at_sunrise_in_Laos.jpg/960px-Water_reflection_of_stringy_gray_and_white_clouds_in_a_pond_on_a_sand_beach_of_Don_Khon_at_sunrise_in_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_114956623.jpg",
+    "bytes": 180168,
+    "sha256": "e9e627f89798d58a8008833205a74313d4f7ff6f679b791fa580897161247d75",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pajara_%28Fuerteventura%2C_Spain%29%2C_Mirador_Astron%C3%B3mico_de_Sicasumbre%2C_Ausblick_--_2025_--_7140.jpg/960px-Pajara_%28Fuerteventura%2C_Spain%29%2C_Mirador_Astron%C3%B3mico_de_Sicasumbre%2C_Ausblick_--_2025_--_7140.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_159279095.jpg",
+    "bytes": 338950,
+    "sha256": "738d4be50790211fceaa110a8ccf574671b7ddaedf868ae321ff30f791ca84d6",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Vignes_pr%C3%A8s_du_Pic_de_Vissou_-_October_2020.jpg/960px-Vignes_pr%C3%A8s_du_Pic_de_Vissou_-_October_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_95847980.jpg",
+    "bytes": 290365,
+    "sha256": "5eb45f595da2dd2e3de8e8a27c9600d820c1cb0f66c883edf3be5f6d5ae7bd15",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/D%C3%BClmen%2C_Kirchspiel%2C_Wiese_in_der_Bauerschaft_B%C3%B6rnste_--_2016_--_1523-9.jpg/960px-D%C3%BClmen%2C_Kirchspiel%2C_Wiese_in_der_Bauerschaft_B%C3%B6rnste_--_2016_--_1523-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_47780866.jpg",
+    "bytes": 282921,
+    "sha256": "7bac530bb498eca4f527d142e50160d6b77ee6aedd8d784717f4e52e55cc5ef1",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/D%C3%BClmen%2C_Kirchspiel%2C_Erdbeerfeld_--_2015_--_6492-6.jpg/960px-D%C3%BClmen%2C_Kirchspiel%2C_Erdbeerfeld_--_2015_--_6492-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_40710041.jpg",
+    "bytes": 237170,
+    "sha256": "c3588eb9b702a04e19832cea3038fe3873514f65edaf1dfc132c9a385d7a2176",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Volc%C3%A1n_Mi%C3%B1iques%2C_Chile%2C_2016-02-08%2C_DD_52-55_PAN.jpg/960px-Volc%C3%A1n_Mi%C3%B1iques%2C_Chile%2C_2016-02-08%2C_DD_52-55_PAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_48575131.jpg",
+    "bytes": 54587,
+    "sha256": "95117abd55e19b62a1ab86f1bf9d9e6df7843e7ef395b8c6fc1bb93c7e8b716a",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/D%C3%BClmen%2C_Hausd%C3%BClmen%2C_Sonnenaufgang_--_2015_--_4952.jpg/960px-D%C3%BClmen%2C_Hausd%C3%BClmen%2C_Sonnenaufgang_--_2015_--_4952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_38576339.jpg",
+    "bytes": 167332,
+    "sha256": "7fc68af71d91bb1ccc4b535ecc176c43f8007226c683a32d8635d6f69681fd40",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/D%C3%BClmen%2C_Dernekamp%2C_Strohballen_--_2015_--_7838.jpg/960px-D%C3%BClmen%2C_Dernekamp%2C_Strohballen_--_2015_--_7838.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_42069123.jpg",
+    "bytes": 164509,
+    "sha256": "ec9de8134459f3f13b86f96c5e453c061ec21ecdd7c4d90cc936428fed6b427d",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Water_reflection_of_sunset_with_gray_and_orange_clouds_and_boats_moored_to_the_bank_in_Pakse_Laos.jpg/960px-Water_reflection_of_sunset_with_gray_and_orange_clouds_and_boats_moored_to_the_bank_in_Pakse_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_141842609.jpg",
+    "bytes": 117028,
+    "sha256": "5036453ac029c1b2f44eba14b1644419de3b21ff9e977d45f0f2a4b814caecd2",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Parque_nacional_y_reserva_Denali%2C_Alaska%2C_Estados_Unidos%2C_2017-08-30%2C_DD_13-19_PAN.jpg/960px-Parque_nacional_y_reserva_Denali%2C_Alaska%2C_Estados_Unidos%2C_2017-08-30%2C_DD_13-19_PAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_69586487.jpg",
+    "bytes": 36379,
+    "sha256": "2db02b0f20c4c334834e9868747d4ca9125f8e83af813770046169e9cbafd961",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/D%C3%BClmen%2C_Merfeld%2C_Feldweg_am_M%C3%BChlenbach_--_2021_--_4278-80.jpg/960px-D%C3%BClmen%2C_Merfeld%2C_Feldweg_am_M%C3%BChlenbach_--_2021_--_4278-80.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_98821976.jpg",
+    "bytes": 224436,
+    "sha256": "a70be32849120c212735156d4856804e12733f88076ea7716b10678d5d2c1895",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Paisaje_en_Sutton%2C_Alaska%2C_Estados_Unidos%2C_2017-08-22%2C_DD_98-106_PAN.jpg/960px-Paisaje_en_Sutton%2C_Alaska%2C_Estados_Unidos%2C_2017-08-22%2C_DD_98-106_PAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_69468782.jpg",
+    "bytes": 60876,
+    "sha256": "386a8334d8629ef7bf0bda1c7022c536819e137920982c1f884c53db15d8315e",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Haltern_am_See%2C_Westruper_Heide_--_2021_--_4714-8.jpg/960px-Haltern_am_See%2C_Westruper_Heide_--_2021_--_4714-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_117574679.jpg",
+    "bytes": 96274,
+    "sha256": "da5994cfc1608e65665e9201bc08c5cedbb2c3fed56067e5c341b6d65e2cdad6",
+    "status": "complete"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/D%C3%BClmen%2C_B%C3%B6rnste%2C_Weide_--_2015_--_9921.jpg/960px-D%C3%BClmen%2C_B%C3%B6rnste%2C_Weide_--_2015_--_9921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "path": "data\\stage02\\source\\commons_44683621.jpg",
+    "bytes": 195275,
+    "sha256": "16d32fb2033290ca26d1de636a6bdb235d39cc1e0474dab84466e4e15f50d23c",
+    "status": "complete"
+  }
+]

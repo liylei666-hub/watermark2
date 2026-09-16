@@ -1,0 +1,56 @@
+{
+  "dinov2": {
+    "status": "complete",
+    "pid": 7087,
+    "gpu_uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+    "device": "cuda:0",
+    "batch_size": 1,
+    "preprocess": {
+      "size": [
+        224,
+        224
+      ],
+      "resize": "Pillow bicubic full frame",
+      "crop": null,
+      "rgb": true,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    },
+    "model": {
+      "path": "weights/dinov2_vits14_pretrain.pth",
+      "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "bytes": 88283115,
+      "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth",
+      "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8"
+    },
+    "feature_shape": [
+      256,
+      384
+    ],
+    "feature_dtype": "float32",
+    "preprocess_runtime": "Compose(\n    Resize(size=(224, 224), interpolation=bicubic, max_size=None, antialias=True)\n    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n)",
+    "load_seconds": 0.6250216129701585,
+    "binding_evidence": [
+      "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7, 7087, 510 MiB"
+    ],
+    "repeat_max_abs": 0.0,
+    "self_max_error": 2.384185791015625e-07,
+    "images": 180,
+    "inferred": 180,
+    "cache_hits": 0,
+    "extract_cache_seconds": 2.9366942190099508,
+    "peak_allocated_bytes": 126725120,
+    "peak_reserved_bytes": 153092096,
+    "reference_array_bytes": 393216,
+    "reference_npy_bytes": 393344,
+    "total_seconds": 3.9481393268797547
+  }
+}

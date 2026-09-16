@@ -71,4 +71,3 @@
 ### 远程工作目录
 已确认用户目录为 /data0/liyanlei（约296G），并建立本阶段工作目录 /data0/liyanlei/instance_authentication_research/research，权限700。现有相关目录包括 ceramic_watermark、
 atural_image_512bit_watermark_poc、genstego_sota_lab 等；本轮只检查目录和 Git 状态，未修改其内容。
-

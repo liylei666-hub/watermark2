@@ -1,0 +1,1082 @@
+{
+  "commons_100018635": {
+    "path": "cache/stage02/dinov2/73a20812ab09ee6e54c46224b124fbe2c6d083e73d25dd705f87d1e2de614815.npy",
+    "key": "73a20812ab09ee6e54c46224b124fbe2c6d083e73d25dd705f87d1e2de614815",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_11393212": {
+    "path": "cache/stage02/dinov2/878ce491c47de26deca7daf8fc748ccc775b6bdbe873ae14456ce3fc0fc3cc96.npy",
+    "key": "878ce491c47de26deca7daf8fc748ccc775b6bdbe873ae14456ce3fc0fc3cc96",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_114956623": {
+    "path": "cache/stage02/dinov2/c846340ebad970e119b6e4fd8d613152fe976a2645f8478198249bcfb3ae68d4.npy",
+    "key": "c846340ebad970e119b6e4fd8d613152fe976a2645f8478198249bcfb3ae68d4",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_117574679": {
+    "path": "cache/stage02/dinov2/6407d042340891f56ac4af334bac629370d051e6837f7a3f1af693a54edbeb5e.npy",
+    "key": "6407d042340891f56ac4af334bac629370d051e6837f7a3f1af693a54edbeb5e",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_1226206": {
+    "path": "cache/stage02/dinov2/8d3e81ae7d60d04eaad5a1eb623a2ca2f358d1bd990e7ab1e2ea25e1697ccd72.npy",
+    "key": "8d3e81ae7d60d04eaad5a1eb623a2ca2f358d1bd990e7ab1e2ea25e1697ccd72",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_141842609": {
+    "path": "cache/stage02/dinov2/44328d4898d91b9adf58a658bad30a1381c30cf1e4be4adc0b47cac9d2db5377.npy",
+    "key": "44328d4898d91b9adf58a658bad30a1381c30cf1e4be4adc0b47cac9d2db5377",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_159279095": {
+    "path": "cache/stage02/dinov2/b7c45d880d61595c9a998183ebd6f67df9f6853df0b8973e2d57a53361feb5a7.npy",
+    "key": "b7c45d880d61595c9a998183ebd6f67df9f6853df0b8973e2d57a53361feb5a7",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_34259360": {
+    "path": "cache/stage02/dinov2/32d0682394a37bf0577648d93d4971d7d5041b59c3d770a887396daa855099f0.npy",
+    "key": "32d0682394a37bf0577648d93d4971d7d5041b59c3d770a887396daa855099f0",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_38576339": {
+    "path": "cache/stage02/dinov2/b88db16d234f26a635c3146c59cc56692a46e9f5a11462b4e9568b94a50eb6a1.npy",
+    "key": "b88db16d234f26a635c3146c59cc56692a46e9f5a11462b4e9568b94a50eb6a1",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_40710041": {
+    "path": "cache/stage02/dinov2/ffd00f8f416742d51ff961abbb6d113f386d7326ca8bda2ce5e799b8624f9bcf.npy",
+    "key": "ffd00f8f416742d51ff961abbb6d113f386d7326ca8bda2ce5e799b8624f9bcf",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_41628507": {
+    "path": "cache/stage02/dinov2/98cbb4090b444a75ee2618ac94012e1671688abb0e9d4415bcdbffd18ab76f65.npy",
+    "key": "98cbb4090b444a75ee2618ac94012e1671688abb0e9d4415bcdbffd18ab76f65",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_42069123": {
+    "path": "cache/stage02/dinov2/cfcb6ad3709c44dc1f86a3a8b34e8cf4cced976f6a2f9f1f53159ece3485965e.npy",
+    "key": "cfcb6ad3709c44dc1f86a3a8b34e8cf4cced976f6a2f9f1f53159ece3485965e",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_44683621": {
+    "path": "cache/stage02/dinov2/b51a4795b0f61b8ac33b9627f2965753443a14e44b95945ff608530ba35e4556.npy",
+    "key": "b51a4795b0f61b8ac33b9627f2965753443a14e44b95945ff608530ba35e4556",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_47780866": {
+    "path": "cache/stage02/dinov2/904444128320e999afb916886e18ff030ed94c44db548c34195613577fffdd38.npy",
+    "key": "904444128320e999afb916886e18ff030ed94c44db548c34195613577fffdd38",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_48575131": {
+    "path": "cache/stage02/dinov2/5746e9601857518bb20a7675ff10e508832c901f747965eda73c6b7416e196d6.npy",
+    "key": "5746e9601857518bb20a7675ff10e508832c901f747965eda73c6b7416e196d6",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69468782": {
+    "path": "cache/stage02/dinov2/b84b86012d13bad71264bf9b748b2676922af33305b48ddcc4a1e8d317c64d53.npy",
+    "key": "b84b86012d13bad71264bf9b748b2676922af33305b48ddcc4a1e8d317c64d53",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69586487": {
+    "path": "cache/stage02/dinov2/0b04ed819e463bcee2a71c5515d2d39a45563e91dac59433c68f24a683aba94b.npy",
+    "key": "0b04ed819e463bcee2a71c5515d2d39a45563e91dac59433c68f24a683aba94b",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_73462291": {
+    "path": "cache/stage02/dinov2/5045cb6c761f7e65d160bcb9df89294be9beb94f206c00fcf1178553c5c5e489.npy",
+    "key": "5045cb6c761f7e65d160bcb9df89294be9beb94f206c00fcf1178553c5c5e489",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_95847980": {
+    "path": "cache/stage02/dinov2/d38da05f44ca9e6ecff5736983bb7008f267e9c8691150c2f522bd97e62f260b.npy",
+    "key": "d38da05f44ca9e6ecff5736983bb7008f267e9c8691150c2f522bd97e62f260b",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_98821976": {
+    "path": "cache/stage02/dinov2/7e7694bc57a4c7fd5e078f99ea3153d0ee9e1035e0838ec9aa0394e233aa3044.npy",
+    "key": "7e7694bc57a4c7fd5e078f99ea3153d0ee9e1035e0838ec9aa0394e233aa3044",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_100018635_jpeg90": {
+    "path": "cache/stage02/dinov2/0f0409004986a9a4691c72edcceee6c9bd811ff811657f9002bae2904b72ee67.npy",
+    "key": "0f0409004986a9a4691c72edcceee6c9bd811ff811657f9002bae2904b72ee67",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_100018635_jpeg70": {
+    "path": "cache/stage02/dinov2/a16f3177b5e65dddf624678f86c598aca2257e456853fabe4a890d66630de391.npy",
+    "key": "a16f3177b5e65dddf624678f86c598aca2257e456853fabe4a890d66630de391",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_100018635_scale0.75": {
+    "path": "cache/stage02/dinov2/393a721faf003ab61b75147fec85bfcd6b53acaba722c529cf9ede1ddc4cb876.npy",
+    "key": "393a721faf003ab61b75147fec85bfcd6b53acaba722c529cf9ede1ddc4cb876",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_100018635_scale0.5": {
+    "path": "cache/stage02/dinov2/08be553f29edc2ca99b75c64e6611eed729fae0a4e3e374eee25d1f1aa704268.npy",
+    "key": "08be553f29edc2ca99b75c64e6611eed729fae0a4e3e374eee25d1f1aa704268",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_100018635_brightness0.95": {
+    "path": "cache/stage02/dinov2/858c30c6ae044433b483f4b93afcf2432962905410ff9052777523f38ea44e61.npy",
+    "key": "858c30c6ae044433b483f4b93afcf2432962905410ff9052777523f38ea44e61",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_100018635_brightness1.05": {
+    "path": "cache/stage02/dinov2/72eba24d06afe74f60187ff09e15931badb8dd0ed6fad21c92cc0357df37d109.npy",
+    "key": "72eba24d06afe74f60187ff09e15931badb8dd0ed6fad21c92cc0357df37d109",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_100018635_patch0.05": {
+    "path": "cache/stage02/dinov2/4df80e89f21e61d255f13ae4fd27bab71fef550d07f2caab97a1b77ca06db3de.npy",
+    "key": "4df80e89f21e61d255f13ae4fd27bab71fef550d07f2caab97a1b77ca06db3de",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_100018635_patch0.15": {
+    "path": "cache/stage02/dinov2/96c0dacd68f74202d095dd0584e4f5aab5edbdbd0664c39980ec944dc6771fcd.npy",
+    "key": "96c0dacd68f74202d095dd0584e4f5aab5edbdbd0664c39980ec944dc6771fcd",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_11393212_jpeg90": {
+    "path": "cache/stage02/dinov2/80ff0423ccd790af1a4bd881c164c13ccf47bce4fdcb5ee3a66275c54ffde3ee.npy",
+    "key": "80ff0423ccd790af1a4bd881c164c13ccf47bce4fdcb5ee3a66275c54ffde3ee",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_11393212_jpeg70": {
+    "path": "cache/stage02/dinov2/c83e2dd39f299189b4645191fd9cc026a9b73b1439afabc4763d9e0cc256709f.npy",
+    "key": "c83e2dd39f299189b4645191fd9cc026a9b73b1439afabc4763d9e0cc256709f",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_11393212_scale0.75": {
+    "path": "cache/stage02/dinov2/a2e337ce46be0e9157a4a54f4af49fb07af0e65ea393e89c9c37657febb7cd3c.npy",
+    "key": "a2e337ce46be0e9157a4a54f4af49fb07af0e65ea393e89c9c37657febb7cd3c",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_11393212_scale0.5": {
+    "path": "cache/stage02/dinov2/1e4da7c87a32089a9d7a0668b65fc8bccb41f645f4afbcb59ff549a7feeed0f0.npy",
+    "key": "1e4da7c87a32089a9d7a0668b65fc8bccb41f645f4afbcb59ff549a7feeed0f0",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_11393212_brightness0.95": {
+    "path": "cache/stage02/dinov2/8c91cffc7f3fd6f21313fa600d64b28d3d1a24367c2903305d8302c6af5920b7.npy",
+    "key": "8c91cffc7f3fd6f21313fa600d64b28d3d1a24367c2903305d8302c6af5920b7",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_11393212_brightness1.05": {
+    "path": "cache/stage02/dinov2/ebdf0ef931479355f6934a673cbd87ba7d372f56f091e4919c142579fcbd98ea.npy",
+    "key": "ebdf0ef931479355f6934a673cbd87ba7d372f56f091e4919c142579fcbd98ea",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_11393212_patch0.05": {
+    "path": "cache/stage02/dinov2/41923e29fff0e2e7e279afe37246edb419406d6bf463f53e8386343d0452822a.npy",
+    "key": "41923e29fff0e2e7e279afe37246edb419406d6bf463f53e8386343d0452822a",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_11393212_patch0.15": {
+    "path": "cache/stage02/dinov2/1e928354e693d7a167691416c5eb55c0948cc3d4d73bf14dfc28079c32595fd7.npy",
+    "key": "1e928354e693d7a167691416c5eb55c0948cc3d4d73bf14dfc28079c32595fd7",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_114956623_jpeg90": {
+    "path": "cache/stage02/dinov2/7dd6a33bd58924a46b56eac68ed2c357dd613031113a0d24706dd63dbe2b85cd.npy",
+    "key": "7dd6a33bd58924a46b56eac68ed2c357dd613031113a0d24706dd63dbe2b85cd",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_114956623_jpeg70": {
+    "path": "cache/stage02/dinov2/d597f25c9dbd184d208b66caf16cfae07101743dbfb071c82663f9ea4b5737b6.npy",
+    "key": "d597f25c9dbd184d208b66caf16cfae07101743dbfb071c82663f9ea4b5737b6",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_114956623_scale0.75": {
+    "path": "cache/stage02/dinov2/d0496cccf56f35dc340fd02c0da59d7c2b0573edca1365efa59fa0e02c166da9.npy",
+    "key": "d0496cccf56f35dc340fd02c0da59d7c2b0573edca1365efa59fa0e02c166da9",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_114956623_scale0.5": {
+    "path": "cache/stage02/dinov2/9a6eaeb14535e7286e915fb3326b2419239dca2da8a62a7de7c72c2ddcda2051.npy",
+    "key": "9a6eaeb14535e7286e915fb3326b2419239dca2da8a62a7de7c72c2ddcda2051",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_114956623_brightness0.95": {
+    "path": "cache/stage02/dinov2/f9ba6a04278fc7d1caa84ffebd699460a8c686bd78a71a1d6509701d5ca41fb3.npy",
+    "key": "f9ba6a04278fc7d1caa84ffebd699460a8c686bd78a71a1d6509701d5ca41fb3",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_114956623_brightness1.05": {
+    "path": "cache/stage02/dinov2/5d8dc0ef9591f2fd131d79b7bb0be76699de22cf22940af19d5d99ad1e508f2f.npy",
+    "key": "5d8dc0ef9591f2fd131d79b7bb0be76699de22cf22940af19d5d99ad1e508f2f",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_114956623_patch0.05": {
+    "path": "cache/stage02/dinov2/85484ea7b8f1a4c8248c7e4f15cea87a67b0f67aa80b9de2caef579215ce28a6.npy",
+    "key": "85484ea7b8f1a4c8248c7e4f15cea87a67b0f67aa80b9de2caef579215ce28a6",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_114956623_patch0.15": {
+    "path": "cache/stage02/dinov2/3734cc9659d055dc83f6d39428aa3fce8cee42eaa5f76414bdb7f7402e113a28.npy",
+    "key": "3734cc9659d055dc83f6d39428aa3fce8cee42eaa5f76414bdb7f7402e113a28",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_117574679_jpeg90": {
+    "path": "cache/stage02/dinov2/3403f4a99048ddecff9c9a6621ab18d9d9a579dceeb015742cc76ba59d258d38.npy",
+    "key": "3403f4a99048ddecff9c9a6621ab18d9d9a579dceeb015742cc76ba59d258d38",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_117574679_jpeg70": {
+    "path": "cache/stage02/dinov2/e1d991c123ea14525a923a9607b94e52198e7e468ec353903f9c7fc0ba3c9617.npy",
+    "key": "e1d991c123ea14525a923a9607b94e52198e7e468ec353903f9c7fc0ba3c9617",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_117574679_scale0.75": {
+    "path": "cache/stage02/dinov2/186f6e61307a3e7d4976c40e5b21205398860ba978662a96fa2c380d59136ee9.npy",
+    "key": "186f6e61307a3e7d4976c40e5b21205398860ba978662a96fa2c380d59136ee9",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_117574679_scale0.5": {
+    "path": "cache/stage02/dinov2/a3cd21ae824e6d41b01836365b6b06ac23b37cd941cacc9f3141dff8170164ea.npy",
+    "key": "a3cd21ae824e6d41b01836365b6b06ac23b37cd941cacc9f3141dff8170164ea",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_117574679_brightness0.95": {
+    "path": "cache/stage02/dinov2/249a23bf0c2ab393ec488984c979cc95df9095e43966c12fe8b2a68bf79ce5cd.npy",
+    "key": "249a23bf0c2ab393ec488984c979cc95df9095e43966c12fe8b2a68bf79ce5cd",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_117574679_brightness1.05": {
+    "path": "cache/stage02/dinov2/ba2898418fb3b41b31c4633758ac48f995ef069cfc4887ced5932c83f3ead773.npy",
+    "key": "ba2898418fb3b41b31c4633758ac48f995ef069cfc4887ced5932c83f3ead773",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_117574679_patch0.05": {
+    "path": "cache/stage02/dinov2/6507cba343324c78ec4c55ed8b0a09514ec80c70dbcee0245ee7a200c696a1d5.npy",
+    "key": "6507cba343324c78ec4c55ed8b0a09514ec80c70dbcee0245ee7a200c696a1d5",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_117574679_patch0.15": {
+    "path": "cache/stage02/dinov2/b95cb40f1e4fb6f364f764da150ebd3be13275a00503bac2006a992e38f309cd.npy",
+    "key": "b95cb40f1e4fb6f364f764da150ebd3be13275a00503bac2006a992e38f309cd",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_1226206_jpeg90": {
+    "path": "cache/stage02/dinov2/8bd822b8ebc415023b6ff018d188ac3d1ff31344771c0c1f66289225dfcc9d97.npy",
+    "key": "8bd822b8ebc415023b6ff018d188ac3d1ff31344771c0c1f66289225dfcc9d97",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_1226206_jpeg70": {
+    "path": "cache/stage02/dinov2/37b41008aab00e321ee05aecd671b8775e25769ea4754504f0d572ebc7affa38.npy",
+    "key": "37b41008aab00e321ee05aecd671b8775e25769ea4754504f0d572ebc7affa38",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_1226206_scale0.75": {
+    "path": "cache/stage02/dinov2/db348205638af52691edf61761193ed6ddcdc470c67f25d418105e858d045c32.npy",
+    "key": "db348205638af52691edf61761193ed6ddcdc470c67f25d418105e858d045c32",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_1226206_scale0.5": {
+    "path": "cache/stage02/dinov2/6aa26188cdcfee03951bd0c7008fdb3112dc102437408f3967958011844ca41d.npy",
+    "key": "6aa26188cdcfee03951bd0c7008fdb3112dc102437408f3967958011844ca41d",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_1226206_brightness0.95": {
+    "path": "cache/stage02/dinov2/3b29e7c902834a14e7ebb594386ebaad0b55c03dbd2a1ef6aabc7d364917af40.npy",
+    "key": "3b29e7c902834a14e7ebb594386ebaad0b55c03dbd2a1ef6aabc7d364917af40",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_1226206_brightness1.05": {
+    "path": "cache/stage02/dinov2/124c062a91c969918a5f08933fa387fa1ef988d61e103090510d01bf573951ed.npy",
+    "key": "124c062a91c969918a5f08933fa387fa1ef988d61e103090510d01bf573951ed",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_1226206_patch0.05": {
+    "path": "cache/stage02/dinov2/413390b9143da956c4701a818265b7c1b9d253f87c8d05b2f7cd6b4f7e3ecba4.npy",
+    "key": "413390b9143da956c4701a818265b7c1b9d253f87c8d05b2f7cd6b4f7e3ecba4",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_1226206_patch0.15": {
+    "path": "cache/stage02/dinov2/5621231ff27854650e8e8c2649b2d94f28f47ba91e559261b1c05c8329307918.npy",
+    "key": "5621231ff27854650e8e8c2649b2d94f28f47ba91e559261b1c05c8329307918",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_141842609_jpeg90": {
+    "path": "cache/stage02/dinov2/620d114ed5dbfda1921c7a4b90821fd4127f4fbb884d72691dc38985b9beed1e.npy",
+    "key": "620d114ed5dbfda1921c7a4b90821fd4127f4fbb884d72691dc38985b9beed1e",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_141842609_jpeg70": {
+    "path": "cache/stage02/dinov2/4b3335560ea197130bcf80288f3a6df862762a2970afcabbeb6fcd7223f19e1d.npy",
+    "key": "4b3335560ea197130bcf80288f3a6df862762a2970afcabbeb6fcd7223f19e1d",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_141842609_scale0.75": {
+    "path": "cache/stage02/dinov2/6c339b8c64807c4730ffd3f09b3e19c20124de5bc5d0817052711ad9537f73d9.npy",
+    "key": "6c339b8c64807c4730ffd3f09b3e19c20124de5bc5d0817052711ad9537f73d9",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_141842609_scale0.5": {
+    "path": "cache/stage02/dinov2/a0d469cd3ea19873220f26d5cf2856ef7af817b6f28ba6e7f6368272aa2e96dc.npy",
+    "key": "a0d469cd3ea19873220f26d5cf2856ef7af817b6f28ba6e7f6368272aa2e96dc",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_141842609_brightness0.95": {
+    "path": "cache/stage02/dinov2/c699de870b1b52c4ef4ded892da0cb0bf52d733f3f4a99acde57044c3b9683f8.npy",
+    "key": "c699de870b1b52c4ef4ded892da0cb0bf52d733f3f4a99acde57044c3b9683f8",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_141842609_brightness1.05": {
+    "path": "cache/stage02/dinov2/ff6bd0c24837e3334322825480d3fee0bc63dd2b5b332715c45be539b542a519.npy",
+    "key": "ff6bd0c24837e3334322825480d3fee0bc63dd2b5b332715c45be539b542a519",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_141842609_patch0.05": {
+    "path": "cache/stage02/dinov2/3eb38608fa252aecb111f01cc059b3376d4ff9d14634a602667179e96d7437be.npy",
+    "key": "3eb38608fa252aecb111f01cc059b3376d4ff9d14634a602667179e96d7437be",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_141842609_patch0.15": {
+    "path": "cache/stage02/dinov2/f78e269b32b5f9a7ca39df5a6f540f99f994758b6eb1dde8e1eaa42ce8cf10ac.npy",
+    "key": "f78e269b32b5f9a7ca39df5a6f540f99f994758b6eb1dde8e1eaa42ce8cf10ac",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_159279095_jpeg90": {
+    "path": "cache/stage02/dinov2/34e27b2ac51443b684223cb8292ca876d16a1c8a7fa8d4c19777ae54d0c60499.npy",
+    "key": "34e27b2ac51443b684223cb8292ca876d16a1c8a7fa8d4c19777ae54d0c60499",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_159279095_jpeg70": {
+    "path": "cache/stage02/dinov2/68b43d9468d97d09865087657b47985af104d9f7dd828d389b466653b13a3902.npy",
+    "key": "68b43d9468d97d09865087657b47985af104d9f7dd828d389b466653b13a3902",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_159279095_scale0.75": {
+    "path": "cache/stage02/dinov2/0fb6e41b9b400403ab0ed68ff4cd1b56fc2a2acbb1dc6f7b945ac6156c5c17b5.npy",
+    "key": "0fb6e41b9b400403ab0ed68ff4cd1b56fc2a2acbb1dc6f7b945ac6156c5c17b5",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_159279095_scale0.5": {
+    "path": "cache/stage02/dinov2/cb5a68c3e0c6001e73b87ce523c84ad2b854089381f0898a8b70def6e07b74c4.npy",
+    "key": "cb5a68c3e0c6001e73b87ce523c84ad2b854089381f0898a8b70def6e07b74c4",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_159279095_brightness0.95": {
+    "path": "cache/stage02/dinov2/fed5fcc347d1ea027c6d50e900f065868e0e9645cb388c5432465d407ff38587.npy",
+    "key": "fed5fcc347d1ea027c6d50e900f065868e0e9645cb388c5432465d407ff38587",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_159279095_brightness1.05": {
+    "path": "cache/stage02/dinov2/ef71310f7e598cca23f4057fe4d25369ef31834ff035b85ad4449e8b9f584cc8.npy",
+    "key": "ef71310f7e598cca23f4057fe4d25369ef31834ff035b85ad4449e8b9f584cc8",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_159279095_patch0.05": {
+    "path": "cache/stage02/dinov2/a39da92fc9c75f4f43e1c422747e454942a914dd3dd1e8fd149b32b2cfd2aa7c.npy",
+    "key": "a39da92fc9c75f4f43e1c422747e454942a914dd3dd1e8fd149b32b2cfd2aa7c",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_159279095_patch0.15": {
+    "path": "cache/stage02/dinov2/d8606d5f71c0002b495be2ad3cac59c814851b4fd6056c4226c0cb2921356746.npy",
+    "key": "d8606d5f71c0002b495be2ad3cac59c814851b4fd6056c4226c0cb2921356746",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_34259360_jpeg90": {
+    "path": "cache/stage02/dinov2/3ad13bc7da6cb8e466a3f78190b6664e27229b79b772559b5a62a514530e1fa9.npy",
+    "key": "3ad13bc7da6cb8e466a3f78190b6664e27229b79b772559b5a62a514530e1fa9",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_34259360_jpeg70": {
+    "path": "cache/stage02/dinov2/1eb8b6ae851f98e49dd85a4b1e316d183f800dbcef99e59afa8daa168539a66d.npy",
+    "key": "1eb8b6ae851f98e49dd85a4b1e316d183f800dbcef99e59afa8daa168539a66d",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_34259360_scale0.75": {
+    "path": "cache/stage02/dinov2/597a026ecfe3d6873a440b9749abd0e1de3600fe3a07b454b7d66ba37090a96f.npy",
+    "key": "597a026ecfe3d6873a440b9749abd0e1de3600fe3a07b454b7d66ba37090a96f",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_34259360_scale0.5": {
+    "path": "cache/stage02/dinov2/d226f439b7078b65787bf5cafe84d0e900d1c8793bb4f508da506c58eff3d262.npy",
+    "key": "d226f439b7078b65787bf5cafe84d0e900d1c8793bb4f508da506c58eff3d262",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_34259360_brightness0.95": {
+    "path": "cache/stage02/dinov2/867e5ba291ca9699f63eab50909030564405cf59fdae6d277f1e35750c47ddbb.npy",
+    "key": "867e5ba291ca9699f63eab50909030564405cf59fdae6d277f1e35750c47ddbb",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_34259360_brightness1.05": {
+    "path": "cache/stage02/dinov2/42a083e82cfdc18c053268db1baf8617d79be82ffb9e126db8b88bb8d31f91b5.npy",
+    "key": "42a083e82cfdc18c053268db1baf8617d79be82ffb9e126db8b88bb8d31f91b5",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_34259360_patch0.05": {
+    "path": "cache/stage02/dinov2/ef1905750e78aa5e222ada6518b0b3912d41031535c0cb99f8caf45b6b6412b1.npy",
+    "key": "ef1905750e78aa5e222ada6518b0b3912d41031535c0cb99f8caf45b6b6412b1",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_34259360_patch0.15": {
+    "path": "cache/stage02/dinov2/51f4f09d0476eb4edc36d38672aa3432c510faad5b35b367d22670246a895fb9.npy",
+    "key": "51f4f09d0476eb4edc36d38672aa3432c510faad5b35b367d22670246a895fb9",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_38576339_jpeg90": {
+    "path": "cache/stage02/dinov2/b0e8e9a23dc1fef839e0d21d72e4f77a85cbfd1491549fa398de1bb696aaf134.npy",
+    "key": "b0e8e9a23dc1fef839e0d21d72e4f77a85cbfd1491549fa398de1bb696aaf134",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_38576339_jpeg70": {
+    "path": "cache/stage02/dinov2/80125f0f8273bf184d9437a0038b143b1b9ea5107df9c48768e088b50f1a5dd4.npy",
+    "key": "80125f0f8273bf184d9437a0038b143b1b9ea5107df9c48768e088b50f1a5dd4",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_38576339_scale0.75": {
+    "path": "cache/stage02/dinov2/85d5dafacfc87a0ba39103c7b040b2c090daf3a4ba6bd30425fe84e4c3783f0a.npy",
+    "key": "85d5dafacfc87a0ba39103c7b040b2c090daf3a4ba6bd30425fe84e4c3783f0a",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_38576339_scale0.5": {
+    "path": "cache/stage02/dinov2/0da978ba13708788acd6cab35fe7d5706a37988c8c6e2bbe374004be50c9f8a8.npy",
+    "key": "0da978ba13708788acd6cab35fe7d5706a37988c8c6e2bbe374004be50c9f8a8",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_38576339_brightness0.95": {
+    "path": "cache/stage02/dinov2/fcc4415c19614649f8a7e3d860b3eef682cba3eae2056cfcdd29280d1708c964.npy",
+    "key": "fcc4415c19614649f8a7e3d860b3eef682cba3eae2056cfcdd29280d1708c964",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_38576339_brightness1.05": {
+    "path": "cache/stage02/dinov2/da7f9eff3052465835e29b8284a674429837851d53fc26db3a1177f52044af98.npy",
+    "key": "da7f9eff3052465835e29b8284a674429837851d53fc26db3a1177f52044af98",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_38576339_patch0.05": {
+    "path": "cache/stage02/dinov2/ac33668fba4d14220f34df9b9677a680cb4a802d7b0acad674a229a4621f91ce.npy",
+    "key": "ac33668fba4d14220f34df9b9677a680cb4a802d7b0acad674a229a4621f91ce",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_38576339_patch0.15": {
+    "path": "cache/stage02/dinov2/19680f17b9f893917308ae57fe2d68188343260c635bd3ab386bb2acf0a741a2.npy",
+    "key": "19680f17b9f893917308ae57fe2d68188343260c635bd3ab386bb2acf0a741a2",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_40710041_jpeg90": {
+    "path": "cache/stage02/dinov2/3bd9857e4a64c1d8ada60852a79780c1a8395ceed7584e35de34f5e0d8f77a48.npy",
+    "key": "3bd9857e4a64c1d8ada60852a79780c1a8395ceed7584e35de34f5e0d8f77a48",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_40710041_jpeg70": {
+    "path": "cache/stage02/dinov2/9ec789b9caae8d8f7ca7508614dc78ee861f400d4b0d07ba28ffd352c0186d73.npy",
+    "key": "9ec789b9caae8d8f7ca7508614dc78ee861f400d4b0d07ba28ffd352c0186d73",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_40710041_scale0.75": {
+    "path": "cache/stage02/dinov2/f8d9cd77b906ed476a7cfabcadeb3614c6e1fe5d09bac0419bf3fd5769915da5.npy",
+    "key": "f8d9cd77b906ed476a7cfabcadeb3614c6e1fe5d09bac0419bf3fd5769915da5",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_40710041_scale0.5": {
+    "path": "cache/stage02/dinov2/eddc127310eba750e2522516208f49a895349b89652cba33eda48287d0450738.npy",
+    "key": "eddc127310eba750e2522516208f49a895349b89652cba33eda48287d0450738",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_40710041_brightness0.95": {
+    "path": "cache/stage02/dinov2/66e830650d0f724429b64937b4c120ee970179306611c4c69532e0223360d022.npy",
+    "key": "66e830650d0f724429b64937b4c120ee970179306611c4c69532e0223360d022",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_40710041_brightness1.05": {
+    "path": "cache/stage02/dinov2/6ad0274c324f3e335869bb0df8de042b1c599e14410f99e3115503664973c01e.npy",
+    "key": "6ad0274c324f3e335869bb0df8de042b1c599e14410f99e3115503664973c01e",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_40710041_patch0.05": {
+    "path": "cache/stage02/dinov2/dcf5853cbb252727a9098826168787190e8305cca80ef2dc78665323367285aa.npy",
+    "key": "dcf5853cbb252727a9098826168787190e8305cca80ef2dc78665323367285aa",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_40710041_patch0.15": {
+    "path": "cache/stage02/dinov2/c87a0e4c2e5852859d509aa761bdbd4575d01a74affe529877a30aee46b0258c.npy",
+    "key": "c87a0e4c2e5852859d509aa761bdbd4575d01a74affe529877a30aee46b0258c",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_41628507_jpeg90": {
+    "path": "cache/stage02/dinov2/d7e265255c4dc0354bebf8b4164a7a703976d89ab8b581cecb1bd52e4caf829b.npy",
+    "key": "d7e265255c4dc0354bebf8b4164a7a703976d89ab8b581cecb1bd52e4caf829b",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_41628507_jpeg70": {
+    "path": "cache/stage02/dinov2/69fd033ca0619e6e68b3ae0704aadbbfc62f66474b9258cb6ce96f9ed544829b.npy",
+    "key": "69fd033ca0619e6e68b3ae0704aadbbfc62f66474b9258cb6ce96f9ed544829b",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_41628507_scale0.75": {
+    "path": "cache/stage02/dinov2/27d07a5be84b771572ca8834601d7b7a15b7d1929cdbf6daf1f0f8bef4d87e8b.npy",
+    "key": "27d07a5be84b771572ca8834601d7b7a15b7d1929cdbf6daf1f0f8bef4d87e8b",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_41628507_scale0.5": {
+    "path": "cache/stage02/dinov2/28af2a18c1cb623fd1e308d8f6b58c76b1277746d045c90de75839aec9d23395.npy",
+    "key": "28af2a18c1cb623fd1e308d8f6b58c76b1277746d045c90de75839aec9d23395",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_41628507_brightness0.95": {
+    "path": "cache/stage02/dinov2/42757ccfbefb141b8272635f8f58dcaa41a413f0ad2698b50ab6fd48deb426cb.npy",
+    "key": "42757ccfbefb141b8272635f8f58dcaa41a413f0ad2698b50ab6fd48deb426cb",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_41628507_brightness1.05": {
+    "path": "cache/stage02/dinov2/2179086d548c258f07866fd390b0ee52c2011f2c6f5fd3987ff44a5c39581be6.npy",
+    "key": "2179086d548c258f07866fd390b0ee52c2011f2c6f5fd3987ff44a5c39581be6",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_41628507_patch0.05": {
+    "path": "cache/stage02/dinov2/014d62bf37b8204b7d1c856418b278c0335d520dd9b52e84b2d57cbf913e0306.npy",
+    "key": "014d62bf37b8204b7d1c856418b278c0335d520dd9b52e84b2d57cbf913e0306",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_41628507_patch0.15": {
+    "path": "cache/stage02/dinov2/3a5c29e331299c296621c1bc614cc94714296afad7057d59085870073e2eeee5.npy",
+    "key": "3a5c29e331299c296621c1bc614cc94714296afad7057d59085870073e2eeee5",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_42069123_jpeg90": {
+    "path": "cache/stage02/dinov2/2ffd156d6a4908a7e39f4f2e4888e5a0399c2f1a76bb7cc5b497fc5ecea704ff.npy",
+    "key": "2ffd156d6a4908a7e39f4f2e4888e5a0399c2f1a76bb7cc5b497fc5ecea704ff",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_42069123_jpeg70": {
+    "path": "cache/stage02/dinov2/68f30ec4068a543284adeee92711fd6910d4a89347f25ff964e7728324c90099.npy",
+    "key": "68f30ec4068a543284adeee92711fd6910d4a89347f25ff964e7728324c90099",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_42069123_scale0.75": {
+    "path": "cache/stage02/dinov2/584f8ce97b08d2fa32afccb065dc3e06475fc15e6b59e00718f2c676f4590514.npy",
+    "key": "584f8ce97b08d2fa32afccb065dc3e06475fc15e6b59e00718f2c676f4590514",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_42069123_scale0.5": {
+    "path": "cache/stage02/dinov2/be69426d5f206c6388015f3c243c37d0158edf2f5d77f465c0b014351697f9d8.npy",
+    "key": "be69426d5f206c6388015f3c243c37d0158edf2f5d77f465c0b014351697f9d8",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_42069123_brightness0.95": {
+    "path": "cache/stage02/dinov2/2e1a69e7f571dbf14951ae9896e7df243b32c477215df216abde1766ca69b2e4.npy",
+    "key": "2e1a69e7f571dbf14951ae9896e7df243b32c477215df216abde1766ca69b2e4",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_42069123_brightness1.05": {
+    "path": "cache/stage02/dinov2/5a2da0da0420d9e75272fcc7b46ad05b7d4b639a9c947897357e89d723e063c3.npy",
+    "key": "5a2da0da0420d9e75272fcc7b46ad05b7d4b639a9c947897357e89d723e063c3",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_42069123_patch0.05": {
+    "path": "cache/stage02/dinov2/73ec5066acf43d5b966e2857c403d44b4c7ea87d3864e389ddc8aac5655da486.npy",
+    "key": "73ec5066acf43d5b966e2857c403d44b4c7ea87d3864e389ddc8aac5655da486",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_42069123_patch0.15": {
+    "path": "cache/stage02/dinov2/2e2a05df52d9e43e94849b065d9350e920d5d2427619a3dd31be761d39a6e249.npy",
+    "key": "2e2a05df52d9e43e94849b065d9350e920d5d2427619a3dd31be761d39a6e249",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_44683621_jpeg90": {
+    "path": "cache/stage02/dinov2/258cef00413413c98947e05a09655ee9866d0d96a76fbd359e44c2ed61916cd6.npy",
+    "key": "258cef00413413c98947e05a09655ee9866d0d96a76fbd359e44c2ed61916cd6",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_44683621_jpeg70": {
+    "path": "cache/stage02/dinov2/23cd62d6e1351651cddb8a8d431f992fa4be4d7421e8c5250f62ba3b2079c154.npy",
+    "key": "23cd62d6e1351651cddb8a8d431f992fa4be4d7421e8c5250f62ba3b2079c154",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_44683621_scale0.75": {
+    "path": "cache/stage02/dinov2/ba729c73baa073577908b90d9994c5bb27fe4f853cb014c66956df6ab2a4a4f3.npy",
+    "key": "ba729c73baa073577908b90d9994c5bb27fe4f853cb014c66956df6ab2a4a4f3",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_44683621_scale0.5": {
+    "path": "cache/stage02/dinov2/6373d06cc1de9aa30d5c1e4776816f7fcfd008a9d11495704f89cb3f5d48cf1e.npy",
+    "key": "6373d06cc1de9aa30d5c1e4776816f7fcfd008a9d11495704f89cb3f5d48cf1e",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_44683621_brightness0.95": {
+    "path": "cache/stage02/dinov2/5c17f560e7a1cafb152c218012531e2a61f915f592cc57833962624de7e14938.npy",
+    "key": "5c17f560e7a1cafb152c218012531e2a61f915f592cc57833962624de7e14938",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_44683621_brightness1.05": {
+    "path": "cache/stage02/dinov2/e30d67e0ee019859dd372b883ea918cec778afa7312a9c653f5a0bffb7643a21.npy",
+    "key": "e30d67e0ee019859dd372b883ea918cec778afa7312a9c653f5a0bffb7643a21",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_44683621_patch0.05": {
+    "path": "cache/stage02/dinov2/d390007128900913169112e05e7cbbe2950c6eb360d66a98afcd6656cebd0638.npy",
+    "key": "d390007128900913169112e05e7cbbe2950c6eb360d66a98afcd6656cebd0638",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_44683621_patch0.15": {
+    "path": "cache/stage02/dinov2/59b89dc52c1aac86a3f26224f896bc9c72da359d4c2e399a010dc6cfbed818ba.npy",
+    "key": "59b89dc52c1aac86a3f26224f896bc9c72da359d4c2e399a010dc6cfbed818ba",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_47780866_jpeg90": {
+    "path": "cache/stage02/dinov2/cf50fa8a8effda7e70bba27174a554f72bc094c164c9dbe9679e4c36df903a86.npy",
+    "key": "cf50fa8a8effda7e70bba27174a554f72bc094c164c9dbe9679e4c36df903a86",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_47780866_jpeg70": {
+    "path": "cache/stage02/dinov2/e347e107603f1683cc70d261dbf84db8d731e719a1c7ce45120e6a69d7089d12.npy",
+    "key": "e347e107603f1683cc70d261dbf84db8d731e719a1c7ce45120e6a69d7089d12",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_47780866_scale0.75": {
+    "path": "cache/stage02/dinov2/3936b7a87db1e8c5c02432fcd76d99c141ad73cb3ed614333de3179a10bd9b45.npy",
+    "key": "3936b7a87db1e8c5c02432fcd76d99c141ad73cb3ed614333de3179a10bd9b45",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_47780866_scale0.5": {
+    "path": "cache/stage02/dinov2/c268b41ad441ca3e1f51661b09768904808c73a742a88565f7ee910e2778178f.npy",
+    "key": "c268b41ad441ca3e1f51661b09768904808c73a742a88565f7ee910e2778178f",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_47780866_brightness0.95": {
+    "path": "cache/stage02/dinov2/5dac8b53b33242f073ccaeeda1da8986a35ec1ecbd28d2afa5083e3c621ef5c4.npy",
+    "key": "5dac8b53b33242f073ccaeeda1da8986a35ec1ecbd28d2afa5083e3c621ef5c4",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_47780866_brightness1.05": {
+    "path": "cache/stage02/dinov2/66a8da1f7f828b7d7e6caf39d06c1bbbd5e11622d7612b89d202ed094f3c37fe.npy",
+    "key": "66a8da1f7f828b7d7e6caf39d06c1bbbd5e11622d7612b89d202ed094f3c37fe",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_47780866_patch0.05": {
+    "path": "cache/stage02/dinov2/e1eab0bfae1cf5a27c6f3748621f9610565adff2aa0e96858cf27d329a8c3a71.npy",
+    "key": "e1eab0bfae1cf5a27c6f3748621f9610565adff2aa0e96858cf27d329a8c3a71",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_47780866_patch0.15": {
+    "path": "cache/stage02/dinov2/212958d61f6db1c96ec63cf25848d57d75274080c3c74c369c35f74aad774487.npy",
+    "key": "212958d61f6db1c96ec63cf25848d57d75274080c3c74c369c35f74aad774487",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_48575131_jpeg90": {
+    "path": "cache/stage02/dinov2/b15222edac3fde853d8d8fc33ead8537279694a08bfae3573050b0f3bc364012.npy",
+    "key": "b15222edac3fde853d8d8fc33ead8537279694a08bfae3573050b0f3bc364012",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_48575131_jpeg70": {
+    "path": "cache/stage02/dinov2/7dd81cbfcc6e166ef738c35834883ae75aafd77cfc0a004ce3a35bece396dbc7.npy",
+    "key": "7dd81cbfcc6e166ef738c35834883ae75aafd77cfc0a004ce3a35bece396dbc7",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_48575131_scale0.75": {
+    "path": "cache/stage02/dinov2/c653680bcc8061fb9209c9eab5a6a4a6da72595a35af30a72404dc099371157c.npy",
+    "key": "c653680bcc8061fb9209c9eab5a6a4a6da72595a35af30a72404dc099371157c",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_48575131_scale0.5": {
+    "path": "cache/stage02/dinov2/8030b1a1ab3da8b97de284d9651b0bb796049b6cfe0f6fc310378bb3912da2c2.npy",
+    "key": "8030b1a1ab3da8b97de284d9651b0bb796049b6cfe0f6fc310378bb3912da2c2",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_48575131_brightness0.95": {
+    "path": "cache/stage02/dinov2/463728b08283836de05e8e0ea23ac3b0570ba6bf397bce7f516db6c9469a9ca2.npy",
+    "key": "463728b08283836de05e8e0ea23ac3b0570ba6bf397bce7f516db6c9469a9ca2",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_48575131_brightness1.05": {
+    "path": "cache/stage02/dinov2/16182c311eb1f28c7ef261ad4ecdcc032c43331862e4da32e1ec88953573a602.npy",
+    "key": "16182c311eb1f28c7ef261ad4ecdcc032c43331862e4da32e1ec88953573a602",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_48575131_patch0.05": {
+    "path": "cache/stage02/dinov2/b28fa2913597926634aef659e80dd63b54032e16092ed6476fcf0e6fdb4f5645.npy",
+    "key": "b28fa2913597926634aef659e80dd63b54032e16092ed6476fcf0e6fdb4f5645",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_48575131_patch0.15": {
+    "path": "cache/stage02/dinov2/a052f6b1a1253f3808161b77a151badf420de579769fd6dcc8d29174b203c558.npy",
+    "key": "a052f6b1a1253f3808161b77a151badf420de579769fd6dcc8d29174b203c558",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69468782_jpeg90": {
+    "path": "cache/stage02/dinov2/3dcbfcee283ba4307c7b40ce4df3dd535ac881801d700e1cff28812feb519aab.npy",
+    "key": "3dcbfcee283ba4307c7b40ce4df3dd535ac881801d700e1cff28812feb519aab",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69468782_jpeg70": {
+    "path": "cache/stage02/dinov2/f9e4adfa0b98e7bc98531833ddba5cd839dcace542ece9d81a07589792b208b0.npy",
+    "key": "f9e4adfa0b98e7bc98531833ddba5cd839dcace542ece9d81a07589792b208b0",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69468782_scale0.75": {
+    "path": "cache/stage02/dinov2/03b37c27104b60a6f2878d8a7d37e2e49a6cc132946867fcf3e0879cfdac9de6.npy",
+    "key": "03b37c27104b60a6f2878d8a7d37e2e49a6cc132946867fcf3e0879cfdac9de6",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69468782_scale0.5": {
+    "path": "cache/stage02/dinov2/d599d2d804b4269a43a8fbf581aa729fa6c1e36ab29da43da79f51123473a0dd.npy",
+    "key": "d599d2d804b4269a43a8fbf581aa729fa6c1e36ab29da43da79f51123473a0dd",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69468782_brightness0.95": {
+    "path": "cache/stage02/dinov2/f2f57254b090e71ddeb35acd6b96928a7d2465c09cc2965a65c4c1350b8d4ca6.npy",
+    "key": "f2f57254b090e71ddeb35acd6b96928a7d2465c09cc2965a65c4c1350b8d4ca6",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69468782_brightness1.05": {
+    "path": "cache/stage02/dinov2/b29064467d17f8d2cc57e43b8ef4831c58e495296559dafcde347c7b2a6e61fd.npy",
+    "key": "b29064467d17f8d2cc57e43b8ef4831c58e495296559dafcde347c7b2a6e61fd",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69468782_patch0.05": {
+    "path": "cache/stage02/dinov2/2a8435cd12a7ad6df2bf1a75b69f87c104de9d745ef638c47b05750c6b456f91.npy",
+    "key": "2a8435cd12a7ad6df2bf1a75b69f87c104de9d745ef638c47b05750c6b456f91",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69468782_patch0.15": {
+    "path": "cache/stage02/dinov2/60c0e6a96edffc69a5d0c643c68d5acdbc0c24b018a29effd1fcd2d1bacd5f9f.npy",
+    "key": "60c0e6a96edffc69a5d0c643c68d5acdbc0c24b018a29effd1fcd2d1bacd5f9f",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69586487_jpeg90": {
+    "path": "cache/stage02/dinov2/169d63921cdd61ae22742df4b2ab89b77017288e2c95798700af6db2e5dd70d3.npy",
+    "key": "169d63921cdd61ae22742df4b2ab89b77017288e2c95798700af6db2e5dd70d3",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69586487_jpeg70": {
+    "path": "cache/stage02/dinov2/c3163e23ee008f513673ed197f64da2a328214f252421099195be7ed3b050cac.npy",
+    "key": "c3163e23ee008f513673ed197f64da2a328214f252421099195be7ed3b050cac",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69586487_scale0.75": {
+    "path": "cache/stage02/dinov2/36c8d2319e926a1fb1b5fcacf0dae7fd353d5c82650995530ab7351db7678ef7.npy",
+    "key": "36c8d2319e926a1fb1b5fcacf0dae7fd353d5c82650995530ab7351db7678ef7",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69586487_scale0.5": {
+    "path": "cache/stage02/dinov2/3da84085e4bc27427ca08ade177f36a7f6db8e324800b9011f35a65fb9ae066e.npy",
+    "key": "3da84085e4bc27427ca08ade177f36a7f6db8e324800b9011f35a65fb9ae066e",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69586487_brightness0.95": {
+    "path": "cache/stage02/dinov2/fbd858b594ac59cc0d3f00cc8341f74cc9a9d172714fa1f490300e0826420baf.npy",
+    "key": "fbd858b594ac59cc0d3f00cc8341f74cc9a9d172714fa1f490300e0826420baf",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69586487_brightness1.05": {
+    "path": "cache/stage02/dinov2/5abeac69719b42f7d324c1573035b774b0bcb8e6fa335d4563dcb5e8b691ad58.npy",
+    "key": "5abeac69719b42f7d324c1573035b774b0bcb8e6fa335d4563dcb5e8b691ad58",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69586487_patch0.05": {
+    "path": "cache/stage02/dinov2/e2f95a77696d7aae00bcc993966e43d553313a1952cb3c65b2e65033c6949ae6.npy",
+    "key": "e2f95a77696d7aae00bcc993966e43d553313a1952cb3c65b2e65033c6949ae6",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_69586487_patch0.15": {
+    "path": "cache/stage02/dinov2/9419f229282ee4a7594d69b8424daa38aaaec8f38f476f9acc160746fbb958df.npy",
+    "key": "9419f229282ee4a7594d69b8424daa38aaaec8f38f476f9acc160746fbb958df",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_73462291_jpeg90": {
+    "path": "cache/stage02/dinov2/3aecac5aef2a19e1bcb80d73a2a509b7b9e317b5088b68b47a6a7e5cb9beab3e.npy",
+    "key": "3aecac5aef2a19e1bcb80d73a2a509b7b9e317b5088b68b47a6a7e5cb9beab3e",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_73462291_jpeg70": {
+    "path": "cache/stage02/dinov2/48b88dfa25e5accc26a002be00411e9314fd9da7442fbad591be956538e07a96.npy",
+    "key": "48b88dfa25e5accc26a002be00411e9314fd9da7442fbad591be956538e07a96",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_73462291_scale0.75": {
+    "path": "cache/stage02/dinov2/c51ecc0d8c96999722ec560c217534d9dfcc0a44e392bd5b197e01e20bd4dcb0.npy",
+    "key": "c51ecc0d8c96999722ec560c217534d9dfcc0a44e392bd5b197e01e20bd4dcb0",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_73462291_scale0.5": {
+    "path": "cache/stage02/dinov2/bf9b24c8ee092e8b77d58bfb1d3dda73ddd0c891d1e74855e8dd9a29275ede1a.npy",
+    "key": "bf9b24c8ee092e8b77d58bfb1d3dda73ddd0c891d1e74855e8dd9a29275ede1a",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_73462291_brightness0.95": {
+    "path": "cache/stage02/dinov2/0b2eefb0e058d6f7817ef84d0432a6af8320279d937b1dd629016fb90379ba09.npy",
+    "key": "0b2eefb0e058d6f7817ef84d0432a6af8320279d937b1dd629016fb90379ba09",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_73462291_brightness1.05": {
+    "path": "cache/stage02/dinov2/89ba52b1d7b040dc50e7819958765b4299fe517b7f20d44c2eb22fbcd2e917e6.npy",
+    "key": "89ba52b1d7b040dc50e7819958765b4299fe517b7f20d44c2eb22fbcd2e917e6",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_73462291_patch0.05": {
+    "path": "cache/stage02/dinov2/538311d4c0b706330a13433c61771c3272c7279c32f9ea11db6b5bea48f7802c.npy",
+    "key": "538311d4c0b706330a13433c61771c3272c7279c32f9ea11db6b5bea48f7802c",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_73462291_patch0.15": {
+    "path": "cache/stage02/dinov2/85618b5ac0c6514fc38775ac698e66544bbf0db75aa36905b058640fee742534.npy",
+    "key": "85618b5ac0c6514fc38775ac698e66544bbf0db75aa36905b058640fee742534",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_95847980_jpeg90": {
+    "path": "cache/stage02/dinov2/a72d863e669b7429d8edb6098cdf5fb97faaaf004ffc2ffefe03374f3249ee08.npy",
+    "key": "a72d863e669b7429d8edb6098cdf5fb97faaaf004ffc2ffefe03374f3249ee08",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_95847980_jpeg70": {
+    "path": "cache/stage02/dinov2/f99a3ca1b001b917526893b57e6f0e9734930dfbf7cf4714860e7298c184399f.npy",
+    "key": "f99a3ca1b001b917526893b57e6f0e9734930dfbf7cf4714860e7298c184399f",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_95847980_scale0.75": {
+    "path": "cache/stage02/dinov2/cc2b4d020174cae9d4c1cf1f043de6c389f744f939fa1eb0c475bb117a4dea18.npy",
+    "key": "cc2b4d020174cae9d4c1cf1f043de6c389f744f939fa1eb0c475bb117a4dea18",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_95847980_scale0.5": {
+    "path": "cache/stage02/dinov2/b4aede90681cbf41eebf80fd6f8c7329bdc691b0a0bc32e13428740228ee1441.npy",
+    "key": "b4aede90681cbf41eebf80fd6f8c7329bdc691b0a0bc32e13428740228ee1441",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_95847980_brightness0.95": {
+    "path": "cache/stage02/dinov2/ec355fb32f7ad9313bc641b76f5a30430be4904c3c89420026546e61b5d0ff5c.npy",
+    "key": "ec355fb32f7ad9313bc641b76f5a30430be4904c3c89420026546e61b5d0ff5c",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_95847980_brightness1.05": {
+    "path": "cache/stage02/dinov2/7ecc0bf8ecda73558eb61e728291bd0203ca2f43d6a7b23ac29547b2f90bdcef.npy",
+    "key": "7ecc0bf8ecda73558eb61e728291bd0203ca2f43d6a7b23ac29547b2f90bdcef",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_95847980_patch0.05": {
+    "path": "cache/stage02/dinov2/b0bd8ccd6f17e76ea0a9f485e668d4e0477510dbb6907393321d8fd24444e138.npy",
+    "key": "b0bd8ccd6f17e76ea0a9f485e668d4e0477510dbb6907393321d8fd24444e138",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_95847980_patch0.15": {
+    "path": "cache/stage02/dinov2/581eb3bb28a35e2321e529f398364962dc9efe34a0404d292810258833133e91.npy",
+    "key": "581eb3bb28a35e2321e529f398364962dc9efe34a0404d292810258833133e91",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_98821976_jpeg90": {
+    "path": "cache/stage02/dinov2/7d10954e8dde06966a59eb6ca72a9be58d64a7cdc0814f595d8b677aecae9454.npy",
+    "key": "7d10954e8dde06966a59eb6ca72a9be58d64a7cdc0814f595d8b677aecae9454",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_98821976_jpeg70": {
+    "path": "cache/stage02/dinov2/cbeb83e41af825ecbd740dea3067ca8eaa86897e8299b4dcb4509a1e0e490066.npy",
+    "key": "cbeb83e41af825ecbd740dea3067ca8eaa86897e8299b4dcb4509a1e0e490066",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_98821976_scale0.75": {
+    "path": "cache/stage02/dinov2/643cd6ce577f0eea622f2bc21810aad164540cbace04b11879233c27ce357396.npy",
+    "key": "643cd6ce577f0eea622f2bc21810aad164540cbace04b11879233c27ce357396",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_98821976_scale0.5": {
+    "path": "cache/stage02/dinov2/d1041b44b47ddacd9529a4e0c07d5918797369e3b0bdef040c54f9c03f211f57.npy",
+    "key": "d1041b44b47ddacd9529a4e0c07d5918797369e3b0bdef040c54f9c03f211f57",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_98821976_brightness0.95": {
+    "path": "cache/stage02/dinov2/bc160876cde8b500852366064155b7ddc1345fa1b1457df6dde9e806bc0ef530.npy",
+    "key": "bc160876cde8b500852366064155b7ddc1345fa1b1457df6dde9e806bc0ef530",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_98821976_brightness1.05": {
+    "path": "cache/stage02/dinov2/23ddd669957a673c0ce721d72a00618e1e2a5a8bfe214b50e497d2ece09b3393.npy",
+    "key": "23ddd669957a673c0ce721d72a00618e1e2a5a8bfe214b50e497d2ece09b3393",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_98821976_patch0.05": {
+    "path": "cache/stage02/dinov2/9339da914d38d56d3bcd9e8d6fc6719995bb29b4d0c3b40e7dec2e634c9e7ba8.npy",
+    "key": "9339da914d38d56d3bcd9e8d6fc6719995bb29b4d0c3b40e7dec2e634c9e7ba8",
+    "bytes": 393216,
+    "file_bytes": 393344
+  },
+  "commons_98821976_patch0.15": {
+    "path": "cache/stage02/dinov2/b95d3bbb32e33bc2f4c545f7e110590ffcdfbfe112fd69cd0ca6a144ecab2755.npy",
+    "key": "b95d3bbb32e33bc2f4c545f7e110590ffcdfbfe112fd69cd0ca6a144ecab2755",
+    "bytes": 393216,
+    "file_bytes": 393344
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "group_hash_donor_near_duplicate_split_validation": true,
+  "all_images_real_RGB_PNG_and_hashes": true,
+  "JPEG_encoding_changes_pixels": true,
+  "independent_threshold_metrics_recomputation": true,
+  "each_actual_worker_single_authorized_UUID": true,
+  "real_weights_repeat_dimensions_norm_finiteness_bytes": true,
+  "DINO_global_derived_from_shared_patch_cache": true,
+  "all_original_self_pairs_near_one_separate_from_A": true,
+  "existing_GPU5_PID14413_present_before_after": true
+}

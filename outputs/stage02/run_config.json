@@ -1,0 +1,12 @@
+{
+  "seed": 20260917,
+  "environment_prefix": "/data0/liyanlei/envs/stego_attack",
+  "gpu_uuids": {
+    "5": "GPU-e6f35928-0155-f121-e707-1eaf3c14965c",
+    "7": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7"
+  },
+  "worker_timeout_seconds": 600,
+  "batch_size": 1,
+  "target_frr": 0.05,
+  "refresh_features": true
+}

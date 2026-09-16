@@ -1,0 +1,54 @@
+{
+  "whitelist": {
+    "5": "GPU-e6f35928-0155-f121-e707-1eaf3c14965c",
+    "7": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7"
+  },
+  "workers": [
+    {
+      "pid": 7086,
+      "host_index": 5,
+      "task": "clip_sscd",
+      "CUDA_VISIBLE_DEVICES": "GPU-e6f35928-0155-f121-e707-1eaf3c14965c",
+      "driver": {
+        "uuid": "GPU-e6f35928-0155-f121-e707-1eaf3c14965c",
+        "pci_bus_id": "0000:89:00.0",
+        "count": 1
+      },
+      "host_inventory": "5, GPU-e6f35928-0155-f121-e707-1eaf3c14965c, 00000000:89:00.0, NVIDIA GeForce RTX 3090",
+      "started_utc": "2026-09-16T19:08:54.242349+00:00",
+      "torch_device": "cuda:0",
+      "torch_name": "NVIDIA GeForce RTX 3090",
+      "torch_visible_count": 1,
+      "torch_version": "2.3.1+cu121",
+      "torchvision_version": "0.18.1+cu121",
+      "finished_utc": "2026-09-16T19:09:07.024653+00:00",
+      "exit_code": 0
+    },
+    {
+      "pid": 7087,
+      "host_index": 7,
+      "task": "dinov2",
+      "CUDA_VISIBLE_DEVICES": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+      "driver": {
+        "uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+        "pci_bus_id": "0000:B2:00.0",
+        "count": 1
+      },
+      "host_inventory": "7, GPU-9644fb82-cb6f-7311-8017-eaee41409bb7, 00000000:B2:00.0, NVIDIA GeForce RTX 3090",
+      "started_utc": "2026-09-16T19:08:54.241754+00:00",
+      "torch_device": "cuda:0",
+      "torch_name": "NVIDIA GeForce RTX 3090",
+      "torch_visible_count": 1,
+      "torch_version": "2.3.1+cu121",
+      "torchvision_version": "0.18.1+cu121",
+      "finished_utc": "2026-09-16T19:09:00.335995+00:00",
+      "exit_code": 0
+    }
+  ],
+  "before": {
+    "time_utc": "2026-09-16T19:08:42.373773+00:00",
+    "gpus": "index, uuid, pci.bus_id, name, memory.total [MiB], memory.used [MiB], memory.free [MiB], utilization.gpu [%]\n5, GPU-e6f35928-0155-f121-e707-1eaf3c14965c, 00000000:89:00.0, NVIDIA GeForce RTX 3090, 24576 MiB, 1112 MiB, 23141 MiB, 0 %\n7, GPU-9644fb82-cb6f-7311-8017-eaee41409bb7, 00000000:B2:00.0, NVIDIA GeForce RTX 3090, 24576 MiB, 1 MiB, 24253 MiB, 0 %\n",
+    "processes": "gpu_uuid, pid, process_name, used_gpu_memory [MiB]\nGPU-e6f35928-0155-f121-e707-1eaf3c14965c, 14413, /data0/liyanlei/ceramic_watermark/envs/miniconda/bin/python, 1106 MiB\n"
+  },
+  "scope": "Only recorded subprocesses are covered by these execution records"
+}

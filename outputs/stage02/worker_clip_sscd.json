@@ -1,0 +1,105 @@
+{
+  "clip": {
+    "status": "complete",
+    "pid": 7086,
+    "gpu_uuid": "GPU-e6f35928-0155-f121-e707-1eaf3c14965c",
+    "device": "cuda:0",
+    "batch_size": 1,
+    "preprocess": {
+      "size": 224,
+      "resize": "shorter edge bicubic",
+      "crop": "center 224x224",
+      "rgb": true,
+      "mean": [
+        0.48145466,
+        0.4578275,
+        0.40821073
+      ],
+      "std": [
+        0.26862954,
+        0.26130258,
+        0.27577711
+      ]
+    },
+    "model": {
+      "path": "weights/ViT-B-32.pt",
+      "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+      "bytes": 353976522,
+      "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+      "code_commit": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6"
+    },
+    "feature_shape": [
+      512
+    ],
+    "feature_dtype": "float32",
+    "preprocess_runtime": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    <function _convert_image_to_rgb at 0x7f2fd608d1b0>\n    ToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+    "load_seconds": 3.932372511830181,
+    "binding_evidence": [
+      "GPU-e6f35928-0155-f121-e707-1eaf3c14965c, 7086, 1034 MiB"
+    ],
+    "repeat_max_abs": 0.0,
+    "self_max_error": 0.0,
+    "images": 180,
+    "inferred": 180,
+    "cache_hits": 0,
+    "extract_cache_seconds": 3.074956947239116,
+    "peak_allocated_bytes": 644345344,
+    "peak_reserved_bytes": 702545920,
+    "reference_array_bytes": 2048,
+    "reference_npy_bytes": 2176,
+    "total_seconds": 7.382451682817191
+  },
+  "sscd": {
+    "status": "complete",
+    "pid": 7086,
+    "gpu_uuid": "GPU-e6f35928-0155-f121-e707-1eaf3c14965c",
+    "device": "cuda:0",
+    "batch_size": 1,
+    "preprocess": {
+      "size": [
+        320,
+        320
+      ],
+      "resize": "Pillow bilinear full frame (author skew_320)",
+      "crop": null,
+      "rgb": true,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    },
+    "model": {
+      "path": "weights/sscd_disc_mixup.torchscript.pt",
+      "sha256": "9f26bd4c848cc19b73d2ae92eea6e04886f61a7b764ceb7a13aeee62e6a6db56",
+      "bytes": 98791638,
+      "url": "https://dl.fbaipublicfiles.com/sscd-copy-detection/sscd_disc_mixup.torchscript.pt",
+      "code_commit": "95902662f2217a5f4aa45f2a3fc70a01dfd3b66a"
+    },
+    "feature_shape": [
+      512
+    ],
+    "feature_dtype": "float32",
+    "preprocess_runtime": "Compose(\n    Resize(size=(320, 320), interpolation=bilinear, max_size=None, antialias=True)\n    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n)",
+    "load_seconds": 0.4249514869879931,
+    "binding_evidence": [
+      "GPU-e6f35928-0155-f121-e707-1eaf3c14965c, 7086, 668 MiB"
+    ],
+    "repeat_max_abs": 0.0,
+    "self_max_error": 1.1920928955078125e-07,
+    "images": 180,
+    "inferred": 180,
+    "cache_hits": 0,
+    "extract_cache_seconds": 1.8819353312719613,
+    "peak_allocated_bytes": 277306880,
+    "peak_reserved_bytes": 316669952,
+    "reference_array_bytes": 2048,
+    "reference_npy_bytes": 2176,
+    "total_seconds": 3.0380791360512376
+  }
+}
