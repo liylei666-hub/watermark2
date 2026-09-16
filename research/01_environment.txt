@@ -1,0 +1,24 @@
+阶段1环境检查记录（更新版；2026-09-16，SSH远程服务器）
+
+连接命令（不读取或打印密钥内容）：
+ssh -o BatchMode=yes -o ConnectTimeout=10 -i "$env:USERPROFILE\\.ssh\\ceramic_249_ed25519" liyanlei@172.18.185.249
+
+远程目标：hostname=server249；工作目录=/home/liyanlei；未在 home 目录发现 Git 项目（git status 返回 not a git repository）。本次只检查远程 home 目录及其直接关联环境，没有扫描整台服务器。可见非敏感文件包括 shell 配置和缓存项；未发现当前项目代码、数据、README 或依赖说明。远程目录中存在 .conda token 文件，但未读取、打印或上传其内容。
+
+命令与结果：
+uname -a
+Linux server249 5.4.0-146-generic ... x86_64 GNU/Linux（Ubuntu 18.04 系列内核）
+python3 --version
+Python 3.6.9
+python3 -c import torch...
+PyTorch 1.10.2+cu113；CUDA build 11.3；cuda_available=True；device_count=8；8张 NVIDIA GeForce RTX 3090，每张总显存约 24,530 MiB。
+nvidia-smi --query-gpu=name,memory.total,memory.free,driver_version --format=csv
+每张：24,576 MiB total；约 24,253 MiB free（第6张约 23,141 MiB）；driver 550.100。
+
+git status --short --branch
+远程当前目录不是 Git 仓库；未定位到项目 checkout，因此项目 Git 状态：未能在远程项目路径检查。
+
+网络/资料：论文与代码页面的公开检索在本地工具中可访问；本次未从远程下载模型或数据。
+限制：远程 Python 3.6.9 和 PyTorch 1.10.2 较旧；本轮没有安装依赖、修改环境、下载权重/数据或运行训练。GPU信息只代表 server249 当前可见资源，不代表全部可用算力。此前本地 Windows/RTX 4070 检查不作为本项目环境结论。
+
+远程项目目录定位更新：/data0/liyanlei 存在，约 296G；/data/liyanlei 不存在。现已建立本阶段工作目录 /data0/liyanlei/instance_authentication_research/research（目录权限 700，属主 liyanlei）。已检查的三个相关目录均未检测到 Git 仓库根目录；未修改其中任何文件。
