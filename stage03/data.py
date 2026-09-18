@@ -9,7 +9,12 @@ from .protocol import read_jsonl, write_jsonl_once, donor_ids, validate_manifest
 def prepare_data(root, config):
     out=root/'outputs/stage03'; prompts=read_jsonl(root/'data/stage03/prompts.jsonl')
     frozen=json.loads((out/'frozen_run.json').read_text());images=[];pairs=[]
-    for job in generation_jobs(prompts):
+    complete_ids={p['prompt_id'] for p in prompts if all((out/'generation_records'/f"{p['prompt_id']}_s{k}.json").exists() for k in range(4))}
+    family_members={p['family']:{q['prompt_id'] for q in prompts if q['family']==p['family']} for p in prompts}
+    complete_families={family for family,members in family_members.items() if members.issubset(complete_ids)}
+    effective=[p for p in prompts if p['family'] in complete_families]
+    write_jsonl_once(root/'data/stage03/effective_prompts.jsonl',effective)
+    for job in generation_jobs(effective):
         rec=json.loads((out/'generation_records'/(job['id']+'.json')).read_text());validate_image_record(rec,job,frozen['generation_config_sha256'])
         if sha256(root/rec['path'])!=rec['sha256']:raise ValueError('Original SHA mismatch')
         images.append(rec)
@@ -27,19 +32,19 @@ def prepare_data(root, config):
         left=p['prompt_id']+'_s0'
         pairs.append(dict(pair_id=f'{category}/{left}/{right}',left=left,right=right,category=category,transform=transform,
                           prompt_id=p['prompt_id'],family=p['family'],topic=p['topic'],split=p['split']))
-    for p in prompts:
+    for p in effective:
         pid=p['prompt_id'];add(p,pid+'_s0','SELF')
         for t in config['transforms']:add(p,pid+'_s0_'+t,'A',t)
         for k in range(1,4):
             add(p,f'{pid}_s{k}','B_raw')
             for t in config['transforms']:add(p,f'{pid}_s{k}_{t}','B_post',t)
-        for donor in donor_ids(prompts,p):add(p,donor+'_s0','D')
-    validate_manifest(images,pairs,prompts)
+        for donor in donor_ids(effective,p):add(p,donor+'_s0','D')
+    validate_manifest(images,pairs,effective)
     write_jsonl_once(root/'data/stage03/manifest.jsonl',images)
     write_jsonl_once(root/'data/stage03/pairs.jsonl',pairs)
     # Opaque IDs and content hashes only; no generation or evaluation metadata reaches extraction.
     dump(root/'data/stage03/image_inputs.json',[{k:r[k] for k in ['id','path','sha256']} for r in images])
-    create_grids(root,prompts,images)
+    create_grids(root,effective,images)
     return images,pairs
 
 def create_grids(root,prompts,images):

@@ -1,0 +1,8 @@
+{
+  "selected_model_storage": "Existing verified SD1.5 snapshot on server249; used for all generated images",
+  "full_images_and_feature_cache": "Server project only",
+  "unused_local_staging": "weights/stage03_sdxl/462165984030d82259a11f4367a4eed129e94a7b",
+  "staging_status": "Retained: automatic approval review rejected recursive local staging cleanup with 'blocked by policy'; no more specific reason was provided. The rejected command did not execute.",
+  "git_policy": "weights/ is ignored; model files are excluded from commits",
+  "experiment_impact": "None; selected generator uses the verified server SD1.5 cache"
+}

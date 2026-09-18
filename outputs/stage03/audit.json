@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "118 effective prompts / 59 families; planned 120 prompts; incomplete fixed-seed groups retained separately",
+    "All image hashes, pixels, dimensions, RGB PNG and generation provenance verified",
+    "Feature input schema excludes prompts, seed fields, split, labels and masks",
+    "All three working points and error counts independently recomputed from CSV; SELF passed",
+    "All feature shapes/bytes/norms verified and deterministic sample of CSV recomputed through stage02 API",
+    "UUID/device binding records and generation/download budgets verified",
+    "Stage02 data/config/reports/results unchanged"
+  ],
+  "visual_review": "See figures/visual_review.json separately; machine checks do not assess composition similarity"
+}

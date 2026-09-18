@@ -76,6 +76,8 @@ def run(root, config, phase):
                     prompts_sha256=sha256(root/'data/stage03/prompts.jsonl'),protocol_lock_sha256=sha256(out/'protocol_lock.json'),generator_files_sha256=sha256(out/'generator_files.json')))
     def generate(job, suffix=''):
         rp=records_dir/(job['id']+suffix+'.json');path=image_dir/(job['id']+suffix+'.png')
+        failure_path=records_dir/(job['id']+suffix+'.failure.json')
+        if failure_path.exists(): return None
         if rp.exists():
             rec=json.loads(rp.read_text());validate_image_record(rec,job,generation_hash)
             if not path.exists() or rec['sha256']!=sha256(path):raise RuntimeError('Existing generated image is missing/corrupt; investigate, do not overwrite')
@@ -101,10 +103,12 @@ def run(root, config, phase):
             dump(rp,rec);settle(attempt,start,'complete')
             return rec
         except Exception as e:
-            settle(attempt,start,'failed');dump(out/'generation_failure.json',dict(job=job,error=repr(e),phase=phase));raise
+            settle(attempt,start,'failed');dump(failure_path,dict(job=job,error=repr(e),phase=phase,config_sha256=generation_hash));return None
     records=[]
     for i,job in enumerate(jobs):
-        records.append(generate(job)); print(phase,i+1,'/',len(jobs),job['id'],flush=True)
+        record=generate(job)
+        if record is not None: records.append(record)
+        else: print(phase,i+1,'/',len(jobs),job['id'],'INCOMPLETE_FIXED_SEED',flush=True)
         if i==0:
             rows=subprocess.check_output(['nvidia-smi','-i','5,7','--query-compute-apps=gpu_uuid,pid,used_gpu_memory','--format=csv,noheader'],text=True).splitlines()
             mine=[r for r in rows if r.split(',')[1].strip()==str(os.getpid())]

@@ -39,3 +39,5 @@ CUDA_VISIBLE_DEVICES= /data0/liyanlei/envs/stego_attack/bin/python scripts/run_s
 ```
 
 入口验证服务器路径、既有模型资产和 GPU 5/7 的 UUID；支持校验后续跑。`--through preflight` 运行独立工程预检查，默认运行至机器审计。结果状态在 `outputs/stage03/run_status.json`，最终分析在 `research/03_same_prompt_diagnostic.md`。完整图像和特征缓存不进入 Git。
+
+本轮实际结果：472/480 计划原图完成，p094 所属 vehicles08 族的固定 seed 被安全检查/单图超时路径标记为不完整，118 条提示词、59 个完整族进入评测；状态为 `audit_complete`。结果 CSV、阈值、指标和审计证据均在 `outputs/stage03/`。

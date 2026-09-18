@@ -16,6 +16,8 @@ data/stage02/images/
 data/stage02/masks/
 data/stage03/images/
 data/stage03/preflight/
+outputs/stage03/generation_records/
+outputs/stage03/logs/
 artifacts/stage03/
 artifacts/test_stage03.py
 artifacts/stage03.json

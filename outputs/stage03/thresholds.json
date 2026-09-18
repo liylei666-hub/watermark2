@@ -1,0 +1,30 @@
+{
+  "thresholds": {
+    "0.05": {
+      "CLIP_global": 0.9796619415283203,
+      "SSCD_global": 0.9973233342170715,
+      "DINO_global": 0.9994269609451294,
+      "DINO_local_mean": 0.997725784778595,
+      "DINO_local_q10": 0.9960156083106995
+    },
+    "0.01": {
+      "CLIP_global": 0.9664167165756226,
+      "SSCD_global": 0.9871039390563965,
+      "DINO_global": 0.9981146454811096,
+      "DINO_local_mean": 0.9939016699790955,
+      "DINO_local_q10": 0.9892732501029968
+    },
+    "0.1": {
+      "CLIP_global": 0.9872218370437622,
+      "SSCD_global": 0.9987603425979614,
+      "DINO_global": 0.9996623992919922,
+      "DINO_local_mean": 0.9983925223350525,
+      "DINO_local_q10": 0.9967851936817169
+    }
+  },
+  "accept": "score >= threshold; ties accepted",
+  "rule": "sorted calibration A[floor(target*n)]",
+  "calibration_pairs": 360,
+  "prompts_sha256": "206149ece26ceaa0cc619a66691f6abaad0a6e828089b85196016e85d1f3ff18",
+  "run_sha256": "5a154b2aefaae775d245617775bbc0ebe05d71f2b21be4b1f3a986a175118af3"
+}

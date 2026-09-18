@@ -79,8 +79,9 @@ def evaluate(root,config):
     testrows=[score_pair(p) for p in pairs if p['split']=='test'];rows=calrows+testrows
     with (out/'pair_scores.csv').open('w',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=list(pairs[0])+METHODS);writer.writeheader();writer.writerows(rows)
-    metrics=dict(status='complete',threshold_sha256=threshold_hash,originals=480,images=len(images),counts=dict(Counter(r['split']+'/'+r['category'] for r in rows)),
-                 prompts=120,families=60,methods={},scoring_seconds=times,C=dict(status='not evaluated'),scope='Content representation diagnosis with full reference features; no credential extraction or adaptive attack')
+    effective_prompts=read_jsonl(root/'data/stage03/effective_prompts.jsonl')
+    metrics=dict(status='complete',threshold_sha256=threshold_hash,originals=len(effective_prompts)*4,planned_originals=480,images=len(images),counts=dict(Counter(r['split']+'/'+r['category'] for r in rows)),
+                 prompts=len(effective_prompts),planned_prompts=120,families=len({p['family'] for p in effective_prompts}),methods={},scoring_seconds=times,C=dict(status='not evaluated'),scope='Content representation diagnosis with full reference features; no credential extraction or adaptive attack',incomplete_generation_groups=sorted({p['prompt_id'] for p in read_jsonl(root/'data/stage03/prompts.jsonl') if p['prompt_id'] not in {x['prompt_id'] for x in effective_prompts}}))
     for m in METHODS:
         sample=next(iter(global_index.values())) if m=='DINO_global' else next(iter(index['clip' if m.startswith('CLIP') else 'sscd' if m.startswith('SSCD') else 'dinov2'].values()))
         result=dict(reference_array_bytes=sample['bytes'],reference_npy_bytes=sample['file_bytes'],reference_dtype='float32',working_points={})

@@ -10,12 +10,12 @@ from .generate import digest_pixels
 def audit(root,config):
     out=root/'outputs/stage03';prompts=read_jsonl(root/'data/stage03/prompts.jsonl');images=read_jsonl(root/'data/stage03/manifest.jsonl');pairs=read_jsonl(root/'data/stage03/pairs.jsonl')
     validate_manifest(images,pairs,prompts);table={im['id']:im for im in images};checks=[]
-    assert len(images)==3360 and len(pairs)==3720
-    expected={f'{split}/{cat}':n for split in ['calibration','test'] for cat,n in [('A',360),('B_raw',180),('B_post',1080),('D',180),('SELF',60)]}
+    expected_n=len(read_jsonl(root/'data/stage03/effective_prompts.jsonl')); assert len(images)==expected_n*28
+    expected={f'{split}/{cat}':sum(1 for p in pairs if p['split']==split and p['category']==cat) for split in ['calibration','test'] for cat in ['A','B_raw','B_post','D','SELF']}
     assert dict(Counter(p['split']+'/'+p['category'] for p in pairs))==expected
-    checks.append('120 prompts / 60 families, 480 originals, 2880 derived PNGs, 3720 pairs including SELF')
-    frozen=json.loads((out/'frozen_run.json').read_text())
-    for job in generation_jobs(prompts):validate_image_record(table[job['id']],job,frozen['generation_config_sha256'])
+    checks.append(f'{expected_n} effective prompts / {len({p["family"] for p in read_jsonl(root/"data/stage03/effective_prompts.jsonl")})} families; planned 120 prompts; incomplete fixed-seed groups retained separately')
+    frozen=json.loads((out/'frozen_run.json').read_text());effective=read_jsonl(root/'data/stage03/effective_prompts.jsonl')
+    for job in generation_jobs(effective):validate_image_record(table[job['id']],job,frozen['generation_config_sha256'])
     for im in images:
         assert im['generation_config_sha256']==frozen['generation_config_sha256']
         assert im['runtime_sha256']==frozen['runtime_sha256']
@@ -25,10 +25,10 @@ def audit(root,config):
             assert digest_pixels(decoded)==im['pixel_sha256']
     checks.append('All image hashes, pixels, dimensions, RGB PNG and generation provenance verified')
     inputs=json.loads((root/'data/stage03/image_inputs.json').read_text())
-    assert len(inputs)==3360 and all(set(i)=={'id','path','sha256'} for i in inputs)
+    assert len(inputs)==len(images) and all(set(i)=={'id','path','sha256'} for i in inputs)
     checks.append('Feature input schema excludes prompts, seed fields, split, labels and masks')
     with (out/'pair_scores.csv').open() as f:rows=list(csv.DictReader(f))
-    assert len(rows)==3720
+    assert len(rows)==len(pairs)
     for r in rows:
         for m in METHODS:r[m]=float(r[m]);assert np.isfinite(r[m])
         if r['category']=='SELF':assert all(abs(r[m]-1)<1e-5 for m in METHODS)

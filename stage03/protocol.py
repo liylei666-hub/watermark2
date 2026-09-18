@@ -97,7 +97,11 @@ def validate_image_record(record, job, frozen_hash):
         if k not in record: raise ValueError('Missing generation metadata: '+k)
 
 def validate_manifest(images, pairs, prompts):
-    validate_prompts(prompts); table={r['id']:r for r in images}; pp={p['prompt_id']:p for p in prompts}
+    if len(prompts)==120: validate_prompts(prompts)
+    else:
+        if not prompts or len({p['prompt_id'] for p in prompts})!=len(prompts) or len({p['family'] for p in prompts})*2!=len(prompts): raise ValueError('Invalid effective prompt subset')
+        if any(p['split'] not in ['calibration','test'] for p in prompts): raise ValueError('Invalid effective split')
+    table={r['id']:r for r in images}; pp={p['prompt_id']:p for p in prompts}
     if len(table)!=len(images): raise ValueError('Duplicate image IDs')
     pixel_splits={}
     for im in images:

@@ -47,7 +47,7 @@ class Stage03Tests(unittest.TestCase):
         # Compare the shared helper to the saved stage02 output pixels, without rewriting them.
         from PIL import Image
         from stage02.data import allowed_variants
-        manifest=json.loads((ROOT/'data/stage02/manifest.json').read_text());images={im['id']:im for im in manifest['images']};checked=0
+        manifest=json.loads((ROOT/'data/stage02/manifest.json').read_text(encoding='utf-8'));images={im['id']:im for im in manifest['images']};checked=0
         for pair in manifest['pairs']:
             if pair['category']!='A':continue
             left=ROOT/images[pair['left']]['path'];right=ROOT/images[pair['right']]['path']

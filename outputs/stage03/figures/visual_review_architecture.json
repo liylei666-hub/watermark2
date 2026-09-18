@@ -1,0 +1,13 @@
+{
+  "review_date": "2026-09-19",
+  "reviewer": "assistant visual inspection of fixed contact sheet",
+  "figure": "prescore_architecture.jpg",
+  "scores_viewed": false,
+  "rubric_reference": "visual_review_early.json",
+  "groups": [
+    {"prompt_id": "p060", "similarity_to_reference_slots_1_2_3": ["medium", "medium", "medium"], "observation": "Stone walls, slate roofs and roses recur with closely shared color/texture. Roof arrangements, windows and framing differ; roof/building structures are irregular and repeated."},
+    {"prompt_id": "p062", "similarity_to_reference_slots_1_2_3": ["low", "medium", "medium"], "observation": "Rocky coastline context recurs. Several seeds contain multiple small lighthouse/building forms instead of one coherent lighthouse scene; their number, scale and positions differ."}
+  ],
+  "scope": "Two fixed architectural prompts; descriptive thumbnail review, not a difficulty estimate for the full corpus",
+  "sample_changes": "none"
+}
