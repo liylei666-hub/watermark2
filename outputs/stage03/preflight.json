@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "images": 16,
+  "repeat": {
+    "pixel_equal": true,
+    "max_abs": 0,
+    "mean_abs": 0.0
+  },
+  "baseline_preprocessing": "all three passed",
+  "mean_seconds": 7.8750085676438175,
+  "main_forecast_seconds_with_margin": 4347.004729339387,
+  "generation_config_sha256": "201c844efa965396ba9b2c2f64c5e6c2a7bd2c0d4ab2f05d316426c9c96170b7"
+}

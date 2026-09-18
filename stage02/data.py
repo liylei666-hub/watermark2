@@ -8,6 +8,18 @@ def dhash(im):
     a=np.asarray(im.convert('L').resize((9,8),Image.Resampling.BILINEAR))
     return a[:,1:]>a[:,:-1]
 
+def allowed_variants(im):
+    """The six frozen stage02 edits, shared with stage03 at the input's native size."""
+    w,h=im.size
+    for q in [90,70]:
+        buf=io.BytesIO();im.save(buf,format='JPEG',quality=q,subsampling=2);buf.seek(0);new=Image.open(buf).convert('RGB')
+        yield f'jpeg{q}',new,dict(kind='jpeg',quality=q,subsampling=2,order=['JPEG encode','decode RGB','PNG'])
+    for scale in [.75,.5]:
+        small=(round(w*scale),round(h*scale));new=im.resize(small,Image.Resampling.BICUBIC).resize((w,h),Image.Resampling.BICUBIC)
+        yield f'scale{scale}',new,dict(kind='resize',scale=scale,interpolation='Pillow bicubic',intermediate_size=small,order=['downsample','restore','PNG'])
+    for factor in [.95,1.05]:
+        yield f'brightness{factor}',ImageEnhance.Brightness(im).enhance(factor),dict(kind='brightness',factor=factor,order=['Pillow RGB brightness','PNG'])
+
 def prepare(root,seed):
     src=json.loads((root/'data/stage02/sources.json').read_text())
     if len(src)<10:raise RuntimeError('insufficient natural sources; do not substitute synthetic results')
@@ -38,14 +50,8 @@ def prepare(root,seed):
     for i in ids:add(i,base[i],i)
     for i in ids:
         im=base[i];w,h=im.size
-        for q in [90,70]:
-            buf=io.BytesIO();im.save(buf,format='JPEG',quality=q,subsampling=2);buf.seek(0);new=Image.open(buf).convert('RGB')
-            j=f'{i}_jpeg{q}';add(j,new,i);pair(i,j,'A',dict(kind='jpeg',quality=q,subsampling=2,order=['JPEG encode','decode RGB','PNG']))
-        for scale in [.75,.5]:
-            small=(round(w*scale),round(h*scale));new=im.resize(small,Image.Resampling.BICUBIC).resize((w,h),Image.Resampling.BICUBIC)
-            j=f'{i}_scale{scale}';add(j,new,i);pair(i,j,'A',dict(kind='resize',scale=scale,interpolation='Pillow bicubic',intermediate_size=small,order=['downsample','restore','PNG']))
-        for factor in [.95,1.05]:
-            j=f'{i}_brightness{factor}';add(j,ImageEnhance.Brightness(im).enhance(factor),i);pair(i,j,'A',dict(kind='brightness',factor=factor,order=['Pillow RGB brightness','PNG']))
+        for suffix,new,params in allowed_variants(im):
+            j=f'{i}_{suffix}';add(j,new,i);pair(i,j,'A',params)
         candidates=[k for k in ids if split_by_group[find(k)]==split_by_group[find(i)] and find(k)!=find(i)]
         donor=candidates[int(rng.integers(len(candidates)))];donor_im=base[donor].resize((w,h),Image.Resampling.BICUBIC)
         for area in [.05,.15]:

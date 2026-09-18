@@ -21,9 +21,10 @@ def driver_identity():
     bus=ctypes.create_string_buffer(32);call('cuDeviceGetPCIBusId',bus,32,dev)
     return {'uuid':'GPU-'+str(uuid.UUID(bytes=bytes(buf))),'pci_bus_id':bus.value.decode(),'count':count.value}
 
-def worker(root,config,task):
+def worker(root,config,task,stage='stage02'):
+    if stage not in {'stage02','stage03'}:raise ValueError('unsupported artifact stage')
     visible=os.environ.get('CUDA_VISIBLE_DEVICES');idx=validate_gpu_config(config,visible,task)
-    out=root/'outputs/stage02';out.mkdir(parents=True,exist_ok=True)
+    out=root/f'outputs/{stage}';out.mkdir(parents=True,exist_ok=True)
     lockdir=root/'.stage02_locks';lockdir.mkdir(exist_ok=True)
     lock=(lockdir/f'.gpu{idx}.lock').open('w')
     fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
@@ -45,7 +46,7 @@ def worker(root,config,task):
     binding.update(torch_device='cuda:0',torch_name=torch.cuda.get_device_name(0),torch_visible_count=1,torch_version=torch.__version__,torchvision_version=torchvision.__version__)
     dump(out/f'binding_{task}.json',binding)
     registry=json.loads((root/'artifacts/models.json').read_text())
-    inputs=json.loads((root/'data/stage02/image_inputs.json').read_text())
+    inputs=json.loads((root/f'data/{stage}/image_inputs.json').read_text())
     results={}
     for name in (['clip','sscd'] if task=='clip_sscd' else ['dinov2']):
         t0=time.perf_counter();record=dict(status='incomplete',pid=os.getpid(),gpu_uuid=visible,device='cuda:0',batch_size=1,preprocess=PREPROCESS[name])
@@ -94,7 +95,7 @@ def worker(root,config,task):
             for n,im in enumerate(inputs):
                 path=root/im['path'];actual=sha256(path)
                 if actual!=im['sha256']:raise ValueError('input image hash mismatch')
-                key=cache_key(actual,name,meta['sha256'],meta['code_commit'],PREPROCESS[name]);dst=root/'cache/stage02'/name/(key+'.npy');dst.parent.mkdir(parents=True,exist_ok=True)
+                key=cache_key(actual,name,meta['sha256'],meta['code_commit'],PREPROCESS[name]);dst=root/f'cache/{stage}'/name/(key+'.npy');dst.parent.mkdir(parents=True,exist_ok=True)
                 start=time.perf_counter()
                 if dst.exists() and not config.get('refresh_features',False):
                     feat=np.load(dst,allow_pickle=False);hits+=1

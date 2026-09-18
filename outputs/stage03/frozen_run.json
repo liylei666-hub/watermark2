@@ -1,0 +1,80 @@
+{
+  "config": {
+    "schema_version": 1,
+    "seed": 20260918,
+    "environment_prefix": "/data0/liyanlei/envs/stego_attack",
+    "server_project": "/data0/liyanlei/instance_authentication_research",
+    "gpu_uuids": {
+      "5": "GPU-e6f35928-0155-f121-e707-1eaf3c14965c",
+      "7": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7"
+    },
+    "batch_size": 1,
+    "generator": {
+      "model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+      "pipeline": "StableDiffusionPipeline",
+      "scheduler": "PNDMScheduler",
+      "height": 1024,
+      "width": 1024,
+      "num_inference_steps": 30,
+      "guidance_scale": 5.0,
+      "negative_prompt": "",
+      "precision": "float16",
+      "generator_device": "cpu",
+      "add_watermarker": false,
+      "safety_checker": "keep pipeline default",
+      "memory_fraction": 0.75,
+      "minimum_free_mib": 20000,
+      "gpu_budget_seconds": 10800,
+      "per_image_wall_limit_seconds": 180,
+      "forecast_safety_factor": 1.15,
+      "output": {
+        "mode": "RGB",
+        "format": "PNG",
+        "compress_level": 6
+      }
+    },
+    "features": {
+      "worker_timeout_seconds": 1800,
+      "memory_fraction": 0.18,
+      "preprocess_version": "stage02-frozen"
+    },
+    "targets_frr": [
+      0.05,
+      0.01,
+      0.1
+    ],
+    "bootstrap": {
+      "replicates": 1000,
+      "seed": 9031801,
+      "unit": "family",
+      "interval": [
+        0.025,
+        0.975
+      ]
+    },
+    "transforms": [
+      "jpeg90",
+      "jpeg70",
+      "scale0.75",
+      "scale0.5",
+      "brightness0.95",
+      "brightness1.05"
+    ],
+    "planned": {
+      "main_prompts": 120,
+      "families": 60,
+      "seeds_per_prompt": 4,
+      "calibration_prompts": 60,
+      "test_prompts": 60,
+      "preflight_prompts": 4
+    },
+    "pairing_D": "Within split, sort prompt IDs; use next eligible distinct-family references at cyclic offsets 1, 7, 19; deduplicate and advance if needed",
+    "grid_selection": "Before scoring: lowest prompt_id per topic and split; four original seeds each"
+  },
+  "generation_config_sha256": "201c844efa965396ba9b2c2f64c5e6c2a7bd2c0d4ab2f05d316426c9c96170b7",
+  "runtime_sha256": "5ef42630e3794efcc00b7b92fea0820da85261591fb1ab24c082f381e51e618c",
+  "prompts_sha256": "206149ece26ceaa0cc619a66691f6abaad0a6e828089b85196016e85d1f3ff18",
+  "protocol_lock_sha256": "d517916c8b0d8e8e9db0e69c6979ef79dedbbb7fc23d4170d8996b016b709cea",
+  "generator_files_sha256": "fb9688eb445f02acc1e173449087392e492008725b60dd5cb219084829dda9a9"
+}

@@ -1,0 +1,9 @@
+{
+  "transferred_bytes": 9912411676,
+  "limit_bytes": 15000000000,
+  "selected_bytes": 6941187536.0,
+  "dependency_download_bytes": 0,
+  "pending_reservation": "unet/diffusion_pytorch_model.fp16.safetensors",
+  "accounting": "Conservative upper bound; interrupted SDXL full-file reservation retained; no further model downloads",
+  "status": "transfer stopped"
+}

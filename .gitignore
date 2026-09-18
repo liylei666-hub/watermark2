@@ -14,6 +14,13 @@ artifacts/*.part
 data/stage02/source/
 data/stage02/images/
 data/stage02/masks/
+data/stage03/images/
+data/stage03/preflight/
+artifacts/stage03/
+artifacts/test_stage03.py
+artifacts/stage03.json
+artifacts/prompt_design.tsv
+artifacts/run_stage03.py
 outputs/runs/
 outputs/audit_preflight/
 *.bundle

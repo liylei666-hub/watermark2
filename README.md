@@ -30,3 +30,12 @@ CUDA_VISIBLE_DEVICES="" python scripts/acquire_stage02.py --models --images
 - [GPU 绑定证据](outputs/stage02/gpu_binding.json)
 
 校准与测试各 10 个原图组。五种分数均以校准 A 的目标 FRR 5% 独立设阈值；B（同提示不同随机种子）缺失，C_proxy 为粗糙贴片流程检查。当前结果不能证明实例防伪或现成特征汇聚的新颖性。
+# 阶段 3：同域实例区分
+
+执行协议见 [03_generation_protocol.md](research/03_generation_protocol.md)。所有实验计算在服务器 `/data0/liyanlei/instance_authentication_research`，沿用 `/data0/liyanlei/envs/stego_attack`。固定生成器和文件哈希见 `outputs/stage03/generator_files.json`，提示词与族划分见 `data/stage03/prompts.jsonl`。
+
+```bash
+CUDA_VISIBLE_DEVICES= /data0/liyanlei/envs/stego_attack/bin/python scripts/run_stage03.py --config configs/stage03.json
+```
+
+入口验证服务器路径、既有模型资产和 GPU 5/7 的 UUID；支持校验后续跑。`--through preflight` 运行独立工程预检查，默认运行至机器审计。结果状态在 `outputs/stage03/run_status.json`，最终分析在 `research/03_same_prompt_diagnostic.md`。完整图像和特征缓存不进入 Git。
