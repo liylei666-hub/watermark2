@@ -27,6 +27,11 @@ class Stage03Tests(unittest.TestCase):
             for d in donors:
                 self.assertEqual(p['split'],table[d]['split']);self.assertNotEqual(p['family'],table[d]['family'])
 
+    def test_effective_subset_rejects_incomplete_family(self):
+        rows=build_prompts(ROOT)
+        with self.assertRaises(ValueError):
+            validate_manifest([],[],rows[:-1])
+
     def test_resume_rejects_changed_artifact(self):
         with tempfile.TemporaryDirectory() as temp:
             p=Path(temp)/'lock.json';save_once(p,{'seed':1});save_once(p,{'seed':1})

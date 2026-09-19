@@ -77,13 +77,14 @@ def run(root, config, phase):
     def generate(job, suffix=''):
         rp=records_dir/(job['id']+suffix+'.json');path=image_dir/(job['id']+suffix+'.png')
         failure_path=records_dir/(job['id']+suffix+'.failure.json')
-        if failure_path.exists(): return None
         if rp.exists():
             rec=json.loads(rp.read_text());validate_image_record(rec,job,generation_hash)
             if not path.exists() or rec['sha256']!=sha256(path):raise RuntimeError('Existing generated image is missing/corrupt; investigate, do not overwrite')
             with Image.open(path) as im:
                 if im.mode!='RGB' or im.size!=(1024,1024) or im.format!='PNG' or digest_pixels(im)!=rec['pixel_sha256']:raise ValueError('Saved image invariant failed')
             return rec
+        # A valid record wins over a stale failure marker left by an interrupted run.
+        if failure_path.exists(): return None
         if path.exists():raise RuntimeError('Orphan image retained for explicit technical recovery: '+str(path))
         attempt,start=reserve(job['id']+suffix)
         def callback(pipeline,step,timestep,kwargs):
@@ -115,7 +116,8 @@ def run(root, config, phase):
             if not mine or any(r.split(',')[0].strip()!=visible for r in mine):raise RuntimeError('Actual generation PID binding failed')
             binding['pid_rows']=mine;dump(out/f'binding_generate_{phase}.json',binding)
     for pid in sorted({r['prompt_id'] for r in records}):
-        if len({r['pixel_sha256'] for r in records if r['prompt_id']==pid})!=4:raise ValueError('Distinct seeds produced duplicate pixels')
+        group=[r for r in records if r['prompt_id']==pid]
+        if len(group)==4 and len({r['pixel_sha256'] for r in group})!=4:raise ValueError('Distinct seeds produced duplicate pixels')
     if phase=='preflight':
         repeated=generate(jobs[0],'_repeat');a=np.asarray(Image.open(root/records[0]['path'])).astype(np.int16);b=np.asarray(Image.open(root/repeated['path'])).astype(np.int16)
         difference=np.abs(a-b); repeat=dict(pixel_equal=bool(np.array_equal(a,b)),max_abs=int(difference.max()),mean_abs=float(difference.mean()))

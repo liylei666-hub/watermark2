@@ -11,10 +11,13 @@ def audit(root,config):
     out=root/'outputs/stage03';prompts=read_jsonl(root/'data/stage03/prompts.jsonl');images=read_jsonl(root/'data/stage03/manifest.jsonl');pairs=read_jsonl(root/'data/stage03/pairs.jsonl')
     validate_manifest(images,pairs,prompts);table={im['id']:im for im in images};checks=[]
     expected_n=len(read_jsonl(root/'data/stage03/effective_prompts.jsonl')); assert len(images)==expected_n*28
-    expected={f'{split}/{cat}':sum(1 for p in pairs if p['split']==split and p['category']==cat) for split in ['calibration','test'] for cat in ['A','B_raw','B_post','D','SELF']}
+    effective=read_jsonl(root/'data/stage03/effective_prompts.jsonl')
+    expected_per_prompt={'A':6,'B_raw':3,'B_post':18,'D':3,'SELF':1}
+    expected={f'{split}/{cat}':sum(1 for p in effective if p['split']==split)*n for split in ['calibration','test'] for cat,n in expected_per_prompt.items()}
     assert dict(Counter(p['split']+'/'+p['category'] for p in pairs))==expected
+    assert len(pairs)==sum(expected.values())
     checks.append(f'{expected_n} effective prompts / {len({p["family"] for p in read_jsonl(root/"data/stage03/effective_prompts.jsonl")})} families; planned 120 prompts; incomplete fixed-seed groups retained separately')
-    frozen=json.loads((out/'frozen_run.json').read_text());effective=read_jsonl(root/'data/stage03/effective_prompts.jsonl')
+    frozen=json.loads((out/'frozen_run.json').read_text())
     for job in generation_jobs(effective):validate_image_record(table[job['id']],job,frozen['generation_config_sha256'])
     for im in images:
         assert im['generation_config_sha256']==frozen['generation_config_sha256']

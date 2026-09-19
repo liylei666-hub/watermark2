@@ -101,6 +101,13 @@ def validate_manifest(images, pairs, prompts):
     else:
         if not prompts or len({p['prompt_id'] for p in prompts})!=len(prompts) or len({p['family'] for p in prompts})*2!=len(prompts): raise ValueError('Invalid effective prompt subset')
         if any(p['split'] not in ['calibration','test'] for p in prompts): raise ValueError('Invalid effective split')
+        families=defaultdict(list)
+        for p in prompts: families[p['family']].append(p)
+        if any(len(v)!=2 or len({p['split'] for p in v})!=1 for v in families.values()): raise ValueError('Effective subset contains incomplete or split-leaking family')
+        for p in prompts:
+            expected=[stable_seed(p['prompt_id'],k) for k in range(4)]
+            if p.get('seeds')!=expected or p.get('reference_slot')!=0 or p.get('reference_seed')!=expected[0] or p.get('roles')!=['reference','instance','instance','instance']:
+                raise ValueError('Effective subset provenance contract failed')
     table={r['id']:r for r in images}; pp={p['prompt_id']:p for p in prompts}
     if len(table)!=len(images): raise ValueError('Duplicate image IDs')
     pixel_splits={}

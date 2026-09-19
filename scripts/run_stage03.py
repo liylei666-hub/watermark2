@@ -27,7 +27,8 @@ def preserve_stage02():
 def launch(config, task, phase=None):
     idx=5 if task=='clip_sscd' else 7
     env=dict(os.environ,CUDA_VISIBLE_DEVICES=HOST_GPUS[idx],XFORMERS_DISABLED='1',CUBLAS_WORKSPACE_CONFIG=':4096:8',HF_HUB_OFFLINE='1',TRANSFORMERS_OFFLINE='1')
-    command=[sys.executable,'-m','stage03.generate','--config','configs/stage03.json','--phase',phase] if task=='generate' else [sys.executable,'-m','stage03.features','--config','configs/stage03.json','--task',task]
+    config_path=str(config.get('_config_path','configs/stage03.json'))
+    command=[sys.executable,'-m','stage03.generate','--config',config_path,'--phase',phase] if task=='generate' else [sys.executable,'-m','stage03.features','--config',config_path,'--task',task]
     name=task+('_'+phase if phase else ''); timeout=config['generator']['gpu_budget_seconds']+120 if task=='generate' else config['features']['worker_timeout_seconds']
     logpath=OUT/'logs'/(name+'.log')
     snapshots=OUT/'logs'/(name+'_resources.jsonl')
@@ -88,7 +89,8 @@ def main(config,through):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--config',required=True);p.add_argument('--through',choices=['preflight','generation','audit'],default='audit');a=p.parse_args()
-    try:main(json.loads(Path(a.config).read_text()),a.through)
+    loaded=json.loads(Path(a.config).read_text());loaded['_config_path']=str(Path(a.config).resolve())
+    try:main(loaded,a.through)
     except Exception as e:
         OUT.mkdir(parents=True,exist_ok=True)
         previous=json.loads((OUT/'run_status.json').read_text()) if (OUT/'run_status.json').exists() else {}
