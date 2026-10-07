@@ -17,7 +17,7 @@
 | 归档内容/本地链接/配置引用 | 标准库脚本逐个检查旧 Git blob、七项引用、48源组设计和零执行预算；最终机器结果见 [仓库检查](../reports/repository_check.json)。 |
 | Git 空白检查 | `git diff --check` 与 staged 检查运行；最终提交前再次执行。 |
 | 文献链接 | PMLR 两页、ICLR 页面、CSI arXiv 全文、WWW 日程及 TMLR 接收索引已读；CVF PDF 为403，OpenReview PDF 为浏览器挑战，PMLR PDF 在浏览工具报 unsupported content-type，保留待复核状态。该失败不等于论文不存在。 |
-| 发布副作用 | GitHub 仓库 PRIVATE，Actions workflow 数0；未添加 CI、部署或自动下载配置。推送使用正常快进，发布后再核对远端 SHA 与关联 checks/runs。 |
+| 发布副作用 | GitHub 仓库 PRIVATE，Actions workflow 数0，部署记录0，webhook为空；未添加 CI、部署或自动下载配置。主整理提交 `53662e70aef06ad954fb5b5ad10607aa67b1cec8` 已正常快进到 main，独立研究分支同 SHA；远端 commit API 和 ls-remote 均确认。关联 check runs、Actions runs、commit statuses 均为0；无适用 CI，不能称作 CI 通过。 |
 
 分数复算确认的是**历史记录内部一致性**：主工作点 B_raw 五方法均 0/174 错误接受；CLIP B_post 为1/1044，其余为0；测试 A 拒绝分别23、24、26、25、30 / 348。该结果与旧报告一致，不是新实验，也不能建立新方法优势。JPEG 分解计数已一并复算。
 
@@ -30,3 +30,5 @@
 - 更广泛文献检索与候选贡献的新颖性判断。现阶段无法承诺 CCF-A 录用或成立的新方法。
 
 后续先执行 [最小实验计划](experiment_plan.md) 中的内容表示证伪阶段；只有差异值得研究后才推进完整水印流程。
+
+发布后证据：[GitHub 主整理提交](https://github.com/liylei666-hub/watermark2/commit/53662e70aef06ad954fb5b5ad10607aa67b1cec8)。提交状态接口在 statuses 为空时返回 pending，仅表示没有上报状态。本文件的后续发布记录提交不改变研究或实验结果。
