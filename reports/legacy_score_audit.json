@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "scope": "recalculation_of_existing_scores_only",
+  "rows": 3658,
+  "checked_count_cells": 375,
+  "calibration_families": 30,
+  "test_families": 29,
+  "score_sha256": "d0c5db5e0ec22b2f9c57f346c34d67b2506c59c02cd8715d7c4a7463bebf67b5",
+  "main_working_point": {
+    "CLIP_global": {
+      "A": {
+        "count": 23,
+        "total": 348
+      },
+      "B_raw": {
+        "count": 0,
+        "total": 174
+      },
+      "B_post": {
+        "count": 1,
+        "total": 1044
+      },
+      "D": {
+        "count": 0,
+        "total": 174
+      }
+    },
+    "SSCD_global": {
+      "A": {
+        "count": 24,
+        "total": 348
+      },
+      "B_raw": {
+        "count": 0,
+        "total": 174
+      },
+      "B_post": {
+        "count": 0,
+        "total": 1044
+      },
+      "D": {
+        "count": 0,
+        "total": 174
+      }
+    },
+    "DINO_global": {
+      "A": {
+        "count": 26,
+        "total": 348
+      },
+      "B_raw": {
+        "count": 0,
+        "total": 174
+      },
+      "B_post": {
+        "count": 0,
+        "total": 1044
+      },
+      "D": {
+        "count": 0,
+        "total": 174
+      }
+    },
+    "DINO_local_mean": {
+      "A": {
+        "count": 25,
+        "total": 348
+      },
+      "B_raw": {
+        "count": 0,
+        "total": 174
+      },
+      "B_post": {
+        "count": 0,
+        "total": 1044
+      },
+      "D": {
+        "count": 0,
+        "total": 174
+      }
+    },
+    "DINO_local_q10": {
+      "A": {
+        "count": 30,
+        "total": 348
+      },
+      "B_raw": {
+        "count": 0,
+        "total": 174
+      },
+      "B_post": {
+        "count": 0,
+        "total": 1044
+      },
+      "D": {
+        "count": 0,
+        "total": 174
+      }
+    }
+  },
+  "not_checked": [
+    "source image pixels",
+    "feature extraction",
+    "GPU execution",
+    "new attacks",
+    "full verifier"
+  ]
+}

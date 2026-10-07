@@ -1,43 +1,41 @@
-# watermark2
+# watermark2 — 允许编辑策略下的实例真实性
 
-生成图像实例级认证的表示诊断工具。当前完成阶段 2：真实预训练 CLIP、SSCD、DINOv2 的小规模基线闭环。比较接收图像与缓存的参考特征；尚未实现水印载荷、签名或主动攻击评估。
+以 Müller 等 CVPR 2025 **Black-Box Forgery Attacks on Semantic Watermarks for Diffusion Models** 为起点，研究生成图像在经过明确允许的编辑后，完整验证流程能否区分合法派生图与改变关键事实的冒认图。
 
-服务器工作目录：`/data0/liyanlei/instance_authentication_research`。
+当前阶段：问题定义、文献核验和最小验证设计。目标为 CCF-A 级研究贡献；尚未提出经验证的新方法或取得新的攻击/防御实验结果。CSI 已研究保持全局语义锚点的细粒度语义改动；本项目下一步需要验证跨防御、完整验证联合适应及匹配正常接受率是否形成有价值的研究问题。
 
-```bash
-cd /data0/liyanlei/instance_authentication_research
-export CUDA_VISIBLE_DEVICES=""
-export PATH=/data0/liyanlei/envs/stego_attack/bin:$PATH
-python scripts/run_stage02.py --config configs/stage02.json --refresh-features
-```
+## 阅读顺序
 
-入口执行 CPU 测试、清单校验、UUID 检查、两个隔离工作进程、阈值校准、测试集评估、图表和运行产物审计。宿主机 GPU 5 依次运行 CLIP/SSCD，GPU 7 运行 DINOv2，每进程内仅有 `cuda:0`。不传 `--refresh-features` 时复用通过哈希校验的缓存。已有输出按运行时间保存于 `outputs/runs/`。
+1. [问题、威胁模型与可证伪假设](research/problem.md)
+2. [来源可追溯文献矩阵](research/literature.md)
+3. [最小验证实验与停止条件](research/experiment_plan.md)
+4. [旧资产复用、归档与恢复](research/migration.md)
+5. [本轮验证记录及未完成项](research/validation.md)
 
-首次准备官方代码、权重与小样本：
+机器可读协议：[configs/pilot.json](configs/pilot.json)；来源索引：[research/references.json](research/references.json)。
 
-```bash
-CUDA_VISIBLE_DEVICES="" python scripts/acquire_stage02.py --models --images
-```
+## 轻量检查
 
-下载器受 1.5 GB 总预算限制，使用固定代码版本和 Commons 查询快照；仓库不存储模型权重。已有服务器环境无需安装或升级依赖。网络失败会报错，不替代模型或数据。
-
-- [阶段 2 报告](research/02_baseline_smoke.md)
-- [服务器环境](research/02_server_environment.txt)
-- [数据来源及图像许可](research/02_sources.md)
-- [模型来源与 SHA-256](artifacts/models.json)
-- [逐对分数](outputs/stage02/pair_scores.csv)
-- [指标](outputs/stage02/metrics.json)
-- [GPU 绑定证据](outputs/stage02/gpu_binding.json)
-
-校准与测试各 10 个原图组。五种分数均以校准 A 的目标 FRR 5% 独立设阈值；B（同提示不同随机种子）缺失，C_proxy 为粗糙贴片流程检查。当前结果不能证明实例防伪或现成特征汇聚的新颖性。
-# 阶段 3：同域实例区分
-
-执行协议见 [03_generation_protocol.md](research/03_generation_protocol.md)。所有实验计算在服务器 `/data0/liyanlei/instance_authentication_research`，沿用 `/data0/liyanlei/envs/stego_attack`。固定生成器和文件哈希见 `outputs/stage03/generator_files.json`，提示词与族划分见 `data/stage03/prompts.jsonl`。
+Python 3.10+，以下两项仅需标准库，不下载数据或调用 GPU：
 
 ```bash
-CUDA_VISIBLE_DEVICES= /data0/liyanlei/envs/stego_attack/bin/python scripts/run_stage03.py --config configs/stage03.json
+python scripts/check_repository.py
+python scripts/audit_legacy_scores.py
 ```
 
-入口验证服务器路径、既有模型资产和 GPU 5/7 的 UUID；支持校验后续跑。`--through preflight` 运行独立工程预检查，默认运行至机器审计。结果状态在 `outputs/stage03/run_status.json`，最终分析在 `research/03_same_prompt_diagnostic.md`。完整图像和特征缓存不进入 Git。
+历史 CPU 单元测试另需 NumPy、Pillow：
 
-本轮实际结果：472/480 计划原图完成，p094 所属 vehicles08 族的固定 seed 被安全检查/单图超时路径标记为不完整，118 条提示词、59 个完整族进入评测；状态为 `audit_complete`。结果 CSV、阈值、指标和审计证据均在 `outputs/stage03/`。
+```bash
+cd legacy
+# PowerShell: $env:CUDA_VISIBLE_DEVICES=''
+# Linux/macOS: export CUDA_VISIBLE_DEVICES=''
+python -m unittest discover -s tests -v
+```
+
+`legacy/` 保存原有代码、数据清单、轻量结果、报告和配置，运行历史工具时以该目录为工作目录。历史 GPU 入口含特定服务器路径及设备绑定，不能直接视为本课题实验入口。完整图片、特征和权重没有复制或下载。
+
+## 已有证据的用途
+
+[旧同提示词诊断](legacy/research/03_same_prompt_diagnostic.md)记录了全局表示对自然重生成实例的低错误接受，以及 JPEG 造成的较高误拒；局部 DINO 未显示优势。这些是旧工作中有限分布上的表示诊断，未包含真实关键事实编辑、载荷恢复、签名或自适应攻击。本轮只重算已保存分数并检查归档一致性。
+
+远端恢复分支：[`backup/pre-restart-20261007`](https://github.com/liylei666-hub/watermark2/tree/backup/pre-restart-20261007)，旧主分支提交为 `1eeea4c95e555bfabc242b90aad35ca813557443`。Git 历史持续保留。
