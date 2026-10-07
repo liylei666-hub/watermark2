@@ -1,0 +1,1406 @@
+[
+  {
+    "source_id": "commons_100018635",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_100018635_count_jpeg70.png",
+    "sha256": "0cd8ca97daf101ea0d7b6cc9f4ee2be4d0699728a572ca18281f19a80c4f45f0",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_100018635",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_100018635_count_resize0.5.png",
+    "sha256": "8987673d6e1c40eef0656c324804d28dcda855c5387475e76aaf6af2285aeebc",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_100018635",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_100018635_text_jpeg70.png",
+    "sha256": "70f69c7b5e9e31c1e77916ce065630bf9932711be49937fb9b38c870f18ef0bf",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_100018635",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_100018635_text_resize0.5.png",
+    "sha256": "5b7c194b588d7ae03b27035f83eab281fdf542ba21e33ab77d15669343ae3d4c",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_100018635",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_100018635_relation_jpeg70.png",
+    "sha256": "c0f360a451d8a92ca9ea0060195724587b9246f96578c120f652e705594a229d",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_100018635",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_100018635_relation_resize0.5.png",
+    "sha256": "4c25d81a1d795af9704d5529805912eccfe40f34501e9dcd5fb5bfd2140f0f5f",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_11393212_count_jpeg70.png",
+    "sha256": "7f1804ae22858b679a1faf23fdb1d30bc96830339c038562126e0febdeeeb126",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_11393212_count_resize0.5.png",
+    "sha256": "fb3409c13e6b62c24f38531062b47ae18a7839d73c3d40e824f70bcdf3706eef",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_11393212_text_jpeg70.png",
+    "sha256": "f7ab51cd1ddbd757c860b9fbed2df9fa825ce0b395356e032e3f65374d15c10c",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_11393212_text_resize0.5.png",
+    "sha256": "ebad59a5ab4c62511b5e57efe4f14c1a79d4bb0ad22f92c8e329c90bd4c4f9bb",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_11393212_relation_jpeg70.png",
+    "sha256": "0d931ff5036ba4549fa8a554143de1db7017057b2a566c5ff25b792e08c3bc0a",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_11393212_relation_resize0.5.png",
+    "sha256": "8b320e241ab8bcc90876370c1e7a73b0e0a5a1f0251ae907c5a80dc191aa7ab1",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_114956623",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_114956623_count_jpeg70.png",
+    "sha256": "fbc582ef0ce888a07284ffc13d20cf036526113f9c2497678fc574af9334f010",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_114956623",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_114956623_count_resize0.5.png",
+    "sha256": "b1ff4784ba654bc8ebf8c641c763429f96b3c50eee22981d8e761c037a3b477e",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_114956623",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_114956623_text_jpeg70.png",
+    "sha256": "5145a77f8d174012d4592b459466c1d578c5fef4035ec536508e982bfc156ed7",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_114956623",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_114956623_text_resize0.5.png",
+    "sha256": "3b3788de497d86e9110d40a55fc85cc9fc2a6df3a30f73c885f99b949274a692",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_114956623",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_114956623_relation_jpeg70.png",
+    "sha256": "9c520a794e3297cd1b3a55abb22035690d5cd3bbc0a3eb4ff5bb4e00113f6ee5",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_114956623",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_114956623_relation_resize0.5.png",
+    "sha256": "3029755480b0c27db65d804c5c62d5d71989ab0391c9c4ecdacce3c07f603276",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_117574679_count_jpeg70.png",
+    "sha256": "b1b18a166e4a8aa6e1a94c2ffb9a501a3663958f547c83926449fcfd9f625ae1",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_117574679_count_resize0.5.png",
+    "sha256": "aef3c5a50a8934288b1c2a16f119704d652fc09fbed79b2c391125390d5b4f8a",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_117574679_text_jpeg70.png",
+    "sha256": "1e6337fbc721c77abed2b14678214d0245b77f33cd09b0b57b8cf12404eaceb7",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_117574679_text_resize0.5.png",
+    "sha256": "2026debadbc1cc0ecd6bc6be98efb1249b0e3e40c92ced0fc0b9a9400742dd0d",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_117574679_relation_jpeg70.png",
+    "sha256": "8ad05edd0ca43141b698686a282ab2ac8d7ef2f3e6cdb52e66128b2ea00aa448",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_117574679_relation_resize0.5.png",
+    "sha256": "07e34e1fd0cf5d05c87ef4210c133f41a86c0cbd3e8b96b921d875f89fb86c55",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_1226206_count_jpeg70.png",
+    "sha256": "d36b3ec967b434d35d5b15b9d2f40ca8c51b83591d776e6e0cadc88af8979616",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_1226206_count_resize0.5.png",
+    "sha256": "8658083983acabb815b3566604035422dca2376b557eb4d2173b2a3323f578db",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_1226206_text_jpeg70.png",
+    "sha256": "b643b791fd6742d937f7500160b9c4b2e0d1b6e32f6f764f0c91916a1b33ddde",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_1226206_text_resize0.5.png",
+    "sha256": "fae2f4c502ac9ec47342db683c2229e18a6b9fc36aefa1a4b6d5a95b78434e17",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_1226206_relation_jpeg70.png",
+    "sha256": "6e90d4075b64836c0bed5bd9ac42a18706e54013f6969460be5fe5feb8e71c6f",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_1226206_relation_resize0.5.png",
+    "sha256": "06ac5dd3dc228478534242fc955d4f9f55a87a843d710000adb47a69280f50f6",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_141842609_count_jpeg70.png",
+    "sha256": "a84f4a382daa19b0f84b5fc277cdfea60fd56de1d7cf74c5fe87e6e89c1006a7",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_141842609_count_resize0.5.png",
+    "sha256": "11655a0aae0d51abeab0464dab67bf215b018b6c75173dc8e57b093f8daaafce",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_141842609_text_jpeg70.png",
+    "sha256": "4e3873c8fb0f7041f5a52c04d83b4b0c7f91ca4c25024b467793bb8eed304bc3",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_141842609_text_resize0.5.png",
+    "sha256": "cba6ec0feb0830481a01d9ce800be14d00bc42c09b410d541b0ade4050733fe9",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_141842609_relation_jpeg70.png",
+    "sha256": "3acd0aa59664fac918fa641f6b6d490b0bf52656fb43543bdbbd5132679cad71",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_141842609_relation_resize0.5.png",
+    "sha256": "d17a7640a4f9cd9335e68012738e0a8dfc2220b30517332edbbc1f7f2d4a2acb",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_159279095_count_jpeg70.png",
+    "sha256": "b5c79f05e766a5d60c5ca0170e81d3cfd230937203aea6790673c5d8c065e862",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_159279095_count_resize0.5.png",
+    "sha256": "8c107f956e079e039c372f13a1f35ea0360c761cc2c97939ed84f2cf1efe0b0b",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_159279095_text_jpeg70.png",
+    "sha256": "2106cbd511eabf8b7d6129485de273aa2307f8e4fc46380ef9b138a217007b21",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_159279095_text_resize0.5.png",
+    "sha256": "0798ef1607838e8ecc6eb509c9cd980a757a33d11d35a30ec80ee90bd3026189",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_159279095_relation_jpeg70.png",
+    "sha256": "55a3236c7239239bd7821c6556a932df275a60c7460f08c790e855ce4762f885",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_159279095_relation_resize0.5.png",
+    "sha256": "1833f52fe863c8d1b89212e0be8522d8ab4cc2c038668d61a22868161c8f1ccb",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_34259360",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_34259360_count_jpeg70.png",
+    "sha256": "0c5503cb1e3682a42a9d05d0be48d03c4c82e001bb0230c7a0b149d5220ee071",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_34259360",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_34259360_count_resize0.5.png",
+    "sha256": "391405c7711d66be0ae3f40a486e443e2706c3005be0d63c7c941f4440d73c79",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_34259360",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_34259360_text_jpeg70.png",
+    "sha256": "f3da7e7a028fee8ef053851fede8aa3d5c550595d296cf2a3b694f3ec1e99f13",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_34259360",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_34259360_text_resize0.5.png",
+    "sha256": "f176549a4a0860899c4e9d8a126d4e4af2fb8ae4109af3407550700c92e0b523",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_34259360",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_34259360_relation_jpeg70.png",
+    "sha256": "bd94e7b6f60c9160111674cc92cfcd6e247eb690615b72e05a92841d42e76924",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_34259360",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_34259360_relation_resize0.5.png",
+    "sha256": "f152c01ceff5c373dda23514dc5455773cfd40c8dc9d92b98facb1fac2d1b8ab",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_38576339",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_38576339_count_jpeg70.png",
+    "sha256": "05cf993930d4282a966598be4d51c627cfee72a9793fc630573c6a850f305a49",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_38576339",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_38576339_count_resize0.5.png",
+    "sha256": "651d59bf99e2d6a56f34871c65c88032bf0d5a4bb2ded2fa1d793310c6e6e179",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_38576339",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_38576339_text_jpeg70.png",
+    "sha256": "c3984324132b7585fe89b56dec7a78dbacfd379655fc4cff302f5e1520ea8cc6",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_38576339",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_38576339_text_resize0.5.png",
+    "sha256": "fe93b401d3ccd6e507e60c1b4da94164151f910f2bd4e0186cc1a1f1c9e990b4",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_38576339",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_38576339_relation_jpeg70.png",
+    "sha256": "853b2d7e8f7fc9e6268edd57862d9ba9e6b43bb03f53743be3131722c3496a16",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_38576339",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_38576339_relation_resize0.5.png",
+    "sha256": "ef3b08430cb0f15b1a9dd6d58287fdd1bba05ccee684ad73ae5731b543f967d6",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_40710041_count_jpeg70.png",
+    "sha256": "daed80a69a36f353d452022a36eed6bcf85fc39c74cbfba4a857d3ada06a98f0",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_40710041_count_resize0.5.png",
+    "sha256": "e0f7962575431c1ac1d9e3ba0c54412513f5fe7c4cdbc2018bcc96b514626c9c",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_40710041_text_jpeg70.png",
+    "sha256": "43f0c99a79b41f5bd206d916dd3b8a1d705b0bfa74ebe5ecdf45f162cc2cd9c1",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_40710041_text_resize0.5.png",
+    "sha256": "8ca346ccbdf6b47b19c6768b638843dfedc81b2acee89ff533e04d31e61eaed3",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_40710041_relation_jpeg70.png",
+    "sha256": "c8d6db273b9a9d6b3781e67a34e90fec81d4eb493f1aeaee24484a715b6a0955",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_40710041_relation_resize0.5.png",
+    "sha256": "4873e98ab74c07c8ef180ba048c5fb24ae4657c6ce0b1cd1a0b31e2e29a66074",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_41628507",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_41628507_count_jpeg70.png",
+    "sha256": "b53a890096795c5a3b48811554deffeb40bd80c320aecea9def2693af54b50b3",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_41628507",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_41628507_count_resize0.5.png",
+    "sha256": "528fac29b9cd5397c39c2d4d2a9cc230653b786626fefbc9234fa1a1db59aca8",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_41628507",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_41628507_text_jpeg70.png",
+    "sha256": "5c7ea2237f95bc6786aecc1def330d7b3ebf62dc1ea985533effbe9dd4fe1a8c",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_41628507",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_41628507_text_resize0.5.png",
+    "sha256": "cdc366fa1b5aaa387c9aa6d34098e14c407098134f4ac918edf2ef5c21a2a648",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_41628507",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_41628507_relation_jpeg70.png",
+    "sha256": "34ef5e7120dc99f25cc48a564a8c5f1c9760b44411fc59816ef4e9bdae2cc357",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_41628507",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_41628507_relation_resize0.5.png",
+    "sha256": "722e5ed17d3bf45ae302d592bd29b92b70540427251f150383514581ebe10b04",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_42069123_count_jpeg70.png",
+    "sha256": "edb137e216a3893909161722669c0ecc2b3babcdd3f6b1f9dc2c7eca874f34a6",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_42069123_count_resize0.5.png",
+    "sha256": "e973faa4d7db482fa9043a4dd80f1b780231c134c8a2d687e9be335d719830d0",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_42069123_text_jpeg70.png",
+    "sha256": "d2acb864f5fc7d766d6c83febe645aef039c57a44f40a5e101ed99e07b39bad2",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_42069123_text_resize0.5.png",
+    "sha256": "14da626e096798b23e1aecb67714417b9ed8d85b4d77710bc7199bad71ccbe09",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_42069123_relation_jpeg70.png",
+    "sha256": "512a13d3196fd1d668e59fa0306921858ee22584da717b3b342b33af8b656628",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_42069123_relation_resize0.5.png",
+    "sha256": "4083bc780beefb87e2898d75c712eac500377728ca1d70b992ac37ca986324a6",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_44683621",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_44683621_count_jpeg70.png",
+    "sha256": "46f7b6cd1daafb15dbf07dc92c904ec644b22250147220e3518259db50382640",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_44683621",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_44683621_count_resize0.5.png",
+    "sha256": "5d369cbc150551958227b456cb1a9891a25030e29b71fbe3789db2d4b9c8138f",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_44683621",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_44683621_text_jpeg70.png",
+    "sha256": "ea7222a8430bef6f14333375e4a55d53369734101d90c6c9a9317f059faf2d0f",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_44683621",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_44683621_text_resize0.5.png",
+    "sha256": "b35b4c1cc61d61c6be33536e1d138f3a254a6fde9b8e26e568a142ef94524bf4",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_44683621",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_44683621_relation_jpeg70.png",
+    "sha256": "28314e04396720e84a78917869614763d0c78dd152e7a7328a3e4a785fd44b6c",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_44683621",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_44683621_relation_resize0.5.png",
+    "sha256": "5d34f5505101af639def0c72c21f581eda1438c89dd2dc583307a28fae3570d6",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_47780866_count_jpeg70.png",
+    "sha256": "8a6792119115c0c76109e3122357a1c3ad28af73c8daa84a8402e56fa06418be",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_47780866_count_resize0.5.png",
+    "sha256": "48d7604373f3b816322b644619870f7e01e878fe1d76ad055f3a0191ca56cbf6",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_47780866_text_jpeg70.png",
+    "sha256": "6d37f8a35085b6dc2d74579a0ab98d6a81e56a02deb235f54fc56e3f374c6dc3",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_47780866_text_resize0.5.png",
+    "sha256": "0ad9e61a19cf3da364c5f191c1766ead30263c374fdd172af748ad299b929d9c",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_47780866_relation_jpeg70.png",
+    "sha256": "dfe5afd8fe19bab16973a36041429b56914139ee8e06c9ca8f76055306dd0693",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_47780866_relation_resize0.5.png",
+    "sha256": "6a62183b8176f82572c07fb38513823e4037dbb11e80650238829690509de373",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_48575131_count_jpeg70.png",
+    "sha256": "a6dd11b7fe08c38846f7b749e3ead7a5236693a177ddf9374c56031fa70994b1",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_48575131_count_resize0.5.png",
+    "sha256": "7c6f6b479647bcb7edff339bf842eeae9ed14469eab4ff138bd3451a693e92e6",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_48575131_text_jpeg70.png",
+    "sha256": "73c765b992eabf319f22914a39392927c021ac4c6c068427004f08ff412e7377",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_48575131_text_resize0.5.png",
+    "sha256": "a67947d700014ab5a5d719af20fb3dee3ea8e296a7308090eb7934065c811742",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_48575131_relation_jpeg70.png",
+    "sha256": "7d80117b78ba62405e2944251ff9788dabfe2ef2bd8eae742ecc74e56c0ef33a",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_48575131_relation_resize0.5.png",
+    "sha256": "80ea97b60d4cbed3c421014f9ee102043c692725de59c067bad8492d82185ad3",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_73462291",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_73462291_count_jpeg70.png",
+    "sha256": "f2dfdec4f14a755781354761216660d8166deb3996e071ea337706aaebaa6d96",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_73462291",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_73462291_count_resize0.5.png",
+    "sha256": "04bbebfef8bb34d1647429d36ba7fcb24e4d8ffe8a5c4b09939eb43afdcc0c12",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_73462291",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_73462291_text_jpeg70.png",
+    "sha256": "e29a1422a4686da633b47e2c48a4c98c55d1c8a9f23ccc7f056d0c27346c1cd4",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_73462291",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_73462291_text_resize0.5.png",
+    "sha256": "29a29d912d35cf3c4d9b381c480aaf23e17238850fc1771eca4e0ac9f6281d7b",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_73462291",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_73462291_relation_jpeg70.png",
+    "sha256": "6cb853ac197b3791ec523cd86ec320c2eeef941891c1888a54b990e829d8e096",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_73462291",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_73462291_relation_resize0.5.png",
+    "sha256": "d2605299802bd6e5bb7f28f916094ffe8187ab1ee9a2c23d5e87fcc59aa1e37a",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_95847980",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_95847980_count_jpeg70.png",
+    "sha256": "9bbe33dd546087aec700387788943deac13d2d9f634c37f50b69c50de1c33f77",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_95847980",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_95847980_count_resize0.5.png",
+    "sha256": "332dd0df5b6722b72c8be3642f5560cc61ce49e3ca7d971b7ea777a14de60341",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_95847980",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_95847980_text_jpeg70.png",
+    "sha256": "f5de0c7add33f126b5abd7b9cbaaa995ed902bb8d1ac1b93fda86319f05a6f26",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_95847980",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_95847980_text_resize0.5.png",
+    "sha256": "87ca93120c58375f0780fb722fc32e6f51a07957ea2f5105c673b4158535d7d3",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_95847980",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_95847980_relation_jpeg70.png",
+    "sha256": "9b4516889ad77da6f3099e26c458ab27224bc88b05f1601b7cf2c3721875e484",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_95847980",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_95847980_relation_resize0.5.png",
+    "sha256": "7031f1d4b0cc88e9a9ffa45e6110dee244ae2491ebd01922759099addcb9ff50",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_98821976",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_98821976_count_jpeg70.png",
+    "sha256": "99f2e2f6cad59b435a7e4380032a76225a182923cf4e8ca94228a448dd1d872e",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_98821976",
+    "split": "test",
+    "modification": "count",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_98821976_count_resize0.5.png",
+    "sha256": "9f18944e221372781e95747c09631d7267a97fcb93310c113456d750ab267881",
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_98821976",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_98821976_text_jpeg70.png",
+    "sha256": "9ae46c3c6c41acb317c6dd73a644c5435bb0bfe7aadd07c9e3538d177d44de6d",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_98821976",
+    "split": "test",
+    "modification": "text",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_98821976_text_resize0.5.png",
+    "sha256": "03152f31b4bc5e5bfda50773025f29b74d4964cb25a6a1c230f1b05ce71e97bf",
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_98821976",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "jpeg70",
+    "path": "runs/cpu_pilot/followup/commons_98821976_relation_jpeg70.png",
+    "sha256": "0acd6ff868b38d57ecaed4ac906282ffb567ebd16d84c1272e168640679b5680",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "source_id": "commons_98821976",
+    "split": "test",
+    "modification": "relation",
+    "postprocess": "resize0.5",
+    "path": "runs/cpu_pilot/followup/commons_98821976_relation_resize0.5.png",
+    "sha256": "0ce1780c8bb156619ea3868419831896dc27b003c01f914fc6db4fccced613a9",
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  }
+]

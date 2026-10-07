@@ -1,0 +1,10 @@
+{
+  "values": {
+    "global_score": 0.9446536898612976,
+    "multiscale_min": 0.8939735889434814
+  },
+  "fit_split": "calibration",
+  "target_frr": 0.05,
+  "accept": "score >= threshold",
+  "calibration_pairs": 36
+}

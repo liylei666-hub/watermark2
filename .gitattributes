@@ -9,3 +9,5 @@
 *.jsonl text eol=lf
 *.tsv text eol=lf
 *.ps1 text eol=lf
+# Preserve exact bytes of hash-bound experiment evidence on all platforms.
+reports/cpu_pilot/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

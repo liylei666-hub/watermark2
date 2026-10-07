@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\liylei\Documents\Codex\2026-10-08\task\watermark2\scripts\cpu_pilot.py", line 229, in <module>
+    else:score(args.asset_root)
+  File "C:\Users\liylei\Documents\Codex\2026-10-08\task\watermark2\scripts\cpu_pilot.py", line 151, in score
+    started=time.perf_counter(); model=torch.jit.load(str(model_path),map_location='cpu').eval()
+  File "D:\python\python2\lib\site-packages\torch\jit\_serialization.py", line 162, in load
+    cpp_module = torch._C.import_ir_module(cu, str(f), map_location, _extra_files, _restore_shapes)  # type: ignore[call-arg]
+RuntimeError: open file failed because of errno 2 on fopen: No such file or directory, file path: C:\Users\liylei\Documents\ChatGPT\����2\weights\sscd_disc_mixup.torchscript.pt

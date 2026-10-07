@@ -1,0 +1,484 @@
+{
+  "status": "complete",
+  "scope": "reference-conditioned representation diagnostic on constructed placards over 18 licensed photographs",
+  "metrics": {
+    "global_score": {
+      "calibration": {
+        "jpeg70": {
+          "accepted": 8,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 0.8888888888888888,
+          "source_macro": 0.8888888888888888,
+          "score_min": 0.9382347464561462,
+          "score_median": 0.985127329826355,
+          "score_max": 0.9966350793838501
+        },
+        "jpeg90": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9945613145828247,
+          "score_median": 0.9967854022979736,
+          "score_max": 0.9987713098526001
+        },
+        "resize0.5": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.961979866027832,
+          "score_median": 0.9754132032394409,
+          "score_max": 0.9846793413162231
+        },
+        "resize0.75": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9874194264411926,
+          "score_median": 0.9919769763946533,
+          "score_max": 0.9945605993270874
+        },
+        "count": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9939953684806824,
+          "score_median": 0.9975976347923279,
+          "score_max": 0.9986405372619629
+        },
+        "text": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9991112947463989,
+          "score_median": 0.9998012185096741,
+          "score_max": 0.999868631362915
+        },
+        "relation": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9970893859863281,
+          "score_median": 0.9982626438140869,
+          "score_max": 0.9993083477020264
+        },
+        "process_control": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9973884224891663,
+          "score_median": 0.9985529184341431,
+          "score_max": 0.9992886185646057
+        },
+        "replacement": {
+          "accepted": 0,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 0.0,
+          "source_macro": 0.0,
+          "score_min": 0.07271407544612885,
+          "score_median": 0.09173931181430817,
+          "score_max": 0.16280829906463623
+        },
+        "allowed_pooled": {
+          "accepted": 35,
+          "total": 36,
+          "source_groups": 9,
+          "rate": 0.9722222222222222,
+          "source_macro": 0.9722222222222222,
+          "score_min": 0.9382347464561462,
+          "score_median": 0.9911481142044067,
+          "score_max": 0.9987713098526001
+        }
+      },
+      "test": {
+        "jpeg70": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9726284742355347,
+          "score_median": 0.9891173243522644,
+          "score_max": 0.9942530393600464
+        },
+        "jpeg90": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.996219277381897,
+          "score_median": 0.9977483749389648,
+          "score_max": 0.9985989332199097
+        },
+        "resize0.5": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.974527895450592,
+          "score_median": 0.983163595199585,
+          "score_max": 0.9855235815048218
+        },
+        "resize0.75": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9894894957542419,
+          "score_median": 0.9941943883895874,
+          "score_max": 0.9972975850105286
+        },
+        "count": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9947551488876343,
+          "score_median": 0.9970084428787231,
+          "score_max": 0.9988028407096863
+        },
+        "text": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9991173148155212,
+          "score_median": 0.9997507333755493,
+          "score_max": 0.9998812675476074
+        },
+        "relation": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9960272908210754,
+          "score_median": 0.9979909658432007,
+          "score_max": 0.9997084736824036
+        },
+        "process_control": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.997160792350769,
+          "score_median": 0.9988368153572083,
+          "score_max": 0.9993732571601868
+        },
+        "replacement": {
+          "accepted": 0,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 0.0,
+          "source_macro": 0.0,
+          "score_min": -0.03638501465320587,
+          "score_median": 0.1002236157655716,
+          "score_max": 0.1621347963809967
+        },
+        "allowed_pooled": {
+          "accepted": 36,
+          "total": 36,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9726284742355347,
+          "score_median": 0.9922542572021484,
+          "score_max": 0.9985989332199097
+        }
+      }
+    },
+    "multiscale_min": {
+      "calibration": {
+        "jpeg70": {
+          "accepted": 8,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 0.8888888888888888,
+          "source_macro": 0.8888888888888888,
+          "score_min": 0.8365077972412109,
+          "score_median": 0.9253144264221191,
+          "score_max": 0.9799773097038269
+        },
+        "jpeg90": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9380995035171509,
+          "score_median": 0.9699676632881165,
+          "score_max": 0.9893905520439148
+        },
+        "resize0.5": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9203290939331055,
+          "score_median": 0.9582468271255493,
+          "score_max": 0.9708945155143738
+        },
+        "resize0.75": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9443386793136597,
+          "score_median": 0.9733761548995972,
+          "score_max": 0.9792386293411255
+        },
+        "count": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9843564033508301,
+          "score_median": 0.9943267703056335,
+          "score_max": 0.9976822137832642
+        },
+        "text": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9963542819023132,
+          "score_median": 0.9985638856887817,
+          "score_max": 0.9997512698173523
+        },
+        "relation": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9871023297309875,
+          "score_median": 0.9940476417541504,
+          "score_max": 0.9985353350639343
+        },
+        "process_control": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9950895309448242,
+          "score_median": 0.9971771836280823,
+          "score_max": 0.9982577562332153
+        },
+        "replacement": {
+          "accepted": 0,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 0.0,
+          "source_macro": 0.0,
+          "score_min": -0.11575697362422943,
+          "score_median": -0.0325121134519577,
+          "score_max": -0.0020319856703281403
+        },
+        "allowed_pooled": {
+          "accepted": 35,
+          "total": 36,
+          "source_groups": 9,
+          "rate": 0.9722222222222222,
+          "source_macro": 0.9722222222222222,
+          "score_min": 0.8365077972412109,
+          "score_median": 0.9620882272720337,
+          "score_max": 0.9893905520439148
+        }
+      },
+      "test": {
+        "jpeg70": {
+          "accepted": 8,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 0.8888888888888888,
+          "source_macro": 0.8888888888888888,
+          "score_min": 0.7581444978713989,
+          "score_median": 0.92237788438797,
+          "score_max": 0.9583733677864075
+        },
+        "jpeg90": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9544698596000671,
+          "score_median": 0.9756170511245728,
+          "score_max": 0.9838225841522217
+        },
+        "resize0.5": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9377896785736084,
+          "score_median": 0.9504772424697876,
+          "score_max": 0.9751392602920532
+        },
+        "resize0.75": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9616205096244812,
+          "score_median": 0.9757881164550781,
+          "score_max": 0.9888243675231934
+        },
+        "count": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9783564805984497,
+          "score_median": 0.9906788468360901,
+          "score_max": 0.9983469843864441
+        },
+        "text": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9930213689804077,
+          "score_median": 0.9967399835586548,
+          "score_max": 0.9991398453712463
+        },
+        "relation": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9892463684082031,
+          "score_median": 0.9937217235565186,
+          "score_max": 0.9971100091934204
+        },
+        "process_control": {
+          "accepted": 9,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 1.0,
+          "source_macro": 1.0,
+          "score_min": 0.9926388263702393,
+          "score_median": 0.9968788027763367,
+          "score_max": 0.9982693195343018
+        },
+        "replacement": {
+          "accepted": 0,
+          "total": 9,
+          "source_groups": 9,
+          "rate": 0.0,
+          "source_macro": 0.0,
+          "score_min": -0.10167863965034485,
+          "score_median": -0.004621071740984917,
+          "score_max": 0.05107627809047699
+        },
+        "allowed_pooled": {
+          "accepted": 35,
+          "total": 36,
+          "source_groups": 9,
+          "rate": 0.9722222222222222,
+          "source_macro": 0.9722222222222222,
+          "score_min": 0.7581444978713989,
+          "score_median": 0.963411808013916,
+          "score_max": 0.9888243675231934
+        }
+      }
+    }
+  },
+  "paired_acceptance_delta_multiscale_minus_global": {
+    "jpeg70": {
+      "point": -0.11111111111111116,
+      "low": -0.6666666666666667,
+      "high": 0.0
+    },
+    "jpeg90": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "resize0.5": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "resize0.75": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "count": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "text": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "relation": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "process_control": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "replacement": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "allowed_pooled": {
+      "point": -0.02777777777777779,
+      "low": -0.16666666666666663,
+      "high": 0.0
+    }
+  },
+  "bootstrap": {
+    "replicates": 2000,
+    "unit": "source",
+    "refit_calibration": true,
+    "seed": 20261007,
+    "limitation": "small exploratory reused-source sample; replacement conditions on fixed cyclic donors"
+  },
+  "failures": {
+    "input_hash": 0,
+    "feature_extraction": 0,
+    "nonfinite": 0
+  },
+  "new_experiment": true,
+  "full_watermark_verifier": false
+}

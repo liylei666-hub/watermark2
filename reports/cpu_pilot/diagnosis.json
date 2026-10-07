@@ -1,0 +1,1238 @@
+{
+  "scope": "posthoc; modification boxes only used to explain scores, never by verifier",
+  "view_order": [
+    "full",
+    "top_left",
+    "top_right",
+    "bottom_left",
+    "bottom_right"
+  ],
+  "benign_false_rejects": [
+    {
+      "source_id": "commons_38576339",
+      "variant": "jpeg70",
+      "view_cosines": [
+        0.9744862914085388,
+        0.7581444978713989,
+        0.9055320024490356,
+        0.8746851682662964,
+        0.9549309015274048
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.9344902038574219,
+      "global_accept": true,
+      "multiscale_accept": false
+    }
+  ],
+  "sensitivity": {
+    "jpeg70": {
+      "median_global_cosine_drop": 0.010882675647735596,
+      "median_panel_quadrant_cosine_drop": 0.06293940544128418,
+      "median_changed_pixel_fraction": 0.9499435424804688
+    },
+    "jpeg90": {
+      "median_global_cosine_drop": 0.0022516250610351562,
+      "median_panel_quadrant_cosine_drop": 0.024382948875427246,
+      "median_changed_pixel_fraction": 0.9163551330566406
+    },
+    "resize0.5": {
+      "median_global_cosine_drop": 0.01683640480041504,
+      "median_panel_quadrant_cosine_drop": 0.041802048683166504,
+      "median_changed_pixel_fraction": 0.8951988220214844
+    },
+    "resize0.75": {
+      "median_global_cosine_drop": 0.005805611610412598,
+      "median_panel_quadrant_cosine_drop": 0.023013651371002197,
+      "median_changed_pixel_fraction": 0.8081436157226562
+    },
+    "count": {
+      "median_global_cosine_drop": 0.0029915571212768555,
+      "median_panel_quadrant_cosine_drop": 0.009321153163909912,
+      "median_changed_pixel_fraction": 0.000370025634765625
+    },
+    "text": {
+      "median_global_cosine_drop": 0.0002492666244506836,
+      "median_panel_quadrant_cosine_drop": 0.003260016441345215,
+      "median_changed_pixel_fraction": 0.00051116943359375
+    },
+    "relation": {
+      "median_global_cosine_drop": 0.0020090341567993164,
+      "median_panel_quadrant_cosine_drop": 0.006278276443481445,
+      "median_changed_pixel_fraction": 0.00171661376953125
+    },
+    "process_control": {
+      "median_global_cosine_drop": 0.001163184642791748,
+      "median_panel_quadrant_cosine_drop": 0.00312119722366333,
+      "median_changed_pixel_fraction": 0.002529144287109375
+    }
+  },
+  "per_source_views": [
+    {
+      "source_id": "commons_100018635",
+      "variant": "jpeg70",
+      "view_cosines": [
+        0.9726284742355347,
+        0.8947223424911499,
+        0.9001034498214722,
+        0.9409907460212708,
+        0.9405125379562378
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.9276924133300781,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_100018635",
+      "variant": "jpeg90",
+      "view_cosines": [
+        0.996219277381897,
+        0.9756221175193787,
+        0.9627196788787842,
+        0.9837129712104797,
+        0.976464569568634
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.8587493896484375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_100018635",
+      "variant": "resize0.5",
+      "view_cosines": [
+        0.9748624563217163,
+        0.9873450994491577,
+        0.9504772424697876,
+        0.9767190217971802,
+        0.9738252758979797
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.8223457336425781,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_100018635",
+      "variant": "resize0.75",
+      "view_cosines": [
+        0.9910578727722168,
+        0.995266318321228,
+        0.9824347496032715,
+        0.9760354161262512,
+        0.9757881164550781
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 4,
+      "modified_pixel_fraction": 0.7164688110351562,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_100018635",
+      "variant": "count",
+      "view_cosines": [
+        0.9952249526977539,
+        1.0000001192092896,
+        0.9856564998626709,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.000370025634765625,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_100018635",
+      "variant": "text",
+      "view_cosines": [
+        0.9991173148155212,
+        1.0000001192092896,
+        0.9951966404914856,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.00051116943359375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_100018635",
+      "variant": "relation",
+      "view_cosines": [
+        0.9984010457992554,
+        1.0000001192092896,
+        0.9937217235565186,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.00171661376953125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_100018635",
+      "variant": "process_control",
+      "view_cosines": [
+        0.997160792350769,
+        1.0000001192092896,
+        0.9954842925071716,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.002529144287109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_114956623",
+      "variant": "jpeg70",
+      "view_cosines": [
+        0.9938967823982239,
+        0.9683404564857483,
+        0.9763849973678589,
+        0.9729329943656921,
+        0.9583733677864075
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 4,
+      "modified_pixel_fraction": 0.9644241333007812,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_114956623",
+      "variant": "jpeg90",
+      "view_cosines": [
+        0.998492956161499,
+        0.9840071201324463,
+        0.9919099807739258,
+        0.9898414015769958,
+        0.981322169303894
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 4,
+      "modified_pixel_fraction": 0.9500389099121094,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_114956623",
+      "variant": "resize0.5",
+      "view_cosines": [
+        0.9850034713745117,
+        0.9760766625404358,
+        0.9784714579582214,
+        0.9840444326400757,
+        0.9751392602920532
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 4,
+      "modified_pixel_fraction": 0.9326400756835938,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_114956623",
+      "variant": "resize0.75",
+      "view_cosines": [
+        0.9935222268104553,
+        0.9766066074371338,
+        0.9886819124221802,
+        0.9896664023399353,
+        0.984785258769989
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.8839912414550781,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_114956623",
+      "variant": "count",
+      "view_cosines": [
+        0.9947551488876343,
+        0.9906788468360901,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.000370025634765625,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_114956623",
+      "variant": "text",
+      "view_cosines": [
+        0.99968421459198,
+        0.9965823888778687,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.00051116943359375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_114956623",
+      "variant": "relation",
+      "view_cosines": [
+        0.9973747134208679,
+        0.9960266351699829,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.00171661376953125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_114956623",
+      "variant": "process_control",
+      "view_cosines": [
+        0.9988530278205872,
+        0.9974769353866577,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.002529144287109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_34259360",
+      "variant": "jpeg70",
+      "view_cosines": [
+        0.9906917214393616,
+        0.934459388256073,
+        0.9160267114639282,
+        0.9717264175415039,
+        0.9473824501037598
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.9499435424804688,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_34259360",
+      "variant": "jpeg90",
+      "view_cosines": [
+        0.9978985786437988,
+        0.985370934009552,
+        0.9838722944259644,
+        0.9909013509750366,
+        0.9838225841522217
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 4,
+      "modified_pixel_fraction": 0.9163551330566406,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_34259360",
+      "variant": "resize0.5",
+      "view_cosines": [
+        0.983163595199585,
+        0.9818071722984314,
+        0.9806978702545166,
+        0.9468749761581421,
+        0.9800931215286255
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.8951988220214844,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_34259360",
+      "variant": "resize0.75",
+      "view_cosines": [
+        0.9964673519134521,
+        0.9949114322662354,
+        0.9933207035064697,
+        0.9805158376693726,
+        0.9886398315429688
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.8138275146484375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_34259360",
+      "variant": "count",
+      "view_cosines": [
+        0.9979697465896606,
+        1.0,
+        1.0,
+        0.9986485242843628,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 0,
+      "modified_pixel_fraction": 0.000370025634765625,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_34259360",
+      "variant": "text",
+      "view_cosines": [
+        0.9998812675476074,
+        1.0,
+        1.0,
+        0.9991398453712463,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.00051116943359375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_34259360",
+      "variant": "relation",
+      "view_cosines": [
+        0.9997084736824036,
+        1.0,
+        1.0,
+        0.9962435364723206,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.00171661376953125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_34259360",
+      "variant": "process_control",
+      "view_cosines": [
+        0.9983353614807129,
+        1.0,
+        1.0,
+        0.9982693195343018,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.002529144287109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_38576339",
+      "variant": "jpeg70",
+      "view_cosines": [
+        0.9744862914085388,
+        0.7581444978713989,
+        0.9055320024490356,
+        0.8746851682662964,
+        0.9549309015274048
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.9344902038574219,
+      "global_accept": true,
+      "multiscale_accept": false
+    },
+    {
+      "source_id": "commons_38576339",
+      "variant": "jpeg90",
+      "view_cosines": [
+        0.9968163371086121,
+        0.9544698596000671,
+        0.9682561159133911,
+        0.9595275521278381,
+        0.9895257949829102
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.8748435974121094,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_38576339",
+      "variant": "resize0.5",
+      "view_cosines": [
+        0.974527895450592,
+        0.9672859311103821,
+        0.9586561322212219,
+        0.9786807298660278,
+        0.981326699256897
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.8204002380371094,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_38576339",
+      "variant": "resize0.75",
+      "view_cosines": [
+        0.9941943883895874,
+        0.9866740703582764,
+        0.9616205096244812,
+        0.9850097894668579,
+        0.9885402917861938
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.7089881896972656,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_38576339",
+      "variant": "count",
+      "view_cosines": [
+        0.9988028407096863,
+        1.0000001192092896,
+        0.9952590465545654,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.000370025634765625,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_38576339",
+      "variant": "text",
+      "view_cosines": [
+        0.9993084669113159,
+        1.0000001192092896,
+        0.996084988117218,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.00051116943359375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_38576339",
+      "variant": "relation",
+      "view_cosines": [
+        0.9960272908210754,
+        1.0000001192092896,
+        0.9892463684082031,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.00171661376953125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_38576339",
+      "variant": "process_control",
+      "view_cosines": [
+        0.9993732571601868,
+        1.0000001192092896,
+        0.9968788027763367,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.002529144287109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_41628507",
+      "variant": "jpeg70",
+      "view_cosines": [
+        0.9942530393600464,
+        0.954649806022644,
+        0.9303922653198242,
+        0.9832361936569214,
+        0.9717331528663635
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.9551925659179688,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_41628507",
+      "variant": "jpeg90",
+      "view_cosines": [
+        0.9985989332199097,
+        0.9885188341140747,
+        0.9755859375,
+        0.9940657615661621,
+        0.9932304620742798
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.9264144897460938,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_41628507",
+      "variant": "resize0.5",
+      "view_cosines": [
+        0.9837616682052612,
+        0.9772533178329468,
+        0.9445750117301941,
+        0.9728134274482727,
+        0.9736783504486084
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.9064407348632812,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_41628507",
+      "variant": "resize0.75",
+      "view_cosines": [
+        0.996554970741272,
+        0.9929909706115723,
+        0.9722418785095215,
+        0.9892195463180542,
+        0.9917062520980835
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.8081436157226562,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_41628507",
+      "variant": "count",
+      "view_cosines": [
+        0.9970041513442993,
+        1.0000001192092896,
+        0.9783564805984497,
+        1.0,
+        1.0
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.000370025634765625,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_41628507",
+      "variant": "text",
+      "view_cosines": [
+        0.9991376399993896,
+        1.0000001192092896,
+        0.9930213689804077,
+        1.0,
+        1.0
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.00051116943359375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_41628507",
+      "variant": "relation",
+      "view_cosines": [
+        0.9980997443199158,
+        1.0000001192092896,
+        0.9927986264228821,
+        1.0,
+        1.0
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.00171661376953125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_41628507",
+      "variant": "process_control",
+      "view_cosines": [
+        0.9989557266235352,
+        1.0000001192092896,
+        0.9935272932052612,
+        1.0,
+        1.0
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.002529144287109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_44683621",
+      "variant": "jpeg70",
+      "view_cosines": [
+        0.9891469478607178,
+        0.929739236831665,
+        0.92237788438797,
+        0.9518170356750488,
+        0.9625505208969116
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.9267425537109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_44683621",
+      "variant": "jpeg90",
+      "view_cosines": [
+        0.9977483749389648,
+        0.9821945428848267,
+        0.9756170511245728,
+        0.9876797199249268,
+        0.9865752458572388
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.86956787109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_44683621",
+      "variant": "resize0.5",
+      "view_cosines": [
+        0.9855235815048218,
+        0.9625433087348938,
+        0.9410343766212463,
+        0.9806591272354126,
+        0.9807643890380859
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.8510665893554688,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_44683621",
+      "variant": "resize0.75",
+      "view_cosines": [
+        0.9949439764022827,
+        0.9844843149185181,
+        0.9783973693847656,
+        0.9888007044792175,
+        0.9868122339248657
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.7612800598144531,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_44683621",
+      "variant": "count",
+      "view_cosines": [
+        0.9985686540603638,
+        1.0,
+        0.989700198173523,
+        1.0000001192092896,
+        1.0
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.000370025634765625,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_44683621",
+      "variant": "text",
+      "view_cosines": [
+        0.9997507333755493,
+        1.0,
+        0.9981387853622437,
+        1.0000001192092896,
+        1.0
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.00051116943359375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_44683621",
+      "variant": "relation",
+      "view_cosines": [
+        0.9971100091934204,
+        1.0,
+        0.9971653819084167,
+        1.0000001192092896,
+        1.0
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 0,
+      "modified_pixel_fraction": 0.00171661376953125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_44683621",
+      "variant": "process_control",
+      "view_cosines": [
+        0.9977847337722778,
+        1.0,
+        0.9968498945236206,
+        1.0000001192092896,
+        1.0
+      ],
+      "panel_quadrant_view": 2,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.002529144287109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_73462291",
+      "variant": "jpeg70",
+      "view_cosines": [
+        0.9768506288528442,
+        0.916327953338623,
+        0.9170091152191162,
+        0.9741530418395996,
+        0.9528793692588806
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.9114265441894531,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_73462291",
+      "variant": "jpeg90",
+      "view_cosines": [
+        0.9967591166496277,
+        0.983127236366272,
+        0.9841580986976624,
+        0.9888129234313965,
+        0.9848815202713013
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.857025146484375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_73462291",
+      "variant": "resize0.5",
+      "view_cosines": [
+        0.9844105839729309,
+        0.9794538617134094,
+        0.9750054478645325,
+        0.969595193862915,
+        0.9783636331558228
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.8223342895507812,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_73462291",
+      "variant": "resize0.75",
+      "view_cosines": [
+        0.9894894957542419,
+        0.9928199052810669,
+        0.9936619997024536,
+        0.9888243675231934,
+        0.9890474677085876
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.7378387451171875,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_73462291",
+      "variant": "count",
+      "view_cosines": [
+        0.9964976906776428,
+        1.0,
+        1.0,
+        0.9966405034065247,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 0,
+      "modified_pixel_fraction": 0.000370025634765625,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_73462291",
+      "variant": "text",
+      "view_cosines": [
+        0.9998675584793091,
+        1.0,
+        1.0,
+        0.9984787106513977,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.00051116943359375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_73462291",
+      "variant": "relation",
+      "view_cosines": [
+        0.9979909658432007,
+        1.0,
+        1.0,
+        0.9943262338638306,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.00171661376953125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_73462291",
+      "variant": "process_control",
+      "view_cosines": [
+        0.9987231492996216,
+        1.0,
+        1.0,
+        0.9979930520057678,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.002529144287109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_95847980",
+      "variant": "jpeg70",
+      "view_cosines": [
+        0.9875907897949219,
+        0.9666756391525269,
+        0.9360367059707642,
+        0.9755557775497437,
+        0.9630931615829468
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.9551124572753906,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_95847980",
+      "variant": "jpeg90",
+      "view_cosines": [
+        0.9975674748420715,
+        0.9880422949790955,
+        0.9781635999679565,
+        0.9874404668807983,
+        0.9857370257377625
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.93048095703125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_95847980",
+      "variant": "resize0.5",
+      "view_cosines": [
+        0.9782927632331848,
+        0.9791054129600525,
+        0.9803097248077393,
+        0.965843677520752,
+        0.9716991782188416
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.9184417724609375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_95847980",
+      "variant": "resize0.75",
+      "view_cosines": [
+        0.9934506416320801,
+        0.988203763961792,
+        0.9873470664024353,
+        0.9769863486289978,
+        0.97278892993927
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 4,
+      "modified_pixel_fraction": 0.8769912719726562,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_95847980",
+      "variant": "count",
+      "view_cosines": [
+        0.9983469843864441,
+        1.0,
+        1.0,
+        0.9987597465515137,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 0,
+      "modified_pixel_fraction": 0.000370025634765625,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_95847980",
+      "variant": "text",
+      "view_cosines": [
+        0.9998571872711182,
+        1.0,
+        1.0,
+        0.9986339211463928,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.00051116943359375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_95847980",
+      "variant": "relation",
+      "view_cosines": [
+        0.9970492720603943,
+        1.0,
+        1.0,
+        0.9920491576194763,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.00171661376953125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_95847980",
+      "variant": "process_control",
+      "view_cosines": [
+        0.9991188049316406,
+        1.0,
+        1.0,
+        0.9976365566253662,
+        1.0
+      ],
+      "panel_quadrant_view": 3,
+      "minimum_view": 3,
+      "modified_pixel_fraction": 0.002529144287109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_98821976",
+      "variant": "jpeg70",
+      "view_cosines": [
+        0.9891173243522644,
+        0.9370605945587158,
+        0.9585479497909546,
+        0.9625416398048401,
+        0.981671929359436
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.9581298828125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_98821976",
+      "variant": "jpeg90",
+      "view_cosines": [
+        0.9981189966201782,
+        0.9735689163208008,
+        0.9852495193481445,
+        0.9818378686904907,
+        0.9925262928009033
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.935028076171875,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_98821976",
+      "variant": "resize0.5",
+      "view_cosines": [
+        0.974959135055542,
+        0.9581979513168335,
+        0.9377896785736084,
+        0.9667940139770508,
+        0.9757682681083679
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.9135513305664062,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_98821976",
+      "variant": "resize0.75",
+      "view_cosines": [
+        0.9972975850105286,
+        0.9692263007164001,
+        0.9641039371490479,
+        0.981877326965332,
+        0.9812206029891968
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 2,
+      "modified_pixel_fraction": 0.8623886108398438,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_98821976",
+      "variant": "count",
+      "view_cosines": [
+        0.9970084428787231,
+        0.9904665350914001,
+        1.0,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.000370025634765625,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_98821976",
+      "variant": "text",
+      "view_cosines": [
+        0.9997983574867249,
+        0.9967399835586548,
+        1.0,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.00051116943359375,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_98821976",
+      "variant": "relation",
+      "view_cosines": [
+        0.9989612102508545,
+        0.9920450448989868,
+        1.0,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.00171661376953125,
+      "global_accept": true,
+      "multiscale_accept": true
+    },
+    {
+      "source_id": "commons_98821976",
+      "variant": "process_control",
+      "view_cosines": [
+        0.9988368153572083,
+        0.9926388263702393,
+        1.0,
+        1.0,
+        1.0000001192092896
+      ],
+      "panel_quadrant_view": 1,
+      "minimum_view": 1,
+      "modified_pixel_fraction": 0.002529144287109375,
+      "global_accept": true,
+      "multiscale_accept": true
+    }
+  ],
+  "source_error_bounds": {
+    "global_accept": {
+      "allowed_source_any_reject": 0,
+      "sources": 9,
+      "one_sided_95_percent_upper": 0.2831288355631135
+    },
+    "multiscale_accept": {
+      "allowed_source_any_reject": 1,
+      "sources": 9,
+      "one_sided_95_percent_upper": 0.4291355470314345
+    }
+  },
+  "zero_of_9_one_sided_95_upper": 0.2831288355631135,
+  "binomial_assumptions": "Exact Clopper-Pearson bound only under independent identically distributed source-level Bernoulli trials; exploratory reused sources and cyclic replacement donors do not establish these assumptions. No patch/variant inflation."
+}

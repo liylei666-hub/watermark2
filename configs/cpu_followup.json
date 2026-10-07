@@ -1,0 +1,15 @@
+{
+  "id": "cpu-controls-matched-postprocessing-v1",
+  "status": "posthoc_diagnostic_after_first_pilot",
+  "reason": "Both SSCD methods accepted every raw changed placard; check matched compression/resize without refitting thresholds",
+  "modifications": ["count", "text", "relation"],
+  "postprocess": ["jpeg70", "resize0.5"],
+  "thresholds": "reuse reports/cpu_pilot/thresholds.json unchanged",
+  "preprocess": "identical SSCD and fixed five views as first pilot",
+  "sources": "same 18 source groups, same 9/9 split",
+  "threads": 2,
+  "device": "cpu",
+  "wall_limit_seconds": 600,
+  "new_downloads": 0,
+  "new_gpu_seconds": 0
+}

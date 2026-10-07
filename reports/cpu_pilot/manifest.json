@@ -1,0 +1,3242 @@
+[
+  {
+    "id": "commons_100018635_reference",
+    "source_id": "commons_100018635",
+    "split": "test",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_100018635_reference.png",
+    "sha256": "ffd6de8aa93c392f619f0573c7202010f0e409303d744d58b3f3c53c1149bad8",
+    "changed_pixels": 0,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_100018635_jpeg70",
+    "source_id": "commons_100018635",
+    "split": "test",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_100018635_jpeg70.png",
+    "sha256": "7fa3f1cd38658f90a7e6cd848d55e468b0b4868939aa52828dac478ad9920b9e",
+    "changed_pixels": 243189,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_100018635_jpeg90",
+    "source_id": "commons_100018635",
+    "split": "test",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_100018635_jpeg90.png",
+    "sha256": "e099ec5c8ca5642ddf271f0c4a6a49d2f50481ada9a360c4de5af6ac72edae99",
+    "changed_pixels": 225116,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_100018635_resize0.5",
+    "source_id": "commons_100018635",
+    "split": "test",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_100018635_resize0.5.png",
+    "sha256": "f8eb772856275576c3db3bde047cce975347144ee4af33cfa989f8f37bfe5e65",
+    "changed_pixels": 215573,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_100018635_resize0.75",
+    "source_id": "commons_100018635",
+    "split": "test",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_100018635_resize0.75.png",
+    "sha256": "69b2fe022670fac7afc29f75d6d5361624c2e40e118def756e7ef670b197c8b1",
+    "changed_pixels": 187818,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_100018635_count",
+    "source_id": "commons_100018635",
+    "split": "test",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_100018635_count.png",
+    "sha256": "b6e00802106a0fd19f5d5bc126bc185c7677934d627f6373b108d2bd23395c3b",
+    "changed_pixels": 97,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_100018635_text",
+    "source_id": "commons_100018635",
+    "split": "test",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_100018635_text.png",
+    "sha256": "2ccbc02f1107265067aee6a88fec851d2a0c3f543069d2e7f08fe42e93aae1ee",
+    "changed_pixels": 134,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_100018635_relation",
+    "source_id": "commons_100018635",
+    "split": "test",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_100018635_relation.png",
+    "sha256": "f1aff9dbc8be01f1d59644a8483ee8e06e5a60abe94a591317e2ab58e62efb45",
+    "changed_pixels": 450,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_100018635_process_control",
+    "source_id": "commons_100018635",
+    "split": "test",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_100018635_process_control.png",
+    "sha256": "805a84b573046c6418fa7ee3719da8c8796c08059f2bd13743a469d7980eb92f",
+    "changed_pixels": 663,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_11393212_reference",
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_11393212_reference.png",
+    "sha256": "a7d943b5568ba605e4cadc800664de9fd6cf3f976e8fec1585655d755c2130f3",
+    "changed_pixels": 0,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_11393212_jpeg70",
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_11393212_jpeg70.png",
+    "sha256": "e47d4569f28528037b53c47c79dc84d01cf827ab91392d18368bf9e97d9f7ca7",
+    "changed_pixels": 246221,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_11393212_jpeg90",
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_11393212_jpeg90.png",
+    "sha256": "6682e6ad6f272c7212ff33ed35097d8e8a6657bdbae295619820cd4726862fb8",
+    "changed_pixels": 235038,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_11393212_resize0.5",
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_11393212_resize0.5.png",
+    "sha256": "e6f8dff26339b09a23e88ffac5de0c201e5ff9ab12a4cc1d002f24b4742cb125",
+    "changed_pixels": 230880,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_11393212_resize0.75",
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_11393212_resize0.75.png",
+    "sha256": "8bbf1b0cc02360ae8f235d7e166697b4c5a1e9c7d73e57b1aa388e1df468434b",
+    "changed_pixels": 212565,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_11393212_count",
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_11393212_count.png",
+    "sha256": "dd4a178f33562efa502da9ff748737b9035b13f7643d1655f0d1874b3cda6f16",
+    "changed_pixels": 97,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_11393212_text",
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_11393212_text.png",
+    "sha256": "d011e9f759d1ad6c3e09a0b24aa84e586dbc56e56415af6bb94dd9bf88e36b6e",
+    "changed_pixels": 134,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_11393212_relation",
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_11393212_relation.png",
+    "sha256": "43f2414cc8237aae4c6a1832fb0f7df15a9079e74d6f7163bee0f7a7930b93cd",
+    "changed_pixels": 450,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_11393212_process_control",
+    "source_id": "commons_11393212",
+    "split": "calibration",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_11393212_process_control.png",
+    "sha256": "ea4ddc6dcba3ee7be70924879a53380170dcdf6c1e3d084263f8284fdeaff0b4",
+    "changed_pixels": 663,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_114956623_reference",
+    "source_id": "commons_114956623",
+    "split": "test",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_114956623_reference.png",
+    "sha256": "3d52d5e0e9b4d160e78a165d5801fef7f2bc07aeefda268c7ebb5b15190bd1a3",
+    "changed_pixels": 0,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_114956623_jpeg70",
+    "source_id": "commons_114956623",
+    "split": "test",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_114956623_jpeg70.png",
+    "sha256": "e7db6fa1b5896d6017e9f59430d6732657d57f7d295b98e48fba4f3e8d8ea90e",
+    "changed_pixels": 252818,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_114956623_jpeg90",
+    "source_id": "commons_114956623",
+    "split": "test",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_114956623_jpeg90.png",
+    "sha256": "0004df1887b212998fd1e539101945419cad61774c42d3c539ff245253296c08",
+    "changed_pixels": 249047,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_114956623_resize0.5",
+    "source_id": "commons_114956623",
+    "split": "test",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_114956623_resize0.5.png",
+    "sha256": "a5d6df62020d9c1ed74fc0928023e49628a36cae5b7164ebb4f3f63678af4023",
+    "changed_pixels": 244486,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_114956623_resize0.75",
+    "source_id": "commons_114956623",
+    "split": "test",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_114956623_resize0.75.png",
+    "sha256": "d409715fbd86aaa9b41f0e0d3bc016eb8b37898f653de4bfe43858abb117a764",
+    "changed_pixels": 231733,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_114956623_count",
+    "source_id": "commons_114956623",
+    "split": "test",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_114956623_count.png",
+    "sha256": "fa143989bd0eb45b8aa2d62201165f85e816d99a31e6d52ff5460d4d7656838d",
+    "changed_pixels": 97,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_114956623_text",
+    "source_id": "commons_114956623",
+    "split": "test",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_114956623_text.png",
+    "sha256": "b7c35900fb47bdd5090e8aa905c80f1c2fe480a61b483cf26e0e0c0b7f8d445c",
+    "changed_pixels": 134,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_114956623_relation",
+    "source_id": "commons_114956623",
+    "split": "test",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_114956623_relation.png",
+    "sha256": "5872b19980873ab663a573a472d1ea69f9c7b3aef5a630eff62f9e365e6799aa",
+    "changed_pixels": 450,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_114956623_process_control",
+    "source_id": "commons_114956623",
+    "split": "test",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_114956623_process_control.png",
+    "sha256": "9f798d31d45f69eb112d2cda062f3ee811b0a6c5e954f55d1f1b5c90ce95248b",
+    "changed_pixels": 663,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_117574679_reference",
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_117574679_reference.png",
+    "sha256": "275fc21c5c13b852b24413b38b29fbcad44cd3a93a4e7eb2eb8681a88b4b98cc",
+    "changed_pixels": 0,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_117574679_jpeg70",
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_117574679_jpeg70.png",
+    "sha256": "e172ff0dbe8e44fd57167ae1f94c1cd305a0b44ff586ea148192008d23cb4ac9",
+    "changed_pixels": 225322,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_117574679_jpeg90",
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_117574679_jpeg90.png",
+    "sha256": "ddb58b388daa251d4fd8e9d34434bba24ffac9123e5cd60d0150ff8643b9c35c",
+    "changed_pixels": 179872,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_117574679_resize0.5",
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_117574679_resize0.5.png",
+    "sha256": "a6e8f15ee5cdf7ab2fd1e715dd091febb28afd77f14044bf503e65e3c8b60146",
+    "changed_pixels": 161300,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_117574679_resize0.75",
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_117574679_resize0.75.png",
+    "sha256": "2bf76e7409287d2ae9bd5bf8feea8738a45817f315c82313586ec0219782e555",
+    "changed_pixels": 132368,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_117574679_count",
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_117574679_count.png",
+    "sha256": "6195e553026e48eef804ba2f21c61576c328428937d52ad3ff42c5f551c6376b",
+    "changed_pixels": 97,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_117574679_text",
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_117574679_text.png",
+    "sha256": "ae7057f21b7b3c19e291c22a0933caf024cc100a70bd0ec2263a4ecc94422f93",
+    "changed_pixels": 134,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_117574679_relation",
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_117574679_relation.png",
+    "sha256": "379ef96b800b3373832bf0df38ba7a78d07c0c25ca677e59041bbbc98f952eab",
+    "changed_pixels": 450,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_117574679_process_control",
+    "source_id": "commons_117574679",
+    "split": "calibration",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_117574679_process_control.png",
+    "sha256": "38b9f9544a0ff56018ac50fbf104f894a2a35938e7fd9ee1d3288855ab799ce2",
+    "changed_pixels": 663,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_1226206_reference",
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_1226206_reference.png",
+    "sha256": "a7a73d44129d11f6c21f9889830a73c9eecc90396dda562caa6ea4e1573a1629",
+    "changed_pixels": 0,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_1226206_jpeg70",
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_1226206_jpeg70.png",
+    "sha256": "9c3d56d1c9d0307f42556ea0dcf1527281fd407642bed47a724e6c29045e7b92",
+    "changed_pixels": 251408,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_1226206_jpeg90",
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_1226206_jpeg90.png",
+    "sha256": "0dcb091f02a50b808baf5f29cb4ad1ee5a8282c41a5f7e02d371fcce54c390ef",
+    "changed_pixels": 243029,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_1226206_resize0.5",
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_1226206_resize0.5.png",
+    "sha256": "f6f5d32c2bfee3420319b1346e775ae0c10e40e5ddcd7710295108840ac664f1",
+    "changed_pixels": 239320,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_1226206_resize0.75",
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_1226206_resize0.75.png",
+    "sha256": "e0fddd9d5638ea854875ae11ce7203265a3eed1644b55bd99a675738c799557e",
+    "changed_pixels": 223676,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_1226206_count",
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_1226206_count.png",
+    "sha256": "ac12fe7469cdab48acaa060581ed3e9354b6adc45cdf47d53b2c5c3443fc2ac2",
+    "changed_pixels": 97,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_1226206_text",
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_1226206_text.png",
+    "sha256": "c12ff6fda78a9a493c6ff30977f764a80d5d35c1a7351ef766dcb01c28e1bde9",
+    "changed_pixels": 134,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_1226206_relation",
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_1226206_relation.png",
+    "sha256": "f1d221227d654c111d3b97631a2f1bf13fcf208b47011d1c7191add37c8a5933",
+    "changed_pixels": 450,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_1226206_process_control",
+    "source_id": "commons_1226206",
+    "split": "calibration",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_1226206_process_control.png",
+    "sha256": "d992ea18d05f1bc707af3577ed344b428f677a16596b844223ba1228ed0ad046",
+    "changed_pixels": 663,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_141842609_reference",
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_141842609_reference.png",
+    "sha256": "f8830c2ecb566ae23082f8c4a0b34b516e158ada73985c49e85ae044924673a8",
+    "changed_pixels": 0,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_141842609_jpeg70",
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_141842609_jpeg70.png",
+    "sha256": "717545cbed87342638c5eb1f71b258863d423ec45d3b93e6b8d6e07bb9b7d002",
+    "changed_pixels": 246355,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_141842609_jpeg90",
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_141842609_jpeg90.png",
+    "sha256": "b7e98935b543b7bb0a52982d316736545b5d64b452b3d49b53e6a360b7628e12",
+    "changed_pixels": 229762,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_141842609_resize0.5",
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_141842609_resize0.5.png",
+    "sha256": "d535be4d1ac4ff27313bf04905e1cf587865cd450d39ec25dce99609e2a16c96",
+    "changed_pixels": 223172,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_141842609_resize0.75",
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_141842609_resize0.75.png",
+    "sha256": "5e124fe1e176beeebb1029cba059cc850fcf328dab51c2790073bc1d65b23c69",
+    "changed_pixels": 197865,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_141842609_count",
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_141842609_count.png",
+    "sha256": "59dbb9faabff0ec53f175c2a2e67badcd54911ee86a837c219ddec4c9145a5c0",
+    "changed_pixels": 97,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_141842609_text",
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_141842609_text.png",
+    "sha256": "d2c577cfc978aab18b754ba7d38f8069e58cb20dcca2ef08a3f4fbe4ff280e16",
+    "changed_pixels": 134,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_141842609_relation",
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_141842609_relation.png",
+    "sha256": "bfed992a141b379602e432885d3bdc7cf8f9711150577e3ef293225628de7daf",
+    "changed_pixels": 450,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_141842609_process_control",
+    "source_id": "commons_141842609",
+    "split": "calibration",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_141842609_process_control.png",
+    "sha256": "ecf3f7ffe4e3e524496af50510404afc7a3a7d720386c30ec9fbfafa52c23af0",
+    "changed_pixels": 663,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_159279095_reference",
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_159279095_reference.png",
+    "sha256": "09ac23d22972681191a92986aeea958c3b1a3a47984c2495e444e7ba01d28a17",
+    "changed_pixels": 0,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_159279095_jpeg70",
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_159279095_jpeg70.png",
+    "sha256": "334af804e58bc8bc8bc002248dab8cd20392a6339a787b4b8b7949fc5a1f0f1d",
+    "changed_pixels": 254313,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_159279095_jpeg90",
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_159279095_jpeg90.png",
+    "sha256": "3ae1788cd7578b58a75a7e205cae8397d8e56da7a557382746058726486790f6",
+    "changed_pixels": 252953,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_159279095_resize0.5",
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_159279095_resize0.5.png",
+    "sha256": "73595d8fda7d0131ec70b790bc4222fb363c3e0d1c91ffe91a95133ee21da1ff",
+    "changed_pixels": 251473,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_159279095_resize0.75",
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_159279095_resize0.75.png",
+    "sha256": "acd0380625c268df54fa016f639937b635c902b2d36b5de412425707e11a2369",
+    "changed_pixels": 249243,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_159279095_count",
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_159279095_count.png",
+    "sha256": "f3f7f31ff2960d3751b969fde0e51657fba4142b98bab3937bcf160f79bd008c",
+    "changed_pixels": 97,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_159279095_text",
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_159279095_text.png",
+    "sha256": "17dcfe0392ee7ca896ad678ef2fd1c4e07ebdb606389a4db083edddac05c43ef",
+    "changed_pixels": 134,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_159279095_relation",
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_159279095_relation.png",
+    "sha256": "32d059a7afc7a7752cfcc3d88e09eb9d91df1769a689661ec2f0a7c46653148a",
+    "changed_pixels": 450,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_159279095_process_control",
+    "source_id": "commons_159279095",
+    "split": "calibration",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_159279095_process_control.png",
+    "sha256": "9e7e5140b37a3a60528e01d08a6d1ec7a1499ebe2b0648bbd72528e48bd860d3",
+    "changed_pixels": 663,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_34259360_reference",
+    "source_id": "commons_34259360",
+    "split": "test",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_34259360_reference.png",
+    "sha256": "74d6074630060801a861c4796b7d8d0fc21d0b67a9e447f7e7b08b9538c5e91d",
+    "changed_pixels": 0,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_34259360_jpeg70",
+    "source_id": "commons_34259360",
+    "split": "test",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_34259360_jpeg70.png",
+    "sha256": "3122fb22a1890f770c1a45b971897d95b810fcea83d7d247393fb3c5a328ba98",
+    "changed_pixels": 249022,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_34259360_jpeg90",
+    "source_id": "commons_34259360",
+    "split": "test",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_34259360_jpeg90.png",
+    "sha256": "92068c9759e145d268af1af458a8d722d53f8057c6c24f5c22d02dc1286e41fd",
+    "changed_pixels": 240217,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_34259360_resize0.5",
+    "source_id": "commons_34259360",
+    "split": "test",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_34259360_resize0.5.png",
+    "sha256": "b764ac1f26b3de928efe2ec57f11db655d72ea472453a5ce0c07df032d9622c6",
+    "changed_pixels": 234671,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_34259360_resize0.75",
+    "source_id": "commons_34259360",
+    "split": "test",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_34259360_resize0.75.png",
+    "sha256": "fe05de43797ef8cff65bb6b1907e5e81b2c771bb971ad802d45ef035735bbb12",
+    "changed_pixels": 213340,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_34259360_count",
+    "source_id": "commons_34259360",
+    "split": "test",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_34259360_count.png",
+    "sha256": "1c998ac619af0349ec381dc6f986e2348d9fb2d258cc3ecac8f6db22acc2e681",
+    "changed_pixels": 97,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_34259360_text",
+    "source_id": "commons_34259360",
+    "split": "test",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_34259360_text.png",
+    "sha256": "899b644b5a4aab3141974e1865ad8838172c5ad4cdec0e3a0db5991060a7c42b",
+    "changed_pixels": 134,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_34259360_relation",
+    "source_id": "commons_34259360",
+    "split": "test",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_34259360_relation.png",
+    "sha256": "b99a18116d1d7262057041bf34a47f2d99d6f25b04ed66ba9af4f2c6415b8094",
+    "changed_pixels": 450,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_34259360_process_control",
+    "source_id": "commons_34259360",
+    "split": "test",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_34259360_process_control.png",
+    "sha256": "5a55628a16c60c2c9623e7852028355e77a3421def92e39310d7cf196b22ec45",
+    "changed_pixels": 663,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_38576339_reference",
+    "source_id": "commons_38576339",
+    "split": "test",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_38576339_reference.png",
+    "sha256": "84e3fc8ac9fab9b921c2672b36954901acef71b96aa01f08ba030bed0e793be7",
+    "changed_pixels": 0,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_38576339_jpeg70",
+    "source_id": "commons_38576339",
+    "split": "test",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_38576339_jpeg70.png",
+    "sha256": "d509fad5eb46fb982a72bb2500ff44c6030cfee5f35e67651b607cd3f84ea932",
+    "changed_pixels": 244971,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_38576339_jpeg90",
+    "source_id": "commons_38576339",
+    "split": "test",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_38576339_jpeg90.png",
+    "sha256": "bb8f7d4636217c168598693b34d689081df7a38616e99bb21c01e71562595a7f",
+    "changed_pixels": 229335,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_38576339_resize0.5",
+    "source_id": "commons_38576339",
+    "split": "test",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_38576339_resize0.5.png",
+    "sha256": "71a845bee76d2f90708daf8da3d6a0b6fb19e9e4de51ec37f656575b3ada2c41",
+    "changed_pixels": 215063,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_38576339_resize0.75",
+    "source_id": "commons_38576339",
+    "split": "test",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_38576339_resize0.75.png",
+    "sha256": "e98b5152e5d38bda6b43de64a50b32096b6ae6f74d8dfa756a02accce2268051",
+    "changed_pixels": 185857,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_38576339_count",
+    "source_id": "commons_38576339",
+    "split": "test",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_38576339_count.png",
+    "sha256": "6d6fa1b6c7bb12fe803e2158e0b08e4d66788af358391ae34d4ca5451a907859",
+    "changed_pixels": 97,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_38576339_text",
+    "source_id": "commons_38576339",
+    "split": "test",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_38576339_text.png",
+    "sha256": "6562e39fd0b2dd998486256ec04e2d89e74ecd3c1423ee1f8a899621f3f4db5f",
+    "changed_pixels": 134,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_38576339_relation",
+    "source_id": "commons_38576339",
+    "split": "test",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_38576339_relation.png",
+    "sha256": "bd9fb932c6b83375c5f28721e4db12beda21caf861939fa63f04f78e3512a742",
+    "changed_pixels": 450,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_38576339_process_control",
+    "source_id": "commons_38576339",
+    "split": "test",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_38576339_process_control.png",
+    "sha256": "63d135d392353d02a780dfad6c0ce8591e749e747619182acf8c949920b07a18",
+    "changed_pixels": 663,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_40710041_reference",
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_40710041_reference.png",
+    "sha256": "5bd743635461552f3d7ccf1e2c323609ba6bf890b3cf0b4648563096a681acf3",
+    "changed_pixels": 0,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_40710041_jpeg70",
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_40710041_jpeg70.png",
+    "sha256": "9e679e7a839a6408f2fd790c2b94b824e3408e9f5b67aca96c4dfb42f1e16339",
+    "changed_pixels": 245540,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_40710041_jpeg90",
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_40710041_jpeg90.png",
+    "sha256": "bf3ffb88878fa2773f8073eb3f5f3c647a917830ef7f48dd0bf94501ea3a2a15",
+    "changed_pixels": 228425,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_40710041_resize0.5",
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_40710041_resize0.5.png",
+    "sha256": "7a6a5c40c1ac56ef3f5379a5076aa965d7e2b899cc07ef36772390aa6434f132",
+    "changed_pixels": 221843,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_40710041_resize0.75",
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_40710041_resize0.75.png",
+    "sha256": "c25cabc1f00475047c9d1b114a44d43675f9e3471d78dedbd93d956c74a833c0",
+    "changed_pixels": 203719,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_40710041_count",
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_40710041_count.png",
+    "sha256": "940241572277d628ff2bb47704a7fbf49a23618b0aea4727a27f51a7cb7e6a0e",
+    "changed_pixels": 97,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_40710041_text",
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_40710041_text.png",
+    "sha256": "fbab37b165fa352182d2cec7c45129962b4bc0826244c5dc2ebb1b4fbc08e3ca",
+    "changed_pixels": 134,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_40710041_relation",
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_40710041_relation.png",
+    "sha256": "3aa17983563b28552546348b64b9ea2cb28ed1e5298f45dbede2e6608d12211d",
+    "changed_pixels": 450,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_40710041_process_control",
+    "source_id": "commons_40710041",
+    "split": "calibration",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_40710041_process_control.png",
+    "sha256": "d3bf7a65243daf5a1a35cf3aa774e7946a6b259c4663d55c92f12ad4ab05eff4",
+    "changed_pixels": 663,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_41628507_reference",
+    "source_id": "commons_41628507",
+    "split": "test",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_41628507_reference.png",
+    "sha256": "9858a90f7286ee14c1987fa60941ccc767c4ae7444951d0354cef2002702f090",
+    "changed_pixels": 0,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_41628507_jpeg70",
+    "source_id": "commons_41628507",
+    "split": "test",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_41628507_jpeg70.png",
+    "sha256": "25b88487e29e62167fddcdd2e299752cd47a1953adf0ea5d69d38608764ae96a",
+    "changed_pixels": 250398,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_41628507_jpeg90",
+    "source_id": "commons_41628507",
+    "split": "test",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_41628507_jpeg90.png",
+    "sha256": "9f497f1d7c58097c5fa6754588e927f3fe15d3080ee1e55cda8fb78712d428d7",
+    "changed_pixels": 242854,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_41628507_resize0.5",
+    "source_id": "commons_41628507",
+    "split": "test",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_41628507_resize0.5.png",
+    "sha256": "c691c2d5b8950479eb3bf3e910f4ddef3c6e67cd3ff8e415532c15eac36c635c",
+    "changed_pixels": 237618,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_41628507_resize0.75",
+    "source_id": "commons_41628507",
+    "split": "test",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_41628507_resize0.75.png",
+    "sha256": "46b28f21c07a9b221daad7acac3f5cfb3686f7b3980401e0297a3172ca198244",
+    "changed_pixels": 211850,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_41628507_count",
+    "source_id": "commons_41628507",
+    "split": "test",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_41628507_count.png",
+    "sha256": "cc1f8b8ef2ff6a835725d5c5960fbbacadd360aa5662602b356192bd5cf412f1",
+    "changed_pixels": 97,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_41628507_text",
+    "source_id": "commons_41628507",
+    "split": "test",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_41628507_text.png",
+    "sha256": "92f93d3c9f7d0507ca255cc10e7e1453bf8a2b3047f5fc92799c330432cb8f2b",
+    "changed_pixels": 134,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_41628507_relation",
+    "source_id": "commons_41628507",
+    "split": "test",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_41628507_relation.png",
+    "sha256": "834d782c9cdbbe87b5f373e3c0d79be776261da712b15beb9373dc0a81ff9d17",
+    "changed_pixels": 450,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_41628507_process_control",
+    "source_id": "commons_41628507",
+    "split": "test",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_41628507_process_control.png",
+    "sha256": "e778a0d0274ab39a96583bea623316d63524583b7677a616d074589208b31186",
+    "changed_pixels": 663,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_42069123_reference",
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_42069123_reference.png",
+    "sha256": "ed6bf434cbf6636583c82be2d9fd867a9465f1bc0e1f95684ba3f6e86a1659ad",
+    "changed_pixels": 0,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_42069123_jpeg70",
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_42069123_jpeg70.png",
+    "sha256": "98f2a4877ae63dfe2360625119fc43c22092f19ec85ed7d370565d2d369140fc",
+    "changed_pixels": 243937,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_42069123_jpeg90",
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_42069123_jpeg90.png",
+    "sha256": "f21ef635eb875bfaca1983cf1180e7c92230ad8a3b705bf9c0b731a7b85bd283",
+    "changed_pixels": 226375,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_42069123_resize0.5",
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_42069123_resize0.5.png",
+    "sha256": "cfb5621da19d51ffc2e6d5403d68451e8cbc697a93b51c020fe421bb1ea0e82a",
+    "changed_pixels": 209227,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_42069123_resize0.75",
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_42069123_resize0.75.png",
+    "sha256": "5d01ea4ec2ff257d0cc1c2e1815ae7834f5614e217105b4e54f1ccfcbddfa93a",
+    "changed_pixels": 183547,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_42069123_count",
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_42069123_count.png",
+    "sha256": "65c43650283883b1271790ab95a90628e08abac95eaec91f3581b622781cb486",
+    "changed_pixels": 97,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_42069123_text",
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_42069123_text.png",
+    "sha256": "13e1c983b1b11641c1141f3f2f509ebead0953080621b7915700f8a113646b36",
+    "changed_pixels": 134,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_42069123_relation",
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_42069123_relation.png",
+    "sha256": "c1da9463e842a08a24a277f6fb445f6e1b858f95df159cce4c8e2963f049b3dd",
+    "changed_pixels": 450,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_42069123_process_control",
+    "source_id": "commons_42069123",
+    "split": "calibration",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_42069123_process_control.png",
+    "sha256": "f2d2e08c9049914836ce0afd194172932b2876056c0521a54a5f6ff7742b3d60",
+    "changed_pixels": 663,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_44683621_reference",
+    "source_id": "commons_44683621",
+    "split": "test",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_44683621_reference.png",
+    "sha256": "ff27cbb6dfccb277264a99b9f464ca1b43677322bdff3f8fefe0cb1ed04b8502",
+    "changed_pixels": 0,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_44683621_jpeg70",
+    "source_id": "commons_44683621",
+    "split": "test",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_44683621_jpeg70.png",
+    "sha256": "018c1755b1e36309a46749a46e160ef372c91fe7afeb34416bac2c4cef4e6b2e",
+    "changed_pixels": 242940,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_44683621_jpeg90",
+    "source_id": "commons_44683621",
+    "split": "test",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_44683621_jpeg90.png",
+    "sha256": "250ca17eca6b19b9149e6137e0e46b361afb3dbce4916353432cb0443ed11e31",
+    "changed_pixels": 227952,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_44683621_resize0.5",
+    "source_id": "commons_44683621",
+    "split": "test",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_44683621_resize0.5.png",
+    "sha256": "4db1a9423a730d78323c76a8e19ce3044c32d1cdb91d184c3a395123a6b8fffb",
+    "changed_pixels": 223102,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_44683621_resize0.75",
+    "source_id": "commons_44683621",
+    "split": "test",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_44683621_resize0.75.png",
+    "sha256": "fcfd60eef7ee313822d96ac5e9eb972834061d1760d43145155d1137f3a50880",
+    "changed_pixels": 199565,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_44683621_count",
+    "source_id": "commons_44683621",
+    "split": "test",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_44683621_count.png",
+    "sha256": "c750f2d127d645760f6bc2fcb805c894f916aea29b2d38cf4d12d563fa959670",
+    "changed_pixels": 97,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_44683621_text",
+    "source_id": "commons_44683621",
+    "split": "test",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_44683621_text.png",
+    "sha256": "300c1facecf19e20e11b4716c0598b5312adb50afdf57cf07bcf3ee8518d92e9",
+    "changed_pixels": 134,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_44683621_relation",
+    "source_id": "commons_44683621",
+    "split": "test",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_44683621_relation.png",
+    "sha256": "ae33b8c1864844052f676e68b359e00c88d282998ae8622c46fc0b9f37d812ba",
+    "changed_pixels": 450,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_44683621_process_control",
+    "source_id": "commons_44683621",
+    "split": "test",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_44683621_process_control.png",
+    "sha256": "d8b7f97b03d64bab17122d965d83bf55eacb4c5130082bc9baa9026d59e73dbe",
+    "changed_pixels": 663,
+    "box": [
+      296,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_47780866_reference",
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_47780866_reference.png",
+    "sha256": "f1731eabb55481d851be9c7fd8834790ce14d30546f5c9499a656fd843942766",
+    "changed_pixels": 0,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_47780866_jpeg70",
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_47780866_jpeg70.png",
+    "sha256": "5f9cb492d568f9f42365bdb173be10a19da02f683f0e76a281e8e06c0227e9c2",
+    "changed_pixels": 242747,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_47780866_jpeg90",
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_47780866_jpeg90.png",
+    "sha256": "51af553c17eba906e0994438318cc65f90ad1369166650ed22fdeb28f763895e",
+    "changed_pixels": 221172,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_47780866_resize0.5",
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_47780866_resize0.5.png",
+    "sha256": "ff3f7ccd0e3cdf04875fb559cc797c25fdd3e7723a5289496ba237fb3c99b61a",
+    "changed_pixels": 218093,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_47780866_resize0.75",
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_47780866_resize0.75.png",
+    "sha256": "e857f922655f576580bda5bbbb73d1f164db5fbb56b37f10c5435f1412bfd69e",
+    "changed_pixels": 203191,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_47780866_count",
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_47780866_count.png",
+    "sha256": "344a45241723c5b27b02ebed31e7d07acef737d950d6f243817b668d1a9f0fe1",
+    "changed_pixels": 97,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_47780866_text",
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_47780866_text.png",
+    "sha256": "cf4d9024c6c0cff34f0ba5b546a06f04906b57a1b43766ad67d12772a96bdc49",
+    "changed_pixels": 134,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_47780866_relation",
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_47780866_relation.png",
+    "sha256": "528045af4484b03cffa12fc3300add9e00f278ef3db6669b2497e52e00ce1880",
+    "changed_pixels": 450,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_47780866_process_control",
+    "source_id": "commons_47780866",
+    "split": "calibration",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_47780866_process_control.png",
+    "sha256": "a57ffbdbcae83052df350e532ebe6a0581708d4353cccda35df597aea72f8438",
+    "changed_pixels": 663,
+    "box": [
+      296,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_48575131_reference",
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_48575131_reference.png",
+    "sha256": "650ea8c4eccb8446931e13706ca02c7a579cbc7bb333a1432a59a4c964b7cc1d",
+    "changed_pixels": 0,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_48575131_jpeg70",
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_48575131_jpeg70.png",
+    "sha256": "58a35c0be5db5d21ea8c878c4624c36f8f3e0d137e0365580d6b7c6473ee4a9e",
+    "changed_pixels": 248645,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_48575131_jpeg90",
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_48575131_jpeg90.png",
+    "sha256": "c364292e09a012a214fd6c6c31d0c32e5f8539a195a2e8fb74ecb4d312f7bd7f",
+    "changed_pixels": 236238,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_48575131_resize0.5",
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_48575131_resize0.5.png",
+    "sha256": "0337461ec5cd46d8569864e2ad49a3497b4b7031f1b15cdf4c2f9aec514fa82d",
+    "changed_pixels": 224702,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_48575131_resize0.75",
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_48575131_resize0.75.png",
+    "sha256": "4b6cb91c3d1d013643d98da854ab0249230a086d8189338c8e00be73aeb23eba",
+    "changed_pixels": 194763,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_48575131_count",
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_48575131_count.png",
+    "sha256": "c27c42b6c08fd3645b4c5ea0a8d9b62d40b363bb8e23102512521c8a5aa04a9b",
+    "changed_pixels": 97,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_48575131_text",
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_48575131_text.png",
+    "sha256": "1832f38cc41b63bc538badaa0d295490d659bad904c918a94b9118c9aafd9e35",
+    "changed_pixels": 134,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_48575131_relation",
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_48575131_relation.png",
+    "sha256": "0ab471ca400969834b85f9f7c42b7f021aa82cbb5621aafa029c6b3456c07199",
+    "changed_pixels": 450,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_48575131_process_control",
+    "source_id": "commons_48575131",
+    "split": "calibration",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_48575131_process_control.png",
+    "sha256": "2909a88cd1df75489d66c2abcaa48d664e0838916656a4a83ab7c55d53f46c84",
+    "changed_pixels": 663,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_73462291_reference",
+    "source_id": "commons_73462291",
+    "split": "test",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_73462291_reference.png",
+    "sha256": "81790cc449f5491ff572f363a5563d248c0895180b304c4ae31e44c3aa919f37",
+    "changed_pixels": 0,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_73462291_jpeg70",
+    "source_id": "commons_73462291",
+    "split": "test",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_73462291_jpeg70.png",
+    "sha256": "1e1179feb79594bcda3a6b01a75de208972762ec131c98dbe86e67f448e6de30",
+    "changed_pixels": 238925,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_73462291_jpeg90",
+    "source_id": "commons_73462291",
+    "split": "test",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_73462291_jpeg90.png",
+    "sha256": "a45576e12cb35436ada1777932879c5166bff2af1bd0dfe86f0d3ac1186213de",
+    "changed_pixels": 224664,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_73462291_resize0.5",
+    "source_id": "commons_73462291",
+    "split": "test",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_73462291_resize0.5.png",
+    "sha256": "ac72c62a9e5f723503292ccfc59fde51834d17470a4233d398620cbca1cae861",
+    "changed_pixels": 215570,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_73462291_resize0.75",
+    "source_id": "commons_73462291",
+    "split": "test",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_73462291_resize0.75.png",
+    "sha256": "25842578928482059883618026f50b9b0f48b523491929c08db381a798f406d7",
+    "changed_pixels": 193420,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_73462291_count",
+    "source_id": "commons_73462291",
+    "split": "test",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_73462291_count.png",
+    "sha256": "59687fd62d40dddfcaf7bd921f97ee0b2c7c0c0d2b998e00bd873ef7fc1d83a6",
+    "changed_pixels": 97,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_73462291_text",
+    "source_id": "commons_73462291",
+    "split": "test",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_73462291_text.png",
+    "sha256": "588863fe27ce527763b91d38de91ecc2bf112a8cfda0fb62011c7da4dd191a06",
+    "changed_pixels": 134,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_73462291_relation",
+    "source_id": "commons_73462291",
+    "split": "test",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_73462291_relation.png",
+    "sha256": "a4b50360a0085099c887278bb9f1e8cade4518f88617c314d96b8524ea68eccb",
+    "changed_pixels": 450,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_73462291_process_control",
+    "source_id": "commons_73462291",
+    "split": "test",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_73462291_process_control.png",
+    "sha256": "8c4baa0cf6359a40f90882f39b2cfd0d862da359e03459c461f919a0be10e9d1",
+    "changed_pixels": 663,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_95847980_reference",
+    "source_id": "commons_95847980",
+    "split": "test",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_95847980_reference.png",
+    "sha256": "dd231de2816883d469009ea046756fc2af6ccb3571c7ce7fb874463bc1eb3d30",
+    "changed_pixels": 0,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_95847980_jpeg70",
+    "source_id": "commons_95847980",
+    "split": "test",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_95847980_jpeg70.png",
+    "sha256": "709aebe332ace704ac88424105dd7bb2a71f67ef361ae707045dd868f4c5f4d1",
+    "changed_pixels": 250377,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_95847980_jpeg90",
+    "source_id": "commons_95847980",
+    "split": "test",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_95847980_jpeg90.png",
+    "sha256": "84386c94e72c3267b01f73871acd0e2dedcf18f7eb2f4eaee2ae5a8cf4c08418",
+    "changed_pixels": 243920,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_95847980_resize0.5",
+    "source_id": "commons_95847980",
+    "split": "test",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_95847980_resize0.5.png",
+    "sha256": "a7b44018b69205cdc3803ba582284eefd95397bb6d6854b49f6852b71e0df553",
+    "changed_pixels": 240764,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_95847980_resize0.75",
+    "source_id": "commons_95847980",
+    "split": "test",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_95847980_resize0.75.png",
+    "sha256": "790313f021eaaae4cb8ca318c6ca9683746588526777eaaba3aaa16a67f74b3d",
+    "changed_pixels": 229898,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_95847980_count",
+    "source_id": "commons_95847980",
+    "split": "test",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_95847980_count.png",
+    "sha256": "b4cfeaf3c8e6b11c16e9de05ac888f6a55a9fa5867633947f5e4db07fc5c0939",
+    "changed_pixels": 97,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_95847980_text",
+    "source_id": "commons_95847980",
+    "split": "test",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_95847980_text.png",
+    "sha256": "bca6790c2ecf20ee411bf30c9c61bc052ea768e3888021a85ebefb458a6a7429",
+    "changed_pixels": 134,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_95847980_relation",
+    "source_id": "commons_95847980",
+    "split": "test",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_95847980_relation.png",
+    "sha256": "5aa91db6f12687381908265d4a02a21aba3639504ad32bacc796ae8ce2caac3c",
+    "changed_pixels": 450,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_95847980_process_control",
+    "source_id": "commons_95847980",
+    "split": "test",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_95847980_process_control.png",
+    "sha256": "05d9e12f2cd07709cb0d310102c9c9c7ff60f10d109f1e81c8c7fe5ce286aa79",
+    "changed_pixels": 663,
+    "box": [
+      24,
+      392,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_98821976_reference",
+    "source_id": "commons_98821976",
+    "split": "test",
+    "variant": "reference",
+    "path": "runs/cpu_pilot/images/commons_98821976_reference.png",
+    "sha256": "8f0b8342a13acca575de64515a817aa720bb157d93464fdd06171ca8153940fa",
+    "changed_pixels": 0,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_98821976_jpeg70",
+    "source_id": "commons_98821976",
+    "split": "test",
+    "variant": "jpeg70",
+    "path": "runs/cpu_pilot/images/commons_98821976_jpeg70.png",
+    "sha256": "a5d8e384ddc705fbb1063eae746d136e595d891b18859664e8692eec4de3e2e9",
+    "changed_pixels": 251168,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_98821976_jpeg90",
+    "source_id": "commons_98821976",
+    "split": "test",
+    "variant": "jpeg90",
+    "path": "runs/cpu_pilot/images/commons_98821976_jpeg90.png",
+    "sha256": "313fa4f9b73c5b6d4c55f10717c1aa8bfa55a0de20c9f37c29f54aed12b22364",
+    "changed_pixels": 245112,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_98821976_resize0.5",
+    "source_id": "commons_98821976",
+    "split": "test",
+    "variant": "resize0.5",
+    "path": "runs/cpu_pilot/images/commons_98821976_resize0.5.png",
+    "sha256": "c9d6d9e4ba331bf44e146a45f9624298dcf8b95d6379783e530ea71409aacbbc",
+    "changed_pixels": 239482,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_98821976_resize0.75",
+    "source_id": "commons_98821976",
+    "split": "test",
+    "variant": "resize0.75",
+    "path": "runs/cpu_pilot/images/commons_98821976_resize0.75.png",
+    "sha256": "6e92d882ee5a1e44b26ac239ede2ab5992eb835aae8f9870e9171174fbb0ef68",
+    "changed_pixels": 226070,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_98821976_count",
+    "source_id": "commons_98821976",
+    "split": "test",
+    "variant": "count",
+    "path": "runs/cpu_pilot/images/commons_98821976_count.png",
+    "sha256": "4735650f255f528e55b30fa1c111b68b86eb062e7360afb609375e9475e03f99",
+    "changed_pixels": 97,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 3,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_98821976_text",
+    "source_id": "commons_98821976",
+    "split": "test",
+    "variant": "text",
+    "path": "runs/cpu_pilot/images/commons_98821976_text.png",
+    "sha256": "89cfa22bb62ff243e2ad8a2e4054326bfd34f7323680dc9650c977670e764a77",
+    "changed_pixels": 134,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "80",
+      "relation": "red_left_of_blue"
+    }
+  },
+  {
+    "id": "commons_98821976_relation",
+    "source_id": "commons_98821976",
+    "split": "test",
+    "variant": "relation",
+    "path": "runs/cpu_pilot/images/commons_98821976_relation.png",
+    "sha256": "9f930c454fe47d4d1301490f23c28eb039e5b945725a331cc47ec9d2abd7fd39",
+    "changed_pixels": 450,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_right_of_blue"
+    }
+  },
+  {
+    "id": "commons_98821976_process_control",
+    "source_id": "commons_98821976",
+    "split": "test",
+    "variant": "process_control",
+    "path": "runs/cpu_pilot/images/commons_98821976_process_control.png",
+    "sha256": "feee3297d37a0de43d5d36aa73d178297f3f697a4df04fb99f804946333b0cd6",
+    "changed_pixels": 663,
+    "box": [
+      24,
+      24,
+      192,
+      72
+    ],
+    "facts": {
+      "count": 2,
+      "text": "30",
+      "relation": "red_left_of_blue"
+    }
+  }
+]

@@ -1,0 +1,123 @@
+{
+  "config": {
+    "experiment_id": "cpu-controls-20261007-v1",
+    "seed": 20261007,
+    "scope": "reference-conditioned representation diagnostic on constructed placards over 18 licensed photographs",
+    "source_count": 18,
+    "exclude_source_ids": [
+      "commons_69468782",
+      "commons_69586487"
+    ],
+    "exclusion_reason": "pre-score visual review: possible shared mountain scene with retained commons_48575131; conservatively exclude two before scoring",
+    "split": "reuse stage02 source split after pre-score exclusions, 9 calibration and 9 test; prior exposure disclosed",
+    "model": "sscd_disc_mixup.torchscript.pt",
+    "model_sha256": "9f26bd4c848cc19b73d2ae92eea6e04886f61a7b764ceb7a13aeee62e6a6db56",
+    "device": "cpu",
+    "threads": 2,
+    "batch_size": 5,
+    "source_resize": [
+      512,
+      512
+    ],
+    "model_resize": [
+      320,
+      320
+    ],
+    "interpolation": "Pillow bilinear for model; bicubic for source/allowed resize",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "views": [
+      [
+        0,
+        0,
+        512,
+        512
+      ],
+      [
+        0,
+        0,
+        256,
+        256
+      ],
+      [
+        256,
+        0,
+        512,
+        256
+      ],
+      [
+        0,
+        256,
+        256,
+        512
+      ],
+      [
+        256,
+        256,
+        512,
+        512
+      ]
+    ],
+    "methods": {
+      "global": "full-frame cosine",
+      "multiscale_min": "minimum of same-location cosine over full-frame plus fixed 2x2 crops"
+    },
+    "target_frr": 0.05,
+    "allowed": [
+      "jpeg70",
+      "jpeg90",
+      "resize0.5",
+      "resize0.75"
+    ],
+    "modifications": [
+      "count",
+      "text",
+      "relation"
+    ],
+    "control": "same semantic placard rerendered with gray instead of black marks",
+    "replacement": "next source reference in sorted order within split; not same-prompt",
+    "bootstrap_replicates": 2000,
+    "wall_limit_seconds": 1800,
+    "gpu_seconds": 0,
+    "downloads": 0,
+    "paid_api_calls": 0,
+    "full_watermark_verifier": false
+  },
+  "config_sha256": "998df1e3ea7b781f5e7a03e00770f38a93bd4603c46839e9d57e203239308504",
+  "manifest_sha256": "1d55ed68eed6360aa8068ef6083d6c824805f6b9ae4186e61277257f9633a39a",
+  "sources_sha256": "660d3edde5cbe752eeb550a98ebd2cc49b4b0403601b928c7d7b81fa20a54745",
+  "script_sha256": "01165d29277435cc595a0304e40b04faa104faf6e5162a5737bd58a543c841a2",
+  "font_sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+  "font_name": "arial.ttf",
+  "variants": 162,
+  "labels": "known rendered facts; AI visual review pending",
+  "excluded": [
+    {
+      "id": "commons_30727835",
+      "reason": "excluded by existing source audit: painting"
+    },
+    {
+      "id": "commons_69468782",
+      "reason": "pre-score visual review: possible shared mountain scene with retained commons_48575131; conservatively exclude two before scoring"
+    },
+    {
+      "id": "commons_69586487",
+      "reason": "pre-score visual review: possible shared mountain scene with retained commons_48575131; conservatively exclude two before scoring"
+    }
+  ],
+  "amendments": [
+    {
+      "stage": "before any scores; first model load failed",
+      "change": "use a file object for TorchScript Windows Unicode path compatibility",
+      "previous_script_sha256": "8ce96fb6cbf211b6f01e9f9b91763ec21b93fe208eb2a10209c6ffa577674098"
+    }
+  ]
+}
