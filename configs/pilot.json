@@ -20,5 +20,5 @@
   "full_verifier_required": true,
   "new_experiment_results": false,
   "execution_budget": {"gpu_seconds_authorized_this_run": 0, "model_download_bytes_authorized_this_run": 0, "paid_api_calls_authorized_this_run": 0},
-  "required_references": ["muller2025", "seal2025", "sembind2026", "metaseal2026", "geometry2026", "pai2026", "csi2026"]
+  "required_references": ["muller2025", "seal2025", "sembind2026", "metaseal2026", "geometry2026", "pai2026", "csi2026", "slice2026"]
 }

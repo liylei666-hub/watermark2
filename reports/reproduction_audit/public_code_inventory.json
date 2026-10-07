@@ -1,0 +1,1830 @@
+{
+  "checked_utc": "2026-10-07T20:22:06.891658+00:00",
+  "repositories": [
+    {
+      "repo": "Kasraarabi/SEAL",
+      "commit": "92d31b31b93a6e373fe88a584c640beafb68c6fa",
+      "tree_sha": "92d31b31b93a6e373fe88a584c640beafb68c6fa",
+      "license": null,
+      "tree": [
+        {
+          "path": ".gitignore",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "80102778c1568133be28b1ad24e2f6b3683bb2fe",
+          "size": 1944,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/80102778c1568133be28b1ad24e2f6b3683bb2fe"
+        },
+        {
+          "path": "256x256_diffusion.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e82256d28f2b51c3938795271015b6ca7337b500",
+          "size": 409,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/e82256d28f2b51c3938795271015b6ca7337b500"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dbc35531ddb7723e34b7d84911a51ba52a783ac9",
+          "size": 1504,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/dbc35531ddb7723e34b7d84911a51ba52a783ac9"
+        },
+        {
+          "path": "SEAL.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2482a87080851be2f1fe23977cb664a9bef72ee0",
+          "size": 5724,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/2482a87080851be2f1fe23977cb664a9bef72ee0"
+        },
+        {
+          "path": "assets",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "24861d36c114db1c0c682bea8b443d69405dc2a0",
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/trees/24861d36c114db1c0c682bea8b443d69405dc2a0"
+        },
+        {
+          "path": "assets/teaser.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7c900fddd2f4b09cb92d0e331bd7386fa37ac6b3",
+          "size": 2256091,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/7c900fddd2f4b09cb92d0e331bd7386fa37ac6b3"
+        },
+        {
+          "path": "caption_pairs.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e97624472914681a52afdddb4ba38cd6b3593d3d",
+          "size": 5823,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/e97624472914681a52afdddb4ba38cd6b3593d3d"
+        },
+        {
+          "path": "captioning_embedding_ablation.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4d749899a0c7691960ee145f5cd628cd7e14156c",
+          "size": 6886,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/4d749899a0c7691960ee145f5cd628cd7e14156c"
+        },
+        {
+          "path": "cat_attack.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3c77bc9e3150a269b3c62cbf49d7215f690e536f",
+          "size": 6676,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/3c77bc9e3150a269b3c62cbf49d7215f690e536f"
+        },
+        {
+          "path": "cat_attack_patch_search.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "407b25829225385d9a0353b1764a9e43ca3b34d4",
+          "size": 5961,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/407b25829225385d9a0353b1764a9e43ca3b34d4"
+        },
+        {
+          "path": "embedding_finetune.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "087c534bb22fa853a7ad035ab73263708c774637",
+          "size": 6388,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/087c534bb22fa853a7ad035ab73263708c774637"
+        },
+        {
+          "path": "guided_diffusion",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "2ea5f813c718f74fa685d72d69376157b8f37b34",
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/trees/2ea5f813c718f74fa685d72d69376157b8f37b34"
+        },
+        {
+          "path": "guided_diffusion/__init__.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9665a0d63f695eab303318d824dad14041c7cde9",
+          "size": 74,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/9665a0d63f695eab303318d824dad14041c7cde9"
+        },
+        {
+          "path": "guided_diffusion/dist_util.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7acb48bfbb7ffefc039ce252d7c8342d770da0f2",
+          "size": 2424,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/7acb48bfbb7ffefc039ce252d7c8342d770da0f2"
+        },
+        {
+          "path": "guided_diffusion/fp16_util.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "df3882d03bf7b7541bc096808f5d8ff781916134",
+          "size": 7962,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/df3882d03bf7b7541bc096808f5d8ff781916134"
+        },
+        {
+          "path": "guided_diffusion/gaussian_diffusion.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "132d1d643d0b6cf9b4e6bc0b1202867d55a2652a",
+          "size": 37735,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/132d1d643d0b6cf9b4e6bc0b1202867d55a2652a"
+        },
+        {
+          "path": "guided_diffusion/image_datasets.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "93022ae208a01e72eb162d7b63c07bf94a6afe3b",
+          "size": 5930,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/93022ae208a01e72eb162d7b63c07bf94a6afe3b"
+        },
+        {
+          "path": "guided_diffusion/logger.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b1d856dcfea6b56a2ee8d37b286887430dbfac30",
+          "size": 13979,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/b1d856dcfea6b56a2ee8d37b286887430dbfac30"
+        },
+        {
+          "path": "guided_diffusion/losses.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "251e42e4f36a31bb5e1aeda874b3a45d722000a2",
+          "size": 2534,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/251e42e4f36a31bb5e1aeda874b3a45d722000a2"
+        },
+        {
+          "path": "guided_diffusion/nn.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a4cd59c2324b003626b8cf4c7581effd334908d3",
+          "size": 5020,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/a4cd59c2324b003626b8cf4c7581effd334908d3"
+        },
+        {
+          "path": "guided_diffusion/resample.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c82eccdcd47c468d41e7cbe02de6a731f2c9bf81",
+          "size": 5689,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/c82eccdcd47c468d41e7cbe02de6a731f2c9bf81"
+        },
+        {
+          "path": "guided_diffusion/respace.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b568817e1258e4bda5a5da11630794d4a9e6bdcd",
+          "size": 5193,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/b568817e1258e4bda5a5da11630794d4a9e6bdcd"
+        },
+        {
+          "path": "guided_diffusion/script_util.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2bfdad9fce28193d8abeb439f7400eca90d4f728",
+          "size": 12349,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/2bfdad9fce28193d8abeb439f7400eca90d4f728"
+        },
+        {
+          "path": "guided_diffusion/train_util.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "97c7db38de07d9318e3c802b6aa498489c9c8315",
+          "size": 10604,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/97c7db38de07d9318e3c802b6aa498489c9c8315"
+        },
+        {
+          "path": "guided_diffusion/unet.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "96b46930006b7c9e49948d31568474824195cf8f",
+          "size": 31233,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/96b46930006b7c9e49948d31568474824195cf8f"
+        },
+        {
+          "path": "image_transformations.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8d716430f4b8fde910117df314d8cc3ac522fb64",
+          "size": 5330,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/8d716430f4b8fde910117df314d8cc3ac522fb64"
+        },
+        {
+          "path": "image_transformations_exhaustive.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "99b1065304222088dabe3d9ce5c5a045c85b4b4a",
+          "size": 8686,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/99b1065304222088dabe3d9ce5c5a045c85b4b4a"
+        },
+        {
+          "path": "image_transformations_exhaustive_roc_auc.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fb9b5e2ec7f161d2aad440904ab195bb5a865704",
+          "size": 10452,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/fb9b5e2ec7f161d2aad440904ab195bb5a865704"
+        },
+        {
+          "path": "image_transformations_exhaustive_tpr.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d8290df9c9b81ca258f66ac86009295f76b66ee4",
+          "size": 8695,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/d8290df9c9b81ca258f66ac86009295f76b66ee4"
+        },
+        {
+          "path": "inverse_stable_diffusion.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9ae40c40f7c1de23bc0097a023e94d5946c8f596",
+          "size": 7233,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/9ae40c40f7c1de23bc0097a023e94d5946c8f596"
+        },
+        {
+          "path": "io_utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "612b5c5cffd0d94953cf0a9fd83b3a03d311defe",
+          "size": 4387,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/612b5c5cffd0d94953cf0a9fd83b3a03d311defe"
+        },
+        {
+          "path": "modified_stable_diffusion.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "693c3a134a44468cde7dda4c16740e7e12cd8621",
+          "size": 10919,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/693c3a134a44468cde7dda4c16740e7e12cd8621"
+        },
+        {
+          "path": "open_clip",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "b308701d9554cdc7b54126a2a6df48f18cfc87d0",
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/trees/b308701d9554cdc7b54126a2a6df48f18cfc87d0"
+        },
+        {
+          "path": "open_clip/__init__.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "088c86441ec71a241320de79b7b66a6afeb3a049",
+          "size": 963,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/088c86441ec71a241320de79b7b66a6afeb3a049"
+        },
+        {
+          "path": "open_clip/bpe_simple_vocab_16e6.txt.gz",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7b5088a527f720063f044eb928eee315f63b2fc0",
+          "size": 1356917,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/7b5088a527f720063f044eb928eee315f63b2fc0"
+        },
+        {
+          "path": "open_clip/coca_model.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "039453af70d1c865dd7cc6016f732aff2f7dc3d2",
+          "size": 17439,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/039453af70d1c865dd7cc6016f732aff2f7dc3d2"
+        },
+        {
+          "path": "open_clip/constants.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a670bb3fab442baeb9af53b91c312e6982af57ee",
+          "size": 116,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/a670bb3fab442baeb9af53b91c312e6982af57ee"
+        },
+        {
+          "path": "open_clip/factory.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "14011f9340fc6e54876c3c5bcb9e23a8cd57849d",
+          "size": 13401,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/14011f9340fc6e54876c3c5bcb9e23a8cd57849d"
+        },
+        {
+          "path": "open_clip/generation_utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+          "path": "open_clip/hf_configs.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e236222bafce0358445ea16953ca0b2d5a84758a",
+          "size": 1675,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/e236222bafce0358445ea16953ca0b2d5a84758a"
+        },
+        {
+          "path": "open_clip/hf_model.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fbccc812757bf10b122ff14096980e0e38d1d221",
+          "size": 6298,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/fbccc812757bf10b122ff14096980e0e38d1d221"
+        },
+        {
+          "path": "open_clip/loss.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4fbf61dacf8d16c22f9978459257d527408196b8",
+          "size": 7943,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/4fbf61dacf8d16c22f9978459257d527408196b8"
+        },
+        {
+          "path": "open_clip/model.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4f5e775a74641642ea0451a0d6142ccb2c6594eb",
+          "size": 17581,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/4f5e775a74641642ea0451a0d6142ccb2c6594eb"
+        },
+        {
+          "path": "open_clip/model_configs",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "aa5993636ba8600e6c4956f6ee3579fc215c4992",
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/trees/aa5993636ba8600e6c4956f6ee3579fc215c4992"
+        },
+        {
+          "path": "open_clip/model_configs/RN101-quickgelu.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d0db2c161d13138788c4609d373b023b8454d624",
+          "size": 388,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/d0db2c161d13138788c4609d373b023b8454d624"
+        },
+        {
+          "path": "open_clip/model_configs/RN101.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b88b4d3acbaa701c614ab0ea65fc88fcfe289c32",
+          "size": 364,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/b88b4d3acbaa701c614ab0ea65fc88fcfe289c32"
+        },
+        {
+          "path": "open_clip/model_configs/RN50-quickgelu.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8c2f91260cdeb043434dc1e893cce81d4ce7f0d1",
+          "size": 389,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/8c2f91260cdeb043434dc1e893cce81d4ce7f0d1"
+        },
+        {
+          "path": "open_clip/model_configs/RN50.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "33aa884d54fee0076c33676831e49d5e1ffcb8f2",
+          "size": 364,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/33aa884d54fee0076c33676831e49d5e1ffcb8f2"
+        },
+        {
+          "path": "open_clip/model_configs/RN50x16.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3161e1a2c9a839161e652a4d729c2cdc971161db",
+          "size": 365,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/3161e1a2c9a839161e652a4d729c2cdc971161db"
+        },
+        {
+          "path": "open_clip/model_configs/RN50x4.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e155237f8ce1026aaaeecc80751eabe6f329f0bb",
+          "size": 365,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/e155237f8ce1026aaaeecc80751eabe6f329f0bb"
+        },
+        {
+          "path": "open_clip/model_configs/RN50x64.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f5aaa2ee3de21ddb03cbd12766a3419bf34898c7",
+          "size": 370,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/f5aaa2ee3de21ddb03cbd12766a3419bf34898c7"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-16-plus-240.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5bbd12bcd01f64d6d0a0aa8316b129327a0d169a",
+          "size": 295,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/5bbd12bcd01f64d6d0a0aa8316b129327a0d169a"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-16-plus.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5dc1e09baccef2b15055c1bffeb9903e760101c6",
+          "size": 295,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/5dc1e09baccef2b15055c1bffeb9903e760101c6"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-16.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "395eea77ec3907c0611531aba63459b193e67b9c",
+          "size": 294,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/395eea77ec3907c0611531aba63459b193e67b9c"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-32-plus-256.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2f09c857de9a4c01ae51297a7e2451984879f9de",
+          "size": 295,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/2f09c857de9a4c01ae51297a7e2451984879f9de"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-32-quickgelu.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ce6bd923593293ed50dfcfb28b73ca7403bcf3c5",
+          "size": 318,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/ce6bd923593293ed50dfcfb28b73ca7403bcf3c5"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-32.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "07c8e28eb06fa1813ba932fe4eec668262d1c47f",
+          "size": 294,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/07c8e28eb06fa1813ba932fe4eec668262d1c47f"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-H-14.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3e3a7e934e7f02e41f4829996c4950e05f015a74",
+          "size": 324,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/3e3a7e934e7f02e41f4829996c4950e05f015a74"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-H-16.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "588485455fdf8193ec16474450b94e31c91ea93c",
+          "size": 324,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/588485455fdf8193ec16474450b94e31c91ea93c"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-L-14-280.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2262deaefa82792d35d73c0d7c8e620525092581",
+          "size": 296,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/2262deaefa82792d35d73c0d7c8e620525092581"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-L-14-336.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8d1f74c2639c3a3705df9865b9c08215675ddc97",
+          "size": 296,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/8d1f74c2639c3a3705df9865b9c08215675ddc97"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-L-14.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d4a4bbb1dd4ed4edb317d3ace4f3ad13b211c241",
+          "size": 296,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/d4a4bbb1dd4ed4edb317d3ace4f3ad13b211c241"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-L-16-320.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fc2d13ca9ec7f0b56a886ddaf66c4a7ba7a442ba",
+          "size": 296,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/fc2d13ca9ec7f0b56a886ddaf66c4a7ba7a442ba"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-L-16.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "82a1cedfa290adacbbdc02bc5d589734c22d41d3",
+          "size": 296,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/82a1cedfa290adacbbdc02bc5d589734c22d41d3"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-M-16-alt.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1a317aad8e02d9c26d2decc7cc49a18dfdf9e0d8",
+          "size": 325,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/1a317aad8e02d9c26d2decc7cc49a18dfdf9e0d8"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-M-16.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f2f3225a46e09237730a151d161f70c86b985172",
+          "size": 294,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/f2f3225a46e09237730a151d161f70c86b985172"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-M-32-alt.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fd222aeac0f582ef6a1a33f1b3fec70a5b386ac0",
+          "size": 294,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/fd222aeac0f582ef6a1a33f1b3fec70a5b386ac0"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-M-32.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4f718642821035d9776d1e006817d65ede074366",
+          "size": 294,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/4f718642821035d9776d1e006817d65ede074366"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-S-16-alt.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a8c056555e4da3ba0d1475a61fc316362ecce76f",
+          "size": 294,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/a8c056555e4da3ba0d1475a61fc316362ecce76f"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-S-16.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1d8504e59658803f3093e5b05de45f30a09b8185",
+          "size": 294,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/1d8504e59658803f3093e5b05de45f30a09b8185"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-S-32-alt.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e1dfdec9824df09a2010e991ccfa1d9ee2f45807",
+          "size": 294,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/e1dfdec9824df09a2010e991ccfa1d9ee2f45807"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-S-32.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9b8b4191b268de267268cfcb90fc01c6b9df07d8",
+          "size": 294,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/9b8b4191b268de267268cfcb90fc01c6b9df07d8"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-bigG-14.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2cfba479a2e8f3737e71ce240732bf3bc743d8b7",
+          "size": 354,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/2cfba479a2e8f3737e71ce240732bf3bc743d8b7"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-e-14.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "91a0fe14d25a107fb8ec48dd7faae313fd26ed7b",
+          "size": 354,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/91a0fe14d25a107fb8ec48dd7faae313fd26ed7b"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-g-14.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8c4b7325cc75b6112be7107d36ae2cb5762d9091",
+          "size": 353,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/8c4b7325cc75b6112be7107d36ae2cb5762d9091"
+        },
+        {
+          "path": "open_clip/model_configs/coca_ViT-B-32.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7e7eb520a6a0096e5602d509ecd6186e278f4725",
+          "size": 659,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/7e7eb520a6a0096e5602d509ecd6186e278f4725"
+        },
+        {
+          "path": "open_clip/model_configs/coca_ViT-L-14.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3d5ca4ca2338540f06852df5ff35ea6277e64555",
+          "size": 664,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/3d5ca4ca2338540f06852df5ff35ea6277e64555"
+        },
+        {
+          "path": "open_clip/model_configs/coca_base.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cf8c6cecb78a49d7e7140145a0307cbd561077c2",
+          "size": 669,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/cf8c6cecb78a49d7e7140145a0307cbd561077c2"
+        },
+        {
+          "path": "open_clip/model_configs/coca_roberta-ViT-B-32.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fb46354b95a17a46d7fcfd9d504e917ee6c1608c",
+          "size": 517,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/fb46354b95a17a46d7fcfd9d504e917ee6c1608c"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_base.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bb6dba181d950ea5081155c90d47e72c94816b80",
+          "size": 421,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/bb6dba181d950ea5081155c90d47e72c94816b80"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_base_w.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "82ea7ae3659e5514f37ff982f0ab1141dff4bd18",
+          "size": 422,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/82ea7ae3659e5514f37ff982f0ab1141dff4bd18"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_base_w_320.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0a07c4e16abaa4015ecc5f82ec845de16e1f9d88",
+          "size": 422,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/0a07c4e16abaa4015ecc5f82ec845de16e1f9d88"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_large.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c4a1fea73dbead71c218a0e74b9b15f9b252e3ef",
+          "size": 423,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/c4a1fea73dbead71c218a0e74b9b15f9b252e3ef"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_large_d.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ae8fed21b58e1a6a411daf8b792ee50f0ab42346",
+          "size": 420,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/ae8fed21b58e1a6a411daf8b792ee50f0ab42346"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_large_d_320.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "54c3df36a6f56ace0b12ada24c13058de96feed8",
+          "size": 420,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/54c3df36a6f56ace0b12ada24c13058de96feed8"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_small.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3592c2a5cd21aae8d2544931773cf7603f67ea28",
+          "size": 422,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/3592c2a5cd21aae8d2544931773cf7603f67ea28"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_tiny.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ad11470f5ec40ffec771096971ce58d3d5b9249b",
+          "size": 422,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/ad11470f5ec40ffec771096971ce58d3d5b9249b"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_xlarge.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2a909965932eef994177c829fefc2bdc1c219b3f",
+          "size": 426,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/2a909965932eef994177c829fefc2bdc1c219b3f"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_xxlarge.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "23a55a681c346d1a315d8a163c1cb6ad495e6a91",
+          "size": 427,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/23a55a681c346d1a315d8a163c1cb6ad495e6a91"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_xxlarge_320.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ac5134ca12cbaa97772cde059270d345386a74c7",
+          "size": 427,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/ac5134ca12cbaa97772cde059270d345386a74c7"
+        },
+        {
+          "path": "open_clip/model_configs/mt5-base-ViT-B-32.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "58cad89cf0f446bbe15e4e25b1ac43424a828017",
+          "size": 325,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/58cad89cf0f446bbe15e4e25b1ac43424a828017"
+        },
+        {
+          "path": "open_clip/model_configs/mt5-xl-ViT-H-14.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b432810777ba7269dbb0e89edfe65cdd27e7d255",
+          "size": 349,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/b432810777ba7269dbb0e89edfe65cdd27e7d255"
+        },
+        {
+          "path": "open_clip/model_configs/roberta-ViT-B-32.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ed687d472a73bb2ac96025f355f80437ab14c260",
+          "size": 343,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/ed687d472a73bb2ac96025f355f80437ab14c260"
+        },
+        {
+          "path": "open_clip/model_configs/swin_base_patch4_window7_224.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bd6820f0cf2aa655e0a2723287f4b78895a58e6a",
+          "size": 380,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/bd6820f0cf2aa655e0a2723287f4b78895a58e6a"
+        },
+        {
+          "path": "open_clip/model_configs/vit_medium_patch16_gap_256.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8843eaf08cad16c3e7b5f496fd650715c9573f65",
+          "size": 377,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/8843eaf08cad16c3e7b5f496fd650715c9573f65"
+        },
+        {
+          "path": "open_clip/model_configs/vit_relpos_medium_patch16_cls_224.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ed217b202d5e6071c5307f4547c97ff4cfe2abd1",
+          "size": 384,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/ed217b202d5e6071c5307f4547c97ff4cfe2abd1"
+        },
+        {
+          "path": "open_clip/model_configs/xlm-roberta-base-ViT-B-32.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "751bccc2c6fc41bc4ff20182de88d86739d518d9",
+          "size": 327,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/751bccc2c6fc41bc4ff20182de88d86739d518d9"
+        },
+        {
+          "path": "open_clip/model_configs/xlm-roberta-large-ViT-H-14.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "31f271faa9bbb7a9da53900b483a4c00a16f3c4a",
+          "size": 357,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/31f271faa9bbb7a9da53900b483a4c00a16f3c4a"
+        },
+        {
+          "path": "open_clip/modified_resnet.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f7c0b033a80e7d08a20a367050c5b1bc5d5292e7",
+          "size": 7035,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/f7c0b033a80e7d08a20a367050c5b1bc5d5292e7"
+        },
+        {
+          "path": "open_clip/openai.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cc4e13e876d6a7a3463b457e62c517cb063b1356",
+          "size": 5446,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/cc4e13e876d6a7a3463b457e62c517cb063b1356"
+        },
+        {
+          "path": "open_clip/pretrained.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "87e7e527497d643fdf6ac931ac73b6e887a90d0d",
+          "size": 14144,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/87e7e527497d643fdf6ac931ac73b6e887a90d0d"
+        },
+        {
+          "path": "open_clip/push_to_hf_hub.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "23c0631c81dcb43829b7374fac09406ecefcb436",
+          "size": 7660,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/23c0631c81dcb43829b7374fac09406ecefcb436"
+        },
+        {
+          "path": "open_clip/timm_model.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dc71a693f9a42ec01fd88d307661bc382b4d05bc",
+          "size": 5077,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/dc71a693f9a42ec01fd88d307661bc382b4d05bc"
+        },
+        {
+          "path": "open_clip/tokenizer.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "23fcfcbcb4ca051ba5bba7520918693001999282",
+          "size": 7411,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/23fcfcbcb4ca051ba5bba7520918693001999282"
+        },
+        {
+          "path": "open_clip/transform.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "748884a3c7cb7ece1ca521ca1dbf40bb74855007",
+          "size": 4779,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/748884a3c7cb7ece1ca521ca1dbf40bb74855007"
+        },
+        {
+          "path": "open_clip/transformer.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4e0151017a6e12396034927c99174bce87d31f13",
+          "size": 27095,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/4e0151017a6e12396034927c99174bce87d31f13"
+        },
+        {
+          "path": "open_clip/utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "51e80c5e296b24cae130ab0459baf268e0db7673",
+          "size": 2223,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/51e80c5e296b24cae130ab0459baf268e0db7673"
+        },
+        {
+          "path": "open_clip/version.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "48aa744fb053599044caf0253b889b5cfe5b78e7",
+          "size": 23,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/48aa744fb053599044caf0253b889b5cfe5b78e7"
+        },
+        {
+          "path": "optim_utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e66520bfdfa4de714aefeb1a8ad0e18570742532",
+          "size": 10292,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/e66520bfdfa4de714aefeb1a8ad0e18570742532"
+        },
+        {
+          "path": "quality.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e278f9d475c9d17ea5a11553ae00d0fd62f6ea8e",
+          "size": 6699,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/e278f9d475c9d17ea5a11553ae00d0fd62f6ea8e"
+        },
+        {
+          "path": "regeneration.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5888f9b0e0b5fddf34925852914c389cf9963347",
+          "size": 4939,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/5888f9b0e0b5fddf34925852914c389cf9963347"
+        },
+        {
+          "path": "requirements.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "357959a13c2a4b17457cdc6c199fb398b27956b0",
+          "size": 2458,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/357959a13c2a4b17457cdc6c199fb398b27956b0"
+        },
+        {
+          "path": "semantic.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "655debb1ab4e9a182e0c9c5e118d49b38aa52bb1",
+          "size": 6542,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/655debb1ab4e9a182e0c9c5e118d49b38aa52bb1"
+        },
+        {
+          "path": "setup.sh",
+          "mode": "100755",
+          "type": "blob",
+          "sha": "a18980996cff06bdfa889f6ab289617fd9424267",
+          "size": 355,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/a18980996cff06bdfa889f6ab289617fd9424267"
+        },
+        {
+          "path": "spatial_test.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "08a2c391815d7b32d0a058582cb88d8fca7d3432",
+          "size": 5542,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/08a2c391815d7b32d0a058582cb88d8fca7d3432"
+        },
+        {
+          "path": "utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "68a61f3245875245e3bfd15ff9264189b5f7bf33",
+          "size": 35928,
+          "url": "https://api.github.com/repos/Kasraarabi/SEAL/git/blobs/68a61f3245875245e3bfd15ff9264189b5f7bf33"
+        }
+      ],
+      "files": [
+        {
+          "path": "256x256_diffusion.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/256x256_diffusion.json",
+          "bytes": 409,
+          "sha256": "48384ce8bfe900f4e135c73689b99812bc45d82c5e386f3a591497c0e1ff5fed"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/README.md",
+          "bytes": 1504,
+          "sha256": "a60bbb96b09080333680799e185b2490aa8543b2d1927981abb4404bc505770e"
+        },
+        {
+          "path": "SEAL.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/SEAL.py",
+          "bytes": 5724,
+          "sha256": "d5b8386e1ab9ccd6ea582e55a21bfb55062ee843c792e56a39c4d480ae64efd7"
+        },
+        {
+          "path": "caption_pairs.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/caption_pairs.py",
+          "bytes": 5823,
+          "sha256": "cd385d15e93006d0fd1a3da119fea496aad2e472cbc05e7969dc8b2e141c70e9"
+        },
+        {
+          "path": "captioning_embedding_ablation.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/captioning_embedding_ablation.py",
+          "bytes": 6886,
+          "sha256": "0095b5b53f9dbc8d17dfc3b2010bee9deddd97dddec70522a5c5a2f2cfde97b3"
+        },
+        {
+          "path": "cat_attack.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/cat_attack.py",
+          "bytes": 6676,
+          "sha256": "a496a65c545341d895f33d6590e91983b4e1b4b0457a76831e815662a5286b8b"
+        },
+        {
+          "path": "cat_attack_patch_search.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/cat_attack_patch_search.py",
+          "bytes": 5961,
+          "sha256": "e039cda9d66e035646c1e9b08facd894defb02422a8543bbc6520599b99035c8"
+        },
+        {
+          "path": "embedding_finetune.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/embedding_finetune.py",
+          "bytes": 6388,
+          "sha256": "79d247711df2ca6fddba3b58d61befc2016929d6da03e307651ca1722b60208f"
+        },
+        {
+          "path": "guided_diffusion/__init__.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/__init__.py",
+          "bytes": 74,
+          "sha256": "ec30483aa641d5c1b9cc8910554324949f2288eadd085310d4c312cdda294c73"
+        },
+        {
+          "path": "guided_diffusion/dist_util.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/dist_util.py",
+          "bytes": 2424,
+          "sha256": "6464852e108f7b3426c3a95ac77708f814801d5b8fb18fe70eadb4058d888532"
+        },
+        {
+          "path": "guided_diffusion/fp16_util.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/fp16_util.py",
+          "bytes": 7962,
+          "sha256": "31ce6b36be7a2a09606687a4935eca6b093f645c7ecd2111f43fca54aff3dc2a"
+        },
+        {
+          "path": "guided_diffusion/gaussian_diffusion.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/gaussian_diffusion.py",
+          "bytes": 37735,
+          "sha256": "c56f5cee67a5dc7a3fd6724d60aa46bfd1b06a4cb16928ba8a1b6e0fcd6ea393"
+        },
+        {
+          "path": "guided_diffusion/image_datasets.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/image_datasets.py",
+          "bytes": 5930,
+          "sha256": "220d6699f1c201989209f1bd64f5a7d3beef41e84098607aa521ab21cf6700d5"
+        },
+        {
+          "path": "guided_diffusion/logger.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/logger.py",
+          "bytes": 13979,
+          "sha256": "615d9cb63dd2cfe017ac424bcc64340257c83eb9cb8e6b6913df4bd55831c1c0"
+        },
+        {
+          "path": "guided_diffusion/losses.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/losses.py",
+          "bytes": 2534,
+          "sha256": "0b0f5a5532910fbc7f16d30f2b891d8f1e20aa88881589ce4eacc2cc6ce06026"
+        },
+        {
+          "path": "guided_diffusion/nn.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/nn.py",
+          "bytes": 5020,
+          "sha256": "d9547fb22b421a16dc079cb82a9d98630100b5e1b2a710d343f4d3f90b8661f3"
+        },
+        {
+          "path": "guided_diffusion/resample.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/resample.py",
+          "bytes": 5689,
+          "sha256": "13a06f67e655dc145833896389576b0f8e68b2f677dc9eed60ed8839aa6a9c62"
+        },
+        {
+          "path": "guided_diffusion/respace.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/respace.py",
+          "bytes": 5193,
+          "sha256": "b9a509b28c10a52ca3ee8cc48f40205b1d70aecfc95356b540dc88415368c2de"
+        },
+        {
+          "path": "guided_diffusion/script_util.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/script_util.py",
+          "bytes": 12349,
+          "sha256": "d47bb38ea450bf6e7c57c494a43947f6664f45b58a487f6315f5ec83365b80b8"
+        },
+        {
+          "path": "guided_diffusion/train_util.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/train_util.py",
+          "bytes": 10604,
+          "sha256": "272e3b66baa081b2fdb2e4e6d792e575e713438bee9adf1e1fd8504c75925140"
+        },
+        {
+          "path": "guided_diffusion/unet.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/guided_diffusion/unet.py",
+          "bytes": 31233,
+          "sha256": "ab3ad40d70a551069f3e2d14698f7c6712e5738d0be1365def6cad78ca15eeda"
+        },
+        {
+          "path": "image_transformations.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations.py",
+          "bytes": 5330,
+          "sha256": "eb141f6481ff1376480ed2d94bcfc6da5ede505a080893be782ac71d668effe0"
+        },
+        {
+          "path": "image_transformations_exhaustive.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive.py",
+          "bytes": 8686,
+          "sha256": "e474b57c72bd6866e288c5f97a211a9971704e83fe3319b9dea876f80465b69b"
+        },
+        {
+          "path": "image_transformations_exhaustive_roc_auc.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive_roc_auc.py",
+          "bytes": 10452,
+          "sha256": "8134690b1019ebbdd9123115283f0f0c6c534367e0a59f5ec00b1671b9ee3da8"
+        },
+        {
+          "path": "image_transformations_exhaustive_tpr.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive_tpr.py",
+          "bytes": 8695,
+          "sha256": "87f6df30bf4a952007985a49e83b6090a1925238e109e97981434b0f5a3ba84e"
+        },
+        {
+          "path": "inverse_stable_diffusion.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/inverse_stable_diffusion.py",
+          "bytes": 7233,
+          "sha256": "918eb53fc83b1c8c9ceb1188ef20c0dcc0e46d5138f5e0778a8f88633c1cdd04"
+        },
+        {
+          "path": "io_utils.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/io_utils.py",
+          "bytes": 4387,
+          "sha256": "b773fa1e149b015c074364258d64eaf7c3cdc55b5b3e9fe43457387c578124a9"
+        },
+        {
+          "path": "modified_stable_diffusion.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/modified_stable_diffusion.py",
+          "bytes": 10919,
+          "sha256": "ee973b11edb3f9fa11285c421167b2e60cb6b0f94d8f57760c9b10b95f7af0fb"
+        },
+        {
+          "path": "open_clip/__init__.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/__init__.py",
+          "bytes": 963,
+          "sha256": "699a662afa012f3a4eef47ec6eb09e41236b71160da82a531696a7d6b6b2ac9a"
+        },
+        {
+          "path": "open_clip/coca_model.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/coca_model.py",
+          "bytes": 17439,
+          "sha256": "63762d49bd7b67518d9c9fb0a96f69e3bd2f7cc536e514d9372683a61311d07b"
+        },
+        {
+          "path": "open_clip/constants.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/constants.py",
+          "bytes": 116,
+          "sha256": "4289fac298908e2fb814ff84b4594ff49094a7eab074fed1b2ca6429339e923b"
+        },
+        {
+          "path": "open_clip/factory.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/factory.py",
+          "bytes": 13401,
+          "sha256": "9cb95817aedec0cdc3ce5eddc375d039a54ca8379cbd92e6b165d132eb39e75b"
+        },
+        {
+          "path": "open_clip/generation_utils.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/generation_utils.py",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "open_clip/hf_configs.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/hf_configs.py",
+          "bytes": 1675,
+          "sha256": "706c17fe0f02298a03a03f21c7ccf19b8d5408e6da4dd517f804090774c02100"
+        },
+        {
+          "path": "open_clip/hf_model.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/hf_model.py",
+          "bytes": 6298,
+          "sha256": "a322c444d3fb614d45b2b30ef544290503b531d3b5f6d5d148601a54361c382f"
+        },
+        {
+          "path": "open_clip/loss.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/loss.py",
+          "bytes": 7943,
+          "sha256": "6257ee1ac8e53178f439387f8e6111ba2d10b362a47475e3b0511405d24e7d82"
+        },
+        {
+          "path": "open_clip/model.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model.py",
+          "bytes": 17581,
+          "sha256": "f8fd8c13fdd81d3fd5dc9196354bed375b28cb0291480c2845121e777c19cf44"
+        },
+        {
+          "path": "open_clip/model_configs/RN101-quickgelu.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/RN101-quickgelu.json",
+          "bytes": 388,
+          "sha256": "24dd435eec6871d7675bd6b02098e71e105a957aa6a3a59153b03181103756b5"
+        },
+        {
+          "path": "open_clip/model_configs/RN101.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/RN101.json",
+          "bytes": 364,
+          "sha256": "0466aae72c1cd259a8655e25af3170d54acb4cbac95304cb9832d68e0716538b"
+        },
+        {
+          "path": "open_clip/model_configs/RN50-quickgelu.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/RN50-quickgelu.json",
+          "bytes": 389,
+          "sha256": "079e9c4f3d7808a767de08061ab417f98d9e8aaaecec6510949cad0c0c389a41"
+        },
+        {
+          "path": "open_clip/model_configs/RN50.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/RN50.json",
+          "bytes": 364,
+          "sha256": "a5b9845a44b5a052fb1697055b41b492171aa84868f1408e5fed7e6077d046d4"
+        },
+        {
+          "path": "open_clip/model_configs/RN50x16.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/RN50x16.json",
+          "bytes": 365,
+          "sha256": "971064787fdc0266bb51d924db6f7f5311763118733315b54f2a9e52bdb64d50"
+        },
+        {
+          "path": "open_clip/model_configs/RN50x4.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/RN50x4.json",
+          "bytes": 365,
+          "sha256": "aea39b4ec952ccfe1b7f9242a9c0d36e1abeb90f5c6fd4b2cfac6e402462df72"
+        },
+        {
+          "path": "open_clip/model_configs/RN50x64.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/RN50x64.json",
+          "bytes": 370,
+          "sha256": "c9547262af1b739ca64766246b12d9b5e51f33c354f2bb1d8fe871dbb2ded3de"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-16-plus-240.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-B-16-plus-240.json",
+          "bytes": 295,
+          "sha256": "09b2a65ea7bf757440b89b52e7a09ff85d556635f0e3a4ca76109e42aac6e351"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-16-plus.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-B-16-plus.json",
+          "bytes": 295,
+          "sha256": "8e0c645c9190b34c48c281cbc243e1ed7c3fd3c1ee5f2c5885fe9c17b11c327a"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-16.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-B-16.json",
+          "bytes": 294,
+          "sha256": "66d48767ab11591f4af2d2d1bf21845c3f2bea17ac70e0989991ff166a53ae52"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-32-plus-256.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-B-32-plus-256.json",
+          "bytes": 295,
+          "sha256": "fcb771914c59371ec222f05dd5af44a5da74c72855c1c686f3f9701c95d64732"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-32-quickgelu.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-B-32-quickgelu.json",
+          "bytes": 318,
+          "sha256": "437dc6acc8455267c2646e84f880a026d91ac20828db9b100b18a5edba0e767a"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-B-32.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-B-32.json",
+          "bytes": 294,
+          "sha256": "743f4fcee3aea1705c1865f89a3767d816513769f57eb483a9eea3e610ebe633"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-H-14.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-H-14.json",
+          "bytes": 324,
+          "sha256": "8b5bd11e1775f0fd79227ba05c07f3339b1c4da2e0f21f5426631774a84a6058"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-H-16.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-H-16.json",
+          "bytes": 324,
+          "sha256": "45c950e8c98300b5e0085781e9f91cc6f12ff94b43d0ed0f9687ed993209e8ef"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-L-14-280.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-L-14-280.json",
+          "bytes": 296,
+          "sha256": "848f42db24beda55ce044fb82cc4ffae34fa3a769184c2187a71e5074df209c1"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-L-14-336.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-L-14-336.json",
+          "bytes": 296,
+          "sha256": "980d8da26bf11b651426addb113881f24f707589ebecc7b882269e3678b33e84"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-L-14.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-L-14.json",
+          "bytes": 296,
+          "sha256": "616750a927ea8d8b0b8e4ec93179cab3df9e4f1531cb60cc5dd6882cb063888b"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-L-16-320.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-L-16-320.json",
+          "bytes": 296,
+          "sha256": "e4b766875aa5b1b303db804bb446d4c78213ed34bc089e79297b14287b952331"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-L-16.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-L-16.json",
+          "bytes": 296,
+          "sha256": "eae893277137e6cd4f071265423d135663528018cc13bdbf50709feaa80284fa"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-M-16-alt.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-M-16-alt.json",
+          "bytes": 325,
+          "sha256": "a7888dab87466d26cdd7fe6b1df995c17028ca21b8e6848aa9ff549cd57fdf08"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-M-16.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-M-16.json",
+          "bytes": 294,
+          "sha256": "22852ee6d1e4c977f99b79d837fe226c315f75c16a22f809a16df6a2c1792d49"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-M-32-alt.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-M-32-alt.json",
+          "bytes": 294,
+          "sha256": "a1be2c52a813f752842683c60472712bbe6cf10a8adbeecff94cfe0c9f5ef310"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-M-32.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-M-32.json",
+          "bytes": 294,
+          "sha256": "30b866c3c488a841903f0ce0892224cf6cd88924186a2f1bf5cca90fe3e529ef"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-S-16-alt.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-S-16-alt.json",
+          "bytes": 294,
+          "sha256": "377ff96ac3126125c2d59f71567542ab4563230b1cf94287614dd12df86e78ff"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-S-16.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-S-16.json",
+          "bytes": 294,
+          "sha256": "68a3b267da2d98daa52d6df7f9e7764dfe68b619e2ddcda0ab7a0074d5057beb"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-S-32-alt.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-S-32-alt.json",
+          "bytes": 294,
+          "sha256": "8e60da19a82ea42e7c97102ae551d31497da66dbb11793800875584fcb46c760"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-S-32.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-S-32.json",
+          "bytes": 294,
+          "sha256": "f8eeef14759a63a27686abd7eba45ae45b69f0344c32fbff67c059c8f016da3b"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-bigG-14.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-bigG-14.json",
+          "bytes": 354,
+          "sha256": "6f5fc4e85739ca3546804e30178f5241b3be2becd8cf52c282b6e90c742a9f30"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-e-14.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-e-14.json",
+          "bytes": 354,
+          "sha256": "27e8d32a1c7727ef84fb4ab2c337b69fcb7aae96243c8bcfb4b4bbaffd2a83d1"
+        },
+        {
+          "path": "open_clip/model_configs/ViT-g-14.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/ViT-g-14.json",
+          "bytes": 353,
+          "sha256": "463160a932f75774ded241d4217eebd172fe7c03c24646530a24b89b20148df5"
+        },
+        {
+          "path": "open_clip/model_configs/coca_ViT-B-32.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/coca_ViT-B-32.json",
+          "bytes": 659,
+          "sha256": "5dc0a9a7803fefb45fadd78ae534839d2adc258efe4b732fdf9c370b49caeee5"
+        },
+        {
+          "path": "open_clip/model_configs/coca_ViT-L-14.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/coca_ViT-L-14.json",
+          "bytes": 664,
+          "sha256": "709768239a6598fe13f19f1ccffd152d503c4c51847ea211f4aefec2158a91f8"
+        },
+        {
+          "path": "open_clip/model_configs/coca_base.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/coca_base.json",
+          "bytes": 669,
+          "sha256": "41ea88529c52700715eba5e90ac0e4edca4453346195d1c305cb71ab7d8c75e0"
+        },
+        {
+          "path": "open_clip/model_configs/coca_roberta-ViT-B-32.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/coca_roberta-ViT-B-32.json",
+          "bytes": 517,
+          "sha256": "3173bde2a095e7e67df86e5fcf698cee52663b2caf0fcdad91280b9cdf863c1e"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_base.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_base.json",
+          "bytes": 421,
+          "sha256": "aca749568baacbeed4d9e80259440f377023b42744ac26ab2f3a01a0eeea9b84"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_base_w.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_base_w.json",
+          "bytes": 422,
+          "sha256": "3de1efb055e506c05952ef13faef6eedabcd68a001d0f7df2c595541f3c3f66a"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_base_w_320.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_base_w_320.json",
+          "bytes": 422,
+          "sha256": "37b39ef036e6c949af1d5a2f404e469cc216e2ee73d290d0e3169e326f367e93"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_large.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_large.json",
+          "bytes": 423,
+          "sha256": "571e78940760a9f389169da9eda00f32f584bb9814bc507fb79e5051c771c29b"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_large_d.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_large_d.json",
+          "bytes": 420,
+          "sha256": "76a8d687335fb75dc02c10bac5de66f7f687e3ab8b23cf0f372ebf86fb0ce58a"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_large_d_320.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_large_d_320.json",
+          "bytes": 420,
+          "sha256": "44c8dea391af808d38e16d4ff489e2f498bbfa35a974deb9f7273d8932c56679"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_small.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_small.json",
+          "bytes": 422,
+          "sha256": "54c0d8b6168b6a7907e32ff8134ef096aa1b1e2100c815f366b728b7fcedd122"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_tiny.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_tiny.json",
+          "bytes": 422,
+          "sha256": "c919729a818c48f95371c8b52030c96513cf2d38e28a94a098be78da3b345e89"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_xlarge.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_xlarge.json",
+          "bytes": 426,
+          "sha256": "320f6ee194db97b3b98511ccd9086f29d65ca69bfe1889686f0b4d3fda4334f2"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_xxlarge.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_xxlarge.json",
+          "bytes": 427,
+          "sha256": "5017c8577bfe979ebcf227b0d651b783809717a12177905d7ce71254b363108e"
+        },
+        {
+          "path": "open_clip/model_configs/convnext_xxlarge_320.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/convnext_xxlarge_320.json",
+          "bytes": 427,
+          "sha256": "ab4f469f9ef8df163259e91f145f0a7b2fec21824fb1c2dfa863cc6ab01b52f4"
+        },
+        {
+          "path": "open_clip/model_configs/mt5-base-ViT-B-32.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/mt5-base-ViT-B-32.json",
+          "bytes": 325,
+          "sha256": "dea1040f8fc5ce097a7ba38454e308b19d002df6f90a17556d48eed94c19a960"
+        },
+        {
+          "path": "open_clip/model_configs/mt5-xl-ViT-H-14.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/mt5-xl-ViT-H-14.json",
+          "bytes": 349,
+          "sha256": "356b65e1e31b0e4ee374b3d2f332631b13155b8d62f597a568999292e3e3d6ea"
+        },
+        {
+          "path": "open_clip/model_configs/roberta-ViT-B-32.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/roberta-ViT-B-32.json",
+          "bytes": 343,
+          "sha256": "4a6d714252c97037c0f5194159882d1a399146f35483275581acc27c994abe11"
+        },
+        {
+          "path": "open_clip/model_configs/swin_base_patch4_window7_224.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/swin_base_patch4_window7_224.json",
+          "bytes": 380,
+          "sha256": "1cb823b9fab9bd851d81ac0af751ccb7fa9ed1ebb31a16cea29e01ca8c3edd87"
+        },
+        {
+          "path": "open_clip/model_configs/vit_medium_patch16_gap_256.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/vit_medium_patch16_gap_256.json",
+          "bytes": 377,
+          "sha256": "50426397fc6e28e205df55b9aadedc49c47e73904229ea588fcef29e0e65a07f"
+        },
+        {
+          "path": "open_clip/model_configs/vit_relpos_medium_patch16_cls_224.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/vit_relpos_medium_patch16_cls_224.json",
+          "bytes": 384,
+          "sha256": "b0539ae19daff98d4edfabfd711a808e01bc362e23414438dd158ec430dd7b28"
+        },
+        {
+          "path": "open_clip/model_configs/xlm-roberta-base-ViT-B-32.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/xlm-roberta-base-ViT-B-32.json",
+          "bytes": 327,
+          "sha256": "f2c3d4542cb4a772fecebeaa29aa4a981c29bf0337f08a50210cc6d4a537266b"
+        },
+        {
+          "path": "open_clip/model_configs/xlm-roberta-large-ViT-H-14.json",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/model_configs/xlm-roberta-large-ViT-H-14.json",
+          "bytes": 357,
+          "sha256": "17fbddd3b56a453f14ed9dff1a2a48abe3425f60686d3cf0531940921f8a9bbe"
+        },
+        {
+          "path": "open_clip/modified_resnet.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/modified_resnet.py",
+          "bytes": 7035,
+          "sha256": "897534d25611fb83520f749cb19e000b7e19bc6d1946072c03e28dc37057d136"
+        },
+        {
+          "path": "open_clip/openai.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/openai.py",
+          "bytes": 5446,
+          "sha256": "f96a14feff6f6af7625d7ca3ec12f095aeed657b0d7f3953512c1eaadeb999c2"
+        },
+        {
+          "path": "open_clip/pretrained.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/pretrained.py",
+          "bytes": 14144,
+          "sha256": "78433ace9a39401b0d94d9cfce75f63e25101f0ab802d266fe9f7bfeda2d93e2"
+        },
+        {
+          "path": "open_clip/push_to_hf_hub.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/push_to_hf_hub.py",
+          "bytes": 7660,
+          "sha256": "b343d65a7b2b1b0d69b14f8ad264966c363f767793b3de85a3d1792b2dc55ba3"
+        },
+        {
+          "path": "open_clip/timm_model.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/timm_model.py",
+          "bytes": 5077,
+          "sha256": "a8f57501c7552183a15badd4345c1e4f337a957f72abedbb339dbfcbc5d163f2"
+        },
+        {
+          "path": "open_clip/tokenizer.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/tokenizer.py",
+          "bytes": 7411,
+          "sha256": "5f55e9e2050feb3168a4fcef881bb13ef142f37a298d288d3da8cbf07f839a14"
+        },
+        {
+          "path": "open_clip/transform.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/transform.py",
+          "bytes": 4779,
+          "sha256": "41c5cfee01c7e3e2f29c5a3934954298ed3ff3bc73f45a8998427283871c44ba"
+        },
+        {
+          "path": "open_clip/transformer.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/transformer.py",
+          "bytes": 27095,
+          "sha256": "c24774c35819c04ce0ea48bbfacadb812a3a333a92fb01480e9a893772690f55"
+        },
+        {
+          "path": "open_clip/utils.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/utils.py",
+          "bytes": 2223,
+          "sha256": "459dd691e95325eb7100ae107f81f05a84d5e4fc50f7ef6044a700390dffdeb5"
+        },
+        {
+          "path": "open_clip/version.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/open_clip/version.py",
+          "bytes": 23,
+          "sha256": "c6ddb2615ac179aa2763e21289583c06f034cc8aa21d0fb405c9b02075ae123b"
+        },
+        {
+          "path": "optim_utils.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/optim_utils.py",
+          "bytes": 10292,
+          "sha256": "40e177d65aebb26ffa852f4d22c26ec6450162faa38e60b7c9f1c3b38d4b03a3"
+        },
+        {
+          "path": "quality.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/quality.py",
+          "bytes": 6699,
+          "sha256": "675ae7d93a2c35d5cf0805901aa654ebdfa92382c57d2243c76a76100d290eab"
+        },
+        {
+          "path": "regeneration.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/regeneration.py",
+          "bytes": 4939,
+          "sha256": "e36033da88072ef5ecf33981544db258bd36792830ddf8372c18f5c338ab03c9"
+        },
+        {
+          "path": "requirements.txt",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/requirements.txt",
+          "bytes": 2458,
+          "sha256": "4f4ac168e0c90dd5ca74aeef5dc4be74eac5bef9892ffa91f5af80a43da01f53"
+        },
+        {
+          "path": "semantic.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/semantic.py",
+          "bytes": 6542,
+          "sha256": "8198a6ffdc6a68852cece64cd6e097b57860daa73d24bd8c5fc266889cf34dd5"
+        },
+        {
+          "path": "setup.sh",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/setup.sh",
+          "bytes": 355,
+          "sha256": "6a912ab4a9684b8924b45f6a285a1a505f312c75be540e5ae330e4b023e325bf"
+        },
+        {
+          "path": "spatial_test.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/spatial_test.py",
+          "bytes": 5542,
+          "sha256": "7cf36e4b4626108175728c55dc7df6f028654d50cd66a5dbd22e6c8cd76a31c6"
+        },
+        {
+          "path": "utils.py",
+          "url": "https://raw.githubusercontent.com/Kasraarabi/SEAL/92d31b31b93a6e373fe88a584c640beafb68c6fa/utils.py",
+          "bytes": 35928,
+          "sha256": "aea4c34597398231819f970eb727d49cee1436d82c688929347ba16cedb2b23b"
+        }
+      ],
+      "releases": []
+    },
+    {
+      "repo": "XinZhang1999/SemBind",
+      "commit": "337c9f90a150157ac1d410208ae20e6530ca8cdd",
+      "tree_sha": "337c9f90a150157ac1d410208ae20e6530ca8cdd",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "tree": [
+        {
+          "path": ".gitignore",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ead36017bec57f8422af689851fbda313de0b73d",
+          "size": 286,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/ead36017bec57f8422af689851fbda313de0b73d"
+        },
+        {
+          "path": "LICENSE",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d4620ed3f048d9df1c3e67e0ddd862f3e585ad5f",
+          "size": 1066,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/d4620ed3f048d9df1c3e67e0ddd862f3e585ad5f"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d306d13bb03af070b3b2f4b687cb34c8ba666392",
+          "size": 5104,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/d306d13bb03af070b3b2f4b687cb34c8ba666392"
+        },
+        {
+          "path": "environment.yml",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fa250f3aed2c73051184463f061b386ab3f52b8a",
+          "size": 10095,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/fa250f3aed2c73051184463f061b386ab3f52b8a"
+        },
+        {
+          "path": "image_utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b6011f7911665f632a6ea837703f8947dc27be58",
+          "size": 9709,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/b6011f7911665f632a6ea837703f8947dc27be58"
+        },
+        {
+          "path": "inversion.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bfed3e54ca365c46c78bb081157feae784b63163",
+          "size": 4514,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/bfed3e54ca365c46c78bb081157feae784b63163"
+        },
+        {
+          "path": "model.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f7b73486acc1a679ad58c747a483d8a5500532f4",
+          "size": 9427,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/f7b73486acc1a679ad58c747a483d8a5500532f4"
+        },
+        {
+          "path": "semantimark.ipynb",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c14703cc1940cff2c13f5c639e7e00d947010038",
+          "size": 5384,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/c14703cc1940cff2c13f5c639e7e00d947010038"
+        },
+        {
+          "path": "semantimark_demo.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ca2f1f2ba5d38a4e7a41e9d0591e3ef26e25ca5c",
+          "size": 19624338,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/ca2f1f2ba5d38a4e7a41e9d0591e3ef26e25ca5c"
+        },
+        {
+          "path": "src",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "1737542101c66c1f3368ddd58428f315c02e2753",
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/trees/1737542101c66c1f3368ddd58428f315c02e2753"
+        },
+        {
+          "path": "src/inverse_stable_diffusion.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "89484b9dc613ea4e5b9b4cacb72d2f13e0f1018a",
+          "size": 23934,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/89484b9dc613ea4e5b9b4cacb72d2f13e0f1018a"
+        },
+        {
+          "path": "src/modified_stable_diffusion.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4b91a3004903ab6b8bf390a263e6ca2a7e5855d4",
+          "size": 11700,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/4b91a3004903ab6b8bf390a263e6ca2a7e5855d4"
+        },
+        {
+          "path": "src/optim_utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "53cabe85ad065c4900dfad56b8d33f1e72b8f557",
+          "size": 891,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/53cabe85ad065c4900dfad56b8d33f1e72b8f557"
+        },
+        {
+          "path": "src/prc.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6084654944cc2768b40d84876bd7378fa6e18d73",
+          "size": 7945,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/6084654944cc2768b40d84876bd7378fa6e18d73"
+        },
+        {
+          "path": "src/pseudogaussians.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0779faa7c25b3e512d3f3cfa2fd6cb53632fbcb0",
+          "size": 1112,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/0779faa7c25b3e512d3f3cfa2fd6cb53632fbcb0"
+        },
+        {
+          "path": "src/train_new.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "068dc49727cf403e43c32311dbd2f1b540f579c3",
+          "size": 3468,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/068dc49727cf403e43c32311dbd2f1b540f579c3"
+        },
+        {
+          "path": "utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4046e5da4e631ef877aaabd94e244eabe8309022",
+          "size": 1013,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/4046e5da4e631ef877aaabd94e244eabe8309022"
+        }
+      ],
+      "files": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/LICENSE",
+          "bytes": 1066,
+          "sha256": "172e0d49eacb1ca22f634bdd08e7cab64230a0c49685b2d39e7887d5557ad782"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/README.md",
+          "bytes": 5104,
+          "sha256": "7c7e4d029202a661dd57839be15c011785c722cced23951ff6bc4677f746e26e"
+        },
+        {
+          "path": "environment.yml",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/environment.yml",
+          "bytes": 10095,
+          "sha256": "538871891d0c21805c68278080e96cf231c490e7a939dcd938106e079ce759c9"
+        },
+        {
+          "path": "image_utils.py",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/image_utils.py",
+          "bytes": 9709,
+          "sha256": "240710dda5d07b2003b62480dd9a56b631bad1c55a91ad3f5fa70dba3d25cbfd"
+        },
+        {
+          "path": "inversion.py",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/inversion.py",
+          "bytes": 4514,
+          "sha256": "dcf0dd6e9b5af1e64c24fe5c3c16473be54f1936c44da096f85b0437bf2fb14b"
+        },
+        {
+          "path": "model.py",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/model.py",
+          "bytes": 9427,
+          "sha256": "ee22217258acd3c86899ce616cc5d7dbb6d14948208145a1daa7ace0c1943da3"
+        },
+        {
+          "path": "semantimark.ipynb",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/semantimark.ipynb",
+          "bytes": 5384,
+          "sha256": "8405be9d943c6a02f0bc169a0f26cfc1b5e3990ceb966c99572735fe244828e5"
+        },
+        {
+          "path": "src/inverse_stable_diffusion.py",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/inverse_stable_diffusion.py",
+          "bytes": 23934,
+          "sha256": "64027a1a974bb018d8569fa670802996e6ed0a87ba94f9151f574dd33326ef17"
+        },
+        {
+          "path": "src/modified_stable_diffusion.py",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/modified_stable_diffusion.py",
+          "bytes": 11700,
+          "sha256": "fc4ac3795d51821c0a7a10fb57c28ecb414cc47e4af5629e6bfdaaccdc709ba2"
+        },
+        {
+          "path": "src/optim_utils.py",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/optim_utils.py",
+          "bytes": 891,
+          "sha256": "d96765a945a6d26514799bc6d8da0afc74f63a3482ff02e4ebd9391eb0dde344"
+        },
+        {
+          "path": "src/prc.py",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/prc.py",
+          "bytes": 7945,
+          "sha256": "6e3743687fe01ce148fd44998c82e785b9b408548f22820c5f0defbcf3e67a5f"
+        },
+        {
+          "path": "src/pseudogaussians.py",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/pseudogaussians.py",
+          "bytes": 1112,
+          "sha256": "6cc92bd53afe9004a2d878c7db406454c04a36d4724db41410821dac7ad872f8"
+        },
+        {
+          "path": "src/train_new.py",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/train_new.py",
+          "bytes": 3468,
+          "sha256": "4e79c5f68f668e8a93fa4a32eb79d5c20f997782d22e2b32c294f4487738df92"
+        },
+        {
+          "path": "utils.py",
+          "url": "https://raw.githubusercontent.com/XinZhang1999/SemBind/337c9f90a150157ac1d410208ae20e6530ca8cdd/utils.py",
+          "bytes": 1013,
+          "sha256": "6cabc4354d7950dbf66554e5bc8d61557180b4d4ff5a992523b04a1331fd0a37"
+        }
+      ],
+      "releases": []
+    }
+  ]
+}

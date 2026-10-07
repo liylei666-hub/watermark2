@@ -1,0 +1,9 @@
+{
+  "url": "https://drive.google.com/file/d/1-CX1LerxBNbJDxlBrneQCcwBBNnn3iCQ/view",
+  "filename": "@3M_attn_hash_model_180_160_hashdim_1024.pth",
+  "page_sha256": "bf0fb7e9780539abac9378589e90adb46698470da68bdbd912ee5ec9cc977b41",
+  "size_bytes": 886343333,
+  "size_evidence": "itemJson nested metadata contains decimal byte count 886343333",
+  "downloaded_weight_bytes": 0,
+  "license": "not separately verified for checkpoint; repository code MIT"
+}

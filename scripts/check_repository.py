@@ -17,7 +17,9 @@ def check():
     references = json.loads((ROOT / 'research/references.json').read_text(encoding='utf-8'))
     config = json.loads((ROOT / 'configs/pilot.json').read_text(encoding='utf-8'))
     ids = [r['id'] for r in references]
-    assert len(ids) == len(set(ids)) == 7
+    assert len(ids) == len(set(ids))
+    assert {'muller2025', 'seal2025', 'sembind2026', 'metaseal2026',
+            'geometry2026', 'pai2026', 'csi2026', 'slice2026'} <= set(ids)
     assert set(config['required_references']) == set(ids)
     matrix = (ROOT / 'research/literature.md').read_text(encoding='utf-8')
     for ref in references:

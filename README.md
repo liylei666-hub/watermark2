@@ -12,6 +12,9 @@
 4. [旧资产复用、归档与恢复](research/migration.md)
 5. [本轮验证记录及未完成项](research/validation.md)
 6. [新CPU实测结果与限制](research/cpu_pilot_results.md)
+7. [SEAL / SemBind / CSI 官方实现、组件测试与复现阻碍](research/public_reproduction_feasibility.md)
+
+公开实现核查已完成：固定三个上游版本，执行离线组件测试并核对权重体量。真实完整水印验证仍未执行；优先取得配套真实样例/保存输出。SLICE 已纳入直接先行工作，分因子绑定和局部判决不能作为本项目的新颖性依据。
 
 机器可读协议：[configs/pilot.json](configs/pilot.json)；来源索引：[research/references.json](research/references.json)。
 

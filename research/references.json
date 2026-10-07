@@ -15,9 +15,12 @@
     "authors": "Arabi et al.",
     "venue": "ICCV 2025",
     "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Arabi_SEAL_Semantic_Aware_Image_Watermarking_ICCV_2025_paper.pdf",
-    "status": "prior_task_verified; current_fetch_403",
-    "scope": "content binding; current full-text reread pending",
-    "checked": "2026-10-07"
+    "status": "official_code_and_arxiv_v4_read; CVF_fetch_403",
+    "scope": "official numerical components checked; full real-image verifier not executed",
+    "checked": "2026-10-07",
+    "code_url": "https://github.com/Kasraarabi/SEAL",
+    "code_commit": "92d31b31b93a6e373fe88a584c640beafb68c6fa",
+    "code_audit": "research/public_reproduction_feasibility.md; pinned source and offline components only"
   },
   {
     "id": "sembind2026",
@@ -28,7 +31,10 @@
     "status": "official_metadata_and_abstract_verified",
     "scope": "official abstract; final section 5 restrictions checked in parent review, PDF tool unsupported content type",
     "checked": "2026-10-07",
-    "final_pdf": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26hj/zhang26hj.pdf"
+    "final_pdf": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26hj/zhang26hj.pdf",
+    "code_url": "https://github.com/XinZhang1999/SemBind",
+    "code_commit": "337c9f90a150157ac1d410208ae20e6530ca8cdd",
+    "code_audit": "research/public_reproduction_feasibility.md; pinned source and offline components only"
   },
   {
     "id": "metaseal2026",
@@ -71,6 +77,19 @@
     "venue_url": "https://www2026.thewebconf.org/program/full-schedule.html",
     "status": "arxiv_full_text_and_official_schedule_verified",
     "scope": "sections 2-3, Table 1; results not reproduced",
+    "checked": "2026-10-07",
+    "code_url": "https://github.com/ZhengGao-30/CSI-Attack",
+    "code_commit": "8723e362835a6a61efd11b61f677b3321face3fa",
+    "code_audit": "research/public_reproduction_feasibility.md; pinned source and offline components only"
+  },
+  {
+    "id": "slice2026",
+    "title": "SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking",
+    "authors": "Zheng Gao; Yifan Yang; Xiaoyu Li; Xiaoyan Feng; Haoran Fan; Yang Song; Jiaojiao Jiang",
+    "venue": "arXiv preprint; formal acceptance not verified",
+    "url": "https://arxiv.org/abs/2603.12749",
+    "status": "primary_v1_full_text_sections_3_4_6_checked",
+    "scope": "factorized semantic latent binding and three-state verifier; author claims not reproduced",
     "checked": "2026-10-07"
   }
 ]

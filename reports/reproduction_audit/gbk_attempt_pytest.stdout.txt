@@ -1,0 +1,40 @@
+................F....................................................... [ 88%]
+.........                                                                [100%]
+================================== FAILURES ===================================
+_________________ test_the_library_ships_no_threshold_values __________________
+
+    def test_the_library_ships_no_threshold_values() -> None:
+        """The one rule this package is organised around.
+    
+        A detection threshold depends on the checkpoint, captioner and encoder in
+        use. Shipping one invites a user to inherit an operating point measured on
+        somebody else's setup, which is how an ASR ends up describing a detector
+        instead of an attack.
+        """
+        import pathlib
+    
+        banned = ("0.7148", "77.0", "= 12.0", "2.685", "2.69")
+        root = pathlib.Path(csi.__file__).parent
+        offenders = []
+        for path in root.rglob("*.py"):
+>           for n, line in enumerate(path.read_text().splitlines(), 1):
+
+tests\test_api.py:261: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/liylei/Documents/Codex/2026-10-08/task/watermark2/runs/reproduction_audit/CSI-Attack/csi/attack.py')
+encoding = 'locale', errors = None
+
+    def read_text(self, encoding=None, errors=None):
+        """
+        Open the file in text mode, read it, and close the file.
+        """
+        encoding = io.text_encoding(encoding)
+        with self.open(mode='r', encoding=encoding, errors=errors) as f:
+>           return f.read()
+E           UnicodeDecodeError: 'gbk' codec can't decode byte 0x94 in position 2894: illegal multibyte sequence
+
+D:\python\python2\lib\pathlib.py:1135: UnicodeDecodeError
+=========================== short test summary info ===========================
+FAILED tests/test_api.py::test_the_library_ships_no_threshold_values - Unicod...
+1 failed, 80 passed in 19.62s
