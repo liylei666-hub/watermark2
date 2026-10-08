@@ -1,0 +1,1432 @@
+{
+  "status": "artifact_hash_bindings_recorded",
+  "rows": 21,
+  "scope": "post-hoc artifact inventory; stage associations come from executed loop and persisted records, no encoder/inversion rerun",
+  "records": [
+    {
+      "run": "smoke",
+      "image": "reports\\sd15_clip_smoke\\s0_original.png",
+      "image_sha256": "d5500c0c38394f8c953ca8ee32feaa98865eb06ee0a00ef8b29066b05f212fa7",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "5fb511633d6214f7ae450fc8f147da42aa6a726be699f408b05218c62d4204e1"
+      },
+      "frozen_sha256": "1cf98b2c820f174d9c992647baea14a23720e72e5c4b56195760a7c86aeecc16",
+      "executed_script_sha256": "1cc69878eb9437cc0217b0e2fb82858bed88314ce06573a4588366b24cee7687",
+      "score_row": {
+        "source": "s0",
+        "variant": "original",
+        "match_count": 356,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 739,
+        "wall_seconds": 2.533365465933457,
+        "registration_seconds": 9.266287899110466
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "7e20670c9f659be5a3ca1fab69b5cfd24635a55aad655e56fc6387a47275f770"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "54d480ddd7d8afa83a6686c33b17bdd75725410e2381030c7ab64797ead1266a"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "c6398c5e111049ecc7be35ad2fa27adcb2759e9aaab310b72c89540febf562a3"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "e7a2d6e02f4d0e62fab3624b6cf617e64a6867de6dd417cdbdf44f976af7b414"
+        }
+      }
+    },
+    {
+      "run": "smoke",
+      "image": "reports\\sd15_clip_smoke\\s0_jpeg70.png",
+      "image_sha256": "13752a4c22b360f3f66119e4ad574b1a9313ad8c94ed92cd168ba46151b5fc63",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "75aab12120376de3915e74839102471974076167fce7da0b87ed26dbf3bc3aa9"
+      },
+      "frozen_sha256": "1cf98b2c820f174d9c992647baea14a23720e72e5c4b56195760a7c86aeecc16",
+      "executed_script_sha256": "1cc69878eb9437cc0217b0e2fb82858bed88314ce06573a4588366b24cee7687",
+      "score_row": {
+        "source": "s0",
+        "variant": "jpeg70",
+        "match_count": 68,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 148,
+        "wall_seconds": 1.9103498179465532
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "c6ab7fcb9cacbcf74410669d8e9b2a537f5d7df736d6d35fd6ff4d82fd6c8777"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "71b65413dc543184bf60f4f2087587f973d253c33c80c9f8a8377b43b166fdea"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "48e94ceb25db11ad8c31ac441f0d4773e920b1b5312176d4326fcc4c435fe8db"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "8e5ff680ec93aa4b7edbe8702cbfe234888152c4cd5dace5ec730d8530a68ec0"
+        }
+      }
+    },
+    {
+      "run": "smoke",
+      "image": "reports\\sd15_clip_smoke\\s1_original.png",
+      "image_sha256": "013b0d0f1fe092bbab37c3d549654067f0c8a11868285651618f25617c1a8348",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "cada2538b53d477d5dda32fe974fa01b2767b15425825371789c71d6dd2c4580"
+      },
+      "frozen_sha256": "1cf98b2c820f174d9c992647baea14a23720e72e5c4b56195760a7c86aeecc16",
+      "executed_script_sha256": "1cc69878eb9437cc0217b0e2fb82858bed88314ce06573a4588366b24cee7687",
+      "score_row": {
+        "source": "s1",
+        "variant": "original",
+        "match_count": 220,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 719,
+        "wall_seconds": 1.9136466518975794,
+        "registration_seconds": 5.410129453986883
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "23d8fb8079a081dafa256c0b7b74e57ee610de9d5d360a86919989fb98b6b338"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "4c20ccd51e3a9557b333cb990e451f3c22310c08371739584ff8eec8deec223a"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "3fe89feeda1bc61256b6dc7b64e1954a03b9dde70785963343f45e20974d98e1"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "b4a2e1cf6685281fba1cf727b804ea3a00de282a23ab40a9869a7107df9e64c7"
+        }
+      }
+    },
+    {
+      "run": "smoke",
+      "image": "reports\\sd15_clip_smoke\\s1_jpeg70.png",
+      "image_sha256": "269ea9eae2135ca3cdca9c132c195816b81463dc31371de34e3fee21560f0e3c",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "b5a7a20cddd5a30da0d01c5e12ee71be8fdf31670b7d88f04373858600b17aa4"
+      },
+      "frozen_sha256": "1cf98b2c820f174d9c992647baea14a23720e72e5c4b56195760a7c86aeecc16",
+      "executed_script_sha256": "1cc69878eb9437cc0217b0e2fb82858bed88314ce06573a4588366b24cee7687",
+      "score_row": {
+        "source": "s1",
+        "variant": "jpeg70",
+        "match_count": 4,
+        "fallback_accepted": false,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 17,
+        "wall_seconds": 1.8582451019901782
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "50c3d06dd67c2ed526e64e103aed20a971f0d95a8e24ba310ec5168d8d9f5014"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "b8707070e283664229a640ae49fccd2a3fc203b26a9e9dc63d1185e1bcfba1c6"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "27689394ff9fa87ca3e7aed4c71db9f5c052c6de46db26432e3a3427d4138c85"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "886320aed1bb2f244d02c7baaa0afcb2a7e132cc1f9fc81175983f1f5b45dc9a"
+        }
+      }
+    },
+    {
+      "run": "smoke",
+      "image": "reports\\sd15_clip_smoke\\s2_original.png",
+      "image_sha256": "94b17a1c079281d4401569be854ee37ffe95511e5cf274d7fbe13da7d8ff33b7",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "1c505a5d5e91b4c6d36a4dae2fd0a84c3f6a6c142d303ea9d8cdf0b80245986b"
+      },
+      "frozen_sha256": "1cf98b2c820f174d9c992647baea14a23720e72e5c4b56195760a7c86aeecc16",
+      "executed_script_sha256": "1cc69878eb9437cc0217b0e2fb82858bed88314ce06573a4588366b24cee7687",
+      "score_row": {
+        "source": "s2",
+        "variant": "original",
+        "match_count": 143,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 488,
+        "wall_seconds": 1.8700418111402541,
+        "registration_seconds": 5.251267316751182
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "b2795536773d35fb7264f3aef36dd4f2ece9a463829343e8b5bd0284cba5af94"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "6dd65157623c46b116ea727b929f1b52a49b6c960e8604d2cc1ffd65e627f2f5"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "994e854f4c6f75aa5c35189fb37b0d528ac6bdd862823086b43d8dfba0f28da7"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "69bc995b00a139eb24b08288b66035b505a7b09908b06288434559acb8ed1b68"
+        }
+      }
+    },
+    {
+      "run": "smoke",
+      "image": "reports\\sd15_clip_smoke\\s2_jpeg70.png",
+      "image_sha256": "e6ec50f2a61538fb15fef4916eff1060ec3183e2db80469d7182afd9bf8316a0",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "ef481788366b211a49e3906204e25051c4b173b57db1d3f9114169c90b114263"
+      },
+      "frozen_sha256": "1cf98b2c820f174d9c992647baea14a23720e72e5c4b56195760a7c86aeecc16",
+      "executed_script_sha256": "1cc69878eb9437cc0217b0e2fb82858bed88314ce06573a4588366b24cee7687",
+      "score_row": {
+        "source": "s2",
+        "variant": "jpeg70",
+        "match_count": 32,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 117,
+        "wall_seconds": 1.8837586580775678
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "f5c76997862009bd1ba48987f163f21dad55b441446a6e25e7c9dd8c05c04f6d"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "d42106883cf56a4229ad862782cbdd72e5f7b8cc5a2294fa50c8e88857ffa013"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "d62d2bf999774ba60ce51ebc696f0454a6058b3e0efed13cf98c9f1e962edec8"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "55ca12c6e869487f61329d8c94ac64ae09a0db7a3b1b1d0dc9921ac3e7e8bec3"
+        }
+      }
+    },
+    {
+      "run": "prompt_edit",
+      "image": "reports\\sd15_clip_smoke\\followup\\s0_process_control.png",
+      "image_sha256": "e3df094f254cb322c6805ddf78897d6e23e20e3a7713cfa43ed8bab96ca85f7e",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "d82c4abe5047f011e79c7371714aa79669d1c2a9d9737b0f91a2717fab210acd"
+      },
+      "frozen_sha256": "22a9dcc07dae20316d49c287a4987838eeff054ae41a1eb4f64f91fe9d7c8288",
+      "executed_script_sha256": "bb04c17ef1ce2fc6d58f42cd1b905af5e34a5d9932f4ca9a6e7579e595ee64ed",
+      "score_row": {
+        "source": "s0",
+        "variant": "process_control",
+        "prompt": "a studio photograph of a red ceramic mug on a plain wooden table, one mug, soft natural light",
+        "match_count": 69,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 142,
+        "wall_seconds": 5.980833523906767
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "36603d387443a3ff2e1aaa4a3f85c8d35c150537113bf29ca633f3484adc84d3"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "a5567cccf0e037cb1287094cf5fea9cc22862943c8a4044ed66e87137fddcfd8"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "52793155a804f8c636e7bd651984bfaefd9ae43156fb057536f4a9aae31942a4"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "f8432ae5d66e6329508efadce4b59959b9d11e70a76c77ca3efa9b263ac28618"
+        }
+      }
+    },
+    {
+      "run": "prompt_edit",
+      "image": "reports\\sd15_clip_smoke\\followup\\s0_color_edit.png",
+      "image_sha256": "9808752e39107c59e8150cab056c84909f899c57004ab3b45f00dadba907c26e",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "aa0f2e7c516d0ef123aac4546c601e868233ffc1c70781f739750ea9eaf33bc9"
+      },
+      "frozen_sha256": "22a9dcc07dae20316d49c287a4987838eeff054ae41a1eb4f64f91fe9d7c8288",
+      "executed_script_sha256": "bb04c17ef1ce2fc6d58f42cd1b905af5e34a5d9932f4ca9a6e7579e595ee64ed",
+      "score_row": {
+        "source": "s0",
+        "variant": "color_edit",
+        "prompt": "a studio photograph of a blue ceramic mug on a plain wooden table, one mug, soft natural light",
+        "match_count": 54,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 124,
+        "wall_seconds": 4.95340092596598
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "d0c6be010064caf614cc1b86aa17c0e99f7d79fa09567972780e5d0cc3020b80"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "12bee8118816712b2e89e9c73c62c21d3e080398396a069ccb3c630a9e5fdfc5"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "3469f35e74eff83cda3b5bc1a8b09c1a8544ec7ee24567a3a3a920b36600dd34"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "b71e6e2f988a99dd85a0ae79a0c446aef040ffe846a13b7db5b501e231aef338"
+        }
+      }
+    },
+    {
+      "run": "prompt_edit",
+      "image": "reports\\sd15_clip_smoke\\followup\\s1_process_control.png",
+      "image_sha256": "3bee60b98424975d5707d388aef5342b71507b72c6204aeacb94794bc63811ce",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "a70e8eb8a608f08603e2c75da6e539d6b2b7f49ec0640f2ba7558a490a96a92c"
+      },
+      "frozen_sha256": "22a9dcc07dae20316d49c287a4987838eeff054ae41a1eb4f64f91fe9d7c8288",
+      "executed_script_sha256": "bb04c17ef1ce2fc6d58f42cd1b905af5e34a5d9932f4ca9a6e7579e595ee64ed",
+      "score_row": {
+        "source": "s1",
+        "variant": "process_control",
+        "prompt": "a studio photograph of a green glass bottle on a plain wooden table, one bottle, soft natural light",
+        "match_count": 11,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 42,
+        "wall_seconds": 4.926146446960047
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "a9e2568eee0e863055e0316a41392e07394c746f836ccb60d6f8bbb151093a70"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "74b43e37aa040d4643d75188a9560b97e76e22ffb16acf5053828f0c325a23da"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "8052e1f1986e963b171f50e9d442ce2e5c8c31c960f3e75b717e645dbacb7712"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "5d4368948914e6d88774e9ac3c417efe7ebb338cd5fc5923f554a699e8d795e7"
+        }
+      }
+    },
+    {
+      "run": "prompt_edit",
+      "image": "reports\\sd15_clip_smoke\\followup\\s1_color_edit.png",
+      "image_sha256": "94a581c0841c6d15cbad9d63d8ee7e59977019ca0f0f802764ffb0e50eb89d11",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "939226de9af877a81ff01f16c06f5ad5098b69cc7c540fbf078690cffcd06076"
+      },
+      "frozen_sha256": "22a9dcc07dae20316d49c287a4987838eeff054ae41a1eb4f64f91fe9d7c8288",
+      "executed_script_sha256": "bb04c17ef1ce2fc6d58f42cd1b905af5e34a5d9932f4ca9a6e7579e595ee64ed",
+      "score_row": {
+        "source": "s1",
+        "variant": "color_edit",
+        "prompt": "a studio photograph of a red glass bottle on a plain wooden table, one bottle, soft natural light",
+        "match_count": 12,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 42,
+        "wall_seconds": 4.965698255924508
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "ea81fa2861095581fba0ecb10bcac2e0dabdc6ac689f4e389de84d863a96092a"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "e2122d7626d328a759b9dc2f3355d7be6c61f7e2e8fba5cc11da0d6b60f5cac6"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "ddf9cf0de38382f8e9ebeaa4b61a5395d6641d46f23b25db01ef4bc803493011"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "80d15cad25c98de6cf5fd9682cb87a03bf0128bb80b7834b614cb2dca5e18ba2"
+        }
+      }
+    },
+    {
+      "run": "prompt_edit",
+      "image": "reports\\sd15_clip_smoke\\followup\\s2_process_control.png",
+      "image_sha256": "482fa128f9bd1b3f7d28f1b4610a393262c60e070eb876b36297fe60a725eb93",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "0e36a692654a8f69d87a82f91f16d44e3371d6fbd09790c76c21b18606beec55"
+      },
+      "frozen_sha256": "22a9dcc07dae20316d49c287a4987838eeff054ae41a1eb4f64f91fe9d7c8288",
+      "executed_script_sha256": "bb04c17ef1ce2fc6d58f42cd1b905af5e34a5d9932f4ca9a6e7579e595ee64ed",
+      "score_row": {
+        "source": "s2",
+        "variant": "process_control",
+        "prompt": "a studio photograph of a blue toy car on a plain wooden table, one toy car, soft natural light",
+        "match_count": 13,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 55,
+        "wall_seconds": 4.907476403051987
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "5c6ec61ffbec4d31e208c7f3031e8310fdfc980719287a7cab1439dba04a6866"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "4c48d82e584cea199317a5fbbc88660df18c5d18017dc0220fd0db46d7ab84ff"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "61abeb9648b799ad135f637e549993ff516bbd1259e60b669f5c3a0dd4e3ca03"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "a4dad2fc2db2d8ca7d6a47d0eed3e6c44ce71104b4ed352f065865149dd8b598"
+        }
+      }
+    },
+    {
+      "run": "prompt_edit",
+      "image": "reports\\sd15_clip_smoke\\followup\\s2_color_edit.png",
+      "image_sha256": "37bacffb20a1f1d07b7d1c4f4f4a791a08287ef14b5c4b8427280912e097c2cc",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "762f344aa8291049eb8936c9342eeccf2b2c25c9dacd51101b423696b879c27e"
+      },
+      "frozen_sha256": "22a9dcc07dae20316d49c287a4987838eeff054ae41a1eb4f64f91fe9d7c8288",
+      "executed_script_sha256": "bb04c17ef1ce2fc6d58f42cd1b905af5e34a5d9932f4ca9a6e7579e595ee64ed",
+      "score_row": {
+        "source": "s2",
+        "variant": "color_edit",
+        "prompt": "a studio photograph of a red toy car on a plain wooden table, one toy car, soft natural light",
+        "match_count": 16,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "registration_reference_matches": 54,
+        "wall_seconds": 4.905005563981831
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "7b8534f5fa1d75c1f84251231d5af7af077118c037332ac3455551e9632b46b4"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "ecd3d9a8fa7b4a8a716bc6e5aa7443acdad2a960a8b74e56fffd8264891508b9"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "b14061efc620d630f061c76d420591044127b776ac65fe1f0604986d845c68e5"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "36e71b57ff3518182ab575a4b70ee4ec13743faa5f3b3e8702ffb1c339f10468"
+        }
+      }
+    },
+    {
+      "run": "mechanical",
+      "image": "reports\\mechanical_development\\variants\\source_original.png",
+      "image_sha256": "8a492720a9c83e190fba56d951c38f7060270e9da4e9a1cba181b3437539e376",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "5f4a5cf08f68e4645f09492525824423a07f14ccedc2bc07d7539ea45ee8f35d"
+      },
+      "frozen_sha256": "f805dcaca924b9131764ea0aede3191d46261d2ce0c6906d549cc758083aa3e7",
+      "executed_script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+      "score_row": {
+        "source": "apple_dev01",
+        "condition": "source",
+        "processing": "original",
+        "image_sha256": "8a492720a9c83e190fba56d951c38f7060270e9da4e9a1cba181b3437539e376",
+        "match_count": 51,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "first_rejection_stage": null,
+        "stages": {
+          "decode_rgb": "completed",
+          "clip_l2_feature": "completed",
+          "keyed_reference_noise": "completed",
+          "empty_prompt_ddim_inversion": "completed",
+          "patch_l2": "completed",
+          "match_count_threshold": "accepted"
+        },
+        "feature_norm": 0.9999999812818919,
+        "patch_l2_min": 1.0205686591563976,
+        "patch_l2_median": 4.835127371219356,
+        "patch_l2_max": 8.324027383930648,
+        "registration_reference_matches_oracle_only": 160,
+        "wall_seconds": 2.5038975570350885
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "ae73ee8a5cc4edff80d19bf2d4d61e93d44f6e0719317e1ebea1e728eeeb1d2c"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "7fc96ffbecb9c7fcf5ce51cef49ad6e6d2ca3378093fcaa6eda356ad950dcb14"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "1150fe9e81d59bfab1a4c1cd8beec4e74593e58e908cd9dd78c3d463b9c7bed9"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "e71d266892a10dd58c8823c142e2766b1118ae01fb7ccc94589eaa0cbd0c0209"
+        }
+      }
+    },
+    {
+      "run": "mechanical",
+      "image": "reports\\mechanical_development\\variants\\source_jpeg70.png",
+      "image_sha256": "53fb7b95b01d8481764b589d2c22d50783734372c33ef5d5a656c22f51ff172c",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "0ef6227e1405199e18f00a5c0c8d4958f2e81c68f15b1d25aae90b82558227df"
+      },
+      "frozen_sha256": "f805dcaca924b9131764ea0aede3191d46261d2ce0c6906d549cc758083aa3e7",
+      "executed_script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+      "score_row": {
+        "source": "apple_dev01",
+        "condition": "source",
+        "processing": "jpeg70",
+        "image_sha256": "53fb7b95b01d8481764b589d2c22d50783734372c33ef5d5a656c22f51ff172c",
+        "match_count": 10,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "first_rejection_stage": null,
+        "stages": {
+          "decode_rgb": "completed",
+          "clip_l2_feature": "completed",
+          "keyed_reference_noise": "completed",
+          "empty_prompt_ddim_inversion": "completed",
+          "patch_l2": "completed",
+          "match_count_threshold": "accepted"
+        },
+        "feature_norm": 0.9999999459210478,
+        "patch_l2_min": 1.6384887991028325,
+        "patch_l2_median": 4.946207416963176,
+        "patch_l2_max": 8.475232662843393,
+        "registration_reference_matches_oracle_only": 25,
+        "wall_seconds": 1.8817947141360492
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "2a3d7a18e54b3d41cd093f380385e6c94a0f75c6097db8e921421b36389f56d9"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "57ab1fa3600b81c792f62a6abae9f6e33f157b4991f5404bca7e28cae5c1156a"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "ab44fa0ef34e5bf3c7597e9f9a1b9040dc6e1ec87adcf2f79fdab7d7145ea539"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "ad5bbea566417f456254d18be4264af25e536252f655b696f9b4f21347fad04e"
+        }
+      }
+    },
+    {
+      "run": "mechanical",
+      "image": "reports\\mechanical_development\\variants\\source_resize05.png",
+      "image_sha256": "3530c60633edf5a1a1c97cc7cabe333289dc3ec3cd90e7129df4b6de289afb69",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "af55b71584bc8ca7001ebc71c91cc994ef261abb68f4ee34e43ed1f670d040dd"
+      },
+      "frozen_sha256": "f805dcaca924b9131764ea0aede3191d46261d2ce0c6906d549cc758083aa3e7",
+      "executed_script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+      "score_row": {
+        "source": "apple_dev01",
+        "condition": "source",
+        "processing": "resize05",
+        "image_sha256": "3530c60633edf5a1a1c97cc7cabe333289dc3ec3cd90e7129df4b6de289afb69",
+        "match_count": 23,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "first_rejection_stage": null,
+        "stages": {
+          "decode_rgb": "completed",
+          "clip_l2_feature": "completed",
+          "keyed_reference_noise": "completed",
+          "empty_prompt_ddim_inversion": "completed",
+          "patch_l2": "completed",
+          "match_count_threshold": "accepted"
+        },
+        "feature_norm": 0.999999961266026,
+        "patch_l2_min": 1.16436950238677,
+        "patch_l2_median": 4.972868940307153,
+        "patch_l2_max": 10.082108966778646,
+        "registration_reference_matches_oracle_only": 58,
+        "wall_seconds": 1.941847556969151
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "64517f07c96977196aa30ae2982222e28bdd3fedded7d950a20fc975172d2f37"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "5731283ef3e9104a15ec3d6c359e39dfd657306774ee255367861c2226f56bf3"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "eebe965f752d31be8ae5ba0808c2b853b027ccad6307a11a8803634f75d08f24"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "ab48bc46dd5d40d471458ad1eb7b8fb3d1d7a50440f92d49f2cb991ee11398df"
+        }
+      }
+    },
+    {
+      "run": "mechanical",
+      "image": "reports\\mechanical_development\\variants\\control_original.png",
+      "image_sha256": "d71beb0fc9e2291a2d2e72d631d3c235e490cffbf51b95fca1ea4caee608684f",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "d24dc53869042b3c6515ecf0751827c3f3005b4bb797fca6286e48cb50b27763"
+      },
+      "frozen_sha256": "f805dcaca924b9131764ea0aede3191d46261d2ce0c6906d549cc758083aa3e7",
+      "executed_script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+      "score_row": {
+        "source": "apple_dev01",
+        "condition": "control",
+        "processing": "original",
+        "image_sha256": "d71beb0fc9e2291a2d2e72d631d3c235e490cffbf51b95fca1ea4caee608684f",
+        "match_count": 50,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "first_rejection_stage": null,
+        "stages": {
+          "decode_rgb": "completed",
+          "clip_l2_feature": "completed",
+          "keyed_reference_noise": "completed",
+          "empty_prompt_ddim_inversion": "completed",
+          "patch_l2": "completed",
+          "match_count_threshold": "accepted"
+        },
+        "feature_norm": 1.0000000265651299,
+        "patch_l2_min": 1.0178279038231026,
+        "patch_l2_median": 4.842042758600423,
+        "patch_l2_max": 8.324722637799818,
+        "registration_reference_matches_oracle_only": 161,
+        "wall_seconds": 1.9349238479044288
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "b4cb55b35d72aecf21869b193fa1b17a2fcc74f1370671ed749a4603b9785f84"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "54a8a561d6d686d0633ac1628eba46efb72f8c0254a0bf9cd4abca51d1b4d59e"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "6f179a0f9b95876b626a5f22f571a926e95918b9912447f734a0aa85ecaac4f8"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "c19c96da803f205a6f93fa486ee3b5536e7e62fb9fe3351b3850fc073ce1d16f"
+        }
+      }
+    },
+    {
+      "run": "mechanical",
+      "image": "reports\\mechanical_development\\variants\\control_jpeg70.png",
+      "image_sha256": "d1379c6d3f510f462cb08bc56e48591043796d91b8a09af575a128138fa37676",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "777b395d2ea7a4be086915bbc5c4acfd5782137cd72923c0b8cf420943636d7f"
+      },
+      "frozen_sha256": "f805dcaca924b9131764ea0aede3191d46261d2ce0c6906d549cc758083aa3e7",
+      "executed_script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+      "score_row": {
+        "source": "apple_dev01",
+        "condition": "control",
+        "processing": "jpeg70",
+        "image_sha256": "d1379c6d3f510f462cb08bc56e48591043796d91b8a09af575a128138fa37676",
+        "match_count": 9,
+        "fallback_accepted": false,
+        "operating_point_provenance": "unchecked",
+        "first_rejection_stage": "match_count_threshold",
+        "stages": {
+          "decode_rgb": "completed",
+          "clip_l2_feature": "completed",
+          "keyed_reference_noise": "completed",
+          "empty_prompt_ddim_inversion": "completed",
+          "patch_l2": "completed",
+          "match_count_threshold": "rejected"
+        },
+        "feature_norm": 1.0000000282546178,
+        "patch_l2_min": 1.3907686775879036,
+        "patch_l2_median": 5.009332773820656,
+        "patch_l2_max": 8.468404174388612,
+        "registration_reference_matches_oracle_only": 26,
+        "wall_seconds": 1.8578173250425607
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "4b66c4ea174b3a50a7eb7312dbb9dca47cb5801497e565ff4c0c6cee58b80fe1"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "f9d96a0486fdd338da806e4359907c7edb9a004fac57e7c9f301cdde3169cf22"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "96974946e985cb1da0e8caa0034c87a382c8ba9e25254b80971e107b50d94268"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "0990dc08e045c2aad4c55722263c2e9cd5cd7c882e2ad6614a618c1080e8fba9"
+        }
+      }
+    },
+    {
+      "run": "mechanical",
+      "image": "reports\\mechanical_development\\variants\\control_resize05.png",
+      "image_sha256": "09f79a7557539a35d65dc4113db44a36d6b432e55ad8af850252069a809040df",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "082d4089abfcc9efce88c413d95a53c0bb25c861792fd6c7c5e9c3bbcb00ecbc"
+      },
+      "frozen_sha256": "f805dcaca924b9131764ea0aede3191d46261d2ce0c6906d549cc758083aa3e7",
+      "executed_script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+      "score_row": {
+        "source": "apple_dev01",
+        "condition": "control",
+        "processing": "resize05",
+        "image_sha256": "09f79a7557539a35d65dc4113db44a36d6b432e55ad8af850252069a809040df",
+        "match_count": 23,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "first_rejection_stage": null,
+        "stages": {
+          "decode_rgb": "completed",
+          "clip_l2_feature": "completed",
+          "keyed_reference_noise": "completed",
+          "empty_prompt_ddim_inversion": "completed",
+          "patch_l2": "completed",
+          "match_count_threshold": "accepted"
+        },
+        "feature_norm": 0.9999999725139139,
+        "patch_l2_min": 1.166555027991957,
+        "patch_l2_median": 4.975054679431032,
+        "patch_l2_max": 10.082779321358021,
+        "registration_reference_matches_oracle_only": 59,
+        "wall_seconds": 1.8382071338128299
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "e6b72f93a3eb50d2245c2712e7597e8a0585941d94148917d43cb717abe4126e"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "2950215ba72f9292444b14b636008d1ad92f6578988543f6c5896cab874cd78b"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "4bb80b33ad3eb6fc6e496fa90322d66c8af43e31044b84880d43c18decdccc1e"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "6463a4b8e89031aa8620d5f7f746106164017736dedffc6d4c05dc48dbba2437"
+        }
+      }
+    },
+    {
+      "run": "mechanical",
+      "image": "reports\\mechanical_development\\variants\\edit_original.png",
+      "image_sha256": "15a238f341165bf7086b386bff133524b328b5a29590ecf7614eaf4f13ad3b60",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "d54b1a8db7748b4c70c8b5485ddab1ef03c0d8b56407dedc669dc6a765f7b554"
+      },
+      "frozen_sha256": "f805dcaca924b9131764ea0aede3191d46261d2ce0c6906d549cc758083aa3e7",
+      "executed_script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+      "score_row": {
+        "source": "apple_dev01",
+        "condition": "edit",
+        "processing": "original",
+        "image_sha256": "15a238f341165bf7086b386bff133524b328b5a29590ecf7614eaf4f13ad3b60",
+        "match_count": 20,
+        "fallback_accepted": true,
+        "operating_point_provenance": "unchecked",
+        "first_rejection_stage": null,
+        "stages": {
+          "decode_rgb": "completed",
+          "clip_l2_feature": "completed",
+          "keyed_reference_noise": "completed",
+          "empty_prompt_ddim_inversion": "completed",
+          "patch_l2": "completed",
+          "match_count_threshold": "accepted"
+        },
+        "feature_norm": 0.9999999888016996,
+        "patch_l2_min": 1.0129241866793872,
+        "patch_l2_median": 5.1128125452756334,
+        "patch_l2_max": 8.89824564034689,
+        "registration_reference_matches_oracle_only": 124,
+        "wall_seconds": 1.941243388922885
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "86a82f167009330020902e219830f8aa29641702b084f3c4b00865c076ae5579"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "47064906ef0f21d171de7e1c9a9903ff14ea7c735ef238ad38bb26e2ba448c1f"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "80f9a4e852a8eeb984900b72a8ed0a1140e9e91ddcb537fb78e5c01c9fa7b60c"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "364929add0e91de6f0da42f3cc071e0a10303f8949bcffefb5f5b5889f4889c9"
+        }
+      }
+    },
+    {
+      "run": "mechanical",
+      "image": "reports\\mechanical_development\\variants\\edit_jpeg70.png",
+      "image_sha256": "7ed5d48bcda86500df55e118189e60baca5124bc1042dc0973498bb95cffe959",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "c6facd1d30a393fd859d9385307e360cb632b11f7abf09560a59f68e16381af2"
+      },
+      "frozen_sha256": "f805dcaca924b9131764ea0aede3191d46261d2ce0c6906d549cc758083aa3e7",
+      "executed_script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+      "score_row": {
+        "source": "apple_dev01",
+        "condition": "edit",
+        "processing": "jpeg70",
+        "image_sha256": "7ed5d48bcda86500df55e118189e60baca5124bc1042dc0973498bb95cffe959",
+        "match_count": 2,
+        "fallback_accepted": false,
+        "operating_point_provenance": "unchecked",
+        "first_rejection_stage": "match_count_threshold",
+        "stages": {
+          "decode_rgb": "completed",
+          "clip_l2_feature": "completed",
+          "keyed_reference_noise": "completed",
+          "empty_prompt_ddim_inversion": "completed",
+          "patch_l2": "completed",
+          "match_count_threshold": "rejected"
+        },
+        "feature_norm": 0.9999999838044564,
+        "patch_l2_min": 1.6410751100772023,
+        "patch_l2_median": 5.234604886705429,
+        "patch_l2_max": 8.545364787700215,
+        "registration_reference_matches_oracle_only": 15,
+        "wall_seconds": 1.8757714708335698
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "7d73ac646b76451cebc775a76c3ae23f9fe16f72d18af6d2b9674acc2075e6e2"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "b19157738200e230733c27a15bc58f941bee158e4fcb40dfc91cbc8f2f436a26"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "4569e977f528d319356956e505a5f0665eb9055492cee11dc6a6a78d8d678e09"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "a2c6e8c4d37d98509111a27d9d68b75149aeb3657605f2232222ef118e1f31bf"
+        }
+      }
+    },
+    {
+      "run": "mechanical",
+      "image": "reports\\mechanical_development\\variants\\edit_resize05.png",
+      "image_sha256": "9ec236e2e72af74a9ac6f74f30ecce26fc47e0c397489b9d0c500bdd12fc5e98",
+      "decoded_rgb": {
+        "shape": [
+          512,
+          512,
+          3
+        ],
+        "dtype": "uint8",
+        "sha256_c_order_bytes": "b721148c14c0e4e3476a81e5d8d6e3f715d8497acd5ac1fd543626daff3b34fb"
+      },
+      "frozen_sha256": "f805dcaca924b9131764ea0aede3191d46261d2ce0c6906d549cc758083aa3e7",
+      "executed_script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+      "score_row": {
+        "source": "apple_dev01",
+        "condition": "edit",
+        "processing": "resize05",
+        "image_sha256": "9ec236e2e72af74a9ac6f74f30ecce26fc47e0c397489b9d0c500bdd12fc5e98",
+        "match_count": 8,
+        "fallback_accepted": false,
+        "operating_point_provenance": "unchecked",
+        "first_rejection_stage": "match_count_threshold",
+        "stages": {
+          "decode_rgb": "completed",
+          "clip_l2_feature": "completed",
+          "keyed_reference_noise": "completed",
+          "empty_prompt_ddim_inversion": "completed",
+          "patch_l2": "completed",
+          "match_count_threshold": "rejected"
+        },
+        "feature_norm": 1.0000000205120467,
+        "patch_l2_min": 1.5239199968071628,
+        "patch_l2_median": 5.2904437736899155,
+        "patch_l2_max": 9.021339159376668,
+        "registration_reference_matches_oracle_only": 43,
+        "wall_seconds": 1.8920072799082845
+      },
+      "stored_stages": {
+        "feature": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "9df1de77e3aa287a184386abaff6a7ad75a47c8623cd1fa4e572a34fb7fcb10d"
+        },
+        "reference": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "d4f55332049ce3ded259f30cc5e2b2aee678bed91ab4c8a512f397edbfeb0257"
+        },
+        "recon": {
+          "shape": [
+            1,
+            4,
+            64,
+            64
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "1271613e927f584e2f7b9266733367b8c89f480a1d6358c1af59d1471777bcf3"
+        },
+        "l2": {
+          "shape": [
+            1024
+          ],
+          "dtype": "float64",
+          "sha256_c_order_bytes": "d97668be507aa102c16bbac8d1435ac4377922f6ea9d077cdcce5c9e6902eac0"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "config": {
+    "schema_version": 1,
+    "configuration_id": "sd15-clip-mechanical-development-v1",
+    "source_count": 1,
+    "max_valid_development_pairs": 3,
+    "split": "development",
+    "independence": "new prompt family and seed; no held-out test claim",
+    "prompt": "a product photograph of a single bright red apple, whole apple with a short brown stem, centered on a plain white backdrop, close-up, soft studio lighting, realistic",
+    "draft_seed": 2026100821,
+    "key_seed": 42,
+    "size": 512,
+    "generation_steps": 50,
+    "inversion_steps": 50,
+    "generation_guidance": 7.5,
+    "inversion_guidance": 1,
+    "scheduler": "DDIM",
+    "core": {
+      "k": 1024,
+      "b": 7,
+      "t_patch": 2,
+      "fallback_matches": 10
+    },
+    "operating_point_provenance": "unchecked unchanged fallback; no calibration or tuning",
+    "fact_before": "one apple with red skin",
+    "fact_after": "the same apple skin is green",
+    "edit_kind": "deterministic masked HSV hue rotation; mechanical integrity control",
+    "edit_rule": {
+      "red_hue_max": 20,
+      "red_hue_min_wrap": 235,
+      "saturation_min": 80,
+      "value_min": 30,
+      "hue_shift_edit": 85,
+      "hue_shift_control": 0
+    },
+    "region_rule": "review whole source before fixing bounding rectangle; select red pixels only inside it; no detector score used",
+    "processing": [
+      "original",
+      "jpeg70",
+      "resize05"
+    ],
+    "jpeg": {
+      "quality": 70,
+      "subsampling": 2
+    },
+    "resize": {
+      "factor": 0.5,
+      "resample": "bicubic down and up"
+    },
+    "score_gate": "hash-bound visual review written before first scoring; all original/control/edit transform facts reviewed",
+    "physical_gpu": 7,
+    "physical_gpu_uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+    "max_wall_seconds": 900,
+    "max_new_weight_download_bytes": 0,
+    "paid_calls": 0
+  },
+  "config_sha256": "375170b2d9dea5bfaaa008ffb9d02b8b24c4ea0bcb17c588fc298ac15170de50",
+  "script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+  "phase": "prepare",
+  "pid": 9586,
+  "preflight": {
+    "gpu_query": "7, GPU-9644fb82-cb6f-7311-8017-eaee41409bb7, NVIDIA GeForce RTX 3090, 24253, 0",
+    "compute_process_query": "",
+    "cuda_visible_devices": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7"
+  },
+  "logical_gpu": 0,
+  "base_frozen_sha256": "1cf98b2c820f174d9c992647baea14a23720e72e5c4b56195760a7c86aeecc16",
+  "started_utc": "2026-10-08T17:31:25Z"
+}

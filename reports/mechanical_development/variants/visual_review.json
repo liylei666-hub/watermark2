@@ -1,0 +1,32 @@
+{
+  "reviewed_before_scoring": true,
+  "valid_fact_change": true,
+  "control_fact_unchanged": true,
+  "all_processing_facts_reviewed": true,
+  "image_hashes": {
+    "source_original.png": "8a492720a9c83e190fba56d951c38f7060270e9da4e9a1cba181b3437539e376",
+    "source_jpeg70.png": "53fb7b95b01d8481764b589d2c22d50783734372c33ef5d5a656c22f51ff172c",
+    "source_resize05.png": "3530c60633edf5a1a1c97cc7cabe333289dc3ec3cd90e7129df4b6de289afb69",
+    "control_original.png": "d71beb0fc9e2291a2d2e72d631d3c235e490cffbf51b95fca1ea4caee608684f",
+    "control_jpeg70.png": "d1379c6d3f510f462cb08bc56e48591043796d91b8a09af575a128138fa37676",
+    "control_resize05.png": "09f79a7557539a35d65dc4113db44a36d6b432e55ad8af850252069a809040df",
+    "edit_original.png": "15a238f341165bf7086b386bff133524b328b5a29590ecf7614eaf4f13ad3b60",
+    "edit_jpeg70.png": "7ed5d48bcda86500df55e118189e60baca5124bc1042dc0973498bb95cffe959",
+    "edit_resize05.png": "9ec236e2e72af74a9ac6f74f30ecce26fc47e0c397489b9d0c500bdd12fc5e98"
+  },
+  "fact_before": "one apple with red skin",
+  "fact_after": "the same apple skin is green",
+  "reviewer": "Codex visual inspection; not independent human annotation",
+  "reviewed_utc": "2026-10-08T17:34:05Z",
+  "fact_observed_before": "Predominantly red apple skin with an existing green/yellow center patch",
+  "fact_observed_after": "Predominantly bright green apple skin; existing center patch remains",
+  "processing_review": {
+    "original": "red source/control and green edit are clear",
+    "jpeg70": "red source/control and green edit remain clear",
+    "resize05": "red source/control and green edit remain clear"
+  },
+  "quality_limit": "Color mask also recolors some background inside the rectangle and leaves jagged boundaries; mechanically valid color change, not a naturalistic semantic attack",
+  "recipe_sha256": "7f73af457943224147ae096848404fcfd0ebdd9550e5b4d3479044a6a5ead28c",
+  "scores_available_at_review": false,
+  "independent_source": "New apple prompt family, seed2026100821; development only"
+}

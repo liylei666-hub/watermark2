@@ -15,6 +15,7 @@
 7. [SEAL / SemBind / CSI 官方实现、组件测试与复现阻碍](research/public_reproduction_feasibility.md)
 8. [指定服务器、GPU7与缓存核查](research/server_execution_preflight.md)
 9. [SD1.5 + CLIP真实开发试运行及失败改色](research/sd15_clip_smoke.md)
+10. [新源机械改色开发控制](research/mechanical_development.md)
 
 公开实现核查已完成：固定三个上游版本，执行离线组件测试并核对权重体量。已完成独立SD1.5/CLIP替代配置的真实开发验证；3次提示词改色均无效，阈值未校准。原SEAL完整路线仍待许可明确的配套模型。SLICE 已纳入直接先行工作，分因子绑定和局部判决不能作为本项目的新颖性依据。
 

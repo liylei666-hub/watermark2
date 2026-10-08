@@ -1,0 +1,102 @@
+{
+  "config": {
+    "schema_version": 1,
+    "configuration_id": "sd15-clip-mechanical-development-v1",
+    "source_count": 1,
+    "max_valid_development_pairs": 3,
+    "split": "development",
+    "independence": "new prompt family and seed; no held-out test claim",
+    "prompt": "a product photograph of a single bright red apple, whole apple with a short brown stem, centered on a plain white backdrop, close-up, soft studio lighting, realistic",
+    "draft_seed": 2026100821,
+    "key_seed": 42,
+    "size": 512,
+    "generation_steps": 50,
+    "inversion_steps": 50,
+    "generation_guidance": 7.5,
+    "inversion_guidance": 1,
+    "scheduler": "DDIM",
+    "core": {
+      "k": 1024,
+      "b": 7,
+      "t_patch": 2,
+      "fallback_matches": 10
+    },
+    "operating_point_provenance": "unchecked unchanged fallback; no calibration or tuning",
+    "fact_before": "one apple with red skin",
+    "fact_after": "the same apple skin is green",
+    "edit_kind": "deterministic masked HSV hue rotation; mechanical integrity control",
+    "edit_rule": {
+      "red_hue_max": 20,
+      "red_hue_min_wrap": 235,
+      "saturation_min": 80,
+      "value_min": 30,
+      "hue_shift_edit": 85,
+      "hue_shift_control": 0
+    },
+    "region_rule": "review whole source before fixing bounding rectangle; select red pixels only inside it; no detector score used",
+    "processing": [
+      "original",
+      "jpeg70",
+      "resize05"
+    ],
+    "jpeg": {
+      "quality": 70,
+      "subsampling": 2
+    },
+    "resize": {
+      "factor": 0.5,
+      "resample": "bicubic down and up"
+    },
+    "score_gate": "hash-bound visual review written before first scoring; all original/control/edit transform facts reviewed",
+    "physical_gpu": 7,
+    "physical_gpu_uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+    "max_wall_seconds": 900,
+    "max_new_weight_download_bytes": 0,
+    "paid_calls": 0
+  },
+  "config_sha256": "375170b2d9dea5bfaaa008ffb9d02b8b24c4ea0bcb17c588fc298ac15170de50",
+  "script_sha256": "abf8de3089c96d667d0154c1dd7689b269f49147a6f77f45c10d392f116cd9fc",
+  "phase": "score",
+  "pid": 10826,
+  "preflight": {
+    "gpu_query": "7, GPU-9644fb82-cb6f-7311-8017-eaee41409bb7, NVIDIA GeForce RTX 3090, 24253, 0",
+    "compute_process_query": "",
+    "cuda_visible_devices": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7"
+  },
+  "logical_gpu": 0,
+  "base_frozen_sha256": "1cf98b2c820f174d9c992647baea14a23720e72e5c4b56195760a7c86aeecc16",
+  "started_utc": "2026-10-08T17:34:29Z",
+  "visual_review": {
+    "reviewed_before_scoring": true,
+    "valid_fact_change": true,
+    "control_fact_unchanged": true,
+    "all_processing_facts_reviewed": true,
+    "image_hashes": {
+      "source_original.png": "8a492720a9c83e190fba56d951c38f7060270e9da4e9a1cba181b3437539e376",
+      "source_jpeg70.png": "53fb7b95b01d8481764b589d2c22d50783734372c33ef5d5a656c22f51ff172c",
+      "source_resize05.png": "3530c60633edf5a1a1c97cc7cabe333289dc3ec3cd90e7129df4b6de289afb69",
+      "control_original.png": "d71beb0fc9e2291a2d2e72d631d3c235e490cffbf51b95fca1ea4caee608684f",
+      "control_jpeg70.png": "d1379c6d3f510f462cb08bc56e48591043796d91b8a09af575a128138fa37676",
+      "control_resize05.png": "09f79a7557539a35d65dc4113db44a36d6b432e55ad8af850252069a809040df",
+      "edit_original.png": "15a238f341165bf7086b386bff133524b328b5a29590ecf7614eaf4f13ad3b60",
+      "edit_jpeg70.png": "7ed5d48bcda86500df55e118189e60baca5124bc1042dc0973498bb95cffe959",
+      "edit_resize05.png": "9ec236e2e72af74a9ac6f74f30ecce26fc47e0c397489b9d0c500bdd12fc5e98"
+    },
+    "fact_before": "one apple with red skin",
+    "fact_after": "the same apple skin is green",
+    "reviewer": "Codex visual inspection; not independent human annotation",
+    "reviewed_utc": "2026-10-08T17:34:05Z",
+    "fact_observed_before": "Predominantly red apple skin with an existing green/yellow center patch",
+    "fact_observed_after": "Predominantly bright green apple skin; existing center patch remains",
+    "processing_review": {
+      "original": "red source/control and green edit are clear",
+      "jpeg70": "red source/control and green edit remain clear",
+      "resize05": "red source/control and green edit remain clear"
+    },
+    "quality_limit": "Color mask also recolors some background inside the rectangle and leaves jagged boundaries; mechanically valid color change, not a naturalistic semantic attack",
+    "recipe_sha256": "7f73af457943224147ae096848404fcfd0ebdd9550e5b4d3479044a6a5ead28c",
+    "scores_available_at_review": false,
+    "independent_source": "New apple prompt family, seed2026100821; development only"
+  },
+  "visual_review_sha256": "fff372ce66a322c4efbe8a8177a97411124bacbc9323a56127e5149f383a53cb"
+}
