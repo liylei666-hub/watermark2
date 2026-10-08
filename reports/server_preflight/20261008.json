@@ -1,0 +1,93 @@
+{
+  "checked_date_utc": "2026-10-08",
+  "scope": "read-only SSH resource and known-cache inspection; no model inference",
+  "host": "172.18.185.249",
+  "reported_hostname": "server249",
+  "user": "liyanlei",
+  "authentication": "existing SSH key; strict host-key checking; non-interactive",
+  "queried_physical_gpu_indices": [5, 7],
+  "forbidden_physical_gpu_indices": [6],
+  "gpus": [
+    {
+      "physical_index": 5,
+      "name": "NVIDIA GeForce RTX 3090",
+      "uuid": "GPU-e6f35928-0155-f121-e707-1eaf3c14965c",
+      "memory_total_mib": 24576,
+      "memory_used_mib": 23558,
+      "memory_free_mib": 695,
+      "utilization_percent": 96,
+      "compute_processes": [{"pid": 13372, "name": "/usr/bin/python3.6", "memory_mib": 23552}],
+      "eligible_at_snapshot": false
+    },
+    {
+      "physical_index": 7,
+      "name": "NVIDIA GeForce RTX 3090",
+      "uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+      "memory_total_mib": 24576,
+      "memory_used_mib": 1,
+      "memory_free_mib": 24253,
+      "utilization_percent": 0,
+      "compute_processes": [],
+      "eligible_at_snapshot": true
+    }
+  ],
+  "ram_total_bytes": 270117969920,
+  "ram_available_bytes": 213560356864,
+  "swap_total_bytes": 2147479552,
+  "swap_free_bytes": 0,
+  "disk_available_bytes": {"/": 61864460288, "/data0": 577464475648, "/data1": 791306428416},
+  "old_worktree": {
+    "path": "/data0/liyanlei/instance_authentication_research",
+    "remote": "git@github-watermark2:liylei666-hub/watermark2.git",
+    "head": "0c62854c4ae0c05a694f72193a84a87e4e9bbfbb",
+    "dirty_tracked_paths": ["stage02/data.py", "stage02/worker.py"],
+    "untracked_experiment_files_present": true,
+    "modified_this_inspection": false
+  },
+  "proposed_isolated_workspace": "/data0/liyanlei/watermark2_instance_authenticity",
+  "proposed_workspace_exists": false,
+  "parent_directory_writable": true,
+  "known_cache_roots_checked": [
+    "/home/liyanlei/.cache/huggingface/hub",
+    "/home/liyanlei/.cache/torch/hub",
+    "/data0/liyanlei/huggingface/hub",
+    "/data0/liyanlei/instance_authentication_research/weights",
+    "/data0/liyanlei/instance_authentication_research/cache",
+    "/data0/liyanlei/genstego_sota_assets/model_weights"
+  ],
+  "cache_findings": {
+    "sd15_snapshot": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+    "sd15_unet_fp32_bytes": 3438167540,
+    "sd15_present": true,
+    "sdxl_cache_incomplete": true,
+    "sscd_clip_dinov2_small_present": true,
+    "sd21_found": false,
+    "blip2_found": false,
+    "seal_finetuned_encoder_found": false,
+    "dinov2_giant_found": false,
+    "sembind_masker_found": false
+  },
+  "existing_environment": {
+    "path": "/data0/liyanlei/envs/stego_attack",
+    "python": "3.10.20",
+    "torch_metadata": "2.3.1+cu121",
+    "diffusers_metadata": "0.29.2",
+    "transformers_metadata": "4.41.2",
+    "accelerate_metadata": "0.30.1",
+    "cuda_initialized": false
+  },
+  "planned_cuda_visible_devices": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+  "planned_logical_device_index": 0,
+  "mapping_runtime_verified": false,
+  "license_gap": {
+    "repo": "kasraarabi/finetuned-caption-embedding",
+    "revision": "1f155d6a17f7a176d7d269f7ec04bcfa376ce297",
+    "readme_url": "https://huggingface.co/kasraarabi/finetuned-caption-embedding/resolve/1f155d6a17f7a176d7d269f7ec04bcfa376ce297/README.md",
+    "readme_bytes": 13416,
+    "readme_sha256": "2e02edc5b40b073e0f01fd3c258f70cd06156661c861ae0d634c7aa3b4cf8a6b",
+    "finding": "no declared license; commented License: Unknown placeholder"
+  },
+  "model_weights_downloaded_this_inspection": 0,
+  "inference_images_generated": 0,
+  "status": "resources_verified; exact SEAL stack blocked on declared encoder license and execution budget"
+}
