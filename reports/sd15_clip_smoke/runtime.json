@@ -1,0 +1,25 @@
+{
+  "wall_seconds": 39.72975707799196,
+  "max_cuda_allocated_bytes": 3783201280,
+  "max_cuda_reserved_bytes": 4022337536,
+  "weights_downloaded_bytes": 0,
+  "generated_images": 6,
+  "verified_versions": 6,
+  "gpu_uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+  "file_hashes": {
+    "frozen.json": "1cf98b2c820f174d9c992647baea14a23720e72e5c4b56195760a7c86aeecc16",
+    "s0_original.png": "d5500c0c38394f8c953ca8ee32feaa98865eb06ee0a00ef8b29066b05f212fa7",
+    "s1_original.png": "013b0d0f1fe092bbab37c3d549654067f0c8a11868285651618f25617c1a8348",
+    "scores.json": "7fed70a5827c12873a361d45c38f133d86915384234b503136809edb9576b478",
+    "s2_draft.png": "cbdfcbe0eae49e71f2c56e6e527f8a68bd9fb4aff2544e90447afbe2296b53c9",
+    "partial_scores.json": "7fed70a5827c12873a361d45c38f133d86915384234b503136809edb9576b478",
+    "s2_original.png": "94b17a1c079281d4401569be854ee37ffe95511e5cf274d7fbe13da7d8ff33b7",
+    "s0_jpeg70.png": "13752a4c22b360f3f66119e4ad574b1a9313ad8c94ed92cd168ba46151b5fc63",
+    "s1_draft.png": "594dbc05f2560de0e1847d1b90e1dc3cff1ccad8c4c0a820bad2bb53fa228162",
+    "s1_jpeg70.png": "269ea9eae2135ca3cdca9c132c195816b81463dc31371de34e3fee21560f0e3c",
+    "partial_arrays.npz": "6b5e64b7de8077765f259f2fe154af3d75003fa5d40e55a99beb0ee4cdc55592",
+    "s0_draft.png": "9c56d96320226f8fa2891cd36eca811ba8969b239b1d31c174d7e4298168e5ec",
+    "s2_jpeg70.png": "e6ec50f2a61538fb15fef4916eff1060ec3183e2db80469d7182afd9bf8316a0",
+    "arrays.npz": "6b5e64b7de8077765f259f2fe154af3d75003fa5d40e55a99beb0ee4cdc55592"
+  }
+}

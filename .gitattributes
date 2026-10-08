@@ -14,3 +14,5 @@ reports/cpu_pilot/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab
 reports/reproduction_audit/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 # Raw upstream stdout/stderr retains its original formatting, including spaces.
 reports/reproduction_audit/*.txt -whitespace
+reports/sd15_clip_smoke/** -text -whitespace
+*.sh text eol=lf

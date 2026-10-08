@@ -1,0 +1,22 @@
+{
+  "wall_seconds": 37.34977453388274,
+  "max_cuda_allocated_bytes": 3783135744,
+  "max_cuda_reserved_bytes": 4007657472,
+  "generated_images": 6,
+  "verified_versions": 6,
+  "weights_downloaded_bytes": 0,
+  "gpu_uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+  "file_hashes": {
+    "s1_color_edit.png": "94a581c0841c6d15cbad9d63d8ee7e59977019ca0f0f802764ffb0e50eb89d11",
+    "frozen.json": "22a9dcc07dae20316d49c287a4987838eeff054ae41a1eb4f64f91fe9d7c8288",
+    "s2_process_control.png": "482fa128f9bd1b3f7d28f1b4610a393262c60e070eb876b36297fe60a725eb93",
+    "scores.json": "94b0692c51f9d24fe236b5393c90d2163ee70a2ee535c0cd8caa51d4808dff24",
+    "s2_color_edit.png": "37bacffb20a1f1d07b7d1c4f4f4a791a08287ef14b5c4b8427280912e097c2cc",
+    "partial_scores.json": "94b0692c51f9d24fe236b5393c90d2163ee70a2ee535c0cd8caa51d4808dff24",
+    "partial_arrays.npz": "0ece11c5cf194ad14428d6ca65138703c11c9c70b40382c2b1700b2f406eb279",
+    "s0_process_control.png": "e3df094f254cb322c6805ddf78897d6e23e20e3a7713cfa43ed8bab96ca85f7e",
+    "s0_color_edit.png": "9808752e39107c59e8150cab056c84909f899c57004ab3b45f00dadba907c26e",
+    "s1_process_control.png": "3bee60b98424975d5707d388aef5342b71507b72c6204aeacb94794bc63811ce",
+    "arrays.npz": "0ece11c5cf194ad14428d6ca65138703c11c9c70b40382c2b1700b2f406eb279"
+  }
+}
