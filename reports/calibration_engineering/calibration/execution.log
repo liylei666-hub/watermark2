@@ -1,0 +1,33 @@
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:01,  5.54it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00,  4.71it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:01<00:00,  3.24it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:01<00:00,  5.54it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:02<00:00,  3.23it/s]
+{"source": "c01", "variant": "original", "count": 89}
+{"source": "c01", "variant": "jpeg70", "count": 53}
+{"source": "c01", "variant": "jpeg90", "count": 69}
+{"source": "c01", "variant": "resize05", "count": 22}
+{"source": "c01", "variant": "resize075", "count": 60}
+{"source": "c02", "variant": "original", "count": 317}
+{"source": "c02", "variant": "jpeg70", "count": 297}
+{"source": "c02", "variant": "jpeg90", "count": 275}
+{"source": "c02", "variant": "resize05", "count": 322}
+{"source": "c02", "variant": "resize075", "count": 329}
+{"source": "c03", "variant": "original", "count": 350}
+{"source": "c03", "variant": "jpeg70", "count": 167}
+{"source": "c03", "variant": "jpeg90", "count": 314}
+{"source": "c03", "variant": "resize05", "count": 244}
+{"source": "c03", "variant": "resize075", "count": 333}
+{"source": "c04", "variant": "original", "count": 116}
+{"source": "c04", "variant": "jpeg70", "count": 0}
+{"source": "c04", "variant": "jpeg90", "count": 1}
+{"source": "c04", "variant": "resize05", "count": 10}
+{"source": "c04", "variant": "resize075", "count": 21}
+{"source": "c05", "variant": "original", "count": 227}
+{"source": "c05", "variant": "jpeg70", "count": 69}
+{"source": "c05", "variant": "jpeg90", "count": 122}
+{"source": "c05", "variant": "resize05", "count": 119}
+{"source": "c05", "variant": "resize075", "count": 175}
+{"source": "c06", "variant": "original", "count": 320}
+{"source": "c06", "variant": "jpeg70", "count": 183}
+{"source": "c06", "variant": "jpeg90", "count": 282}
+{"source": "c06", "variant": "resize05", "count": 150}
+{"source": "c06", "variant": "resize075", "count": 271}
+{"config_sha256": "cd78e2f6788fad6e15ed71839b41d2d0d71bf55e195368a334048a53410b7959", "cal_scores_sha256": "c958dd71e9d10cffc2baee644a82768a5e07237e04e152da899394f41ae01184", "selected_without_test_scores": true, "source_ids": ["c01", "c02", "c03", "c04", "c05", "c06"], "source_bundle_min_counts": {"c01": 22, "c02": 275, "c03": 167, "c04": 0, "c05": 69, "c06": 150}, "target_source_bundle_acceptance": 0.9, "required_accepted_source_bundles": 6, "count_threshold": 0, "achieved_cal_source_bundles": 6, "degenerate_zero_threshold": true, "frozen_utc": "2026-10-08T17:57:21Z", "scope": "empirical cal-only engineering operating point; no FPR/security guarantee"}
+Completed frozen engineering phase

@@ -1,0 +1,13 @@
+source,split,family,original,jpeg70,jpeg90,resize05,resize075,minimum,unchecked10_bundle_accepted,cal_rule_bundle_accepted
+c01,calibration,brick_house,89,53,69,22,60,22,True,True
+c02,calibration,tabby_cat,317,297,275,322,329,275,True,True
+c03,calibration,sailboat,350,167,314,244,333,167,True,True
+c04,calibration,sneaker,116,0,1,10,21,0,False,True
+c05,calibration,violin,227,69,122,119,175,69,True,True
+c06,calibration,bicycle,320,183,282,150,271,150,True,True
+t01,test,snow_forest,329,254,290,224,291,224,True,True
+t02,test,butterfly,192,33,60,88,132,33,True,True
+t03,test,pocket_watch,309,143,236,232,285,143,True,True
+t04,test,library,189,72,125,74,149,72,True,True
+t05,test,robot,91,20,43,30,64,20,True,True
+t06,test,palm_beach,268,226,206,194,271,194,True,True

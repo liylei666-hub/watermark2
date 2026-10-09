@@ -1,0 +1,38 @@
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:05,  1.07it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:01<00:03,  1.48it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:01<00:01,  2.38it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:01<00:01,  2.74it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  3.65it/s]
+{"source": "t01", "variant": "original", "count": 329}
+{"source": "t01", "variant": "jpeg70", "count": 254}
+{"source": "t01", "variant": "jpeg90", "count": 290}
+{"source": "t01", "variant": "resize05", "count": 224}
+{"source": "t01", "variant": "resize075", "count": 291}
+{"source": "t01", "variant": "unmarked", "count": 0}
+{"source": "t02", "variant": "original", "count": 192}
+{"source": "t02", "variant": "jpeg70", "count": 33}
+{"source": "t02", "variant": "jpeg90", "count": 60}
+{"source": "t02", "variant": "resize05", "count": 88}
+{"source": "t02", "variant": "resize075", "count": 132}
+{"source": "t02", "variant": "unmarked", "count": 0}
+{"source": "t03", "variant": "original", "count": 309}
+{"source": "t03", "variant": "jpeg70", "count": 143}
+{"source": "t03", "variant": "jpeg90", "count": 236}
+{"source": "t03", "variant": "resize05", "count": 232}
+{"source": "t03", "variant": "resize075", "count": 285}
+{"source": "t03", "variant": "unmarked", "count": 0}
+{"source": "t04", "variant": "original", "count": 189}
+{"source": "t04", "variant": "jpeg70", "count": 72}
+{"source": "t04", "variant": "jpeg90", "count": 125}
+{"source": "t04", "variant": "resize05", "count": 74}
+{"source": "t04", "variant": "resize075", "count": 149}
+{"source": "t04", "variant": "unmarked", "count": 0}
+{"source": "t05", "variant": "original", "count": 91}
+{"source": "t05", "variant": "jpeg70", "count": 20}
+{"source": "t05", "variant": "jpeg90", "count": 43}
+{"source": "t05", "variant": "resize05", "count": 30}
+{"source": "t05", "variant": "resize075", "count": 64}
+{"source": "t05", "variant": "unmarked", "count": 0}
+{"source": "t06", "variant": "original", "count": 268}
+{"source": "t06", "variant": "jpeg70", "count": 226}
+{"source": "t06", "variant": "jpeg90", "count": 206}
+{"source": "t06", "variant": "resize05", "count": 194}
+{"source": "t06", "variant": "resize075", "count": 271}
+{"source": "t06", "variant": "unmarked", "count": 0}
+Completed frozen engineering phase

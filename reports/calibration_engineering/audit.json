@@ -1,0 +1,339 @@
+{
+  "status": "passed",
+  "sources": 12,
+  "calibration_rows": 30,
+  "test_rows": 36,
+  "hash_bound_files_checked": 129,
+  "max_reference_noise_delta": 0.0,
+  "max_patch_l2_delta": 1.7763568394002505e-15,
+  "cal_only_threshold_frozen_before_test": true,
+  "metrics": {
+    "count_threshold": 0,
+    "target_cal_source_bundle_acceptance": 0.9,
+    "degenerate_zero_threshold": true,
+    "source_profiles": {
+      "calibration": {
+        "c01": {
+          "counts": {
+            "original": 89,
+            "jpeg70": 53,
+            "jpeg90": 69,
+            "resize05": 22,
+            "resize075": 60
+          },
+          "minimum": 22,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        },
+        "c02": {
+          "counts": {
+            "original": 317,
+            "jpeg70": 297,
+            "jpeg90": 275,
+            "resize05": 322,
+            "resize075": 329
+          },
+          "minimum": 275,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        },
+        "c03": {
+          "counts": {
+            "original": 350,
+            "jpeg70": 167,
+            "jpeg90": 314,
+            "resize05": 244,
+            "resize075": 333
+          },
+          "minimum": 167,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        },
+        "c04": {
+          "counts": {
+            "original": 116,
+            "jpeg70": 0,
+            "jpeg90": 1,
+            "resize05": 10,
+            "resize075": 21
+          },
+          "minimum": 0,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": false
+        },
+        "c05": {
+          "counts": {
+            "original": 227,
+            "jpeg70": 69,
+            "jpeg90": 122,
+            "resize05": 119,
+            "resize075": 175
+          },
+          "minimum": 69,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        },
+        "c06": {
+          "counts": {
+            "original": 320,
+            "jpeg70": 183,
+            "jpeg90": 282,
+            "resize05": 150,
+            "resize075": 271
+          },
+          "minimum": 150,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        }
+      },
+      "test": {
+        "t01": {
+          "counts": {
+            "original": 329,
+            "jpeg70": 254,
+            "jpeg90": 290,
+            "resize05": 224,
+            "resize075": 291
+          },
+          "minimum": 224,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        },
+        "t02": {
+          "counts": {
+            "original": 192,
+            "jpeg70": 33,
+            "jpeg90": 60,
+            "resize05": 88,
+            "resize075": 132
+          },
+          "minimum": 33,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        },
+        "t03": {
+          "counts": {
+            "original": 309,
+            "jpeg70": 143,
+            "jpeg90": 236,
+            "resize05": 232,
+            "resize075": 285
+          },
+          "minimum": 143,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        },
+        "t04": {
+          "counts": {
+            "original": 189,
+            "jpeg70": 72,
+            "jpeg90": 125,
+            "resize05": 74,
+            "resize075": 149
+          },
+          "minimum": 72,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        },
+        "t05": {
+          "counts": {
+            "original": 91,
+            "jpeg70": 20,
+            "jpeg90": 43,
+            "resize05": 30,
+            "resize075": 64
+          },
+          "minimum": 20,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        },
+        "t06": {
+          "counts": {
+            "original": 268,
+            "jpeg70": 226,
+            "jpeg90": 206,
+            "resize05": 194,
+            "resize075": 271
+          },
+          "minimum": 194,
+          "bundle_accepted": true,
+          "bundle_accepted_at_unchecked10": true
+        }
+      }
+    },
+    "benign_acceptance": {
+      "calibration": {
+        "per_variant": {
+          "original": {
+            "calibrated_accepted": 6,
+            "unchecked10_accepted": 6,
+            "sources": 6
+          },
+          "jpeg70": {
+            "calibrated_accepted": 6,
+            "unchecked10_accepted": 5,
+            "sources": 6
+          },
+          "jpeg90": {
+            "calibrated_accepted": 6,
+            "unchecked10_accepted": 5,
+            "sources": 6
+          },
+          "resize05": {
+            "calibrated_accepted": 6,
+            "unchecked10_accepted": 6,
+            "sources": 6
+          },
+          "resize075": {
+            "calibrated_accepted": 6,
+            "unchecked10_accepted": 6,
+            "sources": 6
+          }
+        },
+        "source_bundle_accepted": 6,
+        "source_bundle_accepted_at_unchecked10": 5,
+        "sources": 6
+      },
+      "test": {
+        "per_variant": {
+          "original": {
+            "calibrated_accepted": 6,
+            "unchecked10_accepted": 6,
+            "sources": 6
+          },
+          "jpeg70": {
+            "calibrated_accepted": 6,
+            "unchecked10_accepted": 6,
+            "sources": 6
+          },
+          "jpeg90": {
+            "calibrated_accepted": 6,
+            "unchecked10_accepted": 6,
+            "sources": 6
+          },
+          "resize05": {
+            "calibrated_accepted": 6,
+            "unchecked10_accepted": 6,
+            "sources": 6
+          },
+          "resize075": {
+            "calibrated_accepted": 6,
+            "unchecked10_accepted": 6,
+            "sources": 6
+          }
+        },
+        "source_bundle_accepted": 6,
+        "source_bundle_accepted_at_unchecked10": 6,
+        "sources": 6
+      }
+    },
+    "negative_controls": {
+      "unmarked_draft": {
+        "counts": {
+          "t01": 0,
+          "t02": 0,
+          "t03": 0,
+          "t04": 0,
+          "t05": 0,
+          "t06": 0
+        },
+        "accepted": 6,
+        "accepted_at_unchecked10": 0,
+        "sources": 6,
+        "scope": "same-generator fixed draft negatives; correlated with registration; not broad FPR estimate"
+      },
+      "wrong_reference_diagnostic": {
+        "rows": [
+          {
+            "source": "t01",
+            "reference_donor": "t02",
+            "count": 80,
+            "accepted": true,
+            "accepted_at_unchecked10": true,
+            "patch_l2": {
+              "shape": [
+                1024
+              ],
+              "dtype": "float64",
+              "sha256_c_order_bytes": "a93fe558b7e5a54737880e4b7767631d5082da1c0265fee5ddd28a8aba439c9f"
+            }
+          },
+          {
+            "source": "t02",
+            "reference_donor": "t03",
+            "count": 33,
+            "accepted": true,
+            "accepted_at_unchecked10": true,
+            "patch_l2": {
+              "shape": [
+                1024
+              ],
+              "dtype": "float64",
+              "sha256_c_order_bytes": "9f077da98e8b8270605a9116e7b2ad7d3c9b30b302a3d4715f5d753138340d2c"
+            }
+          },
+          {
+            "source": "t03",
+            "reference_donor": "t04",
+            "count": 85,
+            "accepted": true,
+            "accepted_at_unchecked10": true,
+            "patch_l2": {
+              "shape": [
+                1024
+              ],
+              "dtype": "float64",
+              "sha256_c_order_bytes": "5d029a07852910dd658830ce91425a573367947cc22ab1def1ca724de0481cac"
+            }
+          },
+          {
+            "source": "t04",
+            "reference_donor": "t05",
+            "count": 33,
+            "accepted": true,
+            "accepted_at_unchecked10": true,
+            "patch_l2": {
+              "shape": [
+                1024
+              ],
+              "dtype": "float64",
+              "sha256_c_order_bytes": "239e305777a85a77936f8db02dba18fcf9423b3b9d1146850b980f84705c03e1"
+            }
+          },
+          {
+            "source": "t05",
+            "reference_donor": "t06",
+            "count": 20,
+            "accepted": true,
+            "accepted_at_unchecked10": true,
+            "patch_l2": {
+              "shape": [
+                1024
+              ],
+              "dtype": "float64",
+              "sha256_c_order_bytes": "3de6bf6b816e3e12a51a15145eb8382d132a361be813c55f7c844db127df1bc3"
+            }
+          },
+          {
+            "source": "t06",
+            "reference_donor": "t01",
+            "count": 99,
+            "accepted": true,
+            "accepted_at_unchecked10": true,
+            "patch_l2": {
+              "shape": [
+                1024
+              ],
+              "dtype": "float64",
+              "sha256_c_order_bytes": "329e4da47b2ebaf88dfc4c9e92f1c2bde5ad610e23e4c5167a3dd7b3a1286e4b"
+            }
+          }
+        ],
+        "accepted": 6,
+        "sources": 6,
+        "scope": "CPU cyclic other-query reference mismatch; R1-style diagnostic, not native instance authentication or FPR"
+      }
+    }
+  },
+  "scope": "same-implementation CPU stored-stage recomputation and engineering split audit; no independent model reproduction or security estimate"
+}

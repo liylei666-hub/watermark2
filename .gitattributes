@@ -17,3 +17,4 @@ reports/reproduction_audit/*.txt -whitespace
 reports/sd15_clip_smoke/** -text -whitespace
 *.sh text eol=lf
 reports/mechanical_development/** -text -whitespace
+reports/calibration_engineering/** -text -whitespace

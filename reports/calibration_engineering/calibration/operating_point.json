@@ -1,0 +1,28 @@
+{
+  "config_sha256": "cd78e2f6788fad6e15ed71839b41d2d0d71bf55e195368a334048a53410b7959",
+  "cal_scores_sha256": "c958dd71e9d10cffc2baee644a82768a5e07237e04e152da899394f41ae01184",
+  "selected_without_test_scores": true,
+  "source_ids": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05",
+    "c06"
+  ],
+  "source_bundle_min_counts": {
+    "c01": 22,
+    "c02": 275,
+    "c03": 167,
+    "c04": 0,
+    "c05": 69,
+    "c06": 150
+  },
+  "target_source_bundle_acceptance": 0.9,
+  "required_accepted_source_bundles": 6,
+  "count_threshold": 0,
+  "achieved_cal_source_bundles": 6,
+  "degenerate_zero_threshold": true,
+  "frozen_utc": "2026-10-08T17:57:21Z",
+  "scope": "empirical cal-only engineering operating point; no FPR/security guarantee"
+}
