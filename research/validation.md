@@ -71,8 +71,12 @@ python scripts/audit_baseline_readiness.py --seal-code runs/reproduction_audit/S
 
 ## 2026-10-09 官方论文判定与指标更正
 
-作者v4 Algorithm3/§9.1直接核对通过；ICCV对应段落由父线程独立核实，本轮CVF PDF读取失败。语义规则明确为strict未归一化per-patch L2<2.3、匹配数≥12、k1024/b7；原语义代码缺最后判定/持久化，现列为paper-contract adapter实现任务，撤销“语义阈值未知”的阻碍。此前源码AST记录中的threshold50/m_match12未读取依然成立，是入口实现事实，不能覆盖论文规则。
+作者v4 Algorithm3/§9.1直接核对通过；ICCV对应段落由父线程独立核实，本轮CVF PDF读取失败。语义规则明确为strict未归一化per-patch L2<2.3、匹配数≥12、k1024/b7；原语义代码缺最后判定/持久化；已补充独立paper-contract adapter与7项纯CPU测试，尚未接入官方模型距离，撤销“语义阈值未知”的阻碍。此前源码AST记录中的threshold50/m_match12未读取依然成立，是入口实现事实，不能覆盖论文规则。
 
 v4（2026-05-18）§4/Fig6把0.896明确为SpatialTest平均ROC-AUC。May11固定提交92d31b31的Figure6复现脚本用128候选最小距离→strict<2.3计数→ROC/AUC，不等于语义accept≥12；TPR同negative批次99百分位规则与独立cal/test扩展继续分开。许可issue6仍open/comments0；原模型401仅说明未认证查询失败，镜像公开可访问未证明原始字节等同性。完整来源、比对与剩余门槛见[更新路线](official_seal_baseline_route.md)及[本轮更正记录](../reports/official_seal_route/paper_contract_correction.json)。此前验证记录为当时快照，本节更新当前结论。
 
 本轮仅文档/配置/来源核对；0模型调用、0生成、0训练、0权重/数据下载、0安装；全部冻结raw/frozen/test和既有审计JSON保持字节。未联系作者。执行预算继续为零。
+
+## 2026-10-09 论文契约 adapter
+
+新增 `scripts/seal_paper_contract_adapter.py`：仅接收调用者声明的1024个有限非负未归一化patch L2距离，执行strict `<2.3` 与 `count>=12`，保存规则、全部距离、来源声明、摘要和判定，并拒绝覆盖已有输出。独立 synthetic fixture 不读写历史 test/cal 数据。新增7项测试覆盖2.3等值、11/12边界、形状/负值/NaN/Inf/类型、单位/来源、roundtrip、防篡改和CLI路径。12项 tests 全部通过。adapter不计算caption、embedding、生成、反演或完整SEAL，不验证输入来源，也不提供安全校准。

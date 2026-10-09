@@ -1,6 +1,6 @@
 # 官方 SEAL 基线路线与当前阻碍
 
-2026-10-09（UTC）。建议先补齐 **SEAL 官方语义验证路径的模型组件与论文契约适配器**。语义决策已核实为未归一化 per-patch L2<2.3、匹配数≥12（k=1024、b=7）；缺的是代码末端决策与持久化适配器，而非未知阈值。SD1.5/image CLIP/CSI 已退为工程诊断工具，暂停扩展攻击和调阈值；其 12 源诊断没有非退化 90% 源组接受点，不能据此判断实例真实性方法优劣。本轮仅做静态源码、缓存 metadata 与旧产物审计，官方端到端基线尚未执行。
+2026-10-09（UTC）。建议先补齐 **SEAL 官方语义验证路径的模型组件与论文契约适配器**。语义决策已核实为未归一化 per-patch L2<2.3、匹配数≥12（k=1024、b=7）；独立CPU判定与持久化adapter已实现并通过synthetic测试，尚未接入官方模型距离。SD1.5/image CLIP/CSI 已退为工程诊断工具，暂停扩展攻击和调阈值；其 12 源诊断没有非退化 90% 源组接受点，不能据此判断实例真实性方法优劣。本轮仅做静态源码、缓存 metadata 与旧产物审计，官方端到端基线尚未执行。
 
 [门槛配置](../configs/official_seal_baseline_gate.json)的执行预算为 0。G0–G2 是可审阅的未来计划，不授权或启动计算、下载或安装。已执行批次勘误见[时间线](execution_erratum.md)。
 
@@ -10,7 +10,7 @@
 
 | 路径 | 注册/嵌入 | 待验图处理 | 输出/判定 |
 |---|---|---|---|
-| SEAL.py / image_transformations.compute_l2（语义） | SD2.1 草图→BLIP2 描述→微调句向量→官方 SimHash 噪声→标记图 | **重新描述待验图**、句向量和重建噪声；VAE mode→空文本逆扩散→与该语义噪声逐 patch 比较 | 1024 个未归一化 L2。论文规定严格 L2<2.3、sumcount≥12；SEAL.py 的 threshold=50 未读取，只有内存 all_min_l2。计划以 paper-contract adapter 补最终决策/持久化；尚未实现或执行。 |
+| SEAL.py / image_transformations.compute_l2（语义） | SD2.1 草图→BLIP2 描述→微调句向量→官方 SimHash 噪声→标记图 | **重新描述待验图**、句向量和重建噪声；VAE mode→空文本逆扩散→与该语义噪声逐 patch 比较 | 1024 个未归一化 L2。论文规定严格 L2<2.3、sumcount≥12；SEAL.py 的 threshold=50 未读取，只有内存 all_min_l2。本仓库的 paper-contract adapter 已原创实现并通过纯CPU单元测试；尚未接入或执行官方模型距离。 |
 | image_transformations_exhaustive_roc_auc（穷举ROC） | 同上注册 | VAE mode→空文本逆扩散→每patch的128候选最小L2，检测时无recaption | 严格 minL2<2.3 后计数，以该count计算ROC-AUC；不是语义count≥12判定。threshold50/m_match12均未读取。 |
 | image_transformations_exhaustive_tpr（穷举TPR） | 同上注册 | 同穷举检测 | minL2<2.3计数；同一negative批次第99百分位作为count边界，count≥boundary接受并报告实际FPR。ties可能使实际FPR≠1%；独立cal/test是另标扩展。 |
 
@@ -65,7 +65,7 @@
 
 ## 完整端点的必要输出
 
-register/verify 适配器尚未实现。register packet 需绑定自有 source、draft/marked RGB、真实 caption/embedding/key/noise、dtype/seed、模型/代码身份、生成 scheduler 和实际末端 latent。verify 必须保存：
+完整 register/verify 适配器尚未实现；当前仅有独立的 paper-contract decision/persistence adapter。register packet 需绑定自有 source、draft/marked RGB、真实 caption/embedding/key/noise、dtype/seed、模型/代码身份、生成 scheduler 和实际末端 latent。verify 必须保存：
 
 1. 请求/图像字节/RGB、decode/Resize/Crop、processor 输入及异常。
 2. **待验图** caption、generation_config、微调句向量/norm、官方 key/noise；不能借注册 caption 或 oracle 噪声当 native。
@@ -79,7 +79,7 @@ register/verify 适配器尚未实现。register packet 需绑定自有 source�
 
 | 门槛 | 未来工作/验收依据 | 当前状态 |
 |---|---|---|
-| G0 资产与适配器 | 权重身份/权限、代码许可、全configs/processor/tokenizer/数据；独立离线环境；实现已知论文决策与持久化adapter；显式预算/设备UUID | **阻塞**：3类快照缺失，许可范围、原SD2.1身份/镜像等同性、缺包/版本、adapter与数据冻结尚未解决；语义阈值已明确。 |
+| G0 资产与适配器 | 权重身份/权限、代码许可、全configs/processor/tokenizer/数据；独立离线环境；将已实现的CPU adapter接入真实官方距离；显式预算/设备UUID | **阻塞**：3类快照缺失，许可范围、原SD2.1身份/镜像等同性、缺包/版本、官方距离集成与数据冻结尚未解决；语义阈值已明确。 |
 | G1 最多1官方源 | G0和未来预算通过后：draft→caption→微调embedding→官方noise→marked→待验recaption→inverse→L2；逐阶段对齐官方函数，预声明dtype容差，保存拒绝/失败，不循环重试 | **未执行**。可先核对作者提供的绑定中间产物，但它不能代替新端到端运行。 |
 | G2 最多3开发源 | 与旧cal/test不同family/prompt/seed；P0 original、JPEG70/90 sub2、bicubic0.5/0.75恢复512；评分前事实审查；每源draft negative、完整native和全部失败；原图可接受、negative可区分的事先声明工程门槛成立才继续 | **未执行、无预算**。3源不能估可靠FPR/正常接受率；绑定错误/退化则停，不扩攻击或反复调阈值。 |
 
@@ -90,3 +90,15 @@ G2复用 unmarked draft 作工程negative时，拟上限6生成/18反演/21capti
 作者待确认事项仅为代码/微调checkpoint的使用与分发许可，以及原始SD2.1的不可变revision/hash或镜像权威等同性证据。本轮仅只读查询公开资料，没有联系作者。
 
 **无下载可完成**：源码/AST/许可记录核查、旧产物CPU文件审计、接口字段与协议设计。现有缓存仅能支撑SD1.5替代诊断；缺captioner/微调句向量/SD2.1，无法无下载完成新的官方register、recaption或端到端验证。本轮保持此边界。
+
+## Paper-contract decision adapter (CPU-only)
+
+The repository now contains an original standard-library implementation in [scripts/seal_paper_contract_adapter.py](../scripts/seal_paper_contract_adapter.py). It accepts a caller-declared packet of exactly 1024 finite, nonnegative, **unnormalized per-patch Euclidean L2** distances. It applies the verified semantic rule:
+
+`match_i = (distance_i < 2.3)`; `match_count = sum(match_i)`; `accept = (match_count >= 12)`.
+
+The adapter validates shape, scalar type, non-finite values, negative values, endpoint, distance units, and minimal provenance fields. It persists a versioned JSON packet containing all distances, source declarations, source URLs, rule parameters, count, decision, and a digest. It refuses to overwrite an existing output.
+
+This is only a paper-contract decision and persistence adapter. It does not caption, embed, generate, invert, run a scheduler, compute distances, verify input origin, implement spatial testing, or provide payload/signature/credential/allowed-edit/instance-authenticity outputs. It cannot establish that its caller used the complete SEAL pipeline, and it does not provide security calibration. The synthetic fixture at [tests/fixtures/seal_paper_contract_v1.json](../tests/fixtures/seal_paper_contract_v1.json) is independent of historical experiment sources and is used only for unit tests. Nine adapter tests cover the rule and packet integrity.
+
+Verified: Algorithm 3 and supplement §9.1 specify strict L2<2.3, count≥12, k=1024, b=7. Pending: real official model assets, license scope, immutable SD2.1 identity or mirror equivalence, environment, complete semantic pipeline, and a future adapter integration test with genuine computed distances. The project’s matched-acceptance calibration remains a separate extension.

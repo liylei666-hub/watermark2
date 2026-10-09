@@ -60,7 +60,8 @@
   },
   "remaining_author_items": [
     "code_and_finetuned_checkpoint_license",
-    "original_SD21_immutable_revision_hash_or_authoritative_mirror_equivalence"
+    "original_SD21_immutable_revision_hash_or_authoritative_mirror_equivalence",
+    "official_model_distance_integration"
   ],
   "original_model_401_interpretation": "prior unauthenticated request failed; no deletion inference",
   "mirror_identity": "public accessibility does not establish original checkpoint byte equivalence",
@@ -74,14 +75,26 @@
   "frozen_experiment_evidence": "unchanged; validation performed after documentation edit",
   "validation": {
     "status": "passed",
-    "local_links": 155,
+    "local_links": 158,
     "references": 8,
     "legacy_blobs_identical": 97,
     "old_report_blobs_identical_to_3b5fc50": 397,
     "cached_source_files_sha_ast": 10,
     "runtime_bound_files_verified": 26,
     "paper_contract_config_comparators_parameters": "passed",
-    "git_diff_check": "passed"
+    "git_diff_check": "passed",
+    "all_tests": 12,
+    "adapter_tests": 9,
+    "adapter_cli_fixture": "passed"
   },
-  "mirror_public_access_evidence": "parent independent official-source check supplied in this delegation; no weight request by this worker"
+  "mirror_public_access_evidence": "parent independent official-source check supplied in this delegation; no weight request by this worker",
+  "adapter": {
+    "adapter_path": "scripts/seal_paper_contract_adapter.py",
+    "adapter_version": "1.0.0",
+    "adapter_sha256": "e61929e7c3f69070e28ca33b194882a09452ee24b461249ed0c32b1ca9f568ed",
+    "fixture_path": "tests/fixtures/seal_paper_contract_v1.json",
+    "fixture_sha256": "60df6cf9aacb6898490b399f603d95174fb26041f5f2f9be5a4002f5517b5e07",
+    "adapter_tests": 9,
+    "scope": "paper-contract decision and persistence only; no caption, embedding, generation, inversion, distance computation, input-origin verification, spatial test, or security calibration"
+  }
 }

@@ -11,5 +11,10 @@
     "package_installs": 0
   },
   "baseline_execution_state": "blocked_not_executed",
-  "cache_observed_utc": "2026-10-09T04:32:59Z"
+  "cache_observed_utc": "2026-10-09T04:32:59Z",
+  "paper_contract_adapter": {
+    "status": "implemented_cpu_unit_tested",
+    "path": "scripts/seal_paper_contract_adapter.py",
+    "fixture_sha256": "60df6cf9aacb6898490b399f603d95174fb26041f5f2f9be5a4002f5517b5e07"
+  }
 }

@@ -21,8 +21,9 @@
 13. [限定JPEG编码与真实生成latent的oracle roundtrip控制](research/limited_codec_bypass.md)
 14. [执行计数勘误、PID/日志/产物时间线](research/execution_erratum.md)
 15. [官方SEAL语义/穷举路径、缓存阻碍及最小验收门槛](research/official_seal_baseline_route.md)
+16. [纯CPU论文契约判定 adapter](research/official_seal_baseline_route.md#paper-contract-decision-adapter-cpu-only)
 
-公开实现核查已完成：固定三个上游版本，执行离线组件测试并核对权重体量。已完成独立SD1.5/CLIP替代配置的真实开发验证；3次提示词改色均无效，阈值未校准。官方语义论文规则已明确为strict未归一化patch L2<2.3/count≥12（k1024,b7）；需补paper-contract adapter与持久化。端到端仍缺官方模型快照、许可范围和原SD2.1身份，执行预算为零；Figure6的0.896是SpatialTest平均ROC-AUC。SLICE 已纳入直接先行工作，分因子绑定和局部判决不能作为本项目的新颖性依据。
+公开实现核查已完成：固定三个上游版本，执行离线组件测试并核对权重体量。已完成独立SD1.5/CLIP替代配置的真实开发验证；3次提示词改色均无效，阈值未校准。官方语义论文规则已明确为strict未归一化patch L2<2.3/count≥12（k1024,b7）；已补paper-contract adapter与持久化单元测试，尚未接入官方模型距离。端到端仍缺官方模型快照、许可范围和原SD2.1身份，执行预算为零；Figure6的0.896是SpatialTest平均ROC-AUC。SLICE 已纳入直接先行工作，分因子绑定和局部判决不能作为本项目的新颖性依据。
 
 机器可读协议：[configs/pilot.json](configs/pilot.json)；来源索引：[research/references.json](research/references.json)。
 

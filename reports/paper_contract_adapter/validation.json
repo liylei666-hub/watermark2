@@ -1,0 +1,26 @@
+{
+  "observed_utc": "2026-10-09T05:41:46.773705+00:00",
+  "status": "passed",
+  "adapter_path": "scripts/seal_paper_contract_adapter.py",
+  "adapter_version": "1.0.0",
+  "adapter_sha256": "e61929e7c3f69070e28ca33b194882a09452ee24b461249ed0c32b1ca9f568ed",
+  "fixture_path": "tests/fixtures/seal_paper_contract_v1.json",
+  "fixture_sha256": "60df6cf9aacb6898490b399f603d95174fb26041f5f2f9be5a4002f5517b5e07",
+  "fixture_kind": "synthetic_fixture",
+  "fixture_independent_of_historical_data": true,
+  "adapter_tests": 9,
+  "total_tests": 12,
+  "tests_command": "python -m unittest discover -s tests -v",
+  "cli_fixture": "passed; match_count=12; accept=true",
+  "input_validation": "passed; wrong shape, negative, NaN, Inf, non-scalar, units, provenance rejected",
+  "boundary": "strict distance < 2.3; exactly 2.3 excluded; count >= 12",
+  "persistence": "passed roundtrip, digest/metadata consistency, tampering rejection, existing-output refusal",
+  "scope": "paper-contract decision and persistence only; no caption, embedding, generation, inversion, distance computation, input-origin verification, spatial test, or security calibration",
+  "execution_budget": {
+    "model_calls": 0,
+    "generated_images": 0,
+    "download_bytes": 0,
+    "training_steps": 0,
+    "installs": 0
+  }
+}

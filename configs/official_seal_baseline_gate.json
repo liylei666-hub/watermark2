@@ -35,7 +35,7 @@
     "primary_sd21_access_identity_unresolved",
     "missing_sentence_transformers_and_environment_compatibility_unverified",
     "official_prompt_dataset_revision_and_split_unfixed",
-    "paper_contract_decision_and_persistence_adapter_not_implemented"
+    "paper_contract_adapter_official_distance_integration_pending"
   ],
   "required_models": [
     {
@@ -58,7 +58,7 @@
     {
       "id": "G0",
       "state": "blocked",
-      "requires": "rights, immutable models, offline environment, paper-contract decision/persistence adapter, frozen data, explicit execution budget"
+      "requires": "rights, immutable models, offline environment, official-distance integration with implemented CPU adapter, frozen data, explicit execution budget"
     },
     {
       "id": "G1",
@@ -116,9 +116,18 @@
       "count_comparison": "gte",
       "minimum_matches": 12,
       "endpoint": "seal_semantic_recaption",
-      "adapter_status": "planned_not_implemented_or_executed",
+      "adapter_status": "implemented_cpu_unit_tested_not_integrated_or_executed_with_official_distances",
       "source": "ICCV Algorithm 3 + supplement 9.1; independently cross-checked arxiv v4 Algorithm 3 + 9.1"
     }
   },
-  "paper_contract_check_record": "reports/official_seal_route/paper_contract_correction.json"
+  "paper_contract_check_record": "reports/official_seal_route/paper_contract_correction.json",
+  "paper_contract_adapter": {
+    "path": "scripts/seal_paper_contract_adapter.py",
+    "version": "1.0.0",
+    "status": "implemented_cpu_unit_tested",
+    "tests": 9,
+    "scope": "decision_and_persistence_for_precomputed_distances",
+    "official_pipeline_integration": false,
+    "model_calls": 0
+  }
 }

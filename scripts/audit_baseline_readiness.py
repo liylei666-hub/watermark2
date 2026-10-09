@@ -233,12 +233,20 @@ def readiness_gate():
     assert config["baseline_source"]["commit"] == SEAL_COMMIT
     assert config["baseline_source"]["primary_endpoint"] != config["baseline_source"]["separate_control_endpoint"]
     assert config["project_instance_extension_status"] == "not_implemented"
+    adapter = ROOT / "scripts/seal_paper_contract_adapter.py"
+    fixture = ROOT / "tests/fixtures/seal_paper_contract_v1.json"
+    assert adapter.is_file() and fixture.is_file()
+    assert config["paper_contract_adapter"]["status"] == "implemented_cpu_unit_tested"
+    assert config["threshold_policy"]["semantic_paper_contract"]["adapter_status"].startswith("implemented_cpu_unit_tested")
     cache = read(ROOT / "reports/official_seal_route/cache_readonly.json")
     assert len(cache["roots"]) == 6 and all(r["exists"] and not r["matching_names"] for r in cache["roots"])
     assert not cache["target_snapshots"]
     assert cache["versions_from_package_metadata"]["sentence-transformers"] is None
     return {"status": "passed_gate_consistency", "execution_budget": config["execution_budget"],
-            "baseline_execution_state": config["status"], "cache_observed_utc": cache["observed_utc"]}
+            "baseline_execution_state": config["status"], "cache_observed_utc": cache["observed_utc"],
+            "paper_contract_adapter": {"status": config["paper_contract_adapter"]["status"],
+                                        "path": "scripts/seal_paper_contract_adapter.py",
+                                        "fixture_sha256": sha(fixture)}}
 
 
 if __name__ == "__main__":
