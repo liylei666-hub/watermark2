@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "protocol_id": "official-seal-baseline-readiness-v1",
+  "status": "blocked_not_executed",
+  "checked_date": "2026-10-09",
+  "baseline_source": {
+    "repo": "Kasraarabi/SEAL",
+    "commit": "92d31b31b93a6e373fe88a584c640beafb68c6fa",
+    "primary_endpoint": "seal_semantic_recaption",
+    "separate_control_endpoint": "seal_exhaustive_presence",
+    "paper_protocol_mapping": "pending_final_alignment"
+  },
+  "execution_budget": {
+    "gpu_model_calls": 0,
+    "generated_images": 0,
+    "inversions": 0,
+    "vae_encodes": 0,
+    "download_bytes": 0,
+    "training_steps": 0,
+    "paid_calls": 0,
+    "package_installs": 0
+  },
+  "existing_substitute": {
+    "configuration": "SD1.5/image CLIP/CSI",
+    "role": "engineering_diagnostic_only",
+    "expansion_status": "paused",
+    "official_baseline": false,
+    "usable_nondegenerate_90_percent_source_bundle_point": false
+  },
+  "blocking_gates": [
+    "missing_verified_sd21_snapshot",
+    "missing_blip2_snapshot",
+    "missing_finetuned_caption_embedding_snapshot",
+    "code_and_finetuned_checkpoint_license_scope_unresolved",
+    "primary_sd21_access_identity_unresolved",
+    "missing_sentence_transformers_and_environment_compatibility_unverified",
+    "semantic_final_decision_and_paper_mapping_unresolved",
+    "official_prompt_dataset_revision_and_split_unfixed"
+  ],
+  "required_models": [
+    {
+      "role": "diffusion",
+      "model_id": "stabilityai/stable-diffusion-2-1-base",
+      "immutable_revision": null
+    },
+    {
+      "role": "caption",
+      "model_id": "Salesforce/blip2-flan-t5-xl",
+      "prior_metadata_revision": "0eb0d3b46c14c1f8c7680bca2693baafdb90bb28"
+    },
+    {
+      "role": "sentence_embedding",
+      "model_id": "kasraarabi/finetuned-caption-embedding",
+      "prior_metadata_revision": "1f155d6a17f7a176d7d269f7ec04bcfa376ce297"
+    }
+  ],
+  "future_gates": [
+    {
+      "id": "G0",
+      "state": "blocked",
+      "requires": "rights, immutable models, offline environment, paper/decision mapping, saved interface, explicit execution budget"
+    },
+    {
+      "id": "G1",
+      "state": "planned_only",
+      "max_development_sources": 1,
+      "requires": "G0 and future explicit budget; full official packet and numerical audit"
+    },
+    {
+      "id": "G2",
+      "state": "planned_only",
+      "max_development_sources": 3,
+      "proposed_upper_bounds_not_authorization": {
+        "generated_images": 6,
+        "inversions": 18,
+        "caption_calls": 21
+      },
+      "requires": "G1 and future explicit budget; five benign versions and retained draft negative per source; no retry; stop on degenerate point"
+    }
+  ],
+  "native_full_verifier_fields": [
+    "query_rgb",
+    "query_caption",
+    "caption_generation_config",
+    "finetuned_sentence_embedding",
+    "official_patch_keys_and_noise",
+    "vae_mode_scaling",
+    "empty_text_condition",
+    "scheduler_timesteps_alphas_sigma",
+    "inverted_noise",
+    "all_patch_l2",
+    "declared_comparator_count_rule",
+    "decision_error_status"
+  ],
+  "native_not_applicable_fields": [
+    "payload",
+    "signature",
+    "credential",
+    "allowed_edit_policy",
+    "instance_authenticity"
+  ],
+  "project_instance_extension_status": "not_implemented",
+  "threshold_policy": {
+    "main_parser_threshold_50": "unused_not_a_decision",
+    "exhaustive_patch_l2": {
+      "comparison": "strict_lt",
+      "tau": 2.3
+    },
+    "project_operating_point": "must_be_preregistered_and_calibrated_on_disjoint_sources"
+  }
+}

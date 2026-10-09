@@ -20,3 +20,5 @@ reports/mechanical_development/** -text -whitespace
 reports/calibration_engineering/** -text -whitespace
 reports/focused_stability/** -text -whitespace
 reports/limited_codec_bypass/** -text -whitespace
+reports/official_seal_route/** -text -whitespace
+reports/execution_erratum/** -text -whitespace

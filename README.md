@@ -19,8 +19,10 @@
 11. [12源校准/测试工程批次及退化工作点](research/calibration_engineering.md)
 12. [两源JPEG失稳定位、六次原生反演及VAE精度控制](research/focused_stability.md)
 13. [限定JPEG编码与真实生成latent的oracle roundtrip控制](research/limited_codec_bypass.md)
+14. [执行计数勘误、PID/日志/产物时间线](research/execution_erratum.md)
+15. [官方SEAL语义/穷举路径、缓存阻碍及最小验收门槛](research/official_seal_baseline_route.md)
 
-公开实现核查已完成：固定三个上游版本，执行离线组件测试并核对权重体量。已完成独立SD1.5/CLIP替代配置的真实开发验证；3次提示词改色均无效，阈值未校准。原SEAL完整路线仍待许可明确的配套模型。SLICE 已纳入直接先行工作，分因子绑定和局部判决不能作为本项目的新颖性依据。
+公开实现核查已完成：固定三个上游版本，执行离线组件测试并核对权重体量。已完成独立SD1.5/CLIP替代配置的真实开发验证；3次提示词改色均无效，阈值未校准。原SEAL端到端仍缺官方模型快照、许可范围与最终判定契约；下一步门槛冻结为零执行预算。SLICE 已纳入直接先行工作，分因子绑定和局部判决不能作为本项目的新颖性依据。
 
 机器可读协议：[configs/pilot.json](configs/pilot.json)；来源索引：[research/references.json](research/references.json)。
 

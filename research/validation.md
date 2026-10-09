@@ -52,3 +52,19 @@ SD1.5/CLIP独立配置完成3源、12个原生验证输出及CPU阶段复算；3
 ## 2026-10-09 限定编码与配对latent控制
 
 新增JPEG反演2次、原图生成重放2次及有效配对bypass反演2次均正常退出；重放像素和PNG字节与旧图一致。JPEG70 4:4:4 / JPEG95 4:2:0 的鞋子native匹配为0/3；bypass鞋子/猫的canonical oracle匹配升至1015/974，属于完整图像roundtrip的oracle贡献，非部署修复。另用原服务器运行时仅重放两份输入噪声的fp16转换（0模型调用），匹配判定未改变。新增200次更新及阶段绑定审计通过，旧原始证据、研究报告和test字节保留。断连期间已完成的JPEG批次取回而未重跑，纠正此前“0次”的运输判断。完整单位、分布、剩余解释及暂停扩大替代配置实验的判断见[限定报告](limited_codec_bypass.md)。
+
+## 2026-10-09 执行勘误与官方基线路线核查
+
+先前“0新增反演/生成”是把连接回执故障误判成未执行，已经更正为限定阶段4反演/2生成；具体开始/结束、shell/Python PID、恢复取回和未重发JPEG的证据见[时间线勘误](execution_erratum.md)。未知的本地报错/回复UTC没有补造。本轮只读/文档任务新增模型调用、生成、VAE编码、训练、下载、安装、付费均为0。
+
+新增标准库核查脚本逐一验证4阶段26个runtime绑定文件；日志/退出码/PID另加SHA清单。与d1e01be比对296个Git blob相同：CPU pilot20、cal/test155、聚焦58、限定原始证据59及4份此前科学报告；97个legacy blob由仓库检查另核。新的JSON仅为派生审计，不回写旧raw/frozen/成绩。
+
+官方SEAL固定源码10文件的SHA与AST核查通过；语义待验recaption与128候选穷举presence分别记录，无效threshold50/m_match12和caption do_sample形参、有效inverse guidance、实际生成默认值及scheduler依赖已明确。六个已知缓存根仅名称/stat核查，未找到三类官方模型标准快照；sentence-transformers缺失、环境版本不一致、代码/微调权重许可和原SD2.1身份仍是阻碍。详情及零预算G0–G2门槛见[基线路线](official_seal_baseline_route.md)。许可/HTTP元数据来自2026-10-07缓存，不是当前实时可访问性证明。
+
+核查命令（仅标准库和已有缓存文本；无模型导入/网络）：
+
+~~~bash
+python scripts/audit_baseline_readiness.py --seal-code runs/reproduction_audit/SEAL
+~~~
+
+此前官方源码缓存未提交；在新checkout缺少该缓存时，此命令会明确失败，不自动下载。已保存[契约](../reports/official_seal_route/source_contract.json)、[缓存](../reports/official_seal_route/cache_readonly.json)、[门槛一致性](../reports/official_seal_route/readiness_check.json)及[阶段时间线](../reports/execution_erratum/timeline.json)。这些通过仅说明静态契约和保存记录一致，不代表官方基线完成、CI通过或安全有效。

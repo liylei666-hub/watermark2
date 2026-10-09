@@ -1,0 +1,15 @@
+{
+  "status": "passed_gate_consistency",
+  "execution_budget": {
+    "gpu_model_calls": 0,
+    "generated_images": 0,
+    "inversions": 0,
+    "vae_encodes": 0,
+    "download_bytes": 0,
+    "training_steps": 0,
+    "paid_calls": 0,
+    "package_installs": 0
+  },
+  "baseline_execution_state": "blocked_not_executed",
+  "cache_observed_utc": "2026-10-09T04:32:59Z"
+}
