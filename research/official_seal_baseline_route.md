@@ -1,21 +1,34 @@
 # 官方 SEAL 基线路线与当前阻碍
 
-2026-10-09（UTC）。建议先补齐 **SEAL 官方语义验证路径的组件与判定契约**。SD1.5/image CLIP/CSI 已退为工程诊断工具，暂停扩展攻击和调阈值；其 12 源诊断没有非退化 90% 源组接受点，不能据此判断实例真实性方法优劣。本轮仅做静态源码、缓存 metadata 与旧产物审计，官方端到端基线尚未执行。
+2026-10-09（UTC）。建议先补齐 **SEAL 官方语义验证路径的模型组件与论文契约适配器**。语义决策已核实为未归一化 per-patch L2<2.3、匹配数≥12（k=1024、b=7）；缺的是代码末端决策与持久化适配器，而非未知阈值。SD1.5/image CLIP/CSI 已退为工程诊断工具，暂停扩展攻击和调阈值；其 12 源诊断没有非退化 90% 源组接受点，不能据此判断实例真实性方法优劣。本轮仅做静态源码、缓存 metadata 与旧产物审计，官方端到端基线尚未执行。
 
 [门槛配置](../configs/official_seal_baseline_gate.json)的执行预算为 0。G0–G2 是可审阅的未来计划，不授权或启动计算、下载或安装。已执行批次勘误见[时间线](execution_erratum.md)。
 
 ## 固定来源及两条检测路径
 
-代码固定为 [Kasraarabi/SEAL@92d31b31](https://github.com/Kasraarabi/SEAL/tree/92d31b31b93a6e373fe88a584c640beafb68c6fa)。此前已读 arXiv v4/代码；ICCV 录用版段落/补充图仍需逐项对齐。以下是源码契约，不能直接等同于论文图表协议。
+代码固定为 [Kasraarabi/SEAL@92d31b31](https://github.com/Kasraarabi/SEAL/tree/92d31b31b93a6e373fe88a584c640beafb68c6fa)。ICCV Algorithm 3 与补充 §9.1 已由父线程独立核查；本轮直接读取作者 [v4 Algorithm 3](https://arxiv.org/html/2503.12172v4)、[§9.1](https://arxiv.org/html/2503.12172v4#S9.SS1) 得到一致规则。本轮 CVF PDF 网页读取失败，未把这一失败写成 PDF 已直接读取。以下分别记录论文规则、固定源码与复现适配器。
 
 | 路径 | 注册/嵌入 | 待验图处理 | 输出/判定 |
 |---|---|---|---|
-| SEAL.py / image_transformations.compute_l2（语义） | SD2.1 草图→BLIP2 描述→微调句向量→官方 SimHash 噪声→标记图 | **重新描述待验图**、句向量和重建噪声；VAE mode→空文本逆扩散→与该语义噪声逐 patch 比较 | 1024 个 L2。SEAL.py 的 threshold=50 仅解析未读取；all_min_l2 只在内存中，无完整持久化/接受接口。 |
-| image_transformations_exhaustive_tpr / roc_auc（穷举） | 仍用 BLIP2+微调句向量注册 | VAE mode→空文本逆扩散；每 patch 在 2^b=128 个候选噪声取最小距离；**检测函数无待验图 recaption** | tau=2.3、严格 L2<tau；TPR 脚本取同批 negative score 第99百分位为 count 边界，count≥boundary 接受，并报告实际 FPR。m_match=12 和 threshold=50 均未读取。 |
+| SEAL.py / image_transformations.compute_l2（语义） | SD2.1 草图→BLIP2 描述→微调句向量→官方 SimHash 噪声→标记图 | **重新描述待验图**、句向量和重建噪声；VAE mode→空文本逆扩散→与该语义噪声逐 patch 比较 | 1024 个未归一化 L2。论文规定严格 L2<2.3、sumcount≥12；SEAL.py 的 threshold=50 未读取，只有内存 all_min_l2。计划以 paper-contract adapter 补最终决策/持久化；尚未实现或执行。 |
+| image_transformations_exhaustive_roc_auc（穷举ROC） | 同上注册 | VAE mode→空文本逆扩散→每patch的128候选最小L2，检测时无recaption | 严格 minL2<2.3 后计数，以该count计算ROC-AUC；不是语义count≥12判定。threshold50/m_match12均未读取。 |
+| image_transformations_exhaustive_tpr（穷举TPR） | 同上注册 | 同穷举检测 | minL2<2.3计数；同一negative批次第99百分位作为count边界，count≥boundary接受并报告实际FPR。ties可能使实际FPR≠1%；独立cal/test是另标扩展。 |
 
 证据：[语义函数](https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations.py#L22)、[主入口](https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/SEAL.py#L42)、[穷举](https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive_tpr.py#L25)、[经验边界与实际 FPR](https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive_tpr.py#L165)。ties/离散计数可使实际 FPR≠名义1%。源码未实现本项目独立 cal/test；复现原协议与增加独立校准须分别标记。
 
 主要拟复现接口命名为 seal_semantic_recaption；穷举另命名 seal_exhaustive_presence。穷举 presence 通过不能代表语义绑定通过；穷举的注册阶段仍需 captioner/句向量。
+
+## 论文决策与 Figure 6 修订
+
+语义 paper-contract adapter 的规范为：
+
+`d_i = ||z_query_semantic,i - z_inverse,i||_2; m = sum_i 1[d_i < 2.3]; accept = (m >= 12)`，i=1…1024，b=7。L2是每patch直接欧氏范数，不除以维数、不平方，也不是RMSE；等于2.3不算匹配，恰好12匹配接受。它消费语义recaption流程的distances，不消费128候选最小距离。适配器需保存全部distances/count/判定/配置/错误，当前只是明确的实现任务；未用旧替代配置结果代替官方运行。
+
+来源：[ICCV Algorithm 3](https://www.openaccess.thecvf.com/content/ICCV2025/papers/Arabi_SEAL_Semantic_Aware_Image_Watermarking_ICCV_2025_paper.pdf)、[ICCV supplement §9.1](https://www.openaccess.thecvf.com/content/ICCV2025/supplemental/Arabi_SEAL_Semantic_Aware_ICCV_2025_supplemental.pdf)，以及本轮直接核对的作者v4 Algorithm 3/§9.1。§9.1给参数，Algorithm 3给严格<与最终≥的比较符，不能从理论推导中的≤或未用parser50取代。
+
+作者 [v4（2026-05-18）§4](https://arxiv.org/html/2503.12172v4#S4)、Figure 6及acknowledgments明确：**0.896是Spatial Test检测器的平均ROC-AUC**，不是固定语义阈值下的接受率/检测率。修订致谢说明早期Figure 6表达存在清晰性问题；本项目没有复现该数值。
+
+固定 [May11提交](https://github.com/Kasraarabi/SEAL/commit/92d31b31b93a6e373fe88a584c640beafb68c6fa)说明为“replication code for figure 6”；[ROC脚本开头](https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive_roc_auc.py#L1)也指向补充Figure 6。实际调用链是[min128 L2→strict匹配计数](https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive_roc_auc.py#L29)→[ROC/AUC](https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive_roc_auc.py#L216)。因此分别记录作者的Spatial Test指标归属和复现脚本计算路径；没有把其ROC结果等同语义accept≥12，也未以静态源码阅读声称数值复现。
 
 ## 必须冻结的组件契约
 
@@ -32,13 +45,13 @@
 
 ## 缓存、许可和获取限制
 
-许可/HTTP 观测来自[2026-10-07 清单](../reports/reproduction_audit)。本轮没有新查询 HF 或下载权重；旧401不能证明删除/永久不可用，元数据许可不是当前完整条款的替代。
+许可/HTTP 观测来自[2026-10-07 清单](../reports/reproduction_audit)。本轮没有新查询 HF 或下载权重；旧401只说明当次未认证访问失败，不能证明删除/永久不可用，元数据许可不是当前完整条款的替代。
 
 | 组件 | 已观测版本/许可 | 当前状态 |
 |---|---|---|
-| 官方代码 | 92d31b31…；license=null，根树无 LICENSE/NOTICE/COPYING | 本地缓存文本可供阅读；代码使用/分发许可范围待明确。本次只发布派生契约/哈希/链接，不复制源码。 |
+| 官方代码 | 92d31b31…；license=null，根树无 LICENSE/NOTICE/COPYING | 本地缓存文本可供阅读；代码使用/分发许可范围待明确。[license issue #6](https://github.com/Kasraarabi/SEAL/issues/6)本轮只读查询仍open、comments=0。本次只发布派生契约/哈希/链接，不复制源码。 |
 | 主入口 SD2.1 | stabilityai API 此前401；fp16 alias 未解析不可变 commit | 六个已知根未找到标准快照；访问/论文权重身份待核实。 |
-| 穷举 SD2.1 镜像 | Manojb@0094d483a120f3f33dafbd187ea4aa60d10de75c；openrail++、gated=false | 未找到缓存；官方脚本采用镜像不证明与主入口/论文权重逐字节一致。 |
+| 穷举 SD2.1 镜像 | Manojb@0094d483a120f3f33dafbd187ea4aa60d10de75c；openrail++、gated=false | 已知公开镜像可访问，但已查本机缓存未找到；官方脚本采用镜像不证明与原始checkpoint逐字节一致，仍需权威hash/等同性证据。 |
 | BLIP2 | 0eb0d3b46c14c1f8c7680bca2693baafdb90bb28；MIT、gated=false | 未找到快照；processor/tokenizer/generation_config 须完整。两份 safetensors 合计15,769,954,544B。 |
 | SEAL微调句向量 | 1f155d6a17f7a176d7d269f7ec04bcfa376ce297；license=null、gated=false | 未找到快照，model card 许可未明确；基础 MPNet 许可不能覆盖证明微调权重。437,967,672B；还需 modules/pooling/tokenizer。 |
 | 官方 prompt corpus | Gustavosta/Stable-Diffusion-Prompts/train | 两个已知默认 datasets 根的检查未返回目标数据记录；数据版本/索引/分割待冻结。现有自有提示词只能另标工程验证。 |
@@ -66,12 +79,14 @@ register/verify 适配器尚未实现。register packet 需绑定自有 source�
 
 | 门槛 | 未来工作/验收依据 | 当前状态 |
 |---|---|---|
-| G0 资产与契约 | 权重身份/权限、代码许可、全configs/processor/tokenizer、论文路径和阈值/比较符、数据；独立离线环境；显式预算/设备UUID/保存接口 | **阻塞**：3类快照缺失，许可范围、原SD2.1访问/身份、缺包/版本、语义最终判定和官方数据尚未解决。 |
+| G0 资产与适配器 | 权重身份/权限、代码许可、全configs/processor/tokenizer/数据；独立离线环境；实现已知论文决策与持久化adapter；显式预算/设备UUID | **阻塞**：3类快照缺失，许可范围、原SD2.1身份/镜像等同性、缺包/版本、adapter与数据冻结尚未解决；语义阈值已明确。 |
 | G1 最多1官方源 | G0和未来预算通过后：draft→caption→微调embedding→官方noise→marked→待验recaption→inverse→L2；逐阶段对齐官方函数，预声明dtype容差，保存拒绝/失败，不循环重试 | **未执行**。可先核对作者提供的绑定中间产物，但它不能代替新端到端运行。 |
 | G2 最多3开发源 | 与旧cal/test不同family/prompt/seed；P0 original、JPEG70/90 sub2、bicubic0.5/0.75恢复512；评分前事实审查；每源draft negative、完整native和全部失败；原图可接受、negative可区分的事先声明工程门槛成立才继续 | **未执行、无预算**。3源不能估可靠FPR/正常接受率；绑定错误/退化则停，不扩攻击或反复调阈值。 |
 
 G2复用 unmarked draft 作工程negative时，拟上限6生成/18反演/21caption（3注册+18待验），需保存真实 scheduler 调用数；这是工程检查，不等于官方 next-prompt negative 协议，论文复现需另冻原协议。所有拟预算都不是本轮执行授权。
 
-之后才规划独立 cal/test，按[问题定义](problem.md)的正常接受率、置信区间、合法编辑和完整自适应口径比较。旧90%源组诊断与正式协议分开；不能从无效parser推断threshold50，不能移植CSI patch≤2/count10。开发成功/oracle改善/静态核查不能充当安全贡献或CCF-A新颖性。
+之后才规划独立 cal/test，按[问题定义](problem.md)的正常接受率、置信区间、合法编辑和完整自适应口径比较。旧90%源组诊断与正式协议分开；官方语义基线固定paper-contract L2<2.3/count≥12；匹配正常接受率的另行calibration须明确标为项目扩展。不能从无效parser推断threshold50，也不能移植CSI patch≤2/count10。开发成功/oracle改善/静态核查不能充当安全贡献或CCF-A新颖性。
+
+作者待确认事项仅为代码/微调checkpoint的使用与分发许可，以及原始SD2.1的不可变revision/hash或镜像权威等同性证据。本轮仅只读查询公开资料，没有联系作者。
 
 **无下载可完成**：源码/AST/许可记录核查、旧产物CPU文件审计、接口字段与协议设计。现有缓存仅能支撑SD1.5替代诊断；缺captioner/微调句向量/SD2.1，无法无下载完成新的官方register、recaption或端到端验证。本轮保持此边界。

@@ -61,3 +61,7 @@ python scripts/audit_public_implementations.py
 ## 新颖性更新
 
 [SLICE, arXiv:2603.12749v1](https://arxiv.org/abs/2603.12749)已明确将 subject/environment/action/detail 分别绑定到 latent 分区，并区分完整、局部篡改、无水印三种判决。其 §4 界限依赖语义稳定/分离及条件独立等假设；不能直接套用于自适应编辑。本轮确认其为公开预印本，未核实正式录用，未复现实验。分因子绑定与局部判决已形成直接先行工作，因此继续保留“允许编辑策略、匹配接受率、完整自适应评估”为待验证协议问题，尚不主张新方法贡献。
+
+## 2026-10-09 论文契约补充
+
+前述为2026-10-07源码核查快照。现已核实语义Algorithm3+supp§9.1：未归一化per-patch L2严格<2.3，matchcount≥12，k1024/b7。因此SEAL.py的未用threshold50不是未知论文规则的证据；后续需明确实现paper-contract decision/persistence adapter。v4 §4/Fig6的0.896为SpatialTest平均ROC-AUC，固定Figure6穷举ROC脚本是min128distance→strict<2.3 count→ROC，另列于[官方路线](official_seal_baseline_route.md)，不混作语义accept≥12。本轮没有执行新模型实验或下载模型。

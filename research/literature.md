@@ -5,7 +5,7 @@
 | 引用 ID / 来源 | 已有贡献与本课题关系 | 必须检查的差异 | 本轮证据范围 |
 |---|---|---|---|
 | muller2025 / [CVPR 2025](https://openaccess.thecvf.com/content/CVPR2025/papers/Muller_Black-Box_Forgery_Attacks_on_Semantic_Watermarks_for_Diffusion_Models_CVPR_2025_paper.pdf) | 语义水印黑盒伪造为本项目起点 | 一张合法图、代理模型权限、查询预算、目标水印判定的具体定义 | 任务前序已核实；本轮 CVF 返回 403，完整协议重读待办 |
-| seal2025 / [SEAL, ICCV 2025](https://openaccess.thecvf.com/content/ICCV2025/papers/Arabi_SEAL_Semantic_Aware_Image_Watermarking_ICCV_2025_paper.pdf) | 已研究语义感知的图像水印和内容绑定 | 必须复现其真实验证器，不能只替换为通用图像相似度 | 前序已核实；本轮 CVF 返回 403；CSI 正文也直接讨论此防御 |
+| seal2025 / [SEAL, ICCV 2025](https://openaccess.thecvf.com/content/ICCV2025/papers/Arabi_SEAL_Semantic_Aware_Image_Watermarking_ICCV_2025_paper.pdf) | 已研究语义感知的图像水印和内容绑定 | 必须复现其真实验证器，不能只替换为通用图像相似度 | 2026-10-09补充核查：Alg3+§9.1语义规则L2<2.3/count≥12；v4的Fig6 0.896为SpatialTest平均ROC-AUC；实现/指标路径见[基线路线](official_seal_baseline_route.md) |
 | sembind2026 / [SemBind, ICML 2026](https://proceedings.mlr.press/v306/zhang26hj.html), [录用全文](https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26hj/zhang26hj.pdf) | 对比训练语义 masker，将扩散水印与图像语义关联；同义提示词代码近似不变 | 录用版 §5 排除拥有部署 masker/bind/unbind 的全白盒对手；区分语义与实例，记录 mask ratio | 本轮官方元数据/摘要；录用版限制由同任务独立审阅提供，本机全文重读与代码核验待办 |
 | metaseal2026 / [MetaSeal PDF](https://openreview.net/pdf?id=8i3ErmCfdJ), [TMLR 接收索引](https://jmlr.org/tmlr/papers/) | 语义与密码验证组合为直接相关方向 | 完整恢复签名消息与图像语义比对，特别是补充 §5.1；不能仅以签名通过判断实例安全 | 官方接收索引；PDF 当前受浏览器挑战，§5.1 信息来自前序核查，待本地复现 |
 | geometry2026 / [ICML 2026](https://proceedings.mlr.press/v306/lee26bm.html) | 潜空间几何失真与验证前识别；理论为高斯、共享协方差、MSE 等假设下的 surrogate | 已包含同模型测试，不能称为仅适用跨模型；联合适应前置过滤与验证，并匹配参考 latent 权限 | 本轮官方元数据/摘要；理论限制及同模型测试由同任务独立审阅提供，实现待审 |

@@ -16,11 +16,38 @@
     "venue": "ICCV 2025",
     "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Arabi_SEAL_Semantic_Aware_Image_Watermarking_ICCV_2025_paper.pdf",
     "status": "official_code_and_arxiv_v4_read; CVF_fetch_403",
-    "scope": "official numerical components checked; full real-image verifier not executed",
-    "checked": "2026-10-07",
+    "scope": "official numerical components checked; paper semantic decision resolved (L2<2.3,count>=12,k1024,b7); adapter/full real-image verification not executed; Fig6 v4 0.896 is SpatialTest mean ROC-AUC",
+    "checked": "2026-10-09",
     "code_url": "https://github.com/Kasraarabi/SEAL",
     "code_commit": "92d31b31b93a6e373fe88a584c640beafb68c6fa",
-    "code_audit": "research/public_reproduction_feasibility.md; pinned source and offline components only"
+    "code_audit": "research/public_reproduction_feasibility.md; pinned source and offline components only",
+    "paper_contract": {
+      "rule": {
+        "k": 1024,
+        "b": 7,
+        "distance": "unnormalized_per_patch_euclidean_l2",
+        "patch_comparison": "strict_lt",
+        "tau": 2.3,
+        "count_comparison": "gte",
+        "minimum_matches": 12,
+        "endpoint": "seal_semantic_recaption",
+        "adapter_status": "planned_not_implemented_or_executed",
+        "source": "ICCV Algorithm 3 + supplement 9.1; independently cross-checked arxiv v4 Algorithm 3 + 9.1"
+      },
+      "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Arabi_SEAL_Semantic_Aware_Image_Watermarking_ICCV_2025_paper.pdf",
+      "supplement_url": "https://www.openaccess.thecvf.com/content/ICCV2025/supplemental/Arabi_SEAL_Semantic_Aware_ICCV_2025_supplemental.pdf",
+      "v4_url": "https://arxiv.org/html/2503.12172v4",
+      "v4_date": "2026-05-18",
+      "check_scope": "parent independently checked ICCV PDFs; this worker directly read arxiv v4 Algorithm3,9.1,4,Fig6,acknowledgments; CVF tool read failed"
+    },
+    "metric_clarification": {
+      "figure": 6,
+      "value": 0.896,
+      "metric": "mean_ROC_AUC",
+      "detector_author_label": "SpatialTest",
+      "source_version": "arxiv_v4",
+      "not_a_fixed_semantic_acceptance_rate": true
+    }
   },
   {
     "id": "sembind2026",

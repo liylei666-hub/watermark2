@@ -8,7 +8,7 @@
     "commit": "92d31b31b93a6e373fe88a584c640beafb68c6fa",
     "primary_endpoint": "seal_semantic_recaption",
     "separate_control_endpoint": "seal_exhaustive_presence",
-    "paper_protocol_mapping": "pending_final_alignment"
+    "paper_protocol_mapping": "semantic_algorithm3_parameters_confirmed; figure6_exhaustive_ROC_replication_code_identified; no_numeric_reproduction"
   },
   "execution_budget": {
     "gpu_model_calls": 0,
@@ -34,8 +34,8 @@
     "code_and_finetuned_checkpoint_license_scope_unresolved",
     "primary_sd21_access_identity_unresolved",
     "missing_sentence_transformers_and_environment_compatibility_unverified",
-    "semantic_final_decision_and_paper_mapping_unresolved",
-    "official_prompt_dataset_revision_and_split_unfixed"
+    "official_prompt_dataset_revision_and_split_unfixed",
+    "paper_contract_decision_and_persistence_adapter_not_implemented"
   ],
   "required_models": [
     {
@@ -58,7 +58,7 @@
     {
       "id": "G0",
       "state": "blocked",
-      "requires": "rights, immutable models, offline environment, paper/decision mapping, saved interface, explicit execution budget"
+      "requires": "rights, immutable models, offline environment, paper-contract decision/persistence adapter, frozen data, explicit execution budget"
     },
     {
       "id": "G1",
@@ -106,6 +106,19 @@
       "comparison": "strict_lt",
       "tau": 2.3
     },
-    "project_operating_point": "must_be_preregistered_and_calibrated_on_disjoint_sources"
-  }
+    "project_operating_point": "separate matched-benign-acceptance extension; preregister and calibrate on disjoint sources; official semantic baseline remains fixed paper rule",
+    "semantic_paper_contract": {
+      "k": 1024,
+      "b": 7,
+      "distance": "unnormalized_per_patch_euclidean_l2",
+      "patch_comparison": "strict_lt",
+      "tau": 2.3,
+      "count_comparison": "gte",
+      "minimum_matches": 12,
+      "endpoint": "seal_semantic_recaption",
+      "adapter_status": "planned_not_implemented_or_executed",
+      "source": "ICCV Algorithm 3 + supplement 9.1; independently cross-checked arxiv v4 Algorithm 3 + 9.1"
+    }
+  },
+  "paper_contract_check_record": "reports/official_seal_route/paper_contract_correction.json"
 }

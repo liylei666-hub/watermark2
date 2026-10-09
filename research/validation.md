@@ -59,7 +59,7 @@ SD1.5/CLIP独立配置完成3源、12个原生验证输出及CPU阶段复算；3
 
 新增标准库核查脚本逐一验证4阶段26个runtime绑定文件；日志/退出码/PID另加SHA清单。与d1e01be比对296个Git blob相同：CPU pilot20、cal/test155、聚焦58、限定原始证据59及4份此前科学报告；97个legacy blob由仓库检查另核。新的JSON仅为派生审计，不回写旧raw/frozen/成绩。
 
-官方SEAL固定源码10文件的SHA与AST核查通过；语义待验recaption与128候选穷举presence分别记录，无效threshold50/m_match12和caption do_sample形参、有效inverse guidance、实际生成默认值及scheduler依赖已明确。六个已知缓存根仅名称/stat核查，未找到三类官方模型标准快照；sentence-transformers缺失、环境版本不一致、代码/微调权重许可和原SD2.1身份仍是阻碍。详情及零预算G0–G2门槛见[基线路线](official_seal_baseline_route.md)。许可/HTTP元数据来自2026-10-07缓存，不是当前实时可访问性证明。
+官方SEAL固定源码10文件的SHA与AST核查通过；语义待验recaption与128候选穷举presence分别记录，入口未读取threshold50/m_match12、未转发caption do_sample形参、有效inverse guidance、实际生成默认值及scheduler依赖已明确。六个已知缓存根仅名称/stat核查，未找到三类官方模型标准快照；sentence-transformers缺失、环境版本不一致、代码/微调权重许可和原SD2.1身份仍是阻碍。详情及零预算G0–G2门槛见[基线路线](official_seal_baseline_route.md)。许可/HTTP元数据来自2026-10-07缓存，不是当前实时可访问性证明。
 
 核查命令（仅标准库和已有缓存文本；无模型导入/网络）：
 
@@ -68,3 +68,11 @@ python scripts/audit_baseline_readiness.py --seal-code runs/reproduction_audit/S
 ~~~
 
 此前官方源码缓存未提交；在新checkout缺少该缓存时，此命令会明确失败，不自动下载。已保存[契约](../reports/official_seal_route/source_contract.json)、[缓存](../reports/official_seal_route/cache_readonly.json)、[门槛一致性](../reports/official_seal_route/readiness_check.json)及[阶段时间线](../reports/execution_erratum/timeline.json)。这些通过仅说明静态契约和保存记录一致，不代表官方基线完成、CI通过或安全有效。
+
+## 2026-10-09 官方论文判定与指标更正
+
+作者v4 Algorithm3/§9.1直接核对通过；ICCV对应段落由父线程独立核实，本轮CVF PDF读取失败。语义规则明确为strict未归一化per-patch L2<2.3、匹配数≥12、k1024/b7；原语义代码缺最后判定/持久化，现列为paper-contract adapter实现任务，撤销“语义阈值未知”的阻碍。此前源码AST记录中的threshold50/m_match12未读取依然成立，是入口实现事实，不能覆盖论文规则。
+
+v4（2026-05-18）§4/Fig6把0.896明确为SpatialTest平均ROC-AUC。May11固定提交92d31b31的Figure6复现脚本用128候选最小距离→strict<2.3计数→ROC/AUC，不等于语义accept≥12；TPR同negative批次99百分位规则与独立cal/test扩展继续分开。许可issue6仍open/comments0；原模型401仅说明未认证查询失败，镜像公开可访问未证明原始字节等同性。完整来源、比对与剩余门槛见[更新路线](official_seal_baseline_route.md)及[本轮更正记录](../reports/official_seal_route/paper_contract_correction.json)。此前验证记录为当时快照，本节更新当前结论。
+
+本轮仅文档/配置/来源核对；0模型调用、0生成、0训练、0权重/数据下载、0安装；全部冻结raw/frozen/test和既有审计JSON保持字节。未联系作者。执行预算继续为零。
