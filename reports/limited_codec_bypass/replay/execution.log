@@ -1,0 +1,4 @@
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:05,  1.17it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:01,  3.66it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:01<00:01,  2.26it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:02<00:00,  3.23it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:02<00:00,  3.88it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:02<00:00,  3.16it/s]
+{"source": "c04", "paired_old_pixels_exact": true, "paired_old_png_bytes_exact": true}
+{"source": "c02", "paired_old_pixels_exact": true, "paired_old_png_bytes_exact": true}
+Bounded phase complete

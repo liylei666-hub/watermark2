@@ -19,3 +19,4 @@ reports/sd15_clip_smoke/** -text -whitespace
 reports/mechanical_development/** -text -whitespace
 reports/calibration_engineering/** -text -whitespace
 reports/focused_stability/** -text -whitespace
+reports/limited_codec_bypass/** -text -whitespace

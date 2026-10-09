@@ -1,0 +1,5 @@
+Source excerpt: diffusers v0.29.2, pipeline_stable_diffusion.py, prepare_latents.
+Copyright 2024 The HuggingFace Team. All rights reserved.
+Licensed under Apache License, Version 2.0; retained in diffusers_LICENSE.txt.
+Upstream: https://github.com/huggingface/diffusers/blob/v0.29.2/src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion.py
+Excerpt read from the installed server package; PowerShell output encoding/line endings preserved.

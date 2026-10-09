@@ -1,0 +1,18 @@
+{
+  "wall_seconds": 7.260795519920066,
+  "phase": "bypass",
+  "inversions": 2,
+  "generated_images": 0,
+  "weights_downloaded_bytes": 0,
+  "max_cuda_allocated_bytes": 2940952576,
+  "max_cuda_reserved_bytes": 3093299200,
+  "gpu_uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+  "file_hashes": {
+    "frozen.json": "ad1ac1ed4e51a27dfb4782ac97703e458d82c1d930ccf31bc806e3b24f115630",
+    "results.json": "fdb8f016417068471e54c689b35146a3415f5123c386a3542e07117e75013f40",
+    "c02_bypass.npz": "dda1755416ec0dfb3cc381148e2fbdb31be5d87cd8187068cf15907f244c0de5",
+    "c04_bypass.npz": "9409e7635fe88eda91de472f87dc899c47c85052737d61fb8a2121c39a7e0082",
+    "partial_results.json": "fdb8f016417068471e54c689b35146a3415f5123c386a3542e07117e75013f40"
+  },
+  "finished_utc": "2026-10-09T04:06:51Z"
+}

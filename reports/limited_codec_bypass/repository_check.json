@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "references": 8,
+  "local_links": 126,
+  "legacy_blobs_identical": 97,
+  "config_status": "planned_not_executed",
+  "scope": "offline links, metadata, config and archive; not scientific novelty or external URL availability"
+}

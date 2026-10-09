@@ -1,0 +1,5 @@
+{
+  "baseline_jpeg70_420_bytes_exact": true,
+  "baseline_jpeg70_420_decoded_rgb_exact": true,
+  "prior_jpeg_sha256": "626e138f0223fc5937d10d3477c9ae65df9173fc4ae25650acb75842a68be31c"
+}

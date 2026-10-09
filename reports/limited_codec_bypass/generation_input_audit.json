@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "source": "c04",
+      "variant": "image_roundtrip",
+      "matches_to_canonical_float64": 614,
+      "matches_to_runtime_fp16_input": 614,
+      "rmse_to_runtime_fp16_input": 0.5298887806716501,
+      "registered_dtype_conversion_rmse": 0.0002060736557330591,
+      "direct_numpy_cast_different_coordinates": 0,
+      "cpu_torch_cast_exact_runtime": true,
+      "max_l2_reference_dtype_delta": 0.0008517549720368223,
+      "median_l2_to_runtime_fp16_input": 1.857000636040333
+    },
+    {
+      "source": "c04",
+      "variant": "paired_bypass",
+      "matches_to_canonical_float64": 1015,
+      "matches_to_runtime_fp16_input": 1015,
+      "rmse_to_runtime_fp16_input": 0.2629383516410952,
+      "registered_dtype_conversion_rmse": 0.0002060736557330591,
+      "direct_numpy_cast_different_coordinates": 0,
+      "cpu_torch_cast_exact_runtime": true,
+      "max_l2_reference_dtype_delta": 0.0010131101491341887,
+      "median_l2_to_runtime_fp16_input": 0.9552403091871902
+    },
+    {
+      "source": "c02",
+      "variant": "image_roundtrip",
+      "matches_to_canonical_float64": 843,
+      "matches_to_runtime_fp16_input": 843,
+      "rmse_to_runtime_fp16_input": 0.3900011272234206,
+      "registered_dtype_conversion_rmse": 0.0002080273616180828,
+      "direct_numpy_cast_different_coordinates": 1,
+      "cpu_torch_cast_exact_runtime": true,
+      "max_l2_reference_dtype_delta": 0.0007690126905186556,
+      "median_l2_to_runtime_fp16_input": 1.224319279572978
+    },
+    {
+      "source": "c02",
+      "variant": "paired_bypass",
+      "matches_to_canonical_float64": 974,
+      "matches_to_runtime_fp16_input": 974,
+      "rmse_to_runtime_fp16_input": 0.25396859485666445,
+      "registered_dtype_conversion_rmse": 0.0002080273616180828,
+      "direct_numpy_cast_different_coordinates": 1,
+      "cpu_torch_cast_exact_runtime": true,
+      "max_l2_reference_dtype_delta": 0.0008746020381625863,
+      "median_l2_to_runtime_fp16_input": 0.5223459575244913
+    }
+  ],
+  "init_noise_sigma": 1.0,
+  "reference_binding": {
+    "c04_runtime_replayed_supplied_noise_fp16": {
+      "shape": [
+        1,
+        4,
+        64,
+        64
+      ],
+      "dtype": "float16",
+      "sha256_c_order_bytes": "5aa3f9e4e9947ca62fab487fcafb08aded500345fbcd3b4587e42899c60d41ca"
+    },
+    "c04_image_roundtrip_l2_to_fp16_input": {
+      "shape": [
+        1024
+      ],
+      "dtype": "float64",
+      "sha256_c_order_bytes": "1ee385931590a82fca2d0ea496e6f81696bc6fd680810eca5f80df85c6c1a534"
+    },
+    "c04_paired_bypass_l2_to_fp16_input": {
+      "shape": [
+        1024
+      ],
+      "dtype": "float64",
+      "sha256_c_order_bytes": "cfc1b907e100256517b2c914c15a588812c8b4c71cfb0350b3746146a15bf8b4"
+    },
+    "c02_runtime_replayed_supplied_noise_fp16": {
+      "shape": [
+        1,
+        4,
+        64,
+        64
+      ],
+      "dtype": "float16",
+      "sha256_c_order_bytes": "2265723391f7f1ae11c2e0437c893406e2ec6891b38fafc1984057b7e23e41fd"
+    },
+    "c02_image_roundtrip_l2_to_fp16_input": {
+      "shape": [
+        1024
+      ],
+      "dtype": "float64",
+      "sha256_c_order_bytes": "c93236afb878b121c9ccced8d42caa71309b5e0aa1701bfb8b8374d48c13ec99"
+    },
+    "c02_paired_bypass_l2_to_fp16_input": {
+      "shape": [
+        1024
+      ],
+      "dtype": "float64",
+      "sha256_c_order_bytes": "97f5f8b15d68565295ca04945cdb58f075a5e935a68a495580aa570633f2cf8f"
+    }
+  },
+  "evidence": {
+    "backend_sha256": "bc88888ebf60b03dab9d8e77948812b36c38696251a33540f5266245120c75c2",
+    "pipeline_prepare_latents_snippet_sha256": "5ba1f8185d95e405849f8244c7a358e5b0965f78714c77a934a1943a5da078e4",
+    "input_cast_frozen_sha256": "c4017d8407d9d1104319cd323f5c4a567d1bfbfde870d8b574a879569a76f499"
+  },
+  "scope": "generation input reconstructed by actual pinned _to_torch CUDA replay in original Torch2.3.1 runtime and sigma1; no initial-UNet input hook was saved during original generation. Direct NumPy64->half differs for some coordinates; runtime replay is authoritative.",
+  "interpretation": "keep native oracle against canonical float64 registered_z unchanged; report runtime-replayed supplied fp16-noise reference separately"
+}

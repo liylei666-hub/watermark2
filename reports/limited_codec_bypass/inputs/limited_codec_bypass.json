@@ -1,0 +1,55 @@
+{
+  "protocol_id": "limited-codec-paired-bypass-cal-only-v1",
+  "scope": "Adaptive engineering diagnosis, one shoe codec sample, two existing cal sources for paired bypass; frozen test untouched",
+  "jpeg_source": "c04",
+  "jpeg_variants": [
+    {
+      "id": "jpeg70_444",
+      "quality": 70,
+      "subsampling": 0
+    },
+    {
+      "id": "jpeg95_420",
+      "quality": 95,
+      "subsampling": 2
+    }
+  ],
+  "existing_jpeg_baseline": {
+    "id": "jpeg70",
+    "quality": 70,
+    "subsampling": 2,
+    "recompute_bytes_control": true
+  },
+  "paired_sources": [
+    "c04",
+    "c02"
+  ],
+  "bypass_question": "When generation replay exactly matches the old marked image pixels, replace VAE decode/8bitRGB/encode roundtrip initial latent with actual final generation latent; keep old semantic reference and pinned empty-conditioned inversion. This controls the whole VAE/image roundtrip, not just encoder.",
+  "pairing_gate": "old/replay decoded RGB exact; record PNG byte equality too; mismatched source skips bypass, no retry",
+  "thresholds": {
+    "patch_l2": 2,
+    "count_unchecked": 10,
+    "calibrated_count": 0,
+    "degenerate_operating_point": true
+  },
+  "generation": {
+    "steps": 50,
+    "guidance": 7.5,
+    "use": "old prompt and registered_z, one marked replay per source, no new unmarked draft"
+  },
+  "inversion": {
+    "steps": 50,
+    "effective": "empty prompt single branch; guidance variable unused"
+  },
+  "budgets": {
+    "jpeg_inversions": 2,
+    "replay_generations": 2,
+    "bypass_inversions": 2,
+    "fp32_inversions": 0,
+    "new_weight_download_bytes": 0,
+    "paid_calls": 0
+  },
+  "physical_gpu": 7,
+  "physical_gpu_uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+  "max_wall_seconds_per_phase": 900
+}

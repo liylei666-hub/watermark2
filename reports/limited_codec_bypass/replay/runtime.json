@@ -1,0 +1,20 @@
+{
+  "wall_seconds": 10.377752199070528,
+  "phase": "replay",
+  "inversions": 0,
+  "generated_images": 2,
+  "weights_downloaded_bytes": 0,
+  "max_cuda_allocated_bytes": 3422841856,
+  "max_cuda_reserved_bytes": 3646947328,
+  "gpu_uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+  "file_hashes": {
+    "frozen.json": "4e6d7eb2f2ad4aad559366be8a20be16fd5095a50fac973a851f1950a47415e3",
+    "results.json": "2239413baadd13892785a7472cd6f26c07ac491fcdc9bb0364e2b6d91014991e",
+    "c02_replay.npz": "2e7e85ad81fdd66c3c138358dbfd13970dce3842202b2927de9019404519ac50",
+    "c04_replay.npz": "43e79da71412593601dc5ed2919c7849e3789f4471e72cd467c37fa9cb9d4b19",
+    "c02_replay.png": "948f701be528e5c04ab5ae470b7f28b57ce48621d0ca71e5c092a88dacd49559",
+    "partial_results.json": "2239413baadd13892785a7472cd6f26c07ac491fcdc9bb0364e2b6d91014991e",
+    "c04_replay.png": "ce657424e419b28260a342941c6125449b7005cecd30a7fa0dfa2e826f079068"
+  },
+  "finished_utc": "2026-10-09T04:05:10Z"
+}
