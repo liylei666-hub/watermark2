@@ -1,0 +1,8 @@
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00, 21.15it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:01<00:00,  2.98it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:02<00:00,  3.04it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:02<00:00,  3.40it/s]
+{"source": "c04", "variant": "original", "match_count": 116, "oracle_matches": 614, "feature_max_delta_from_prior": 0.0, "recon_max_delta_from_prior": 0.0, "wall_seconds": 2.9336480759084225}
+{"source": "c04", "variant": "lossless_pixel_identity", "match_count": 116, "oracle_matches": 614, "feature_max_delta_from_prior": 0.0, "recon_max_delta_from_prior": 0.0, "wall_seconds": 2.398672682000324}
+{"source": "c04", "variant": "jpeg70", "match_count": 0, "oracle_matches": 1, "feature_max_delta_from_prior": 0.0, "recon_max_delta_from_prior": 0.0, "wall_seconds": 2.16801549308002}
+{"source": "c02", "variant": "original", "match_count": 317, "oracle_matches": 843, "feature_max_delta_from_prior": 0.0, "recon_max_delta_from_prior": 0.0, "wall_seconds": 2.3945964640006423}
+{"source": "c02", "variant": "lossless_pixel_identity", "match_count": 317, "oracle_matches": 843, "feature_max_delta_from_prior": 0.0, "recon_max_delta_from_prior": 0.0, "wall_seconds": 2.3460898532066494}
+{"source": "c02", "variant": "jpeg70", "match_count": 297, "oracle_matches": 797, "feature_max_delta_from_prior": 0.0, "recon_max_delta_from_prior": 0.0, "wall_seconds": 2.4034684570506215}
+Completed six native inversions with trace hooks

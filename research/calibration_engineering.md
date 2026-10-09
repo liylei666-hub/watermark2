@@ -61,4 +61,8 @@ E为query/draft bucket相同，D为recon到registered_z的patch L2≤2，A为nat
 
 [CPU审计](../reports/calibration_engineering/audit.json)核验129个文件哈希，30 cal+36 test行复算均通过，参考噪声差0，L2最大差1.7764e-15，并重算阈值及检查其在test前冻结。[审计脚本](../scripts/audit_calibration_engineering.py)是同实现保存阶段复核，不是独立模型复现。
 
-此配置没有caption、credential、payload、policy或实例认证输出，不是官方SEAL或完整实例认证。上游阈值10和patch容差2.0均为未校准fallback。当前没有非退化90%校准工作点；保留原test冻结结果，后续修复只用cal/dev，新的泛化验证需fresh holdout。当前可执行的后续是两源CPU控制及2×2交换，必要时至多6次聚焦反演定位预处理、VAE和轨迹，不构造新的攻击刷分。
+此配置没有caption、credential、payload、policy或实例认证输出，不是官方SEAL或完整实例认证。上游阈值10和patch容差2.0均为未校准fallback。当前没有非退化90%校准工作点；保留原test冻结结果，后续修复只用cal/dev，新的泛化验证需fresh holdout。后续两源CPU控制、2×2交叉、6次聚焦反演和16次条件VAE精度编码已完成，见[聚焦诊断](focused_stability.md)；本批精度切换未降低JPEG模式差异。
+
+## 2026-10-09 反演参数澄清
+
+固定 CSI invert 在赋值后未使用 guidance 参数；实际采用空提示词、每步一次 UNet 调用的单分支反演。早期配置中的 invert_guidance=1.0 是未参与计算的字段，不能将其改动报告为 CFG 消融；生成 guidance=7.5 生效。静态核查及六次原生反演的 300 次实际调用记录见[聚焦诊断](focused_stability.md)。原冻结配置、分数和数组未改动。

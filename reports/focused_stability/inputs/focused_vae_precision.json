@@ -1,0 +1,27 @@
+{
+  "protocol_id": "focused-vae-precision-cal-only-v1",
+  "scope": "adaptive cal-only mechanism probe; no detector tuning, no test reuse or generalization claim",
+  "sources": [
+    "c04",
+    "c02"
+  ],
+  "variants": [
+    "original",
+    "jpeg70"
+  ],
+  "trigger": "trace audit passed; c04 JPEG VAE mode RMSE >2*c02 while c04 normalized pixel RMSE<c02; identity traces exactly equal",
+  "branches": [
+    "native_fp16",
+    "fp32_arithmetic_fp16_weights_fp16_input",
+    "fp32_checkpoint_weights_fp16_input",
+    "fp32_checkpoint_weights_fp32_input"
+  ],
+  "max_vae_encodes": 16,
+  "max_inversions": 0,
+  "max_generation_calls": 0,
+  "max_new_weight_download_bytes": 0,
+  "latent_scale": 0.18215,
+  "physical_gpu": 7,
+  "physical_gpu_uuid": "GPU-9644fb82-cb6f-7311-8017-eaee41409bb7",
+  "max_wall_seconds": 900
+}

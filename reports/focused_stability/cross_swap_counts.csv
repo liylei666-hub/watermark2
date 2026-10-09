@@ -1,0 +1,9 @@
+source,recon_input,semantic_input,E,D,E_intersect_D,A,A_outside_E
+c04,original,original,209,614,116,116,0
+c04,original,jpeg70,181,614,96,96,0
+c04,jpeg70,original,209,1,1,1,0
+c04,jpeg70,jpeg70,181,1,0,0,0
+c02,original,original,389,843,317,317,0
+c02,original,jpeg70,380,843,312,312,0
+c02,jpeg70,original,389,797,297,297,0
+c02,jpeg70,jpeg70,380,797,297,297,0

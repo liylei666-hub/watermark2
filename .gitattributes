@@ -18,3 +18,4 @@ reports/sd15_clip_smoke/** -text -whitespace
 *.sh text eol=lf
 reports/mechanical_development/** -text -whitespace
 reports/calibration_engineering/** -text -whitespace
+reports/focused_stability/** -text -whitespace

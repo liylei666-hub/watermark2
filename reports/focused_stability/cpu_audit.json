@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "manual_cross_swaps_audited": 8,
+  "max_manual_patch_l2_delta": 1.7763568394002505e-15,
+  "source_hashes_verified": 6,
+  "pixel_identity_verified": true,
+  "manual_criterion_controls_passed": true,
+  "control_selection_rule_verified": true,
+  "cpu_frozen_timestamp_semantics": "started_utc is written after CPU calculations; a seal time, not a pre-score freeze time",
+  "cpu_gpu_inversions_triggered_field_semantics": "false records this CPU runner did not execute GPU; later GPU stage has separate trigger evidence",
+  "scope": "manual NumPy patch norm audit independent of CSI patch_l2 implementation; no encoder/model rerun"
+}

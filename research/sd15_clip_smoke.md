@@ -8,7 +8,7 @@
 
 使用服务器已有SD1.5 snapshot `451f4fe16113bff5a5d2269ed5ad43b0592e9a14`。缓存模型卡标明CreativeML OpenRAIL M，见[模型卡](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)及[许可证](https://huggingface.co/spaces/CompVis/stable-diffusion-license)。保留SD安全检查器。使用OpenAI CLIP ViT-B/32图像特征，512维、L2归一化，代码[MIT许可](https://github.com/openai/CLIP/blob/main/LICENSE)；权重SHA-256 `40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af`与官方下载注册表一致。水印核心及DDIM反演来自固定[CSI源码](https://github.com/ZhengGao-30/CSI-Attack/tree/8723e362835a6a61efd11b61f677b3321face3fa)，Apache-2.0，源码清单、LICENSE和NOTICE保留。缓存权重、CLIP源码的实际哈希见[冻结记录](../reports/sd15_clip_smoke/frozen.json)。本次新增权重下载0字节，付费调用0。
 
-原生流程：固定提示词/种子生成草图 → CLIP草图特征 → CSI `SealCore.noise_from_embedding`构造带密钥噪声 → SD生成水印图 → 从待检图提取CLIP特征并重建参考噪声 → 空提示词、CFG1.0 DDIM反演待检图 → 分块L2 → 匹配计数。生成/反演均50步、512×512，生成CFG7.5；k=1024、b=7、patch容差2.0。没有caption、签名、载荷或实例凭证阶段，也没有策略判定/篡改定位输出；不虚构这些检查。它是独立的SD1.5/CLIP替代配置，不能称为原SEAL复现或漏洞证明。
+原生流程：固定提示词/种子生成草图 → CLIP草图特征 → CSI `SealCore.noise_from_embedding`构造带密钥噪声 → SD生成水印图 → 从待检图提取CLIP特征并重建参考噪声 → 空提示词单分支 DDIM反演待检图（invert_guidance=1.0 字段未参与计算） → 分块L2 → 匹配计数。生成/反演均50步、512×512，生成CFG7.5；k=1024、b=7、patch容差2.0。没有caption、签名、载荷或实例凭证阶段，也没有策略判定/篡改定位输出；不虚构这些检查。它是独立的SD1.5/CLIP替代配置，不能称为原SEAL复现或漏洞证明。
 
 匹配计数越高表示更多patch满足L2≤2.0；最终计数≥10标记`fallback_accepted`。10为固定但**未经校准**的回退阈值，不是FPR/正常接受率保证。查询图像自身派生参考噪声；原图注册latent不提供给原生验证器。`registration_reference_matches`只作可访问原注册latent的oracle诊断，不用于接受决策。测试密钥seed=42是公开开发参数；本次编辑者使用公开同模型及原图反演噪声，无查询预算攻击或私有模型黑盒安全主张。原生方案无实例数据库凭证，所以另一张合法水印图不能直接标作应拒绝的实例冒用。
 
@@ -38,3 +38,7 @@
 ## 后续门槛
 
 先用新开发源图验证明确区域的机械改色与同区域处理控制，评分前审核事实改变，并同样施加JPEG/缩放。它只能检查流程完整性；自然关键事实攻击、独立校准、相同正常接受率比较、跨防御复现和自适应完整验证仍未完成。本次不存在新方法、攻击成功、安全性、鲁棒性或新颖性结论。
+
+## 2026-10-09 反演参数澄清
+
+固定 CSI invert 在赋值后未使用 guidance 参数；实际采用空提示词、每步一次 UNet 调用的单分支反演。早期配置中的 invert_guidance=1.0 是未参与计算的字段，不能将其改动报告为 CFG 消融；生成 guidance=7.5 生效。静态核查及六次原生反演的 300 次实际调用记录见[聚焦诊断](focused_stability.md)。原冻结配置、分数和数组未改动。

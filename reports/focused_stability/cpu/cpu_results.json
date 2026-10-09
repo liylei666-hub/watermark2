@@ -1,0 +1,217 @@
+{
+  "status": "passed",
+  "controls": {
+    "identical_latents_all_1024_match": true,
+    "inclusive_threshold_boundary_2_and_above": true,
+    "single_pixel_maps_to_first_patch": true,
+    "NCHW_manual_patch_axis_mapping": true,
+    "c04_pixel_identical_lossless_roundtrip": true,
+    "c02_pixel_identical_lossless_roundtrip": true
+  },
+  "source_binding_controls": true,
+  "shape_scaling_controls": true,
+  "rows": [
+    {
+      "source": "c04",
+      "recon_input": "original",
+      "semantic_input": "original",
+      "E": 209,
+      "D": 614,
+      "E_intersect_D": 116,
+      "A": 116,
+      "A_outside_E": 0,
+      "fallback10_accepted": true,
+      "native_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "3a2de2c361860306b9bd2358f3b54fc9014782f9a4197c1e8e9b409eeac62863"
+      },
+      "oracle_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "088c49fc8f1d7a384329702714f4d60be5e0707bcb525c6cafba7236ce3a4c6f"
+      }
+    },
+    {
+      "source": "c04",
+      "recon_input": "original",
+      "semantic_input": "jpeg70",
+      "E": 181,
+      "D": 614,
+      "E_intersect_D": 96,
+      "A": 96,
+      "A_outside_E": 0,
+      "fallback10_accepted": true,
+      "native_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "942ebb6c42b2b0dc35d67f9fcd742ffae7c40b3ee8e604f2d444b7f3991670c7"
+      },
+      "oracle_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "088c49fc8f1d7a384329702714f4d60be5e0707bcb525c6cafba7236ce3a4c6f"
+      }
+    },
+    {
+      "source": "c04",
+      "recon_input": "jpeg70",
+      "semantic_input": "original",
+      "E": 209,
+      "D": 1,
+      "E_intersect_D": 1,
+      "A": 1,
+      "A_outside_E": 0,
+      "fallback10_accepted": false,
+      "native_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "ddfc86c56ec25564567ef5d83974358e65b399bc93cad693dd74535532eb535a"
+      },
+      "oracle_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "b5a7cd987a9a68726cbb06a4656ad92678192a220655d53f926287e018e9280d"
+      }
+    },
+    {
+      "source": "c04",
+      "recon_input": "jpeg70",
+      "semantic_input": "jpeg70",
+      "E": 181,
+      "D": 1,
+      "E_intersect_D": 0,
+      "A": 0,
+      "A_outside_E": 0,
+      "fallback10_accepted": false,
+      "native_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "48a22d63e287138d6bcc8025d9b0ac55e2252cfe0c2a99145d7055f2c2b5bff5"
+      },
+      "oracle_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "b5a7cd987a9a68726cbb06a4656ad92678192a220655d53f926287e018e9280d"
+      }
+    },
+    {
+      "source": "c02",
+      "recon_input": "original",
+      "semantic_input": "original",
+      "E": 389,
+      "D": 843,
+      "E_intersect_D": 317,
+      "A": 317,
+      "A_outside_E": 0,
+      "fallback10_accepted": true,
+      "native_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "4df7c078ad6f3bcf188d13c4e25edd31c9d91c32db2c129ea3c01c742792d102"
+      },
+      "oracle_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "64028b3ee17f50fc5df9f7cd0196b4720aee3416b74ce4a7c93b0ce945bca950"
+      }
+    },
+    {
+      "source": "c02",
+      "recon_input": "original",
+      "semantic_input": "jpeg70",
+      "E": 380,
+      "D": 843,
+      "E_intersect_D": 312,
+      "A": 312,
+      "A_outside_E": 0,
+      "fallback10_accepted": true,
+      "native_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "6f433c78c74ebb8b137e97295dbb791102ef6042e4f689cb8780cf5ea9ef8584"
+      },
+      "oracle_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "64028b3ee17f50fc5df9f7cd0196b4720aee3416b74ce4a7c93b0ce945bca950"
+      }
+    },
+    {
+      "source": "c02",
+      "recon_input": "jpeg70",
+      "semantic_input": "original",
+      "E": 389,
+      "D": 797,
+      "E_intersect_D": 297,
+      "A": 297,
+      "A_outside_E": 0,
+      "fallback10_accepted": true,
+      "native_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "4fc4074d515ec504761e970399bd3381c0ace2597e633272d7efce57b59da244"
+      },
+      "oracle_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "ab708030ed287d33d2b5c556b288ddbdfffa79316bc40572e8c5606ab909453b"
+      }
+    },
+    {
+      "source": "c02",
+      "recon_input": "jpeg70",
+      "semantic_input": "jpeg70",
+      "E": 380,
+      "D": 797,
+      "E_intersect_D": 297,
+      "A": 297,
+      "A_outside_E": 0,
+      "fallback10_accepted": true,
+      "native_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "e611839178f09126ef074761dd2fe7efaddb55cb78cce02deabb654ddbc17a4d"
+      },
+      "oracle_l2_binding": {
+        "shape": [
+          1024
+        ],
+        "dtype": "float64",
+        "sha256_c_order_bytes": "ab708030ed287d33d2b5c556b288ddbdfffa79316bc40572e8c5606ab909453b"
+      }
+    }
+  ],
+  "gpu_inversions_triggered": false,
+  "scope": "cal-only stored-array engineering control; no independent semantic encoder validation or test tuning"
+}
