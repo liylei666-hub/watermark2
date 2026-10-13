@@ -1,0 +1,36 @@
+{
+  "as_of_utc": "2026-10-13",
+  "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
+  "completed_stages": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+  ],
+  "current_stage_status": "stopped_after_stage05",
+  "new_experiment_authorized_by_archive": false,
+  "formal_model_runs_by_stage": {
+    "01": 0,
+    "02": 1,
+    "03": 0,
+    "04": 1,
+    "05": 8
+  },
+  "historical_seed1_stage02_stage04_images_equal": true,
+  "data_role": "development_pilot",
+  "latest_report": "reports/05_reprompt_seed_pilot_20261013T041832Z/05_report.md",
+  "latest_status": "reports/05_reprompt_seed_pilot_20261013T041832Z/05_status.json",
+  "latest_protocol": "runs/05_reprompt_seed_pilot_20261013T041832Z/pilot_protocol.json",
+  "geometry_threshold": null,
+  "geometry_accepted": null,
+  "full_official_geometry_evaluation_completed": false,
+  "attack_evaluator_permission_isolation_implemented": false,
+  "unresolved": [
+    "full official geometry implementation",
+    "reference retrieval/reconstruction protocol",
+    "geometry decision/calibration protocol",
+    "official-function numerical equivalence",
+    "recording/no-recording full numerical equivalence"
+  ]
+}

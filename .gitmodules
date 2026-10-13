@@ -1,0 +1,6 @@
+[submodule "third_party/semantic-forgery"]
+	path = third_party/semantic-forgery
+	url = https://github.com/and-mill/semantic-forgery.git
+[submodule "third_party/geodistort-wm"]
+	path = third_party/geodistort-wm
+	url = https://github.com/chengyi-chris/geodistort-wm.git

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "published_files_checked": 497,
+  "remote_source_files_checked": 422,
+  "prompt_sources_checked": 6,
+  "recorded_real_runs_checked": 9,
+  "real_target_tensors_checked": 27,
+  "stage05_runs_checked": 8,
+  "max_abs_cosine_readback_error": 5.551115123125783e-16,
+  "gpu_used": false,
+  "models_loaded": false,
+  "new_model_experiments_run": 0,
+  "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference"
+}

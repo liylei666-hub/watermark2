@@ -1,4 +1,0 @@
-Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:02,  2.46it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:01<00:03,  1.62it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:01<00:01,  2.55it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:01<00:00,  4.07it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  3.68it/s]
-{"source": "c04", "variant": {"id": "jpeg70_444", "quality": 70, "subsampling": 0}, "match_count": 0, "oracle_matches": 0, "E": 181}
-{"source": "c04", "variant": {"id": "jpeg95_420", "quality": 95, "subsampling": 2}, "match_count": 3, "oracle_matches": 29, "E": 204}
-Bounded phase complete

@@ -1,4 +1,0 @@
-Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:00,  6.57it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:02,  1.87it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:01<00:00,  4.14it/s]Loading pipeline components...:  71%|███████▏  | 5/7 [00:01<00:00,  2.78it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:01<00:00,  3.04it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  3.55it/s]
-{"source": "c04", "bypass_executed": true, "match_count": 204, "oracle_matches": 1015}
-{"source": "c02", "bypass_executed": true, "match_count": 367, "oracle_matches": 974}
-Bounded phase complete

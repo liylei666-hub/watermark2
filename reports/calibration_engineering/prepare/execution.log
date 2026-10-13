@@ -1,14 +1,0 @@
-Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00, 11.64it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00,  4.18it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:01<00:00,  3.26it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  3.30it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  3.63it/s]
-{"prepared_source": "c01", "split": "calibration", "generated": 2}
-{"prepared_source": "c02", "split": "calibration", "generated": 4}
-{"prepared_source": "c03", "split": "calibration", "generated": 6}
-{"prepared_source": "c04", "split": "calibration", "generated": 8}
-{"prepared_source": "c05", "split": "calibration", "generated": 10}
-{"prepared_source": "c06", "split": "calibration", "generated": 12}
-{"prepared_source": "t01", "split": "test", "generated": 14}
-{"prepared_source": "t02", "split": "test", "generated": 16}
-{"prepared_source": "t03", "split": "test", "generated": 18}
-{"prepared_source": "t04", "split": "test", "generated": 20}
-{"prepared_source": "t05", "split": "test", "generated": 22}
-{"prepared_source": "t06", "split": "test", "generated": 24}
-Completed frozen engineering phase

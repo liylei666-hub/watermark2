@@ -1,3 +1,0 @@
-Initial Python run: exit_status.json recorded exit_code 0.
-SSH wrapper returned nonzero after completion with: bash: line 11: exit: 0\r: numeric argument required
-Cause: PowerShell here-string stdin used CRLF. Future launchers are saved LF shell files. No model rerun performed to repair wrapper status.

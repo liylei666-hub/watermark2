@@ -1,9 +1,0 @@
-{
-  "status": "passed",
-  "source_groups": 18,
-  "score_rows": 162,
-  "checked_metric_cells": 40,
-  "followup_checked_cells": 12,
-  "local_image_hashes_checked": 270,
-  "scope": "persisted-score recalculation and source split; no authenticity security claim"
-}

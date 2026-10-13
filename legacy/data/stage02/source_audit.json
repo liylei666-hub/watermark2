@@ -1,7 +1,0 @@
-{
-  "exclusions": {
-    "30727835": "landscape painting, not a natural photograph"
-  },
-  "replacement_rule": "next licensed photograph in frozen Commons query rank",
-  "query": "artifacts/commons_query.json"
-}

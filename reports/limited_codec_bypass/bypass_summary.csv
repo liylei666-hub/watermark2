@@ -1,3 +1,0 @@
-source,native_before,native_bypass,oracle_before,oracle_bypass,E_fixed,E_intersect_D_bypass,A_outside_E_bypass,initial_roundtrip_rmse,recon_rmse_from_registered_before,recon_rmse_from_registered_bypass,recon_pair_rmse
-c04,116,204,614,1015,209,204,0,0.2147159377887462,0.5298865103043916,0.26293624765171253,0.42674797626334715
-c02,317,367,843,974,389,367,0,0.15061455338877927,0.39000109230435315,0.25397034773989013,0.2825206401546945

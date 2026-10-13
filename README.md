@@ -1,58 +1,62 @@
-# watermark2 — 允许编辑策略下的实例真实性
+# 扩散模型语义水印：黑盒伪造攻击研究记录
 
-以 Müller 等 CVPR 2025 **Black-Box Forgery Attacks on Semantic Watermarks for Diffusion Models** 为起点，研究生成图像在经过明确允许的编辑后，完整验证流程能否区分合法派生图与改变关键事实的冒认图。
+本仓库保存阶段 01–05 的用户提示词、审计、实验代码与真实输出，供研究复核和 GPT 接续阅读。
 
-当前阶段：18源CPU表示诊断及270张派生图已保存；SD1.5/image CLIP替代配置新增4个开发源和12个独立校准/测试源。12源工程批次的90%源组规则只能选出退化阈值0，没有可用工作点，两源聚焦诊断、VAE精度阶梯及限定JPEG/配对latent控制已完成；精度控制无实质改善，JPEG仍拒绝，当前暂停扩大替代配置实验。该配置不是官方SEAL或完整实例认证。目标为 CCF-A 级研究贡献，新颖性仍待验证；CSI等已有工作限定了语义绑定及局部攻击的新颖性边界。
+**给 GPT 的入口：[GPT_CONTEXT.md](GPT_CONTEXT.md)**。想完整阅读全文，可打开 [FULL_RECORD.md](docs/FULL_RECORD.md)；希望查某个值的来源，使用 [证据导航](docs/ARTIFACT_GUIDE.md)。
 
-## 阅读顺序
+## 当前完成
 
-1. [问题、威胁模型与可证伪假设](research/problem.md)
-2. [来源可追溯文献矩阵](research/literature.md)
-3. [最小验证实验与停止条件](research/experiment_plan.md)
-4. [旧资产复用、归档与恢复](research/migration.md)
-5. [本轮验证记录及未完成项](research/validation.md)
-6. [新CPU实测结果与限制](research/cpu_pilot_results.md)
-7. [SEAL / SemBind / CSI 官方实现、组件测试与复现阻碍](research/public_reproduction_feasibility.md)
-8. [指定服务器、GPU7与缓存核查](research/server_execution_preflight.md)
-9. [SD1.5 + CLIP真实开发试运行及失败改色](research/sd15_clip_smoke.md)
-10. [新源机械改色开发控制](research/mechanical_development.md)
-11. [12源校准/测试工程批次及退化工作点](research/calibration_engineering.md)
-12. [两源JPEG失稳定位、六次原生反演及VAE精度控制](research/focused_stability.md)
-13. [限定JPEG编码与真实生成latent的oracle roundtrip控制](research/limited_codec_bypass.md)
-14. [执行计数勘误、PID/日志/产物时间线](research/execution_erratum.md)
-15. [官方SEAL语义/穷举路径、缓存阻碍及最小验收门槛](research/official_seal_baseline_route.md)
-16. [纯CPU论文契约判定 adapter](research/official_seal_baseline_route.md#paper-contract-decision-adapter-cpu-only)
+| 阶段 | 内容 | 报告 |
+|---|---|---|
+| 01 | 环境与官方基线审计 | [环境](reports/01_environment.md) / [源码审计](reports/01_baseline_audit.md) |
+| 02 | 官方 GS Reprompting 单样本 | [02_smoke_report.md](reports/02_smoke_report.md) |
+| 03 | 几何论文、实现与信息边界核查 | [03_audit.md](reports/03_geometry_audit_20261013T020025Z/03_audit.md) |
+| 04 | 单样本真实潜变量与全局余弦 | [04_report.md](reports/04_latent_diag_20261013T025322Z/04_report.md) |
+| 05 | 固定提示词八种子开发诊断 | [05_report.md](reports/05_reprompt_seed_pilot_20261013T041832Z/05_report.md) |
 
-公开实现核查已完成：固定三个上游版本，执行离线组件测试并核对权重体量。已完成独立SD1.5/CLIP替代配置的真实开发验证；3次提示词改色均无效，阈值未校准。官方语义论文规则已明确为strict未归一化patch L2<2.3/count≥12（k1024,b7）；已补paper-contract adapter与持久化单元测试，尚未接入官方模型距离。端到端仍缺官方模型快照、许可范围和原SD2.1身份，执行预算为零；Figure6的0.896是SpatialTest平均ROC-AUC。SLICE 已纳入直接先行工作，分因子绑定和局部判决不能作为本项目的新颖性依据。
+## 最新观察
 
-机器可读协议：[configs/pilot.json](configs/pilot.json)；来源索引：[research/references.json](research/references.json)。
+阶段 05 预定 8 次、启动 8 次、正常完成 8 次、有效张量配对 8 次。参考图 GS 通过 8/8；参考有效配对中的攻击图 GS 通过 8/8；攻击图 cosine 均低于对应参考图。模型为固定版本的 SDXL 目标与 SD2.1 代理，GPU 3 串行执行。
 
-## 轻量检查
+| seed | 参考 BA | 攻击 BA | 参考 cosine | 攻击 cosine | gap |
+|---:|---:|---:|---:|---:|---:|
+| 2 | 1.0 | 0.96875 | 0.840706 | 0.376110 | 0.464596 |
+| 3 | 1.0 | 0.9296875 | 0.792123 | 0.295976 | 0.496147 |
+| 4 | 1.0 | 0.9375 | 0.847505 | 0.277498 | 0.570007 |
+| 5 | 1.0 | 0.9765625 | 0.824055 | 0.346531 | 0.477524 |
+| 6 | 1.0 | 0.98828125 | 0.845081 | 0.402588 | 0.442493 |
+| 7 | 1.0 | 0.98046875 | 0.861945 | 0.411248 | 0.450697 |
+| 8 | 1.0 | 0.94140625 | 0.739250 | 0.312665 | 0.426586 |
+| 9 | 1.0 | 0.96484375 | 0.760097 | 0.360854 | 0.399243 |
 
-Python 3.10+，以下检查仅需标准库，不下载数据或调用 GPU：
+这是 development_pilot：一个固定提示词对、共用基础水印设置。cosine 是独立 CPU 诊断；完整官方几何检测仍未完成，几何阈值与接受结果为 null。阶段 02/04 的 seed=1 没有并入这八个样本。详细统计、分母和限制见 [summary.json](reports/05_reprompt_seed_pilot_20261013T041832Z/summary.json)。
+
+## 原始产物
+
+[runs/](runs/05_reprompt_seed_pilot_20261013T041832Z/../) 保存真实 PNG、原始 CSV、float32 NPY、配置、命令、退出状态、stdout/stderr、GPU 监控和绑定清单。图片示例来自阶段 05 seed=2，其他七个种子全部保留：
+
+| 参考图 | 攻击图 |
+|---|---|
+| ![seed 2 reference](runs/05_reprompt_seed_pilot_20261013T041832Z/seed_2/evaluator_only/official_output/target_prompt_index=custom/attacker_prompt_index=custom/attack_instance_step=-1.png) | ![seed 2 forged](runs/05_reprompt_seed_pilot_20261013T041832Z/seed_2/evaluator_only/official_output/target_prompt_index=custom/attacker_prompt_index=custom/attack_instance_step=1.png) |
+
+## 目录
+
+- [prompts/](prompts/README.md)：五份阶段原始要求、设备修订和来源哈希。
+- [conversation/](conversation/transcript.md)：本会话用户指令及阶段交付记录。
+- [docs/](docs/PROJECT_STATE.md)：项目状态、实验谱系、完整阅读档案和证据导航。
+- [reports/](reports/) 与 [runs/](runs/)：报告与原始证据，包含执行前停止记录。
+- [scripts/](scripts/)：实际运行、记录和诊断代码；[archive/local_work/](archive/local_work/)：本机准备与中转工具。
+- [third_party/](THIRD_PARTY.md)：两个上游的固定 Git submodule 引用。
+- [provenance/](provenance/PUBLICATION.md)：来源、公开副本处理和 SHA256 完整性清单。
+
+## 只读核验
+
+Python 3.10+，仅标准库；不安装依赖、不初始化子模块、不联网、不加载模型：
 
 ```bash
-python scripts/check_repository.py
-python scripts/audit_legacy_scores.py
-python scripts/audit_cpu_pilot.py
-python -m unittest discover -s tests -v
+CUDA_VISIBLE_DEVICES="" python tools/verify_archive.py
 ```
 
-历史 CPU 单元测试另需 NumPy、Pillow：
+PowerShell：`$env:CUDA_VISIBLE_DEVICES=''; python tools/verify_archive.py`。
 
-```bash
-cd legacy
-# PowerShell: $env:CUDA_VISIBLE_DEVICES=''
-# Linux/macOS: export CUDA_VISIBLE_DEVICES=''
-python -m unittest discover -s tests -v
-```
-
-`legacy/` 保存原有代码、数据清单、轻量结果、报告和配置，运行历史工具时以该目录为工作目录。历史 GPU 入口含特定服务器路径及设备绑定，不能直接视为本课题实验入口。完整图片、特征和权重没有复制或下载。
-
-新实验入口为 `scripts/cpu_pilot.py`（prepare → 打分前视觉审核 → score）及 `scripts/cpu_followup.py`。需要既有许可源图目录、通过SHA校验的SSCD权重、NumPy/Pillow/PyTorch；无自动下载。以 `--asset-root` 指定原项目目录，prepare另需 `--font` 指定Arial字体。固定配置见 `configs/cpu_pilot.json`，已有完成结果不会被prepare覆盖。用于重跑时应使用独立工作副本/新运行目录，保留当前证据。原始PNG与特征在本机 `runs/cpu_pilot/`，轻量记录在 `reports/cpu_pilot/`。
-
-## 已有证据的用途
-
-[旧同提示词诊断](legacy/research/03_same_prompt_diagnostic.md)记录了全局表示对自然重生成实例的低错误接受，以及 JPEG 造成的较高误拒；局部 DINO 未显示优势。这些是旧工作中有限分布上的表示诊断，未包含真实关键事实编辑、载荷恢复、签名或自适应攻击。本轮只重算已保存分数并检查归档一致性。
-
-远端恢复分支：[`backup/pre-restart-20261007`](https://github.com/liylei666-hub/watermark2/tree/backup/pre-restart-20261007)，旧主分支提交为 `1eeea4c95e555bfabc242b90aad35ca813557443`。Git 历史持续保留。
+核验检查文件清单、来源哈希、原始 CSV、张量/图片/配置绑定和已存余弦。历史 GPU 脚本包含服务器绝对路径，不能当作跨机器一键入口。环境、缓存和模型权重不在 Git；准确版本与下载/校验清单完整保留。后续实验需要新的用户指令与预算。

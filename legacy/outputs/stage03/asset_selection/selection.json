@@ -1,8 +1,0 @@
-{
-  "selected": "stable-diffusion-v1-5/stable-diffusion-v1-5",
-  "revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
-  "reason": "SDXL official HTTPS unavailable directly on server; local resumed UNet transfer about 70 KB/s (~2 GB remaining). Complete SD1.5 cache matches pinned public mirror LFS identities.",
-  "generated_before_selection": 0,
-  "parameters": "1024x1024,30 steps,CFG5 retained",
-  "limitation": "SD1.5 fine-tuned at 512x512; 1024 output may have repeated or malformed content; inspect fixed grids without sample filtering"
-}
