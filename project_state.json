@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-13",
+  "as_of_utc": "2026-10-15T18:29:41.155828+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -8,7 +8,7 @@
     "04",
     "05"
   ],
-  "current_stage_status": "stopped_after_stage05",
+  "current_stage_status": "research_review_complete_experiments_paused",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -19,9 +19,9 @@
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/05_reprompt_seed_pilot_20261013T041832Z/05_report.md",
-  "latest_status": "reports/05_reprompt_seed_pilot_20261013T041832Z/05_status.json",
-  "latest_protocol": "runs/05_reprompt_seed_pilot_20261013T041832Z/pilot_protocol.json",
+  "latest_report": "reports/research_review.md",
+  "latest_status": "project_state.json",
+  "latest_protocol": "docs/prompt_control_protocol.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -32,5 +32,44 @@
     "geometry decision/calibration protocol",
     "official-function numerical equivalence",
     "recording/no-recording full numerical equivalence"
-  ]
+  ],
+  "as_of_local_date": "2026-10-16",
+  "as_of_timezone": "Asia/Shanghai",
+  "research_plan": "docs/RESEARCH_PLAN.md",
+  "literature": "docs/LITERATURE.md",
+  "latest_completed_analysis": "reports/06_cpu_diagnostics/report.md",
+  "experiments_paused": true,
+  "experiment_resume_requires_user_instruction": true,
+  "current_round_gpu_seconds_used": 0,
+  "current_round_model_processes_started": 0,
+  "allowed_gpu_physical_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "excluded_gpu_physical_indices": [
+    6
+  ],
+  "selected_gpu_uuid": null,
+  "authorization": {
+    "total_gpu_process_seconds": 7200,
+    "max_process_seconds": 1200,
+    "max_new_bytes": 10737418240,
+    "new_model_downloads": false,
+    "serial": true
+  },
+  "research_feasibility": "conditional",
+  "top_tier_contribution_demonstrated": false,
+  "novel_attack_method": null,
+  "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
+  "next_action": "Static evaluation-contract and attack-information audit; no experiments",
+  "remote_execution_rules": {
+    "path": "/data0/liyanlei/watermark_research/AGENTS.md",
+    "sha256": "506cf5690f369078119770dd73b8a43a0175f0f8b72668e98e5d8ab7a314e0b1",
+    "experiments_paused": true
+  }
 }
