@@ -1,0 +1,426 @@
+{
+  "checked_at_utc": "2026-10-15T19:04:25.534309+00:00",
+  "local_date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "audit_type": "static_source_and_existing_record_review",
+  "gpu_used": false,
+  "models_loaded": false,
+  "new_experiments_run": 0,
+  "model_weights_downloaded": false,
+  "papers": [
+    {
+      "id": "cvpr",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Muller_Black-Box_Forgery_Attacks_on_Semantic_Watermarks_for_Diffusion_Models_CVPR_2025_paper.pdf",
+      "version": "publisher PDF retrieved on audit date",
+      "bytes": 7415900,
+      "sha256": "441dad5264bfe832a1d1c176b32de14334082b2a21c743ceb4384c8fdddae7cf"
+    },
+    {
+      "id": "cvpr_supp",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Muller_Black-Box_Forgery_Attacks_CVPR_2025_supplemental.pdf",
+      "version": "publisher PDF retrieved on audit date",
+      "bytes": 17520390,
+      "sha256": "8f8dd33850c19745c536ecf3c3961a446621465d06634305d34338c58485c2d1"
+    },
+    {
+      "id": "geometry",
+      "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/lee26bm/lee26bm.pdf",
+      "version": "publisher PDF retrieved on audit date",
+      "bytes": 13093220,
+      "sha256": "95d7a3a8188e02a11c238a21ecd7db718547484aebad7441c363b2f73dad12c8"
+    },
+    {
+      "id": "sembind",
+      "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26hj/zhang26hj.pdf",
+      "version": "publisher PDF retrieved on audit date",
+      "bytes": 16366869,
+      "sha256": "c170cfdcc8be99b041f87b128b96912b532bd6c4d3d3bd658b042b9d09f3362e"
+    }
+  ],
+  "repositories": [
+    {
+      "repository": "https://github.com/and-mill/semantic-forgery",
+      "commit": "ca68950cd7b53b8438a49580f134b2a0db28d778",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/and-mill/semantic-forgery/blob/ca68950cd7b53b8438a49580f134b2a0db28d778/README.md",
+          "bytes": 12618,
+          "sha256": "2d1c7d8b28430c2f2fab6f75aab9e39e1cae9265fd1a090db1feaf8fe43c0f98"
+        },
+        {
+          "path": "run_imprint_forgery.py",
+          "url": "https://github.com/and-mill/semantic-forgery/blob/ca68950cd7b53b8438a49580f134b2a0db28d778/run_imprint_forgery.py",
+          "bytes": 11539,
+          "sha256": "c87bd05c8ed4d1e6d2e43a8d0c4819b380c678ed0a2bbd44a97379abddbbf841"
+        },
+        {
+          "path": "run_reprompting.py",
+          "url": "https://github.com/and-mill/semantic-forgery/blob/ca68950cd7b53b8438a49580f134b2a0db28d778/run_reprompting.py",
+          "bytes": 10023,
+          "sha256": "e4b2989041f3bdb35e269295dbebdbf331a067d5ca542b0addb970abf8ea0ffc"
+        },
+        {
+          "path": "utils/image_utils.py",
+          "url": "https://github.com/and-mill/semantic-forgery/blob/ca68950cd7b53b8438a49580f134b2a0db28d778/utils/image_utils.py",
+          "bytes": 19335,
+          "sha256": "8739231e61b177bc3608ce9defd87fd12f72b11a396482d517d4fc8727a85aec"
+        },
+        {
+          "path": "utils/imprint_utils.py",
+          "url": "https://github.com/and-mill/semantic-forgery/blob/ca68950cd7b53b8438a49580f134b2a0db28d778/utils/imprint_utils.py",
+          "bytes": 16212,
+          "sha256": "fb9d841fc90d58a4e0177506dfafd7af1901b05cd93a2bf513afaa1b80118608"
+        },
+        {
+          "path": "utils/utils.py",
+          "url": "https://github.com/and-mill/semantic-forgery/blob/ca68950cd7b53b8438a49580f134b2a0db28d778/utils/utils.py",
+          "bytes": 5229,
+          "sha256": "8d979b9658f5d1f5cfaf2b9f46258e452608bdd4768b4c5344e4fc02bd713fd4"
+        },
+        {
+          "path": "utils/wm/gs_provider.py",
+          "url": "https://github.com/and-mill/semantic-forgery/blob/ca68950cd7b53b8438a49580f134b2a0db28d778/utils/wm/gs_provider.py",
+          "bytes": 19292,
+          "sha256": "4cc443159dd4138a593093f64bfc608600f0ede89a63e2a7597a3ad3986339a6"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/chengyi-chris/geodistort-wm",
+      "commit": "72880c9bb1cee0b04bcb2433deb2ab2cc95ff622",
+      "files": [
+        {
+          "path": "run_reprompting.py",
+          "url": "https://github.com/chengyi-chris/geodistort-wm/blob/72880c9bb1cee0b04bcb2433deb2ab2cc95ff622/run_reprompting.py",
+          "bytes": 21323,
+          "sha256": "bc8ef4e46c96e7a91e54a8062840929d305861f35e6d211da5a1878d8b843496"
+        },
+        {
+          "path": "run_watermark.py",
+          "url": "https://github.com/chengyi-chris/geodistort-wm/blob/72880c9bb1cee0b04bcb2433deb2ab2cc95ff622/run_watermark.py",
+          "bytes": 15036,
+          "sha256": "d97589fd72e026fa21d629008718edc1494c5803a53634fcc09a9ea45d3f02d3"
+        },
+        {
+          "path": "utils/imprint_utils.py",
+          "url": "https://github.com/chengyi-chris/geodistort-wm/blob/72880c9bb1cee0b04bcb2433deb2ab2cc95ff622/utils/imprint_utils.py",
+          "bytes": 25235,
+          "sha256": "7df1c701c4519c7c8bcf31bb93570176aba3efd16ecf947659d79bc38eb6203b"
+        },
+        {
+          "path": "utils/utils.py",
+          "url": "https://github.com/chengyi-chris/geodistort-wm/blob/72880c9bb1cee0b04bcb2433deb2ab2cc95ff622/utils/utils.py",
+          "bytes": 7675,
+          "sha256": "4cc4f92af7f742a17ac5e3929afadbc1a1efb698671728031c3310661d34ecc1"
+        }
+      ],
+      "license": null,
+      "license_status": "no_license_text_found",
+      "missing_modules": [
+        "utils/pipe/pipe_utils.py",
+        "utils/finger_utils.py",
+        "utils/spd_utils.py"
+      ]
+    },
+    {
+      "repository": "https://github.com/XinZhang1999/SemBind",
+      "commit": "337c9f90a150157ac1d410208ae20e6530ca8cdd",
+      "files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/LICENSE",
+          "bytes": 1066,
+          "sha256": "172e0d49eacb1ca22f634bdd08e7cab64230a0c49685b2d39e7887d5557ad782"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/README.md",
+          "bytes": 5104,
+          "sha256": "7c7e4d029202a661dd57839be15c011785c722cced23951ff6bc4677f746e26e"
+        },
+        {
+          "path": "image_utils.py",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/image_utils.py",
+          "bytes": 9709,
+          "sha256": "240710dda5d07b2003b62480dd9a56b631bad1c55a91ad3f5fa70dba3d25cbfd"
+        },
+        {
+          "path": "inversion.py",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/inversion.py",
+          "bytes": 4514,
+          "sha256": "dcf0dd6e9b5af1e64c24fe5c3c16473be54f1936c44da096f85b0437bf2fb14b"
+        },
+        {
+          "path": "model.py",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/model.py",
+          "bytes": 9427,
+          "sha256": "ee22217258acd3c86899ce616cc5d7dbb6d14948208145a1daa7ace0c1943da3"
+        },
+        {
+          "path": "semantimark.ipynb",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/semantimark.ipynb",
+          "bytes": 5384,
+          "sha256": "8405be9d943c6a02f0bc169a0f26cfc1b5e3990ceb966c99572735fe244828e5"
+        },
+        {
+          "path": "src/inverse_stable_diffusion.py",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/inverse_stable_diffusion.py",
+          "bytes": 23934,
+          "sha256": "64027a1a974bb018d8569fa670802996e6ed0a87ba94f9151f574dd33326ef17"
+        },
+        {
+          "path": "src/modified_stable_diffusion.py",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/modified_stable_diffusion.py",
+          "bytes": 11700,
+          "sha256": "fc4ac3795d51821c0a7a10fb57c28ecb414cc47e4af5629e6bfdaaccdc709ba2"
+        },
+        {
+          "path": "src/optim_utils.py",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/optim_utils.py",
+          "bytes": 891,
+          "sha256": "d96765a945a6d26514799bc6d8da0afc74f63a3482ff02e4ebd9391eb0dde344"
+        },
+        {
+          "path": "src/prc.py",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/prc.py",
+          "bytes": 7945,
+          "sha256": "6e3743687fe01ce148fd44998c82e785b9b408548f22820c5f0defbcf3e67a5f"
+        },
+        {
+          "path": "src/pseudogaussians.py",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/pseudogaussians.py",
+          "bytes": 1112,
+          "sha256": "6cc92bd53afe9004a2d878c7db406454c04a36d4724db41410821dac7ad872f8"
+        },
+        {
+          "path": "src/train_new.py",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/src/train_new.py",
+          "bytes": 3468,
+          "sha256": "4e79c5f68f668e8a93fa4a32eb79d5c20f997782d22e2b32c294f4487738df92"
+        },
+        {
+          "path": "utils.py",
+          "url": "https://github.com/XinZhang1999/SemBind/blob/337c9f90a150157ac1d410208ae20e6530ca8cdd/utils.py",
+          "bytes": 1013,
+          "sha256": "6cabc4354d7950dbf66554e5bc8d61557180b4d4ff5a992523b04a1331fd0a37"
+        }
+      ],
+      "license": "MIT",
+      "tree": [
+        {
+          "path": ".gitignore",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ead36017bec57f8422af689851fbda313de0b73d",
+          "size": 286,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/ead36017bec57f8422af689851fbda313de0b73d"
+        },
+        {
+          "path": "LICENSE",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d4620ed3f048d9df1c3e67e0ddd862f3e585ad5f",
+          "size": 1066,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/d4620ed3f048d9df1c3e67e0ddd862f3e585ad5f"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d306d13bb03af070b3b2f4b687cb34c8ba666392",
+          "size": 5104,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/d306d13bb03af070b3b2f4b687cb34c8ba666392"
+        },
+        {
+          "path": "environment.yml",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fa250f3aed2c73051184463f061b386ab3f52b8a",
+          "size": 10095,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/fa250f3aed2c73051184463f061b386ab3f52b8a"
+        },
+        {
+          "path": "image_utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b6011f7911665f632a6ea837703f8947dc27be58",
+          "size": 9709,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/b6011f7911665f632a6ea837703f8947dc27be58"
+        },
+        {
+          "path": "inversion.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bfed3e54ca365c46c78bb081157feae784b63163",
+          "size": 4514,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/bfed3e54ca365c46c78bb081157feae784b63163"
+        },
+        {
+          "path": "model.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f7b73486acc1a679ad58c747a483d8a5500532f4",
+          "size": 9427,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/f7b73486acc1a679ad58c747a483d8a5500532f4"
+        },
+        {
+          "path": "semantimark.ipynb",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c14703cc1940cff2c13f5c639e7e00d947010038",
+          "size": 5384,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/c14703cc1940cff2c13f5c639e7e00d947010038"
+        },
+        {
+          "path": "semantimark_demo.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ca2f1f2ba5d38a4e7a41e9d0591e3ef26e25ca5c",
+          "size": 19624338,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/ca2f1f2ba5d38a4e7a41e9d0591e3ef26e25ca5c"
+        },
+        {
+          "path": "src",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "1737542101c66c1f3368ddd58428f315c02e2753",
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/trees/1737542101c66c1f3368ddd58428f315c02e2753"
+        },
+        {
+          "path": "src/inverse_stable_diffusion.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "89484b9dc613ea4e5b9b4cacb72d2f13e0f1018a",
+          "size": 23934,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/89484b9dc613ea4e5b9b4cacb72d2f13e0f1018a"
+        },
+        {
+          "path": "src/modified_stable_diffusion.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4b91a3004903ab6b8bf390a263e6ca2a7e5855d4",
+          "size": 11700,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/4b91a3004903ab6b8bf390a263e6ca2a7e5855d4"
+        },
+        {
+          "path": "src/optim_utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "53cabe85ad065c4900dfad56b8d33f1e72b8f557",
+          "size": 891,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/53cabe85ad065c4900dfad56b8d33f1e72b8f557"
+        },
+        {
+          "path": "src/prc.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6084654944cc2768b40d84876bd7378fa6e18d73",
+          "size": 7945,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/6084654944cc2768b40d84876bd7378fa6e18d73"
+        },
+        {
+          "path": "src/pseudogaussians.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0779faa7c25b3e512d3f3cfa2fd6cb53632fbcb0",
+          "size": 1112,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/0779faa7c25b3e512d3f3cfa2fd6cb53632fbcb0"
+        },
+        {
+          "path": "src/train_new.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "068dc49727cf403e43c32311dbd2f1b540f579c3",
+          "size": 3468,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/068dc49727cf403e43c32311dbd2f1b540f579c3"
+        },
+        {
+          "path": "utils.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4046e5da4e631ef877aaabd94e244eabe8309022",
+          "size": 1013,
+          "url": "https://api.github.com/repos/XinZhang1999/SemBind/git/blobs/4046e5da4e631ef877aaabd94e244eabe8309022"
+        }
+      ],
+      "weight_link_present": true,
+      "checkpoint_downloaded": false
+    },
+    {
+      "repository": "https://github.com/anubhav1997/watermark_forgery_removal",
+      "commit": "04433962437cbf08ad701b7b43124de07df0b666",
+      "files": [
+        {
+          "path": "Gaussian-Shading/forgery.py",
+          "url": "https://github.com/anubhav1997/watermark_forgery_removal/blob/04433962437cbf08ad701b7b43124de07df0b666/Gaussian-Shading/forgery.py",
+          "bytes": 9276,
+          "sha256": "d0e19b45a073a6588ed8708ab511adcba1ccc4d19c4985a3430577622f007d15"
+        },
+        {
+          "path": "Gaussian-Shading/my_utils.py",
+          "url": "https://github.com/anubhav1997/watermark_forgery_removal/blob/04433962437cbf08ad701b7b43124de07df0b666/Gaussian-Shading/my_utils.py",
+          "bytes": 11787,
+          "sha256": "454c9d02f66f67bacf938381bfe69122f6b87489a74bd59f0520bbd94c06127d"
+        },
+        {
+          "path": "Gaussian-Shading/watermark.py",
+          "url": "https://github.com/anubhav1997/watermark_forgery_removal/blob/04433962437cbf08ad701b7b43124de07df0b666/Gaussian-Shading/watermark.py",
+          "bytes": 6894,
+          "sha256": "52a832a89b2725cf0c2da5b7b7a6077094793fce521c5cb91bdce23f63aabf05"
+        },
+        {
+          "path": "evaluation/eval_gs.py",
+          "url": "https://github.com/anubhav1997/watermark_forgery_removal/blob/04433962437cbf08ad701b7b43124de07df0b666/evaluation/eval_gs.py",
+          "bytes": 4147,
+          "sha256": "4d632aeca6c9e1b16f2d9664a167a32b91adeb4b0ccc0717c36b665fda557bbb"
+        }
+      ]
+    }
+  ],
+  "implementation_status": {
+    "original_gs": "fixed_rule_available",
+    "geometry": "incomplete_public_implementation",
+    "sembind_gs_s": "masker_demo_available_full_binding_verifier_not_found"
+  },
+  "geometry_reference": {
+    "paper": "original_target_watermarked_latent",
+    "experimental_source": "wm_zT held by generation script",
+    "deployment_retrieval": null,
+    "exact_reconstruction_protocol": null
+  },
+  "decision_rules": {
+    "original_gs": "bit_accuracy > 0.70703125",
+    "geometry_threshold": null,
+    "geometry_fusion": null,
+    "geometry_final_acceptance": null,
+    "sembind_gs_s_threshold": null,
+    "sembind_secret_permutation_protocol": null
+  },
+  "threat_model": {
+    "reference_images": 1,
+    "primary_candidates_per_task": 1,
+    "target_score_feedback_for_selection": false,
+    "target_internal_latents_allowed": false,
+    "target_keys_messages_allowed": false,
+    "target_masker_allowed": false,
+    "permission_isolation_implemented": false
+  },
+  "verified_findings": [
+    "SemBind ICML final E.1 Table 17 includes end-to-end surrogate-masker GS-S trials",
+    "Jain GS core optimizer uses proxy VAE and pixel MSE, not target detector calls",
+    "Jain GS forgery.py counts returned bit accuracy with <=0.05 in its ASR accumulator; this is not a paper-wide invalidation",
+    "Muller fixed Imprint code has periodic target logging but no score-dependent early-stop branch",
+    "Geometry final paper still leaves deployable reference retrieval and complete decision unresolved"
+  ],
+  "next_step": "Obtain and freeze an official single-sample evaluation package resolving reference provenance, exact geometric functions and final decision; keep experiments paused.",
+  "advisor_document": {
+    "path": "docs/advisor_briefing.docx",
+    "bytes": 670252,
+    "sha256": "0d2a944bca94ba374fa3541831110a4836920823aac953e57d56b61026985c4d",
+    "pages": 10,
+    "visual_qa": "All ten pages inspected; final text correction page 2 rerendered and inspected",
+    "renderer": "render_docx.py with Microsoft Word PDF conversion fallback; bundled LibreOffice unavailable on Windows",
+    "wechat_file_transfer_assistant": "sent; completed file card observed; same final document bytes"
+  }
+}

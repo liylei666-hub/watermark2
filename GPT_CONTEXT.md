@@ -2,13 +2,13 @@
 
 更新：2026-10-16（Asia/Shanghai）。用户委托完成完整论文研究，并要求有用、核验过的进展提交 GitHub；当前明确暂停新实验，进行可行性、创新性与最新文献审查。
 
-先读 [研究审查](reports/research_review.md)、[当前计划](docs/RESEARCH_PLAN.md)、[文献矩阵](docs/LITERATURE.md) 和 [project_state.json](project_state.json)。不要从历史阶段提示词推断执行授权。
+先读 [评估契约](docs/EVALUATION_CONTRACT.md)、[研究审查](reports/research_review.md)、[当前计划](docs/RESEARCH_PLAN.md)、[文献矩阵](docs/LITERATURE.md) 和 [project_state.json](project_state.json)。导师讨论材料见 [Word](docs/advisor_briefing.docx) / [正文](docs/advisor_briefing.md)。不要从历史阶段提示词推断执行授权。
 
 ## 当前结论
 
-- 研究方向有价值，但尚没有确定的新方法、完整几何绕过或顶会级证据。下一步是文档/静态工作：闭合评估对象、参考关联、判定规则及威胁模型，并核查与 Jain/CSI 等方法的差异。
+- 研究方向有价值，但尚没有确定的新方法、完整几何绕过或顶会级证据。静态契约已形成：几何参考获取/完整规则仍缺失，SemBind 公开演示尚不是完整 GS-S。下一步取得并冻结官方单样本评估材料，缺项由老师决定目标选择；实验继续暂停。
 - 几何论文为 ICML 2026；源码 HEAD 仍为 `72880c9bb1cee0b04bcb2433deb2ab2cc95ff622`，已审计缺项继续存在。作者讨论过 Reforge，不能说没有考虑自适应攻击。
-- SemBind、SEAL、CSI 等必须进入定位；IRIS 当前 arXiv v2 已撤回，只作历史线索。文献覆盖是有边界的定向检索，不是穷尽证明。
+- SemBind 最终 ICML 版 E.1/Table 17 已有端到端代理 masker 测试（五组 Det.=0），不能只描述为组件测试；公开 checkpoint 链接不等于攻击者获准使用目标私有模块。Jain 核心 GS 优化无目标查询，外层 GS 入口存在 BA 被按 p-value 方向统计的问题。CSI 的 CSW 过滤权限仍 unknown。IRIS 当前 arXiv v2 已撤回，只作历史线索。文献覆盖是有边界的定向检索，不是穷尽证明。
 - 阶段 05 固定提示词八种子为开发集：参考 GS 8/8、攻击 GS 8/8，独立 cosine 均值 0.813845/0.347934。独立余弦不是完整几何判定。
 - 已有 10 次历史正式模型进程；阶段 02/04 seed=1 图像相同，不能重复计为独立样本。阶段 04/05 共 27 份真实目标张量。
 - 暂停前完成的 CPU 诊断只做已有张量算术：共享符号模式、符号/幅值分解、参考关联敏感性。见报告；没有新模型运行。

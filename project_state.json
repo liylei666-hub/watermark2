@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-15T18:29:41.155828+00:00",
+  "as_of_utc": "2026-10-15T19:04:25.534309+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -8,7 +8,7 @@
     "04",
     "05"
   ],
-  "current_stage_status": "research_review_complete_experiments_paused",
+  "current_stage_status": "static_contract_audited_missing_official_protocol_experiments_paused",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -19,7 +19,7 @@
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/research_review.md",
+  "latest_report": "docs/EVALUATION_CONTRACT.md",
   "latest_status": "project_state.json",
   "latest_protocol": "docs/prompt_control_protocol.json",
   "geometry_threshold": null,
@@ -66,10 +66,16 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Static evaluation-contract and attack-information audit; no experiments",
+  "next_action": "Obtain and freeze an official single-sample evaluation package resolving reference provenance, exact geometric functions and final decision; keep experiments paused.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "506cf5690f369078119770dd73b8a43a0175f0f8b72668e98e5d8ab7a314e0b1",
     "experiments_paused": true
-  }
+  },
+  "evaluation_contract": "docs/EVALUATION_CONTRACT.md",
+  "contract_evidence": "reports/evaluation_contract_evidence.json",
+  "advisor_briefing": "docs/advisor_briefing.docx",
+  "sembind_final_paper_reviewed": true,
+  "sembind_end_to_end_adaptive_test_reported": true,
+  "sembind_full_public_gs_s_verifier_available": false
 }
