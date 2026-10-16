@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-16T02:09:14.804160+00:00",
-  "published_files_checked": 913,
+  "checked_at_utc": "2026-10-16T02:52:36.225014+00:00",
+  "published_files_checked": 916,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -12,7 +12,7 @@
   "models_loaded": false,
   "new_model_experiments_run": 0,
   "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference",
-  "verified_at_utc": "2026-10-16T02:09:14.804160+00:00",
+  "verified_at_utc": "2026-10-16T02:52:36.225014+00:00",
   "scope": "Read-only archive verification; GPU/model fields below describe verification, not historical experiment execution.",
   "stage07_verification": {
     "completed_model_runs": 6,
@@ -41,5 +41,11 @@
     "analysis_code_sha256": "6f4bb234459d9e3da7fd5618aa5155fae2c688893cc755d058d5a715b5435149"
   },
   "gpu_preflight_unit_tests_passed": 5,
-  "stage09_status": "incomplete: seed103 not started after preflight failure"
+  "stage09_status": "incomplete: seed103 not started after preflight failure",
+  "geometry_closed_form_checks": {
+    "status": "passed",
+    "script": "scripts/check_geometry_proof_examples.py",
+    "result": "reports/geometry_proof_examples.json",
+    "scope": "Synthetic formula arithmetic, not model experiments or official verifier outputs"
+  }
 }

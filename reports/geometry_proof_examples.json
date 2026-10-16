@@ -1,0 +1,75 @@
+{
+  "kind": "synthetic_closed_form_mathematical_checks",
+  "gpu_used": false,
+  "models_loaded": false,
+  "new_model_experiments_run": 0,
+  "official_geometry_implementation_executed": false,
+  "angular_example": {
+    "a": 0.01,
+    "representative_norm": "sqrt(N)",
+    "rows": [
+      {
+        "dimension": 64,
+        "normalized_mse": 0.015725,
+        "orthogonal_energy": 1.0,
+        "angle_radians": 0.12313622610694695
+      },
+      {
+        "dimension": 256,
+        "normalized_mse": 0.00400625,
+        "orthogonal_energy": 1.0,
+        "angle_radians": 0.06180238227314092
+      },
+      {
+        "dimension": 4096,
+        "normalized_mse": 0.000344140625,
+        "orthogonal_energy": 1.0,
+        "angle_radians": 0.015469063037702527
+      },
+      {
+        "dimension": 16384,
+        "normalized_mse": 0.00016103515625,
+        "orthogonal_energy": 1.0,
+        "angle_radians": 0.007734994249240202
+      },
+      {
+        "dimension": 1048576,
+        "normalized_mse": 0.00010095367431640625,
+        "orthogonal_energy": 1.0,
+        "angle_radians": 0.0009668932630457662
+      }
+    ]
+  },
+  "airm_example": {
+    "dimension": 2,
+    "one_sided_scale": 2,
+    "distance": 1.9605162869370942,
+    "simultaneous_congruence_distance": 1.9605162869370942,
+    "conditioning_rows": [
+      {
+        "epsilon": 0.01,
+        "frobenius_difference": 0.01,
+        "airm": 0.6931471805599453
+      },
+      {
+        "epsilon": 0.0001,
+        "frobenius_difference": 0.0001,
+        "airm": 0.6931471805599453
+      },
+      {
+        "epsilon": 1e-06,
+        "frobenius_difference": 1e-06,
+        "airm": 0.6931471805599453
+      }
+    ]
+  },
+  "gaussian_example": {
+    "function": "1+tanh(X1)",
+    "lipschitz_constant": 1,
+    "mean_and_median": 1,
+    "threshold": 0.5,
+    "probability_above_threshold": 0.708602314284082,
+    "depends_on_ambient_dimension": false
+  },
+  "scope": "Checks illustrative formulas; does not implement a watermark verifier or attack."
+}

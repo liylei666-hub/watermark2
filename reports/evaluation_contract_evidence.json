@@ -422,5 +422,30 @@
     "visual_qa": "All ten pages inspected; final text correction page 2 rerendered and inspected",
     "renderer": "render_docx.py with Microsoft Word PDF conversion fallback; bundled LibreOffice unavailable on Windows",
     "wechat_file_transfer_assistant": "sent; completed file card observed; same final document bytes"
+  },
+  "geometry_proof_review": {
+    "checked_at_utc": "2026-10-16T02:52:01.937166+00:00",
+    "paper_sha256": "95d7a3a8188e02a11c238a21ecd7db718547484aebad7441c363b2f73dad12c8",
+    "locators": [
+      "B.3 / Lemma 4.6",
+      "B.3 / Lemma 4.9",
+      "B.3 / Theorem 4.10"
+    ],
+    "report": "reports/geometry_proof_obligations.md",
+    "closed_form_checks": "reports/geometry_proof_examples.json",
+    "new_model_experiments_run": 0
+  },
+  "geometry_release_check": {
+    "checked_at_utc": "2026-10-16T02:52:01.937166+00:00",
+    "method": "Authenticated gh read of public branches, tags and releases during this heartbeat",
+    "branches": [
+      {
+        "name": "main",
+        "commit": "72880c9bb1cee0b04bcb2433deb2ab2cc95ff622"
+      }
+    ],
+    "tags": [],
+    "releases": [],
+    "scope": "Repository refs/release metadata; no claim of exhaustive external artifact search"
   }
 }

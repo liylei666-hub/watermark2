@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-16T02:08:23.697044+00:00",
+  "as_of_utc": "2026-10-16T02:52:01.937166+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -73,7 +73,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Continue static closure of full defense protocols and novelty audit using verified pipeline controls; preserve stopped stage09 without retry.",
+  "next_action": "Map the official reference-association and complete score/decision protocol to the identified theorem assumptions; retain unknowns where public evidence is insufficient. Recheck remote execution and cumulative budget before any later GPU work; do not retry stage09.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "71cbb1e095fbfd92dc93058af4a6ea13e5e447f8240a9669fe135f8b06a87fdd",
@@ -209,7 +209,8 @@
     "Full geometry reference retrieval, implementation and fixed decision protocol unresolved",
     "SemBind full public GS-S verifier unresolved",
     "SEAL semantic fixed decision/salt protocol and uncached caption/embedding weights",
-    "Stage09 stopped before seed103; failure-time GPU snapshot unavailable"
+    "Stage09 stopped before seed103; failure-time GPU snapshot unavailable",
+    "SSH timed out during 2026-10-16T02:40Z heartbeat; current remote processes and ledger unavailable"
   ],
   "incomplete_stages": [
     "09"
@@ -231,5 +232,32 @@
       6
     ],
     "outbound_messages_sent": 0
+  },
+  "latest_static_audit": "reports/geometry_proof_obligations.md",
+  "geometry_theoretical_rejection_region": {
+    "source": "ICML 2026 final paper, appendix B.3 / Theorem 4.10",
+    "rule": "SAD > tau_s AND LGI > tau_l",
+    "numeric_thresholds": null,
+    "implemented_deployment_rule": null
+  },
+  "geometry_proof_obligations": [
+    "Dimension-uniform relative orthogonal error lower bound under permitted proxy attacks",
+    "Relative covariance spectral gap and normal-reconstruction conditioning",
+    "Actual score Lipschitz/normalization scaling sufficient for dimension-exponential tails"
+  ],
+  "remote_observation": {
+    "heartbeat_at_utc": "2026-10-16T02:40:48.752Z",
+    "ssh_result": "connection_timeout",
+    "current_processes": null,
+    "current_gpu_occupancy": null,
+    "budget_reverified_from_server": false,
+    "budget_values_status": "last_archived_execution_records",
+    "gpu_processes_started_this_heartbeat": 0,
+    "local_archive_budget_check": {
+      "execution_files": 11,
+      "summed_wall_time_seconds": 757.62238442339,
+      "matches_recorded_budget": true,
+      "scope": "Archived local execution files; current server state unknown"
+    }
   }
 }

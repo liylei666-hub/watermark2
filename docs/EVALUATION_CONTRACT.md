@@ -59,10 +59,13 @@
 | 原 WM 判定 | GS 严格 BA>0.70703125，源码可确定 |
 | 几何得分可执行函数 | 缺失；论文公式不能自动补成作者实现 |
 | 部署阈值及严格/非严格比较 | unknown |
-| G-Cos 与 L-SPD 的 AND/OR/融合函数 | unknown |
+| 理论拒绝区域 | B.3/Theorem 4.10：SAD>τs AND LGI>τl；阈值为低于各自伪造期望的正数 |
+| 部署中 G-Cos 与 L-SPD 的融合函数 | unknown；理论区域与代码实际分数、阈值尚未对应 |
 | 校准样本、划分、阈值选择目标 | unknown |
 | 几何检查与 WM 的完整最终接受逻辑 | 论文给出顺序；可执行布尔规则 unknown |
 | 校准后在未见测试集上的误拒/伪造接受 | 本项目尚无结果 |
+
+附录 B.3 的 [定理适用条件核查](../reports/geometry_proof_obligations.md)进一步区分了正交误差增长率、相对谱偏差和集中界维度尺度。闭式例子只检查推理条件，没有构造受限攻击或替代验证器。
 
 可以用形式化占位说明所缺：`Accept(x)=F(WM(x), Geometry(Invert_target(x), RetrieveReference(x)))`，其中 `F`、`RetrieveReference` 和完整 `Geometry` 尚未确定。这不是建议实现一个新规则。
 

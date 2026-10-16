@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 5148,
-      "sha256": "adb91115a009b3ff419db72569c10dcdd0ff95e30479860f051cb0315fc3fb9a"
+      "bytes": 5528,
+      "sha256": "77268707e57fbcd57cdf5393d1c3c48724f25c3f5601a4d3144edd782c0690c0"
     },
     {
       "path": "README.md",
@@ -273,8 +273,8 @@
     },
     {
       "path": "docs/EVALUATION_CONTRACT.md",
-      "bytes": 21017,
-      "sha256": "971ba563cbdbf08fd094cc116f65028ffff7c699b1e9b5861edfc9bf62cfedc3"
+      "bytes": 21435,
+      "sha256": "01cc8a6895d505c82929c54e7ac7e897e1c0b468219cd6effe76b5aa09972ef1"
     },
     {
       "path": "docs/FULL_RECORD.md",
@@ -293,8 +293,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 5578,
-      "sha256": "273ac623a4e8b7b8632a4144ec5ba62dd8ab324aba7c35db939fd8b2ec99eeff"
+      "bytes": 5948,
+      "sha256": "8edad55aa75b5ac17f62571aeaf63753517e36d38fe1cad5929ad10291563206"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -318,8 +318,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 7594,
-      "sha256": "8dc11fa71cf84b3f8af8c8b65af646c8346e9fcef913c75a7f1f17eef160da50"
+      "bytes": 9009,
+      "sha256": "91841b02d3085b470ddbbb8419a05eb6548acd064f907fba4861beb120a3f261"
     },
     {
       "path": "prompts/README.md",
@@ -678,13 +678,23 @@
     },
     {
       "path": "reports/evaluation_contract_evidence.json",
-      "bytes": 18731,
-      "sha256": "8509a4c87fd7b7d37692ceffddb8a916d6e72cf13fcf5abc17b6e73ab1328ba1"
+      "bytes": 19620,
+      "sha256": "678180bfbb1e073a5fa0055215af277b2f4c4206087e6d3b4d99cf4dcfb5d502"
+    },
+    {
+      "path": "reports/geometry_proof_examples.json",
+      "bytes": 2000,
+      "sha256": "79fd5c9bb3420bc9d6436f98c28965a0c47229c7e4081558c7195a688f4c477d"
+    },
+    {
+      "path": "reports/geometry_proof_obligations.md",
+      "bytes": 6165,
+      "sha256": "c891354e135187c4a7ec5bfd24c20aa7257a90b12034e65e18d98a5dca4e619f"
     },
     {
       "path": "reports/research_review.md",
-      "bytes": 11813,
-      "sha256": "74f5040c9759ad4170aadb67d3995223a6f8996c37b1f948a5bbeaa37b52cef4"
+      "bytes": 12218,
+      "sha256": "e4f0ad1b569401791c482336acd387aa6a1088dbe0ed7a0e987d766c9bf984b9"
     },
     {
       "path": "reports/seal_source_evidence.json",
@@ -4447,6 +4457,11 @@
       "sha256": "6f4bb234459d9e3da7fd5618aa5155fae2c688893cc755d058d5a715b5435149"
     },
     {
+      "path": "scripts/check_geometry_proof_examples.py",
+      "bytes": 3196,
+      "sha256": "a79c55b9103906a814b3d15f5e5edd7cfafda7d1b05d4797879bfdd09f935b22"
+    },
+    {
       "path": "scripts/cpu_latent_audit.py",
       "bytes": 7635,
       "sha256": "df21d7b67b40fd585cd88fc0f96f9b8ab31b6a58a5e053a9e965ee4b96d51787"
@@ -4567,14 +4582,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 21655113,
+  "total_bytes": 25775811,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-16T02:09:14.245963+00:00",
+  "updated_at_utc": "2026-10-16T02:53:23.001422+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "bbfab9d88dbba73cb0165f0d1956b6be1b9a5975"
+  "previous_publication_commit": "010c11a73bac1e79bc67b0dfac57f9ba0c16e592"
 }
