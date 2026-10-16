@@ -100,6 +100,16 @@ CSI 论文 v1 §2.1 Eq. 2 明示 `CSW_Noise(x0)`，§2.2 Eq. 8–9 对噪声语�
 
 所以待研究区别是：限定参考图和代理计算，固定候选预算，解释并检验方法是否能提升真实语义目标与完整防御接受的联合结果。当前尚无新的算法，不能仅据零查询标签、损失拼接或保留主体宣布新颖性。
 
+### 5.1 单图 VAE 基线的精确数值约定
+
+Jain 的 GS 核心参数名容易混淆：`clean_img` 是希望保留的新内容载体，`generated_image` 是已带水印的参考。固定 commit `04433962437cbf08ad701b7b43124de07df0b666` 的 [`my_utils.py:261–299`](https://github.com/anubhav1997/watermark_forgery_removal/blob/04433962437cbf08ad701b7b43124de07df0b666/Gaussian-Shading/my_utils.py#L261-L299) 将两者的 `posterior.mode()` **除以** VAE scaling factor，最小化该表示的 MSE 加到原载体的像素 MSE；梯度更新后只裁剪到 [-1,1]，不是围绕载体的显式 L∞ 半径投影。`delta>0` 时额外加入低频损失；默认 delta=0。核心固定迭代，不读取目标检测分数。
+
+这与我们的 VAE-only 重建不同：阶段 09 没有优化载体，也没有把新内容映射到参考表示，只对参考本身编解码并测量目标反演。不能把阶段 09 叫作 Jain 攻击复现。
+
+设 VAE 均值为 μ、scaling factor 为 s，Jain 表示为 μ/s，而当前官方 baseline 编码为 z=sμ（commit `ca68950cd7b53b8438a49580f134b2a0db28d778`，[`pipe_provider.py:154–162`](https://github.com/and-mill/semantic-forgery/blob/ca68950cd7b53b8438a49580f134b2a0db28d778/utils/pipe/pipe_provider.py#L154-L162)）。本项目的代数检查得到 `MSE(μ₁/s, μ₂/s)=s⁻⁴ MSE(z₁,z₂)`。因此直接改为乘 s 而沿用 λ 和梯度步长会改变数值优化；若以统一正倍数归一化损失，像素系数应对应 λs⁴，普通梯度下降步长也需相应换算。这是单位约定核查，不认定原实现错误，不自动修改或调参。
+
+[`forgery.py:75–100`](https://github.com/anubhav1997/watermark_forgery_removal/blob/04433962437cbf08ad701b7b43124de07df0b666/Gaussian-Shading/forgery.py#L75-L100) 的入口默认 λ=2、alpha=5/255、n_iters=15000，不能拿 helper 的默认 iters=10 当作论文预算。入口 `vae_optimization` 默认 SD1.4，且主模块加载模型和远端提示词；本轮未执行。未来公平比较需要明确载体来源、代理权限、精确损失单位、迭代/时间预算及离线目标判定，不能直接继承它错误方向的 GS ASR 汇总。
+
 ## 6 主威胁模型与交付接口
 
 攻击输入为一张已知有效水印参考 PNG、预定内容要求、代理模型/公开算法、预定随机种子和预算。参考的原生成提示词不默认提供；输出提示词是攻击者任务输入。目标公开名称可以作为明确注明的已知信息，但目标实例调用、目标 VAE/UNet 权重使用权限与它分开；若使用完全相同目标模型作代理，应列为单独更强设置，不能混进 mismatch 主结果。

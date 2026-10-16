@@ -43,3 +43,9 @@ SEAL 的水印由语义嵌入决定生成噪声。阶段 02–09 的普通 GS �
 SEAL 是具有实质代码的可考察对象，不是仅有 README 的空仓库。但采用它做主评估会改变水印生成机制，并引入额外语义模型、固定工作点和公开/秘密随机状态的协议需求。当前完整几何与 SemBind GS-S 的缺项仍应分别保留；不能用 SEAL 的穷举通过率宣称绕过语义防伪造，也不能用现有 GS 诊断冒充 SEAL 结果。
 
 可核查的下一项材料需求是：完整语义路径的固定 τ/m_match 及其校准来源、secret salt 的实际实现、模型精确快照、一个正常样本从 caption 到最终标签的官方测试向量。当前只有静态材料审查，没有已发送的作者联系或新的实验结果。
+
+## 公开问题跟踪的补充核查
+
+2026-10-16 读取官方仓库公开 issues 及相关评论，没有发送消息。[Issue #4](https://github.com/Kasraarabi/SEAL/issues/4) 同样询问未接入的检测阈值，所读评论尚未提供维护者的完整验证入口。[Issue #1](https://github.com/Kasraarabi/SEAL/issues/1#issuecomment-2826397737) 虽已关闭，但“距离阈值设为 3、按 Lemma 3.2 定匹配阈值”的回复来自 `author_association=NONE` 的参与者，不能认作作者确认的固定协议。[Issue #5](https://github.com/Kasraarabi/SEAL/issues/5) 是第三方复现疑问，不能作为本项目实测或论文错误证据；[Issue #6](https://github.com/Kasraarabi/SEAL/issues/6) 的许可证询问仍开放。
+
+维护者在 [Issue #2 的回复](https://github.com/Kasraarabi/SEAL/issues/2#issuecomment-2893240256) 明确解释：Cat Attack 表中的 TR/GS 为 0 表示未识别篡改/伪造，而非原水印已被移除或 bit accuracy=0。后续表格应分别报告篡改识别与原 WM 通过，不能沿用含糊的“检测率”。这些公开讨论补充解释，但仍未闭合语义路径的固定工作点。

@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 4784,
-      "sha256": "0c6c3ae6d31a18339419026df5c2b303a3ff080036df6c48d99eb0083e2059b6"
+      "bytes": 5148,
+      "sha256": "adb91115a009b3ff419db72569c10dcdd0ff95e30479860f051cb0315fc3fb9a"
     },
     {
       "path": "README.md",
@@ -273,8 +273,8 @@
     },
     {
       "path": "docs/EVALUATION_CONTRACT.md",
-      "bytes": 18832,
-      "sha256": "d7b5d487f035f016946c0fe1f42e5f093521b1252da8f62106145b7e1c063dc3"
+      "bytes": 21017,
+      "sha256": "971ba563cbdbf08fd094cc116f65028ffff7c699b1e9b5861edfc9bf62cfedc3"
     },
     {
       "path": "docs/FULL_RECORD.md",
@@ -293,13 +293,13 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 5406,
-      "sha256": "0bafd22b6ceb33e7b80950008d36160afb45cb8d9373b7625a118bfcead89d66"
+      "bytes": 5578,
+      "sha256": "273ac623a4e8b7b8632a4144ec5ba62dd8ab324aba7c35db939fd8b2ec99eeff"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
-      "bytes": 6819,
-      "sha256": "93417419c75fde2d56e4e0ea855439ca34997b3b040846b329ad14f273cba7ea"
+      "bytes": 7978,
+      "sha256": "e678acf4d3945e5f15f8d8e612ecb8848860699fb4c65ef3e00b8f4d7751b862"
     },
     {
       "path": "docs/advisor_briefing.docx",
@@ -318,8 +318,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 7105,
-      "sha256": "287d0d84de930bec63687dab1594220229c223a0f677a806c9ae3744acf8ab3b"
+      "bytes": 7594,
+      "sha256": "8dc11fa71cf84b3f8af8c8b65af646c8346e9fcef913c75a7f1f17eef160da50"
     },
     {
       "path": "prompts/README.md",
@@ -683,13 +683,13 @@
     },
     {
       "path": "reports/research_review.md",
-      "bytes": 10284,
-      "sha256": "4c090cc32fe91ecc786521eab5753d5d6ec42b1c55575e747716f68f4775bb86"
+      "bytes": 11813,
+      "sha256": "74f5040c9759ad4170aadb67d3995223a6f8996c37b1f948a5bbeaa37b52cef4"
     },
     {
       "path": "reports/seal_source_evidence.json",
-      "bytes": 4944,
-      "sha256": "e80d08fe832ff85957e7a1216ee8078b148b80a696517ac4031eeea3beac3d4c"
+      "bytes": 5352,
+      "sha256": "f95f924cab18b293c895bf400e741483c1f9ecadb59ce664010962510e916f3e"
     },
     {
       "path": "runs/02_reprompt_gs_sdxl_seed1_20261012T172610Z/config.json",
@@ -4574,7 +4574,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-16T02:03:25.593258+00:00",
+  "updated_at_utc": "2026-10-16T02:09:14.245963+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "838ec94a374e7c8d15bee3984b1610c8036bcd07"
+  "previous_publication_commit": "bbfab9d88dbba73cb0165f0d1956b6be1b9a5975"
 }

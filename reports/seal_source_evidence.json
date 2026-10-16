@@ -107,5 +107,19 @@
   "checked_at_utc": "2026-10-16T01:54:18.880457+00:00",
   "license": "未发现许可证正文",
   "paper_version": "arXiv:2503.12172v1",
-  "scope": "17 selected source files; no upstream entry executed; no model downloads"
+  "scope": "17 selected source files; no upstream entry executed; no model downloads",
+  "public_issue_review": {
+    "checked_at_utc": "2026-10-16T02:08:23.693663+00:00",
+    "issues": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "owner_clarification_url": "https://github.com/Kasraarabi/SEAL/issues/2#issuecomment-2893240256",
+    "closed_threshold_thread_comment_author_association": "NONE",
+    "official_semantic_threshold_confirmed": null,
+    "outbound_messages_sent": 0
+  }
 }

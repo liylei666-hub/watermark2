@@ -19,6 +19,8 @@
 - [VAE 对照](reports/09_vae_roundtrip/report.md)：仅 seeds101/102 完成，目标/代理 VAE 后余弦 0.754408/0.510815，图像仍保留原茶壶布局。seed103 预检失败、未启动；缺失不补齐。
 - [SEAL 契约](docs/SEAL_EVALUATION_CONTRACT.md)：语义绑定数组、穷举布尔检测和百分位 TPR 路径不同；缺 BLIP2/embedding 权重与完整语义工作点，不能直接复用 GS 图为 SEAL 正样本。
 
+- 新颖性复核：几何会议版 §5.3–5.4/C.1 已有重建基线与后处理分析；Jain 已有单图 VAE 表示匹配。因此当前对照属于复现与归因基础。Jain 核心使用 mode/scaling_factor，入口默认 15000 步，与 helper 默认不同；未执行优化。SEAL issue 中阈值建议来自非维护者，仍不能作官方工作点。
+
 ## 执行与维护
 
 本轮用户授权物理 GPU [0,1,2] 中确认空闲的一张，当前选择 GPU 0；UUID 绑定、单卡串行，首轮累计 GPU 进程墙钟 7200 秒、每进程 1200 秒、新增文件 10 GiB，无新增模型下载。首轮累计 757.622 GPU 进程秒，11 次模型进程，剩余 6442.378 秒；以 project_state 和各组原始 execution 为准；预算不因阶段切换重置。阶段 09 seed103 未启动，原组不自动重跑。

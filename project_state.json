@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-16T02:03:25.127497+00:00",
+  "as_of_utc": "2026-10-16T02:08:23.697044+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -213,5 +213,23 @@
   ],
   "incomplete_stages": [
     "09"
-  ]
+  ],
+  "novelty_audit": {
+    "geometry_intrinsic_and_postprocessing_errors_previously_discussed": true,
+    "proxy_vae_matching_prior_art_exists": true,
+    "current_diagnostics_constitute_new_attack": false,
+    "jain_representation_and_entry_budget_checked": true
+  },
+  "public_issue_review": {
+    "geometry_issues_returned": 0,
+    "sembind_issues_returned": 0,
+    "seal_related_issues_reviewed": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "outbound_messages_sent": 0
+  }
 }
