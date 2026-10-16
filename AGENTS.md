@@ -27,4 +27,6 @@ The device set for this resumed round is physical GPUs 0,1,2 when idle. Select o
 
 Only local authorized models/data are experimental targets. Network activity is limited to public academic/official-source reads, authorized GitHub publication, and authenticated access to the designated server. No network scanning, third-party production attacks, access-control bypass, disabled SSH/TLS verification, or credential logging.
 
-Current first-round usage: 6 completed model processes, 526.9251838342752 GPU-process seconds used, 6673.074816165725 seconds remaining. See reports/07_prompt_control/summary.json. Do not repeat the completed group or reset the budget.
+Current first-round usage: 11 completed model processes, 757.62238442339 GPU-process seconds used, 6442.37761557661 seconds remaining. See reports/09_vae_roundtrip/summary.json. Stage08 completed; stage09 stopped before seed103 at the device preflight and is incomplete. Preserve it without retry and do not reset the budget.
+
+The user explicitly authorized continuous autonomous research within the established scope. Continue useful analysis, protocol work and publication without routine step-by-step approval requests. Target-internal roundtrip controls are evaluator-only interventions. The evidence-first idle gate scripts/gpu_preflight.py is available for future launchers; it has not changed the frozen stage07–09 code.

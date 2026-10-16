@@ -37,3 +37,10 @@
 ## 公开材料与未来攻击边界
 
 公开归档保留 evaluator_only 的潜变量、CSV 中的实验消息以及分数，以支持研究复核。这些开发材料已经公开，未来受限攻击必须采用独立输入白名单和新定义的实验边界；整个仓库不能挂载为攻击算法输入。目录名、候选哈希和事后 CPU 进程不等同权限级隔离。
+
+## 当前流程诊断
+
+- [阶段 08 目标往返](../reports/08_target_roundtrip/report.md)：完整三种子，两提示词条件。
+- [阶段 09 VAE 对照](../reports/09_vae_roundtrip/report.md)：预定三种子中两个完成，保留设备预检停止证据。
+- [SEAL 契约](SEAL_EVALUATION_CONTRACT.md)：语义分数、穷举判定、工作点与依赖。
+- `CUDA_VISIBLE_DEVICES="" python tools/verify_roundtrip_controls.py`：CPU 核查新组原始张量、协议、传输哈希与统计（需要已有 Pillow）。

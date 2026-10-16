@@ -2,7 +2,7 @@
 
 研究目标：在明确的攻击信息边界下研究伪造方法与误差来源，形成可复现代码、充分实验和论文初稿。
 
-**当前判断：方向有条件可行，已有结果尚不足以构成顶刊顶会贡献。已完成首轮提示词配对诊断，同时保留完整防御协议的明确缺项。**
+**当前判断：方向有条件可行，已有结果尚不足以构成顶刊顶会贡献。已完成提示词和目标往返对照，并留存未完成的 VAE 组件诊断；完整防御协议仍有明确缺项。**
 
 - [研究审查](reports/research_review.md)：可行性、创新空间、理论问题与继续/停止条件。
 - [导师讨论 Word](docs/advisor_briefing.docx) / [可检索正文](docs/advisor_briefing.md)：原论文、两篇 ICML 2026 防御、结果与研究问题。
@@ -19,6 +19,10 @@
 
 [三种子提示词配对诊断](reports/07_prompt_control/report.md)已完成 6 次运行：同提示词与更换提示词的候选余弦均值分别为 0.290478 与 0.306216，配对差值方向不一致；两组原 GS 各通过 3/3。保持茶壶提示词仍出现低余弦，因此不能把此前差距专门归因于主体类别变化。此结果仍是开发诊断，不能单独定位架构差异。
 
+[目标模型自身往返](reports/08_target_roundtrip/report.md)在六个配对上均高于代理往返，但本身也损失余弦。[VAE 编解码对照](reports/09_vae_roundtrip/report.md)完成两个种子后按设备规则停止；已完成图像保持原茶壶外观，代理 VAE 后余弦仍降至约 0.51。结果支持研究处理流程敏感性，尚不构成完整防御错误接受/拒绝或新攻击贡献。
+
+[SEAL 源码契约](docs/SEAL_EVALUATION_CONTRACT.md)进一步区分语义绑定与穷举判定，列明依赖和工作点缺项。
+
 ## 复核入口
 
 [历史实验谱系](docs/PROJECT_STATE.md)、[证据导航](docs/ARTIFACT_GUIDE.md)、[原始要求](prompts/README.md)。`runs/` 保留原始图像、CSV、张量、配置和运行记录；模型权重和环境不进入 Git。当前入口持续更新，历史说明与决策由 Git 追溯。
@@ -27,6 +31,8 @@ Python 3.10+，标准库，只读核验：
 
 ```bash
 CUDA_VISIBLE_DEVICES="" python tools/verify_archive.py
+# 新往返诊断另需已有 Pillow
+CUDA_VISIBLE_DEVICES="" python tools/verify_roundtrip_controls.py
 CUDA_VISIBLE_DEVICES="" python -m unittest discover -s scripts -p test_cpu_latent_audit.py -v
 ```
 

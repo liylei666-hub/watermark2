@@ -29,7 +29,7 @@
 | [semantic-forgery](https://github.com/and-mill/semantic-forgery) | `ca68950cd7b53b8438a49580f134b2a0db28d778` | 现有归档与源码；历史复现 | 更广模型/提示词/密钥条件 |
 | [geodistort-wm](https://github.com/chengyi-chris/geodistort-wm) | `72880c9bb1cee0b04bcb2433deb2ab2cc95ff622` | 公开 HEAD 与原审计版本相同 | 缺失模块、判定及参考关联；许可证未发现 |
 | [SemBind](https://github.com/XinZhang1999/SemBind) | `337c9f90a150157ac1d410208ae20e6530ca8cdd` | HEAD、完整代码树与 Python/notebook、LICENSE 正文 MIT；官方 checkpoint 链接已存在但未下载 | 缺完整 GS-S 嵌入/解绑/判定入口；exact_inversion 默认 inv_order=1 与论文 0 需显式对齐；DINOv2/checkpoint 未验证 |
-| [SEAL](https://github.com/Kasraarabi/SEAL) | `92d31b31b93a6e373fe88a584c640beafb68c6fa` | HEAD、根目录、README 摘要；存在攻击脚本 | 完整入口、阈值、依赖与许可文本。GitHub license 元数据为 null，不等同已证实无许可证 |
+| [SEAL](https://github.com/Kasraarabi/SEAL) | `92d31b31b93a6e373fe88a584c640beafb68c6fa` | 完整递归目录和 17 个源码/说明文件；语义数组、穷举布尔判定和百分位阈值路径已区分；未发现许可证正文 | 语义固定工作点/salt 协议、精确模型快照、未缓存 BLIP2/embedding；ICCV 最终 PDF 本次 403，论文按 v1 审计 |
 | [Jain 单图方法](https://github.com/anubhav1997/watermark_forgery_removal) | `04433962437cbf08ad701b7b43124de07df0b666` | GS 入口与核心 VAE 优化、返回 BA 的分数语义已核查 | 其余水印分支、论文全部表格对应、运行成本未验证；本轮未跑代码 |
 
 这些检查未安装依赖、下载权重或执行任何上游入口。代码“存在”和代码“可忠实运行”分别记录。
@@ -41,3 +41,5 @@
 没有声称检索无遗漏。尚未完成：全部引用和引用它们的新论文的穷尽追踪、所有预印本与最终会议版逐页比对、其余新基线代码权限审计、各目标的完整可执行评估协议。检索未明确找到更近论文不代表该论文不存在。最晚核实的直接相关新条目为 2026-09 的复现论文；研究决策以当前列出的证据范围为准。
 
 当前关键协议与源码行号详见 [评估契约](EVALUATION_CONTRACT.md)。最终会议版新增覆盖以本次证据为准；论文 PDF 和源码字节哈希见 [来源记录](../reports/evaluation_contract_evidence.json)。
+
+SEAL 逐文件行号、分数及判定关系见 [专门契约](SEAL_EVALUATION_CONTRACT.md)。代码哈希见 [来源清单](../reports/seal_source_evidence.json)。

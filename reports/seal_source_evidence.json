@@ -1,0 +1,111 @@
+{
+  "commit": "92d31b31b93a6e373fe88a584c640beafb68c6fa",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1504,
+      "sha256": "a60bbb96b09080333680799e185b2490aa8543b2d1927981abb4404bc505770e",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/README.md"
+    },
+    {
+      "path": "SEAL.py",
+      "bytes": 5724,
+      "sha256": "d5b8386e1ab9ccd6ea582e55a21bfb55062ee843c792e56a39c4d480ae64efd7",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/SEAL.py"
+    },
+    {
+      "path": "semantic.py",
+      "bytes": 6542,
+      "sha256": "8198a6ffdc6a68852cece64cd6e097b57860daa73d24bd8c5fc266889cf34dd5",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/semantic.py"
+    },
+    {
+      "path": "utils.py",
+      "bytes": 35928,
+      "sha256": "aea4c34597398231819f970eb727d49cee1436d82c688929347ba16cedb2b23b",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/utils.py"
+    },
+    {
+      "path": "setup.sh",
+      "bytes": 355,
+      "sha256": "6a912ab4a9684b8924b45f6a285a1a505f312c75be540e5ae330e4b023e325bf",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/setup.sh"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 2458,
+      "sha256": "4f4ac168e0c90dd5ca74aeef5dc4be74eac5bef9892ffa91f5af80a43da01f53",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/requirements.txt"
+    },
+    {
+      "path": "image_transformations_exhaustive_tpr.py",
+      "bytes": 8695,
+      "sha256": "87f6df30bf4a952007985a49e83b6090a1925238e109e97981434b0f5a3ba84e",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive_tpr.py"
+    },
+    {
+      "path": "image_transformations_exhaustive_roc_auc.py",
+      "bytes": 10452,
+      "sha256": "8134690b1019ebbdd9123115283f0f0c6c534367e0a59f5ec00b1671b9ee3da8",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive_roc_auc.py"
+    },
+    {
+      "path": "inverse_stable_diffusion.py",
+      "bytes": 7233,
+      "sha256": "918eb53fc83b1c8c9ceb1188ef20c0dcc0e46d5138f5e0778a8f88633c1cdd04",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/inverse_stable_diffusion.py"
+    },
+    {
+      "path": "modified_stable_diffusion.py",
+      "bytes": 10919,
+      "sha256": "ee973b11edb3f9fa11285c421167b2e60cb6b0f94d8f57760c9b10b95f7af0fb",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/modified_stable_diffusion.py"
+    },
+    {
+      "path": "cat_attack.py",
+      "bytes": 6676,
+      "sha256": "a496a65c545341d895f33d6590e91983b4e1b4b0457a76831e815662a5286b8b",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/cat_attack.py"
+    },
+    {
+      "path": "cat_attack_patch_search.py",
+      "bytes": 5961,
+      "sha256": "e039cda9d66e035646c1e9b08facd894defb02422a8543bbc6520599b99035c8",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/cat_attack_patch_search.py"
+    },
+    {
+      "path": "regeneration.py",
+      "bytes": 4939,
+      "sha256": "e36033da88072ef5ecf33981544db258bd36792830ddf8372c18f5c338ab03c9",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/regeneration.py"
+    },
+    {
+      "path": "caption_pairs.py",
+      "bytes": 5823,
+      "sha256": "cd385d15e93006d0fd1a3da119fea496aad2e472cbc05e7969dc8b2e141c70e9",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/caption_pairs.py"
+    },
+    {
+      "path": "image_transformations.py",
+      "bytes": 5330,
+      "sha256": "eb141f6481ff1376480ed2d94bcfc6da5ede505a080893be782ac71d668effe0",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations.py"
+    },
+    {
+      "path": "image_transformations_exhaustive.py",
+      "bytes": 8686,
+      "sha256": "e474b57c72bd6866e288c5f97a211a9971704e83fe3319b9dea876f80465b69b",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/image_transformations_exhaustive.py"
+    },
+    {
+      "path": "spatial_test.py",
+      "bytes": 5542,
+      "sha256": "7cf36e4b4626108175728c55dc7df6f028654d50cd66a5dbd22e6c8cd76a31c6",
+      "url": "https://github.com/Kasraarabi/SEAL/blob/92d31b31b93a6e373fe88a584c640beafb68c6fa/spatial_test.py"
+    }
+  ],
+  "checked_at_utc": "2026-10-16T01:54:18.880457+00:00",
+  "license": "未发现许可证正文",
+  "paper_version": "arXiv:2503.12172v1",
+  "scope": "17 selected source files; no upstream entry executed; no model downloads"
+}

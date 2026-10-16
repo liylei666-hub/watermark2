@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-15T19:05:45.166215+00:00",
-  "published_files_checked": 754,
+  "checked_at_utc": "2026-10-16T02:04:06.540173+00:00",
+  "published_files_checked": 913,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -12,7 +12,7 @@
   "models_loaded": false,
   "new_model_experiments_run": 0,
   "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference",
-  "verified_at_utc": "2026-10-16T01:34:58.433411+00:00",
+  "verified_at_utc": "2026-10-16T02:04:06.540173+00:00",
   "scope": "Read-only archive verification; GPU/model fields below describe verification, not historical experiment execution.",
   "stage07_verification": {
     "completed_model_runs": 6,
@@ -23,5 +23,23 @@
     "remote_transfer_files_checked": 233,
     "analysis": "scripts/analyze_prompt_control.py",
     "analysis_code_sha256": "bc5d09f1fd50b2701be1981bbd12f05d3ccf12df6d653cb8d5b80803f3d68987"
-  }
+  },
+  "stage08_verification": {
+    "completed_model_runs": 3,
+    "real_target_tensors_checked": 9,
+    "candidate_count": 6,
+    "remote_transfer_files_checked": 77,
+    "max_abs_cosine_readback_error": 3.3306690738754696e-16,
+    "analysis_code_sha256": "a0b5ebdf257613b4046527ce442f327f51b3bf416e785525a21a6cbc243f4beb"
+  },
+  "stage09_verification": {
+    "completed_model_runs": 2,
+    "real_target_tensors_checked": 6,
+    "candidate_count": 4,
+    "remote_transfer_files_checked": 61,
+    "max_abs_cosine_readback_error": 5.551115123125783e-16,
+    "analysis_code_sha256": "6f4bb234459d9e3da7fd5618aa5155fae2c688893cc755d058d5a715b5435149"
+  },
+  "gpu_preflight_unit_tests_passed": 5,
+  "stage09_status": "incomplete: seed103 not started after preflight failure"
 }

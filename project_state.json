@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-16T01:33:14.669958+00:00",
+  "as_of_utc": "2026-10-16T02:03:25.127497+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -8,9 +8,10 @@
     "04",
     "05",
     "06",
-    "07"
+    "07",
+    "08"
   ],
-  "current_stage_status": "paired_prompt_diagnostic_complete_official_defense_protocol_pending",
+  "current_stage_status": "target_roundtrip_verified_vae_control_partial_static_contract_review_active",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -19,13 +20,15 @@
     "04": 1,
     "05": 8,
     "06": 0,
-    "07": 6
+    "07": 6,
+    "08": 3,
+    "09": 2
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/07_prompt_control/report.md",
+  "latest_report": "reports/09_vae_roundtrip/report.md",
   "latest_status": "project_state.json",
-  "latest_protocol": "runs/07_prompt_control_20261016T011923Z/protocol.json",
+  "latest_protocol": "runs/09_vae_roundtrip_20261016T015236Z/protocol.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -41,11 +44,11 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/07_prompt_control/summary.json",
+  "latest_completed_analysis": "reports/09_vae_roundtrip/summary.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 526.9251838342752,
-  "current_round_model_processes_started": 6,
+  "current_round_gpu_seconds_used": 757.62238442339,
+  "current_round_model_processes_started": 11,
   "allowed_gpu_physical_indices": [
     0,
     1,
@@ -70,10 +73,10 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Freeze a target-model self-roundtrip paired diagnostic to separate shared roundtrip error from proxy substitution; complete-defense claims remain blocked on official protocols.",
+  "next_action": "Continue static closure of full defense protocols and novelty audit using verified pipeline controls; preserve stopped stage09 without retry.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
-    "sha256": "e95e12fe8d6e9773bb481db83a43db2be6fc50e74d31685995e9f343b6b5e465",
+    "sha256": "71cbb1e095fbfd92dc93058af4a6ea13e5e447f8240a9669fe135f8b06a87fdd",
     "experiments_paused": false
   },
   "evaluation_contract": "docs/EVALUATION_CONTRACT.md",
@@ -84,8 +87,8 @@
   "sembind_full_public_gs_s_verifier_available": false,
   "selected_gpu_physical_index": 0,
   "active_run": null,
-  "current_round_gpu_seconds_remaining": 6673.074816165725,
-  "last_completed_run": "runs/07_prompt_control_20261016T011923Z",
+  "current_round_gpu_seconds_remaining": 6442.37761557661,
+  "last_completed_run": "runs/08_target_roundtrip_20261016T014337Z",
   "prompt_control_observation": {
     "paired_seeds": 3,
     "aggregates": {
@@ -148,5 +151,67 @@
       "magnitude_cosine_same_minus_changed": -0.006208391500352313,
       "bit_accuracy_same_minus_changed": 0.009114583333333334
     }
-  }
+  },
+  "last_attempted_run": "runs/09_vae_roundtrip_20261016T015236Z",
+  "autonomous_continuation_authorized": true,
+  "target_roundtrip_observation": {
+    "same_prompt": {
+      "n": 3,
+      "gs_pass_count": 3,
+      "cosine": 0.5400989587088743,
+      "reference_cosine": 0.7901571661868448,
+      "cosine_to_reference_inverse": 0.7635127170209012,
+      "proxy_cosine": 0.2904783013923034,
+      "target_minus_proxy_cosine": 0.24962065731657082,
+      "bit_accuracy": 0.9973958333333334
+    },
+    "changed_prompt": {
+      "n": 3,
+      "gs_pass_count": 3,
+      "cosine": 0.5187260510137105,
+      "reference_cosine": 0.7901571661868448,
+      "cosine_to_reference_inverse": 0.6944975238903663,
+      "proxy_cosine": 0.30621568479281713,
+      "target_minus_proxy_cosine": 0.21251036622089334,
+      "bit_accuracy": 0.9947916666666666
+    }
+  },
+  "vae_roundtrip_observation": {
+    "status": "incomplete_stopped_at_device_preflight",
+    "completed_seeds": [
+      101,
+      102
+    ],
+    "unstarted_seed": 103,
+    "aggregates": {
+      "target_vae": {
+        "n": 2,
+        "gs_pass_count": 2,
+        "cosine": 0.7544080459009495,
+        "reference_cosine": 0.8091460316875646,
+        "cosine_to_reference_inverse": 0.9492422021182337,
+        "psnr_saved_rgb_db": 39.3058152772559,
+        "bit_accuracy": 1.0
+      },
+      "proxy_vae": {
+        "n": 2,
+        "gs_pass_count": 2,
+        "cosine": 0.5108146462629839,
+        "reference_cosine": 0.8091460316875646,
+        "cosine_to_reference_inverse": 0.5647340079262093,
+        "psnr_saved_rgb_db": 35.4316850766587,
+        "bit_accuracy": 0.99609375
+      }
+    }
+  },
+  "seal_evaluation_contract": "docs/SEAL_EVALUATION_CONTRACT.md",
+  "blockers": [
+    "Full geometry reference retrieval, implementation and fixed decision protocol unresolved",
+    "SemBind full public GS-S verifier unresolved",
+    "SEAL semantic fixed decision/salt protocol and uncached caption/embedding weights",
+    "Stage09 stopped before seed103; failure-time GPU snapshot unavailable"
+  ],
+  "incomplete_stages": [
+    "09"
+  ]
 }
