@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-16T02:52:36.225014+00:00",
-  "published_files_checked": 916,
+  "checked_at_utc": "2026-10-16T03:17:40.375538+00:00",
+  "published_files_checked": 918,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -12,7 +12,7 @@
   "models_loaded": false,
   "new_model_experiments_run": 0,
   "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference",
-  "verified_at_utc": "2026-10-16T02:52:36.225014+00:00",
+  "verified_at_utc": "2026-10-16T03:17:40.375538+00:00",
   "scope": "Read-only archive verification; GPU/model fields below describe verification, not historical experiment execution.",
   "stage07_verification": {
     "completed_model_runs": 6,
@@ -47,5 +47,11 @@
     "script": "scripts/check_geometry_proof_examples.py",
     "result": "reports/geometry_proof_examples.json",
     "scope": "Synthetic formula arithmetic, not model experiments or official verifier outputs"
+  },
+  "csi_static_audit": {
+    "files_hash_verified": 28,
+    "pinned_code_links_range_checked": 24,
+    "upstream_code_executed": false,
+    "new_model_experiments_run": 0
   }
 }

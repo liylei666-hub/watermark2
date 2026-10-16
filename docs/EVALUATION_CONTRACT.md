@@ -16,7 +16,7 @@
 | 几何防御 | [ICML 2026 PMLR](https://proceedings.mlr.press/v306/lee26bm.html)，出版社 24 页 PDF；geodistort-wm `72880c9bb1cee0b04bcb2433deb2ab2cc95ff622` | HEAD 与阶段 03 相同；本地源码干净；未发现许可证正文 |
 | SemBind | [ICML 2026 PMLR](https://proceedings.mlr.press/v306/zhang26hj.html)，出版社 24 页 PDF；`337c9f90a150157ac1d410208ae20e6530ca8cdd` | HEAD 固定；枚举所有文件并检索 Python/notebook 符号；逐行查看关键路径；LICENSE 正文为 MIT |
 | Jain LFA | [2504.20111v1](https://arxiv.org/html/2504.20111v1)；watermark_forgery_removal `04433962437cbf08ad701b7b43124de07df0b666` | 固定 HEAD，核查 GS 入口、核心优化与评估；未跑代码 |
-| CSI | [2602.21593v1](https://arxiv.org/html/2602.21593v1)，WWW 2026 | 核查 §2 和 Eq. 1–9；未取得可对应的完整代码权限证据 |
+| CSI | [2602.21593v1](https://arxiv.org/html/2602.21593v1)，WWW 2026 | 核查 §2/3；作者公开库 `8723e362835a6a61efd11b61f677b3321face3fa` 的检测反馈与两种模式已查明，详见 CSI 契约 |
 
 几何最终版与 v1 的参考、指标、AUC 和 C.3–C.4 段落作了针对性核对，没有声称全文逐字一致。SemBind 以最终版为当前依据，预印本附录编号不沿用。仅下载论文和小型源码文本；无模型或数据集下载。GitHub 匿名 API 出现限额，使用已有 gh 认证读取公开仓库，未绕过访问控制。两个已固定上游的内容和 submodule pins 不变。
 
@@ -91,7 +91,7 @@ README 已给 masker 的 Google Drive 下载链接；这应记为“链接公开
 | 原 Reprompt+ | 3 提示词；GS 再 3 次重采样 | 实验按任一通过计成功 | 多候选预算；不能当作零反馈的最佳候选选择器 |
 | 原 Imprint | 优化代理 z0，经代理整段反演匹配参考 | 固定源码周期目标验证；无分数早停 | 固定预算版本可作为边界可控的既有基线；正文早停描述与代码分开 |
 | Jain GS LFA | 直接优化像素，经代理 VAE 编码匹配参考，加像素 MSE | 核心函数无目标查询；外层生成/最终验证共享目标 | 单图 VAE 一致性已存在；需分离外层和核心、冻结其预算 |
-| CSI | LLM 语义候选、噪声复制、多级筛选 | Eq. 9 含 CSW 相关筛选；具体权限仍 unknown | 不能直接声称与零目标分数设置等价；语义保留编辑已存在 |
+| CSI 公开库 | LLM 候选、参考图反演、语义过滤；code/paper 两模式 | 失败检测分数/分区反馈下一轮；可选成功早停 | 有检测反馈；默认同 backend、多候选 any-success，与本项目零反馈单候选不同 |
 
 原 Imprint 源码：commit `ca68950cd7b53b8438a49580f134b2a0db28d778`，[`run_imprint_forgery.py:186–251`](https://github.com/and-mill/semantic-forgery/blob/ca68950cd7b53b8438a49580f134b2a0db28d778/run_imprint_forgery.py#L186-L251)。正文 §3.1 写按目标准确率停止，但这一固定源码没有该活动分支。论文采用 150 步等报告预算；不能一概宣布所有 Imprint 都依赖查询择优，也不能忽略正文描述。
 
@@ -99,7 +99,7 @@ Jain 核心：commit `04433962437cbf08ad701b7b43124de07df0b666`，[`Gaussian-Sha
 
 另有必须处理的静态指标问题：上述外层将 `final_p` 以 `<=0.05` 累计 ASR，但 [`watermark.py:80–92,152–164`](https://github.com/anubhav1997/watermark_forgery_removal/blob/04433962437cbf08ad701b7b43124de07df0b666/Gaussian-Shading/watermark.py#L152-L164) 的 `eval_watermark` 返回位匹配比例 `correct`，内部计数使用 `>= tau`。因此这个 GS 入口打印的 ASR 方向不能直接用于本项目结论。它是确定的源码语义不一致；不据此断言论文所有表格错误，未运行或改写上游。
 
-CSI 论文 v1 §2.1 Eq. 2 明示 `CSW_Noise(x0)`，§2.2 Eq. 8–9 对噪声语义和候选语义差异筛选。这表明筛选机制需要 CSW 相关量；该量是目标内部、可公开重算还是代理估计尚无足够证据。保留 unknown，不能擅自给其贴“目标 oracle”标签或删掉过滤后仍称原方法。
+[CSI 信息契约](CSI_INFORMATION_CONTRACT.md)已固定作者公开库 `8723e362835a6a61efd11b61f677b3321face3fa`：code 模式仅有文本/视觉过滤，随后查询检测器并将失败反馈下一轮；paper 模式增加的 CSW 参考来自生成端保存的草图 caption embedding。SD 后端只复制反演所得 zT，eps_schedule=None。公开库不是原始实验归档，故当前源码权限已确定，原始论文每项实验的精确访问条件仍需原始记录。删去反馈或替换参考会形成另一个明确命名的比较变体，不能冒称原样复现。
 
 所以待研究区别是：限定参考图和代理计算，固定候选预算，解释并检验方法是否能提升真实语义目标与完整防御接受的联合结果。当前尚无新的算法，不能仅据零查询标签、损失拼接或保留主体宣布新颖性。
 

@@ -44,6 +44,10 @@ SEAL 是具有实质代码的可考察对象，不是仅有 README 的空仓库�
 
 可核查的下一项材料需求是：完整语义路径的固定 τ/m_match 及其校准来源、secret salt 的实际实现、模型精确快照、一个正常样本从 caption 到最终标签的官方测试向量。当前只有静态材料审查，没有已发送的作者联系或新的实验结果。
 
+## 相关攻击库中的 SEAL 重实现
+
+[CSI 公开库](CSI_INFORMATION_CONTRACT.md)包含重新 caption 候选、生成语义参考并作补丁计数布尔判定的完整路径，但明确使用不同的码字哈希和 RNG，并自行校准工作点。它是可单独命名的评估对象，不补齐上述原库缺项。其结果没有在本项目运行，不能转记为我们对原始 SEAL 的复现。
+
 ## 公开问题跟踪的补充核查
 
 2026-10-16 读取官方仓库公开 issues 及相关评论，没有发送消息。[Issue #4](https://github.com/Kasraarabi/SEAL/issues/4) 同样询问未接入的检测阈值，所读评论尚未提供维护者的完整验证入口。[Issue #1](https://github.com/Kasraarabi/SEAL/issues/1#issuecomment-2826397737) 虽已关闭，但“距离阈值设为 3、按 Lemma 3.2 定匹配阈值”的回复来自 `author_association=NONE` 的参与者，不能认作作者确认的固定协议。[Issue #5](https://github.com/Kasraarabi/SEAL/issues/5) 是第三方复现疑问，不能作为本项目实测或论文错误证据；[Issue #6](https://github.com/Kasraarabi/SEAL/issues/6) 的许可证询问仍开放。

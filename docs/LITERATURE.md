@@ -11,7 +11,7 @@
 | [Lee et al., Geometric Distortion Perspective, 2606.29807v1](https://arxiv.org/html/2606.29807v1) | 固定源码；最终 PMLR PDF §4、§5.1、Tables 1–2、C.3–C.4 与 v1 关键段核对 | [PMLR 确认 ICML 2026](https://proceedings.mlr.press/v306/lee26bm.html)。结论依赖假设及参考原始潜变量；公开实现缺项。C.3 讨论 Reforge，未纳入实验比较。 |
 | [Arabi et al., SEAL, ICCV 2025](https://openaccess.thecvf.com/content/ICCV2025/papers/Arabi_SEAL_Semantic_Aware_Image_Watermarking_ICCV_2025_paper.pdf) | 摘要、理论假设及攻击讨论片段、作者仓库目录 | 内容绑定防伪造已有先例，包含更强模型访问的攻击设置。须与本项目的受限代理设置分列。尚未完整复现。 |
 | [Zhang et al., SemBind, ICML 2026 最终版](https://proceedings.mlr.press/v306/zhang26hj.html) | 最终 PDF §3–4、Tables 1–4、E.1–E.2、Table 17、F/G；全文件符号检索与 notebook/model/inversion 关键路径阅读 | E.1 有端到端代理 masker GS-S 测试，5 组 Det.=0；不能仅按早期 v1 附录 D 称其组件评估。具体消息/密钥身份与完整公开验证仍待澄清。 |
-| [Gao et al., CSI, 2602.21593v1](https://arxiv.org/html/2602.21593v1) | §2、§3、最新摘要页 | 已做语义保留编辑、候选过滤；[元数据](https://arxiv.org/abs/2602.21593)标注 WWW 2026 Short Paper。CSW 分数及噪声获取权限需要核查，不能直接视为本项目零目标反馈设置的等价方法。 |
+| [Gao et al., CSI, 2602.21593v1](https://arxiv.org/html/2602.21593v1) | §2、§3、作者主页与公开库固定 SHA `8723e362835a6a61efd11b61f677b3321face3fa` | WWW 2026 Short Paper；公开库 code 模式有检测失败反馈，paper 模式另用生成端语义参考。区分原始论文与整理库的结果，见 [信息契约](CSI_INFORMATION_CONTRACT.md)。 |
 | [Nakra et al., Understanding Semantic Perturbations, 2603.27513v1](https://arxiv.org/html/2603.27513v1) | §2.3、§3、评估概述及版本页 | 研究语义改变与水印鲁棒性，目标包括降低可检测性；这是移除/鲁棒性方向，不能把其成功率混作伪造成功率。 |
 | [Thietke et al., Towards A Correct Usage of Cryptography, 2503.11404v1](https://arxiv.org/html/2503.11404v1) | §1–2 与配置讨论 | GS 的随机化、nonce 与多图设置早已有分析。固定密文对应相同符号模式是配置性质；当前 CPU 结果不作为新密码学发现。 |
 | [Lukovnikov et al., Layout Control, WMARK 2025](https://openreview.net/pdf?id=pFMNK403AH) | 题名、摘要、作者出版记录 | ControlNet 对 TR/GS 的影响已有工作。布局保留作为候选策略前仍需全文/代码核查。 |

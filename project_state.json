@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-16T02:52:01.937166+00:00",
+  "as_of_utc": "2026-10-16T03:16:47.851535+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -73,7 +73,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Map the official reference-association and complete score/decision protocol to the identified theorem assumptions; retain unknowns where public evidence is insufficient. Recheck remote execution and cumulative budget before any later GPU work; do not retry stage09.",
+  "next_action": "Freeze comparison of Reprompting, Jain and CSI by information access, candidate budgets and success denominator; review new primary-source leads for remaining novelty. Full official defense evaluation still requires missing protocol artifacts; do not retry stage09.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "71cbb1e095fbfd92dc93058af4a6ea13e5e447f8240a9669fe135f8b06a87fdd",
@@ -209,8 +209,7 @@
     "Full geometry reference retrieval, implementation and fixed decision protocol unresolved",
     "SemBind full public GS-S verifier unresolved",
     "SEAL semantic fixed decision/salt protocol and uncached caption/embedding weights",
-    "Stage09 stopped before seed103; failure-time GPU snapshot unavailable",
-    "SSH timed out during 2026-10-16T02:40Z heartbeat; current remote processes and ledger unavailable"
+    "Stage09 stopped before seed103; failure-time GPU snapshot unavailable"
   ],
   "incomplete_stages": [
     "09"
@@ -233,7 +232,7 @@
     ],
     "outbound_messages_sent": 0
   },
-  "latest_static_audit": "reports/geometry_proof_obligations.md",
+  "latest_static_audit": "docs/CSI_INFORMATION_CONTRACT.md",
   "geometry_theoretical_rejection_region": {
     "source": "ICML 2026 final paper, appendix B.3 / Theorem 4.10",
     "rule": "SAD > tau_s AND LGI > tau_l",
@@ -246,18 +245,47 @@
     "Actual score Lipschitz/normalization scaling sufficient for dimension-exponential tails"
   ],
   "remote_observation": {
-    "heartbeat_at_utc": "2026-10-16T02:40:48.752Z",
-    "ssh_result": "connection_timeout",
-    "current_processes": null,
-    "current_gpu_occupancy": null,
-    "budget_reverified_from_server": false,
-    "budget_values_status": "last_archived_execution_records",
+    "heartbeat_at_utc": "2026-10-16T03:10:49.243Z",
+    "ssh_result": "connected",
+    "user_model_processes_observed": 0,
+    "current_gpu_occupancy": [
+      {
+        "physical_index": 0,
+        "uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
+        "memory_used_mib": 8638,
+        "utilization_percent": 71
+      },
+      {
+        "physical_index": 1,
+        "uuid": "GPU-af8ecfa2-a36f-798c-9762-0a3cfb8a1fcd",
+        "memory_used_mib": 17271,
+        "utilization_percent": 96
+      },
+      {
+        "physical_index": 2,
+        "uuid": "GPU-3d3813cb-3429-0174-212f-fa9c7fe5e99a",
+        "memory_used_mib": 10864,
+        "utilization_percent": 100
+      }
+    ],
+    "budget_reverified_from_server": true,
+    "execution_file_count": 11,
+    "gpu_process_seconds": 757.62238442339,
     "gpu_processes_started_this_heartbeat": 0,
-    "local_archive_budget_check": {
-      "execution_files": 11,
-      "summed_wall_time_seconds": 757.62238442339,
-      "matches_recorded_budget": true,
-      "scope": "Archived local execution files; current server state unknown"
-    }
+    "scope": "Point-in-time read-only snapshot; no GPU launch preflight performed"
+  },
+  "csi_audit": {
+    "repository": "https://github.com/ZhengGao-30/CSI-Attack",
+    "commit": "8723e362835a6a61efd11b61f677b3321face3fa",
+    "license": "Apache-2.0",
+    "detector_failure_feedback": true,
+    "optional_early_stop": true,
+    "early_stop_default": false,
+    "paper_mode_generation_context_reference": true,
+    "code_mode_uses_csw_filter": false,
+    "original_paper_run_archive_verified": false,
+    "source_files_fetched": 28,
+    "upstream_code_executed": false,
+    "report": "docs/CSI_INFORMATION_CONTRACT.md"
   }
 }
