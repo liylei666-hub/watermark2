@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-16T03:16:47.851535+00:00",
+  "as_of_utc": "2026-10-16T07:37:32.586108+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -11,7 +11,7 @@
     "07",
     "08"
   ],
-  "current_stage_status": "target_roundtrip_verified_vae_control_partial_static_contract_review_active",
+  "current_stage_status": "baseline_comparison_contract_defined_official_defense_protocol_pending",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -73,7 +73,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Freeze comparison of Reprompting, Jain and CSI by information access, candidate budgets and success denominator; review new primary-source leads for remaining novelty. Full official defense evaluation still requires missing protocol artifacts; do not retry stage09.",
+  "next_action": "Resolve official reference association, complete decision rule and reported success-event mapping for one executable defense evaluation; keep stage09 stopped.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "71cbb1e095fbfd92dc93058af4a6ea13e5e447f8240a9669fe135f8b06a87fdd",
@@ -232,7 +232,7 @@
     ],
     "outbound_messages_sent": 0
   },
-  "latest_static_audit": "docs/CSI_INFORMATION_CONTRACT.md",
+  "latest_static_audit": "docs/BASELINE_COMPARISON_CONTRACT.md",
   "geometry_theoretical_rejection_region": {
     "source": "ICML 2026 final paper, appendix B.3 / Theorem 4.10",
     "rule": "SAD > tau_s AND LGI > tau_l",
@@ -287,5 +287,45 @@
     "source_files_fetched": 28,
     "upstream_code_executed": false,
     "report": "docs/CSI_INFORMATION_CONTRACT.md"
+  },
+  "automation_enabled": false,
+  "baseline_comparison_contract": {
+    "path": "docs/BASELINE_COMPARISON_CONTRACT.md",
+    "version": 1,
+    "status": "static_design_not_experiment_launch_protocol",
+    "task_tracks": [
+      "prompt_conditioned_regeneration",
+      "cover_preserving_imprint"
+    ],
+    "target_feedback_in_primary_setting": false,
+    "output_candidates_in_primary_setting": 1,
+    "content_rubric_frozen": false,
+    "new_model_processes": 0
+  },
+  "latest_connection_attempt": {
+    "checked_at_utc": "2026-10-16T07:37:32.586108+00:00",
+    "host": "liyanlei@172.18.185.249",
+    "result": "default_ssh_authentication_failed",
+    "remote_process_snapshot": null,
+    "budget_reverified": false
+  },
+  "upstream_head_recheck": {
+    "checked_at_utc": "2026-10-16T07:37:32.586108+00:00",
+    "geometry": "72880c9bb1cee0b04bcb2433deb2ab2cc95ff622",
+    "sembind": "337c9f90a150157ac1d410208ae20e6530ca8cdd",
+    "changed_from_audited_pins": false
+  },
+  "slice_literature_review": {
+    "version": "2603.12749v1",
+    "reviewed_sections": [
+      "3.1",
+      "3.2",
+      "3.3",
+      "6.1",
+      "Theorem 4.4"
+    ],
+    "code_audited": false,
+    "table1_state_mapping_verified": false,
+    "experimental_target_selected": false
   }
 }

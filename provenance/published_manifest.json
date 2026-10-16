@@ -23,13 +23,13 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 5684,
-      "sha256": "392b9e47f7c6a4aee36a8a04c570a0b2db27ac1520ca744049d7211cf32e30b4"
+      "bytes": 6201,
+      "sha256": "8d416d8417ec862abe24359a1afdadf5a31163c6b87b51393900403c2e08f5ce"
     },
     {
       "path": "README.md",
-      "bytes": 3459,
-      "sha256": "fc09053e0ec23d4ff19ddaae80780e1bf8f0224b1a9fb78beeb787b5b43af9a0"
+      "bytes": 3583,
+      "sha256": "87df0d2b0013e09b689b1c536fa1adf9f2fce92c577b728b8cbfc5080541f9cd"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -272,6 +272,11 @@
       "sha256": "d5fcf793ff221db2063b528a1c732b2093b24c0755de12933772c3d6617163e2"
     },
     {
+      "path": "docs/BASELINE_COMPARISON_CONTRACT.md",
+      "bytes": 10449,
+      "sha256": "8c7ae2428c5b641c6a2ae9ec283ff6cb358cd54466580f272924011844eda189"
+    },
+    {
       "path": "docs/CSI_INFORMATION_CONTRACT.md",
       "bytes": 10310,
       "sha256": "06f7efe36f6c107688652e57f10f21d9c282fa3a209fb039297a41d96a5ce070"
@@ -288,8 +293,8 @@
     },
     {
       "path": "docs/LITERATURE.md",
-      "bytes": 7960,
-      "sha256": "5c0fb16c3f222fdff77d8cffaf574238f75607f54f2e709468f1e331b9445068"
+      "bytes": 8495,
+      "sha256": "c1f3933b33e8adc64acdd2c5e23b5e66b3d0a7f41ead2e69c7726463f4c897f1"
     },
     {
       "path": "docs/PROJECT_STATE.md",
@@ -298,8 +303,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 6326,
-      "sha256": "9b609fde3688d7e2c02d9ccb9397111f2e239986a326b807cb07a3aa1f54b832"
+      "bytes": 6848,
+      "sha256": "505d56664f43d0e918be0e8318779aa3970b0e93b9c673fc6435e11cf728a587"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -323,8 +328,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 9817,
-      "sha256": "6bbfd18d468c32ba218a00ba17f86622033fff4806d47ac823740c4b0bbad5be"
+      "bytes": 10966,
+      "sha256": "3587dfc0978c1a890329f6d840555673850678dc48d978addfbbdf69444fa8dc"
     },
     {
       "path": "prompts/README.md",
@@ -4592,14 +4597,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 25799518,
+  "total_bytes": 25812814,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-16T03:17:39.802680+00:00",
+  "updated_at_utc": "2026-10-16T07:37:55.871792+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "fcacb4b8db41e0410faa471f1e4dd6b9eca4691c"
+  "previous_publication_commit": "12a303983b06946c09db16520a4c0205d1a142e7"
 }

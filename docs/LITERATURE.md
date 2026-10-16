@@ -43,3 +43,7 @@
 当前关键协议与源码行号详见 [评估契约](EVALUATION_CONTRACT.md)。最终会议版新增覆盖以本次证据为准；论文 PDF 和源码字节哈希见 [来源记录](../reports/evaluation_contract_evidence.json)。
 
 SEAL 逐文件行号、分数及判定关系见 [专门契约](SEAL_EVALUATION_CONTRACT.md)。代码哈希见 [来源清单](../reports/seal_source_evidence.json)。
+
+## 补充：细粒度语义绑定与成功事件
+
+[SLICE, arXiv:2603.12749v1](https://arxiv.org/html/2603.12749v1)，2026-03-13 预印本。本次核查 §3.1–3.3、§6.1 与定理4.4：按语义因素绑定潜变量分区，并将来源识别和内容完整性分成不同状态。Table 1 ASR 文字对应 watermark present，不能直接读作完整真实性绕过；逐样本状态映射和官方实现尚未核查。详见 [比较契约](BASELINE_COMPARISON_CONTRACT.md)。仅补充原始文献审查，未纳入实验对象。
