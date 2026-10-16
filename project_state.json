@@ -1,27 +1,31 @@
 {
-  "as_of_utc": "2026-10-15T19:04:25.534309+00:00",
+  "as_of_utc": "2026-10-16T01:33:14.669958+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
     "02",
     "03",
     "04",
-    "05"
+    "05",
+    "06",
+    "07"
   ],
-  "current_stage_status": "static_contract_audited_missing_official_protocol_experiments_paused",
+  "current_stage_status": "paired_prompt_diagnostic_complete_official_defense_protocol_pending",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
     "02": 1,
     "03": 0,
     "04": 1,
-    "05": 8
+    "05": 8,
+    "06": 0,
+    "07": 6
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "docs/EVALUATION_CONTRACT.md",
+  "latest_report": "reports/07_prompt_control/report.md",
   "latest_status": "project_state.json",
-  "latest_protocol": "docs/prompt_control_protocol.json",
+  "latest_protocol": "runs/07_prompt_control_20261016T011923Z/protocol.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -37,24 +41,24 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/06_cpu_diagnostics/report.md",
-  "experiments_paused": true,
-  "experiment_resume_requires_user_instruction": true,
-  "current_round_gpu_seconds_used": 0,
-  "current_round_model_processes_started": 0,
+  "latest_completed_analysis": "reports/07_prompt_control/summary.json",
+  "experiments_paused": false,
+  "experiment_resume_requires_user_instruction": false,
+  "current_round_gpu_seconds_used": 526.9251838342752,
+  "current_round_model_processes_started": 6,
   "allowed_gpu_physical_indices": [
     0,
     1,
-    2,
+    2
+  ],
+  "excluded_gpu_physical_indices": [
     3,
     4,
     5,
+    6,
     7
   ],
-  "excluded_gpu_physical_indices": [
-    6
-  ],
-  "selected_gpu_uuid": null,
+  "selected_gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
   "authorization": {
     "total_gpu_process_seconds": 7200,
     "max_process_seconds": 1200,
@@ -66,16 +70,83 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Obtain and freeze an official single-sample evaluation package resolving reference provenance, exact geometric functions and final decision; keep experiments paused.",
+  "next_action": "Freeze a target-model self-roundtrip paired diagnostic to separate shared roundtrip error from proxy substitution; complete-defense claims remain blocked on official protocols.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
-    "sha256": "506cf5690f369078119770dd73b8a43a0175f0f8b72668e98e5d8ab7a314e0b1",
-    "experiments_paused": true
+    "sha256": "e95e12fe8d6e9773bb481db83a43db2be6fc50e74d31685995e9f343b6b5e465",
+    "experiments_paused": false
   },
   "evaluation_contract": "docs/EVALUATION_CONTRACT.md",
   "contract_evidence": "reports/evaluation_contract_evidence.json",
   "advisor_briefing": "docs/advisor_briefing.docx",
   "sembind_final_paper_reviewed": true,
   "sembind_end_to_end_adaptive_test_reported": true,
-  "sembind_full_public_gs_s_verifier_available": false
+  "sembind_full_public_gs_s_verifier_available": false,
+  "selected_gpu_physical_index": 0,
+  "active_run": null,
+  "current_round_gpu_seconds_remaining": 6673.074816165725,
+  "last_completed_run": "runs/07_prompt_control_20261016T011923Z",
+  "prompt_control_observation": {
+    "paired_seeds": 3,
+    "aggregates": {
+      "same_prompt": {
+        "n": 3,
+        "gs_pass_count": 3,
+        "reference_valid_count": 3,
+        "candidate_pass_among_reference_valid": 3,
+        "cosine": {
+          "mean": 0.2904783013923034,
+          "min": 0.27989359380582984,
+          "max": 0.29980527176161603
+        },
+        "coordinate_sign_agreement": {
+          "mean": 0.5989583333333334,
+          "min": 0.5965576171875,
+          "max": 0.60345458984375
+        },
+        "magnitude_cosine": {
+          "mean": 0.6752308666069741,
+          "min": 0.6697687475733398,
+          "max": 0.6780378039417453
+        },
+        "bit_accuracy": {
+          "mean": 0.9453125,
+          "min": 0.93359375,
+          "max": 0.953125
+        }
+      },
+      "changed_prompt": {
+        "n": 3,
+        "gs_pass_count": 3,
+        "reference_valid_count": 3,
+        "candidate_pass_among_reference_valid": 3,
+        "cosine": {
+          "mean": 0.30621568479281713,
+          "min": 0.24676973667737007,
+          "max": 0.37347472905676704
+        },
+        "coordinate_sign_agreement": {
+          "mean": 0.6017252604166666,
+          "min": 0.5789794921875,
+          "max": 0.62371826171875
+        },
+        "magnitude_cosine": {
+          "mean": 0.6814392581073264,
+          "min": 0.666498178322129,
+          "max": 0.6985086504525352
+        },
+        "bit_accuracy": {
+          "mean": 0.9361979166666666,
+          "min": 0.875,
+          "max": 0.96875
+        }
+      }
+    },
+    "paired_mean_differences": {
+      "cosine_same_minus_changed": -0.015737383400513727,
+      "coordinate_sign_agreement_same_minus_changed": -0.0027669270833333335,
+      "magnitude_cosine_same_minus_changed": -0.006208391500352313,
+      "bit_accuracy_same_minus_changed": 0.009114583333333334
+    }
+  }
 }

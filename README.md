@@ -2,7 +2,7 @@
 
 研究目标：在明确的攻击信息边界下研究伪造方法与误差来源，形成可复现代码、充分实验和论文初稿。
 
-**当前判断：方向有条件可行，已有结果尚不足以构成顶刊顶会贡献。新实验暂停，优先完善评估契约与方法新颖性论证。**
+**当前判断：方向有条件可行，已有结果尚不足以构成顶刊顶会贡献。已完成首轮提示词配对诊断，同时保留完整防御协议的明确缺项。**
 
 - [研究审查](reports/research_review.md)：可行性、创新空间、理论问题与继续/停止条件。
 - [导师讨论 Word](docs/advisor_briefing.docx) / [可检索正文](docs/advisor_briefing.md)：原论文、两篇 ICML 2026 防御、结果与研究问题。
@@ -17,6 +17,8 @@
 
 [CPU 诊断](reports/06_cpu_diagnostics/report.md)进一步区分消息解码、坐标符号和幅值，并量化参考关联敏感性。完整官方几何判定仍未复现，几何接受结果与阈值为 null；当前没有新攻击成功结论。
 
+[三种子提示词配对诊断](reports/07_prompt_control/report.md)已完成 6 次运行：同提示词与更换提示词的候选余弦均值分别为 0.290478 与 0.306216，配对差值方向不一致；两组原 GS 各通过 3/3。保持茶壶提示词仍出现低余弦，因此不能把此前差距专门归因于主体类别变化。此结果仍是开发诊断，不能单独定位架构差异。
+
 ## 复核入口
 
 [历史实验谱系](docs/PROJECT_STATE.md)、[证据导航](docs/ARTIFACT_GUIDE.md)、[原始要求](prompts/README.md)。`runs/` 保留原始图像、CSV、张量、配置和运行记录；模型权重和环境不进入 Git。当前入口持续更新，历史说明与决策由 Git 追溯。
@@ -28,4 +30,4 @@ CUDA_VISIBLE_DEVICES="" python tools/verify_archive.py
 CUDA_VISIBLE_DEVICES="" python -m unittest discover -s scripts -p test_cpu_latent_audit.py -v
 ```
 
-PowerShell 先设置 `$env:CUDA_VISIBLE_DEVICES=''`。历史 GPU 脚本带有服务器路径，读取本仓库不授权执行。当前暂停状态优先于资源授权；详情见 [AGENTS.md](AGENTS.md)。
+PowerShell 先设置 `$env:CUDA_VISIBLE_DEVICES=''`。历史 GPU 脚本带有服务器路径，读取本仓库不授权执行。本轮设备为物理 GPU 0–2，单卡串行；预算与运行约束见 [AGENTS.md](AGENTS.md)。

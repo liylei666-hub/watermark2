@@ -1,5 +1,5 @@
 {
-  "status": "deferred_experiments_paused",
+  "status": "completed",
   "data_role": "development_control",
   "seeds": [
     101,
@@ -49,29 +49,30 @@
     "same_prompt minus changed_prompt coordinate sign agreement",
     "same_prompt minus changed_prompt magnitude cosine"
   ],
-  "gpu_physical_index": null,
-  "gpu_uuid": null,
+  "gpu_physical_index": 0,
+  "gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
   "authorized_total_gpu_process_seconds": 7200,
   "authorized_max_process_seconds": 1200,
   "authorized_max_new_bytes": 10737418240,
   "new_model_downloads": false,
-  "execution_code_sha256": null,
-  "launch_blockers": [
-    "Experiments paused by user",
-    "Evaluation contract and novelty review pending",
-    "Execution harness and frozen hashes pending"
-  ],
+  "execution_code_sha256": "92364e97d3f9c9b6fcacade8bd258e55644671ad4bf40bc68f536a19523244f4",
+  "launch_blockers": [],
   "allowed_gpu_physical_indices": [
     0,
     1,
-    2,
+    2
+  ],
+  "excluded_gpu_physical_indices": [
     3,
     4,
     5,
+    6,
     7
   ],
-  "excluded_gpu_physical_indices": [
-    6
-  ],
-  "execution_authorized_now": false
+  "execution_authorized_now": false,
+  "execution_state": "six_planned_runs_complete",
+  "frozen_protocol": "runs/07_prompt_control_20261016T011923Z/protocol.json",
+  "frozen_protocol_sha256": "c544fcb19b48f07b8c0cfb0505d2604cca0ba0c0b97710a81ade65a9228d01b0",
+  "report": "reports/07_prompt_control/report.md",
+  "completion_does_not_authorize_repeat": true
 }

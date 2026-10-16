@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checked_at_utc": "2026-10-15T19:05:45.166215+00:00",
-  "published_files_checked": 513,
+  "published_files_checked": 754,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -11,5 +11,17 @@
   "gpu_used": false,
   "models_loaded": false,
   "new_model_experiments_run": 0,
-  "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference"
+  "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference",
+  "verified_at_utc": "2026-10-16T01:34:58.433411+00:00",
+  "scope": "Read-only archive verification; GPU/model fields below describe verification, not historical experiment execution.",
+  "stage07_verification": {
+    "completed_model_runs": 6,
+    "real_target_tensors_checked": 18,
+    "paired_seeds": 3,
+    "candidate_prefreeze_verified": true,
+    "max_abs_cosine_readback_error": 5.551115123125783e-16,
+    "remote_transfer_files_checked": 233,
+    "analysis": "scripts/analyze_prompt_control.py",
+    "analysis_code_sha256": "bc5d09f1fd50b2701be1981bbd12f05d3ccf12df6d653cb8d5b80803f3d68987"
+  }
 }
