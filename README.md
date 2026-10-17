@@ -4,6 +4,7 @@
 
 **当前判断：方向有条件可行，已有结果尚不足以构成顶刊顶会贡献。已完成提示词和目标往返对照，并留存未完成的 VAE 组件诊断；完整防御协议仍有明确缺项。**
 
+- [三对载体试验](reports/17_cover_pilot/report.md)：输入准备已完成，Imprint/Jain六候选串行运行中；固定身份、先交付后评估，输入内容偏差单独记录。
 - [基线计算成本](reports/15_imprint_timing/report.md)：Imprint参考准备+10步375.33秒，Jain参考编码+100步83.91秒；下一组拟用10/447步近似预算，完整输出轨迹核对通过。
 - [真实VAE核心核验](reports/13_vae_core/report.md)：原参数状态三步输出跨进程一致；参数冻结等价检查未通过，保留原核心执行状态。
 - [载体攻击比较契约](docs/COVER_BASELINE_CONTRACT.md)：核对Imprint/Jain预算、浮点与PNG检测对象、共享代理适配及成本；六项CPU核心检查通过。

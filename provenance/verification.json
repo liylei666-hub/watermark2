@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-17T21:44:02.679463+00:00",
-  "published_files_checked": 1421,
+  "checked_at_utc": "2026-10-17T21:50:54.762205+00:00",
+  "published_files_checked": 1514,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -220,5 +220,17 @@
     "gpu_used": false,
     "models_loaded": false,
     "protocol_runtime_hashes_verified_on_server": true
+  },
+  "stage17_preparation_verification": {
+    "transferred_files_hash_verified": 86,
+    "generated_images": 6,
+    "original_noise_arrays": 6,
+    "rng_state_sets": 18,
+    "attack_jobs": 6,
+    "target_scoring_started": false,
+    "model_processes_completed": 2,
+    "active_model_processes": 1,
+    "verification_gpu_used": false,
+    "verification_models_loaded": false
   }
 }

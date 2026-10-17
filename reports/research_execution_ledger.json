@@ -1,8 +1,8 @@
 {
-  "scope": "Per-process stage07-12 execution records; earlier historical stages excluded",
-  "model_processes_with_execution": 17,
-  "gpu_process_seconds": 2206.407460845541,
-  "nonzero_exit_processes": 2,
+  "scope": "Per-process stage07 onward completed/failed execution records; active processes listed separately; earlier historical stages excluded",
+  "model_processes_with_execution": 23,
+  "gpu_process_seconds": 2885.765502355993,
+  "nonzero_exit_processes": 3,
   "note": "Wall time of GPU model processes, including failures; not measured GPU kernel time or successful sample count",
   "records": [
     {
@@ -106,8 +106,55 @@
       "sha256": "19d9afb96e4810096bb7c8ff860d83ed68a4bdc131f9458ff6e1c6822645ac81",
       "gpu_process_wall_seconds": 91.88158441009,
       "exit_code": 0
+    },
+    {
+      "path": "runs/13_vae_core_20261017T202854Z/execution.json",
+      "sha256": "6d077f5959009be8fc8fa94c6678071dada68445c01457e55a75bc6d89097d83",
+      "gpu_process_wall_seconds": 19.219594069290906,
+      "exit_code": 1
+    },
+    {
+      "path": "runs/13_vae_original_replay_20261017T203109Z/execution.json",
+      "sha256": "eaebb67ea1993e7a0176c38b741a73d904b550800404ed8e83478d5905e62539",
+      "gpu_process_wall_seconds": 13.453972324263304,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/14_vae_timing_20261017T203633Z/execution.json",
+      "sha256": "17b9cd9cbf7f97af3cc9cabe62e37368d36d419b1e29f8f80f40530762759a89",
+      "gpu_process_wall_seconds": 91.67109083291143,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/15_imprint_timing_r2_20261017T205635Z/execution.json",
+      "sha256": "4ca2fdb44dd39a6289f4d4340b82592478364eb18ea6a1432ab21ad0a83731d2",
+      "gpu_process_wall_seconds": 402.30189699307084,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/evaluator_private/cover/execution.json",
+      "sha256": "719bb03bd1542a358f485658f35e4a464d73d9033fa8fdc7e3e1505453feb8f8",
+      "gpu_process_wall_seconds": 28.87968067312613,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/evaluator_private/reference/execution.json",
+      "sha256": "96d273a8c42ac403985500309a58c4ed920345cb999189111a5c59ee325f930b",
+      "gpu_process_wall_seconds": 123.83180661778897,
+      "exit_code": 0
     }
   ],
   "verifier_gpu_used": false,
-  "verifier_models_loaded": false
+  "verifier_models_loaded": false,
+  "checked_at_utc": "2026-10-17T21:48:02.827021+00:00",
+  "active_processes": [
+    {
+      "path": "attack_outputs/1/imprint",
+      "process": {
+        "pid": 30498,
+        "started_at_utc": "2026-10-17T21:47:33.727268+00:00"
+      },
+      "execution": null
+    }
+  ]
 }

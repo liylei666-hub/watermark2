@@ -1,6 +1,6 @@
 # 指定载体下的成对基线开发试验设计
 
-状态：[阶段17配置与代码](../protocols/17_cover_pilot.json)已冻结；[阶段16接口与GS核验](../reports/16_cover_preparation/report.md)完成35种CPU测试。当前尚未启动模型试验。预算为Imprint10步/Jain447步，三组图片不得用于根据目标分数调参。
+状态：[阶段17配置与代码](../protocols/17_cover_pilot.json)已冻结；[阶段16接口与GS核验](../reports/16_cover_preparation/report.md)完成35种CPU测试。[阶段17正在运行](../reports/17_cover_pilot/report.md)，两个输入准备进程已完成，六候选评估尚未完成。预算为Imprint10步/Jain447步，三组图片不得用于根据目标分数调参。
 
 ## 问题与推断范围
 

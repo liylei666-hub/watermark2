@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-17T21:04:53.704094+00:00",
+  "as_of_utc": "2026-10-17T21:48:02.827021+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -15,9 +15,10 @@
     "12",
     "13",
     "14",
-    "15"
+    "15",
+    "16"
   ],
-  "current_stage_status": "native_core_costs_measured_and_trajectory_verified",
+  "current_stage_status": "paired_cover_pilot_running",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -34,13 +35,15 @@
     "12": 1,
     "13": 2,
     "14": 1,
-    "15": 1
+    "15": 1,
+    "16": 0,
+    "17": 3
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/15_imprint_timing/report.md",
+  "latest_report": "reports/17_cover_pilot/report.md",
   "latest_status": "project_state.json",
-  "latest_protocol": "protocols/15_imprint_timing_r2.json",
+  "latest_protocol": "protocols/17_cover_pilot.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -57,11 +60,11 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/15_imprint_timing/analysis.json",
+  "latest_completed_analysis": "reports/16_cover_preparation/status.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 2733.0540150650777,
-  "current_round_model_processes_started": 21,
+  "current_round_gpu_seconds_used": 2885.765502355993,
+  "current_round_model_processes_started": 24,
   "allowed_gpu_physical_indices": [
     0,
     1,
@@ -92,7 +95,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Implement and CPU-verify the three-pair cover-pilot data/attack/evaluation interfaces, then freeze exact inputs, model/config/code hashes and 10/447 update budgets before launch; no target-score-based candidate selection.",
+  "next_action": "Monitor existing stage17 controller and preserve its outputs; do not launch a duplicate. After completion verify hashes, all six fixed candidates and original GS results, then analyze carrier distortion and content limitations.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -105,7 +108,7 @@
   "sembind_end_to_end_adaptive_test_reported": true,
   "sembind_full_public_gs_s_verifier_available": false,
   "selected_gpu_physical_index": 0,
-  "active_run": null,
+  "active_run": "runs/17_cover_pilot_20261017T214442Z",
   "current_round_gpu_seconds_remaining": null,
   "last_completed_run": "runs/15_imprint_timing_r2_20261017T205635Z",
   "prompt_control_observation": {
@@ -429,7 +432,7 @@
     "cumulative_model_processes_started": 12
   },
   "automation_id": "automation",
-  "current_round_gpu_seconds_used_excludes_active_process": false,
+  "current_round_gpu_seconds_used_excludes_active_process": true,
   "imprint_delivery_measurement": {
     "reference_cover_pairs": 1,
     "updates": 10,
@@ -508,7 +511,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "Launch the frozen stage17 serial pilot after a fresh idle check; stop on any engineering failure.",
+  "next_step_proposal": "Monitor existing stage17 controller and preserve its outputs; do not launch a duplicate. After completion verify hashes, all six fixed candidates and original GS results, then analyze carrier distortion and content limitations.",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -531,7 +534,7 @@
     "active_run": null,
     "next_step": "Freeze one 100-update original-state development timing and finiteness check with no target calls before independent-pair comparison design"
   },
-  "usage_note": "All 21 completed/failed model processes through stage15 are included, based on original execution files.",
+  "usage_note": "23 completed/failed model processes have execution records through the two stage17 preparation processes; one stage17 attack process is active and its elapsed time is not yet settled.",
   "core_cost_calibration": {
     "status": "passed",
     "equal_files": [
@@ -601,5 +604,27 @@
     "protocol": "protocols/17_cover_pilot.json",
     "next_step": "Launch the frozen stage17 serial pilot after a fresh idle check; stop on any engineering failure."
   },
-  "last_updated_utc": "2026-10-17T21:43:38.379216+00:00"
+  "last_updated_utc": "2026-10-17T21:49:55.889391+00:00",
+  "cover_pilot": {
+    "run_dir": "runs/17_cover_pilot_20261017T214442Z",
+    "status": "running",
+    "controller_pid": 28720,
+    "active_child": [
+      {
+        "path": "attack_outputs/1/imprint",
+        "process": {
+          "pid": 30498,
+          "started_at_utc": "2026-10-17T21:47:33.727268+00:00"
+        },
+        "execution": null
+      }
+    ],
+    "completed_children": 2,
+    "planned_model_processes": 9,
+    "candidates_completed": 0,
+    "target_evaluation_started": false,
+    "full_defense_acceptance": null,
+    "latest_snapshot": "reports/17_cover_pilot/preparation_completed.json",
+    "local_analysis_draft": "scripts/analyze_cover_pilot.py is a pending CPU readback script; syntax checked only, not run on completed results"
+  }
 }
