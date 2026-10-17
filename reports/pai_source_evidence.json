@@ -1,0 +1,220 @@
+{
+  "checked_at_utc": "2026-10-17T05:32:44.744789+00:00",
+  "repository": "https://github.com/QingyuLiu/PAI",
+  "commit": "9ebc58d1a106e7155347f0d1f186e67313a4b0cf",
+  "default_branch": "main",
+  "tree_truncated": false,
+  "tree_files": [
+    {
+      "path": "DDIM_watermark.py",
+      "bytes": 10598,
+      "git_blob_sha1": "35da75de58b2e22fd3d5ab885ac2b5512d71ee5d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 711,
+      "git_blob_sha1": "ee011a0eb21cb035f944b34c37d1db8ddbc7144d"
+    },
+    {
+      "path": "appendix.pdf",
+      "bytes": 8518028,
+      "git_blob_sha1": "0f839aa84c0141af36aadb721ca5a6afd1714d03"
+    },
+    {
+      "path": "dataset/watermark_dataloader.py",
+      "bytes": 5431,
+      "git_blob_sha1": "106599dbdf47422c1e787b7ccce018beb49ee439"
+    },
+    {
+      "path": "decode.py",
+      "bytes": 3402,
+      "git_blob_sha1": "48dc73d54ff944a71477fbe6711d062a98b9d2bd"
+    },
+    {
+      "path": "encode.py",
+      "bytes": 5670,
+      "git_blob_sha1": "680ef84a03b4035f3766f91038631d84232311e9"
+    },
+    {
+      "path": "post_process.py",
+      "bytes": 3846,
+      "git_blob_sha1": "e158a136ffce9ddb7bf0546e8490de135690d186"
+    },
+    {
+      "path": "utils.py",
+      "bytes": 3903,
+      "git_blob_sha1": "3b4787b0aca19212ab0dab91b6052ccf7bb168f9"
+    },
+    {
+      "path": "verify_robust.py",
+      "bytes": 1373,
+      "git_blob_sha1": "0ac38bcf23c6f5519e68f87e4f0697c734b4068b"
+    },
+    {
+      "path": "verify_tamping_location.py",
+      "bytes": 2138,
+      "git_blob_sha1": "cfd8e34b753d67f618b88fc9a0009cd91f419049"
+    },
+    {
+      "path": "verify_vanilla.py",
+      "bytes": 630,
+      "git_blob_sha1": "383b03eb3efc3b5e7379fdb9209ad8149ee39709"
+    }
+  ],
+  "license": "not_found_in_pinned_tree",
+  "files": [
+    {
+      "path": "DDIM_watermark.py",
+      "bytes": 10598,
+      "sha256": "836bf7a580b8f03caace420fbdd18f4f47a76962d0f3980e5be05016d65d28f4",
+      "git_blob_sha1": "35da75de58b2e22fd3d5ab885ac2b5512d71ee5d",
+      "url": "https://github.com/QingyuLiu/PAI/blob/9ebc58d1a106e7155347f0d1f186e67313a4b0cf/DDIM_watermark.py"
+    },
+    {
+      "path": "README.md",
+      "bytes": 711,
+      "sha256": "4ad19f617a2eeb8e08f183d743a1257c9697a4d492fde514c20073a5914ea734",
+      "git_blob_sha1": "ee011a0eb21cb035f944b34c37d1db8ddbc7144d",
+      "url": "https://github.com/QingyuLiu/PAI/blob/9ebc58d1a106e7155347f0d1f186e67313a4b0cf/README.md"
+    },
+    {
+      "path": "dataset/watermark_dataloader.py",
+      "bytes": 5431,
+      "sha256": "44d04ba406d7df5f038ad2effbb54f8d4848411db138674793313c447a7d3333",
+      "git_blob_sha1": "106599dbdf47422c1e787b7ccce018beb49ee439",
+      "url": "https://github.com/QingyuLiu/PAI/blob/9ebc58d1a106e7155347f0d1f186e67313a4b0cf/dataset/watermark_dataloader.py"
+    },
+    {
+      "path": "decode.py",
+      "bytes": 3402,
+      "sha256": "8504d1c53175d0357e4994ec5920f45835ae6f1befbd48b566af3c11dc6f8e65",
+      "git_blob_sha1": "48dc73d54ff944a71477fbe6711d062a98b9d2bd",
+      "url": "https://github.com/QingyuLiu/PAI/blob/9ebc58d1a106e7155347f0d1f186e67313a4b0cf/decode.py"
+    },
+    {
+      "path": "encode.py",
+      "bytes": 5670,
+      "sha256": "1a030d5d2aae68753b6b3b5b8bb0b7f9d0e01c99158442649bceac6b73b8f3b1",
+      "git_blob_sha1": "680ef84a03b4035f3766f91038631d84232311e9",
+      "url": "https://github.com/QingyuLiu/PAI/blob/9ebc58d1a106e7155347f0d1f186e67313a4b0cf/encode.py"
+    },
+    {
+      "path": "post_process.py",
+      "bytes": 3846,
+      "sha256": "8af05f90b5282910e3d30dddda23010a63aa622f2e5c1c4996a2c250327a9707",
+      "git_blob_sha1": "e158a136ffce9ddb7bf0546e8490de135690d186",
+      "url": "https://github.com/QingyuLiu/PAI/blob/9ebc58d1a106e7155347f0d1f186e67313a4b0cf/post_process.py"
+    },
+    {
+      "path": "utils.py",
+      "bytes": 3903,
+      "sha256": "aa93b6be95a6609e8b3ae615cfe65ed1cd37e077d60127e434e32d2c38320f98",
+      "git_blob_sha1": "3b4787b0aca19212ab0dab91b6052ccf7bb168f9",
+      "url": "https://github.com/QingyuLiu/PAI/blob/9ebc58d1a106e7155347f0d1f186e67313a4b0cf/utils.py"
+    },
+    {
+      "path": "verify_robust.py",
+      "bytes": 1373,
+      "sha256": "ae87c80f01463951f0cc8628686b4685ded6210e71269ff3886d06855a18b1aa",
+      "git_blob_sha1": "0ac38bcf23c6f5519e68f87e4f0697c734b4068b",
+      "url": "https://github.com/QingyuLiu/PAI/blob/9ebc58d1a106e7155347f0d1f186e67313a4b0cf/verify_robust.py"
+    },
+    {
+      "path": "verify_tamping_location.py",
+      "bytes": 2138,
+      "sha256": "5faf639128831a472f139568ec67282dca56fc8a09123f84572b4c83b3c05d1e",
+      "git_blob_sha1": "cfd8e34b753d67f618b88fc9a0009cd91f419049",
+      "url": "https://github.com/QingyuLiu/PAI/blob/9ebc58d1a106e7155347f0d1f186e67313a4b0cf/verify_tamping_location.py"
+    },
+    {
+      "path": "verify_vanilla.py",
+      "bytes": 630,
+      "sha256": "5019974de55774362e40d44f6f06c99e989af7e012e10c5a905c844e46cf037c",
+      "git_blob_sha1": "383b03eb3efc3b5e7379fdb9209ad8149ee39709",
+      "url": "https://github.com/QingyuLiu/PAI/blob/9ebc58d1a106e7155347f0d1f186e67313a4b0cf/verify_vanilla.py"
+    }
+  ],
+  "paper": {
+    "version": "ICLR 2026 final proceedings PDF",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/51e2aaa731e8a5edfbda95fd8bd8948b-Paper-Conference.pdf",
+    "sha256": "b676bdacd4bbdd33b8d51f337fdcc528ed22d3aa6a69b841aec1b57d4ce8d484",
+    "bytes": 9199539,
+    "pages": 27,
+    "reviewed_sections": [
+      "5.1",
+      "5.2",
+      "6.5",
+      "A.4.2",
+      "A.6.1",
+      "A.6.3",
+      "A.6.4"
+    ],
+    "arxiv_crosscheck": "2601.06639v1"
+  },
+  "checks": {
+    "git_blob_hashes_verified": 10,
+    "python_files_ast_parsed": 9,
+    "pinned_source_links_range_checked": 17,
+    "sdxl_attribute_occurrences": [
+      {
+        "path": "DDIM_watermark.py",
+        "line": 104,
+        "context": "Load"
+      }
+    ],
+    "sdxl_attribute_assignments": [],
+    "generation_record_dictionaries": [
+      {
+        "line": 109,
+        "keys": [
+          "watermarked_img_path",
+          "key",
+          "prompt",
+          "time"
+        ]
+      },
+      {
+        "line": 115,
+        "keys": [
+          "watermarked_img_path",
+          "key",
+          "prompt",
+          "time"
+        ]
+      }
+    ],
+    "pca_reference_in_pinned_tree": false,
+    "content_template_data_rows": 0,
+    "upstream_imported": false,
+    "upstream_executed": false,
+    "gpu_used": false,
+    "models_loaded": false,
+    "new_model_experiments_run": 0
+  },
+  "limitations": [
+    "AST and source reading do not establish runtime success or a security vulnerability",
+    "PCA numeric parameters and calibration/test separation unknown",
+    "No complete official end-to-end acceptance execution verified"
+  ],
+  "distribution_check": {
+    "checked_at_utc": "2026-10-17T05:33:35.764972+00:00",
+    "branches": [
+      {
+        "name": "main",
+        "commit": "9ebc58d1a106e7155347f0d1f186e67313a4b0cf"
+      }
+    ],
+    "tags": [],
+    "releases": [],
+    "issues_seen": [
+      {
+        "number": 1,
+        "url": "https://github.com/QingyuLiu/PAI/issues/1",
+        "topic": "Evaluation metric question",
+        "comments": 0
+      }
+    ],
+    "artifact_link_found_in_readme_or_issue": false,
+    "scope": "Current repository branches, tags, releases, README and all returned issues; no claim about private/unlinked resources"
+  }
+}

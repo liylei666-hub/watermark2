@@ -1,6 +1,6 @@
 # 文献与实现覆盖
 
-核查日期：2026-10-16（Asia/Shanghai）。这是面向研究决策的定向检索，含引用追踪与版本核查；不是穷尽式系统综述。只以论文原文、出版方及作者仓库支持技术结论。阅读范围逐项列出，未作任何用户已阅读声明。
+核查日期：2026-10-17（Asia/Shanghai）。这是面向研究决策的定向检索，含引用追踪与版本核查；不是穷尽式系统综述。只以论文原文、出版方及作者仓库支持技术结论。阅读范围逐项列出，未作任何用户已阅读声明。
 
 ## 直接相关材料
 
@@ -16,7 +16,7 @@
 | [Thietke et al., Towards A Correct Usage of Cryptography, 2503.11404v1](https://arxiv.org/html/2503.11404v1) | §1–2 与配置讨论 | GS 的随机化、nonce 与多图设置早已有分析。固定密文对应相同符号模式是配置性质；当前 CPU 结果不作为新密码学发现。 |
 | [Lukovnikov et al., Layout Control, WMARK 2025](https://openreview.net/pdf?id=pFMNK403AH) | 题名、摘要、作者出版记录 | ControlNet 对 TR/GS 的影响已有工作。布局保留作为候选策略前仍需全文/代码核查。 |
 | [Yang et al., Gaussian Shading++, 2504.15026v2](https://arxiv.org/abs/2504.15026) | 最新摘要、版本史 | 关注随机化种子、密钥管理与公开验证；不能将 GS++ 与当前固定 GS 配置合并报告。全文协议待查。 |
-| [Liu et al., PAI, ICLR 2026](https://proceedings.iclr.cc/paper_files/paper/2026/hash/51e2aaa731e8a5edfbda95fd8bd8948b-Abstract-Conference.html) | 出版方摘要与方法概述 | 轨迹层密钥耦合是另一类防伪造机制。仅扩大目标数量不足以形成方法贡献；具体实现待审计。 |
+| [Liu et al., PAI, ICLR 2026](https://proceedings.iclr.cc/paper_files/paper/2026/hash/51e2aaa731e8a5edfbda95fd8bd8948b-Abstract-Conference.html) | ICLR最终版 §5.1–5.2、§6.5、A.4.2/A.6.1/A.6.3/A.6.4；10个官方源码/说明文件及完整树 | 普通MSE规则已明确，完整稳健PCA材料和端到端接口缺项；已有白盒自适应评估。详见[PAI契约](PAI_EVALUATION_CONTRACT.md)。 |
 | [Tamim et al., Forging Tree-Ring, 2609.12909v1](https://arxiv.org/abs/2609.12909) | 最新摘要和版本史（2026-09-11） | 近期已有 Reprompt 复现与检测器插桩报告。说明“复现加保存中间量”已有近邻；尚未精读全文或复算其数值。 |
 | [Feng et al., IRIS, 2608.03539](https://arxiv.org/abs/2608.03539) | v1 §5.2；最新版本状态 | **v2 于 2026-08-26 撤回，备注 Substantial revisions。** v1 仅作历史线索；不纳入有效 SOTA、已证实防御或实验目标清单。 |
 
@@ -31,6 +31,7 @@
 | [SemBind](https://github.com/XinZhang1999/SemBind) | `337c9f90a150157ac1d410208ae20e6530ca8cdd` | HEAD、完整代码树与 Python/notebook、LICENSE 正文 MIT；官方 checkpoint 链接已存在但未下载 | 缺完整 GS-S 嵌入/解绑/判定入口；exact_inversion 默认 inv_order=1 与论文 0 需显式对齐；DINOv2/checkpoint 未验证 |
 | [SEAL](https://github.com/Kasraarabi/SEAL) | `92d31b31b93a6e373fe88a584c640beafb68c6fa` | 完整递归目录和 17 个源码/说明文件；语义数组、穷举布尔判定和百分位阈值路径已区分；未发现许可证正文 | 语义固定工作点/salt 协议、精确模型快照、未缓存 BLIP2/embedding；ICCV 最终 PDF 本次 403，论文按 v1 审计 |
 | [Jain 单图方法](https://github.com/anubhav1997/watermark_forgery_removal) | `04433962437cbf08ad701b7b43124de07df0b666` | GS 入口与核心 VAE 优化、返回 BA 的分数语义已核查 | 其余水印分支、论文全部表格对应、运行成本未验证；本轮未跑代码 |
+| [PAI](https://github.com/QingyuLiu/PAI) | `9ebc58d1a106e7155347f0d1f186e67313a4b0cf` | 10个源码/说明文件blob哈希、9个Python AST、普通与稳健判定、参考关联 | 缺PCA参考/拟合协议，模型revision与接口待补齐；许可证未发现 |
 
 这些检查未安装依赖、下载权重或执行任何上游入口。代码“存在”和代码“可忠实运行”分别记录。
 

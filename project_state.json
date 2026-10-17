@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-17T05:23:47.986479+00:00",
+  "as_of_utc": "2026-10-17T05:32:44.744789+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -11,7 +11,7 @@
     "07",
     "08"
   ],
-  "current_stage_status": "evaluation_event_ledger_verified_official_defense_protocol_pending",
+  "current_stage_status": "pai_reference_and_decision_audited_content_rubric_defined_full_protocol_pending",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -44,7 +44,7 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/evaluation_events_20261017/summary.json",
+  "latest_completed_analysis": "reports/pai_source_evidence.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
   "current_round_gpu_seconds_used": 757.62238442339,
@@ -73,7 +73,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Close one executable official defense reference/decision contract and freeze content adjudication; event bookkeeping is ready but full defense labels remain unknown. Do not retry stage09.",
+  "next_action": "Resolve the official PAI single-sample contract: exact model snapshot, metadata interface, PCA reference provenance and per-image decision composition. Freeze task-specific content criteria before any new model experiment; do not retry stage09.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "71cbb1e095fbfd92dc93058af4a6ea13e5e447f8240a9669fe135f8b06a87fdd",
@@ -232,7 +232,7 @@
     ],
     "outbound_messages_sent": 0
   },
-  "latest_static_audit": "reports/evaluation_events_20261017/report.md",
+  "latest_static_audit": "docs/PAI_EVALUATION_CONTRACT.md",
   "geometry_theoretical_rejection_region": {
     "source": "ICML 2026 final paper, appendix B.3 / Theorem 4.10",
     "rule": "SAD > tau_s AND LGI > tau_l",
@@ -280,7 +280,11 @@
     "target_feedback_in_primary_setting": false,
     "output_candidates_in_primary_setting": 1,
     "content_rubric_frozen": false,
-    "new_model_processes": 0
+    "new_model_processes": 0,
+    "content_rubric_path": "docs/CONTENT_ADJUDICATION.md",
+    "content_rubric_version": 1,
+    "task_specific_criteria_frozen": false,
+    "content_reviews_completed": 0
   },
   "latest_connection_attempt": {
     "checked_at_utc": "2026-10-17T05:23:47.986479+00:00",
@@ -328,5 +332,27 @@
     "statistical_bookkeeping_only": true,
     "permission_isolation_implemented": false,
     "new_model_processes": 0
+  },
+  "pai_audit": {
+    "commit": "9ebc58d1a106e7155347f0d1f186e67313a4b0cf",
+    "paper_version": "ICLR 2026 final",
+    "license": "not_found_in_pinned_tree",
+    "report": "docs/PAI_EVALUATION_CONTRACT.md",
+    "reference_latent_source": "evaluator key and recorded timestamp via Box-Muller",
+    "vanilla_code_rule": "MSE < 1.76",
+    "vanilla_paper_threshold": 1.761,
+    "robust_reference_available_in_pinned_tree": false,
+    "cov_saved_as_precision_matrix": null,
+    "full_decision_execution_verified": false,
+    "existing_gs_images_valid_pai_positive_samples": false,
+    "static_blockers": [
+      "missing pca_reference.npy and fitting provenance",
+      "self.SDXL read without initialization",
+      "origin_img_path missing from generation records",
+      "default batch key indexing mismatch",
+      "exact model revision and combined decision unresolved"
+    ],
+    "gpu_used": false,
+    "new_model_experiments_run": 0
   }
 }

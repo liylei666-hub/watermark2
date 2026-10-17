@@ -23,13 +23,13 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 6225,
-      "sha256": "63962e058885cf1158421e1427fe621a73d2015edeffb752c7f0bd95ee9e2b35"
+      "bytes": 6709,
+      "sha256": "f3553b96aa52e4657264950028931392725703110ae947422182472ddaeed925"
     },
     {
       "path": "README.md",
-      "bytes": 3730,
-      "sha256": "95afe78d2f9f26174ed0d9092a139b89c87c9d8a5829b011c4357d69e952caee"
+      "bytes": 3976,
+      "sha256": "2e593e3029b0ba9eba5692d6f84215139ea7f3335442d079c24de877c508d938"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -273,8 +273,13 @@
     },
     {
       "path": "docs/BASELINE_COMPARISON_CONTRACT.md",
-      "bytes": 10759,
-      "sha256": "78dbb4ebc417f8934ec04aed3a8003a7438d943911d3993f7c860e215b0925a9"
+      "bytes": 10858,
+      "sha256": "d148ee3b0c7a09a9938ab0f9a4ac0f831ab38585b5f82bf6b6346906a30d54f9"
+    },
+    {
+      "path": "docs/CONTENT_ADJUDICATION.md",
+      "bytes": 4081,
+      "sha256": "b0e793fc2936e0727a0567e9c5ec870acc4dbe94ec3d8ede2aa64f6619e3c6dd"
     },
     {
       "path": "docs/CSI_INFORMATION_CONTRACT.md",
@@ -293,8 +298,13 @@
     },
     {
       "path": "docs/LITERATURE.md",
-      "bytes": 8815,
-      "sha256": "279173fb60823a966358d717ee4cc857d446a49c19ab24c898e5e0ebc37b986f"
+      "bytes": 9182,
+      "sha256": "57b6a2708ad37ce41749025400465663eb533b6d7529548d709b720ca3ff8d6e"
+    },
+    {
+      "path": "docs/PAI_EVALUATION_CONTRACT.md",
+      "bytes": 9869,
+      "sha256": "920195f27ebabf2ff6f1e5334d63a3e224a52ba37718589125acadb8b86061de"
     },
     {
       "path": "docs/PROJECT_STATE.md",
@@ -303,8 +313,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 7199,
-      "sha256": "886038372f710f404bf949d68432b767062797bcad4b0d742c694c52b3a3ce7e"
+      "bytes": 7337,
+      "sha256": "dfb33ce105f6cf095702ff6d48e26ca4e3ce9043d0b7d33f0d714dfecfc9bd77"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -328,8 +338,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 11228,
-      "sha256": "de0b1caeeb02a968a1c8d08aac0f9b9a586680bf7452f8f089820dc2e8a79a19"
+      "bytes": 12382,
+      "sha256": "bd51bc6832e27bfb2950c1f9626e5ae152e136f770337d80c012b34a9626d61d"
     },
     {
       "path": "prompts/README.md",
@@ -730,6 +740,11 @@
       "path": "reports/geometry_proof_obligations.md",
       "bytes": 6165,
       "sha256": "c891354e135187c4a7ec5bfd24c20aa7257a90b12034e65e18d98a5dca4e619f"
+    },
+    {
+      "path": "reports/pai_source_evidence.json",
+      "bytes": 7332,
+      "sha256": "4e8a21aca9371bcc3dd72918bcfd5f9aae496b6483d2554785ffcf41e19ccb1d"
     },
     {
       "path": "reports/research_review.md",
@@ -4622,6 +4637,11 @@
       "sha256": "db45a31d2a9e83e404e7167f8ab43adc471b6b85639f41232857a133a2487d69"
     },
     {
+      "path": "templates/content_adjudication.csv",
+      "bytes": 174,
+      "sha256": "20d27ef6cd982d19703cb629b0c112e8100d249c9bc224c797be6796ef2b9af0"
+    },
+    {
       "path": "tools/build_advisor_briefing.py",
       "bytes": 5896,
       "sha256": "c06f7e06ce87625e31d6b26c69a156204807d9922383d673f1e3cb3369ce3edb"
@@ -4637,14 +4657,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 25850635,
+  "total_bytes": 25874579,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-17T05:24:18.258305+00:00",
+  "updated_at_utc": "2026-10-17T05:33:43.863078+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "deca6a951878562b9b16452351b1a496325f928f"
+  "previous_publication_commit": "47c5239ac2cd931fc2c0c3cbe42e21ab6063b405"
 }

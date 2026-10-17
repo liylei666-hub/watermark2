@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-17T05:24:18.978950+00:00",
-  "published_files_checked": 927,
+  "checked_at_utc": "2026-10-17T05:33:44.455698+00:00",
+  "published_files_checked": 931,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -12,7 +12,7 @@
   "models_loaded": false,
   "new_model_experiments_run": 0,
   "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference",
-  "verified_at_utc": "2026-10-17T05:24:18.978950+00:00",
+  "verified_at_utc": "2026-10-17T05:33:44.455698+00:00",
   "scope": "Read-only archive verification; GPU/model fields below describe verification, not historical experiment execution.",
   "stage07_verification": {
     "completed_model_runs": 6,
@@ -67,5 +67,13 @@
     "source_rebuild_verified": true,
     "report": "reports/evaluation_events_20261017/report.md",
     "full_defense_joint_rate": null
+  },
+  "pai_static_audit": {
+    "report": "docs/PAI_EVALUATION_CONTRACT.md",
+    "source_hashes_verified": 10,
+    "python_files_ast_parsed": 9,
+    "pinned_links_range_checked": 17,
+    "upstream_code_executed": false,
+    "content_template_data_rows": 0
   }
 }
