@@ -22,6 +22,18 @@
 
 另有边界材料：[随机密钥选择防伪造](https://www.toluwaniaremu.com/wm-forgery)涉及多样本/多密钥设置；[GhostVAE 的 USENIX 页面](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-jinyuan)本轮直接读取超时，先前检索只定位题名。后门能力不同于本项目的代理攻击，未将它列为直接比较基线。
 
+## 交付路径假设的近邻方法
+
+2026-10-17补充定向阅读：
+
+| 来源 | 阅读范围与方法 | 对研究设计的约束 |
+|---|---|---|
+| [PnP，2506.06018v1](https://arxiv.org/html/2506.06018v1) | §3.1–3.2：代理反演估计噪声，利用 cover 视觉/文本条件驱动预训练恢复扩散模型 | 保持内容的噪声迁移已有先例；论文提供[官方仓库](https://github.com/chaoyitud/PnP-Watermark-Forgery)，本次未审计代码或下载模型 |
+| [WMCopier，2503.22330v3](https://arxiv.org/html/2503.22330v3) | §4.1–4.3：水印图像集合训练无条件扩散模型，浅层反演/去噪和细化 | 数据量和训练权限与单参考图不同；不把 no-box 等同于无训练 |
+| [Athalye et al.，BPDA，ICML 2018](https://proceedings.mlr.press/v80/athalye18a.html) | §4.1：不可微前向配合可微反向近似 | 若对图像离散转换使用近似梯度，须引用并验证，而不是独立创新 |
+
+[方法假设](METHOD_HYPOTHESIS.md)区分源码事实、未测量的交付差距与未验证的迁移收益。本轮补充查询包括 diffusion watermark forgery VAE cycle consistency quantization、semantic watermark round-trip、WMCopier/Reforge 与 decoder re-encoding；定向检索没有构成新颖性证明。
+
 ## 官方实现可用性
 
 | 仓库 | 核查位置 | 本轮实际检查 | 仍待验证 |

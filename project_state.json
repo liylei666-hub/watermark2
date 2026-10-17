@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-17T05:46:24.826380+00:00",
+  "as_of_utc": "2026-10-17T06:00:47.345791+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -11,7 +11,7 @@
     "07",
     "08"
   ],
-  "current_stage_status": "pai_public_history_closed_attribution_and_alarm_endpoints_separated",
+  "current_stage_status": "imprint_delivery_path_hypothesis_defined_static_evidence_verified",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -44,7 +44,7 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/pai_history_and_endpoints.json",
+  "latest_completed_analysis": "reports/imprint_delivery_audit.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
   "current_round_gpu_seconds_used": 757.62238442339,
@@ -73,7 +73,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Develop the fixed-victim-key image-forgery hypothesis against audited existing attacks, with attribution and alarm endpoints separated. Reopen PAI execution only when missing official artifacts appear; no repeated unchanged-source checks or stage09 retries.",
+  "next_action": "Freeze a single-reference/cover proxy delivery-path diagnostic protocol and recorder, first controlling inversion-implementation and checkpoint timing equivalence. Measure before considering an optimization intervention; full defense comparisons still require complete official protocols.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "71cbb1e095fbfd92dc93058af4a6ea13e5e447f8240a9669fe135f8b06a87fdd",
@@ -361,5 +361,14 @@
     "model_experiment_queue_status": "deferred_pending_new_official_artifacts",
     "proof_scope": "initializer correlation and continuous-key tolerance require explicit conditions; no attack demonstrated",
     "supplementary_evidence": "reports/pai_history_and_endpoints.json"
+  },
+  "method_hypothesis": "docs/METHOD_HYPOTHESIS.md",
+  "delivery_path_hypothesis": {
+    "status": "untested",
+    "source_path_difference_verified": true,
+    "magnitude": null,
+    "transfer_gain": null,
+    "novelty": null,
+    "frozen_execution_protocol": null
   }
 }

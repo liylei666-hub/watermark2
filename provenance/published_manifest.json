@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 6793,
-      "sha256": "c485f3cecda89adee16a84b81068fb17ff04b970c43f4212a51c22dfddba9790"
+      "bytes": 7208,
+      "sha256": "5d5556587bdce18e0ac8ebd68792fffed3b268992efebc06fb611bfc271e86dc"
     },
     {
       "path": "README.md",
@@ -298,8 +298,13 @@
     },
     {
       "path": "docs/LITERATURE.md",
-      "bytes": 9182,
-      "sha256": "57b6a2708ad37ce41749025400465663eb533b6d7529548d709b720ca3ff8d6e"
+      "bytes": 10457,
+      "sha256": "eb453bf89cce534caf9768920c95159aebfe574de7ab3460adee2f486443ddec"
+    },
+    {
+      "path": "docs/METHOD_HYPOTHESIS.md",
+      "bytes": 8918,
+      "sha256": "513ca1254cb8d06879e24b9b8c6c6acc78ac7cddef818d47e2ea0b4c2c3d67a3"
     },
     {
       "path": "docs/PAI_EVALUATION_CONTRACT.md",
@@ -313,8 +318,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 7759,
-      "sha256": "7e7bf79283aa93b466fe5e4e4454eaf070eced59f83b0228826bb104d25f45e9"
+      "bytes": 8088,
+      "sha256": "6061397399d6a9a65ef467d2dc6e4898b5212595545543be2c67812d0ad6c6c4"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -338,8 +343,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 12852,
-      "sha256": "51471f969210fa6fdb0ab37351c1fccffece8601301dbe5fdaecb88a0ced9529"
+      "bytes": 13147,
+      "sha256": "ea24f88060343dcaa96c4481d0e96f339e017ab0282f786caf7b586507534ed4"
     },
     {
       "path": "prompts/README.md",
@@ -740,6 +745,11 @@
       "path": "reports/geometry_proof_obligations.md",
       "bytes": 6165,
       "sha256": "c891354e135187c4a7ec5bfd24c20aa7257a90b12034e65e18d98a5dca4e619f"
+    },
+    {
+      "path": "reports/imprint_delivery_audit.json",
+      "bytes": 2549,
+      "sha256": "e0876fd6107c45861cf76dff8b7f4a77f4b04850f72454ea14d9f4aa859dc19b"
     },
     {
       "path": "reports/pai_history_and_endpoints.json",
@@ -4667,14 +4677,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 25890385,
+  "total_bytes": 25904166,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-17T05:46:56.876224+00:00",
+  "updated_at_utc": "2026-10-17T06:01:12.823014+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "1c316d6425bf584b018fb4024536ab667145d716"
+  "previous_publication_commit": "d79137fbc1172066b8760de099f7546111349793"
 }
