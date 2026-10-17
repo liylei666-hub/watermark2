@@ -1,7 +1,6 @@
 --- a/scripts/imprint_delivery/experiment.py
 +++ b/scripts/imprint_delivery/experiment.py
-@@ -196,10 +196,14 @@
- 
+@@ -197,8 +197,12 @@
      # Compare the actual z gradient before and after the initial observer.
      loss = torch.nn.functional.mse_loss(internal(z), target)
 -    gradient_before = torch.autograd.grad(loss, z)[0].detach().clone()
@@ -16,4 +15,3 @@
 +    gradient_after = z.grad.detach().clone()
      same = torch.equal(gradient_before, gradient_after)
      write(output / 'gradient_replay.json', dict(bitwise_equal=same,
-         max_abs=float((gradient_before - gradient_after).abs().max().cpu()),

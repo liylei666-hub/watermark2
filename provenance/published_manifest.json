@@ -4673,8 +4673,8 @@
     },
     {
       "path": "scripts/imprint_delivery/gradient_compatibility.patch",
-      "bytes": 851,
-      "sha256": "236acbbd08c599cad0f4064a98fcf64084aefca8c735ddd108237f7375b7867b"
+      "bytes": 770,
+      "sha256": "6d9eb7149375dd61fea3327397146af39fc7dc328a8ed0841a7e64fe1ee7afaf"
     },
     {
       "path": "scripts/imprint_delivery/test_checkpoint_gradient.py",
@@ -4807,14 +4807,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 26025467,
+  "total_bytes": 26025386,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-17T18:51:57.741836+00:00",
+  "updated_at_utc": "2026-10-17T18:52:48.151173+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "2552a0919553f0c907264244e61bff1610e295ed"
+  "previous_publication_commit": "3953b54d07e49dbd0374c68bf39d54c304133d05"
 }
