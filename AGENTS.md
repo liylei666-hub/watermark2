@@ -30,3 +30,8 @@ Only local authorized models/data are experimental targets. Network activity is 
 Current first-round usage: 11 completed model processes, 757.62238442339 GPU-process seconds used, 6442.37761557661 seconds remaining. See reports/09_vae_roundtrip/summary.json. Stage08 completed; stage09 stopped before seed103 at the device preflight and is incomplete. Preserve it without retry and do not reset the budget.
 
 The user explicitly authorized continuous autonomous research within the established scope. Continue useful analysis, protocol work and publication without routine step-by-step approval requests. Target-internal roundtrip controls are evaluator-only interventions. The evidence-first idle gate scripts/gpu_preflight.py is available for future launchers; it has not changed the frozen stage07–09 code.
+
+
+## GPU time authorization update (2026-10-17)
+
+The user explicitly removed GPU usage-time budget restrictions for continued research. Cumulative and per-process time are no longer authorization caps. Continue recording actual usage for reproducibility. Each frozen diagnostic may set an operational watchdog; stage10 uses 1200 seconds to contain a stalled process. This is an engineering stop rule for that protocol, not a renewed user budget. Physical GPUs 0,1,2 only, verified idle UUID binding, single-card serial execution, 10-GiB file limit, no new model downloads, evidence preservation and the stage09 no-retry decision remain in force.

@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-17T06:00:47.345791+00:00",
+  "as_of_utc": "2026-10-17T06:13:57.675056+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -11,7 +11,7 @@
     "07",
     "08"
   ],
-  "current_stage_status": "imprint_delivery_path_hypothesis_defined_static_evidence_verified",
+  "current_stage_status": "imprint_delivery_protocol_frozen_cpu_tests_passed_waiting_for_gpu",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -28,7 +28,7 @@
   "data_role": "development_pilot",
   "latest_report": "reports/09_vae_roundtrip/report.md",
   "latest_status": "project_state.json",
-  "latest_protocol": "runs/09_vae_roundtrip_20261016T015236Z/protocol.json",
+  "latest_protocol": "protocols/10_imprint_delivery.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -44,7 +44,7 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/imprint_delivery_audit.json",
+  "latest_completed_analysis": "reports/10_imprint_delivery/preparation.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
   "current_round_gpu_seconds_used": 757.62238442339,
@@ -61,22 +61,24 @@
     6,
     7
   ],
-  "selected_gpu_uuid": "GPU-3d3813cb-3429-0174-212f-fa9c7fe5e99a",
+  "selected_gpu_uuid": null,
   "authorization": {
-    "total_gpu_process_seconds": 7200,
-    "max_process_seconds": 1200,
+    "total_gpu_process_seconds": null,
+    "max_process_seconds": null,
     "max_new_bytes": 10737418240,
     "new_model_downloads": false,
-    "serial": true
+    "serial": true,
+    "gpu_time_budget_removed_by_user_at_utc": "2026-10-17T06:13:57.675056+00:00",
+    "amendment_user_text": "继续，之后不用考虑gpu用量时间"
   },
   "research_feasibility": "conditional",
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Freeze a single-reference/cover proxy delivery-path diagnostic protocol and recorder, first controlling inversion-implementation and checkpoint timing equivalence. Measure before considering an optimization intervention; full defense comparisons still require complete official protocols.",
+  "next_action": "Run the frozen stage10 single-pair native Imprint delivery diagnostic once on an idle authorized GPU; stop on equivalence/replay or execution failure. No full defense claim.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
-    "sha256": "71cbb1e095fbfd92dc93058af4a6ea13e5e447f8240a9669fe135f8b06a87fdd",
+    "sha256": "7b33ccf30420574650eb4a8be209f0f9a3c410587a539c4995d33d044f6b45bb",
     "experiments_paused": false
   },
   "evaluation_contract": "docs/EVALUATION_CONTRACT.md",
@@ -85,9 +87,9 @@
   "sembind_final_paper_reviewed": true,
   "sembind_end_to_end_adaptive_test_reported": true,
   "sembind_full_public_gs_s_verifier_available": false,
-  "selected_gpu_physical_index": 2,
+  "selected_gpu_physical_index": null,
   "active_run": null,
-  "current_round_gpu_seconds_remaining": 6442.37761557661,
+  "current_round_gpu_seconds_remaining": null,
   "last_completed_run": "runs/08_target_roundtrip_20261016T014337Z",
   "prompt_control_observation": {
     "paired_seeds": 3,
@@ -369,6 +371,15 @@
     "magnitude": null,
     "transfer_gain": null,
     "novelty": null,
-    "frozen_execution_protocol": null
+    "frozen_execution_protocol": "protocols/10_imprint_delivery.json"
+  },
+  "latest_preflight_run": "runs/10_imprint_delivery_20261017T061408Z",
+  "latest_preparation_report": "reports/10_imprint_delivery/report.md",
+  "stage10_preparation": {
+    "cpu_tests_passed": 8,
+    "actual_helper_cpu_compile_passed": true,
+    "model_processes_started": 0,
+    "status": "waiting_for_idle_gpu",
+    "protocol_sha256": "35b08d0c41d8667d62b4940b1d9b5984fb894a5c03edfad92c0c53bca95f8c4d"
   }
 }
