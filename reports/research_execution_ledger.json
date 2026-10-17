@@ -1,7 +1,7 @@
 {
   "scope": "Per-process stage07-12 execution records; earlier historical stages excluded",
-  "model_processes_with_execution": 16,
-  "gpu_process_seconds": 2114.525876435451,
+  "model_processes_with_execution": 17,
+  "gpu_process_seconds": 2206.407460845541,
   "nonzero_exit_processes": 2,
   "note": "Wall time of GPU model processes, including failures; not measured GPU kernel time or successful sample count",
   "records": [
@@ -99,6 +99,12 @@
       "path": "runs/11_imprint_gradient_20261017T192843Z/execution.json",
       "sha256": "cd6172ec3a782f7de1b400ef981e00bca97eeac7ec0ca8eaaf4dd97e88bd7a9b",
       "gpu_process_wall_seconds": 269.40395608590916,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/12_imprint_components_20261017T194049Z/execution.json",
+      "sha256": "19d9afb96e4810096bb7c8ff860d83ed68a4bdc131f9458ff6e1c6822645ac81",
+      "gpu_process_wall_seconds": 91.88158441009,
       "exit_code": 0
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-17T19:36:24.296317+00:00",
+  "as_of_utc": "2026-10-17T19:44:35.494906+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -9,9 +9,12 @@
     "05",
     "06",
     "07",
-    "08"
+    "08",
+    "10",
+    "11",
+    "12"
   ],
-  "current_stage_status": "stage11_completed_with_directional_derivative_disagreement",
+  "current_stage_status": "stage12_component_residual_localization_completed",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -24,13 +27,14 @@
     "08": 3,
     "09": 2,
     "10": 4,
-    "11": 1
+    "11": 1,
+    "12": 1
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/11_imprint_gradient/report.md",
+  "latest_report": "reports/12_imprint_components/report.md",
   "latest_status": "project_state.json",
-  "latest_protocol": "protocols/11_imprint_gradient.json",
+  "latest_protocol": "protocols/12_imprint_components.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -39,7 +43,7 @@
     "full official geometry implementation",
     "reference retrieval/reconstruction protocol",
     "geometry decision/calibration protocol",
-    "float delivery self-direction finite difference mismatch",
+    "Within-VAE-map cause of fixed-step directional residual; finite-step discrepancy is localized, not eliminated",
     "matched content/distortion and compute comparison",
     "official geometry scoring function numerical equivalence"
   ],
@@ -47,11 +51,11 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/11_imprint_gradient/analysis.json",
+  "latest_completed_analysis": "reports/12_imprint_components/analysis.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 2114.525876435451,
-  "current_round_model_processes_started": 16,
+  "current_round_gpu_seconds_used": 2206.407460845541,
+  "current_round_model_processes_started": 17,
   "allowed_gpu_physical_indices": [
     0,
     1,
@@ -82,10 +86,10 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Freeze a component-level numerical consistency diagnostic on the existing points and directions before any delivery-loss optimization; identify the finite-difference mismatch without tuning radius to pass.",
+  "next_action": "Design a runnable official Imprint versus existing single-image VAE-matching comparison with explicit cover/content/distortion and compute accounting; require a distinct scientific question before independent experiments, preserving unknown full-defense outcomes.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
-    "sha256": "c93544f8b647ff8f10b83832f5eb6f51c039d158acef20bb8f708cf25f5efecc",
+    "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
     "experiments_paused": false
   },
   "evaluation_contract": "docs/EVALUATION_CONTRACT.md",
@@ -97,7 +101,7 @@
   "selected_gpu_physical_index": 0,
   "active_run": null,
   "current_round_gpu_seconds_remaining": null,
-  "last_completed_run": "runs/11_imprint_gradient_20261017T192843Z",
+  "last_completed_run": "runs/12_imprint_components_20261017T194049Z",
   "prompt_control_observation": {
     "paired_seeds": 3,
     "aggregates": {
@@ -161,7 +165,7 @@
       "bit_accuracy_same_minus_changed": 0.009114583333333334
     }
   },
-  "last_attempted_run": "runs/11_imprint_gradient_20261017T192843Z",
+  "last_attempted_run": "runs/12_imprint_components_20261017T194049Z",
   "autonomous_continuation_authorized": true,
   "target_roundtrip_observation": {
     "same_prompt": {
@@ -254,12 +258,12 @@
     "Actual score Lipschitz/normalization scaling sufficient for dimension-exponential tails"
   ],
   "remote_observation": {
-    "checked_at_utc": "2026-10-17T19:33:46.786190+00:00",
+    "checked_at_utc": "2026-10-17T19:43:01.291804+00:00",
     "ssh_result": "connected",
     "known_model_processes_observed": 0,
     "gpu_compute_processes_observed": 0,
-    "execution_file_count": 16,
-    "gpu_process_seconds": 2114.525876435451,
+    "execution_file_count": 17,
+    "gpu_process_seconds": 2206.407460845541,
     "all_execution_hashes_match_server": true
   },
   "csi_audit": {
@@ -380,7 +384,7 @@
     "frozen_execution_protocol": "protocols/11_imprint_gradient.json"
   },
   "latest_preflight_run": "runs/10_imprint_delivery_20261017T061408Z",
-  "latest_preparation_report": "reports/11_imprint_gradient/preparation.json",
+  "latest_preparation_report": "reports/12_imprint_components/preparation.json",
   "stage10_preparation": {
     "cpu_tests_passed": 8,
     "actual_helper_cpu_compile_passed": true,
@@ -451,5 +455,22 @@
     "derivative_mismatch_cause": null,
     "target_scores_used": false,
     "full_defense_accepted": null
+  },
+  "imprint_component_diagnostic": {
+    "run": "runs/12_imprint_components_20261017T194049Z",
+    "reference_cover_pairs": 1,
+    "dependent_points": [
+      0,
+      10
+    ],
+    "split_chain_gradients_bitwise_equal": true,
+    "residual_localization": "VAE decode-clamp-encode composite has larger absolute residual than downstream inversion in both delivery self-directions",
+    "clamp_causation": null,
+    "gradient_bug_demonstrated": null,
+    "new_candidate_images": 0,
+    "optimization_updates": 0,
+    "target_scores_used": false,
+    "full_defense_accepted": null,
+    "method_selection": "delivery loss not selected as a paper method"
   }
 }

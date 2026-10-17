@@ -57,3 +57,7 @@ Revision3 completed ten native updates; the separate full-trajectory observation
 ## Verified stage11 completion (2026-10-18)
 
 Two fixed dependent points and eight signed probes completed without optimization or target calls. Preserve all outputs and the two finite-difference disagreement flags; do not change the stage11 radius or rerun it to satisfy tolerance. Stage07 onward totals 16 processes and 2114.525876435451 seconds. Next work may isolate component linearization residuals at the same saved points, directions and radius under a separate frozen protocol. No active model process remains at this update; recheck before launches.
+
+## Verified stage12 completion (2026-10-18)
+
+Component localization completed on the unchanged stage11 points and perturbations. Split-chain gradients are byte-equivalent; finite-step residuals are larger in the VAE decode/clamp/encode composite than downstream inversion for both delivery self-directions. Clamp causation and target transfer remain unknown. Preserve the closed stage11/12 diagnostics; no radius tuning or repeated probes to seek a preferred result. Stage07 onward totals 17 processes and 2206.407460845541 seconds. No active model process remains at this check. Next independent work must specify a distinct scientific question and matched task/cost accounting.
