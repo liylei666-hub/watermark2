@@ -53,3 +53,7 @@ The user explicitly requested autonomous research until assistance is needed. St
 ## Verified stage10 completion (2026-10-18)
 
 Revision3 completed ten native updates; the separate full-trajectory observation control produced byte-identical final latent and PNG. Preserve all four stage10 model-process records including both failures. Stage07 onward totals 15 model processes and 1845.121920349542 GPU-process seconds, verified from execution files. No active model process remains at this update; recheck before future launches.
+
+## Verified stage11 completion (2026-10-18)
+
+Two fixed dependent points and eight signed probes completed without optimization or target calls. Preserve all outputs and the two finite-difference disagreement flags; do not change the stage11 radius or rerun it to satisfy tolerance. Stage07 onward totals 16 processes and 2114.525876435451 seconds. Next work may isolate component linearization residuals at the same saved points, directions and radius under a separate frozen protocol. No active model process remains at this update; recheck before launches.

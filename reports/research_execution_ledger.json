@@ -1,7 +1,7 @@
 {
   "scope": "Per-process stage07-12 execution records; earlier historical stages excluded",
-  "model_processes_with_execution": 15,
-  "gpu_process_seconds": 1845.121920349542,
+  "model_processes_with_execution": 16,
+  "gpu_process_seconds": 2114.525876435451,
   "nonzero_exit_processes": 2,
   "note": "Wall time of GPU model processes, including failures; not measured GPU kernel time or successful sample count",
   "records": [
@@ -94,10 +94,14 @@
       "sha256": "2f6e945cb62a2e43bff07ccc4605da679d8a3f4f97fb18f347ace1c9a980da17",
       "gpu_process_wall_seconds": 402.74117193883285,
       "exit_code": 0
+    },
+    {
+      "path": "runs/11_imprint_gradient_20261017T192843Z/execution.json",
+      "sha256": "cd6172ec3a782f7de1b400ef981e00bca97eeac7ec0ca8eaaf4dd97e88bd7a9b",
+      "gpu_process_wall_seconds": 269.40395608590916,
+      "exit_code": 0
     }
   ],
   "verifier_gpu_used": false,
-  "verifier_models_loaded": false,
-  "checked_at_utc": "2026-10-17T19:17:48.414697+00:00",
-  "all_execution_hashes_match_server": true
+  "verifier_models_loaded": false
 }

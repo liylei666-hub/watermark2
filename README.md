@@ -4,6 +4,7 @@
 
 **当前判断：方向有条件可行，已有结果尚不足以构成顶刊顶会贡献。已完成提示词和目标往返对照，并留存未完成的 VAE 组件诊断；完整防御协议仍有明确缺项。**
 
+- [固定点梯度诊断](reports/11_imprint_gradient/report.md)：两个点梯度余弦0.731/0.676，原生下降仍改善交付目标；交付自方向的两项差分核验超出容差，原因待定位。
 - [Imprint交付路径诊断](reports/10_imprint_delivery/report.md)：10步原生优化已完成，PNG保留91.52%的内部损失改善；包含失败证据、确定性核验与完整轨迹对照。
 - [研究审查](reports/research_review.md)：可行性、创新空间、理论问题与继续/停止条件。
 - [导师讨论 Word](docs/advisor_briefing.docx) / [可检索正文](docs/advisor_briefing.md)：原论文、两篇 ICML 2026 防御、结果与研究问题。
