@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-17T21:48:02.827021+00:00",
+  "as_of_utc": "2026-10-17T22:01:08.025265+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -37,7 +37,7 @@
     "14": 1,
     "15": 1,
     "16": 0,
-    "17": 3
+    "17": 5
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
@@ -63,8 +63,8 @@
   "latest_completed_analysis": "reports/16_cover_preparation/status.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 2885.765502355993,
-  "current_round_model_processes_started": 24,
+  "current_round_gpu_seconds_used": 3654.2175584351644,
+  "current_round_model_processes_started": 26,
   "allowed_gpu_physical_indices": [
     0,
     1,
@@ -110,7 +110,7 @@
   "selected_gpu_physical_index": 0,
   "active_run": "runs/17_cover_pilot_20261017T214442Z",
   "current_round_gpu_seconds_remaining": null,
-  "last_completed_run": "runs/15_imprint_timing_r2_20261017T205635Z",
+  "last_completed_run": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain",
   "prompt_control_observation": {
     "paired_seeds": 3,
     "aggregates": {
@@ -534,7 +534,7 @@
     "active_run": null,
     "next_step": "Freeze one 100-update original-state development timing and finiteness check with no target calls before independent-pair comparison design"
   },
-  "usage_note": "23 completed/failed model processes have execution records through the two stage17 preparation processes; one stage17 attack process is active and its elapsed time is not yet settled.",
+  "usage_note": "25 completed/failed model processes are settled, including four stage17 children; one stage17 attack is active and excluded from elapsed-time total.",
   "core_cost_calibration": {
     "status": "passed",
     "equal_files": [
@@ -604,27 +604,31 @@
     "protocol": "protocols/17_cover_pilot.json",
     "next_step": "Launch the frozen stage17 serial pilot after a fresh idle check; stop on any engineering failure."
   },
-  "last_updated_utc": "2026-10-17T21:49:55.889391+00:00",
+  "last_updated_utc": "2026-10-17T22:02:38.683757+00:00",
   "cover_pilot": {
     "run_dir": "runs/17_cover_pilot_20261017T214442Z",
     "status": "running",
     "controller_pid": 28720,
     "active_child": [
       {
-        "path": "attack_outputs/1/imprint",
+        "path": "attack_outputs/2/imprint",
         "process": {
-          "pid": 30498,
-          "started_at_utc": "2026-10-17T21:47:33.727268+00:00"
+          "pid": 36693,
+          "started_at_utc": "2026-10-17T22:00:34.566923+00:00"
         },
         "execution": null
       }
     ],
-    "completed_children": 2,
+    "completed_children": 4,
     "planned_model_processes": 9,
-    "candidates_completed": 0,
+    "candidates_completed": 2,
     "target_evaluation_started": false,
     "full_defense_acceptance": null,
-    "latest_snapshot": "reports/17_cover_pilot/preparation_completed.json",
-    "local_analysis_draft": "scripts/analyze_cover_pilot.py is a pending CPU readback script; syntax checked only, not run on completed results"
+    "latest_snapshot": "reports/17_cover_pilot/pair1_progress.json",
+    "analysis_readiness": "Eight synthetic readback tests passed; incomplete-group CPU score gate passed; real complete-group analysis and GS score recomputation pending.",
+    "analysis_scripts": [
+      "scripts/analyze_cover_pilot.py",
+      "scripts/verify_cover_gs_cpu.py"
+    ]
   }
 }

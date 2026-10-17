@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 8557,
-      "sha256": "8c67856f1404b7538437929ec5faa57f57c9a57e6718e9af03c6e24f10de1384"
+      "bytes": 8999,
+      "sha256": "6ed03217296225c8bf9be625d559cdadba58b6414b377312edc95295121ee090"
     },
     {
       "path": "README.md",
@@ -353,8 +353,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 24050,
-      "sha256": "0f27ea2581f101943cedc00d4cb388c508cc390da10d460d9fe1b7339cab4a84"
+      "bytes": 24164,
+      "sha256": "fe3236f44ce1119e8d63e2c0d70ac0c1736c5ddd04a808bf5fcbd5a14187276c"
     },
     {
       "path": "prompts/README.md",
@@ -1167,6 +1167,11 @@
       "sha256": "0d79498729cedcb1e76f1138aaa4f33bb6ffaa32681afb86924ef0d05a0bc1f2"
     },
     {
+      "path": "reports/17_cover_pilot/imprint1_readback.json",
+      "bytes": 760,
+      "sha256": "a8dc84eb77db8eb1fd2f2f4bc6a06f3de803fb90ce3a515836a8d49a143386f5"
+    },
+    {
       "path": "reports/17_cover_pilot/input_visual_observations.json",
       "bytes": 2931,
       "sha256": "d594135d43452eed774cb731f1a9a9299a28d3095b1ac33d11fd4303ab3322d1"
@@ -1175,6 +1180,16 @@
       "path": "reports/17_cover_pilot/monitor_20261017T214630Z.json",
       "bytes": 571,
       "sha256": "d1aeb5660c2ce63f927fc1438b2bbac60f646449beb6a58af94d79ded032715a"
+    },
+    {
+      "path": "reports/17_cover_pilot/pair1_progress.json",
+      "bytes": 5065,
+      "sha256": "31491230d43fa72a31b3bc4ea52fc42ab7043b7da1d1202bd56282e12eed3fc3"
+    },
+    {
+      "path": "reports/17_cover_pilot/pair1_readback.json",
+      "bytes": 1782,
+      "sha256": "605d70560a4b0f63771ba6f2ee9bdaefe1f14a4dad80b39614f96f7e3cdf6b25"
     },
     {
       "path": "reports/17_cover_pilot/preparation_completed.json",
@@ -1192,9 +1207,24 @@
       "sha256": "39297f34fec8faff67865d53487d30e6391b97a3ec34ac04f087bacc1e327e7e"
     },
     {
+      "path": "reports/17_cover_pilot/progress_20261017T215917Z.json",
+      "bytes": 5347,
+      "sha256": "6292f2ecf0d14f90281a37865b459358411bbb54c0f51e0a8ac18fbfc5bf7c6a"
+    },
+    {
+      "path": "reports/17_cover_pilot/readback_tests.json",
+      "bytes": 1418,
+      "sha256": "78333729d1c1495b5d14cee1bbfd94ef130c9b9981fde3c6243c25ac9f7b4fa8"
+    },
+    {
       "path": "reports/17_cover_pilot/report.md",
-      "bytes": 2233,
-      "sha256": "70bf689fde266dc2eda0d31a1f5f06450bf3148f0bf1566e51cdb1e95bff9b9f"
+      "bytes": 3511,
+      "sha256": "c777bc0b62d33eb618ac6f8f9c221a0f38dd113bb0d55410a9ea396a5c65cd44"
+    },
+    {
+      "path": "reports/17_cover_pilot/score_gate_check.json",
+      "bytes": 290,
+      "sha256": "db5a5d483b5746e6f28065353304c4fd67d6c0fab6a24a6537c5e5804130e22b"
     },
     {
       "path": "reports/cover_baseline_contract/cpu_checks.json",
@@ -1313,8 +1343,8 @@
     },
     {
       "path": "reports/research_execution_ledger.json",
-      "bytes": 6584,
-      "sha256": "fda20216704885414bf29ee1d841bb0772349a68ad4146aaa4feb4d78af75d18"
+      "bytes": 7112,
+      "sha256": "42a49a48058cec397d2987070e5ce5b2ad8dffb0f068a09721918ac273f0ff4a"
     },
     {
       "path": "reports/research_review.md",
@@ -6687,6 +6717,126 @@
       "sha256": "021d1b16086ca159cda93f693f52c94dab9476ae3caeafd63bbb7d1712c48ebb"
     },
     {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/candidate.png",
+      "bytes": 530237,
+      "sha256": "1870780e0fa6316c82da662de612665889fa5d70e2cedee6175675c8e52fcc5b"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/candidate_frozen.json",
+      "bytes": 294,
+      "sha256": "8ba9a00e37b32d6184f26687307fcf34f19b8bf4e98d7be83b552b2bb7c45259"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/command.json",
+      "bytes": 656,
+      "sha256": "e6bc6f4b902da9b74fb2507331d763216a8cfac600d3dd5a6eb9a914a4abe6a7"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/device_preimport.json",
+      "bytes": 168,
+      "sha256": "5290c5ae505b18b275e88502c635e69a5fc4a006f241b79bb838acbdda215be2"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/execution.json",
+      "bytes": 267,
+      "sha256": "75e818ff27ce6a2234a3fff80990e9e158f5e13fdfe5bde2d7ab2080270f1e4c"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/final_latent.npy",
+      "bytes": 65664,
+      "sha256": "1db2c995eaff378c5ee363ce4a697ea8b7bae3aa9ac43fa6a9713d356e1d291b"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/preflight.jsonl",
+      "bytes": 641,
+      "sha256": "5cebfd44b24d71500e6bd1527e25c1bbd7d1fee514e55740a6c1ad8df14e4e96"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/process.json",
+      "bytes": 74,
+      "sha256": "af1aaa770c87b78cf2c129dc65e72de3479469be14e68672e365b0b5d849d8a0"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/reference_proxy_noise.npy",
+      "bytes": 65664,
+      "sha256": "4ab062a1ad221af071ad44db9a77889bcc767b7bb6f58cdb55c9c1f1a82ff213"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/stderr.log",
+      "bytes": 960,
+      "sha256": "c14cec3fff765d078e9329610566636565857366e663f88aad6dcd5d861b4e02"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/stdout.log",
+      "bytes": 23,
+      "sha256": "3b4477c63b7619dbcfe22d037194a0216fa641505a81628714a2cc3a9a0e08c6"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/summary.json",
+      "bytes": 770,
+      "sha256": "ba04f10b622ddbfcaea77902fab1a0744b3d319c28c7e21006fc196f7c5ef9a9"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/candidate.png",
+      "bytes": 568628,
+      "sha256": "dd1499c5e4d502c46400474cf706a25893d44af9bb908525a97efd6b4585d0fe"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/candidate_frozen.json",
+      "bytes": 291,
+      "sha256": "28daa2359d5190f2b81a6277e16160e8cd6fb0c1b79be023aed74c4b871efa45"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/command.json",
+      "bytes": 650,
+      "sha256": "fc4c248bd1b5f33d131862392c77c20a1c8a84f80178d857a23587ab70176ccd"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/device_preimport.json",
+      "bytes": 168,
+      "sha256": "5290c5ae505b18b275e88502c635e69a5fc4a006f241b79bb838acbdda215be2"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/execution.json",
+      "bytes": 267,
+      "sha256": "0cdc60a61a7b3a4ec833e06ba615417d875911bc347ac54a63554703e1ef8829"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/final_delta.npy",
+      "bytes": 3145856,
+      "sha256": "f450fd2141ff340f5daa40fa0cadf87cf585174aa2562b77c4991571671e3499"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/final_float.npy",
+      "bytes": 3145856,
+      "sha256": "0db2067a80312cf18b3bb25b23b246ddb04b17ce6c09398ad5a7d4d869f2335c"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/preflight.jsonl",
+      "bytes": 641,
+      "sha256": "2fe89a7be2f2b94ef1ff150a0396805b18e2e149c50fd8b63325b08906450118"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/process.json",
+      "bytes": 74,
+      "sha256": "e904a790f986638b30cc428aae8e9961da1d713c0f76033c956040f90d637218"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/stdout.log",
+      "bytes": 23,
+      "sha256": "3b4477c63b7619dbcfe22d037194a0216fa641505a81628714a2cc3a9a0e08c6"
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/summary.json",
+      "bytes": 760,
+      "sha256": "194deca1d13841e1c05b0d7b4d391533694200cac3676ae0a346b2e88098eb18"
+    },
+    {
       "path": "runs/17_cover_pilot_20261017T214442Z/attack_plan.json",
       "bytes": 1483,
       "sha256": "4273a74cd429f15f55c737d629bc34fa740ab94c219805f74d104e905f050c18"
@@ -7117,6 +7267,11 @@
       "sha256": "56cf4f16e0701bdfef5b3ec663fc38feaf9db9cf9d11ceb2b7d0ee6a8b79a2ee"
     },
     {
+      "path": "scripts/analyze_cover_pilot.py",
+      "bytes": 6185,
+      "sha256": "15346f67edd89ebd3558b997f68b01f78a6be3ef6d33b2188a32b90e26fc4d7b"
+    },
+    {
       "path": "scripts/analyze_imprint_components.py",
       "bytes": 5904,
       "sha256": "4f6a15db6bedc6a87e22196e1007514c852c2b6daee7de8c4b7ec57e31ae004a"
@@ -7472,6 +7627,11 @@
       "sha256": "f5912130747d5ad0a52eba8dd2eeca12a06b1644788981fd0e3acb9ba63846d9"
     },
     {
+      "path": "scripts/test_cover_readback.py",
+      "bytes": 5395,
+      "sha256": "85ee1ebd91738139080a602ae91651bc1bd2d00f8e225b829fa84cc8a946a5eb"
+    },
+    {
       "path": "scripts/test_cpu_latent_audit.py",
       "bytes": 1761,
       "sha256": "cccb10ccb569d8b9b8c31b22697ef60671ce10cbd008eb29502588155097d141"
@@ -7542,6 +7702,11 @@
       "sha256": "db45a31d2a9e83e404e7167f8ab43adc471b6b85639f41232857a133a2487d69"
     },
     {
+      "path": "scripts/verify_cover_gs_cpu.py",
+      "bytes": 3488,
+      "sha256": "210a1931f2b22f31a0143ab214f646aa688595287b1b96ce501b7303ccc8428f"
+    },
+    {
       "path": "templates/content_adjudication.csv",
       "bytes": 174,
       "sha256": "20d27ef6cd982d19703cb629b0c112e8100d249c9bc224c797be6796ef2b9af0"
@@ -7572,14 +7737,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 130437451,
+  "total_bytes": 137998175,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-17T21:50:53.907961+00:00",
+  "updated_at_utc": "2026-10-17T22:03:15.490716+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "e40067937b0cc8a9a4b7ea12657e516208792cb9"
+  "previous_publication_commit": "fc14cde5f66ccc1124547db9e0bf4385fb28404f"
 }
