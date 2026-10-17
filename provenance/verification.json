@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-17T20:35:14.425605+00:00",
-  "published_files_checked": 1322,
+  "checked_at_utc": "2026-10-17T21:06:26.967365+00:00",
+  "published_files_checked": 1393,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -12,7 +12,7 @@
   "models_loaded": false,
   "new_model_experiments_run": 0,
   "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference",
-  "verified_at_utc": "2026-10-17T20:35:14.425605+00:00",
+  "verified_at_utc": "2026-10-17T21:06:26.967365+00:00",
   "scope": "Read-only archive verification; GPU/model fields below describe verification, not historical experiment execution.",
   "stage07_verification": {
     "completed_model_runs": 6,
@@ -189,5 +189,28 @@
     "execution_files_checked": 19,
     "cumulative_gpu_process_seconds": 2239.0810272390954,
     "full_defense_acceptance": null
+  },
+  "stage14_vae_timing": {
+    "status": "passed",
+    "checked_at_utc": "2026-10-17T21:04:53.704094+00:00",
+    "remote_files_verified": 18,
+    "protocol_and_code_hashes_verified": true,
+    "prelaunch_idle_gate_verified": true,
+    "analysis_regenerated": true,
+    "target_calls": 0,
+    "full_defense_acceptance": null
+  },
+  "stage15_imprint_timing": {
+    "status": "passed",
+    "checked_at_utc": "2026-10-17T21:04:53.704094+00:00",
+    "remote_files_verified": 24,
+    "protocol_and_code_hashes_verified": true,
+    "prelaunch_idle_gate_verified": true,
+    "analysis_regenerated": true,
+    "target_calls": 0,
+    "full_defense_acceptance": null,
+    "equal_control_files": 8,
+    "execution_files_checked": 21,
+    "cumulative_gpu_process_seconds": 2733.0540150650777
   }
 }

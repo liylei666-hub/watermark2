@@ -66,3 +66,8 @@ Component localization completed on the unchanged stage11 points and perturbatio
 ## Verified stage13 core execution (2026-10-18)
 
 The real SD2.1 VAE frozen-parameter equivalence check failed its predeclared bitwise gate; preserve the closed run and do not retry it or relax tolerance. A separately frozen original-parameter-state control reproduced the three-step tensor, residual and PNG across processes. Future Jain baseline execution retains upstream parameter requires_grad flags. Neither check called the target. Stage07 onward totals 19 model processes and 2239.0810272390954 seconds, including the failed check. Next admissible question is bounded original-core timing/finiteness before an independent comparison; short prefixes do not establish long-run performance.
+
+
+## Verified stage14/15 cost measurements (2026-10-18)
+
+The fixed 100-update original Jain core completed with finite outputs. Imprint setup and ten native updates were timed separately; eight outputs remain byte-identical to the verified shadow trajectory. Resource-only calibration proposes 10 Imprint updates and 447 Jain updates for a three-pair development comparison, pending complete interface/code/config freeze. Both used GPU0 serially with fresh idle gates and no target calls. Stage07 onward totals 21 model processes and 2733.0540150650777 seconds. Preserve both closed timing runs; do not substitute complete process wall time for core optimization cost. The stage15 first protocol was never launched due to a prelaunch stage-label correction; only revision2 started a model.
