@@ -18,18 +18,18 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 5920,
-      "sha256": "33aad1db7f7d07050c984488874d0c84049b24d0c84cb94e5cb0bfa24f981cd1"
+      "bytes": 6436,
+      "sha256": "45d945c63270ccd8652d60f8d495aeee4bfecb334a5942ba9008667d2f514622"
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 7475,
-      "sha256": "55dbe1e963be4de5f6b319343b8664fa354f917735996a70fcfe0feed9c443f0"
+      "bytes": 7658,
+      "sha256": "9a3a36aae1955676279f4019fbffd0b2f6d11a21b4ab3621321487359adc1610"
     },
     {
       "path": "README.md",
-      "bytes": 4096,
-      "sha256": "f5dbc74d60ba3fab26552895ba4d49dca97eb83d96cd1bc2c54656dba703b499"
+      "bytes": 4114,
+      "sha256": "e84e2b1a054541404e151277c6a6119cc432729dfe37be062b17239d138bafb7"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -303,8 +303,8 @@
     },
     {
       "path": "docs/METHOD_HYPOTHESIS.md",
-      "bytes": 8940,
-      "sha256": "1f66c2ee54cef79fb9a020f9d981d9e6a7aeacda8c082c7216b6f7d727967bb6"
+      "bytes": 9093,
+      "sha256": "fd60eab2adf4f842686976127640af7829e1479e6ca65abd337dc9ff335068e5"
     },
     {
       "path": "docs/PAI_EVALUATION_CONTRACT.md",
@@ -318,8 +318,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 8232,
-      "sha256": "6081bd9969acffafd748010a6c5f88dbdb8840eb3e98011288d6807fbdde4815"
+      "bytes": 8327,
+      "sha256": "82322d8cc5fa767758f8bca856f23d430b2b5d0dcc1924dfd8d89c8cab903209"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -343,8 +343,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 13759,
-      "sha256": "ad9217d0de90cb089ca5e0ae69237d4512adff399cd260c86b318cad42cf3986"
+      "bytes": 14995,
+      "sha256": "c7fb45b91e0cb0589e348a6cb98ad1e8fda058dc08107e34079c1f7c21d76c30"
     },
     {
       "path": "prompts/README.md",
@@ -712,14 +712,34 @@
       "sha256": "8266683335ba0c351731281eff2df929c4466a4757b360fe89bb70b348911c71"
     },
     {
+      "path": "reports/10_imprint_delivery/execution_status.json",
+      "bytes": 1116,
+      "sha256": "4e63e604ce678794e0c1ede6cc13a08e95f7d008e21243fc1b68964dd88c6f98"
+    },
+    {
+      "path": "reports/10_imprint_delivery/execution_transfer.json",
+      "bytes": 1586,
+      "sha256": "11120d8e5fa326690ef857c558069b7ce4695c462e54a395976a2e660bd3672c"
+    },
+    {
+      "path": "reports/10_imprint_delivery/gradient_regression.stderr",
+      "bytes": 343,
+      "sha256": "00837d02e5f09457f402e6ed7a1c864564aa2cf1c8ff19a033f3d02902a79b27"
+    },
+    {
+      "path": "reports/10_imprint_delivery/gradient_regression.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
       "path": "reports/10_imprint_delivery/preparation.json",
       "bytes": 6106,
       "sha256": "797e6e024223166f4fd7065675dc88d78008816ab1d0e0ebfacf928902c444df"
     },
     {
       "path": "reports/10_imprint_delivery/report.md",
-      "bytes": 5440,
-      "sha256": "a29b7af62f43e0be7093e5b0b8e00aea96afb4784f941c29ea938a8182f469ec"
+      "bytes": 7184,
+      "sha256": "5c4456dc2941d76e65a13785b1ad17f67c7df2212777285259c525ffcd38c6fe"
     },
     {
       "path": "reports/csi_source_evidence.json",
@@ -4487,6 +4507,56 @@
       "sha256": "39321901b547d5a0b4e7967758fb0f83ef69256c50d3e1a4b9bedf5ffe476916"
     },
     {
+      "path": "runs/10_imprint_delivery_20261017T184646Z/command.json",
+      "bytes": 534,
+      "sha256": "82901522b6c3f773465e8365ec4bbce60469719e5a080fc73e5ba921a422a4d8"
+    },
+    {
+      "path": "runs/10_imprint_delivery_20261017T184646Z/device_preimport.json",
+      "bytes": 145,
+      "sha256": "078c4cb58dae71562e8653a6a173ce5186d342782af2bcc8758d0618bc662fa9"
+    },
+    {
+      "path": "runs/10_imprint_delivery_20261017T184646Z/execution.json",
+      "bytes": 268,
+      "sha256": "cb3a37ea3ee48bae63b9c72d37b19b77d326d3ae548d30dea5a94459ed81e67f"
+    },
+    {
+      "path": "runs/10_imprint_delivery_20261017T184646Z/launch_intent.json",
+      "bytes": 108,
+      "sha256": "b68f0319e171dacf18593893fbb3a889ce24031cf9024dbb8e9cc0aed6d47d42"
+    },
+    {
+      "path": "runs/10_imprint_delivery_20261017T184646Z/preflight.jsonl",
+      "bytes": 641,
+      "sha256": "1c072a5dcd53d4d6ac56fe08c49ce38331e9166ff95776acbb4a22f25e995948"
+    },
+    {
+      "path": "runs/10_imprint_delivery_20261017T184646Z/process.json",
+      "bytes": 74,
+      "sha256": "8e52b3416b4511ecb6b9b85848f187d336db41e56c6a8ad583254b6c96f38aaf"
+    },
+    {
+      "path": "runs/10_imprint_delivery_20261017T184646Z/reference_proxy_noise.npy",
+      "bytes": 65664,
+      "sha256": "f8e8c08a8f141e82bb0d04d708f84398906fdb27854bf1fed97491606618c739"
+    },
+    {
+      "path": "runs/10_imprint_delivery_20261017T184646Z/runtime.json",
+      "bytes": 690,
+      "sha256": "69944643fa18b4b1e24087da739317c64d4ebcb4d99fcf6780026a64de9a8174"
+    },
+    {
+      "path": "runs/10_imprint_delivery_20261017T184646Z/stderr.log",
+      "bytes": 2475,
+      "sha256": "a37c3c50e3377482d939d57dd3fc079421ce3fcfa3d5cf812075eea4c0cba09d"
+    },
+    {
+      "path": "runs/10_imprint_delivery_20261017T184646Z/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
       "path": "scripts/02_run_smoke.py",
       "bytes": 7122,
       "sha256": "1cfc7debfa4aa0eefd7afff4683879d62cd3106709590f589111e49b1deaaeec"
@@ -4600,6 +4670,16 @@
       "path": "scripts/imprint_delivery/experiment.py",
       "bytes": 11639,
       "sha256": "6e956c7bef8020b8562ab958b3087e16d58f5067d49a032fb352b8482f556ed6"
+    },
+    {
+      "path": "scripts/imprint_delivery/gradient_compatibility.patch",
+      "bytes": 851,
+      "sha256": "236acbbd08c599cad0f4064a98fcf64084aefca8c735ddd108237f7375b7867b"
+    },
+    {
+      "path": "scripts/imprint_delivery/test_checkpoint_gradient.py",
+      "bytes": 1845,
+      "sha256": "14f1b189ab7a4ca83382f75118aeab975ef2ce28f8d88dd1ff883228536e00b4"
     },
     {
       "path": "scripts/imprint_delivery/test_contract.py",
@@ -4727,14 +4807,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 25945182,
+  "total_bytes": 26025467,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-17T06:36:21.089730+00:00",
+  "updated_at_utc": "2026-10-17T18:51:57.741836+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "b1aca8ce94c9a9ddc5114f54806592f5f057da9e"
+  "previous_publication_commit": "2552a0919553f0c907264244e61bff1610e295ed"
 }

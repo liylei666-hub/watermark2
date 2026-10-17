@@ -40,3 +40,8 @@ The user explicitly removed GPU usage-time budget restrictions for continued res
 ## Exclusive experiment host (2026-10-17)
 
 The user requires all future GPU experiments to run only on verified idle GPUs of liyanlei@172.18.185.249, under /data0/liyanlei/watermark_research. The current physical-device scope [0,1,2] and UUID/occupancy checks remain effective; this host restriction does not expand device indices. Local GPU execution and use of other servers are disabled. Preserve serial execution and all scientific-integrity constraints.
+
+
+## Stage10 execution status (2026-10-18 Asia/Shanghai)
+
+Stage10 started one process on GPU0 and exited with code 1 at the initial gradient recorder because torch.autograd.grad is incompatible with upstream reentrant checkpoint. No optimizer update or candidate image completed. Preserve runs/10_imprint_delivery_20261017T184646Z without automatic retry. The compatibility patch passed three CPU regressions but is not applied to frozen code. Cumulative model processes: 12; GPU-process seconds: 818.9704131674953.

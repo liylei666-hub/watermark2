@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-17T06:36:04.744128+00:00",
+  "as_of_utc": "2026-10-17T18:50:29.396466+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -11,7 +11,7 @@
     "07",
     "08"
   ],
-  "current_stage_status": "imprint_delivery_protocol_frozen_cpu_tests_passed_waiting_for_gpu",
+  "current_stage_status": "stage10_stopped_checkpoint_gradient_api_failure_cpu_repair_verified",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -22,11 +22,12 @@
     "06": 0,
     "07": 6,
     "08": 3,
-    "09": 2
+    "09": 2,
+    "10": 1
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/09_vae_roundtrip/report.md",
+  "latest_report": "reports/10_imprint_delivery/report.md",
   "latest_status": "project_state.json",
   "latest_protocol": "protocols/10_imprint_delivery.json",
   "geometry_threshold": null,
@@ -40,15 +41,15 @@
     "official-function numerical equivalence",
     "recording/no-recording full numerical equivalence"
   ],
-  "as_of_local_date": "2026-10-17",
+  "as_of_local_date": "2026-10-18",
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/10_imprint_delivery/preparation.json",
+  "latest_completed_analysis": "reports/10_imprint_delivery/execution_status.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 757.62238442339,
-  "current_round_model_processes_started": 11,
+  "current_round_gpu_seconds_used": 818.9704131674953,
+  "current_round_model_processes_started": 12,
   "allowed_gpu_physical_indices": [
     0,
     1,
@@ -79,10 +80,10 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Run the frozen stage10 single-pair native Imprint delivery diagnostic once on an idle authorized GPU; stop on equivalence/replay or execution failure. No full defense claim.",
+  "next_action": "Review the CPU-verified gradient compatibility patch and prepare a distinct protocol revision; preserve the closed stage10 failure and do not automatically retry.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
-    "sha256": "1b88f14e29504e6aa9fe467b7457f8c46b5f8e1d176b4ac7048a4cbc2efb3da1",
+    "sha256": "b4d7a04aa4a6ad2da7e41bcbcfa4fcf83e9bc29d66c05dd26d4e6467a59871be",
     "experiments_paused": false
   },
   "evaluation_contract": "docs/EVALUATION_CONTRACT.md",
@@ -370,7 +371,7 @@
   },
   "method_hypothesis": "docs/METHOD_HYPOTHESIS.md",
   "delivery_path_hypothesis": {
-    "status": "untested",
+    "status": "untested_due_to_recorder_failure",
     "source_path_difference_verified": true,
     "magnitude": null,
     "transfer_gain": null,
@@ -385,5 +386,35 @@
     "model_processes_started": 0,
     "status": "waiting_for_idle_gpu",
     "protocol_sha256": "35b08d0c41d8667d62b4940b1d9b5984fb894a5c03edfad92c0c53bca95f8c4d"
+  },
+  "stage10_execution": {
+    "stage": "10",
+    "checked_at_utc": "2026-10-17T18:50:29.396466+00:00",
+    "status": "stopped_engineering_failure",
+    "run_dir": "runs/10_imprint_delivery_20261017T184646Z",
+    "execution": {
+      "exit_code": 1,
+      "timed_out": false,
+      "elapsed_seconds": 61.34802874410525,
+      "started_at_utc": "2026-10-17T18:46:51.192101+00:00",
+      "completed": false,
+      "model_processes_started": 1,
+      "gpu_index": 0,
+      "gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5"
+    },
+    "gpu_used": true,
+    "models_loaded": true,
+    "model_processes_started": 1,
+    "completed_optimizer_updates": 0,
+    "candidate_images_saved": 0,
+    "delivery_gap": null,
+    "hypothesis_supported": null,
+    "full_defense_accepted": null,
+    "failure": "Recorder torch.autograd.grad is incompatible with upstream reentrant checkpoint",
+    "repair_status": "patch dry-apply checked and three CPU regression tests passed; frozen code unchanged",
+    "repair_patch": "scripts/imprint_delivery/gradient_compatibility.patch",
+    "rerun_started": false,
+    "cumulative_gpu_process_seconds": 818.9704131674953,
+    "cumulative_model_processes_started": 12
   }
 }
