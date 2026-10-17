@@ -1,0 +1,247 @@
+{
+  "checked_at_utc": "2026-10-17T05:46:24.826380+00:00",
+  "repository": "https://github.com/QingyuLiu/PAI",
+  "reachable_main_commits": [
+    {
+      "commit": "9ebc58d1a106e7155347f0d1f186e67313a4b0cf",
+      "parents": [
+        "f44b71646c796f2028a8081b86a89daba85bb6e3"
+      ],
+      "files": [
+        {
+          "path": "DDIM_watermark.py",
+          "git_blob_sha1": "35da75de58b2e22fd3d5ab885ac2b5512d71ee5d"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha1": "ee011a0eb21cb035f944b34c37d1db8ddbc7144d"
+        },
+        {
+          "path": "appendix.pdf",
+          "git_blob_sha1": "0f839aa84c0141af36aadb721ca5a6afd1714d03"
+        },
+        {
+          "path": "dataset/watermark_dataloader.py",
+          "git_blob_sha1": "106599dbdf47422c1e787b7ccce018beb49ee439"
+        },
+        {
+          "path": "decode.py",
+          "git_blob_sha1": "48dc73d54ff944a71477fbe6711d062a98b9d2bd"
+        },
+        {
+          "path": "encode.py",
+          "git_blob_sha1": "680ef84a03b4035f3766f91038631d84232311e9"
+        },
+        {
+          "path": "post_process.py",
+          "git_blob_sha1": "e158a136ffce9ddb7bf0546e8490de135690d186"
+        },
+        {
+          "path": "utils.py",
+          "git_blob_sha1": "3b4787b0aca19212ab0dab91b6052ccf7bb168f9"
+        },
+        {
+          "path": "verify_robust.py",
+          "git_blob_sha1": "0ac38bcf23c6f5519e68f87e4f0697c734b4068b"
+        },
+        {
+          "path": "verify_tamping_location.py",
+          "git_blob_sha1": "cfd8e34b753d67f618b88fc9a0009cd91f419049"
+        },
+        {
+          "path": "verify_vanilla.py",
+          "git_blob_sha1": "383b03eb3efc3b5e7379fdb9209ad8149ee39709"
+        }
+      ]
+    },
+    {
+      "commit": "f44b71646c796f2028a8081b86a89daba85bb6e3",
+      "parents": [
+        "49e623cb5b0bf6d137e5bc01cde6fa4ea9362f0d"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "ee011a0eb21cb035f944b34c37d1db8ddbc7144d"
+        },
+        {
+          "path": "appendix.pdf",
+          "git_blob_sha1": "0f839aa84c0141af36aadb721ca5a6afd1714d03"
+        }
+      ]
+    },
+    {
+      "commit": "49e623cb5b0bf6d137e5bc01cde6fa4ea9362f0d",
+      "parents": [
+        "49e5b851968b72e9563983187fc2b00e2c9bd505"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "ee011a0eb21cb035f944b34c37d1db8ddbc7144d"
+        },
+        {
+          "path": "appendix.pdf",
+          "git_blob_sha1": "6d5e11b6e17c0094a11f06da12e0e52ff5a72d4e"
+        }
+      ]
+    },
+    {
+      "commit": "49e5b851968b72e9563983187fc2b00e2c9bd505",
+      "parents": [
+        "e68c82a5a13df4c32affd6eb2982f2e0afedfea0"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "ee011a0eb21cb035f944b34c37d1db8ddbc7144d"
+        }
+      ]
+    },
+    {
+      "commit": "e68c82a5a13df4c32affd6eb2982f2e0afedfea0",
+      "parents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "73dbea5ab3397595e1b45998e5514107aec12f1f"
+        }
+      ]
+    }
+  ],
+  "history_parent_chain_complete": true,
+  "pdfs": [
+    {
+      "name": "appendix.pdf",
+      "git_blob_sha1": "0f839aa84c0141af36aadb721ca5a6afd1714d03",
+      "sha256": "7e9693fd60ef6f6260a5066b0134c98047a45f5f34e21bfa6df9c984593fea5d",
+      "bytes": 8518028,
+      "pages": 7,
+      "embedded_attachments": [],
+      "external_links": [],
+      "extracted_text_pca_mentions": 0,
+      "structural_preflight": {
+        "schema": "pdf_read_preflight/1",
+        "verdict": "PASS",
+        "sha256": "7e9693fd60ef6f6260a5066b0134c98047a45f5f34e21bfa6df9c984593fea5d",
+        "declared_page_count": 7,
+        "enumerated_page_count": 7,
+        "reader_page_count": 7,
+        "warnings": [],
+        "generated_at": "2026-10-17T05:42:35.239358+00:00",
+        "tool": "pdf_read_preflight/1.0.0"
+      }
+    },
+    {
+      "name": "appendix_49e623cb.pdf",
+      "git_blob_sha1": "6d5e11b6e17c0094a11f06da12e0e52ff5a72d4e",
+      "sha256": "cce977b8a498ff38604efe273fa2e5de9b8c6832c169526ed93f0006f66be7bb",
+      "bytes": 8518440,
+      "pages": 7,
+      "embedded_attachments": [],
+      "external_links": [],
+      "extracted_text_pca_mentions": 0,
+      "structural_preflight": {
+        "schema": "pdf_read_preflight/1",
+        "verdict": "PASS",
+        "sha256": "cce977b8a498ff38604efe273fa2e5de9b8c6832c169526ed93f0006f66be7bb",
+        "declared_page_count": 7,
+        "enumerated_page_count": 7,
+        "reader_page_count": 7,
+        "warnings": [],
+        "generated_at": "2026-10-17T05:44:24.186729+00:00",
+        "tool": "pdf_read_preflight/1.0.0"
+      }
+    }
+  ],
+  "final_paper_structural_preflight": {
+    "schema": "pdf_read_preflight/1",
+    "verdict": "PASS",
+    "sha256": "b676bdacd4bbdd33b8d51f337fdcc528ed22d3aa6a69b841aec1b57d4ce8d484",
+    "declared_page_count": 27,
+    "enumerated_page_count": 27,
+    "reader_page_count": 27,
+    "warnings": [],
+    "generated_at": "2026-10-17T05:42:33.376807+00:00",
+    "tool": "pdf_read_preflight/1.0.0"
+  },
+  "paper_reported_reprompting": {
+    "source": "ICLR 2026 final, Table 2(b), A.6.1",
+    "ownership_accuracy_percent": 97.0,
+    "attack_accuracy_percent": 100.0,
+    "nominal_wrong_attribution_percent": 3.0,
+    "joint_unflagged_wrong_attribution_count": null,
+    "raw_per_image_records_available": false,
+    "independently_reproduced": false
+  },
+  "synthetic_joint_event_example": {
+    "scope": "synthetic finite sets, not experiment data",
+    "candidate_count": 10,
+    "attribution_positive_count": 4,
+    "alarm_positive_count": 6,
+    "possible_unflagged_attribution_counts": [
+      0,
+      4
+    ],
+    "bound": "max(0,p-q) <= P(attribution AND NOT alarm) <= min(p,1-q)"
+  },
+  "initializer_arithmetic": {
+    "status": "passed",
+    "scope": "synthetic deterministic scalar initializer arithmetic",
+    "synthetic_inputs": {
+      "key": 0.4,
+      "uniform": 0.37
+    },
+    "rows": [
+      {
+        "key_delta": 0.1,
+        "initializer_squared_difference": 0.07979829830070202,
+        "diagonal_terms_without_cross_term": 0.8804379646258857,
+        "cross_term": -0.8006396663251837,
+        "squared_lipschitz_bound": 0.12494142551008175
+      },
+      {
+        "key_delta": 0.01,
+        "initializer_squared_difference": 0.0007392602483977012,
+        "diagonal_terms_without_cross_term": 1.2045049237719505,
+        "cross_term": -1.2037656635235527,
+        "squared_lipschitz_bound": 0.0012494142551008173
+      },
+      {
+        "key_delta": 0.001,
+        "initializer_squared_difference": 7.317770015321562e-06,
+        "diagonal_terms_without_cross_term": 1.242434754803359,
+        "cross_term": -1.2424274370333435,
+        "squared_lipschitz_bound": 1.2494142551008172e-05
+      },
+      {
+        "key_delta": 0.0001,
+        "initializer_squared_difference": 7.310132576399144e-08,
+        "diagonal_terms_without_cross_term": 1.2462721253065796,
+        "cross_term": -1.2462720522052537,
+        "squared_lipschitz_bound": 1.2494142551008172e-07
+      },
+      {
+        "key_delta": 1e-06,
+        "initializer_squared_difference": 7.309290754420903e-12,
+        "diagonal_terms_without_cross_term": 1.2466947148653276,
+        "cross_term": -1.2466947148580183,
+        "squared_lipschitz_bound": 1.2494142551008172e-11
+      }
+    ],
+    "model_experiments": 0,
+    "target_keys_read": false,
+    "attack_success": null,
+    "interpretation": "Continuity and cross-term cancellation in the initializer only; no conclusion about full verifier bypass or key recovery."
+  },
+  "initializer_check_script_sha256": "6765a7c6d138941cf058e813db53f91caa5586288023ef67168be9e796729109",
+  "upstream_executed": false,
+  "gpu_used": false,
+  "models_loaded": false,
+  "new_model_experiments_run": 0,
+  "limitations": [
+    "Public reachable main history only",
+    "PDF preflight scope is structure, not mathematical correctness",
+    "Continuity checks use synthetic scalar inputs and do not demonstrate unknown-key recovery or fixed-victim-key image forgery"
+  ]
+}

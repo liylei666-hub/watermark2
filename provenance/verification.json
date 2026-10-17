@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-17T05:33:44.455698+00:00",
-  "published_files_checked": 931,
+  "checked_at_utc": "2026-10-17T05:46:57.493622+00:00",
+  "published_files_checked": 933,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -12,7 +12,7 @@
   "models_loaded": false,
   "new_model_experiments_run": 0,
   "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference",
-  "verified_at_utc": "2026-10-17T05:33:44.455698+00:00",
+  "verified_at_utc": "2026-10-17T05:46:57.493622+00:00",
   "scope": "Read-only archive verification; GPU/model fields below describe verification, not historical experiment execution.",
   "stage07_verification": {
     "completed_model_runs": 6,
@@ -75,5 +75,13 @@
     "pinned_links_range_checked": 17,
     "upstream_code_executed": false,
     "content_template_data_rows": 0
+  },
+  "pai_history_and_endpoint_checks": {
+    "history_commits": 5,
+    "appendix_versions_blob_verified": 2,
+    "pdf_structural_preflight": "PASS for both appendix versions and final paper; structure only",
+    "initializer_arithmetic_rebuilt": true,
+    "joint_event_bound_count_pairs_checked": 3310,
+    "new_model_runs": 0
   }
 }
