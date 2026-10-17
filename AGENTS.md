@@ -45,3 +45,11 @@ The user requires all future GPU experiments to run only on verified idle GPUs o
 ## Stage10 execution status (2026-10-18 Asia/Shanghai)
 
 Stage10 started one process on GPU0 and exited with code 1 at the initial gradient recorder because torch.autograd.grad is incompatible with upstream reentrant checkpoint. No optimizer update or candidate image completed. Preserve runs/10_imprint_delivery_20261017T184646Z without automatic retry. The compatibility patch passed three CPU regressions but is not applied to frozen code. Cumulative model processes: 12; GPU-process seconds: 818.9704131674953.
+
+## Autonomous continuation (2026-10-18)
+
+The user explicitly requested autonomous research until assistance is needed. Stage10 revision2 is a separate frozen execution using the CPU-verified backward-based gradient recorder, preserving the closed original run and code. No unchanged retry is authorized. Host, device, storage and information-boundary restrictions remain effective. A 30-minute thread heartbeat supports continuation.
+
+## Verified stage10 completion (2026-10-18)
+
+Revision3 completed ten native updates; the separate full-trajectory observation control produced byte-identical final latent and PNG. Preserve all four stage10 model-process records including both failures. Stage07 onward totals 15 model processes and 1845.121920349542 GPU-process seconds, verified from execution files. No active model process remains at this update; recheck before future launches.

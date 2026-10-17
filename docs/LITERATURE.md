@@ -28,7 +28,7 @@
 
 | 来源 | 阅读范围与方法 | 对研究设计的约束 |
 |---|---|---|
-| [PnP，2506.06018v1](https://arxiv.org/html/2506.06018v1) | §3.1–3.2：代理反演估计噪声，利用 cover 视觉/文本条件驱动预训练恢复扩散模型 | 保持内容的噪声迁移已有先例；论文提供[官方仓库](https://github.com/chaoyitud/PnP-Watermark-Forgery)，本次未审计代码或下载模型 |
+| [PnP，2506.06018v1](https://arxiv.org/html/2506.06018v1) | §3.1–3.2：代理反演估计噪声，利用 cover 视觉/文本条件驱动预训练恢复扩散模型 | 保持内容的噪声迁移已有先例；[官方仓库](https://github.com/chaoyitud/PnP-Watermark-Forgery/tree/4db431692e73ff065ba6bd1659d016a44c9f5db8)当前列表只有README，指向匿名实现；匿名入口本次HTTP403，完整性unknown。[获取证据](../reports/pnp_source_availability.json)，未执行代码或下载模型 |
 | [WMCopier，2503.22330v3](https://arxiv.org/html/2503.22330v3) | §4.1–4.3：水印图像集合训练无条件扩散模型，浅层反演/去噪和细化 | 数据量和训练权限与单参考图不同；不把 no-box 等同于无训练 |
 | [Athalye et al.，BPDA，ICML 2018](https://proceedings.mlr.press/v80/athalye18a.html) | §4.1：不可微前向配合可微反向近似 | 若对图像离散转换使用近似梯度，须引用并验证，而不是独立创新 |
 

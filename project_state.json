@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-17T18:50:29.396466+00:00",
+  "as_of_utc": "2026-10-17T19:17:48.414697+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -11,7 +11,7 @@
     "07",
     "08"
   ],
-  "current_stage_status": "stage10_stopped_checkpoint_gradient_api_failure_cpu_repair_verified",
+  "current_stage_status": "stage10_delivery_diagnostic_and_full_trajectory_control_completed",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -23,13 +23,13 @@
     "07": 6,
     "08": 3,
     "09": 2,
-    "10": 1
+    "10": 4
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
   "latest_report": "reports/10_imprint_delivery/report.md",
   "latest_status": "project_state.json",
-  "latest_protocol": "protocols/10_imprint_delivery.json",
+  "latest_protocol": "protocols/10_imprint_shadow.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -45,11 +45,11 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/10_imprint_delivery/execution_status.json",
+  "latest_completed_analysis": "reports/10_imprint_delivery/shadow_verification.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 818.9704131674953,
-  "current_round_model_processes_started": 12,
+  "current_round_gpu_seconds_used": 1845.121920349542,
+  "current_round_model_processes_started": 15,
   "allowed_gpu_physical_indices": [
     0,
     1,
@@ -80,10 +80,10 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Review the CPU-verified gradient compatibility patch and prepare a distinct protocol revision; preserve the closed stage10 failure and do not automatically retry.",
+  "next_action": "Freeze a two-point proxy-only internal-versus-float-delivery gradient diagnostic at native updates 0 and 10, with fixed central-difference probes and no optimizer search; use it to assess whether the measured modest gap warrants intervention.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
-    "sha256": "b4d7a04aa4a6ad2da7e41bcbcfa4fcf83e9bc29d66c05dd26d4e6467a59871be",
+    "sha256": "c93544f8b647ff8f10b83832f5eb6f51c039d158acef20bb8f708cf25f5efecc",
     "experiments_paused": false
   },
   "evaluation_contract": "docs/EVALUATION_CONTRACT.md",
@@ -95,7 +95,7 @@
   "selected_gpu_physical_index": null,
   "active_run": null,
   "current_round_gpu_seconds_remaining": null,
-  "last_completed_run": "runs/08_target_roundtrip_20261016T014337Z",
+  "last_completed_run": "runs/10_imprint_shadow_20261017T190952Z",
   "prompt_control_observation": {
     "paired_seeds": 3,
     "aggregates": {
@@ -159,7 +159,7 @@
       "bit_accuracy_same_minus_changed": 0.009114583333333334
     }
   },
-  "last_attempted_run": "runs/09_vae_roundtrip_20261016T015236Z",
+  "last_attempted_run": "runs/10_imprint_shadow_20261017T190952Z",
   "autonomous_continuation_authorized": true,
   "target_roundtrip_observation": {
     "same_prompt": {
@@ -252,14 +252,13 @@
     "Actual score Lipschitz/normalization scaling sufficient for dimension-exponential tails"
   ],
   "remote_observation": {
-    "checked_at_utc": "2026-10-17T05:20:30.652185+00:00",
+    "checked_at_utc": "2026-10-17T19:18:38.791321+00:00",
     "ssh_result": "connected",
     "user_model_processes_observed": 0,
-    "budget_reverified_from_server": true,
-    "execution_file_count": 11,
-    "gpu_process_seconds": 757.62238442339,
-    "gpu_processes_started_this_turn": 0,
-    "scope": "Read-only process, GPU and original execution record audit; no launch preflight or device reservation"
+    "gpu_compute_processes_observed": 0,
+    "execution_file_count": 15,
+    "gpu_process_seconds": 1845.121920349542,
+    "all_execution_hashes_match_server": true
   },
   "csi_audit": {
     "repository": "https://github.com/ZhengGao-30/CSI-Attack",
@@ -275,7 +274,7 @@
     "upstream_code_executed": false,
     "report": "docs/CSI_INFORMATION_CONTRACT.md"
   },
-  "automation_enabled": false,
+  "automation_enabled": true,
   "baseline_comparison_contract": {
     "path": "docs/BASELINE_COMPARISON_CONTRACT.md",
     "version": 1,
@@ -416,5 +415,18 @@
     "rerun_started": false,
     "cumulative_gpu_process_seconds": 818.9704131674953,
     "cumulative_model_processes_started": 12
-  }
+  },
+  "automation_id": "automation",
+  "current_round_gpu_seconds_used_excludes_active_process": false,
+  "imprint_delivery_measurement": {
+    "reference_cover_pairs": 1,
+    "updates": 10,
+    "png_improvement_retained_fraction": 0.9151663230696636,
+    "internal_improvement": 0.595193763830355,
+    "png_improvement": 0.5447012883586198,
+    "full_defense_acceptance": null,
+    "full_native_trajectory_recording_equivalence": true,
+    "trajectory_control_run": "runs/10_imprint_shadow_20261017T190952Z"
+  },
+  "execution_ledger": "reports/research_execution_ledger.json"
 }
