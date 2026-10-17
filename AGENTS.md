@@ -71,3 +71,7 @@ The real SD2.1 VAE frozen-parameter equivalence check failed its predeclared bit
 ## Verified stage14/15 cost measurements (2026-10-18)
 
 The fixed 100-update original Jain core completed with finite outputs. Imprint setup and ten native updates were timed separately; eight outputs remain byte-identical to the verified shadow trajectory. Resource-only calibration proposes 10 Imprint updates and 447 Jain updates for a three-pair development comparison, pending complete interface/code/config freeze. Both used GPU0 serially with fresh idle gates and no target calls. Stage07 onward totals 21 model processes and 2733.0540150650777 seconds. Preserve both closed timing runs; do not substitute complete process wall time for core optimization cost. The stage15 first protocol was never launched due to a prelaunch stage-label correction; only revision2 started a model.
+
+## Stage16 interface verification (2026-10-18)
+
+Thirty CPU interface/workflow cases and five official GS state cases passed. Stage17 is frozen in protocols/17_cover_pilot.json with 3 paired inputs, 6 fixed candidates and 9 serial model processes. All three tasks share the upstream GS identity at offset0; different seeds are not different keys. Keep attack runtime separate from evaluator identity files. Seal all candidates before the fixed 12-image evaluation. Stop on engineering failure or unavailable device without unchanged retry. No model process was started during stage16; the latest verified cumulative total remains21 processes and2733.0540150650777 seconds.

@@ -508,7 +508,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "Implement and CPU-verify the three-pair cover-pilot data/attack/evaluation interfaces, then freeze exact inputs, model/config/code hashes and 10/447 update budgets before launch; no target-score-based candidate selection.",
+  "next_step_proposal": "Launch the frozen stage17 serial pilot after a fresh idle check; stop on any engineering failure.",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -584,5 +584,22 @@
     "target_calls": 0,
     "full_defense_acceptance": null,
     "analysis_sha256": "f2cb62b078d620d49f1104f5ba8e0490f6bb1883029c5855d0185e3643e04159"
-  }
+  },
+  "cover_pilot_preparation": {
+    "stage": "16",
+    "checked_at_utc": "2026-10-17T21:43:38.379216+00:00",
+    "status": "cpu_interfaces_verified_and_stage17_frozen",
+    "unique_cpu_test_cases_passed": 35,
+    "gpu_used": false,
+    "models_loaded": false,
+    "new_model_processes": 0,
+    "reference_identity": "fixed upstream GS offset 0 shared across all three tasks",
+    "target_feedback_to_attack": false,
+    "permission_isolation_implemented": false,
+    "model_workflow_verified_on_new_inputs": false,
+    "full_defense_acceptance": null,
+    "protocol": "protocols/17_cover_pilot.json",
+    "next_step": "Launch the frozen stage17 serial pilot after a fresh idle check; stop on any engineering failure."
+  },
+  "last_updated_utc": "2026-10-17T21:43:38.379216+00:00"
 }
