@@ -61,3 +61,8 @@ Two fixed dependent points and eight signed probes completed without optimizatio
 ## Verified stage12 completion (2026-10-18)
 
 Component localization completed on the unchanged stage11 points and perturbations. Split-chain gradients are byte-equivalent; finite-step residuals are larger in the VAE decode/clamp/encode composite than downstream inversion for both delivery self-directions. Clamp causation and target transfer remain unknown. Preserve the closed stage11/12 diagnostics; no radius tuning or repeated probes to seek a preferred result. Stage07 onward totals 17 processes and 2206.407460845541 seconds. No active model process remains at this check. Next independent work must specify a distinct scientific question and matched task/cost accounting.
+
+
+## Verified stage13 core execution (2026-10-18)
+
+The real SD2.1 VAE frozen-parameter equivalence check failed its predeclared bitwise gate; preserve the closed run and do not retry it or relax tolerance. A separately frozen original-parameter-state control reproduced the three-step tensor, residual and PNG across processes. Future Jain baseline execution retains upstream parameter requires_grad flags. Neither check called the target. Stage07 onward totals 19 model processes and 2239.0810272390954 seconds, including the failed check. Next admissible question is bounded original-core timing/finiteness before an independent comparison; short prefixes do not establish long-run performance.
