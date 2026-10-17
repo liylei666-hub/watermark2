@@ -47,3 +47,5 @@ SEAL 逐文件行号、分数及判定关系见 [专门契约](SEAL_EVALUATION_C
 ## 补充：细粒度语义绑定与成功事件
 
 [SLICE, arXiv:2603.12749v1](https://arxiv.org/html/2603.12749v1)，2026-03-13 预印本。本次核查 §3.1–3.3、§6.1 与定理4.4：按语义因素绑定潜变量分区，并将来源识别和内容完整性分成不同状态。Table 1 ASR 文字对应 watermark present，不能直接读作完整真实性绕过；逐样本状态映射和官方实现尚未核查。详见 [比较契约](BASELINE_COMPARISON_CONTRACT.md)。仅补充原始文献审查，未纳入实验对象。
+
+2026-10-17补充：[SLICE作者页](https://xiaoyulics.com/papers/slice-image-watermarking/)列BMVC 2026 Oral，会议录状态尚未独立核查；arXiv仍仅v1。该作者页未给Code链接，固定CSI库仅注册TR/GS/SEAL，不能视为已有SLICE验证器；检索范围不构成无公开代码的穷尽证明。

@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-16T07:37:32.586108+00:00",
+  "as_of_utc": "2026-10-17T05:23:47.986479+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -11,7 +11,7 @@
     "07",
     "08"
   ],
-  "current_stage_status": "baseline_comparison_contract_defined_official_defense_protocol_pending",
+  "current_stage_status": "evaluation_event_ledger_verified_official_defense_protocol_pending",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -40,11 +40,11 @@
     "official-function numerical equivalence",
     "recording/no-recording full numerical equivalence"
   ],
-  "as_of_local_date": "2026-10-16",
+  "as_of_local_date": "2026-10-17",
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/09_vae_roundtrip/summary.json",
+  "latest_completed_analysis": "reports/evaluation_events_20261017/summary.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
   "current_round_gpu_seconds_used": 757.62238442339,
@@ -61,7 +61,7 @@
     6,
     7
   ],
-  "selected_gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
+  "selected_gpu_uuid": "GPU-3d3813cb-3429-0174-212f-fa9c7fe5e99a",
   "authorization": {
     "total_gpu_process_seconds": 7200,
     "max_process_seconds": 1200,
@@ -73,7 +73,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Resolve official reference association, complete decision rule and reported success-event mapping for one executable defense evaluation; keep stage09 stopped.",
+  "next_action": "Close one executable official defense reference/decision contract and freeze content adjudication; event bookkeeping is ready but full defense labels remain unknown. Do not retry stage09.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "71cbb1e095fbfd92dc93058af4a6ea13e5e447f8240a9669fe135f8b06a87fdd",
@@ -85,7 +85,7 @@
   "sembind_final_paper_reviewed": true,
   "sembind_end_to_end_adaptive_test_reported": true,
   "sembind_full_public_gs_s_verifier_available": false,
-  "selected_gpu_physical_index": 0,
+  "selected_gpu_physical_index": 2,
   "active_run": null,
   "current_round_gpu_seconds_remaining": 6442.37761557661,
   "last_completed_run": "runs/08_target_roundtrip_20261016T014337Z",
@@ -232,7 +232,7 @@
     ],
     "outbound_messages_sent": 0
   },
-  "latest_static_audit": "docs/BASELINE_COMPARISON_CONTRACT.md",
+  "latest_static_audit": "reports/evaluation_events_20261017/report.md",
   "geometry_theoretical_rejection_region": {
     "source": "ICML 2026 final paper, appendix B.3 / Theorem 4.10",
     "rule": "SAD > tau_s AND LGI > tau_l",
@@ -245,34 +245,14 @@
     "Actual score Lipschitz/normalization scaling sufficient for dimension-exponential tails"
   ],
   "remote_observation": {
-    "heartbeat_at_utc": "2026-10-16T03:10:49.243Z",
+    "checked_at_utc": "2026-10-17T05:20:30.652185+00:00",
     "ssh_result": "connected",
     "user_model_processes_observed": 0,
-    "current_gpu_occupancy": [
-      {
-        "physical_index": 0,
-        "uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
-        "memory_used_mib": 8638,
-        "utilization_percent": 71
-      },
-      {
-        "physical_index": 1,
-        "uuid": "GPU-af8ecfa2-a36f-798c-9762-0a3cfb8a1fcd",
-        "memory_used_mib": 17271,
-        "utilization_percent": 96
-      },
-      {
-        "physical_index": 2,
-        "uuid": "GPU-3d3813cb-3429-0174-212f-fa9c7fe5e99a",
-        "memory_used_mib": 10864,
-        "utilization_percent": 100
-      }
-    ],
     "budget_reverified_from_server": true,
     "execution_file_count": 11,
     "gpu_process_seconds": 757.62238442339,
-    "gpu_processes_started_this_heartbeat": 0,
-    "scope": "Point-in-time read-only snapshot; no GPU launch preflight performed"
+    "gpu_processes_started_this_turn": 0,
+    "scope": "Read-only process, GPU and original execution record audit; no launch preflight or device reservation"
   },
   "csi_audit": {
     "repository": "https://github.com/ZhengGao-30/CSI-Attack",
@@ -303,17 +283,25 @@
     "new_model_processes": 0
   },
   "latest_connection_attempt": {
-    "checked_at_utc": "2026-10-16T07:37:32.586108+00:00",
+    "checked_at_utc": "2026-10-17T05:23:47.986479+00:00",
     "host": "liyanlei@172.18.185.249",
-    "result": "default_ssh_authentication_failed",
-    "remote_process_snapshot": null,
-    "budget_reverified": false
+    "result": "connected_with_existing_server_specific_identity",
+    "user_model_processes_observed": 0,
+    "budget_reverified": true
   },
   "upstream_head_recheck": {
-    "checked_at_utc": "2026-10-16T07:37:32.586108+00:00",
+    "checked_at_utc": "2026-10-17T05:23:47.986479+00:00",
     "geometry": "72880c9bb1cee0b04bcb2433deb2ab2cc95ff622",
     "sembind": "337c9f90a150157ac1d410208ae20e6530ca8cdd",
-    "changed_from_audited_pins": false
+    "changed_from_audited_pins": false,
+    "geometry_branches": [
+      "main"
+    ],
+    "sembind_branches": [
+      "main"
+    ],
+    "geometry_releases": [],
+    "sembind_releases": []
   },
   "slice_literature_review": {
     "version": "2603.12749v1",
@@ -326,6 +314,19 @@
     ],
     "code_audited": false,
     "table1_state_mapping_verified": false,
-    "experimental_target_selected": false
+    "experimental_target_selected": false,
+    "author_page_venue": "BMVC 2026 Oral (author page; proceedings not independently checked)",
+    "author_page_url": "https://xiaoyulics.com/papers/slice-image-watermarking/"
+  },
+  "evaluation_event_audit": {
+    "report": "reports/evaluation_events_20261017/report.md",
+    "summary": "reports/evaluation_events_20261017/summary.json",
+    "schema_version": 1,
+    "real_tasks_reconciled": 6,
+    "unit_tests_passed": 12,
+    "full_defense_rate": null,
+    "statistical_bookkeeping_only": true,
+    "permission_isolation_implemented": false,
+    "new_model_processes": 0
   }
 }

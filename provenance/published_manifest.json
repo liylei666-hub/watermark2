@@ -23,13 +23,13 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 6201,
-      "sha256": "8d416d8417ec862abe24359a1afdadf5a31163c6b87b51393900403c2e08f5ce"
+      "bytes": 6225,
+      "sha256": "63962e058885cf1158421e1427fe621a73d2015edeffb752c7f0bd95ee9e2b35"
     },
     {
       "path": "README.md",
-      "bytes": 3583,
-      "sha256": "87df0d2b0013e09b689b1c536fa1adf9f2fce92c577b728b8cbfc5080541f9cd"
+      "bytes": 3730,
+      "sha256": "95afe78d2f9f26174ed0d9092a139b89c87c9d8a5829b011c4357d69e952caee"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -273,8 +273,8 @@
     },
     {
       "path": "docs/BASELINE_COMPARISON_CONTRACT.md",
-      "bytes": 10449,
-      "sha256": "8c7ae2428c5b641c6a2ae9ec283ff6cb358cd54466580f272924011844eda189"
+      "bytes": 10759,
+      "sha256": "78dbb4ebc417f8934ec04aed3a8003a7438d943911d3993f7c860e215b0925a9"
     },
     {
       "path": "docs/CSI_INFORMATION_CONTRACT.md",
@@ -293,8 +293,8 @@
     },
     {
       "path": "docs/LITERATURE.md",
-      "bytes": 8495,
-      "sha256": "c1f3933b33e8adc64acdd2c5e23b5e66b3d0a7f41ead2e69c7726463f4c897f1"
+      "bytes": 8815,
+      "sha256": "279173fb60823a966358d717ee4cc857d446a49c19ab24c898e5e0ebc37b986f"
     },
     {
       "path": "docs/PROJECT_STATE.md",
@@ -303,8 +303,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 6848,
-      "sha256": "505d56664f43d0e918be0e8318779aa3970b0e93b9c673fc6435e11cf728a587"
+      "bytes": 7199,
+      "sha256": "886038372f710f404bf949d68432b767062797bcad4b0d742c694c52b3a3ce7e"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -328,8 +328,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 10966,
-      "sha256": "3587dfc0978c1a890329f6d840555673850678dc48d978addfbbdf69444fa8dc"
+      "bytes": 11228,
+      "sha256": "de0b1caeeb02a968a1c8d08aac0f9b9a586680bf7452f8f089820dc2e8a79a19"
     },
     {
       "path": "prompts/README.md",
@@ -695,6 +695,31 @@
       "path": "reports/evaluation_contract_evidence.json",
       "bytes": 19620,
       "sha256": "678180bfbb1e073a5fa0055215af277b2f4c4206087e6d3b4d99cf4dcfb5d502"
+    },
+    {
+      "path": "reports/evaluation_events_20261017/checks.json",
+      "bytes": 1213,
+      "sha256": "d4f2dde0bbc0d9a4c09ec7e720722fef289978edc3cce3dc8594ee564a532271"
+    },
+    {
+      "path": "reports/evaluation_events_20261017/input.json",
+      "bytes": 3762,
+      "sha256": "687c6fcc988d04882ef7b22b853dad0e3773462f87b6fd9a413e05593eaac992"
+    },
+    {
+      "path": "reports/evaluation_events_20261017/provenance.json",
+      "bytes": 7729,
+      "sha256": "a490998a5a145a9b662a21912411b5edf60d1810bb22856213b61cb3243a215c"
+    },
+    {
+      "path": "reports/evaluation_events_20261017/report.md",
+      "bytes": 5248,
+      "sha256": "c254947b5dc68dbf5c917edfbd265bc60272d5c8f7442048deceb5e60ce0baa8"
+    },
+    {
+      "path": "reports/evaluation_events_20261017/summary.json",
+      "bytes": 1472,
+      "sha256": "7fda212a7373f31c64c9cb52e4b5ea2d42594feb1c8d081332e6f33b43f93810"
     },
     {
       "path": "reports/geometry_proof_examples.json",
@@ -4472,6 +4497,11 @@
       "sha256": "6f4bb234459d9e3da7fd5618aa5155fae2c688893cc755d058d5a715b5435149"
     },
     {
+      "path": "scripts/audit_existing_evaluation_events.py",
+      "bytes": 5663,
+      "sha256": "a89a6277848f0af85f596f99a5d24e013849a6f877dadb611028c62d6bd16c7d"
+    },
+    {
       "path": "scripts/check_geometry_proof_examples.py",
       "bytes": 3196,
       "sha256": "a79c55b9103906a814b3d15f5e5edd7cfafda7d1b05d4797879bfdd09f935b22"
@@ -4532,6 +4562,11 @@
       "sha256": "58e5e20525fc9846e4b3f9343320be83fe1042b866cb07ae682749f8696e7302"
     },
     {
+      "path": "scripts/summarize_evaluation_events.py",
+      "bytes": 6627,
+      "sha256": "3775944d2c7346394e46d8474c89ea3ce4b23e648fb2be9ef0ff8ff02991e1d6"
+    },
+    {
       "path": "scripts/summarize_run.py",
       "bytes": 9650,
       "sha256": "c6a40b16975f31c8087696a4d7d3fb2f3b9ed52dc633ac868cd53938ae9b626b"
@@ -4555,6 +4590,11 @@
       "path": "scripts/test_cpu_latent_audit.py",
       "bytes": 1761,
       "sha256": "cccb10ccb569d8b9b8c31b22697ef60671ce10cbd008eb29502588155097d141"
+    },
+    {
+      "path": "scripts/test_evaluation_events.py",
+      "bytes": 4693,
+      "sha256": "a821ee18dbdd74a25df8f434d7fc8e51265d7facc06b91ccb74f5fc1629bb266"
     },
     {
       "path": "scripts/test_gpu_preflight.py",
@@ -4597,14 +4637,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 25812814,
+  "total_bytes": 25850635,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-16T07:37:55.871792+00:00",
+  "updated_at_utc": "2026-10-17T05:24:18.258305+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "12a303983b06946c09db16520a4c0205d1a142e7"
+  "previous_publication_commit": "deca6a951878562b9b16452351b1a496325f928f"
 }

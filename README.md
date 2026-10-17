@@ -7,6 +7,7 @@
 - [研究审查](reports/research_review.md)：可行性、创新空间、理论问题与继续/停止条件。
 - [导师讨论 Word](docs/advisor_briefing.docx) / [可检索正文](docs/advisor_briefing.md)：原论文、两篇 ICML 2026 防御、结果与研究问题。
 - [评估对象与威胁模型契约](docs/EVALUATION_CONTRACT.md)：最终会议版与固定源码核查，参考、判定、基线差异及明确缺项。
+- [可运行的评估事件检查](reports/evaluation_events_20261017/report.md)：候选哈希、计划分母、未知标签与真实CSV接入。
 - [攻击比较契约](docs/BASELINE_COMPARISON_CONTRACT.md)：任务轨道、信息权限、计算预算与成功分母。
 - [当前计划](docs/RESEARCH_PLAN.md)：正在解决的问题与证据门槛。
 - [文献矩阵](docs/LITERATURE.md)：截至 2026-10-16 的核查范围、版本状态和实现缺项。
