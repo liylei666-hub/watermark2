@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-17T19:44:35.494906+00:00",
+  "as_of_utc": "2026-10-17T20:05:03.927538+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -14,7 +14,7 @@
     "11",
     "12"
   ],
-  "current_stage_status": "stage12_component_residual_localization_completed",
+  "current_stage_status": "cover_baseline_contract_and_synthetic_cpu_adapter_checked",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -32,7 +32,7 @@
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/12_imprint_components/report.md",
+  "latest_report": "docs/COVER_BASELINE_CONTRACT.md",
   "latest_status": "project_state.json",
   "latest_protocol": "protocols/12_imprint_components.json",
   "geometry_threshold": null,
@@ -51,7 +51,7 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/12_imprint_components/analysis.json",
+  "latest_completed_analysis": "reports/cover_baseline_contract/status.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
   "current_round_gpu_seconds_used": 2206.407460845541,
@@ -86,7 +86,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Design a runnable official Imprint versus existing single-image VAE-matching comparison with explicit cover/content/distortion and compute accounting; require a distinct scientific question before independent experiments, preserving unknown full-defense outcomes.",
+  "next_action": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -245,7 +245,7 @@
     ],
     "outbound_messages_sent": 0
   },
-  "latest_static_audit": "docs/PAI_EVALUATION_CONTRACT.md",
+  "latest_static_audit": "docs/COVER_BASELINE_CONTRACT.md",
   "geometry_theoretical_rejection_region": {
     "source": "ICML 2026 final paper, appendix B.3 / Theorem 4.10",
     "rule": "SAD > tau_s AND LGI > tau_l",
@@ -258,13 +258,15 @@
     "Actual score Lipschitz/normalization scaling sufficient for dimension-exponential tails"
   ],
   "remote_observation": {
-    "checked_at_utc": "2026-10-17T19:43:01.291804+00:00",
+    "checked_at_utc": "2026-10-17T20:01:39.625839+00:00",
     "ssh_result": "connected",
     "known_model_processes_observed": 0,
     "gpu_compute_processes_observed": 0,
     "execution_file_count": 17,
     "gpu_process_seconds": 2206.407460845541,
-    "all_execution_hashes_match_server": true
+    "all_execution_hashes_match_server": true,
+    "process_snapshot_at_utc": "2026-10-17T19:56:22+00:00",
+    "execution_ledger_checked_at_utc": "2026-10-17T20:01:39.625839+00:00"
   },
   "csi_audit": {
     "repository": "https://github.com/ZhengGao-30/CSI-Attack",
@@ -472,5 +474,34 @@
     "target_scores_used": false,
     "full_defense_accepted": null,
     "method_selection": "delivery loss not selected as a paper method"
+  },
+  "cover_baseline_contract": {
+    "checked_at_utc": "2026-10-17T20:05:03.927538+00:00",
+    "status": "static_contract_and_synthetic_cpu_checks_complete",
+    "contract": "docs/COVER_BASELINE_CONTRACT.md",
+    "upstream_commits": {
+      "imprint": "ca68950cd7b53b8438a49580f134b2a0db28d778",
+      "jain": "04433962437cbf08ad701b7b43124de07df0b666"
+    },
+    "source_files_blob_verified": 8,
+    "cpu_tests_passed": 6,
+    "original_cpu_test_failures": 1,
+    "original_failure": "Preprocessor test mixed double-precision expected arithmetic with actual float32 range mapping",
+    "repair": "Separate r2 test computes a float32 oracle; upstream algorithm and tolerance unchanged",
+    "native_jain_proxy_cached": false,
+    "cache_scope": "/data0/liyanlei/watermark_research/cache/huggingface/hub immediate model directories only",
+    "common_proxy_proposal": "SD2.1 VAE for Jain core and same SD2.1 pipeline for Imprint; explicitly an adapted common-proxy setting",
+    "real_vae_core_equivalence": null,
+    "matched_compute_budget": null,
+    "distortion_acceptance_threshold": null,
+    "independent_comparison_samples_frozen": false,
+    "target_score_feedback": false,
+    "candidate_selection": "predeclared final output per method; no target-based checkpoint selection",
+    "full_defense_acceptance": null,
+    "gpu_used": false,
+    "pretrained_models_loaded": false,
+    "new_model_experiments_run": 0,
+    "cumulative_gpu_process_seconds": 2206.407460845541,
+    "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   }
 }

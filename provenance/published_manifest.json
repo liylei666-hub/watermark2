@@ -23,13 +23,13 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 6657,
-      "sha256": "e09edcb40a18172c2de4aaede8b18487a3ec152bc48894f5e022f97f59e25f3d"
+      "bytes": 7172,
+      "sha256": "78f1ac9f6809e2d5224b82184f1c62a27c9b91e11d894af06643a1fe8287cb53"
     },
     {
       "path": "README.md",
-      "bytes": 4571,
-      "sha256": "14b31757c94bdc6b7d99dded3bf734767666eb1c1fb95ff777e22925e6c3e57d"
+      "bytes": 4750,
+      "sha256": "f28b4e8364a2aa4ed8fcc621386360abf416c1728a551406dfbf0cf7702269c0"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -273,13 +273,18 @@
     },
     {
       "path": "docs/BASELINE_COMPARISON_CONTRACT.md",
-      "bytes": 12310,
-      "sha256": "b3a75d38c9ddc8d4b8e7611c6078ea77ec1d164c0c2e97443f03d14d3fb22261"
+      "bytes": 12738,
+      "sha256": "c579eb00645b720aea4c816cbf2df4c8a762915603eb99a44716066ec042d6fe"
     },
     {
       "path": "docs/CONTENT_ADJUDICATION.md",
       "bytes": 4081,
       "sha256": "b0e793fc2936e0727a0567e9c5ec870acc4dbe94ec3d8ede2aa64f6619e3c6dd"
+    },
+    {
+      "path": "docs/COVER_BASELINE_CONTRACT.md",
+      "bytes": 10564,
+      "sha256": "1e69987fba13bc039eb690d965b7eb5cf6516a4b86a83d1d490f4c5cf397542d"
     },
     {
       "path": "docs/CSI_INFORMATION_CONTRACT.md",
@@ -288,8 +293,8 @@
     },
     {
       "path": "docs/EVALUATION_CONTRACT.md",
-      "bytes": 21805,
-      "sha256": "8f00f3093f5f5b1104939360c80cf8e649af1176649c78104655f8153eabd042"
+      "bytes": 22359,
+      "sha256": "13bf704ea91daeb3ca2baf629146aa0f1f7a40a31e83a92dc4f863b2097e0703"
     },
     {
       "path": "docs/FULL_RECORD.md",
@@ -298,13 +303,13 @@
     },
     {
       "path": "docs/LITERATURE.md",
-      "bytes": 10635,
-      "sha256": "acddd0ac0e910dfa8d605f6b6cc8501f623b554a63eb5bdf377b27c202067ec2"
+      "bytes": 10722,
+      "sha256": "b49b1c8ac523391216a107292c0629974165bf4a26107d45f684d82206dd499a"
     },
     {
       "path": "docs/METHOD_HYPOTHESIS.md",
-      "bytes": 9855,
-      "sha256": "ed1f15f8b32137d7ee4f4013dbfb4462099ec40fe22d8ff9c36ac15b1dc14445"
+      "bytes": 9906,
+      "sha256": "5184326c971c73e0122d77052e76c5fe58afa99dc9d552630e36456c9c46031f"
     },
     {
       "path": "docs/PAI_EVALUATION_CONTRACT.md",
@@ -318,8 +323,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 9071,
-      "sha256": "d621cbdf1145bdfc45eb62306a14151741d24b1c7576b5044789d7f898875338"
+      "bytes": 9220,
+      "sha256": "be0beb7a8eb9cca92edeebf8dec7db2831a370b68fe07a539941aeb738116a4d"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -343,8 +348,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 17121,
-      "sha256": "9d1253b3ed4172979b6b11f9e35f5ff35754bb6f42f497d097a3f4aa615a37b1"
+      "bytes": 18848,
+      "sha256": "c1087c22a696e907c25879fbc4f9d0717fd65146cfd5a8aa89b30d428a7ef14b"
     },
     {
       "path": "prompts/README.md",
@@ -875,6 +880,56 @@
       "path": "reports/12_imprint_components/transfer_verification.json",
       "bytes": 10944,
       "sha256": "e72a58236e3603a1be4fa16d8694afa5b89abf45fd9c6f1e4c53413d38396195"
+    },
+    {
+      "path": "reports/cover_baseline_contract/cpu_checks.json",
+      "bytes": 997,
+      "sha256": "4d08a882c2c6ea6fa7511855adbadcab8d4e1aad890d518ddf90954f09d402e3"
+    },
+    {
+      "path": "reports/cover_baseline_contract/cpu_checks_r2.json",
+      "bytes": 562,
+      "sha256": "b20c3aa17b2068eb81722d57d934e3867bc9025876c6ce93fb54ec730982ee6a"
+    },
+    {
+      "path": "reports/cover_baseline_contract/cpu_test.stderr",
+      "bytes": 1135,
+      "sha256": "1e71e34bc027f37bc93ce88e1cc5c3f5f99015ba8d38b2f619cc56452a423f61"
+    },
+    {
+      "path": "reports/cover_baseline_contract/cpu_test.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/cover_baseline_contract/cpu_test_r2.stderr",
+      "bytes": 583,
+      "sha256": "487e9d5af741feec27e85271d63afcaaf107a432e554b77d85b4d7bbd9507e65"
+    },
+    {
+      "path": "reports/cover_baseline_contract/cpu_test_r2.stdout",
+      "bytes": 75,
+      "sha256": "5f2b9f1a11ff80e7a8a0b2be64f6037c6a1125e83adfef2bebf9e9f7cdd39a02"
+    },
+    {
+      "path": "reports/cover_baseline_contract/execution_recheck.json",
+      "bytes": 4511,
+      "sha256": "a5cfd98e5256da5f318a5a8d2b0bcb8fd5140a4c72b8bb485bf9fd9a82eeffb5"
+    },
+    {
+      "path": "reports/cover_baseline_contract/source_audit.json",
+      "bytes": 6749,
+      "sha256": "e1edc70257793656edeb77b767577c4280e6e85b556675c43437c39d140add7d"
+    },
+    {
+      "path": "reports/cover_baseline_contract/status.json",
+      "bytes": 1592,
+      "sha256": "2cdb7647ad789b70fe5ec667846fd3dcbe1cba8ed47dd86e8c6b279ab7b3e535"
+    },
+    {
+      "path": "reports/cover_baseline_contract/verification.json",
+      "bytes": 293,
+      "sha256": "d6f307f2fc894f152d58358a1e8f0ca1199a09063e33577a0cd6dda11e75915c"
     },
     {
       "path": "reports/csi_source_evidence.json",
@@ -6062,6 +6117,16 @@
       "sha256": "09c597a28da735af220ea75b6dfe4be954c99764547823eb05fc009b930accbd"
     },
     {
+      "path": "scripts/test_cover_baseline_adapter.py",
+      "bytes": 6175,
+      "sha256": "88e27656999396e39223f0357d4e5711d83958b11095adf18a3e1e2bf0902385"
+    },
+    {
+      "path": "scripts/test_cover_baseline_adapter_r2.py",
+      "bytes": 6398,
+      "sha256": "f5912130747d5ad0a52eba8dd2eeca12a06b1644788981fd0e3acb9ba63846d9"
+    },
+    {
       "path": "scripts/test_cpu_latent_audit.py",
       "bytes": 1761,
       "sha256": "cccb10ccb569d8b9b8c31b22697ef60671ce10cbd008eb29502588155097d141"
@@ -6127,14 +6192,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 41002388,
+  "total_bytes": 41045712,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-17T19:46:34.516276+00:00",
+  "updated_at_utc": "2026-10-17T20:08:47.459162+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "1de5ff3e33e45b3a4c7af302384fbd623eb3cc61"
+  "previous_publication_commit": "4062276ee7e0d683022329d1356ee41589e9be6d"
 }

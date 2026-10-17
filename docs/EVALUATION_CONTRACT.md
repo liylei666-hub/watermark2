@@ -113,6 +113,10 @@ Jain 的 GS 核心参数名容易混淆：`clean_img` 是希望保留的新内�
 
 [`forgery.py:75–100`](https://github.com/anubhav1997/watermark_forgery_removal/blob/04433962437cbf08ad701b7b43124de07df0b666/Gaussian-Shading/forgery.py#L75-L100) 的入口默认 λ=2、alpha=5/255、n_iters=15000，不能拿 helper 的默认 iters=10 当作论文预算。入口 `vae_optimization` 默认 SD1.4，且主模块加载模型和远端提示词；本轮未执行。未来公平比较需要明确载体来源、代理权限、精确损失单位、迭代/时间预算及离线目标判定，不能直接继承它错误方向的 GS ASR 汇总。
 
+### 5.2 参数来源与真实交付对象
+
+[载体比较契约](COVER_BASELINE_CONTRACT.md)补充核验：同一固定Jain commit的README GS命令使用λ=10000，与裸CLI默认2不同。入口先检测浮点输出再存PNG；独立evaluation/eval_gs.py虽读取PNG计算质量，其ASR仍来自文件名保存的旧分数，并非重新执行PNG水印检测。共同比较须使用冻结后的PNG与统一评估实现；原入口汇总不能直接当作文件交付成功率。该来源差异尚不能证明论文实际运行路径或表格有误。
+
 ## 6 主威胁模型与交付接口
 
 攻击输入为一张已知有效水印参考 PNG、预定内容要求、代理模型/公开算法、预定随机种子和预算。参考的原生成提示词不默认提供；输出提示词是攻击者任务输入。目标公开名称可以作为明确注明的已知信息，但目标实例调用、目标 VAE/UNet 权重使用权限与它分开；若使用完全相同目标模型作代理，应列为单独更强设置，不能混进 mismatch 主结果。
