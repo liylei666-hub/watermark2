@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-17T06:17:21.122250+00:00",
+  "checked_at_utc": "2026-10-17T06:36:21.089730+00:00",
   "published_files_checked": 945,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
@@ -12,7 +12,7 @@
   "models_loaded": false,
   "new_model_experiments_run": 0,
   "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference",
-  "verified_at_utc": "2026-10-17T06:17:21.122250+00:00",
+  "verified_at_utc": "2026-10-17T06:36:21.089730+00:00",
   "scope": "Read-only archive verification; GPU/model fields below describe verification, not historical experiment execution.",
   "stage07_verification": {
     "completed_model_runs": 6,

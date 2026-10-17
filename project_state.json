@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-17T06:13:57.675056+00:00",
+  "as_of_utc": "2026-10-17T06:36:04.744128+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -69,7 +69,11 @@
     "new_model_downloads": false,
     "serial": true,
     "gpu_time_budget_removed_by_user_at_utc": "2026-10-17T06:13:57.675056+00:00",
-    "amendment_user_text": "继续，之后不用考虑gpu用量时间"
+    "amendment_user_text": "继续，之后不用考虑gpu用量时间",
+    "exclusive_gpu_host": "liyanlei@172.18.185.249",
+    "local_gpu_execution": false,
+    "other_server_execution": false,
+    "host_scope_user_text": "以后只用249的空闲显卡"
   },
   "research_feasibility": "conditional",
   "top_tier_contribution_demonstrated": false,
@@ -78,7 +82,7 @@
   "next_action": "Run the frozen stage10 single-pair native Imprint delivery diagnostic once on an idle authorized GPU; stop on equivalence/replay or execution failure. No full defense claim.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
-    "sha256": "7b33ccf30420574650eb4a8be209f0f9a3c410587a539c4995d33d044f6b45bb",
+    "sha256": "1b88f14e29504e6aa9fe467b7457f8c46b5f8e1d176b4ac7048a4cbc2efb3da1",
     "experiments_paused": false
   },
   "evaluation_contract": "docs/EVALUATION_CONTRACT.md",

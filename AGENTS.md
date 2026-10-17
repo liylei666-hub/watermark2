@@ -35,3 +35,8 @@ The user explicitly authorized continuous autonomous research within the establi
 ## GPU time authorization update (2026-10-17)
 
 The user explicitly removed GPU usage-time budget restrictions for continued research. Cumulative and per-process time are no longer authorization caps. Continue recording actual usage for reproducibility. Each frozen diagnostic may set an operational watchdog; stage10 uses 1200 seconds to contain a stalled process. This is an engineering stop rule for that protocol, not a renewed user budget. Physical GPUs 0,1,2 only, verified idle UUID binding, single-card serial execution, 10-GiB file limit, no new model downloads, evidence preservation and the stage09 no-retry decision remain in force.
+
+
+## Exclusive experiment host (2026-10-17)
+
+The user requires all future GPU experiments to run only on verified idle GPUs of liyanlei@172.18.185.249, under /data0/liyanlei/watermark_research. The current physical-device scope [0,1,2] and UUID/occupancy checks remain effective; this host restriction does not expand device indices. Local GPU execution and use of other servers are disabled. Preserve serial execution and all scientific-integrity constraints.

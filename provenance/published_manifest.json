@@ -18,13 +18,13 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 5459,
-      "sha256": "ca0f38e2f1a22bd10197ff8653b0ac5793c4b6285f2c816d5c56faa440763466"
+      "bytes": 5920,
+      "sha256": "33aad1db7f7d07050c984488874d0c84049b24d0c84cb94e5cb0bfa24f981cd1"
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 7264,
-      "sha256": "502bb61d9a814427f3516f888127f8abec7ebd35991ea8660745a2e51ffb0f03"
+      "bytes": 7475,
+      "sha256": "55dbe1e963be4de5f6b319343b8664fa354f917735996a70fcfe0feed9c443f0"
     },
     {
       "path": "README.md",
@@ -318,8 +318,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 8021,
-      "sha256": "d602d0abf60bd90f66f9ad30deb2ed8928791a883698e155db34308fbb3c764c"
+      "bytes": 8232,
+      "sha256": "6081bd9969acffafd748010a6c5f88dbdb8840eb3e98011288d6807fbdde4815"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -343,8 +343,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 13573,
-      "sha256": "266e01cfe8f5d7b86923a1bd9ded348595b2709c31bd83f428388ce790096e81"
+      "bytes": 13759,
+      "sha256": "ad9217d0de90cb089ca5e0ae69237d4512adff399cd260c86b318cad42cf3986"
     },
     {
       "path": "prompts/README.md",
@@ -4727,14 +4727,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 25944113,
+  "total_bytes": 25945182,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-17T06:17:21.122250+00:00",
+  "updated_at_utc": "2026-10-17T06:36:21.089730+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "502a9daf7aec16617e0c4bcf06726a51d92e147f"
+  "previous_publication_commit": "b1aca8ce94c9a9ddc5114f54806592f5f057da9e"
 }
