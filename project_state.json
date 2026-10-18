@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T03:08:45.108647+00:00",
+  "as_of_utc": "2026-10-18T03:37:59.950803+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -24,7 +24,7 @@
     "21",
     "22"
   ],
-  "current_stage_status": "static_decoder_and_sampling_contract_verified",
+  "current_stage_status": "reference_reliability_design_frozen_runtime_pending",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -52,9 +52,9 @@
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/22_decoder_contract/report.md",
-  "latest_status": "reports/22_decoder_contract/status.json",
-  "latest_protocol": "protocols/21_directional_study.json",
+  "latest_report": "docs/METHOD_HYPOTHESIS.md",
+  "latest_status": "reports/objective_equivalence_audit.json",
+  "latest_protocol": "protocols/23_reference_reliability_design.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -106,7 +106,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Audit decoder-equivalence-set optimization against existing Imprint and bin resampling, requiring a distinct proxy-only operation and falsifiable transfer prediction before any new GPU protocol; future confirmation uses per-reference encryption state.",
+  "next_action": "Implement and CPU-verify the frozen stage23 reference-reliability protocol, private evaluator material handling, score metrics and serial controller; freeze all runtime hashes before any model launch.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -522,7 +522,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "Audit decoder-equivalence-set optimization against existing Imprint and bin resampling, requiring a distinct proxy-only operation and falsifiable transfer prediction before any new GPU protocol; future confirmation uses per-reference encryption state.",
+  "next_step_proposal": "Implement and CPU-verify the frozen stage23 reference-reliability protocol, private evaluator material handling, score metrics and serial controller; freeze all runtime hashes before any model launch.",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -734,7 +734,7 @@
     "active_model_processes": [],
     "next_action": "Develop and audit one proxy-only transfer-stability hypothesis against prior VAE, frequency-domain and delivery-consistency methods; freeze an independent study only after a distinct falsifiable mechanism and fair controls are specified."
   },
-  "latest_static_evidence": "reports/22_decoder_contract/status.json",
+  "latest_static_evidence": "reports/objective_equivalence_audit.json",
   "transfer_stability_audit": {
     "report": "docs/METHOD_HYPOTHESIS.md",
     "evidence": "reports/transfer_stability_audit.json",
@@ -882,5 +882,15 @@
       "Targeted literature search is not an exhaustive novelty proof"
     ],
     "next_action": "Audit decoder-equivalence-set optimization against existing Imprint and bin resampling, requiring a distinct proxy-only operation and falsifiable transfer prediction before any new GPU protocol; future confirmation uses per-reference encryption state."
+  },
+  "objective_equivalence_audit": "reports/objective_equivalence_audit.json",
+  "reference_reliability_design": {
+    "protocol": "protocols/23_reference_reliability_design.json",
+    "sha256": "06eae4e1bb8d39bab56fdd45d12cd06f02ef4fc060e77b2ee85552cdc17db88d",
+    "tasks": 4,
+    "model_processes_planned": 5,
+    "runtime_ready": false,
+    "model_processes_started": 0,
+    "attack_candidates": 0
   }
 }

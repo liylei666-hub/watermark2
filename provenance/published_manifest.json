@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 11760,
-      "sha256": "3a162e32e82f6983e10ed6300bc6819f98a4300fd4899037a36418a077fd6b40"
+      "bytes": 11964,
+      "sha256": "be4eefb35aec543fbec192650ee7dae731e5dcc559903330cb44f496930d8a42"
     },
     {
       "path": "README.md",
@@ -308,8 +308,8 @@
     },
     {
       "path": "docs/METHOD_HYPOTHESIS.md",
-      "bytes": 9948,
-      "sha256": "fb88b6507e236934e03f17a8b0bf435f1b31cf84e7f2532a667c3a36d2c10a05"
+      "bytes": 16340,
+      "sha256": "472665f66501fa516d38d550afc6bfec1c15d4c5355df43c3e13ce9f0349c3fe"
     },
     {
       "path": "docs/PAIRED_COVER_PILOT.md",
@@ -328,8 +328,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 12327,
-      "sha256": "e464276cad7d5b8e315adf63599d2e0883366f0db1ae4ab56f7564220765d496"
+      "bytes": 12837,
+      "sha256": "e54520e268c436a8233df5f86c66545c37532c9d7b866ebccfdfa2bc8dc04ee6"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -358,8 +358,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 33397,
-      "sha256": "a66114e12a4d606fb826acfc90aaa81acc09d8f1981e8d424af8394872c4794b"
+      "bytes": 33707,
+      "sha256": "fcce0b8e73323cd0656e0b2886a0eb2e472b959f407d7b9d7c80783bf4e71c66"
     },
     {
       "path": "prompts/README.md",
@@ -620,6 +620,11 @@
       "path": "protocols/21_directional_study.sha256",
       "bytes": 65,
       "sha256": "2bed3f73367ff3303dc9571cc287603dd8d14baa7912122546bc1e1d55d6d680"
+    },
+    {
+      "path": "protocols/23_reference_reliability_design.json",
+      "bytes": 6246,
+      "sha256": "06eae4e1bb8d39bab56fdd45d12cd06f02ef4fc060e77b2ee85552cdc17db88d"
     },
     {
       "path": "provenance/07_remote_manifest.json",
@@ -1680,6 +1685,11 @@
       "path": "reports/imprint_delivery_audit.json",
       "bytes": 2549,
       "sha256": "e0876fd6107c45861cf76dff8b7f4a77f4b04850f72454ea14d9f4aa859dc19b"
+    },
+    {
+      "path": "reports/objective_equivalence_audit.json",
+      "bytes": 3342,
+      "sha256": "b565dee6f44a29b044cb26291fbb9fe385daee27c6fb50268d24c365aa34eded"
     },
     {
       "path": "reports/pai_history_and_endpoints.json",
@@ -10649,7 +10659,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T03:09:13.875275+00:00",
+  "updated_at_utc": "2026-10-18T03:38:31.057373+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "58cadbae73b2517329d8b257257b99886a237b60"
+  "previous_publication_commit": "e37f1e1650e987a61a46fccb274246f1637e88f8"
 }
