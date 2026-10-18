@@ -1,0 +1,20 @@
+{
+  "stage": "22",
+  "frozen_at_utc": "2026-10-18T03:04:56.005926+00:00",
+  "question": "Which conditions connect target latent distance, encrypted bin agreement, majority message accuracy and fixed GS acceptance?",
+  "kind": "static_source_audit_and_synthetic_algebra_checks",
+  "code_sha256": "252e41ad8833278370f9d74896f9e50a522e4a59a52c20fd086304039de99763",
+  "code_path": "scripts/check_gs_decoder_contract.py",
+  "original_run_reads": false,
+  "models_loaded": false,
+  "gpu_used": false,
+  "planned_checks": [
+    "Exhaustive majority-distance formula for widths1..6",
+    "XOR Hamming invariance widths1..4",
+    "Exact rational MSE versus vote counterexample",
+    "Equal total bin errors with different message errors",
+    "Real-arithmetic scalar margin bound"
+  ],
+  "stop_on_any_failed_assertion": true,
+  "upstream_commit": "ca68950cd7b53b8438a49580f134b2a0db28d778"
+}

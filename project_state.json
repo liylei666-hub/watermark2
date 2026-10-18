@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T02:58:51.267808+00:00",
+  "as_of_utc": "2026-10-18T03:08:45.108647+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -21,9 +21,10 @@
     "18",
     "19",
     "20",
-    "21"
+    "21",
+    "22"
   ],
-  "current_stage_status": "completed_verified_with_derivative_disagreement",
+  "current_stage_status": "static_decoder_and_sampling_contract_verified",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -46,12 +47,13 @@
     "18": 1,
     "19": 1,
     "20": 0,
-    "21": 7
+    "21": 7,
+    "22": 0
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/21_directional_study/report.md",
-  "latest_status": "reports/21_directional_study/status.json",
+  "latest_report": "reports/22_decoder_contract/report.md",
+  "latest_status": "reports/22_decoder_contract/status.json",
   "latest_protocol": "protocols/21_directional_study.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
@@ -104,7 +106,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Audit a falsifiable finite-step transfer mechanism and its substantive distinction from existing inverse matching before freezing any new independent study; keep the completed four-pair group closed.",
+  "next_action": "Audit decoder-equivalence-set optimization against existing Imprint and bin resampling, requiring a distinct proxy-only operation and falsifiable transfer prediction before any new GPU protocol; future confirmation uses per-reference encryption state.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -520,7 +522,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "Audit a falsifiable finite-step transfer mechanism and its substantive distinction from existing inverse matching before freezing any new independent study; keep the completed four-pair group closed.",
+  "next_step_proposal": "Audit decoder-equivalence-set optimization against existing Imprint and bin resampling, requiring a distinct proxy-only operation and falsifiable transfer prediction before any new GPU protocol; future confirmation uses per-reference encryption state.",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -732,7 +734,7 @@
     "active_model_processes": [],
     "next_action": "Develop and audit one proxy-only transfer-stability hypothesis against prior VAE, frequency-domain and delivery-consistency methods; freeze an independent study only after a distinct falsifiable mechanism and fair controls are specified."
   },
-  "latest_static_evidence": "reports/transfer_stability_audit.json",
+  "latest_static_evidence": "reports/22_decoder_contract/status.json",
   "transfer_stability_audit": {
     "report": "docs/METHOD_HYPOTHESIS.md",
     "evidence": "reports/transfer_stability_audit.json",
@@ -798,5 +800,87 @@
     "original_controller_model_processes": 0,
     "original_controller_failure_preserved": true,
     "next_action": "Audit a falsifiable finite-step transfer mechanism and its substantive distinction from existing inverse matching before freezing any new independent study; keep the completed four-pair group closed."
+  },
+  "decoder_contract": {
+    "stage": "22",
+    "checked_at_utc": "2026-10-18T03:08:16.244689+00:00",
+    "status": "static_decoder_and_sampling_contract_verified",
+    "report": "reports/22_decoder_contract/report.md",
+    "gpu_used": false,
+    "models_loaded": false,
+    "new_model_experiments_run": 0,
+    "original_runs_read": false,
+    "original_runs_modified": false,
+    "cumulative_model_processes": 39,
+    "cumulative_gpu_process_seconds": 6100.013198679779,
+    "active_model_processes": [],
+    "precheck": {
+      "method": "Read-only nvidia-smi compute apps and ps user listing at turn start",
+      "compute_apps": "",
+      "user_commands": [
+        "systemd",
+        "(sd-pam)",
+        "sshd",
+        "sshd",
+        "bash",
+        "ps"
+      ],
+      "exact_server_timestamp_utc": null
+    },
+    "upstream_commit": "ca68950cd7b53b8438a49580f134b2a0db28d778",
+    "upstream_worktree_clean": true,
+    "source_hashes": {
+      "utils/wm/gs_provider.py": "233ff05fa47d18d5875577d2cd920bd21d8ceea05149f5f100c1fab32c524d99",
+      "run_imprint_forgery.py": "636dd0cb86f8b5d494e2b5213a9fdcf5001b1f4ba9705caae89ca14e9d71d12f"
+    },
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/html/2412.03283v2",
+        "version": "v2",
+        "sections": [
+          "3.1",
+          "3.3",
+          "Appendix A: Gaussian Shading and Deployment Ambiguity"
+        ],
+        "verified_claims": [
+          "inverse matching already present",
+          "bin resampling already present",
+          "paper states new keys and nonces for every generated image"
+        ]
+      },
+      {
+        "url": "https://arxiv.org/html/2606.29807v1",
+        "version": "v1",
+        "sections": [
+          "C.3"
+        ],
+        "verified_claims": [
+          "Reforge discussed and excluded from comparison"
+        ]
+      }
+    ],
+    "findings": {
+      "mse_implies_better_gs_accuracy": false,
+      "total_bin_errors_determine_message_errors": false,
+      "reference_ba1_implies_large_vote_margin": false,
+      "proxy_bin_agreement_implies_target_bin_agreement": false,
+      "target_vote_margin_allowed_to_attack": false,
+      "bin_resampling_is_prior_art": true,
+      "stage17_encryption_states": 1,
+      "stage17_reference_images": 3,
+      "stage21_encryption_states": 2,
+      "stage21_reference_images": 4,
+      "stage21_equivalent_to_per_image_key_nonce_protocol": false
+    },
+    "full_defense_acceptance": null,
+    "novel_method": null,
+    "synthetic_cpu_checks": "reports/22_decoder_contract/cpu_checks.json",
+    "limitations": [
+      "Synthetic algebra does not establish image realizability or a successful attack",
+      "No new source-key values or target margins exposed",
+      "Target transfer conditions unknown",
+      "Targeted literature search is not an exhaustive novelty proof"
+    ],
+    "next_action": "Audit decoder-equivalence-set optimization against existing Imprint and bin resampling, requiring a distinct proxy-only operation and falsifiable transfer prediction before any new GPU protocol; future confirmation uses per-reference encryption state."
   }
 }

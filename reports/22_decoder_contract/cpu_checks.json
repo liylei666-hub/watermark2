@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "scope": "Synthetic decoder algebra; not a model or attack experiment",
+  "majority_pairs_checked": 5460,
+  "xor_cases_checked": 4680,
+  "rational_margin_cases": 75,
+  "mse_counterexample": {
+    "lower_mse": 0.516656765625,
+    "higher_mse": 1.0,
+    "lower_mse_decoded_bit": 0,
+    "higher_mse_decoded_bit": 1
+  },
+  "same_sign_error_count": 64,
+  "concentrated_message_errors": 1,
+  "spread_message_errors": 2,
+  "repetition64_minimum_flip_examples": {
+    "all_ones": 32,
+    "all_zeros": 33,
+    "votes33": 1,
+    "votes32": 1
+  },
+  "gpu_used": false,
+  "models_loaded": false,
+  "new_model_experiments_run": 0,
+  "original_runs_read": false,
+  "original_runs_modified": false,
+  "checked_at_utc": "2026-10-18T03:05:12.908156+00:00",
+  "code_sha256": "252e41ad8833278370f9d74896f9e50a522e4a59a52c20fd086304039de99763",
+  "plan_sha256": "87b9cf68be4e4d7d6e79f4804eecd5581aee000c7ad11d1ff4a9395cf601e6ee"
+}
