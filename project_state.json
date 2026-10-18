@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T05:44:54.478327+00:00",
+  "as_of_utc": "2026-10-18T06:17:56.555194+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -25,9 +25,10 @@
     "22",
     "23",
     "24",
-    "25"
+    "25",
+    "26"
   ],
-  "current_stage_status": "completed_verified_negative_transfer",
+  "current_stage_status": "completed_static_objective_audit",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -54,13 +55,14 @@
     "22": 0,
     "23": 5,
     "24": 12,
-    "25": 4
+    "25": 4,
+    "26": 0
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/25_delivery_transfer/report.md",
-  "latest_status": "reports/25_delivery_transfer/status.json",
-  "latest_protocol": "protocols/25_delivery_design.json",
+  "latest_report": "reports/26_delivery_objectives/report.md",
+  "latest_status": "reports/26_delivery_objectives/status.json",
+  "latest_protocol": "protocols/26_delivery_objectives_cpu.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -77,7 +79,7 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/25_delivery_transfer/verification.json",
+  "latest_completed_analysis": "reports/26_delivery_objectives/cpu_checks.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
   "current_round_gpu_seconds_used": 7251.676560431719,
@@ -112,7 +114,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "完成阶段24角色分离运行器、PNG交付一致性和CPU边界检查，再冻结运行时哈希；固定线性估计器只使用代理自生成标签，源验证失败即关闭，不调整参数。",
+  "next_action": "形成代理可观测量到交付后迁移预测的可证伪契约，明确其相对既有反演匹配和再生成组合的独立信息及否定条件，再决定是否冻结新的模型试验。",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -528,7 +530,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "建立包含生成与反演的代理端交付目标契约，先静态核查它与已有Imprint、Jain及解码等价目标的实质区别；该固定线性映射关闭，不再调参或补样。",
+  "next_step_proposal": "形成代理可观测量到交付后迁移预测的可证伪契约，明确其相对既有反演匹配和再生成组合的独立信息及否定条件，再决定是否冻结新的模型试验。",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -1180,5 +1182,31 @@
     "population_attack_success_rate": null,
     "decision": "The fixed correction is closed under the preregistered nonpositive endpoint rule; reference recovery did not improve delivered-image GS scores in these eight development pairs.",
     "next_step_proposal": "建立包含生成与反演的代理端交付目标契约，先静态核查它与已有Imprint、Jain及解码等价目标的实质区别；该固定线性映射关闭，不再调参或补样。"
+  },
+  "stage26": {
+    "stage": "26",
+    "status": "completed_static_objective_audit",
+    "completed": true,
+    "checked_at_utc": "2026-10-18T06:17:56.555194+00:00",
+    "synthetic_cpu_checks_passed": 4,
+    "gpu_used": false,
+    "models_loaded": false,
+    "new_model_processes": 0,
+    "cumulative_model_processes": 60,
+    "cumulative_gpu_process_seconds": 7251.676560431719,
+    "actual_diffusion_gradient_validated": false,
+    "novel_method_established": false,
+    "full_defense_acceptance": null,
+    "permission_isolation_implemented": false,
+    "active_run": null,
+    "upstream_commit": "ca68950cd7b53b8438a49580f134b2a0db28d778",
+    "protocol_sha256": "100cf70db4f1f01189e8a4a51de8b11250662fc3a90a7ddeba56810e3bd1cfa5",
+    "source_audit": "reports/26_delivery_objectives/source_audit.json",
+    "blockers": [
+      "Transfer-specific mechanism and independent confirmation remain unestablished",
+      "Complete official geometry and SemBind evaluation packages remain incomplete",
+      "SEAL final supplemental PDF request returned HTTP 403"
+    ],
+    "next_step_proposal": "形成代理可观测量到交付后迁移预测的可证伪契约，明确其相对既有反演匹配和再生成组合的独立信息及否定条件，再决定是否冻结新的模型试验。"
   }
 }

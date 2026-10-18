@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-18T05:48:35.935035+00:00",
-  "published_files_checked": 3204,
+  "checked_at_utc": "2026-10-18T06:18:40.448814+00:00",
+  "published_files_checked": 3213,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -457,5 +457,13 @@
     "local_tensor_and_image_readback": true,
     "cumulative_execution_hashes_verified": 60,
     "private_material_published": false
+  },
+  "delivery_objective_audit": {
+    "report": "reports/26_delivery_objectives/status.json",
+    "synthetic_cpu_checks_passed": 4,
+    "frozen_protocol_and_code_hashes_verified": true,
+    "local_execution_hashes_verified": 60,
+    "new_model_processes": 0,
+    "actual_diffusion_gradient_validated": false
   }
 }
