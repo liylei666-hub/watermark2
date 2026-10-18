@@ -1,7 +1,7 @@
 {
   "scope": "Per-process stage07 onward completed/failed execution records; active processes listed separately; earlier historical stages excluded",
-  "model_processes_with_execution": 39,
-  "gpu_process_seconds": 6100.013198679779,
+  "model_processes_with_execution": 44,
+  "gpu_process_seconds": 6289.195742317941,
   "nonzero_exit_processes": 3,
   "note": "Wall time of GPU model processes, including failures; not measured GPU kernel time or successful sample count",
   "records": [
@@ -238,11 +238,41 @@
       "sha256": "179d1070a4ae1f449d2c9e41faf277a4732b23981555bc74a442b0eb2f0033ac",
       "gpu_process_wall_seconds": 269.09612025134265,
       "exit_code": 0
+    },
+    {
+      "path": "runs/23_reference_reliability_20261018T035244Z/evaluation/execution.json",
+      "sha256": "1bd4bd3a6f3b3c1e9a26cff1b87c0894c0c6d8ccb6d5110c7b33a8e2de403ae5",
+      "gpu_process_wall_seconds": 48.83765503577888,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/23_reference_reliability_20261018T035244Z/proxy_100/execution.json",
+      "sha256": "f792f2f90ba13c846ceff8598442e0b53a2b930894666eb5674b358ee6de1b3e",
+      "gpu_process_wall_seconds": 38.31283403141424,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/23_reference_reliability_20261018T035244Z/proxy_25/execution.json",
+      "sha256": "fcad8920c46a6db7d85518ea4f6a30e6cffe7db699d3d1f7c268d4ea6c3867c7",
+      "gpu_process_wall_seconds": 16.926814984995872,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/23_reference_reliability_20261018T035244Z/proxy_50/execution.json",
+      "sha256": "f841fbcb9fbc6ac705fa75e915b6ea27680a4e95f8ad0001df03b75686a7d8e9",
+      "gpu_process_wall_seconds": 24.120732173789293,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/23_reference_reliability_20261018T035244Z/reference/execution.json",
+      "sha256": "8f26df9a2feae8dfbd7c505c267008678db2ecea39138618022190e4dcfb8cb0",
+      "gpu_process_wall_seconds": 60.98450741218403,
+      "exit_code": 0
     }
   ],
   "verifier_gpu_used": false,
   "verifier_models_loaded": false,
-  "checked_at_utc": "2026-10-18T02:57:12.419713+00:00",
+  "checked_at_utc": "2026-10-18T03:59:36.676499+00:00",
   "active_processes": [],
   "last_remote_recheck": "reports/21_directional_study/execution_recheck.json"
 }

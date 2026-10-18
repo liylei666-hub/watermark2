@@ -9,3 +9,5 @@ tmp/
 *.pt
 *.pth
 .env
+
+private_eval/

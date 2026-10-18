@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-18T03:52:34.052573+00:00",
-  "published_files_checked": 2149,
+  "checked_at_utc": "2026-10-18T04:01:56.526243+00:00",
+  "published_files_checked": 2271,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -382,5 +382,16 @@
     "explicit_gs_states_checked": 4,
     "runtime_verified": true,
     "models_started": 0
+  },
+  "stage23_verification": {
+    "model_processes_verified": 5,
+    "remote_execution_hashes_verified": 44,
+    "transferred_files": 115,
+    "official_cpu_scores": 8,
+    "independent_risk_checks": 64,
+    "independent_auc_checks": 16,
+    "proxy_sealed_before_target": true,
+    "private_material_published": false,
+    "report": "reports/23_reference_reliability/status.json"
   }
 }
