@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T00:56:06.323803+00:00",
+  "as_of_utc": "2026-10-18T01:28:38.629667+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -21,7 +21,7 @@
     "18",
     "19"
   ],
-  "current_stage_status": "target_encoding_localization_completed",
+  "current_stage_status": "transfer_objective_static_design_complete",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -100,7 +100,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Develop and audit one proxy-only transfer-stability hypothesis against prior VAE, frequency-domain and delivery-consistency methods; freeze an independent study only after a distinct falsifiable mechanism and fair controls are specified.",
+  "next_action": "Prepare and CPU-verify one independent same-pixel directional intervention protocol comparing proxy VAE and inversion objectives, with frozen input/key/content lists, delivered-distortion gates and candidate sealing before evaluation; do not reopen the six stage17 candidates.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -259,7 +259,7 @@
     ],
     "outbound_messages_sent": 0
   },
-  "latest_static_audit": "docs/COVER_BASELINE_CONTRACT.md",
+  "latest_static_audit": "docs/METHOD_HYPOTHESIS.md",
   "geometry_theoretical_rejection_region": {
     "source": "ICML 2026 final paper, appendix B.3 / Theorem 4.10",
     "rule": "SAD > tau_s AND LGI > tau_l",
@@ -727,5 +727,14 @@
     "cumulative_gpu_process_seconds": 5428.92268636357,
     "active_model_processes": [],
     "next_action": "Develop and audit one proxy-only transfer-stability hypothesis against prior VAE, frequency-domain and delivery-consistency methods; freeze an independent study only after a distinct falsifiable mechanism and fair controls are specified."
+  },
+  "latest_static_evidence": "reports/transfer_stability_audit.json",
+  "transfer_stability_audit": {
+    "report": "docs/METHOD_HYPOTHESIS.md",
+    "evidence": "reports/transfer_stability_audit.json",
+    "hypothesis": "H_T",
+    "novel_attack_selected": null,
+    "executable_protocol_frozen": false,
+    "new_model_experiments_run": 0
   }
 }

@@ -307,5 +307,28 @@
     "execution_records_rechecked": 32,
     "figure_rendered_and_visually_checked": true,
     "models_loaded_by_verifier": false
+  },
+  "transfer_stability_static_audit_verification": {
+    "checked_at_utc": "2026-10-18T01:29:37.861029+00:00",
+    "archive_verifier": {
+      "status": "passed",
+      "published_files_checked": 1771,
+      "remote_source_files_checked": 422,
+      "prompt_sources_checked": 6,
+      "recorded_real_runs_checked": 9,
+      "real_target_tensors_checked": 27,
+      "stage05_runs_checked": 8,
+      "max_abs_cosine_readback_error": 5.551115123125783e-16,
+      "gpu_used": false,
+      "models_loaded": false,
+      "new_model_experiments_run": 0,
+      "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference"
+    },
+    "primary_sources_byte_hashed": 4,
+    "source_scope": "Targeted source/formula review; not exhaustive novelty verification",
+    "gpu_used": false,
+    "models_loaded": false,
+    "new_model_experiments_run": 0,
+    "new_candidates": 0
   }
 }

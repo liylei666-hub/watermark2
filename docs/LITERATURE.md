@@ -1,6 +1,6 @@
 # 文献与实现覆盖
 
-核查日期：2026-10-17（Asia/Shanghai）。这是面向研究决策的定向检索，含引用追踪与版本核查；不是穷尽式系统综述。只以论文原文、出版方及作者仓库支持技术结论。阅读范围逐项列出，未作任何用户已阅读声明。
+核查日期：2026-10-18（Asia/Shanghai）。这是面向研究决策的定向检索，含引用追踪与版本核查；不是穷尽式系统综述。只以论文原文、出版方及作者仓库支持技术结论。阅读范围逐项列出，未作任何用户已阅读声明。
 
 ## 直接相关材料
 
@@ -62,3 +62,13 @@ SEAL 逐文件行号、分数及判定关系见 [专门契约](SEAL_EVALUATION_C
 [SLICE, arXiv:2603.12749v1](https://arxiv.org/html/2603.12749v1)，2026-03-13 预印本。本次核查 §3.1–3.3、§6.1 与定理4.4：按语义因素绑定潜变量分区，并将来源识别和内容完整性分成不同状态。Table 1 ASR 文字对应 watermark present，不能直接读作完整真实性绕过；逐样本状态映射和官方实现尚未核查。详见 [比较契约](BASELINE_COMPARISON_CONTRACT.md)。仅补充原始文献审查，未纳入实验对象。
 
 2026-10-17补充：[SLICE作者页](https://xiaoyulics.com/papers/slice-image-watermarking/)列BMVC 2026 Oral，会议录状态尚未独立核查；arXiv仍仅v1。该作者页未给Code链接，固定CSI库仅注册TR/GS/SEAL，不能视为已有SLICE验证器；检索范围不构成无公开代码的穷尽证明。
+
+## 代理迁移稳定性的先例（2026-10-18）
+
+| 原文与阅读范围 | 方法边界 |
+|---|---|
+| [AdvPC，ECCV2020，§3 Eq.(5)–(6)、§4 Table1](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570239.pdf) | 将AE重建后的分类损失纳入攻击，测试点云跨网络迁移；重建后有效性这一思路已有先例，不能直接称作新水印方法。 |
+| [EOT，ICML2018，§2.1](https://proceedings.mlr.press/v80/athalye18b/athalye18b.pdf) | 变换分布上的期望目标与失真约束；变换鲁棒性与未知目标模型迁移须区分。 |
+| [FIA，2107.14185v1，§4.1–4.2、Algorithm1](https://arxiv.org/html/2107.14185v1)；[ICCV2021出版页](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.html) | 随机掩码梯度聚合与重要特征加权；使用稳定梯度的通用思路已有先例，分类与水印目标不同。CVF PDF读取报错，公式按arXiv v1核对。 |
+
+Jain v1 §8.2 Eq.(6)的DCT高频掩码及§11.3原预算已重新核对。[证据清单](../reports/transfer_stability_audit.json)保存四份实际获取文本的SHA256与阅读范围，源文件留在本地学术缓存，未复制整篇论文进入Git。没有执行这些新来源的代码。以上是有边界的定向阅读；[方法假设](METHOD_HYPOTHESIS.md)区分既有技术、基础数学条件和待检验的方向干预，不声称已证明新颖性。

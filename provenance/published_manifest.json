@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 10054,
-      "sha256": "66863b04d347a7bd1101ebbd490ae7a63d094ecc690d334066f7d23f686710d5"
+      "bytes": 10695,
+      "sha256": "7ebd1b5434f41a590a03aee90617e587bfb6b8357ca0d6aa7ef95460720aaf29"
     },
     {
       "path": "README.md",
@@ -303,13 +303,13 @@
     },
     {
       "path": "docs/LITERATURE.md",
-      "bytes": 10722,
-      "sha256": "b49b1c8ac523391216a107292c0629974165bf4a26107d45f684d82206dd499a"
+      "bytes": 12198,
+      "sha256": "5c4657733c9b42265c744c3bde45bf2443b075dbfbdf1e7e5cd620fd776d85bb"
     },
     {
       "path": "docs/METHOD_HYPOTHESIS.md",
-      "bytes": 10989,
-      "sha256": "001b2ff3a3440e46b6ed4c79fdee509583c6ae28ebd5f7fb9426b0fc844469bc"
+      "bytes": 8720,
+      "sha256": "7c259a4eb58bd766e089615a78e67d4355d2ccb07d65636cedb0642e34ba8d7d"
     },
     {
       "path": "docs/PAIRED_COVER_PILOT.md",
@@ -328,8 +328,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 10743,
-      "sha256": "7ddd4222e6fa2dd012a2daced961264d6b6d0c9c179fbc534172328e3cdebbd5"
+      "bytes": 10911,
+      "sha256": "0c61ec034da4dccb7fb3190621bc67abb4d344baa1e70f7056b717a122e71a2a"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -358,8 +358,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 27550,
-      "sha256": "77f7bef65e01ad280cffd9377f02dfca74d511895297124a689df4ecf4ef793f"
+      "bytes": 27928,
+      "sha256": "8e33f67f3d9f5c17f924a243bad6e2c7559ac6185de52a5196333a420e59ca1a"
     },
     {
       "path": "prompts/README.md",
@@ -1535,6 +1535,11 @@
       "path": "reports/seal_source_evidence.json",
       "bytes": 5352,
       "sha256": "f95f924cab18b293c895bf400e741483c1f9ecadb59ce664010962510e916f3e"
+    },
+    {
+      "path": "reports/transfer_stability_audit.json",
+      "bytes": 5049,
+      "sha256": "1976f38a78d33e2d53ea4421af558dffb39ac893bf4172ea9914916bb5300cb5"
     },
     {
       "path": "runs/02_reprompt_gs_sdxl_seed1_20261012T172610Z/config.json",
@@ -8859,7 +8864,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T00:59:33.785401+00:00",
+  "updated_at_utc": "2026-10-18T01:29:36.992546+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
   "previous_publication_commit": "27d750fe745feef3aa8eb5309ef92af2a8fc3097"
 }
