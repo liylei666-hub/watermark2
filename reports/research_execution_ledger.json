@@ -1,7 +1,7 @@
 {
   "scope": "Per-process stage07 onward completed/failed execution records; active processes listed separately; earlier historical stages excluded",
-  "model_processes_with_execution": 56,
-  "gpu_process_seconds": 6870.670167165343,
+  "model_processes_with_execution": 60,
+  "gpu_process_seconds": 7251.676560431719,
   "nonzero_exit_processes": 3,
   "note": "Wall time of GPU model processes, including failures; not measured GPU kernel time or successful sample count",
   "records": [
@@ -340,11 +340,36 @@
       "sha256": "2cc8701889c77feb5f41eb815234cb2da31de30061d97c24e35eb4158f447a0f",
       "gpu_process_wall_seconds": 24.114355850964785,
       "exit_code": 0
+    },
+    {
+      "path": "runs/25_delivery_transfer_20261018T053630Z/generate_0/execution.json",
+      "sha256": "b5d78303d9537099d221d1e563eb170ff678563ad9853c731f3de4372a8ad7af",
+      "gpu_process_wall_seconds": 60.72229292988777,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/25_delivery_transfer_20261018T053630Z/generate_1/execution.json",
+      "sha256": "5507d008d5505aa751a212af53ffe7319920c9598c3d81c7946e5e68e2704fed",
+      "gpu_process_wall_seconds": 61.05275850556791,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/25_delivery_transfer_20261018T053630Z/evaluate_0/execution.json",
+      "sha256": "9049b1839be0dacead5e210e9595d0dbb5c4d00020a14aa15a3dd7bbba00e02b",
+      "gpu_process_wall_seconds": 130.87335005495697,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/25_delivery_transfer_20261018T053630Z/evaluate_1/execution.json",
+      "sha256": "b8e65142a93fb6716e5d784cec339c790b9ffe3ec50a0515857c6d7ad71ad2fc",
+      "gpu_process_wall_seconds": 128.35799177596346,
+      "exit_code": 0
     }
   ],
   "verifier_gpu_used": false,
   "verifier_models_loaded": false,
   "checked_at_utc": "2026-10-18T05:19:31.126521+00:00",
   "active_processes": [],
-  "last_remote_recheck": "reports/24_cross_generator/test_execution_recheck.json"
+  "last_remote_recheck": "reports/25_delivery_transfer/execution_recheck.json",
+  "active_model_processes": []
 }
