@@ -83,3 +83,7 @@ All nine serial processes completed; 192 run files and 12 stored GS scores verif
 ## Stage18 verified completion (2026-10-18)
 
 One fixed-endpoint proxy process completed in 97.251185 seconds. All three reference replays, native decode pixel checks and inversion equivalence gates passed. Saved-array CPU analysis found proxy/target direction ranking reversals on tasks2 and3. This is exploratory development evidence; do not select candidates or tune parameters from target results. Stage07 onward totals31 processes and5413.363033293281 seconds, with no active model process at the final check. Next work audits the exact target encoding path before any fixed-image component localization.
+
+## Stage19 verified completion (2026-10-18)
+
+Twelve fixed images were encoded using the same official target provider. One process completed in15.559653 seconds;21 files and48 new/existing arrays verified. Localization differs by pair and metric; no single-component causal conclusion. Stage07 onward totals32 processes and5428.922686363570 seconds, with no active model process. Close further microprobes on these six outputs; next establish a distinct proxy-only mechanism and fair controls before an independent study. Target evaluation remains separate from candidate or parameter selection.

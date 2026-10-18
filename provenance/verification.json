@@ -280,5 +280,32 @@
     "reference_bitwise_controls": 3,
     "decode_pixel_controls": 3,
     "inversion_equivalence_controls": 3
+  },
+  "stage19_final_verification": {
+    "checked_at_utc": "2026-10-18T00:59:34.643814+00:00",
+    "archive_verifier": {
+      "status": "passed",
+      "published_files_checked": 1770,
+      "remote_source_files_checked": 422,
+      "prompt_sources_checked": 6,
+      "recorded_real_runs_checked": 9,
+      "real_target_tensors_checked": 27,
+      "stage05_runs_checked": 8,
+      "max_abs_cosine_readback_error": 5.551115123125783e-16,
+      "gpu_used": false,
+      "models_loaded": false,
+      "new_model_experiments_run": 0,
+      "method": "Read-only standard-library hashes, NPY parsing, stored-result arithmetic and configuration/CSV checks; no model imports or inference"
+    },
+    "fixed_images": 12,
+    "new_target_latents": 12,
+    "existing_latents": 36,
+    "transferred_files": 21,
+    "model_process_exit_code": 0,
+    "cpu_contract_cases": 5,
+    "official_preprocessing_stub_cases": 12,
+    "execution_records_rechecked": 32,
+    "figure_rendered_and_visually_checked": true,
+    "models_loaded_by_verifier": false
   }
 }

@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T00:44:29.856015+00:00",
+  "as_of_utc": "2026-10-18T00:56:06.323803+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -18,9 +18,10 @@
     "15",
     "16",
     "17",
-    "18"
+    "18",
+    "19"
   ],
-  "current_stage_status": "fixed_endpoint_residual_and_transfer_diagnostic_completed",
+  "current_stage_status": "target_encoding_localization_completed",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -40,13 +41,14 @@
     "15": 1,
     "16": 0,
     "17": 9,
-    "18": 1
+    "18": 1,
+    "19": 1
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/18_endpoint_residual/report.md",
-  "latest_status": "reports/18_endpoint_residual/status.json",
-  "latest_protocol": "protocols/18_endpoint_residual.json",
+  "latest_report": "reports/19_target_encoding/report.md",
+  "latest_status": "reports/19_target_encoding/status.json",
+  "latest_protocol": "protocols/19_target_encoding.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -63,11 +65,11 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/18_endpoint_residual/analysis.json",
+  "latest_completed_analysis": "reports/19_target_encoding/analysis.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 5413.363033293281,
-  "current_round_model_processes_started": 31,
+  "current_round_gpu_seconds_used": 5428.92268636357,
+  "current_round_model_processes_started": 32,
   "allowed_gpu_physical_indices": [
     0,
     1,
@@ -98,7 +100,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Audit the target VAE preprocessing/encoding path and freeze fixed-image encoding localization to determine whether ranking reversals precede target inversion.",
+  "next_action": "Develop and audit one proxy-only transfer-stability hypothesis against prior VAE, frequency-domain and delivery-consistency methods; freeze an independent study only after a distinct falsifiable mechanism and fair controls are specified.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -113,7 +115,7 @@
   "selected_gpu_physical_index": 0,
   "active_run": null,
   "current_round_gpu_seconds_remaining": null,
-  "last_completed_run": "runs/18_endpoint_residual_20261018T003948Z",
+  "last_completed_run": "runs/19_target_encoding_20261018T005251Z",
   "prompt_control_observation": {
     "paired_seeds": 3,
     "aggregates": {
@@ -177,7 +179,7 @@
       "bit_accuracy_same_minus_changed": 0.009114583333333334
     }
   },
-  "last_attempted_run": "runs/18_endpoint_residual_20261018T003948Z",
+  "last_attempted_run": "runs/19_target_encoding_20261018T005251Z",
   "autonomous_continuation_authorized": true,
   "target_roundtrip_observation": {
     "same_prompt": {
@@ -270,13 +272,13 @@
     "Actual score Lipschitz/normalization scaling sufficient for dimension-exponential tails"
   ],
   "remote_observation": {
-    "checked_at_utc": "2026-10-18T00:44:29.856015+00:00",
+    "checked_at_utc": "2026-10-18T00:56:06.323803+00:00",
     "host": "liyanlei@172.18.185.249",
     "active_model_processes": [],
     "compute_apps": "",
-    "execution_file_count": 31,
-    "gpu_process_seconds": 5413.363033293281,
-    "evidence": "reports/18_endpoint_residual/execution_recheck.json"
+    "execution_file_count": 32,
+    "gpu_process_seconds": 5428.92268636357,
+    "evidence": "reports/19_target_encoding/execution_recheck.json"
   },
   "csi_audit": {
     "repository": "https://github.com/ZhengGao-30/CSI-Attack",
@@ -395,8 +397,8 @@
     "novelty": null,
     "frozen_execution_protocol": "protocols/11_imprint_gradient.json"
   },
-  "latest_preflight_run": "runs/18_endpoint_residual_20261018T003948Z",
-  "latest_preparation_report": "reports/18_endpoint_residual/preparation.json",
+  "latest_preflight_run": "runs/19_target_encoding_20261018T005251Z",
+  "latest_preparation_report": "reports/19_target_encoding/preparation.json",
   "stage10_preparation": {
     "cpu_tests_passed": 8,
     "actual_helper_cpu_compile_passed": true,
@@ -693,5 +695,37 @@
     "cumulative_gpu_process_seconds": 5413.363033293281,
     "active_model_processes": [],
     "next_action": "Audit the target VAE preprocessing/encoding path and freeze fixed-image encoding localization to determine whether ranking reversals precede target inversion."
+  },
+  "target_encoding_localization": {
+    "stage": "19",
+    "checked_at_utc": "2026-10-18T00:56:06.323803+00:00",
+    "status": "completed_verified",
+    "run_dir": "runs/19_target_encoding_20261018T005251Z",
+    "data_role": "development_exploratory_posthoc",
+    "gpu_used": true,
+    "models_loaded": true,
+    "model_processes_started": 1,
+    "target_encoding_calls": 12,
+    "target_inversion_calls": 0,
+    "generation_calls": 0,
+    "optimization_updates": 0,
+    "new_candidate_images": 0,
+    "input_images": 12,
+    "new_arrays": 12,
+    "existing_arrays_checked": 36,
+    "transferred_files": 21,
+    "attack_feedback": false,
+    "full_defense_acceptance": null,
+    "causal_component_effect": null,
+    "ranking_localization": {
+      "task1": "Encoding favors Jain in both models; inversion favors Imprint in both models",
+      "task2": "Target encoding MSE favors Imprint but cosine favors Jain; target inversion favors Imprint for both",
+      "task3": "Target encoding already favors Imprint for MSE and cosine"
+    },
+    "closed_diagnostic_group": "The existing three pairs and six candidates; no further microprobes to seek a preferred explanation",
+    "cumulative_model_processes": 32,
+    "cumulative_gpu_process_seconds": 5428.92268636357,
+    "active_model_processes": [],
+    "next_action": "Develop and audit one proxy-only transfer-stability hypothesis against prior VAE, frequency-domain and delivery-consistency methods; freeze an independent study only after a distinct falsifiable mechanism and fair controls are specified."
   }
 }
