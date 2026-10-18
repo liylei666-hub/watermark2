@@ -602,6 +602,16 @@
       "sha256": "3ffc6bcf4af245267bd1ef8e85f681c2a5266b622b3b9a5f732f3976eaf1dfbd"
     },
     {
+      "path": "protocols/21_directional_runtime_r2.json",
+      "bytes": 14282,
+      "sha256": "fa92475e404994cac59760939eee3968bceb3e9aca402b8a05be7e7f1a10609d"
+    },
+    {
+      "path": "protocols/21_directional_runtime_r2.sha256",
+      "bytes": 65,
+      "sha256": "48adc323ee9155ef2decb2cd66825f944293908a9091c5ab61ed2b9a65a2f933"
+    },
+    {
       "path": "protocols/21_directional_study.json",
       "bytes": 6631,
       "sha256": "1d0ad09287393af04bd9d65ae81ad02ecdedebe9c8e857c6111cd1f4ca8f1f67"
@@ -1490,6 +1500,16 @@
       "path": "reports/20_directional_preparation/status.json",
       "bytes": 2314,
       "sha256": "32bcc34bc2cf62c9e8c208390c1cd7d7ec1af3dc63ecdc770fbd43691e458885"
+    },
+    {
+      "path": "reports/21_directional_study/controller_failure.json",
+      "bytes": 818,
+      "sha256": "11e7a2ae54b79becb512ddc403cf58570ed5acd378a2d3cee20abee3e5acfc98"
+    },
+    {
+      "path": "reports/21_directional_study/controller_r2_cpu.json",
+      "bytes": 1001,
+      "sha256": "45d216fb13507337ad699b22928a32eb8c9b537c960c2acec76fe50708c810d7"
     },
     {
       "path": "reports/21_directional_study/preparation.json",
@@ -8347,6 +8367,16 @@
       "sha256": "6fbc6ff3a327fb76be41cd2145e337c39d82eebb47e4afbe653de9033d81defd"
     },
     {
+      "path": "runs/21_directional_20261018T023718Z/launch_intent.json",
+      "bytes": 255,
+      "sha256": "760e72ae1c6507aecff4a9729fd76ca04ee40ebb1630f255a58511377fdc0801"
+    },
+    {
+      "path": "runs/21_directional_20261018T023718Z/status.json",
+      "bytes": 186,
+      "sha256": "7d532b476d52799bc11ccb617e2ac9c191bca29da0b6e86a70cd045009061655"
+    },
+    {
       "path": "scripts/02_run_smoke.py",
       "bytes": 7122,
       "sha256": "1cfc7debfa4aa0eefd7afff4683879d62cd3106709590f589111e49b1deaaeec"
@@ -8582,6 +8612,11 @@
       "sha256": "a0863a3ee78ef28d04c599eea22472dd719fd09549b32ed087e6ebaaff22d690"
     },
     {
+      "path": "scripts/directional_study/control_r2.py",
+      "bytes": 5523,
+      "sha256": "d8fbd7154f69928c3538c6d7489a2584614ba13968e808be553f9a85d32fc3a9"
+    },
+    {
       "path": "scripts/directional_study/delivery.py",
       "bytes": 5303,
       "sha256": "5df4fd0ff9155910387d334f91a6bd8171df2e8c2670eb50635bba1ec708699a"
@@ -8605,6 +8640,11 @@
       "path": "scripts/directional_study/prepare.py",
       "bytes": 3466,
       "sha256": "f7cf7a7148dd851caaf924de475d197187b7c40acef2ff9e9e49cefc6a55e16b"
+    },
+    {
+      "path": "scripts/directional_study/test_controller_r2.py",
+      "bytes": 3647,
+      "sha256": "64993561194945aa7bdb8c6d8b1a637ca4a09e5fea65d73638023ac10a9b1413"
     },
     {
       "path": "scripts/directional_study/test_delivery.py",
@@ -9029,7 +9069,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T02:36:47.177295+00:00",
+  "updated_at_utc": "2026-10-18T02:39:18.942095+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
   "previous_publication_commit": "27d750fe745feef3aa8eb5309ef92af2a8fc3097"
 }
