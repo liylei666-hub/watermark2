@@ -76,7 +76,7 @@
     "model_processes": 0,
     "git_clean_at_start": true
   },
-  "next_step": "Complete and freeze the test-phase runtime,then evaluate the unchanged estimator on the eight proxy-GS and eight target-GS references already specified in the design.",
+  "next_step": "为已冻结校正建立配对端到端交付协议，检验参考位恢复收益能否经过代理生成和目标反演保留下来；两种输出全部先封存后评估，保持参数固定，不作候选筛选。",
   "design_checks": {
     "split_counts": {
       "proxy_train": 16,
@@ -91,5 +91,6 @@
     "design_and_cpu_code_hashes_verified": true
   },
   "source_runtime_preparation": "reports/24_cross_generator/preparation.json",
-  "source_result": "reports/24_cross_generator/status.json"
+  "source_result": "reports/24_cross_generator/status.json",
+  "completed_result": "reports/24_cross_generator/status.json"
 }
