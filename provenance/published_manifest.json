@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 5520,
-      "sha256": "2dc5f5fb6a7fb20597dd92c3830d218531ccea5988dcbb52fb4c5554b0a95902"
+      "bytes": 5433,
+      "sha256": "37a8e57444bbe7cc4ddb4fb588b1cea592807f1a0f169af35fcb47c12583618c"
     },
     {
       "path": "README.md",
@@ -348,8 +348,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 15119,
-      "sha256": "4a82e6d45443f6c3ca16be35999d2defbf7d3593b1fa3af44ac84c8603f2bf46"
+      "bytes": 5793,
+      "sha256": "8087ed012b02962729a01154c5f834d66fbed0dcd9a4a6cef7fb83ba08777860"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -378,8 +378,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 46537,
-      "sha256": "ee6791e2babbbe6d332945785215176de69e23509280b2c83915af7765df3a13"
+      "bytes": 47023,
+      "sha256": "fa4e328013bcebd7c27b9da81b59d3d3eaacab66e9b8d1efa3b3ab0ab39c3fc6"
     },
     {
       "path": "prompts/README.md",
@@ -16074,7 +16074,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T06:18:38.733195+00:00",
+  "updated_at_utc": "2026-10-18T06:23:29.043634+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "cd0435a457054aabee539f2ceae84a7587e1b3b5"
+  "previous_publication_commit": "98294a3408b636deb004c824a7055d9797904154"
 }

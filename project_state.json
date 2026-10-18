@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T06:17:56.555194+00:00",
+  "as_of_utc": "2026-10-18T06:23:09.415788+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -28,7 +28,7 @@
     "25",
     "26"
   ],
-  "current_stage_status": "completed_static_objective_audit",
+  "current_stage_status": "complete_method_comparison_preparation",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -114,7 +114,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "形成代理可观测量到交付后迁移预测的可证伪契约，明确其相对既有反演匹配和再生成组合的独立信息及否定条件，再决定是否冻结新的模型试验。",
+  "next_action": "实现并冻结完整方法比较：原生Imprint、Jain和交付路径Imprint候选，在新载体任务上比较最终PNG的普通GS、内容保留、失真与实际成本；先完成必要的运行正确性检查，再执行整组，不继续拆分同组微观诊断。",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -530,7 +530,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "形成代理可观测量到交付后迁移预测的可证伪契约，明确其相对既有反演匹配和再生成组合的独立信息及否定条件，再决定是否冻结新的模型试验。",
+  "next_step_proposal": "实现并冻结完整方法比较：原生Imprint、Jain和交付路径Imprint候选，在新载体任务上比较最终PNG的普通GS、内容保留、失真与实际成本；先完成必要的运行正确性检查，再执行整组，不继续拆分同组微观诊断。",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -1208,5 +1208,17 @@
       "SEAL final supplemental PDF request returned HTTP 403"
     ],
     "next_step_proposal": "形成代理可观测量到交付后迁移预测的可证伪契约，明确其相对既有反演匹配和再生成组合的独立信息及否定条件，再决定是否冻结新的模型试验。"
+  },
+  "paper_priority": {
+    "candidate": "delivery_path_imprint",
+    "comparators": [
+      "native_imprint",
+      "jain_vae_matching"
+    ],
+    "proposed_development_tasks": 12,
+    "runtime_protocol_frozen": false,
+    "new_method_implemented": false,
+    "new_comparison_run": false,
+    "novelty_established": false
   }
 }
