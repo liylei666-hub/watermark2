@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T03:59:36.676499+00:00",
+  "as_of_utc": "2026-10-18T04:11:12.374148+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -108,7 +108,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Audit which proxy-observable information can distinguish cross-model systematic bias from reference-bit uncertainty, and its difference from existing inversion/ensemble methods before another GPU protocol.",
+  "next_action": "Specify a proxy-only synthetic-supervision cross-generator evaluation contract, checking exact prior coverage before freezing data splits or a new runtime.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -123,7 +123,7 @@
   "selected_gpu_physical_index": 0,
   "active_run": null,
   "current_round_gpu_seconds_remaining": null,
-  "last_completed_run": "runs/19_target_encoding_20261018T005251Z",
+  "last_completed_run": "runs/23_reference_reliability_20261018T035244Z",
   "prompt_control_observation": {
     "paired_seeds": 3,
     "aggregates": {
@@ -267,7 +267,7 @@
     ],
     "outbound_messages_sent": 0
   },
-  "latest_static_audit": "docs/METHOD_HYPOTHESIS.md",
+  "latest_static_audit": "reports/reference_information_audit.json",
   "geometry_theoretical_rejection_region": {
     "source": "ICML 2026 final paper, appendix B.3 / Theorem 4.10",
     "rule": "SAD > tau_s AND LGI > tau_l",

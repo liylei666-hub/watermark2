@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-18T04:01:56.526243+00:00",
-  "published_files_checked": 2271,
+  "checked_at_utc": "2026-10-18T04:12:40.282336+00:00",
+  "published_files_checked": 2273,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -393,5 +393,14 @@
     "proxy_sealed_before_target": true,
     "private_material_published": false,
     "report": "reports/23_reference_reliability/status.json"
+  },
+  "reference_information_audit": {
+    "report": "docs/REFERENCE_INFORMATION_AUDIT.md",
+    "source_evidence": "reports/reference_information_audit.json",
+    "source_blob_hashes_checked": 13,
+    "python_ast_checked": 9,
+    "models_loaded": false,
+    "new_model_experiments_run": 0,
+    "status": "passed"
   }
 }

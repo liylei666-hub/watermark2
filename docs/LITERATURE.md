@@ -72,3 +72,9 @@ SEAL 逐文件行号、分数及判定关系见 [专门契约](SEAL_EVALUATION_C
 | [FIA，2107.14185v1，§4.1–4.2、Algorithm1](https://arxiv.org/html/2107.14185v1)；[ICCV2021出版页](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.html) | 随机掩码梯度聚合与重要特征加权；使用稳定梯度的通用思路已有先例，分类与水印目标不同。CVF PDF读取报错，公式按arXiv v1核对。 |
 
 Jain v1 §8.2 Eq.(6)的DCT高频掩码及§11.3原预算已重新核对。[证据清单](../reports/transfer_stability_audit.json)保存四份实际获取文本的SHA256与阅读范围，源文件留在本地学术缓存，未复制整篇论文进入Git。没有执行这些新来源的代码。以上是有边界的定向阅读；[方法假设](METHOD_HYPOTHESIS.md)区分既有技术、基础数学条件和待检验的方向干预，不声称已证明新颖性。
+
+## 原始噪声估计与参考信息（2026-10-18）
+
+新增FARI（ICLR2026）、ROAR（ICCV2025）、EDICT、ReNoise、GS with EDICT及There and Back Again的定向核查，具体版本、阅读范围和源码行号统一见[参考信息审查](REFERENCE_INFORMATION_AUDIT.md)。FARI固定commit为c08064222366842bf962998506c4815b0a2cbe63，13文本文件blob核验、9个Python AST通过；未获取权重或执行入口。ROAR全文直接访问403，完整协议与代码仍unknown。
+
+这些先例覆盖已知生成噪声监督、图像恢复/再生成、耦合数值求逆、迭代再加噪，以及平滑区域和早期步骤误差。它们不自动证明当前跨模型伪造设置的收益；也使单纯减小反演误差、训练一步反演器或发现纹理相关误差不足以作为本项目新贡献。

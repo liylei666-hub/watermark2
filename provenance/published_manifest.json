@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 5358,
-      "sha256": "ccf5c7df2dabe33facdc37ff7a24bcf0bd56e72976f63662f4ed1044f9103731"
+      "bytes": 5539,
+      "sha256": "1a31b35694b0c45eeea51456207ae54d82b15a5a427bad8bf454d08b9d18ef58"
     },
     {
       "path": "README.md",
@@ -303,13 +303,13 @@
     },
     {
       "path": "docs/LITERATURE.md",
-      "bytes": 12198,
-      "sha256": "5c4657733c9b42265c744c3bde45bf2443b075dbfbdf1e7e5cd620fd776d85bb"
+      "bytes": 13017,
+      "sha256": "dc03093cc2adeb2862bcc2c6aa2bbfb1e33c31be2f4e256ace3ad571e5e3cedb"
     },
     {
       "path": "docs/METHOD_HYPOTHESIS.md",
-      "bytes": 17337,
-      "sha256": "b20fa3ce71cf11987f739cb05e95ff0706ee68b731188894f3c57cd0b651edd4"
+      "bytes": 17915,
+      "sha256": "f5dad51107ab6547726a4837fca0978ca5bb36fa13b48aff399526b991e77a6e"
     },
     {
       "path": "docs/PAIRED_COVER_PILOT.md",
@@ -327,9 +327,14 @@
       "sha256": "f7c851ac47be5dbf64aa4bf0b1ecbf9f014c0b59fbd7b8ff1476241e5802209f"
     },
     {
+      "path": "docs/REFERENCE_INFORMATION_AUDIT.md",
+      "bytes": 9394,
+      "sha256": "64ff5cd89fdff923420041ae664d9494646bde9b1eced196a897023446f4c1dc"
+    },
+    {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 13590,
-      "sha256": "db4b6dd0885505cbd86370d4f9941c34d01e34aae1820c42238adb5f546f4588"
+      "bytes": 13789,
+      "sha256": "7f3e772c2c9edd93929ca6bb95a3e24e2c55ea99f2fa558f4a060f98bce508b4"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -358,8 +363,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 36086,
-      "sha256": "a84eb1743239d6db36212fda273daea927a5750b63f85e729c55d356d3113765"
+      "bytes": 36057,
+      "sha256": "055ad2352af0cd039e276117405858f1205ca6a3b6a15f7ac411a9777c9a4e35"
     },
     {
       "path": "prompts/README.md",
@@ -1775,6 +1780,11 @@
       "path": "reports/pnp_source_availability.json",
       "bytes": 965,
       "sha256": "d2d9943cdea10d64f9512bc341a7a4307d60d8a00d9766d4a43c218c854f5eec"
+    },
+    {
+      "path": "reports/reference_information_audit.json",
+      "bytes": 7232,
+      "sha256": "ef18f6ec671477fed0319472b50630692d2a96360638670cf7ebd60582494b2c"
     },
     {
       "path": "reports/research_execution_ledger.json",
@@ -11364,7 +11374,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T04:01:55.192773+00:00",
+  "updated_at_utc": "2026-10-18T04:12:19.784985+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "e37f1e1650e987a61a46fccb274246f1637e88f8"
+  "previous_publication_commit": "e613a7fff9aff91ec4df4d8b513b6c8bcb5f0ab9"
 }
