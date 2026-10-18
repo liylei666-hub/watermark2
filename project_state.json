@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T01:59:00.240927+00:00",
+  "as_of_utc": "2026-10-18T02:36:46.404351+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -21,7 +21,7 @@
     "18",
     "19"
   ],
-  "current_stage_status": "cpu_delivery_and_interface_complete_model_runtime_pending",
+  "current_stage_status": "directional_runtime_frozen_ready",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -47,7 +47,7 @@
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
   "latest_report": "reports/20_directional_preparation/report.md",
-  "latest_status": "reports/20_directional_preparation/status.json",
+  "latest_status": "reports/21_directional_study/status.json",
   "latest_protocol": "protocols/21_directional_study.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
@@ -100,7 +100,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Implement and CPU-check the same-pixel model-gradient adapter and complete serial supervisor/evaluator, freeze their hashes, then execute the independent directional study with fresh UUID idle gates.",
+  "next_action": "Run the seven-process frozen directional study after per-process idle checks; stop on engineering failure without unchanged retry.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",

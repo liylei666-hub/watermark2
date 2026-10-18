@@ -1,0 +1,12 @@
+{
+  "stage": "21",
+  "checked_at_utc": "2026-10-18T02:36:46.404351+00:00",
+  "status": "ready_after_cpu_checks",
+  "runtime_code_frozen": true,
+  "cpu_cases_passed_total": 27,
+  "new_model_experiments_run": 0,
+  "active_run": null,
+  "full_defense_acceptance": null,
+  "protocol_sha256": "1d0ad09287393af04bd9d65ae81ad02ecdedebe9c8e857c6111cd1f4ca8f1f67",
+  "runtime_sha256": "4a5e6a5689112fd407598d25726d92fd4983c0ed97b9bcde3c95e6c4435396c9"
+}

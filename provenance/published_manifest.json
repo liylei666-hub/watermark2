@@ -358,8 +358,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 28186,
-      "sha256": "d0fb6699c88913edf98fbf821075e9543ef477130d4adfd2348730b565595251"
+      "bytes": 28086,
+      "sha256": "c49ee333ad0569633b4b62b88a61bc566465ed26edf832b43981f1804bd3b8c9"
     },
     {
       "path": "prompts/README.md",
@@ -580,6 +580,26 @@
       "path": "protocols/19_target_encoding.sha256",
       "bytes": 66,
       "sha256": "ace1892c0ef84e39036d98ed5249e6a036369714ac23aded6d86a3cd1c602403"
+    },
+    {
+      "path": "protocols/21_directional_attack_runtime.json",
+      "bytes": 1799,
+      "sha256": "76b860079e9574a8393f407ed6e61f6a3859833960beaeb1b50b1c521ce9a4ab"
+    },
+    {
+      "path": "protocols/21_directional_attack_runtime.sha256",
+      "bytes": 65,
+      "sha256": "f6c4e6573c3437655fc27e1830abd94b0a144adea0acdd24af45c1b5dc312261"
+    },
+    {
+      "path": "protocols/21_directional_runtime.json",
+      "bytes": 9370,
+      "sha256": "4a5e6a5689112fd407598d25726d92fd4983c0ed97b9bcde3c95e6c4435396c9"
+    },
+    {
+      "path": "protocols/21_directional_runtime.sha256",
+      "bytes": 65,
+      "sha256": "3ffc6bcf4af245267bd1ef8e85f681c2a5266b622b3b9a5f732f3976eaf1dfbd"
     },
     {
       "path": "protocols/21_directional_study.json",
@@ -1470,6 +1490,16 @@
       "path": "reports/20_directional_preparation/status.json",
       "bytes": 2314,
       "sha256": "32bcc34bc2cf62c9e8c208390c1cd7d7ec1af3dc63ecdc770fbd43691e458885"
+    },
+    {
+      "path": "reports/21_directional_study/preparation.json",
+      "bytes": 3746,
+      "sha256": "fc77d026883d2b4ec10adf8778f8d7a3435d1aeb18ca7825847518cc4b4d3f55"
+    },
+    {
+      "path": "reports/21_directional_study/status.json",
+      "bytes": 445,
+      "sha256": "97ea3ba1f3a7570fa51c46e2edbb85a550a0032887443dc51eafb30cbb2cabb3"
     },
     {
       "path": "reports/cover_baseline_contract/cpu_checks.json",
@@ -8532,9 +8562,24 @@
       "sha256": "df21d7b67b40fd585cd88fc0f96f9b8ab31b6a58a5e053a9e965ee4b96d51787"
     },
     {
+      "path": "scripts/directional_study/attack.py",
+      "bytes": 5305,
+      "sha256": "be8c753ae3afa96f7c5dc15cfa2c9f3e9ac1daec07d2bf5c65c3b08b490a6a42"
+    },
+    {
       "path": "scripts/directional_study/check_gs_identities.py",
       "bytes": 2184,
       "sha256": "79907984103657c7ca30e2f31dc5a091966a46b2f5ae001505cf64ee4bfc9787"
+    },
+    {
+      "path": "scripts/directional_study/common.py",
+      "bytes": 435,
+      "sha256": "a4eb47c9b4b512ad8d17455c98023ff5b25e26926f0e74d5270cedb55e115823"
+    },
+    {
+      "path": "scripts/directional_study/control.py",
+      "bytes": 5335,
+      "sha256": "a0863a3ee78ef28d04c599eea22472dd719fd09549b32ed087e6ebaaff22d690"
     },
     {
       "path": "scripts/directional_study/delivery.py",
@@ -8542,9 +8587,24 @@
       "sha256": "5df4fd0ff9155910387d334f91a6bd8171df2e8c2670eb50635bba1ec708699a"
     },
     {
+      "path": "scripts/directional_study/evaluate.py",
+      "bytes": 1842,
+      "sha256": "34a4c313194bbfcbad023287dd24e8588e610e0c953e0c39ad380fa7ad424cfe"
+    },
+    {
+      "path": "scripts/directional_study/gradient_core.py",
+      "bytes": 810,
+      "sha256": "58feadaa0b509b25dead8daebc5d929236669a937082e13724b54d0ffd89442f"
+    },
+    {
       "path": "scripts/directional_study/interface.py",
       "bytes": 6181,
       "sha256": "0f2823774fccc34632140275f9dddda07cc67b5f9887bafda5f33a264be4be83"
+    },
+    {
+      "path": "scripts/directional_study/prepare.py",
+      "bytes": 3466,
+      "sha256": "f7cf7a7148dd851caaf924de475d197187b7c40acef2ff9e9e49cefc6a55e16b"
     },
     {
       "path": "scripts/directional_study/test_delivery.py",
@@ -8552,9 +8612,24 @@
       "sha256": "d7a17845b00b15431854cac6c00720796e60b3704b3cbffcb21a0c85d17234e5"
     },
     {
+      "path": "scripts/directional_study/test_gradient.py",
+      "bytes": 3606,
+      "sha256": "9e9ccd629d64124d896ef42565adea107c53f502a11277acf9f40f8f13d34777"
+    },
+    {
       "path": "scripts/directional_study/test_interface.py",
       "bytes": 3850,
       "sha256": "d9e0525d83aecebfb88e3437f5904bb7579b980e2ad1342ed0dec2247a9f4da0"
+    },
+    {
+      "path": "scripts/directional_study/test_workflow.py",
+      "bytes": 2504,
+      "sha256": "b19588d16efb532e485f9d64fc82b83d375cafbbe0edbec5980dd8a7d80aa2c0"
+    },
+    {
+      "path": "scripts/directional_study/workflow.py",
+      "bytes": 669,
+      "sha256": "00fd1b7eabb8c1754295a1b39f4630d01cc85bdc76942a20e5e6151e8095d2c5"
     },
     {
       "path": "scripts/endpoint_residual/common.py",
@@ -8954,7 +9029,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T01:59:29.134260+00:00",
+  "updated_at_utc": "2026-10-18T02:36:47.177295+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
   "previous_publication_commit": "27d750fe745feef3aa8eb5309ef92af2a8fc3097"
 }
