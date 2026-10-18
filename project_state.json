@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T02:36:46.404351+00:00",
+  "as_of_utc": "2026-10-18T02:58:51.267808+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -19,9 +19,11 @@
     "16",
     "17",
     "18",
-    "19"
+    "19",
+    "20",
+    "21"
   ],
-  "current_stage_status": "directional_runtime_frozen_ready",
+  "current_stage_status": "completed_verified_with_derivative_disagreement",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -42,11 +44,13 @@
     "16": 0,
     "17": 9,
     "18": 1,
-    "19": 1
+    "19": 1,
+    "20": 0,
+    "21": 7
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/20_directional_preparation/report.md",
+  "latest_report": "reports/21_directional_study/report.md",
   "latest_status": "reports/21_directional_study/status.json",
   "latest_protocol": "protocols/21_directional_study.json",
   "geometry_threshold": null,
@@ -65,11 +69,11 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/19_target_encoding/analysis.json",
+  "latest_completed_analysis": "reports/21_directional_study/analysis.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 5428.92268636357,
-  "current_round_model_processes_started": 32,
+  "current_round_gpu_seconds_used": 6100.013198679779,
+  "current_round_model_processes_started": 39,
   "allowed_gpu_physical_indices": [
     0,
     1,
@@ -100,7 +104,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Run the seven-process frozen directional study after per-process idle checks; stop on engineering failure without unchanged retry.",
+  "next_action": "Audit a falsifiable finite-step transfer mechanism and its substantive distinction from existing inverse matching before freezing any new independent study; keep the completed four-pair group closed.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -516,7 +520,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "Freeze a proxy-only fixed-endpoint residual diagnostic on all six predetermined outputs; no candidate updates or target feedback.",
+  "next_step_proposal": "Audit a falsifiable finite-step transfer mechanism and its substantive distinction from existing inverse matching before freezing any new independent study; keep the completed four-pair group closed.",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -539,7 +543,7 @@
     "active_run": null,
     "next_step": "Freeze one 100-update original-state development timing and finiteness check with no target calls before independent-pair comparison design"
   },
-  "usage_note": "All 30 completed/failed model processes from stage07 through stage17 included; execution inventory and hashes verified on server. No active model process.",
+  "usage_note": "All 39 completed/failed stage07 onward model processes included and remotely hash-verified; no active model process at final check.",
   "core_cost_calibration": {
     "status": "passed",
     "equal_files": [
@@ -734,16 +738,65 @@
     "evidence": "reports/transfer_stability_audit.json",
     "hypothesis": "H_T",
     "novel_attack_selected": null,
-    "executable_protocol_frozen": false,
+    "executable_protocol_frozen": true,
     "new_model_experiments_run": 0
   },
   "directional_preparation": {
-    "status": "cpu_delivery_and_interface_complete_model_runtime_pending",
+    "status": "completed",
     "cpu_cases_passed": 19,
     "planned_tasks": 4,
     "planned_candidates": 20,
     "planned_target_images": 28,
-    "runtime_code_fully_frozen": false,
+    "runtime_code_fully_frozen": true,
     "new_model_experiments_run": 0
+  },
+  "directional_study": {
+    "stage": "21",
+    "checked_at_utc": "2026-10-18T02:58:51.267808+00:00",
+    "status": "completed_verified_with_derivative_disagreement",
+    "run_dir": "runs/21_directional_r2_20261018T023922Z",
+    "frozen_commit": "873a47e87a614c02b10b0666b6c11a13a37d1c34",
+    "protocol_sha256": "1d0ad09287393af04bd9d65ae81ad02ecdedebe9c8e857c6111cd1f4ca8f1f67",
+    "runtime_code_frozen": true,
+    "cpu_unique_cases_passed": 31,
+    "new_model_experiments_run": 7,
+    "gpu_used": true,
+    "models_loaded": true,
+    "gpu_physical_index": 0,
+    "gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
+    "active_run": null,
+    "tasks": 4,
+    "identity_clusters": 2,
+    "candidates": 20,
+    "target_images": 28,
+    "official_cpu_scores_verified": 28,
+    "transferred_files": 300,
+    "transferred_bytes": 48687362,
+    "model_process_seconds": 671.0905123162083,
+    "cumulative_model_processes": 39,
+    "cumulative_gpu_process_seconds": 6100.013198679779,
+    "ordinary_gs_counts": {
+      "reference": 4,
+      "cover": 0,
+      "vae_descent": 0,
+      "vae_ascent": 0,
+      "inverse_descent": 0,
+      "inverse_ascent": 0,
+      "random": 0
+    },
+    "primary_mean": 0.045831665449545145,
+    "finite_difference_checks_passed": 0,
+    "finite_difference_checks_total": 8,
+    "first_order_transfer_mechanism_established": false,
+    "full_defense_acceptance": null,
+    "formal_content_pass": null,
+    "human_reviews": 0,
+    "new_attack_established": false,
+    "attack_target_feedback": false,
+    "permission_isolation": false,
+    "data_role": "development_mechanism_pilot",
+    "original_controller_model_processes": 0,
+    "original_controller_failure_preserved": true,
+    "next_action": "Audit a falsifiable finite-step transfer mechanism and its substantive distinction from existing inverse matching before freezing any new independent study; keep the completed four-pair group closed."
   }
 }

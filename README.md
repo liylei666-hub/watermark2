@@ -4,8 +4,9 @@
 
 **当前判断：方向有条件可行，已有结果尚不足以构成顶刊顶会贡献。已完成提示词和目标往返对照，并留存未完成的 VAE 组件诊断；完整防御协议仍有明确缺项。**
 
+- [固定方向迁移诊断](reports/21_directional_study/report.md)：4对新图中反演方向相对VAE方向均更好，但只有3对改善原载体；20候选普通GS全部未通过，8项中心差分均超容差。一阶机制与新方法尚未建立。
 - [三对载体试验](reports/17_cover_pilot/report.md)：约376秒核心预算下，Imprint普通GS通过2/3，适配的Jain通过0/3；全部候选固定后评估，192文件及12个分数核验通过。完整防御与正式内容标签仍未知。
-- [基线计算成本](reports/15_imprint_timing/report.md)：Imprint参考准备+10步375.33秒，Jain参考编码+100步83.91秒；下一组拟用10/447步近似预算，完整输出轨迹核对通过。
+- [基线计算成本](reports/15_imprint_timing/report.md)：Imprint参考准备+10步375.33秒，Jain参考编码+100步83.91秒；阶段17采用10/447步近似预算，完整输出轨迹核对通过。
 - [真实VAE核心核验](reports/13_vae_core/report.md)：原参数状态三步输出跨进程一致；参数冻结等价检查未通过，保留原核心执行状态。
 - [载体攻击比较契约](docs/COVER_BASELINE_CONTRACT.md)：核对Imprint/Jain预算、浮点与PNG检测对象、共享代理适配及成本；六项CPU核心检查通过。
 - [组件残差定位](reports/12_imprint_components/report.md)：链式梯度逐位一致，较大有限步长残差主要在VAE组合映射；贡献与目标迁移收益尚待证明。
