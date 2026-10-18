@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-18T03:38:31.057373+00:00",
-  "published_files_checked": 2130,
+  "checked_at_utc": "2026-10-18T03:52:34.052573+00:00",
+  "published_files_checked": 2149,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -376,5 +376,11 @@
     "method": "Analytic square expansion and coordinate projection; no model experiments",
     "stage23_design_sha256": "06eae4e1bb8d39bab56fdd45d12cd06f02ef4fc060e77b2ee85552cdc17db88d",
     "stage23_runtime_ready": false
+  },
+  "stage23_prelaunch": {
+    "cpu_tests": 13,
+    "explicit_gs_states_checked": 4,
+    "runtime_verified": true,
+    "models_started": 0
   }
 }

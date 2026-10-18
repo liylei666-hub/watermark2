@@ -63,3 +63,6 @@ CPU进程显式CUDA_VISIBLE_DEVICES为空。保护原始数据、日志、配置
 攻击端不得取得目标密钥、消息、原始噪声、RNG、内部反演或分数；当前共享机器接口不构成权限隔离。研究入口精简更新，原始证据保留。发布前更新清单并执行归档核验。
 
 [当前计划](docs/RESEARCH_PLAN.md) / [导师Word](docs/advisor_briefing.docx) / [历史要求](prompts/README.md) / [原始证据导航](docs/ARTIFACT_GUIDE.md)。
+
+
+阶段23运行代码已冻结，13项CPU接口/监督器测试与4组显式GS兼容性检查通过，39份历史执行哈希一致。按固定设计执行4参考、5串行模型进程；主要端点和分数已预先固定，评估私有材料不进入代理任务或Git。状态见reports/23_reference_reliability/report.md。

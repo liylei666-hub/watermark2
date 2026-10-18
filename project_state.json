@@ -892,5 +892,14 @@
     "runtime_ready": false,
     "model_processes_started": 0,
     "attack_candidates": 0
+  },
+  "reference_reliability_stage23": {
+    "status": "runtime_frozen",
+    "protocol": "protocols/23_reference_reliability_design.json",
+    "runtime": "protocols/23_reference_runtime.json",
+    "runtime_sha256": "9d71df2f0432c147ef7091364b633b09a66594fb0594831bc7a8126fab8606cd",
+    "model_processes_started": 0,
+    "attack_candidates": 0,
+    "report": "reports/23_reference_reliability/report.md"
   }
 }
