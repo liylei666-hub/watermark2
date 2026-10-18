@@ -76,7 +76,7 @@
     "model_processes": 0,
     "git_clean_at_start": true
   },
-  "next_step": "Implement and verify the role-separated stage24 runtime,then seal code/config hashes before source generation.",
+  "next_step": "Execute fixed source phase once,verify source gate before any GS test generation",
   "design_checks": {
     "split_counts": {
       "proxy_train": 16,
@@ -89,5 +89,6 @@
     "source_hashes_verified": 6,
     "source_python_ast_checked": 3,
     "design_and_cpu_code_hashes_verified": true
-  }
+  },
+  "source_runtime_preparation": "reports/24_cross_generator/preparation.json"
 }

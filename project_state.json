@@ -953,7 +953,12 @@
     "stage": "24",
     "path": "protocols/24_cross_generator_design.json",
     "runtime_ready": false,
-    "cpu_synthetic_checks": 6,
-    "new_model_runs": 0
+    "cpu_synthetic_checks": 24,
+    "new_model_runs": 0,
+    "source_runtime_ready": true,
+    "test_runtime_ready": false,
+    "source_runtime": "protocols/24_cross_generator_source_runtime.json",
+    "source_runtime_sha256": "93f5c7cca1c6546904af03dfe6e971395aac77211057c9aa290a280ddce391e3",
+    "next_step": "Execute fixed source phase once,verify source gate before any GS test generation"
   }
 }
