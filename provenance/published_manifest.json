@@ -23,13 +23,13 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 5433,
-      "sha256": "37a8e57444bbe7cc4ddb4fb588b1cea592807f1a0f169af35fcb47c12583618c"
+      "bytes": 5920,
+      "sha256": "885790d23f86303a07e09a3c3ea684faf79d4b10d36b7c7ed59b69c6dcab0505"
     },
     {
       "path": "README.md",
-      "bytes": 7178,
-      "sha256": "e52658f5c0350e2f5b411d1b10e98c25dc5cf334d3294ac32bb219c8c1352142"
+      "bytes": 7420,
+      "sha256": "861399bc517ffb3570820f9217e212735dbe11e8b5d160352665111a3cfd082d"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -378,8 +378,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 47023,
-      "sha256": "fa4e328013bcebd7c27b9da81b59d3d3eaacab66e9b8d1efa3b3ab0ab39c3fc6"
+      "bytes": 47693,
+      "sha256": "581ab8052bbad13ced873becacfdf1136390b7175f35cf469cdf39fc05c82573"
     },
     {
       "path": "prompts/README.md",
@@ -795,6 +795,76 @@
       "path": "protocols/26_delivery_objectives_cpu.sha256",
       "bytes": 65,
       "sha256": "a4361a806032ecac9f209e5651d875dafd4e75e889d4b7e2d28695c4fe5f2dfe"
+    },
+    {
+      "path": "protocols/27_method_attack_runtime.json",
+      "bytes": 9059,
+      "sha256": "77fb750a788410648016f029ce8776cd9371894b9175192b8bfd0bd897be6e01"
+    },
+    {
+      "path": "protocols/27_method_attack_runtime.sha256",
+      "bytes": 66,
+      "sha256": "aa8d4e649c42a303a42c05476a6ddcdb2e978b40db7620b5648c45c581fe8f9c"
+    },
+    {
+      "path": "protocols/27_method_attack_runtime_r2.json",
+      "bytes": 9394,
+      "sha256": "682de10b3bb8f199466f2e9afdc3d40a31e85eda842ec9b1bb8896f999ff532c"
+    },
+    {
+      "path": "protocols/27_method_attack_runtime_r2.sha256",
+      "bytes": 66,
+      "sha256": "446c35fb039f2395f89076077c2ea44d533a67fff062020986806a5e9761f16e"
+    },
+    {
+      "path": "protocols/27_method_design.json",
+      "bytes": 8692,
+      "sha256": "88c6e3b43691f70abb6604fd5640b72e771e8a849cca60e5c5ce795f8df6ab94"
+    },
+    {
+      "path": "protocols/27_method_design.sha256",
+      "bytes": 66,
+      "sha256": "655417569935b351d24a6b89105c5337f0022e7e8443bae220bf9252428c6c15"
+    },
+    {
+      "path": "protocols/27_method_eval_runtime.json",
+      "bytes": 18231,
+      "sha256": "6fb4f305bd1d11b535dc60356083ed8d3d445f732d200277b6d73759da667492"
+    },
+    {
+      "path": "protocols/27_method_eval_runtime.sha256",
+      "bytes": 66,
+      "sha256": "7ce7c0e71c66916867d8fa5c407a52f05ed13b0c500c1ddecb4fd9f204725078"
+    },
+    {
+      "path": "protocols/27_method_eval_runtime_r2.json",
+      "bytes": 18566,
+      "sha256": "1962a704a763a43fdb9a6bd6c36a52680b62da0f2631df9c6d88c3884f530f10"
+    },
+    {
+      "path": "protocols/27_method_eval_runtime_r2.sha256",
+      "bytes": 66,
+      "sha256": "5f8fbbe76e70caa5986006a5a3166aa4579500f1b8806203bd798330791e7307"
+    },
+    {
+      "path": "protocols/27_method_runtime.json",
+      "bytes": 27300,
+      "sha256": "6bd7026ce51b706e0345e9d4ad72e268dab585d8d1d2019508d1fff72a8f3d31"
+    },
+    {
+      "path": "protocols/27_method_runtime.sha256",
+      "bytes": 66,
+      "sha256": "92645c720031afe1797856224fdac5d8b4711c1a849c666dfb52af84918a6eb1"
+    },
+    {
+      "path": "protocols/27_method_runtime_r2.json",
+      "bytes": 27939,
+      "sha256": "75f2e5cc0af9f78f3bce9836f66c84ce15dfaf06c1e8728575750acd2c3c7c7d"
+    },
+    {
+      "path": "protocols/27_method_runtime_r2.sha256",
+      "bytes": 66,
+      "sha256": "a51a3f058b66807dc82b00807ec84e82415716b6571e4c278c460e63246fa870"
     },
     {
       "path": "provenance/07_remote_manifest.json",
@@ -1935,6 +2005,31 @@
       "path": "reports/26_delivery_objectives/status.json",
       "bytes": 1231,
       "sha256": "f186f60ce77b6ee046f703e50858f49ee0ffb27335f2dfe1d8f0f0fef8f4ff54"
+    },
+    {
+      "path": "reports/27_method_comparison/cpu_tests.txt",
+      "bytes": 1004,
+      "sha256": "35919a7a41cd8b1993fb5ab72699d95ab1630562b65508b61702f5a4c88ae24f"
+    },
+    {
+      "path": "reports/27_method_comparison/cpu_tests_r2.txt",
+      "bytes": 435,
+      "sha256": "0d50de349215351a8b98077267c5a788bdfbc84c111d8bdf37d5d83cb873cff0"
+    },
+    {
+      "path": "reports/27_method_comparison/preparation.json",
+      "bytes": 107,
+      "sha256": "faededd4e40df0766cd42d02be4825dce67160425dc5c45e8dd9fd9f287c1ee6"
+    },
+    {
+      "path": "reports/27_method_comparison/preparation_r2.json",
+      "bytes": 221,
+      "sha256": "e1c4b19d173505c156543b7648b2bdf24f74107367227a3b816e9d8d288cf6e3"
+    },
+    {
+      "path": "reports/27_method_comparison/progress.json",
+      "bytes": 859,
+      "sha256": "7b8067a100c170a9455a29546ddcf8a917772ef33eb600efd9abeae01875b9bc"
     },
     {
       "path": "reports/cover_baseline_contract/cpu_checks.json",
@@ -15767,6 +15862,56 @@
       "sha256": "bcde56d5ce3248c180d0794d1f44f5cd26e5ac8b96fc65cf49e1b1f1e063871d"
     },
     {
+      "path": "scripts/method_comparison/analyze.py",
+      "bytes": 10442,
+      "sha256": "c9fd0e090ca6a738ebe74943309a3ae0aba65fec03f37db184a85d07eff780f1"
+    },
+    {
+      "path": "scripts/method_comparison/attack.py",
+      "bytes": 5838,
+      "sha256": "55614d20db05c6271a258cca2da45dc72b65c48a9eced47c648f630843d69b17"
+    },
+    {
+      "path": "scripts/method_comparison/common.py",
+      "bytes": 3405,
+      "sha256": "6da00efc93d74f051e8e824ce8f789f6cbb0e2eac4c9ee4cd39a7c35ca0d9152"
+    },
+    {
+      "path": "scripts/method_comparison/control.py",
+      "bytes": 5474,
+      "sha256": "56fc725c31ee61f6498f3e332f7f81848a8c628f25bbdcb4ab4760b7f3da7aa0"
+    },
+    {
+      "path": "scripts/method_comparison/control_r2.py",
+      "bytes": 5483,
+      "sha256": "b585445a53cc67d6872811666d5b76d5a33111d219ea2c846399f63941b8c0a7"
+    },
+    {
+      "path": "scripts/method_comparison/evaluate.py",
+      "bytes": 2195,
+      "sha256": "2bcd2950b0941074d46b691bbd90d9075f6de58bff830a2c1716025b333c8bfe"
+    },
+    {
+      "path": "scripts/method_comparison/finalize.py",
+      "bytes": 3772,
+      "sha256": "5f34af18678562a49de5b1715d9ef67c81a589b84a9fc5d2ba360d4656085af7"
+    },
+    {
+      "path": "scripts/method_comparison/prepare.py",
+      "bytes": 2617,
+      "sha256": "29458ef2ded178d106c1bce20ee0319d14a124d5aa2b0754386cf1e93985182e"
+    },
+    {
+      "path": "scripts/method_comparison/test_comparison.py",
+      "bytes": 2987,
+      "sha256": "b5a726aabe542ad67012ea2dff89e093396c18be8a63c514f3fdb96540971d44"
+    },
+    {
+      "path": "scripts/method_comparison/test_comparison_r2.py",
+      "bytes": 3079,
+      "sha256": "c1b7030a415c136632aa2fbe3040cc32b7219a869484f78dfd80781063074925"
+    },
+    {
       "path": "scripts/plot_imprint_delivery.py",
       "bytes": 2393,
       "sha256": "4d3f4a2750a4c1e3d50195235bac454b7587972d00fc1e05d1107416571ffef0"
@@ -16074,7 +16219,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T06:23:29.043634+00:00",
+  "updated_at_utc": "2026-10-18T06:40:11.824937+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "98294a3408b636deb004c824a7055d9797904154"
+  "previous_publication_commit": "563352db3abf7ed9cf5f240d5bf2e8f62b0e8572"
 }
