@@ -26,7 +26,7 @@
   "source_phase_seal_sha256": "f8ac777e009bbd79a91b8fb4768037b209d91653b9bfdc5c0d29a3bd2513ca0c",
   "source_runtime_sha256": "93f5c7cca1c6546904af03dfe6e971395aac77211057c9aa290a280ddce391e3",
   "source_runtime_ready": true,
-  "test_runtime_ready": false,
+  "test_runtime_ready": true,
   "private_material_published": false,
   "full_defense_acceptance": null,
   "attack_success_rate": null,
@@ -38,5 +38,6 @@
   "cumulative_gpu_process_seconds": 6589.944686449133,
   "transferred_files": 355,
   "transferred_bytes": 19957236,
-  "next_step": "Complete and freeze the test-phase runtime,then evaluate the unchanged estimator on the eight proxy-GS and eight target-GS references already specified in the design."
+  "next_step": "Execute the six frozen test children once,seal both prediction groups,then perform evaluator-only CPU diagnostics.",
+  "test_runtime_sha256": "8ee83e0248283c4c30396a95f913c5aa6f8a4ba29f514240d99722c9b0615325"
 }

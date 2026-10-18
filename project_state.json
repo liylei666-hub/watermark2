@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T04:55:30.487150+00:00",
+  "as_of_utc": "2026-10-18T05:10:40.460763+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -953,16 +953,18 @@
   "pending_design": {
     "stage": "24",
     "path": "protocols/24_cross_generator_design.json",
-    "runtime_ready": false,
-    "cpu_synthetic_checks": 24,
+    "runtime_ready": true,
+    "cpu_synthetic_checks": 32,
     "new_model_runs": 6,
     "source_runtime_ready": true,
-    "test_runtime_ready": false,
+    "test_runtime_ready": true,
     "source_runtime": "protocols/24_cross_generator_source_runtime.json",
     "source_runtime_sha256": "93f5c7cca1c6546904af03dfe6e971395aac77211057c9aa290a280ddce391e3",
-    "next_step": "Complete and freeze the test-phase runtime,then evaluate the unchanged estimator on the eight proxy-GS and eight target-GS references already specified in the design.",
+    "next_step": "Execute the six frozen test children once,seal both prediction groups,then perform evaluator-only CPU diagnostics.",
     "source_phase_completed": true,
-    "source_gate_pass": true
+    "source_gate_pass": true,
+    "test_runtime": "protocols/24_cross_generator_test_runtime.json",
+    "test_runtime_sha256": "8ee83e0248283c4c30396a95f913c5aa6f8a4ba29f514240d99722c9b0615325"
   },
   "stage24_source": {
     "stage": "24",

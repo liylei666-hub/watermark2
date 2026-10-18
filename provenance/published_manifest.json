@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 5396,
-      "sha256": "dcca6a8c9de22277011c0006f4a4b4ef0198da142ce925275783f6ccdcd34a0e"
+      "bytes": 5386,
+      "sha256": "fee7e9058c8e3759c0e4a9e0b3aa87cd56383d5cffd76deeb1e2f160f2a32e1e"
     },
     {
       "path": "README.md",
@@ -288,8 +288,8 @@
     },
     {
       "path": "docs/CROSS_GENERATOR_CONTRACT.md",
-      "bytes": 7468,
-      "sha256": "21ecfdfc5bfb64bf7eee99e3e94cbc0d00ec0bbad11727d90641117f987338fd"
+      "bytes": 7457,
+      "sha256": "2a87503144eea00e6f410695d0d3202c29cd1af944324e116024ad5fd9414798"
     },
     {
       "path": "docs/CSI_INFORMATION_CONTRACT.md",
@@ -338,8 +338,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 14141,
-      "sha256": "2cba3f6647b866a17e1387d1fef3e255f493f6729c3b9ab66a25dbdf9f434210"
+      "bytes": 14131,
+      "sha256": "4a02671604b6c4c8755da27db54eac263bfcbe8f4a11886cc778c1ae2588b674"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -368,8 +368,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 38612,
-      "sha256": "cc986d0bea75487822b7c43d066b265b434c5187b5a5ec0ca022942e21b8698c"
+      "bytes": 38723,
+      "sha256": "edb51e760d4e2d445a782d0b0939eb96b17b83019b81a160a51b4e025d225b01"
     },
     {
       "path": "prompts/README.md",
@@ -685,6 +685,46 @@
       "path": "protocols/24_cross_generator_source_runtime.sha256",
       "bytes": 65,
       "sha256": "e3f57a878a4f4c9660ab12dcfb06e3756e88964c04fa53b0c58cd5b80088b9fd"
+    },
+    {
+      "path": "protocols/24_cross_generator_test_proxy_runtime.json",
+      "bytes": 6170,
+      "sha256": "ee9bb3e3c0af08e3f04e80ec277182c489b86fc5263fc8e87858c7ff1fa5dfad"
+    },
+    {
+      "path": "protocols/24_cross_generator_test_proxy_runtime.sha256",
+      "bytes": 65,
+      "sha256": "7390f04939eb901f94dc3c9c155e26ba86a41a216937ad80446ac49ecbd1604f"
+    },
+    {
+      "path": "protocols/24_cross_generator_test_runtime.json",
+      "bytes": 17995,
+      "sha256": "8ee83e0248283c4c30396a95f913c5aa6f8a4ba29f514240d99722c9b0615325"
+    },
+    {
+      "path": "protocols/24_cross_generator_test_runtime.sha256",
+      "bytes": 65,
+      "sha256": "6f68ccafec95351a4fa6cf808d70cb6dd41f52fc904d03c731ea472f61aa0ac1"
+    },
+    {
+      "path": "protocols/24_proxy_generate_0.json",
+      "bytes": 1480,
+      "sha256": "ffbffb4d520ed0ca8ccbd7400f8f78ce353ad1fe27e7354e867c6522cfe723bf"
+    },
+    {
+      "path": "protocols/24_proxy_generate_1.json",
+      "bytes": 1482,
+      "sha256": "0c83eeceee9d721c3ddf9ef0498ef6b3b68c581f25f003d440d52e715d21e6b3"
+    },
+    {
+      "path": "protocols/24_target_generate_0.json",
+      "bytes": 1509,
+      "sha256": "3a20a4208c93332f8ecf0705fe958c20bff5eb937a603112aac802bbaec0551c"
+    },
+    {
+      "path": "protocols/24_target_generate_1.json",
+      "bytes": 1511,
+      "sha256": "7ff5bf31ebc684518125662d3424a8d54240accebbc32db042b44010e3952ddb"
     },
     {
       "path": "provenance/07_remote_manifest.json",
@@ -1708,8 +1748,8 @@
     },
     {
       "path": "reports/24_cross_generator/report.md",
-      "bytes": 3754,
-      "sha256": "5fd1e1436b74bcf65b1e589d8230e9fb47ae6c6a3265e3bafa163dd3a3d0df61"
+      "bytes": 3972,
+      "sha256": "1f6d62b784cc003734201ff451cf073552b63884a9632f83d910d70c9c8d02e3"
     },
     {
       "path": "reports/24_cross_generator/source_verification.json",
@@ -1718,8 +1758,13 @@
     },
     {
       "path": "reports/24_cross_generator/status.json",
-      "bytes": 1736,
-      "sha256": "dd5f794c87c6a2ea061a59322f50732221fd0443e49695af2df879282db62414"
+      "bytes": 1776,
+      "sha256": "7903d034d257f54f2ff4e814c93803c40be935727070bd43e579f3b5cd82a14a"
+    },
+    {
+      "path": "reports/24_cross_generator/test_preparation.json",
+      "bytes": 834,
+      "sha256": "727f6824c29c318b6bd6e992b8bfdc12ce7887c40ff4e8c31f4d65dc10b617c0"
     },
     {
       "path": "reports/cover_baseline_contract/cpu_checks.json",
@@ -12657,14 +12702,34 @@
       "sha256": "df21d7b67b40fd585cd88fc0f96f9b8ab31b6a58a5e053a9e965ee4b96d51787"
     },
     {
+      "path": "scripts/cross_generator/check_official_decoder.py",
+      "bytes": 1516,
+      "sha256": "08b99e06ed03eb9f9a0641a0d3a74ac2a84850b638abb4a60e1975715a2ba1c9"
+    },
+    {
       "path": "scripts/cross_generator/collect_source.py",
       "bytes": 3648,
       "sha256": "c32314794dd54209a7bb832fd9c91f0890277aa9e37fc416d658a1bc70ff713e"
     },
     {
+      "path": "scripts/cross_generator/evaluate_tests.py",
+      "bytes": 4730,
+      "sha256": "7fbda866e3965ff5e8c0524ac15c34f5d42f3c1c600647a828512b6c7b98af53"
+    },
+    {
       "path": "scripts/cross_generator/fit_source.py",
       "bytes": 2260,
       "sha256": "037ed227a931448185091821e73b2d66e72c891acd9d7ff6c160d5e2bf00bfc3"
+    },
+    {
+      "path": "scripts/cross_generator/gs_batch.py",
+      "bytes": 3685,
+      "sha256": "ed518a66256847f12a2ea06f0972cf8b1ef1c3ffe048f716e8e8f9357420eacf"
+    },
+    {
+      "path": "scripts/cross_generator/invert_test_images.py",
+      "bytes": 1721,
+      "sha256": "ca0ea6db032c0a108e803d45bd766916e95436f77188f1615c3b74034a779737"
     },
     {
       "path": "scripts/cross_generator/io_contract.py",
@@ -12675,6 +12740,16 @@
       "path": "scripts/cross_generator/linear_probe.py",
       "bytes": 3630,
       "sha256": "862855a690cc81beff7d34cf7e8b8851cc46dc67efba17adc143a9828ea2ff19"
+    },
+    {
+      "path": "scripts/cross_generator/phase_contract.py",
+      "bytes": 3910,
+      "sha256": "7ac489a5c24542672a4fb90f201cf974a64afa108f2cce47ec040e6486d5a2ca"
+    },
+    {
+      "path": "scripts/cross_generator/phase_control.py",
+      "bytes": 7941,
+      "sha256": "2428bb2defbc06f181f7cfdaa40d2e47ed54538f580aa3f797fdb78c24315271"
     },
     {
       "path": "scripts/cross_generator/predict_fixed.py",
@@ -12700,6 +12775,11 @@
       "path": "scripts/cross_generator/test_linear_probe.py",
       "bytes": 2730,
       "sha256": "2d08f1f00f3582b01e5ba7bbb595f19e77cf099662c582b654fbda551f4a2297"
+    },
+    {
+      "path": "scripts/cross_generator/test_phase_boundaries.py",
+      "bytes": 4016,
+      "sha256": "521f0b25217e10712778e5809e5ca047ef259e7af446ea826a5d79e3fd88ee76"
     },
     {
       "path": "scripts/cross_generator/test_source_worker.py",
@@ -13264,7 +13344,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T04:57:23.747539+00:00",
+  "updated_at_utc": "2026-10-18T05:11:14.316406+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "6ccd379971a22f3a113f72ed335074af3320fe22"
+  "previous_publication_commit": "1097c273b193865281611bc78a2581dcde6ca4db"
 }
