@@ -572,6 +572,16 @@
       "sha256": "8a79377f4fc38069672b4ccdc5142c316ce2d3d52bab50b41bf9b353a99eb26b"
     },
     {
+      "path": "protocols/19_target_encoding.json",
+      "bytes": 10339,
+      "sha256": "a1542696a61fcbaa99caebb4da6cde3bc01fb4aa3c776c006535907589fddd1e"
+    },
+    {
+      "path": "protocols/19_target_encoding.sha256",
+      "bytes": 66,
+      "sha256": "ace1892c0ef84e39036d98ed5249e6a036369714ac23aded6d86a3cd1c602403"
+    },
+    {
       "path": "provenance/07_remote_manifest.json",
       "bytes": 54082,
       "sha256": "dbd6b166d758cc5b6cf628f6f870a34341564483fea97e725acfcb7298248d2e"
@@ -1340,6 +1350,16 @@
       "path": "reports/18_endpoint_residual/transfer_analysis.json",
       "bytes": 7064,
       "sha256": "b61ca5628cb76d0dbfcf8968e2da67784ad403792ab43b6bb37a7ee799ff8118"
+    },
+    {
+      "path": "reports/19_target_encoding/preparation.json",
+      "bytes": 721,
+      "sha256": "ec6564b3f9cfcd690d71621119b221d7e04160bf4b0542f47cb04000ad9459fb"
+    },
+    {
+      "path": "reports/19_target_encoding/remote_preparation.json",
+      "bytes": 1929,
+      "sha256": "41cea8652c37439084f27dac29936e26e2b2938c43cce3683d29d4789da2fbd4"
     },
     {
       "path": "reports/cover_baseline_contract/cpu_checks.json",
@@ -8507,6 +8527,31 @@
       "sha256": "c6a40b16975f31c8087696a4d7d3fb2f3b9ed52dc633ac868cd53938ae9b626b"
     },
     {
+      "path": "scripts/target_encoding/common.py",
+      "bytes": 1254,
+      "sha256": "367945e16a9df3d3ae88e1cada99cc370d1f40ea16301a02c81f883d8303578e"
+    },
+    {
+      "path": "scripts/target_encoding/control.py",
+      "bytes": 5430,
+      "sha256": "81ba25d0b17170e49f2cf82b3ba97ce87ae73d8de7b29f4eca25d9c0100c87f9"
+    },
+    {
+      "path": "scripts/target_encoding/experiment.py",
+      "bytes": 2399,
+      "sha256": "25e577bb7a8b76bc3c2a66646b3a469ad864171c0672a7a1a5a8f1265a687783"
+    },
+    {
+      "path": "scripts/target_encoding/test_contract.py",
+      "bytes": 1456,
+      "sha256": "e435b99870850c3a26c14ce62cdf31deb082a3710605205af0150ad66da9694f"
+    },
+    {
+      "path": "scripts/target_encoding/test_preprocessing.py",
+      "bytes": 2892,
+      "sha256": "1f12b35f95bffd29819394d979419cee01dbc3fa1e2a9f50b70d12d84e51a331"
+    },
+    {
       "path": "scripts/target_roundtrip/control.py",
       "bytes": 9556,
       "sha256": "6ead23ebb6848bfd76795a83228b5f7b22815dc265ffeabbe735a59a645a7dde"
@@ -8654,7 +8699,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T00:48:15.743741+00:00",
+  "updated_at_utc": "2026-10-18T00:52:37.542697+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
   "previous_publication_commit": "27d750fe745feef3aa8eb5309ef92af2a8fc3097"
 }
