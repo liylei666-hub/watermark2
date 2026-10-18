@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-17T22:03:16.331476+00:00",
-  "published_files_checked": 1547,
+  "checked_at_utc": "2026-10-18T00:33:41.445473+00:00",
+  "published_files_checked": 1640,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -240,6 +240,18 @@
     "synthetic_readback_tests_passed": 8,
     "incomplete_group_score_gate_passed": true,
     "real_target_scoring_started": false,
+    "verification_gpu_used": false,
+    "verification_models_loaded": false
+  },
+  "stage17_final_verification": {
+    "raw_files": 192,
+    "candidates": 6,
+    "target_inverses": 12,
+    "official_gs_cpu_recomputations": 12,
+    "completed_model_processes": 9,
+    "analysis_v2_cpu_tests": 9,
+    "original_analysis_invocation_failure_preserved": true,
+    "cumulative_execution_records_verified": 30,
     "verification_gpu_used": false,
     "verification_models_loaded": false
   }

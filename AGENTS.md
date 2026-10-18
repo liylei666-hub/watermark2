@@ -75,3 +75,7 @@ The fixed 100-update original Jain core completed with finite outputs. Imprint s
 ## Stage16 interface verification (2026-10-18)
 
 Thirty CPU interface/workflow cases and five official GS state cases passed. Stage17 is frozen in protocols/17_cover_pilot.json with 3 paired inputs, 6 fixed candidates and 9 serial model processes. All three tasks share the upstream GS identity at offset0; different seeds are not different keys. Keep attack runtime separate from evaluator identity files. Seal all candidates before the fixed 12-image evaluation. Stop on engineering failure or unavailable device without unchanged retry. No model process was started during stage16; the latest verified cumulative total remains21 processes and2733.0540150650777 seconds.
+
+## Stage17 verified completion (2026-10-18)
+
+All nine serial processes completed; 192 run files and 12 stored GS scores verified. Six candidates were sealed before target evaluation. Imprint passed ordinary GS on2/3 tasks and adapted Jain on0/3 at approximately376-second core budgets. Task2 Imprint equals the threshold and is rejected by the strict rule. Keep all input-content limitations and unknown formal content/full-defense labels. Stage07 onward totals30 processes and5316.111848034430 seconds; no active model process. Next diagnostic may inspect all six fixed endpoints using the proxy only, with no candidate update or target-score input. Mark it exploratory because its question follows observed stage17 outcomes.
