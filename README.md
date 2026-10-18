@@ -48,3 +48,5 @@ CUDA_VISIBLE_DEVICES="" python -m unittest discover -s scripts -p test_cpu_laten
 ```
 
 PowerShell 先设置 `$env:CUDA_VISIBLE_DEVICES=''`。历史 GPU 脚本带有服务器路径，读取本仓库不授权执行。本轮设备为物理 GPU 0–2，单卡串行；预算与运行约束见 [AGENTS.md](AGENTS.md)。
+
+[固定候选残差诊断](reports/18_endpoint_residual/report.md)：Imprint三对保留87%–94%的内部改善；两对出现代理与目标参考反演的候选排序反转。开发诊断已核验，完整防御接受仍未建立。

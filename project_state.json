@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T00:30:28.738802+00:00",
+  "as_of_utc": "2026-10-18T00:44:29.856015+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -17,9 +17,10 @@
     "14",
     "15",
     "16",
-    "17"
+    "17",
+    "18"
   ],
-  "current_stage_status": "paired_cover_pilot_completed_and_verified",
+  "current_stage_status": "fixed_endpoint_residual_and_transfer_diagnostic_completed",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -38,13 +39,14 @@
     "14": 1,
     "15": 1,
     "16": 0,
-    "17": 9
+    "17": 9,
+    "18": 1
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/17_cover_pilot/report.md",
-  "latest_status": "reports/17_cover_pilot/status.json",
-  "latest_protocol": "protocols/17_cover_pilot.json",
+  "latest_report": "reports/18_endpoint_residual/report.md",
+  "latest_status": "reports/18_endpoint_residual/status.json",
+  "latest_protocol": "protocols/18_endpoint_residual.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -61,11 +63,11 @@
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/17_cover_pilot/analysis.json",
+  "latest_completed_analysis": "reports/18_endpoint_residual/analysis.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 5316.11184803443,
-  "current_round_model_processes_started": 30,
+  "current_round_gpu_seconds_used": 5413.363033293281,
+  "current_round_model_processes_started": 31,
   "allowed_gpu_physical_indices": [
     0,
     1,
@@ -96,7 +98,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Freeze a proxy-only fixed-endpoint residual diagnostic on all six predetermined outputs; no candidate updates or target feedback.",
+  "next_action": "Audit the target VAE preprocessing/encoding path and freeze fixed-image encoding localization to determine whether ranking reversals precede target inversion.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -111,7 +113,7 @@
   "selected_gpu_physical_index": 0,
   "active_run": null,
   "current_round_gpu_seconds_remaining": null,
-  "last_completed_run": "runs/17_cover_pilot_20261017T214442Z",
+  "last_completed_run": "runs/18_endpoint_residual_20261018T003948Z",
   "prompt_control_observation": {
     "paired_seeds": 3,
     "aggregates": {
@@ -175,7 +177,7 @@
       "bit_accuracy_same_minus_changed": 0.009114583333333334
     }
   },
-  "last_attempted_run": "runs/15_imprint_timing_r2_20261017T205635Z",
+  "last_attempted_run": "runs/18_endpoint_residual_20261018T003948Z",
   "autonomous_continuation_authorized": true,
   "target_roundtrip_observation": {
     "same_prompt": {
@@ -268,13 +270,13 @@
     "Actual score Lipschitz/normalization scaling sufficient for dimension-exponential tails"
   ],
   "remote_observation": {
-    "checked_at_utc": "2026-10-17T21:04:53.704094+00:00",
+    "checked_at_utc": "2026-10-18T00:44:29.856015+00:00",
     "host": "liyanlei@172.18.185.249",
     "active_model_processes": [],
     "compute_apps": "",
-    "execution_file_count": 21,
-    "gpu_process_seconds": 2733.0540150650777,
-    "evidence": "reports/15_imprint_timing/execution_recheck.json"
+    "execution_file_count": 31,
+    "gpu_process_seconds": 5413.363033293281,
+    "evidence": "reports/18_endpoint_residual/execution_recheck.json"
   },
   "csi_audit": {
     "repository": "https://github.com/ZhengGao-30/CSI-Attack",
@@ -393,8 +395,8 @@
     "novelty": null,
     "frozen_execution_protocol": "protocols/11_imprint_gradient.json"
   },
-  "latest_preflight_run": "runs/15_imprint_timing_r2_20261017T205635Z",
-  "latest_preparation_report": "reports/15_imprint_timing/preparation_r2.json",
+  "latest_preflight_run": "runs/18_endpoint_residual_20261018T003948Z",
+  "latest_preparation_report": "reports/18_endpoint_residual/preparation.json",
   "stage10_preparation": {
     "cpu_tests_passed": 8,
     "actual_helper_cpu_compile_passed": true,
@@ -655,5 +657,41 @@
     "full_defense_acceptance": null,
     "active_run": null,
     "next_step": "Freeze a proxy-only fixed-endpoint residual diagnostic on all six predetermined outputs; no candidate updates or target feedback."
+  },
+  "endpoint_residual": {
+    "stage": "18",
+    "checked_at_utc": "2026-10-18T00:44:29.856015+00:00",
+    "status": "completed_verified",
+    "run_dir": "runs/18_endpoint_residual_20261018T003948Z",
+    "data_role": "development_exploratory_posthoc",
+    "model_processes_started": 1,
+    "gpu_used": true,
+    "gpu_index": 0,
+    "models_loaded": true,
+    "new_candidate_images": 0,
+    "optimization_updates": 0,
+    "target_model_calls": 0,
+    "proxy_inputs": 21,
+    "arrays_verified": 48,
+    "transferred_files": 69,
+    "reference_replays_bitwise_equal": 3,
+    "native_decode_pixel_controls_passed": 3,
+    "inversion_equivalence_passed": 3,
+    "cpu_cross_domain_arrays": 24,
+    "proxy_target_direction_ranking_reversals": [
+      2,
+      3
+    ],
+    "imprint_png_improvement_retained": [
+      0.8730173066309058,
+      0.9298166593135936,
+      0.9388287943260657
+    ],
+    "full_defense_acceptance": null,
+    "new_method": null,
+    "cumulative_model_processes": 31,
+    "cumulative_gpu_process_seconds": 5413.363033293281,
+    "active_model_processes": [],
+    "next_action": "Audit the target VAE preprocessing/encoding path and freeze fixed-image encoding localization to determine whether ranking reversals precede target inversion."
   }
 }

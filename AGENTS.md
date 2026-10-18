@@ -79,3 +79,7 @@ Thirty CPU interface/workflow cases and five official GS state cases passed. Sta
 ## Stage17 verified completion (2026-10-18)
 
 All nine serial processes completed; 192 run files and 12 stored GS scores verified. Six candidates were sealed before target evaluation. Imprint passed ordinary GS on2/3 tasks and adapted Jain on0/3 at approximately376-second core budgets. Task2 Imprint equals the threshold and is rejected by the strict rule. Keep all input-content limitations and unknown formal content/full-defense labels. Stage07 onward totals30 processes and5316.111848034430 seconds; no active model process. Next diagnostic may inspect all six fixed endpoints using the proxy only, with no candidate update or target-score input. Mark it exploratory because its question follows observed stage17 outcomes.
+
+## Stage18 verified completion (2026-10-18)
+
+One fixed-endpoint proxy process completed in 97.251185 seconds. All three reference replays, native decode pixel checks and inversion equivalence gates passed. Saved-array CPU analysis found proxy/target direction ranking reversals on tasks2 and3. This is exploratory development evidence; do not select candidates or tune parameters from target results. Stage07 onward totals31 processes and5413.363033293281 seconds, with no active model process at the final check. Next work audits the exact target encoding path before any fixed-image component localization.

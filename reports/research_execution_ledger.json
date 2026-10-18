@@ -1,7 +1,7 @@
 {
   "scope": "Per-process stage07 onward completed/failed execution records; active processes listed separately; earlier historical stages excluded",
-  "model_processes_with_execution": 30,
-  "gpu_process_seconds": 5316.11184803443,
+  "model_processes_with_execution": 31,
+  "gpu_process_seconds": 5413.363033293281,
   "nonzero_exit_processes": 3,
   "note": "Wall time of GPU model processes, including failures; not measured GPU kernel time or successful sample count",
   "records": [
@@ -184,10 +184,17 @@
       "sha256": "624c2a131d8d29c9b2220cefb464abf5fba3cd2a3c26338d9063fa77ef4065cc",
       "gpu_process_wall_seconds": 124.63565173232928,
       "exit_code": 0
+    },
+    {
+      "path": "runs/18_endpoint_residual_20261018T003948Z/execution.json",
+      "sha256": "1641d989eaca21a792ddd2e5943100a3af7ab441e6e49f7ca725bbf456c4e9d2",
+      "gpu_process_wall_seconds": 97.25118525885046,
+      "exit_code": 0
     }
   ],
   "verifier_gpu_used": false,
   "verifier_models_loaded": false,
-  "checked_at_utc": "2026-10-18T00:30:28.738802+00:00",
-  "active_processes": []
+  "checked_at_utc": "2026-10-18T00:44:29.856015+00:00",
+  "active_processes": [],
+  "last_remote_recheck": "reports/18_endpoint_residual/execution_recheck.json"
 }
