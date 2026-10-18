@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 5626,
-      "sha256": "6cc2b9b5abf453af091be110b3b1497dd256fa937de7ad97a8ab3b1356a34e6c"
+      "bytes": 5959,
+      "sha256": "727974c256b27f96a2f876b7fa1b878ac981f4d3209d2709d7eef42b4fe2ca4d"
     },
     {
       "path": "README.md",
@@ -373,8 +373,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 42469,
-      "sha256": "26cdd12f61601bca79e86f2e0e065b262bf8aa2c9e75f0af8c749281a3709f16"
+      "bytes": 42674,
+      "sha256": "a6340c0732f6627f293bb2dfba9f68fb407934a8aa60cc1e61fefdfa85f898e3"
     },
     {
       "path": "prompts/README.md",
@@ -740,6 +740,46 @@
       "path": "protocols/24_target_generate_1.json",
       "bytes": 1511,
       "sha256": "7ff5bf31ebc684518125662d3424a8d54240accebbc32db042b44010e3952ddb"
+    },
+    {
+      "path": "protocols/25_delivery_attack_runtime.json",
+      "bytes": 7367,
+      "sha256": "6f75d11df8d4387ec4556beae3f75e0ddd70dc2c9d68771c010124a654680e75"
+    },
+    {
+      "path": "protocols/25_delivery_attack_runtime.sha256",
+      "bytes": 65,
+      "sha256": "d578c16e5be9900dd137e6ca1832c35d32391e40a150f330fc1a33591906a40d"
+    },
+    {
+      "path": "protocols/25_delivery_design.json",
+      "bytes": 9868,
+      "sha256": "4cd95c5000a553c109968b681090d2bf609fcf49571f4d93ff86ea9686d27a86"
+    },
+    {
+      "path": "protocols/25_delivery_design.sha256",
+      "bytes": 65,
+      "sha256": "55490c13d9be246fc0339d598782d796704f7455be44912c00087a204b61b775"
+    },
+    {
+      "path": "protocols/25_delivery_evaluation_runtime.json",
+      "bytes": 8846,
+      "sha256": "89925e4c1e74f7eda190ee3ef2f5559c8162ca75d26d1332e0fce54458899a19"
+    },
+    {
+      "path": "protocols/25_delivery_evaluation_runtime.sha256",
+      "bytes": 65,
+      "sha256": "8a7801bdb3340ff86b8b3030d1a4c72ae8fe70dfed147673a2870a1943106cd6"
+    },
+    {
+      "path": "protocols/25_delivery_runtime.json",
+      "bytes": 27601,
+      "sha256": "74744a61679f4ccf32996d91c4f68898b7958a00717c0529168678bcf895baa2"
+    },
+    {
+      "path": "protocols/25_delivery_runtime.sha256",
+      "bytes": 65,
+      "sha256": "545e7b456bee95877bfff11f7acd3ce1a6c707965bd22f6cfe52cd3fa6509d75"
     },
     {
       "path": "provenance/07_remote_manifest.json",
@@ -1805,6 +1845,21 @@
       "path": "reports/24_cross_generator/test_verification.json",
       "bytes": 6652,
       "sha256": "5a89ac0cd7260b3cff96d19c66727496a32a1865268a40396fc9d4dc0c98bf9c"
+    },
+    {
+      "path": "reports/25_delivery_transfer/input_preparation.json",
+      "bytes": 2641,
+      "sha256": "1c2b682a5dce7b85e4623a9141639019b4af4e5f7126eb88d8626d595da54ef3"
+    },
+    {
+      "path": "reports/25_delivery_transfer/preparation.json",
+      "bytes": 447,
+      "sha256": "ee97c48e248b53b456a053d797012da25cc9f22413aa81c9b5cfd042fbeb7abd"
+    },
+    {
+      "path": "reports/25_delivery_transfer/report.md",
+      "bytes": 1457,
+      "sha256": "71ea05a002615501ce5e6b7f6f7f9caba66121ff4f3918e0b77cc1cb2bd065f1"
     },
     {
       "path": "reports/cover_baseline_contract/cpu_checks.json",
@@ -14232,6 +14287,31 @@
       "sha256": "a978b73b8b2e2d1423b464298bcd333e28d6287b92979e0b321482debd9ef028"
     },
     {
+      "path": "scripts/delivery_transfer/common.py",
+      "bytes": 3119,
+      "sha256": "02cca7f01fb19d1ed43312a499d9ad166078483063eca66bb2bce97b97151613"
+    },
+    {
+      "path": "scripts/delivery_transfer/control.py",
+      "bytes": 8363,
+      "sha256": "f62cd2b5f5bb3d201deb4c782a531128262ec799c1917a359a6dd2b1caaa907e"
+    },
+    {
+      "path": "scripts/delivery_transfer/evaluate.py",
+      "bytes": 2523,
+      "sha256": "df7b7a562052c14a1361ed9290575639593f5cdd8e2f19d1fce69a285c42d0d1"
+    },
+    {
+      "path": "scripts/delivery_transfer/generate.py",
+      "bytes": 2361,
+      "sha256": "bf8a41aa20df6335d2a4cf31e40e1b53a0d7af97eb4d9b48bbdcf01c9ea62471"
+    },
+    {
+      "path": "scripts/delivery_transfer/test_contract.py",
+      "bytes": 2978,
+      "sha256": "4c79695eb76581049375ee0afcae1c89c194c46efb7b2b5e61ebaba33f16607e"
+    },
+    {
       "path": "scripts/directional_study/attack.py",
       "bytes": 5305,
       "sha256": "be8c753ae3afa96f7c5dc15cfa2c9f3e9ac1daec07d2bf5c65c3b08b490a6a42"
@@ -14784,7 +14864,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T05:29:11.511798+00:00",
+  "updated_at_utc": "2026-10-18T05:37:22.640719+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "f2d1646e6d1906dda93def2008eba861a7588fb5"
+  "previous_publication_commit": "b0f0484c4e33c1189b8d37d463080f3df04282b8"
 }

@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T05:19:31.126521+00:00",
+  "as_of_utc": "2026-10-18T05:37:21.470738+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -526,7 +526,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "为已冻结校正建立配对端到端交付协议，检验参考位恢复收益能否经过代理生成和目标反演保留下来；两种输出全部先封存后评估，保持参数固定，不作候选筛选。",
+  "next_step_proposal": "执行已冻结阶段25的16候选配对交付，全部封存后评估24张图；保留全部8对分母。",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -951,7 +951,16 @@
     "decision": "The frozen cross-step consistency score is not supported as an attack weighting mechanism; close this four-reference diagnostic without score tuning or added samples.",
     "next_step_proposal": "Audit which proxy-observable information can distinguish cross-model systematic bias from reference-bit uncertainty, and its difference from existing inversion/ensemble methods before another GPU protocol."
   },
-  "pending_design": null,
+  "pending_design": {
+    "stage": "25",
+    "path": "protocols/25_delivery_design.json",
+    "runtime": "protocols/25_delivery_runtime.json",
+    "runtime_ready": true,
+    "cpu_tests_local_and_server": 11,
+    "planned_model_processes": 4,
+    "model_processes_started": 0,
+    "run_dir": "runs/25_delivery_transfer_20261018T053630Z"
+  },
   "stage24_source": {
     "stage": "24",
     "status": "source_completed_verified_test_pending",
