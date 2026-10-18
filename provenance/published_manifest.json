@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 5539,
-      "sha256": "1a31b35694b0c45eeea51456207ae54d82b15a5a427bad8bf454d08b9d18ef58"
+      "bytes": 5617,
+      "sha256": "e5359e09d873e065fcbf36103e2b31f44482d06ab94a351ec646c6181e0096bf"
     },
     {
       "path": "README.md",
@@ -287,6 +287,11 @@
       "sha256": "1258f750a1d2c3b93c5fc91824be87a3bb5d2cb3b08867952d77031b260884b4"
     },
     {
+      "path": "docs/CROSS_GENERATOR_CONTRACT.md",
+      "bytes": 7049,
+      "sha256": "01677afa1f37f4734fb0fea4e04da1aa51d17d4a2cb7002b7331c447b72253ac"
+    },
+    {
       "path": "docs/CSI_INFORMATION_CONTRACT.md",
       "bytes": 10310,
       "sha256": "06f7efe36f6c107688652e57f10f21d9c282fa3a209fb039297a41d96a5ce070"
@@ -303,8 +308,8 @@
     },
     {
       "path": "docs/LITERATURE.md",
-      "bytes": 13017,
-      "sha256": "dc03093cc2adeb2862bcc2c6aa2bbfb1e33c31be2f4e256ace3ad571e5e3cedb"
+      "bytes": 13357,
+      "sha256": "5a24939e26f0f3ecf69e72627272b9dcaf8c0df7092bece1b7e7319293b9134d"
     },
     {
       "path": "docs/METHOD_HYPOTHESIS.md",
@@ -328,13 +333,13 @@
     },
     {
       "path": "docs/REFERENCE_INFORMATION_AUDIT.md",
-      "bytes": 9394,
-      "sha256": "64ff5cd89fdff923420041ae664d9494646bde9b1eced196a897023446f4c1dc"
+      "bytes": 9211,
+      "sha256": "24ae116f54ca06f8ea79de487f9eaa57217197c1a48e1c3250efd33705e64082"
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 13789,
-      "sha256": "7f3e772c2c9edd93929ca6bb95a3e24e2c55ea99f2fa558f4a060f98bce508b4"
+      "bytes": 13866,
+      "sha256": "6f06ff9e3cd5a1e9fc7143ab45429432707276e8b477adfc89ff4a0ef2c3ecb8"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -363,8 +368,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 36057,
-      "sha256": "055ad2352af0cd039e276117405858f1205ca6a3b6a15f7ac411a9777c9a4e35"
+      "bytes": 36287,
+      "sha256": "d9977a4b1d31a5157c34d66f8d1ab9eeaadb54e64dfde9eeb32c3edb9159aff6"
     },
     {
       "path": "prompts/README.md",
@@ -655,6 +660,16 @@
       "path": "protocols/23_reference_runtime.sha256",
       "bytes": 65,
       "sha256": "e41ea0c3a46eabc5b675e85653993a21b02df3dc185b0970fd1a873a22ab811e"
+    },
+    {
+      "path": "protocols/24_cross_generator_design.json",
+      "bytes": 15697,
+      "sha256": "fda179649a742e492229e60f17e2bb7c0e8944f084fbd83f8c9fa5d4dd361085"
+    },
+    {
+      "path": "protocols/24_cross_generator_design.sha256",
+      "bytes": 65,
+      "sha256": "ea2a26459c5f3f423cd809695df619df97521bed5a379f66803694984af16e68"
     },
     {
       "path": "provenance/07_remote_manifest.json",
@@ -1710,6 +1725,11 @@
       "path": "reports/cover_baseline_contract/verification.json",
       "bytes": 293,
       "sha256": "d6f307f2fc894f152d58358a1e8f0ca1199a09063e33577a0cd6dda11e75915c"
+    },
+    {
+      "path": "reports/cross_generator_contract.json",
+      "bytes": 3673,
+      "sha256": "6f3e6356923c1156387823c0371e10cc57b185cdbb74159faa00650e2e18f9e9"
     },
     {
       "path": "reports/csi_source_evidence.json",
@@ -10822,6 +10842,16 @@
       "sha256": "df21d7b67b40fd585cd88fc0f96f9b8ab31b6a58a5e053a9e965ee4b96d51787"
     },
     {
+      "path": "scripts/cross_generator/linear_probe.py",
+      "bytes": 3630,
+      "sha256": "862855a690cc81beff7d34cf7e8b8851cc46dc67efba17adc143a9828ea2ff19"
+    },
+    {
+      "path": "scripts/cross_generator/test_linear_probe.py",
+      "bytes": 2730,
+      "sha256": "2d08f1f00f3582b01e5ba7bbb595f19e77cf099662c582b654fbda551f4a2297"
+    },
+    {
       "path": "scripts/directional_study/attack.py",
       "bytes": 5305,
       "sha256": "be8c753ae3afa96f7c5dc15cfa2c9f3e9ac1daec07d2bf5c65c3b08b490a6a42"
@@ -11374,7 +11404,7 @@
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-18T04:12:19.784985+00:00",
+  "updated_at_utc": "2026-10-18T04:24:53.207010+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "e613a7fff9aff91ec4df4d8b513b6c8bcb5f0ab9"
+  "previous_publication_commit": "2d42782c1610e5c8faf58b970704c3dc3a8ba8a5"
 }

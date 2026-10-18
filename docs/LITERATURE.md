@@ -78,3 +78,5 @@ Jain v1 §8.2 Eq.(6)的DCT高频掩码及§11.3原预算已重新核对。[证�
 新增FARI（ICLR2026）、ROAR（ICCV2025）、EDICT、ReNoise、GS with EDICT及There and Back Again的定向核查，具体版本、阅读范围和源码行号统一见[参考信息审查](REFERENCE_INFORMATION_AUDIT.md)。FARI固定commit为c08064222366842bf962998506c4815b0a2cbe63，13文本文件blob核验、9个Python AST通过；未获取权重或执行入口。ROAR全文直接访问403，完整协议与代码仍unknown。
 
 这些先例覆盖已知生成噪声监督、图像恢复/再生成、耦合数值求逆、迭代再加噪，以及平滑区域和早期步骤误差。它们不自动证明当前跨模型伪造设置的收益；也使单纯减小反演误差、训练一步反演器或发现纹理相关误差不足以作为本项目新贡献。
+
+There and Back Again当前核查更新至arXiv:2410.23530v5及ICLR2026正式出版页。新版包含前向扩散修正，不只误差分析；官方库6文件blob核验，具体算法权限和同模型示例见[跨生成器契约](CROSS_GENERATOR_CONTRACT.md)。此前v2字节证据保留在来源记录，当前方法判断以v5为准。

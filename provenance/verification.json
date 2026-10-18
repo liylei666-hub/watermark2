@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-18T04:12:40.282336+00:00",
-  "published_files_checked": 2273,
+  "checked_at_utc": "2026-10-18T04:25:04.895699+00:00",
+  "published_files_checked": 2279,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -402,5 +402,14 @@
     "models_loaded": false,
     "new_model_experiments_run": 0,
     "status": "passed"
+  },
+  "cross_generator_preparation": {
+    "report": "reports/cross_generator_contract.json",
+    "synthetic_cpu_tests": 6,
+    "source_blob_hashes_checked": 6,
+    "source_AST_checked": 3,
+    "design_split_checks": "passed",
+    "runtime_ready": false,
+    "new_model_experiments_run": 0
   }
 }

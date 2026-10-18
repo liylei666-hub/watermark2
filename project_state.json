@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T04:11:12.374148+00:00",
+  "as_of_utc": "2026-10-18T04:24:00.456049+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -108,7 +108,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Specify a proxy-only synthetic-supervision cross-generator evaluation contract, checking exact prior coverage before freezing data splits or a new runtime.",
+  "next_action": "完成阶段24角色分离运行器、PNG交付一致性和CPU边界检查，再冻结运行时哈希；固定线性估计器只使用代理自生成标签，源验证失败即关闭，不调整参数。",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -267,7 +267,7 @@
     ],
     "outbound_messages_sent": 0
   },
-  "latest_static_audit": "reports/reference_information_audit.json",
+  "latest_static_audit": "reports/cross_generator_contract.json",
   "geometry_theoretical_rejection_region": {
     "source": "ICML 2026 final paper, appendix B.3 / Theorem 4.10",
     "rule": "SAD > tau_s AND LGI > tau_l",
@@ -948,5 +948,12 @@
     "readback_code_sha256": "b32eefc78c17c25204a5cdeaa2d6fafd74954064599e2d0720eb5ab14a404327",
     "decision": "The frozen cross-step consistency score is not supported as an attack weighting mechanism; close this four-reference diagnostic without score tuning or added samples.",
     "next_step_proposal": "Audit which proxy-observable information can distinguish cross-model systematic bias from reference-bit uncertainty, and its difference from existing inversion/ensemble methods before another GPU protocol."
+  },
+  "pending_design": {
+    "stage": "24",
+    "path": "protocols/24_cross_generator_design.json",
+    "runtime_ready": false,
+    "cpu_synthetic_checks": 6,
+    "new_model_runs": 0
   }
 }
