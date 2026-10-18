@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-18T04:47:42.119291+00:00",
-  "published_files_checked": 2292,
+  "checked_at_utc": "2026-10-18T04:57:25.399211+00:00",
+  "published_files_checked": 2651,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -418,5 +418,23 @@
     "local_and_server_passed": true,
     "source_runtime_ready": true,
     "test_runtime_ready": false
+  },
+  "cross_generator_source_result": {
+    "report": "reports/24_cross_generator/status.json",
+    "source_gate_pass": true,
+    "transferred_files": 355,
+    "source_arrays_independently_recomputed": true,
+    "source_model_processes": 6,
+    "source_model_exit_codes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cumulative_execution_hashes_verified": 50,
+    "test_images_generated": 0,
+    "full_study_completed": false
   }
 }

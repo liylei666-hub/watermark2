@@ -1,7 +1,7 @@
 {
   "scope": "Per-process stage07 onward completed/failed execution records; active processes listed separately; earlier historical stages excluded",
-  "model_processes_with_execution": 44,
-  "gpu_process_seconds": 6289.195742317941,
+  "model_processes_with_execution": 50,
+  "gpu_process_seconds": 6589.944686449133,
   "nonzero_exit_processes": 3,
   "note": "Wall time of GPU model processes, including failures; not measured GPU kernel time or successful sample count",
   "records": [
@@ -268,11 +268,47 @@
       "sha256": "8f26df9a2feae8dfbd7c505c267008678db2ecea39138618022190e4dcfb8cb0",
       "gpu_process_wall_seconds": 60.98450741218403,
       "exit_code": 0
+    },
+    {
+      "path": "runs/24_cross_generator_20261018T044821Z/source_0/execution.json",
+      "sha256": "7916b4ff36f13b72312d7508cd3220f4a8786c0f5bfad82280836d224b4b8df6",
+      "gpu_process_wall_seconds": 49.95240989467129,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/24_cross_generator_20261018T044821Z/source_1/execution.json",
+      "sha256": "1c0051e00b492fa8566afcd0c2533268c18ec53a9640f03ed18588a006087b8b",
+      "gpu_process_wall_seconds": 50.39634813833982,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/24_cross_generator_20261018T044821Z/source_2/execution.json",
+      "sha256": "23e25b7d606bd0bb39b2802b6cffea528e7dc318c31f374069287caaeb059db7",
+      "gpu_process_wall_seconds": 49.951208071783185,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/24_cross_generator_20261018T044821Z/source_3/execution.json",
+      "sha256": "97e2219129174d15ac61ac286ce372a4383279c19cd90cd8d2ce63471d8588ba",
+      "gpu_process_wall_seconds": 50.251444866880774,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/24_cross_generator_20261018T044821Z/source_4/execution.json",
+      "sha256": "2a5531bc930f255e2749dfab102f31cebaab12268541bf5355866b909297e1c9",
+      "gpu_process_wall_seconds": 50.09900766517967,
+      "exit_code": 0
+    },
+    {
+      "path": "runs/24_cross_generator_20261018T044821Z/source_5/execution.json",
+      "sha256": "aa2c8db4080d8cb7bb94adfb3828570f28da18f48cf48dc925bfb7570f18af33",
+      "gpu_process_wall_seconds": 50.09852549433708,
+      "exit_code": 0
     }
   ],
   "verifier_gpu_used": false,
   "verifier_models_loaded": false,
-  "checked_at_utc": "2026-10-18T03:59:36.676499+00:00",
+  "checked_at_utc": "2026-10-18T04:55:30.487150+00:00",
   "active_processes": [],
-  "last_remote_recheck": "reports/21_directional_study/execution_recheck.json"
+  "last_remote_recheck": "reports/24_cross_generator/execution_recheck.json"
 }
