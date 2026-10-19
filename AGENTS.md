@@ -17,6 +17,12 @@ Read `GPT_CONTEXT.md`, `docs/PROJECT_STATE.md`, `prompts/README.md`, and the app
 
 The historical execution policy is preserved at `provenance/execution_AGENTS.md`.
 
+## Current continuation decision (2026-10-20 Asia/Shanghai)
+
+The user explicitly commissioned completion of stage27 under its frozen scientific design. Prior one-stage stop instructions are historical. Continue authorized work autonomously; ask only for missing user-controlled inputs or authority. Use only an idle, UUID-verified physical GPU0–2 on 249, serially, with the existing storage limit and engineering watchdog. The research heartbeat was removed by the user; do not recreate it implicitly.
+
+The original stage27 controller stopped. Revision4 inherits its verified outputs and runs only the 32 never-launched attack tasks, followed by evaluation of 35 available candidates and 24 controls. Task2 Jain was launched and failed before model loading: preserve it as missing, never relaunch it. All other launched failures/timeouts/unknown states also prohibit automatic retry. Temporary GPU contention enters durable waiting_resource with check times. Preserve original launch intents and frozen files. Current state is in GPT_CONTEXT.md and project_state.json; completed-stage next-step fields are historical snapshots.
+
 ## Current research authority (2026-10-16 Asia/Shanghai)
 
 The user commissioned full research through a paper draft and authorized publishing verified useful progress to GitHub. Keep current documentation compact and updated in place; preserve raw scientific evidence and use Git history for prior narratives.

@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T06:38:40.944383+00:00",
+  "as_of_utc": "2026-10-19T17:34:26Z",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -28,7 +28,7 @@
     "25",
     "26"
   ],
-  "current_stage_status": "complete_method_comparison_running",
+  "current_stage_status": "stage27_continuation_running",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -114,7 +114,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Monitor the existing stage27 controller; do not launch a duplicate. Once all 36 candidates and 60 inversions complete, run independent CPU decoding, inspect all images, publish the complete paired result. Preserve failures; no unchanged retry.",
+  "next_action": "Complete the 32 never-launched attacks, preserve task2 Jain failure, seal 35 candidates, evaluate 59 PNGs, verify and publish the frozen method decision.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -127,7 +127,7 @@
   "sembind_end_to_end_adaptive_test_reported": true,
   "sembind_full_public_gs_s_verifier_available": false,
   "selected_gpu_physical_index": 0,
-  "active_run": "runs/27_method_comparison_20261018T063355Z",
+  "active_run": "runs/27_method_resume_20261019T173017Z",
   "current_round_gpu_seconds_remaining": null,
   "last_completed_run": "runs/23_reference_reliability_20261018T035244Z",
   "prompt_control_observation": {
@@ -308,7 +308,7 @@
     "upstream_code_executed": false,
     "report": "docs/CSI_INFORMATION_CONTRACT.md"
   },
-  "automation_enabled": true,
+  "automation_enabled": false,
   "baseline_comparison_contract": {
     "path": "docs/BASELINE_COMPARISON_CONTRACT.md",
     "version": 1,
@@ -450,7 +450,7 @@
     "cumulative_gpu_process_seconds": 818.9704131674953,
     "cumulative_model_processes_started": 12
   },
-  "automation_id": "automation",
+  "automation_id": null,
   "current_round_gpu_seconds_used_excludes_active_process": true,
   "imprint_delivery_measurement": {
     "reference_cover_pairs": 1,
@@ -530,7 +530,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "Monitor the existing stage27 controller; do not launch a duplicate. Once all 36 candidates and 60 inversions complete, run independent CPU decoding, inspect all images, publish the complete paired result. Preserve failures; no unchanged retry.",
+  "next_step_proposal": "Complete the 32 never-launched attacks, preserve task2 Jain failure, seal 35 candidates, evaluate 59 PNGs, verify and publish the frozen method decision.",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -1222,23 +1222,32 @@
     "novelty_established": false
   },
   "stage27": {
-    "status": "running",
-    "run_dir": "runs/27_method_comparison_20261018T063355Z",
-    "controller_pid": 24430,
-    "source_commit": "563352db3abf7ed9cf5f240d5bf2e8f62b0e8572",
-    "runtime": "protocols/27_method_runtime_r2.json",
-    "planned_model_processes": 45,
-    "planned_candidates": 36,
-    "planned_target_inversions": 60,
-    "completed_model_processes": 2,
-    "active_processes": [
-      {
-        "path": "runs/27_method_comparison_20261018T063355Z/reference_2",
-        "pid": 25867,
-        "started_at_utc": "2026-10-18T06:37:55.298718+00:00"
-      }
-    ],
-    "postprocessor_pid": 26987,
-    "cpu_postprocessor": "scripts/method_comparison/finalize.py"
-  }
+    "status": "continuation_running",
+    "original_run": "runs/27_method_comparison_20261018T063355Z",
+    "original_status": "stopped_preimport_resource_gate",
+    "run_dir": "runs/27_method_resume_20261019T173017Z",
+    "controller_pid": 21884,
+    "postprocessor_pid": 23796,
+    "source_commit": "a68f38e",
+    "runtime": "protocols/27_method_runtime_r4.json",
+    "planned_attack_tasks": 36,
+    "completed_attacks": 3,
+    "running_attacks": 1,
+    "not_started_attacks": 31,
+    "failed_attacks": 1,
+    "failed_task": {
+      "task_id": 2,
+      "method": "jain",
+      "retry_allowed": false
+    },
+    "expected_available_candidates": 35,
+    "planned_target_inversions": 59,
+    "completed_target_inversions": 0,
+    "numerical_algorithm_changed": false,
+    "resource_policy": "waiting_resource_recheck_300_seconds",
+    "cpu_postprocessor": "scripts/method_comparison_r4/finalize.py",
+    "full_defense_acceptance": null,
+    "decision": null
+  },
+  "completed_stage_next_steps_are_historical_snapshots": true
 }
