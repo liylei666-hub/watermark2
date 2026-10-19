@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "stage": "28",
+  "data_role": "four_prompt_group_development_pilot",
+  "hypothesis": "Early coarse inversion updates followed by full-trajectory refinement improve final PNG ordinary-GS transfer at comparable measured core cost.",
+  "methods": {
+    "native50": [[50, 10]],
+    "short10": [[10, 50]],
+    "staged10_50": [[10, 30], [50, 4]]
+  },
+  "learning_rate": 0.01,
+  "adam_state_preserved_across_switch": true,
+  "optimization_forward_unet_calls_each": 500,
+  "equal_actual_compute_assumed": false,
+  "target_feedback_to_attack": false,
+  "target_scores_before_all_candidates_sealed": false,
+  "generation_steps": 50,
+  "generation_guidance": 7.5,
+  "evaluation_inversion_steps": 50,
+  "evaluation_guidance": 1.0,
+  "inversion_prompt": "",
+  "gs_threshold": 0.70703125,
+  "gs_decision": "bit_accuracy > threshold",
+  "gs": {"message_width_in_bytes": 32, "num_replications": 64, "l": 1, "offset": 0},
+  "decision_rule": {
+    "minimum_additional_passes": 1,
+    "minimum_mean_accuracy_gain": 0.02,
+    "minimum_mean_gain_over_short": 0.01,
+    "max_median_mse_ratio": 1.1,
+    "min_median_time_ratio": 0.9,
+    "max_median_time_ratio": 1.1,
+    "require_all_four_references_valid": true,
+    "require_no_pass_loss_vs_short": true,
+    "otherwise": "close_fixed_staged_candidate",
+    "missing_or_invalid_reference_or_time_match": "inconclusive",
+    "unchanged_retry_or_extra_samples": false
+  },
+  "tasks": [
+    {"task_id": 1, "prompt_group": 1, "reference_seed": 28101, "cover_seed": 28201, "attack_seed": 28301, "reference_prompt": "A studio photograph of a brass sextant resting on dark blue velvet, the complete instrument visible.", "cover_prompt": "A studio photograph of a black manual typewriter on a wooden desk, the complete keyboard visible."},
+    {"task_id": 2, "prompt_group": 2, "reference_seed": 28102, "cover_seed": 28202, "attack_seed": 28302, "reference_prompt": "A studio photograph of a green accordion standing upright on a pale gray floor, the complete instrument visible.", "cover_prompt": "A photograph of a red kayak resting on a sandy lake shore, the complete kayak visible."},
+    {"task_id": 3, "prompt_group": 3, "reference_seed": 28103, "cover_seed": 28203, "attack_seed": 28303, "reference_prompt": "A studio photograph of a white folded paper crane on a purple tabletop, plain background.", "cover_prompt": "A studio photograph of a silver laboratory microscope on a white bench, the complete microscope visible."},
+    {"task_id": 4, "prompt_group": 4, "reference_seed": 28104, "cover_seed": 28204, "attack_seed": 28304, "reference_prompt": "A photograph of a wooden spinning wheel beside a sunlit window, the entire wheel visible.", "cover_prompt": "A studio photograph of a vintage black sewing machine on a beige table, the complete machine visible."}
+  ],
+  "target": {
+    "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b",
+    "dtype": "float32", "resolution": 512
+  },
+  "proxy": {
+    "model_id": "Manojb/stable-diffusion-2-1-base",
+    "revision": "0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--Manojb--stable-diffusion-2-1-base/snapshots/0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "dtype": "float32", "resolution": 512
+  },
+  "resource_policy": {"initial_max_concurrent_gpu_processes": 1, "selected_physical_gpu": 0, "excluded_physical_gpu": 6, "watchdog_seconds_each": 1200, "new_model_downloads": false, "max_new_bytes": 10737418240},
+  "anticipated_worker_processes": 15,
+  "anticipated_candidates": 12,
+  "anticipated_target_inversions": 20,
+  "expected_wall_minutes_on_one_idle_3090": [75, 100],
+  "novelty_established": false,
+  "independent_confirmation": false,
+  "formal_content_acceptance": null,
+  "full_defense_acceptance": null
+}

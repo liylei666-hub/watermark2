@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-19T21:49:12.511203+00:00",
+  "tests_passed": 9,
+  "exit_code": 0,
+  "stdout": "CHILD_COMPLETED prepare_reference\nCHILD_COMPLETED prepare_cover\nCHILD_COMPLETED attack_1_native50\nCHILD_COMPLETED attack_1_short10\nCHILD_COMPLETED attack_1_staged10_50\nCHILD_COMPLETED attack_2_short10\nCHILD_COMPLETED attack_2_staged10_50\nCHILD_COMPLETED attack_2_native50\nCHILD_COMPLETED attack_3_staged10_50\nCHILD_COMPLETED attack_3_native50\nCHILD_COMPLETED attack_3_short10\nCHILD_COMPLETED attack_4_native50\nCHILD_COMPLETED attack_4_short10\nCHILD_COMPLETED attack_4_staged10_50\nCHILD_COMPLETED evaluate\nCOMPLETED_STAGED_PILOT\nCHILD_COMPLETED prepare_reference\nCHILD_COMPLETED prepare_cover\nCHILD_COMPLETED attack_1_native50\n",
+  "stderr": "test_all_gates_required (__main__.Decisions) ... ok\ntest_attack_runtime_pins_exclude_target_config_and_private_state (__main__.Decisions) ... ok\ntest_missing_or_duplicate_evidence_is_inconclusive (__main__.Decisions) ... ok\ntest_reference_or_measured_budget_mismatch_is_inconclusive (__main__.Decisions) ... ok\ntest_short_control_removes_staged_explanation (__main__.Decisions) ... ok\ntest_stage_boundary_and_work_accounting (__main__.Decisions) ... ok\ntest_complete_order_sealing_and_attacker_boundary (__main__.Orchestration) ... ok\ntest_existing_project_owner_prevents_claims (__main__.Orchestration) ... ok\ntest_failed_child_stops_without_retry_or_evaluation (__main__.Orchestration) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 1.253s\n\nOK\n",
+  "cpu_only": true,
+  "gpu_processes_started": 0,
+  "source_sha256": {
+    "scripts/staged_inversion/analyze.py": "38cd78510af0ff6bd40c255d7ade3c003c2e6984586d2357980f05a402a50507",
+    "scripts/staged_inversion/attack.py": "3b0149991a926122c99675e3839487a0c6318ead13b337a2e914f93f4710ef91",
+    "scripts/staged_inversion/common.py": "b2b014df4942837cb810b8f8e8ce0025baa82821f3d3bfc22ba441c53d1c9c25",
+    "scripts/staged_inversion/control.py": "3501520e174a42dee5b74b6ec0a5ad41bf089e128973e3abed4f2355080ce827",
+    "scripts/staged_inversion/evaluate.py": "d4c4d93e74be03ff301c4f5796793e7f21ee6dcdf4b4c72e6eea3785fdba82b1",
+    "scripts/staged_inversion/freeze.py": "5b2e3490bbcd607f8c282f2116ac5df9cce8558e045e6ef804c64d002b98ca4d",
+    "scripts/staged_inversion/prepare.py": "f0a225747d05c6b55574e5ca2e06489098786e08d7aac3be9a646b77d34ef697",
+    "scripts/staged_inversion/start.py": "e4f726fec059c5bcaede0ad3f381c21c20fc2b662f64f51f3687d0ea63edf479",
+    "scripts/staged_inversion/test_pilot.py": "593142c48e2b65610e50f8adcbf84c8bb2e92f288b11cd31b1d3de31997ccedd"
+  },
+  "design_sha256": "f9a1d3cba11a516d3278ed4f8f5daeff80fe700bbb27a07068c2a5032370fd0f",
+  "prelaunch_repairs": [
+    "Kept entry directory first in module lookup to prevent importing legacy control.py.",
+    "Moved CPU fixture directories into the writable workspace after Windows sandbox denied atomic rename in redirected Temp."
+  ]
+}
