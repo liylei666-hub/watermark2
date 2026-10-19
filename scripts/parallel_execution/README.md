@@ -1,6 +1,6 @@
 # Future experiment launcher
 
-`launcher.py` executes a separately frozen experiment plan using real subprocesses. It integrates the standard-library scheduler with pinned model-worker entry scripts, local model manifests, two idle gates, logs, watchdogs and output seals. Production execution is restricted to Linux user `liyanlei`, a host reporting address `172.18.185.249`, and `/data0/liyanlei/watermark_research`. It has not been deployed or used for a model experiment. Stage27 remains under its original serial controller.
+`launcher.py` executes a separately frozen experiment plan using real subprocesses. It integrates the standard-library scheduler with pinned model-worker entry scripts, local model manifests, two idle gates, logs, watchdogs and output seals. Production execution is restricted to Linux user `liyanlei`, a host reporting address `172.18.185.249`, and `/data0/liyanlei/watermark_research`. Its `ProcessRunner` and idle-gate components were deployed for the separate single-card stage28 pilot; the general plan CLI and four-card scheduler remain unvalidated on real GPUs. Stage27 has completed under its original controller.
 
 ## Frozen plan and worker interface
 

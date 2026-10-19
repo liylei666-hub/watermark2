@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-19T21:53:30.962835+00:00",
+  "run_dir": "runs/28_staged_inversion_20261019T215131Z",
+  "source_commit": "d8dacc0757c7f6af5032520e5120e1242d390947",
+  "controller_pid": 22864,
+  "controller_live": true,
+  "status": {"state": "running", "task": "prepare_cover", "completed": ["prepare_reference"], "started_at_utc": "2026-10-19T21:53:27.392381+00:00"},
+  "children": [
+    {"task": "prepare_cover", "pid": 23519, "live": true, "same_process_identity": true, "child_idle_verified": null},
+    {"task": "prepare_reference", "pid": 22897, "live": false, "child_idle_verified": true}
+  ],
+  "controller_stdout_tail": "CHILD_COMPLETED prepare_reference\n",
+  "controller_stderr_tail": "",
+  "completed_reference_images": 4,
+  "completed_attack_candidates": 0,
+  "planned_attack_candidates": 12,
+  "planned_target_inversions": 20,
+  "selected_gpu_index": 0,
+  "selected_gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
+  "maximum_concurrent_gpu_children": 1,
+  "four_gpu_model_validation_complete": false,
+  "single_card_model_preparation_completed": true,
+  "attack_efficacy_measured": false,
+  "next_suggested_check_utc": "2026-10-19T23:40:00Z",
+  "estimated_total_wall_minutes": [75, 100],
+  "model_polling_automation_created": false,
+  "private_material_exported": false,
+  "stage27_modified": false,
+  "runtime_sha256": {"controller": "2aaedf3d7bef3134d777db9b6f6da955fa8ded893b3fc076002a0f5fcdf9c60c", "attacker": "b0ce0fe4a3daaa3a92b6eb116472436901d6829968ce57a117f80534bdb81210", "evaluator": "ac636b4e99c6824e9d4082ead7ecf1ee33f1f9bb20584e5ec297ce5364d12681"}
+}

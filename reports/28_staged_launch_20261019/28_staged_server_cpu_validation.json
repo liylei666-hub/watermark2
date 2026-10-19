@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-19T21:51:22.234368+00:00",
+  "cpu_only": true,
+  "exit_code": 0,
+  "stdout": "CHILD_COMPLETED prepare_reference\nCHILD_COMPLETED prepare_cover\nCHILD_COMPLETED attack_1_native50\nCHILD_COMPLETED attack_1_short10\nCHILD_COMPLETED attack_1_staged10_50\nCHILD_COMPLETED attack_2_short10\nCHILD_COMPLETED attack_2_staged10_50\nCHILD_COMPLETED attack_2_native50\nCHILD_COMPLETED attack_3_staged10_50\nCHILD_COMPLETED attack_3_native50\nCHILD_COMPLETED attack_3_short10\nCHILD_COMPLETED attack_4_native50\nCHILD_COMPLETED attack_4_short10\nCHILD_COMPLETED attack_4_staged10_50\nCHILD_COMPLETED evaluate\nCOMPLETED_STAGED_PILOT\nCHILD_COMPLETED prepare_reference\nCHILD_COMPLETED prepare_cover\nCHILD_COMPLETED attack_1_native50\n",
+  "stderr": "test_all_gates_required (__main__.Decisions) ... ok\ntest_attack_runtime_pins_exclude_target_config_and_private_state (__main__.Decisions) ... ok\ntest_missing_or_duplicate_evidence_is_inconclusive (__main__.Decisions) ... ok\ntest_reference_or_measured_budget_mismatch_is_inconclusive (__main__.Decisions) ... ok\ntest_short_control_removes_staged_explanation (__main__.Decisions) ... ok\ntest_stage_boundary_and_work_accounting (__main__.Decisions) ... ok\ntest_complete_order_sealing_and_attacker_boundary (__main__.Orchestration) ... ok\ntest_existing_project_owner_prevents_claims (__main__.Orchestration) ... ok\ntest_failed_child_stops_without_retry_or_evaluation (__main__.Orchestration) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 11.890s\n\nOK\n",
+  "gpu_processes_started": 0
+}

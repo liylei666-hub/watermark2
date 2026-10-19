@@ -353,8 +353,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 4957,
-      "sha256": "c2f7880ed1a44a3fca5c39ff1c11f19f50ec9d945e890464cf11dbd34ca30b38"
+      "bytes": 5421,
+      "sha256": "761f974bf61d40268938a5d9cf0c46af229d45e80f661c084a94036df304e9f2"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -363,8 +363,8 @@
     },
     {
       "path": "docs/STAGED_INVERSION_PILOT.md",
-      "bytes": 5807,
-      "sha256": "7f32c777870336ede96972928b2382507b9efa32a7b09e844290073483f64009"
+      "bytes": 6323,
+      "sha256": "4acc0d6a9a0c0cdf3f894c612bc6f5d92f8da9932b632f3547c61ca47cb4baf9"
     },
     {
       "path": "docs/TARGET_ENCODING_LOCALIZATION.md",
@@ -907,9 +907,39 @@
       "sha256": "4ad415e7b5f31c93e33876d42b34e765df9dd7c9558cc3b31392618602415fc3"
     },
     {
+      "path": "protocols/28_staged_attacker_runtime.json",
+      "bytes": 13718,
+      "sha256": "b0ce0fe4a3daaa3a92b6eb116472436901d6829968ce57a117f80534bdb81210"
+    },
+    {
+      "path": "protocols/28_staged_attacker_runtime.sha256",
+      "bytes": 65,
+      "sha256": "63cc893c6a544b169aedbd08777c73de0c1926b128cae3724f2d9fd58d7ce704"
+    },
+    {
+      "path": "protocols/28_staged_controller_runtime.json",
+      "bytes": 23593,
+      "sha256": "2aaedf3d7bef3134d777db9b6f6da955fa8ded893b3fc076002a0f5fcdf9c60c"
+    },
+    {
+      "path": "protocols/28_staged_controller_runtime.sha256",
+      "bytes": 65,
+      "sha256": "b2f81cf27795977d9cfe340fc975438d87076583e7088294bffb78780007aa4f"
+    },
+    {
       "path": "protocols/28_staged_design.json",
       "bytes": 4037,
       "sha256": "f9a1d3cba11a516d3278ed4f8f5daeff80fe700bbb27a07068c2a5032370fd0f"
+    },
+    {
+      "path": "protocols/28_staged_evaluator_runtime.json",
+      "bytes": 22992,
+      "sha256": "ac636b4e99c6824e9d4082ead7ecf1ee33f1f9bb20584e5ec297ce5364d12681"
+    },
+    {
+      "path": "protocols/28_staged_evaluator_runtime.sha256",
+      "bytes": 65,
+      "sha256": "f3212ce9ddd3b20d82e25184c9d58830d94bf54aacebc53eae7c3691c8c5e5a4"
     },
     {
       "path": "provenance/07_remote_manifest.json",
@@ -2145,6 +2175,26 @@
       "path": "reports/28_staged_cpu_validation.json",
       "bytes": 2990,
       "sha256": "cadd7a819fa455e496ce3ef7334452c9654b50b82d8f3169cd9bf76f16da79f5"
+    },
+    {
+      "path": "reports/28_staged_launch_20261019/28_staged_deployment_d8dacc0.json",
+      "bytes": 283,
+      "sha256": "5637eb7c0cff60e31c18b1c1f458431627ff279859fc07af202cb907459c3469"
+    },
+    {
+      "path": "reports/28_staged_launch_20261019/28_staged_server_cpu_validation.json",
+      "bytes": 1611,
+      "sha256": "ae233cbb36b5f7a416588e1dc765a9e3ff267aac6228ebfddee0affe1735b951"
+    },
+    {
+      "path": "reports/28_staged_launch_20261019/controller_launch.json",
+      "bytes": 597,
+      "sha256": "73a3cc0aa150eac0dcd0ad80095d3e1e37fdc37fa793c8430a50fb6db5009fac"
+    },
+    {
+      "path": "reports/28_staged_launch_20261019/launch_checkpoint.json",
+      "bytes": 1600,
+      "sha256": "e1ba5e68d28947088def6542e26a329bbcc2df35e48eb383afcb1410f5aa75a7"
     },
     {
       "path": "reports/cover_baseline_contract/cpu_checks.json",
@@ -16078,8 +16128,8 @@
     },
     {
       "path": "scripts/parallel_execution/README.md",
-      "bytes": 9327,
-      "sha256": "24f1dce744025072d98b49f9bf50131e9fd2319d84144f506e9315cfd8ef4db4"
+      "bytes": 9450,
+      "sha256": "3ee5b5b9f9bf6c780955a6da2fb78f2db2130e6d9ef88f91352c39cd37b1c69b"
     },
     {
       "path": "scripts/parallel_execution/launcher.py",
@@ -16472,14 +16522,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 275893214,
+  "total_bytes": 275958906,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-19T21:49:39.332758+00:00",
+  "updated_at_utc": "2026-10-19T21:54:47.554468+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "3e59192277e01e2150e82126d1c6c91d10393149"
+  "previous_publication_commit": "d8dacc0757c7f6af5032520e5120e1242d390947"
 }
