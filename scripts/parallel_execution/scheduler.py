@@ -1,4 +1,4 @@
-"""Future-run scheduling kernel. No model imports, implicit launch, or resume.
+"""Future-run scheduling kernel. No model imports or implicit launch.
 
 The project adapter supplies a runner with a second idle check before CUDA import.
 Existing frozen runs and controllers are deliberately not modified by this module.
@@ -142,10 +142,10 @@ class Scheduler:
     completed=True and exit_code=0 after child exit, plus candidate_sha256 for an
     attack. Its job-specific input validation, watchdog, stdout/stderr capture,
     second idle gate and exact command recording are mandatory adapter duties.
-    This kernel alone is not a deployable model launcher.
+    launcher.ProcessRunner supplies these duties for frozen future CLI workers.
     """
     def __init__(self, project, run_name, devices, attack_groups, evaluation_groups,
-                 runner, idle_gate, resource_wait_seconds=300, poll_seconds=2):
+                 runner, idle_gate, resource_wait_seconds=300, poll_seconds=2, resume=False, preflight=None):
         validate(devices, attack_groups, evaluation_groups)
         if not re.fullmatch(r"[A-Za-z0-9_-]+", run_name):
             raise ValueError("Unsafe run name")
@@ -163,6 +163,9 @@ class Scheduler:
         self.stop = threading.Event()
         self.results, self.failures = {}, []
         self.candidates = {}
+        self.resume = resume
+        self.affinity = {}
+        self.preflight = preflight
 
     def verify_candidates(self):
         for name, expected in self.candidates.items():
@@ -181,6 +184,8 @@ class Scheduler:
         deadline = time.monotonic() + self.wait_seconds
         while not self.stop.is_set():
             for index, device in enumerate(self.devices):
+                if group.name in self.affinity and self.affinity[group.name] != device.uuid:
+                    continue
                 with self.guard:
                     reserved = index in self.available
                     if reserved:
@@ -205,11 +210,15 @@ class Scheduler:
     def group(self, group, phase):
         lease = None
         try:
+            if all(job.name in self.results for job in group.jobs):
+                return
             lease = self.acquire(group)
             if lease is None:
                 return
             _, device = lease
             for job in group.jobs:
+                if job.name in self.results:
+                    continue
                 if self.stop.is_set():
                     return
                 # The GPU remains associated with this task across its methods.
@@ -246,6 +255,8 @@ class Scheduler:
                     gpu_uuid=device.uuid, parameters_sha256=job.parameters_sha256,
                     elapsed_seconds=time.monotonic() - started, outcome=outcome)
                 write_once(output / "execution.json", record)
+                write_once(output / "execution_seal.json", dict(
+                    sha256=hashlib.sha256((output / "execution.json").read_bytes()).hexdigest()))
                 with self.guard:
                     self.results[job.name] = record
                 self.event(event="job_finished", job=job.name, completed=successful)
@@ -267,24 +278,86 @@ class Scheduler:
             for future in futures:
                 future.result()  # In-flight jobs finish; no external process is killed.
 
+    def recover(self, specification):
+        """Reuse verified successes only; a claimed uncertain/failed job blocks recovery."""
+        if json.loads((self.root / "schedule.json").read_text()) != specification:
+            raise ValueError("Recovery schedule differs from the frozen schedule")
+        if (self.root / "results_sealed.json").exists():
+            raise ValueError("Completed run is already sealed")
+        for phase, groups in (("attack", self.attacks), ("evaluation", self.evaluations)):
+            for group in groups:
+                for job in group.jobs:
+                    output = self.root / job.name
+                    if not output.exists():
+                        continue
+                    claim = json.loads((output / "claim.json").read_text())
+                    record_path = output / "execution.json"
+                    if not record_path.is_file():
+                        raise ValueError("Ambiguous claimed job; never relaunch: " + job.name)
+                    seal = json.loads((output / "execution_seal.json").read_text())
+                    if hashlib.sha256(record_path.read_bytes()).hexdigest() != seal["sha256"]:
+                        raise ValueError("Recovered execution record changed")
+                    record = json.loads(record_path.read_text())
+                    expected = dict(job=job.name, group=group.name, phase=phase,
+                                    parameters_sha256=job.parameters_sha256)
+                    if any(claim.get(k) != v or record.get(k) != v for k, v in expected.items()):
+                        raise ValueError("Recovery record identity mismatch")
+                    if not any(d.uuid == record.get("gpu_uuid") and d.index == record.get("gpu_index")
+                               for d in self.devices):
+                        raise ValueError("Recovery device is not in the frozen device set")
+                    if any(claim.get(k) != record.get(k) for k in ("gpu_uuid", "gpu_index")):
+                        raise ValueError("Claim and execution devices differ")
+                    previous = self.affinity.setdefault(group.name, record["gpu_uuid"])
+                    if previous != record["gpu_uuid"]:
+                        raise ValueError("Recovered methods used different devices")
+                    outcome = record["outcome"]
+                    if outcome.get("completed") is not True or outcome.get("exit_code") != 0:
+                        raise ValueError("Failed job; never retry: " + job.name)
+                    # The concrete launcher seals every produced file after the child exits.
+                    for relative, digest in outcome.get("artifacts", {}).items():
+                        path = (output / relative).resolve()
+                        if not path.is_relative_to(output.resolve()) or not path.is_file():
+                            raise ValueError("Invalid recovered artifact")
+                        if hashlib.sha256(path.read_bytes()).hexdigest() != digest:
+                            raise ValueError("Recovered artifact changed: " + relative)
+                    if phase == "attack":
+                        self.candidates[job.name] = outcome["candidate_sha256"]
+                    self.results[job.name] = record
+        self.verify_candidates()
+        seal_path = self.root / "candidates_sealed.json"
+        if seal_path.exists():
+            seal = json.loads(seal_path.read_text())
+            expected_count = sum(len(g.jobs) for g in self.attacks)
+            if len(self.candidates) != expected_count or seal["candidates"] != self.candidates:
+                raise ValueError("Recovered candidate barrier differs")
+        elif any(r["phase"] == "evaluation" for r in self.results.values()):
+            raise ValueError("Evaluation exists without the candidate barrier")
+        self.event(event="explicit_recovery", inherited_jobs=sorted(self.results))
+
     def run(self):
         if os.environ.get("CUDA_VISIBLE_DEVICES") != "":
             raise ValueError("Supervisor must have empty CUDA visibility")
         with project_lock(self.project / "runs" / ".imprint_delivery.lock"):
-            self.root.mkdir()  # Existing, failed or ambiguous run directories are refused.
+            if self.preflight is not None:
+                self.preflight()
             specification = dict(devices=[d.__dict__ for d in self.devices],
                 attacks=[dict(name=g.name, jobs=[j.__dict__ for j in g.jobs]) for g in self.attacks],
                 evaluations=[dict(name=g.name, jobs=[j.__dict__ for j in g.jobs]) for g in self.evaluations],
                 max_concurrent_groups=len(self.devices), group_device_affinity=True,
                 excluded_gpu_indices=[6], automatic_job_retry=False)
-            write_once(self.root / "schedule.json", specification)
+            if self.resume:
+                self.recover(specification)
+            else:
+                self.root.mkdir()
+                write_once(self.root / "schedule.json", specification)
             self.phase(self.attacks, "attack")
             if not self.stop.is_set():
                 self.candidates = {job.name: self.results[job.name]["outcome"]["candidate_sha256"]
                                    for group in self.attacks for job in group.jobs}
                 try:
                     self.verify_candidates()
-                    write_once(self.root / "candidates_sealed.json", dict(sealed_at_utc=now(), candidates=self.candidates))
+                    if not (self.root / "candidates_sealed.json").exists():
+                        write_once(self.root / "candidates_sealed.json", dict(sealed_at_utc=now(), candidates=self.candidates))
                     self.event(event="candidate_barrier_passed", candidates=len(self.candidates))
                     self.phase(self.evaluations, "evaluation")
                     self.verify_candidates()
@@ -299,5 +372,16 @@ class Scheduler:
                 unstarted_jobs=sorted(name for name in unrecorded if not (self.root / name).exists()),
                 ambiguous_claimed_jobs=sorted(name for name in unrecorded if (self.root / name).exists()),
                 finished_at_utc=now(), active_jobs=0)
-            write_once(self.root / "status.json", summary)
+            status = self.root / "status.json"
+            if status.exists():
+                number = 1
+                while (self.root / f"recovery_status_{number}.json").exists():
+                    number += 1
+                status = self.root / f"recovery_status_{number}.json"
+            write_once(status, summary)
+            if summary["completed"]:
+                write_once(self.root / "results_sealed.json", dict(sealed_at_utc=now(),
+                    executions={name: hashlib.sha256((self.root / name / "execution.json").read_bytes()).hexdigest()
+                                for name in sorted(self.results)},
+                    status_file=status.name, status_sha256=hashlib.sha256(status.read_bytes()).hexdigest()))
             return summary

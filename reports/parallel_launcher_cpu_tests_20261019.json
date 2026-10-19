@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-19T18:14:31.936051+00:00",
+  "cpu_only": true,
+  "models_loaded": false,
+  "gpu_processes_started": 0,
+  "tests_passed": 28,
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "source_sha256": {
+    "scripts/parallel_execution/launcher.py": "daaf020d26b0dbbf1bafc2889b16302f08c414d9dec41fcda515fc9b3cb39c68",
+    "scripts/parallel_execution/scheduler.py": "af9d5237502ee5724b12d9da031ed53d8efdd4ffdeb7d0e49ef4219085a32c3c",
+    "scripts/parallel_execution/test_launcher.py": "3d18af6a005d64d40f160ab80be9d651a317c8478ba00442214a12c51b5b7103",
+    "scripts/parallel_execution/test_scheduler.py": "928167fe9a6a181c78824ece4d1f876938587490373cb292be4acc9247614614",
+    "scripts/parallel_execution/worker.py": "142fe0aded3c3c957afbd2f26dbf2523ad3838b6b6337375dfb8726b5d182e21"
+  },
+  "runs": [
+    {
+      "command": [
+        "D:\\python\\python2\\python.exe",
+        "scripts\\parallel_execution\\test_scheduler.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_foreign_process_rejected (__main__.IdleGate) ... ok\ntest_identity_mismatch_is_not_resource_wait (__main__.IdleGate) ... ok\ntest_three_idle_samples_required_after_transient (__main__.IdleGate) ... ok\ntest_busy_device_never_claims_task_or_launches (__main__.Scheduling) ... ok\ntest_busy_device_skipped_for_an_idle_device (__main__.Scheduling) ... ok\ntest_caller_cannot_mutate_scheduled_job_list (__main__.Scheduling) ... ok\ntest_candidate_tamper_blocks_evaluator (__main__.Scheduling) ... ok\ntest_duplicate_jobs_rejected_before_any_write (__main__.Scheduling) ... ok\ntest_existing_project_lock_blocks_entire_run (__main__.Scheduling) ... ok\ntest_failed_job_keeps_failure_and_blocks_evaluation_and_retry (__main__.Scheduling) ... ok\ntest_four_workers_affinity_unique_claim_and_detection_barrier (__main__.Scheduling) ... ok\ntest_gpu6_rejected_before_runner_or_gate (__main__.Scheduling) ... ok\ntest_inflight_job_finishes_after_peer_failure (__main__.Scheduling) ... ok\ntest_more_than_four_or_duplicate_devices_rejected (__main__.Scheduling) ... ok\ntest_partial_execution_record_is_ambiguous_not_unstarted (__main__.Scheduling) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.805s\n\nOK\n"
+    },
+    {
+      "command": [
+        "D:\\python\\python2\\python.exe",
+        "scripts\\parallel_execution\\test_launcher.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_ambiguous_live_child_claim_blocks_recovery_without_killing_it (__main__.Integration) ... ok\ntest_boundary_recovery_preserves_completed_method_device_and_no_duplicates (__main__.Integration) ... ok\ntest_changed_local_model_refused_before_claim (__main__.Integration) ... ok\ntest_child_rejects_wrong_uuid_before_entry_import (__main__.Integration) ... ok\ntest_dry_run_cli_enumerates_without_gpu_or_output (__main__.Integration) ... ok\ntest_gpu6_and_five_devices_rejected (__main__.Integration) ... ok\ntest_incomplete_method_group_refused (__main__.Integration) ... ok\ntest_model_or_parameter_mutation_refused_before_claim (__main__.Integration) ... ok\ntest_output_allowance_enforced (__main__.Integration) ... ok\ntest_production_launcher_refuses_local_host (__main__.Integration) ... ok\ntest_real_subprocess_logs_gpu_affinity_barrier_and_result_seals (__main__.Integration) ... ok\ntest_recovery_rejects_tampered_completed_artifact (__main__.Integration) ... ok\ntest_watchdog_records_failure_blocks_evaluation_and_no_retry (__main__.Integration) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 6.943s\n\nOK\n"
+    }
+  ],
+  "passed": true
+}

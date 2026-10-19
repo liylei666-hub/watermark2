@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-19T18:14:44Z",
+  "read_only_server_check": true,
+  "experiment": "runs/27_method_resume_20261019T173017Z",
+  "controller_pid": 21884,
+  "controller_live": true,
+  "postprocessor_pid": 23796,
+  "postprocessor_live": true,
+  "postprocessor_state": "waiting_for_comparison",
+  "attacks_completed": 9,
+  "attacks_running": 1,
+  "attacks_not_started": 25,
+  "retained_historical_failures": 1,
+  "running_task": "attack_outputs/4/jain",
+  "running_pid": 40396,
+  "running_started_at_utc": "2026-10-19T18:11:35.831630+00:00",
+  "latest_completed_task": "attack_outputs/4/imprint",
+  "latest_completed_elapsed_seconds": 391.68792394781485,
+  "recent_observed_attack_seconds_approximate": [390, 411],
+  "suggested_next_check_utc": "2026-10-19T21:30:00Z",
+  "timing_basis": "25 unstarted attacks at about 390-411 seconds each, current task remainder, then evaluation. Waiting or runtime variation can extend this estimate.",
+  "future_launcher_deployed": false,
+  "future_launcher_gpu_executions": 0,
+  "new_model_polling_automation_created": false,
+  "current_experiment_modified": false,
+  "remaining_work": [
+    "Let the existing controller and CPU finalizer finish, then read sealed outcomes and apply the unchanged frozen scientific gate.",
+    "Before a future independent run, freeze its scientific plan, local model and source manifests, prepared inputs, and a compatible evaluator adapter."
+  ]
+}

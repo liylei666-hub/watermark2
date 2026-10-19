@@ -2232,6 +2232,16 @@
       "sha256": "61c298a4e4f4be03584ca0b49cf9dcc506324f4ac7a902290b62ba7f93f5b64d"
     },
     {
+      "path": "reports/parallel_launcher_checkpoint_20261019.json",
+      "bytes": 1428,
+      "sha256": "caa5ed16c7ae2489b6b8b7823a84c2ed72d6db50ec306085f129b8db1dd11836"
+    },
+    {
+      "path": "reports/parallel_launcher_cpu_tests_20261019.json",
+      "bytes": 3752,
+      "sha256": "817182e1d83e7c69aeda4bd5b7e2488d78eae8e8dd9bc561cfd96aa0b8369d7f"
+    },
+    {
       "path": "reports/pnp_source_availability.json",
       "bytes": 965,
       "sha256": "d2d9943cdea10d64f9512bc341a7a4307d60d8a00d9766d4a43c218c854f5eec"
@@ -16028,18 +16038,33 @@
     },
     {
       "path": "scripts/parallel_execution/README.md",
-      "bytes": 4139,
-      "sha256": "b63fad8e40cdce310254b3d9aea3647695e5fa228a16743e1645635527abb4f8"
+      "bytes": 9327,
+      "sha256": "24f1dce744025072d98b49f9bf50131e9fd2319d84144f506e9315cfd8ef4db4"
+    },
+    {
+      "path": "scripts/parallel_execution/launcher.py",
+      "bytes": 13907,
+      "sha256": "daaf020d26b0dbbf1bafc2889b16302f08c414d9dec41fcda515fc9b3cb39c68"
     },
     {
       "path": "scripts/parallel_execution/scheduler.py",
-      "bytes": 14805,
-      "sha256": "6812018693b107526db55d3075a6fa998ca5889806399a4f2f7cd0b8350039ba"
+      "bytes": 20187,
+      "sha256": "af9d5237502ee5724b12d9da031ed53d8efdd4ffdeb7d0e49ef4219085a32c3c"
+    },
+    {
+      "path": "scripts/parallel_execution/test_launcher.py",
+      "bytes": 12982,
+      "sha256": "3d18af6a005d64d40f160ab80be9d651a317c8478ba00442214a12c51b5b7103"
     },
     {
       "path": "scripts/parallel_execution/test_scheduler.py",
       "bytes": 9179,
       "sha256": "928167fe9a6a181c78824ece4d1f876938587490373cb292be4acc9247614614"
+    },
+    {
+      "path": "scripts/parallel_execution/worker.py",
+      "bytes": 2524,
+      "sha256": "142fe0aded3c3c957afbd2f26dbf2523ad3838b6b6337375dfb8726b5d182e21"
     },
     {
       "path": "scripts/plot_imprint_delivery.py",
@@ -16357,14 +16382,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 153700773,
+  "total_bytes": 275489584,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-19T18:00:09.215000+00:00",
+  "updated_at_utc": "2026-10-19T18:15:16.044030+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "63412b2aa71391a5b427d06212aeb314640f9b08"
+  "previous_publication_commit": "bb1ca2b0597cb876b7c89348de80c03bb3ea4b92"
 }
