@@ -1,0 +1,14 @@
+{
+  "source": "reports/25_delivery_transfer/verification.json",
+  "source_sha256": "0e3e75fe96a78ab724d8ebd7b4025b495c255362045ae0e4fde335da10804b57",
+  "rows": 8,
+  "message_accuracy_difference": -0.05419921875,
+  "plotting_library": "matplotlib 3.10.8",
+  "files": {
+    "delivery_endpoint.png": "c19d1e47eb376730f5ec53cc663b524b3d850c135e266a6bfb5c3b169ae700c5",
+    "delivery_endpoint.svg": "6034a83dffc0d88c6b9186d49e86cb2cd02d21237ca285b2dbbe23cfd1ef3e66",
+    "delivery_endpoint.pdf": "9d37af10e2bb40d5a360abf5670a41bc3cd2835be1c6f2c36a623cf15be66ad8"
+  },
+  "models_loaded": false,
+  "gpu_used": false
+}

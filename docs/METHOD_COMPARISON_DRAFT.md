@@ -63,6 +63,10 @@ Table 1. Closed eight-pair delivery diagnostic. Accuracy is a fraction of messag
 | Pairs with unchanged message accuracy | — | 1/8 | — |
 | Pairs with lower message accuracy | — | 7/8 | — |
 
+![Paired delivered-image accuracy and changes](../reports/27_recovery_audit_20261019/delivery_endpoint.png)
+
+Figure 1. Delivered-image message accuracy for every pair in the closed diagnostic. Colors denote the four prompt groups; circles and squares distinguish replicas in panel a. All scores exceed the strict GS threshold despite seven negative paired changes. Panel b reports percentage-point differences. The underlying saved rows, plotting code, and source hash are provided with [the figure manifest](../reports/27_recovery_audit_20261019/figure_manifest.json).
+
 The recovery and delivery measurements concern different points in the image pipeline. Their contrast supports a narrow empirical conclusion: improvement in this proxy reference-recovery metric did not predict an improvement in delivered-image message accuracy for the fixed mapping and tasks tested. The mapping was closed under its predeclared nonpositive-endpoint rule. These results motivate measuring complete delivered images in the new method comparison, but they do not establish that the delivery-path Imprint candidate will be effective.
 
 ## Complete method comparison: result pending
