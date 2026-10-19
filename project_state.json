@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-19T17:34:26Z",
+  "as_of_utc": "2026-10-19T21:23:50.740821+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -26,9 +26,10 @@
     "23",
     "24",
     "25",
-    "26"
+    "26",
+    "27"
   ],
-  "current_stage_status": "stage27_continuation_running",
+  "current_stage_status": "stage27_completed_fixed_delivery_candidate_closed",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -56,34 +57,33 @@
     "23": 5,
     "24": 12,
     "25": 4,
-    "26": 0
+    "26": 0,
+    "27": 45
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/26_delivery_objectives/report.md",
-  "latest_status": "reports/26_delivery_objectives/status.json",
-  "latest_protocol": "protocols/26_delivery_objectives_cpu.json",
+  "latest_report": "reports/27_method_resume_20261019T173017Z/report.md",
+  "latest_status": "reports/27_method_resume_20261019T173017Z/status.json",
+  "latest_protocol": "protocols/27_method_runtime_r4.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
   "attack_evaluator_permission_isolation_implemented": false,
   "unresolved": [
-    "full official geometry implementation",
-    "reference retrieval/reconstruction protocol",
-    "geometry decision/calibration protocol",
-    "Within-VAE-map cause of fixed-step directional residual; finite-step discrepancy is localized, not eliminated",
-    "matched content/distortion and compute comparison",
-    "official geometry scoring function numerical equivalence"
+    "Independent effective method and substantive contribution",
+    "Matched actual compute and independent-task confirmation for a future candidate",
+    "Full official geometry reference retrieval, implementation and decision protocol",
+    "Complete official SemBind evaluation protocol"
   ],
-  "as_of_local_date": "2026-10-18",
+  "as_of_local_date": "2026-10-20",
   "as_of_timezone": "Asia/Shanghai",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/26_delivery_objectives/cpu_checks.json",
+  "latest_completed_analysis": "reports/27_method_resume_20261019T173017Z/verification_private.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 7375.2288702037185,
-  "current_round_model_processes_started": 63,
+  "current_round_gpu_seconds_used": 22027.065950323828,
+  "current_round_model_processes_started": 105,
   "allowed_gpu_physical_indices": [
     0,
     1,
@@ -114,7 +114,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Complete the 32 never-launched attacks, preserve task2 Jain failure, seal 35 candidates, evaluate 59 PNGs, verify and publish the frozen method decision.",
+  "next_action": "下一项决定性工作：冻结并完成一次分阶段反演优化的独立开发比较，检验“早期短反演轨迹的便宜更新、末期50步目标精化”能否在实测核心计算预算匹配时改善最终PNG的普通GS结果。比较原生Imprint、分阶段候选和固定短轨迹消融；新任务、参数与去留规则在运行前冻结。该成本假设的有效性与新颖性尚未建立。",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -127,9 +127,9 @@
   "sembind_end_to_end_adaptive_test_reported": true,
   "sembind_full_public_gs_s_verifier_available": false,
   "selected_gpu_physical_index": 0,
-  "active_run": "runs/27_method_resume_20261019T173017Z",
+  "active_run": null,
   "current_round_gpu_seconds_remaining": null,
-  "last_completed_run": "runs/23_reference_reliability_20261018T035244Z",
+  "last_completed_run": "runs/27_method_resume_20261019T173017Z",
   "prompt_control_observation": {
     "paired_seeds": 3,
     "aggregates": {
@@ -193,7 +193,7 @@
       "bit_accuracy_same_minus_changed": 0.009114583333333334
     }
   },
-  "last_attempted_run": "runs/19_target_encoding_20261018T005251Z",
+  "last_attempted_run": "runs/27_method_resume_20261019T173017Z",
   "autonomous_continuation_authorized": true,
   "target_roundtrip_observation": {
     "same_prompt": {
@@ -249,8 +249,7 @@
   "blockers": [
     "Full geometry reference retrieval, implementation and fixed decision protocol unresolved",
     "SemBind full public GS-S verifier unresolved",
-    "SEAL semantic fixed decision/salt protocol and uncached caption/embedding weights",
-    "Stage09 stopped before seed103; failure-time GPU snapshot unavailable"
+    "SEAL semantic fixed decision/salt protocol and uncached caption/embedding weights"
   ],
   "incomplete_stages": [
     "09"
@@ -286,13 +285,12 @@
     "Actual score Lipschitz/normalization scaling sufficient for dimension-exponential tails"
   ],
   "remote_observation": {
-    "checked_at_utc": "2026-10-18T00:56:06.323803+00:00",
+    "checked_at_utc": "2026-10-19T21:20:54.039208+00:00",
     "host": "liyanlei@172.18.185.249",
     "active_model_processes": [],
-    "compute_apps": "",
-    "execution_file_count": 32,
-    "gpu_process_seconds": 5428.92268636357,
-    "evidence": "reports/19_target_encoding/execution_recheck.json"
+    "execution_file_count": 105,
+    "gpu_process_seconds": 22027.065950323828,
+    "evidence": "reports/27_method_resume_20261019T173017Z/closeout_recheck.json"
   },
   "csi_audit": {
     "repository": "https://github.com/ZhengGao-30/CSI-Attack",
@@ -328,11 +326,10 @@
     "attribution_alarm_endpoints_separated": true
   },
   "latest_connection_attempt": {
-    "checked_at_utc": "2026-10-17T05:23:47.986479+00:00",
+    "checked_at_utc": "2026-10-19T21:20:54.039208+00:00",
     "host": "liyanlei@172.18.185.249",
     "result": "connected_with_existing_server_specific_identity",
-    "user_model_processes_observed": 0,
-    "budget_reverified": true
+    "active_comparison_processes": 0
   },
   "upstream_head_recheck": {
     "checked_at_utc": "2026-10-17T05:23:47.986479+00:00",
@@ -404,15 +401,16 @@
   },
   "method_hypothesis": "docs/METHOD_HYPOTHESIS.md",
   "delivery_path_hypothesis": {
-    "status": "descriptive_single_pair_gap_and_positive_gradient_alignment",
+    "status": "fixed_stage27_candidate_closed",
     "source_path_difference_verified": true,
     "png_improvement_retained_fraction": 0.9151663230696636,
-    "transfer_gain": null,
+    "transfer_gain": -0.018229166666666668,
     "novelty": null,
-    "frozen_execution_protocol": "protocols/11_imprint_gradient.json"
+    "frozen_execution_protocol": "protocols/11_imprint_gradient.json",
+    "complete_method_report": "reports/27_method_resume_20261019T173017Z/report.md"
   },
-  "latest_preflight_run": "runs/19_target_encoding_20261018T005251Z",
-  "latest_preparation_report": "reports/19_target_encoding/preparation.json",
+  "latest_preflight_run": "runs/27_method_resume_20261019T173017Z",
+  "latest_preparation_report": "reports/27_method_comparison/resume_cpu_checks.json",
   "stage10_preparation": {
     "cpu_tests_passed": 8,
     "actual_helper_cpu_compile_passed": true,
@@ -623,7 +621,7 @@
     "protocol": "protocols/17_cover_pilot.json",
     "next_step": "Launch the frozen stage17 serial pilot after a fresh idle check; stop on any engineering failure."
   },
-  "last_updated_utc": "2026-10-18T00:32:28.850775+00:00",
+  "last_updated_utc": "2026-10-19T21:23:50.740821+00:00",
   "cover_pilot": {
     "stage": "17",
     "checked_at_utc": "2026-10-18T00:30:28.738802+00:00",
@@ -1210,44 +1208,238 @@
     "next_step_proposal": "形成代理可观测量到交付后迁移预测的可证伪契约，明确其相对既有反演匹配和再生成组合的独立信息及否定条件，再决定是否冻结新的模型试验。"
   },
   "paper_priority": {
-    "candidate": "delivery_path_imprint",
+    "candidate": "coarse_to_full_inversion_optimization_hypothesis",
     "comparators": [
       "native_imprint",
-      "jain_vae_matching"
+      "fixed_short_trajectory_ablation"
     ],
-    "proposed_development_tasks": 12,
-    "runtime_protocol_frozen": true,
-    "new_method_implemented": true,
-    "new_comparison_run": true,
-    "novelty_established": false
+    "runtime_protocol_frozen": false,
+    "new_method_implemented": false,
+    "new_comparison_run": false,
+    "novelty_established": false,
+    "candidate_status": "hypothesis_to_freeze_and_test"
   },
   "stage27": {
-    "status": "continuation_running",
-    "original_run": "runs/27_method_comparison_20261018T063355Z",
-    "original_status": "stopped_preimport_resource_gate",
+    "stage": "27",
+    "checked_at_utc": "2026-10-19T21:23:50.740821+00:00",
+    "status": "completed_verified_with_recorded_failure",
+    "completed": true,
     "run_dir": "runs/27_method_resume_20261019T173017Z",
-    "controller_pid": 21884,
-    "postprocessor_pid": 23796,
-    "source_commit": "a68f38e",
+    "original_run": "runs/27_method_comparison_20261018T063355Z",
+    "data_role": "12_task_development_screen",
+    "scientific_design": "protocols/27_method_design.json",
     "runtime": "protocols/27_method_runtime_r4.json",
-    "planned_attack_tasks": 36,
-    "completed_attacks": 3,
-    "running_attacks": 1,
-    "not_started_attacks": 31,
+    "runtime_sha256": "818e154aa43ede54f8809dd7199f5e867313fc9151fcca3a304e990d428793cf",
+    "frozen_scheduler_commit": "a68f38e3e922abb25bf474cbf95797db6a696932",
+    "frozen_cpu_postprocess_commit": "a4bccffeb453c11b6c1f67d52878e926f5dec418",
+    "completed_attacks": 35,
+    "running_attacks": 0,
+    "not_started_attacks": 0,
     "failed_attacks": 1,
-    "failed_task": {
-      "task_id": 2,
-      "method": "jain",
-      "retry_allowed": false
+    "unknown_attacks": 0,
+    "planned_attack_tasks": 36,
+    "primary_pairs_complete": 12,
+    "failed_tasks": [
+      {
+        "task_id": 2,
+        "method": "jain",
+        "reason": "Original preimport resource gate rejected 1% utilization before loading models",
+        "candidate": null,
+        "bit_accuracy": null,
+        "retried": false
+      }
+    ],
+    "reference_images": 12,
+    "cover_images": 12,
+    "candidates": 35,
+    "target_inversions": 59,
+    "original_planned_target_inversions": 60,
+    "independent_cpu_private_decodes": 59,
+    "public_statistics_recomputed": true,
+    "model_assisted_images_observed": 59,
+    "independent_human_reviews": 0,
+    "summary": {
+      "imprint": {
+        "planned_tasks": 12,
+        "delivered": 12,
+        "failed": 0,
+        "gs_pass_count": 8,
+        "delivered_and_gs_pass_rate_over_all_tasks": 0.6666666666666666,
+        "conditional_mean_bit_accuracy": 0.7301432291666666,
+        "conditional_median_pixel_mse": 0.0013816989740774782,
+        "conditional_mean_psnr_db": 28.47439582646837,
+        "conditional_median_core_seconds": 377.15856028324924,
+        "total_process_seconds": 4682.718787103426
+      },
+      "jain": {
+        "planned_tasks": 12,
+        "delivered": 11,
+        "failed": 1,
+        "gs_pass_count": 3,
+        "delivered_and_gs_pass_rate_over_all_tasks": 0.25,
+        "conditional_mean_bit_accuracy": 0.6544744318181818,
+        "conditional_median_pixel_mse": 0.0005848981697681883,
+        "conditional_mean_psnr_db": 32.35965121831129,
+        "conditional_median_core_seconds": 376.593756374903,
+        "total_process_seconds": 4273.292936800513
+      },
+      "delivery": {
+        "planned_tasks": 12,
+        "delivered": 12,
+        "failed": 0,
+        "gs_pass_count": 6,
+        "delivered_and_gs_pass_rate_over_all_tasks": 0.5,
+        "conditional_mean_bit_accuracy": 0.7119140625,
+        "conditional_median_pixel_mse": 0.001301107175622432,
+        "conditional_mean_psnr_db": 28.88264794563022,
+        "conditional_median_core_seconds": 396.5052155184094,
+        "total_process_seconds": 4922.8729384564795
+      }
     },
-    "expected_available_candidates": 35,
-    "planned_target_inversions": 59,
-    "completed_target_inversions": 0,
-    "numerical_algorithm_changed": false,
-    "resource_policy": "waiting_resource_recheck_300_seconds",
-    "cpu_postprocessor": "scripts/method_comparison_r4/finalize.py",
+    "paired_differences": [
+      {
+        "task_id": 1,
+        "bit_accuracy_difference": 0.00390625,
+        "pass_difference": 0,
+        "pixel_mse_ratio": 0.9877067154427318,
+        "core_time_ratio": 1.0528372351225448
+      },
+      {
+        "task_id": 2,
+        "bit_accuracy_difference": -0.01953125,
+        "pass_difference": 0,
+        "pixel_mse_ratio": 0.9685613242324657,
+        "core_time_ratio": 1.0486843191244282
+      },
+      {
+        "task_id": 3,
+        "bit_accuracy_difference": -0.0234375,
+        "pass_difference": 0,
+        "pixel_mse_ratio": 0.9629969907463282,
+        "core_time_ratio": 1.051668661150473
+      },
+      {
+        "task_id": 4,
+        "bit_accuracy_difference": 0.015625,
+        "pass_difference": 0,
+        "pixel_mse_ratio": 0.8589520317966323,
+        "core_time_ratio": 1.0513757102315313
+      },
+      {
+        "task_id": 5,
+        "bit_accuracy_difference": -0.06640625,
+        "pass_difference": -1,
+        "pixel_mse_ratio": 0.8210771277232458,
+        "core_time_ratio": 1.0530260389120012
+      },
+      {
+        "task_id": 6,
+        "bit_accuracy_difference": -0.00390625,
+        "pass_difference": 0,
+        "pixel_mse_ratio": 0.8894355128184516,
+        "core_time_ratio": 1.0520721397347332
+      },
+      {
+        "task_id": 7,
+        "bit_accuracy_difference": -0.0390625,
+        "pass_difference": -1,
+        "pixel_mse_ratio": 0.8950871743011949,
+        "core_time_ratio": 1.0511396760755412
+      },
+      {
+        "task_id": 8,
+        "bit_accuracy_difference": -0.015625,
+        "pass_difference": 0,
+        "pixel_mse_ratio": 0.88158418770514,
+        "core_time_ratio": 1.0516508554799429
+      },
+      {
+        "task_id": 9,
+        "bit_accuracy_difference": -0.0078125,
+        "pass_difference": 0,
+        "pixel_mse_ratio": 0.92285407648848,
+        "core_time_ratio": 1.050601870844452
+      },
+      {
+        "task_id": 10,
+        "bit_accuracy_difference": -0.00390625,
+        "pass_difference": 0,
+        "pixel_mse_ratio": 0.9256861346925777,
+        "core_time_ratio": 1.0506300402337743
+      },
+      {
+        "task_id": 11,
+        "bit_accuracy_difference": -0.04296875,
+        "pass_difference": 0,
+        "pixel_mse_ratio": 0.9643241391002151,
+        "core_time_ratio": 1.0520969280297177
+      },
+      {
+        "task_id": 12,
+        "bit_accuracy_difference": -0.015625,
+        "pass_difference": 0,
+        "pixel_mse_ratio": 0.86159090879864,
+        "core_time_ratio": 1.051697285467115
+      }
+    ],
+    "decision": "close_this_fixed_candidate_without_parameter_tuning_or_supplement",
+    "decision_gates": {
+      "all_12_references_valid": true,
+      "minimum_3_additional_gs_passes": false,
+      "median_mse_ratio_at_most_1_05": true,
+      "median_core_time_ratio_at_most_1_15": true
+    },
+    "gs_pass_gain": -2,
+    "mean_bit_accuracy_difference": -0.018229166666666668,
+    "median_paired_pixel_mse_ratio": 0.9089706253948374,
+    "median_paired_core_time_ratio": 1.0516597583152079,
+    "model_processes_started": 45,
+    "successful_model_processes": 44,
+    "failed_model_processes": 1,
+    "new_model_processes_in_continuation": 35,
+    "model_process_seconds": 14775.389389892109,
+    "cumulative_model_processes": 105,
+    "cumulative_worker_process_seconds": 22027.065950323828,
+    "cumulative_nonzero_exits": 4,
+    "gpu_used": true,
+    "models_loaded": true,
+    "gpu_physical_indices_used": [
+      0
+    ],
+    "gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
+    "active_run": null,
+    "active_model_processes": [],
+    "controller_exit_code": null,
+    "controller_completed_marker": true,
+    "cpu_postprocess_completed_marker": true,
+    "server_process_recheck": "reports/27_method_resume_20261019T173017Z/closeout_recheck.json",
+    "archive_sha256": "94c488e771e5847113eca0365f1b592bd641d444802d469963bbb942815f7178",
+    "new_run_transferred_files": 886,
+    "original_source_files_verified": 373,
+    "conservative_project_artifact_bytes": 675565582,
+    "max_new_bytes": 10737418240,
+    "new_model_downloads": false,
+    "private_material_exported": false,
+    "all_candidates_sealed_before_evaluation": true,
+    "target_feedback_to_attack": false,
+    "attack_evaluator_permission_isolation_implemented": false,
     "full_defense_acceptance": null,
-    "decision": null
+    "formal_content_pass_labels": null,
+    "population_success_rate": null,
+    "novelty_established": false,
+    "blockers": [],
+    "limitations": [
+      "Twelve development tasks across four prompt groups; no independent confirmation or population inference",
+      "Jain task2 missing after a pre-model engineering failure; no retry",
+      "Ordinary GS only; complete geometry/SemBind acceptance unknown",
+      "Assistant visual observations are not independent human labels",
+      "Different core budgets measured explicitly; equal updates are not equal compute"
+    ],
+    "next_step_proposal": "下一项决定性工作：冻结并完成一次分阶段反演优化的独立开发比较，检验“早期短反演轨迹的便宜更新、末期50步目标精化”能否在实测核心计算预算匹配时改善最终PNG的普通GS结果。比较原生Imprint、分阶段候选和固定短轨迹消融；新任务、参数与去留规则在运行前冻结。该成本假设的有效性与新颖性尚未建立。"
   },
-  "completed_stage_next_steps_are_historical_snapshots": true
+  "completed_stage_next_steps_are_historical_snapshots": true,
+  "cumulative_completed_execution_records": 105,
+  "current_entry": "GPT_CONTEXT.md",
+  "blockers_scope": "Full defense protocol gaps limit corresponding claims only; stage27 ordinary-GS comparison is complete.",
+  "current_execution_blockers": []
 }

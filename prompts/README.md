@@ -13,3 +13,5 @@
 [amendments.json](amendments.json) 保存阶段 01/02/04 的相关原话及时间戳；[index.json](index.json) 保存来源和 SHA256。阶段 01/03 来自本会话用户消息；阶段 02/04/05 来自原始粘贴附件，保留原始字节。附件包装消息及其余用户消息在 [conversation/messages.json](../conversation/messages.json)。
 
 同阶段较晚的明确用户修订限定该阶段的实际条件；不要把历史阶段的设备或实验预算推广到未来任务。原提示词、历史报告和新交接说明均保留其各自证据角色。
+
+2026-10-20：[阶段27完整比较与自主研究要求](20261020_stage27_completion_request.txt)，来自本会话用户消息，按消息文本转存为UTF-8/LF；精确消息发送时间未提供。现行状态见[当前入口](../GPT_CONTEXT.md)。历史01–05索引保持原有来源校验范围。

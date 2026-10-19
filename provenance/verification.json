@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-19T17:36:15.848446+00:00",
-  "published_files_checked": 3641,
+  "checked_at_utc": "2026-10-19T21:27:17.133015+00:00",
+  "published_files_checked": 4553,
   "remote_source_files_checked": 422,
   "prompt_sources_checked": 6,
   "recorded_real_runs_checked": 9,
@@ -465,5 +465,29 @@
     "local_execution_hashes_verified": 60,
     "new_model_processes": 0,
     "actual_diffusion_gradient_validated": false
+  },
+  "stage27_method_comparison": {
+    "report": "reports/27_method_resume_20261019T173017Z/report.md",
+    "result": "fixed_delivery_candidate_closed",
+    "planned_attacks": 36,
+    "delivered_candidates": 35,
+    "recorded_engineering_failures": 1,
+    "primary_pairs": 12,
+    "server_private_cpu_scores_checked": 59,
+    "local_public_statistics_recomputed": true,
+    "model_assisted_images_observed": 59,
+    "independent_human_reviews": 0,
+    "model_processes": 45,
+    "cumulative_execution_hashes_verified": 105,
+    "local_archive_files_verified": 886,
+    "source_files_verified": 373,
+    "final_report_files_verified_on_server": 10,
+    "models_loaded_by_verifiers": false
+  },
+  "latest_user_requirement_archive": {
+    "path": "prompts/20261020_stage27_completion_request.txt",
+    "sha256": "ee04385aa620b12d9741bc7cec2ad073ba1442eda2ab6cefca912697cedc3a4a",
+    "source": "Current user message; UTF-8/LF text transcription",
+    "exact_message_timestamp_utc": null
   }
 }
