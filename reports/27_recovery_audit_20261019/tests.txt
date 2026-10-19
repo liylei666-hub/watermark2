@@ -1,0 +1,10 @@
+test_escape_rejected (__main__.EvidenceAudit) ... ok
+test_failure_retained_and_successful_candidate_rejected (__main__.EvidenceAudit) ... ok
+test_read_only_check_preserves_bytes_and_timestamp (__main__.EvidenceAudit) ... ok
+test_relabelled_failure_is_rejected (__main__.EvidenceAudit) ... ok
+test_tampered_and_missing_files_are_reported (__main__.EvidenceAudit) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.055s
+
+OK

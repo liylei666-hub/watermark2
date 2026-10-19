@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "read_started_at_utc": "2026-10-19T17:39:05.969564+00:00",
+  "read_finished_at_utc": "2026-10-19T17:39:06.368025+00:00",
+  "scope": "Immutable provenance checks plus a non-atomic active-run file snapshot; no process liveness or scientific endpoint verification.",
+  "provenance_passed": true,
+  "runtime_sha256": "818e154aa43ede54f8809dd7199f5e867313fc9151fcca3a304e990d428793cf",
+  "source_run": "runs/27_method_comparison_20261018T063355Z",
+  "continuation_run": "runs/27_method_resume_20261019T173017Z",
+  "checks": {
+    "runtime_sidecar_matches": true,
+    "scientific_design_unchanged": true,
+    "allowed_devices_unchanged": true,
+    "storage_cap_unchanged": true,
+    "serial_no_downloads": true,
+    "live_inheritance_matches": true,
+    "launch_runtime_binding": true,
+    "all_original_processes_accounted": true,
+    "failed_task_not_relaunched": true
+  },
+  "hash_maps": {
+    "source_files": {
+      "expected": 373,
+      "verified": 373,
+      "errors": []
+    },
+    "copied_files": {
+      "expected": 301,
+      "verified": 301,
+      "errors": []
+    },
+    "historical_execution_files": {
+      "expected": 70,
+      "verified": 70,
+      "errors": []
+    },
+    "runtime_code_files": {
+      "expected": 67,
+      "verified": 67,
+      "errors": []
+    }
+  },
+  "inherited": {
+    "records": [
+      {
+        "task": "attack_outputs/1/delivery",
+        "category": "completed",
+        "path": "runs/27_method_comparison_20261018T063355Z/attack_outputs/1/delivery",
+        "execution_sha256": "ace34b6f614a7168d0e5358aedc44d199e7c9d6f01985eafe410f7dd7efe9fb6",
+        "exit_code": 0,
+        "elapsed_seconds": 404.7959697409533
+      },
+      {
+        "task": "attack_outputs/1/imprint",
+        "category": "completed",
+        "path": "runs/27_method_comparison_20261018T063355Z/attack_outputs/1/imprint",
+        "execution_sha256": "1bf6412219cc5368975302137c15e302df9d69772acc6cec134b238641251801",
+        "exit_code": 0,
+        "elapsed_seconds": 385.1349092749879
+      },
+      {
+        "task": "attack_outputs/1/jain",
+        "category": "completed",
+        "path": "runs/27_method_comparison_20261018T063355Z/attack_outputs/1/jain",
+        "execution_sha256": "cb57bcdc6cfd3b0e228afa9de57b4e18ca233ad76c1b4abfa22ac53330bc3376",
+        "exit_code": 0,
+        "elapsed_seconds": 382.90610214183107
+      },
+      {
+        "task": "cover_0",
+        "category": "completed",
+        "path": "runs/27_method_comparison_20261018T063355Z/cover_0",
+        "execution_sha256": "d75abbe869a4b4b8ba4ff2a906b5259731a8d723aa0c2da313ab45130efc6009",
+        "exit_code": 0,
+        "elapsed_seconds": 35.654126612935215
+      },
+      {
+        "task": "cover_1",
+        "category": "completed",
+        "path": "runs/27_method_comparison_20261018T063355Z/cover_1",
+        "execution_sha256": "daf0f6016c75f9d803845b73a016fa612021abfdc8199b715a7da20a224e8f52",
+        "exit_code": 0,
+        "elapsed_seconds": 35.24673396674916
+      },
+      {
+        "task": "cover_2",
+        "category": "completed",
+        "path": "runs/27_method_comparison_20261018T063355Z/cover_2",
+        "execution_sha256": "19c1df09ddb3561142f698073978978f010d4bc0677d134c63daeed71294191b",
+        "exit_code": 0,
+        "elapsed_seconds": 35.999516492243856
+      },
+      {
+        "task": "reference_0",
+        "category": "completed",
+        "path": "runs/27_method_comparison_20261018T063355Z/reference_0",
+        "execution_sha256": "d9fc54272b7c6b2f498e8bf8f58329388369a1c48d1abfdc69cbcd4d0298da13",
+        "exit_code": 0,
+        "elapsed_seconds": 61.37622003490105
+      },
+      {
+        "task": "reference_1",
+        "category": "completed",
+        "path": "runs/27_method_comparison_20261018T063355Z/reference_1",
+        "execution_sha256": "2024dfc7c5fcad487c931dde5b3a245ba989545b0c2f23be31e957315d1b1993",
+        "exit_code": 0,
+        "elapsed_seconds": 62.176089737098664
+      },
+      {
+        "task": "reference_2",
+        "category": "completed",
+        "path": "runs/27_method_comparison_20261018T063355Z/reference_2",
+        "execution_sha256": "81a4ee59d495d2829e527dcdc9bbfb36ec31a0707cfa603339c753a2a7a2fbbd",
+        "exit_code": 0,
+        "elapsed_seconds": 65.21634779823944
+      },
+      {
+        "task": "attack_outputs/2/jain",
+        "category": "failed",
+        "path": "runs/27_method_comparison_20261018T063355Z/attack_outputs/2/jain",
+        "execution_sha256": "e65655378be8e34394e58976a6fea9e1c06836d0228eba07ae8fdf61a5780e4d",
+        "exit_code": 1,
+        "elapsed_seconds": 0.4983983710408211
+      }
+    ],
+    "errors": [],
+    "process_seconds": 1469.0044141709805
+  },
+  "continuation_execution_records": [
+    {
+      "task": "attack_outputs/2/delivery",
+      "sha256": "8a268e474e076601df7ff24c4346f11bc3ae82707a4f5298290401d7ec515822",
+      "completed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 412.75643839500844
+    }
+  ],
+  "unfinished_process_records": [
+    {
+      "task": "attack_outputs/2/imprint",
+      "pid": 25550,
+      "started_at_utc": "2026-10-19T17:38:04.886122+00:00"
+    }
+  ],
+  "status_files": {
+    "scheduler_status.json": {
+      "status": "running",
+      "task": "attack_outputs/2/imprint",
+      "pid": 25550,
+      "started_at_utc": "2026-10-19T17:38:04.886122+00:00",
+      "counts": {
+        "completed": 4,
+        "failed": 1,
+        "not_started": 30,
+        "unknown": 1
+      }
+    },
+    "status.json": null
+  },
+  "planned_denominators": {
+    "tasks_per_method": 12,
+    "candidate_slots": 36,
+    "maximum_deliverable_candidates": 35,
+    "maximum_target_inversions": 59,
+    "primary_delivery_imprint_pairs": 12,
+    "jain_failed_task_ids": [
+      2
+    ]
+  },
+  "scientific_endpoint_verified": false,
+  "models_loaded": false,
+  "new_model_processes": 0,
+  "full_defense_acceptance": null,
+  "formal_human_labels": null
+}
