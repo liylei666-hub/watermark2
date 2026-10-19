@@ -1,0 +1,83 @@
+{
+  "checked_at_utc": "2026-10-19T21:34:47.490273+00:00",
+  "live_check_at_utc": "2026-10-19T21:30:45Z",
+  "run": "27_method_resume_20261019T173017Z",
+  "attacks": {
+    "completed": 35,
+    "running": 0,
+    "pending": 0,
+    "failed": 1,
+    "unknown": 0
+  },
+  "controller_or_worker_processes_observed": [],
+  "scheduler_completed_at_utc": "2026-10-19T21:16:52.277621+00:00",
+  "postprocessing_state": "verified_and_packaged",
+  "original_publication_commit": "678487991fab34650cc5b16e5e96a008fb38bcf4",
+  "source_files_match_commit": {
+    "reports/27_method_resume_20261019T173017Z/task_results.csv": "d2630d08966c710cd1430cdb775d622d7fbc6562bc02e758ccc18bebe78fc3a6",
+    "reports/27_method_resume_20261019T173017Z/status.json": "825c8872c5462d4a2dac2b5b9dfd50ec14231609a38df89fa6bae562d76a96ba",
+    "reports/27_method_resume_20261019T173017Z/verification_public.json": "5235c4386d931464039b2474a1e6c8b12a439d0fb8863df5bf0fdfdcd89a6376",
+    "reports/27_method_resume_20261019T173017Z/results_figure.png": "7b98b5c0565fd79991061aec2dff48146603aa8f0da0ef5ee3b64e861c923f86",
+    "reports/27_method_resume_20261019T173017Z/results_figure.pdf": "74d3200c930dffb98fb7cec8b9dd748bb8736db025adc173abda9f0cb5580ab2",
+    "reports/27_method_resume_20261019T173017Z/public_private_comparison.json": "1aadefb83d2fc13ff069e1d7b66da30bc4ec56fa8b124a8fc670ac2e2d8ca610",
+    "reports/27_method_resume_20261019T173017Z/local_readback.json": "8f0592ed98f58424e3c2ef53e054f06485766d1895c1dfca6fdc3c36a24b2bf4",
+    "scripts/method_comparison_r4/analyze.py": "61378c3d4bac29e485fd5ec3079ca6bfa3cb210ed4768869fbf833f53eea5586",
+    "protocols/27_method_design.json": "88c6e3b43691f70abb6604fd5640b72e771e8a849cca60e5c5ce795f8df6ab94",
+    "protocols/27_method_runtime_r4.json": "818e154aa43ede54f8809dd7199f5e867313fc9151fcca3a304e990d428793cf"
+  },
+  "public_analyzer_rerun_matches_within_published_tolerance": true,
+  "numeric_readback_tolerance": 1e-12,
+  "maximum_numeric_difference": 7.105427357601002e-15,
+  "local_independent_message_decodes": 0,
+  "server_reported_independent_message_decodes": 59,
+  "local_public_images_checked": 59,
+  "cpu_only": true,
+  "gpu_processes_started": 0,
+  "original_evidence_modified": false,
+  "private_material_exported": false,
+  "csv_summary_recomputed": {
+    "imprint": {
+      "delivered": 12,
+      "gs_passes": 8,
+      "attempt_denominator": 12,
+      "conditional_mean_bit_accuracy": 0.7301432291666666
+    },
+    "jain": {
+      "delivered": 11,
+      "gs_passes": 3,
+      "attempt_denominator": 12,
+      "conditional_mean_bit_accuracy": 0.6544744318181818
+    },
+    "delivery": {
+      "delivered": 12,
+      "gs_passes": 6,
+      "attempt_denominator": 12,
+      "conditional_mean_bit_accuracy": 0.7119140625
+    }
+  },
+  "decision": "close_this_fixed_candidate_without_parameter_tuning_or_supplement",
+  "decision_gates": {
+    "all_12_references_valid": true,
+    "minimum_3_additional_gs_passes": false,
+    "median_mse_ratio_at_most_1_05": true,
+    "median_core_time_ratio_at_most_1_15": true
+  },
+  "gs_pass_gain": -2,
+  "median_paired_pixel_mse_ratio": 0.9089706253948374,
+  "median_paired_core_time_ratio": 1.0516597583152079,
+  "mean_paired_accuracy_difference": -0.018229166666666668,
+  "artifact_sha256": {
+    "final_public_recheck.json": "2d7af23083ad82f7f85ed981f53e3e5e3471d92c9618d65ce0efe0307abee81b",
+    "final_task_results.csv": "d2630d08966c710cd1430cdb775d622d7fbc6562bc02e758ccc18bebe78fc3a6",
+    "method_comparison_results.png": "7b98b5c0565fd79991061aec2dff48146603aa8f0da0ef5ee3b64e861c923f86",
+    "method_comparison_results.pdf": "74d3200c930dffb98fb7cec8b9dd748bb8736db025adc173abda9f0cb5580ab2"
+  },
+  "readback_script_sha256": "314e62ac798d58e1042515df0ed061a05b5388bdac514e8511dd9f93396e5cdd",
+  "next_progress_check_required": false,
+  "remaining_scientific_unknowns": [
+    "Full geometry/SemBind acceptance",
+    "Formal independent content labels",
+    "Population inference",
+    "Novelty and superiority of a new method"
+  ]
+}

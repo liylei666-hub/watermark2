@@ -318,8 +318,8 @@
     },
     {
       "path": "docs/METHOD_COMPARISON_DRAFT.md",
-      "bytes": 12829,
-      "sha256": "0ef2865236999f69652afd3ca8eaf89153d1efc026be670828d5346522a29e2c"
+      "bytes": 15969,
+      "sha256": "d192d36c5474727f7b15ffe7370c60f24c00ce7712119779d6c5e73f8dcf5220"
     },
     {
       "path": "docs/METHOD_HYPOTHESIS.md",
@@ -353,8 +353,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 6759,
-      "sha256": "a6b9966d163475070caa4e5b82d8a0716b1b63343c789e5ef598b53c7fc0057f"
+      "bytes": 4957,
+      "sha256": "c2f7880ed1a44a3fca5c39ff1c11f19f50ec9d945e890464cf11dbd34ca30b38"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -2092,14 +2092,39 @@
       "sha256": "ed6c3526bb6759014102ec1cd609bca84142ab84ee0dd74273b4193e4b6a80ad"
     },
     {
+      "path": "reports/27_recovery_audit_20261019/final_closeout.json",
+      "bytes": 4012,
+      "sha256": "48273841c411ad2dc21fb63b55e8b5887f6c310578473cd082501c7f8d8fdc87"
+    },
+    {
+      "path": "reports/27_recovery_audit_20261019/final_public_recheck.json",
+      "bytes": 48870,
+      "sha256": "2d7af23083ad82f7f85ed981f53e3e5e3471d92c9618d65ce0efe0307abee81b"
+    },
+    {
+      "path": "reports/27_recovery_audit_20261019/final_task_results.csv",
+      "bytes": 5958,
+      "sha256": "d2630d08966c710cd1430cdb775d622d7fbc6562bc02e758ccc18bebe78fc3a6"
+    },
+    {
+      "path": "reports/27_recovery_audit_20261019/method_comparison_results.pdf",
+      "bytes": 29178,
+      "sha256": "74d3200c930dffb98fb7cec8b9dd748bb8736db025adc173abda9f0cb5580ab2"
+    },
+    {
+      "path": "reports/27_recovery_audit_20261019/method_comparison_results.png",
+      "bytes": 253710,
+      "sha256": "7b98b5c0565fd79991061aec2dff48146603aa8f0da0ef5ee3b64e861c923f86"
+    },
+    {
       "path": "reports/27_recovery_audit_20261019/remote_provenance.json",
       "bytes": 5894,
       "sha256": "3ca3f70fe0c07dc46a971f03bb212dcde5afc8befa0fe852386f564bea16c109"
     },
     {
       "path": "reports/27_recovery_audit_20261019/report.md",
-      "bytes": 6375,
-      "sha256": "926cd24a279957bb1673b4dd7a572fc3faedd256f64d6f19f9d64099b5c7d03e"
+      "bytes": 8075,
+      "sha256": "8b67b9d2a085a6400bbd926597fdef4b4994d9a0aa8efa2de6d44f6cafdd0c4c"
     },
     {
       "path": "reports/27_recovery_audit_20261019/tests.txt",
@@ -16362,6 +16387,11 @@
       "sha256": "40fe2fa2eb6cf6015eb66bfdaa779b83997d1c9afbab2d5ea3bde30d58dd51d6"
     },
     {
+      "path": "tools/summarize_stage27_closeout.py",
+      "bytes": 7332,
+      "sha256": "314e62ac798d58e1042515df0ed061a05b5388bdac514e8511dd9f93396e5cdd"
+    },
+    {
       "path": "tools/test_stage27_recovery_audit.py",
       "bytes": 2911,
       "sha256": "639097bb947e4cc11d8418ec61aff2519dcf394d5a4b51d0f448bf42e532d3ba"
@@ -16382,14 +16412,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 275489584,
+  "total_bytes": 275841682,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-19T18:15:16.044030+00:00",
+  "updated_at_utc": "2026-10-19T21:35:43.506223+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "bb1ca2b0597cb876b7c89348de80c03bb3ea4b92"
+  "previous_publication_commit": "1044b174ac74b11f864741ead801bbd36cfa50bf"
 }

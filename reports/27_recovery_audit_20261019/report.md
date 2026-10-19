@@ -1,6 +1,14 @@
 # Stage 27 recovery checkpoint
 
-Snapshot: 2026-10-19 17:39:06 UTC. The continuation is active; this report does not contain final method results.
+Final update, 2026-10-19 21:30:45 UTC: stage27 is complete, with 35 delivered candidates, one preserved preimport failure, no pending/unknown tasks and 59 target evaluations. The original controller and postprocessor have finished. The original owner published complete evidence in [main commit 6784879](https://github.com/liylei666-hub/watermark2/commit/678487991fab34650cc5b16e5e96a008fb38bcf4).
+
+Native Imprint passed ordinary GS on 8/12 attempts, delivery-path Imprint on 6/12, and adapted Jain on 3/12 (11 delivered). All twelve references passed. The delivery/native median paired MSE ratio was 0.90897063 and the core-time ratio 1.05165976, but the pass gain was -2 instead of the required minimum +3. The fixed candidate closes under the unchanged scientific rule. Full-defense acceptance and formal human content labels remain unknown.
+
+A targeted local rerun of the published public analyzer checked all 59 images, source associations, sealing order, failures, pixel metrics and timing summaries. It agrees with the published analysis within the existing 1e-12 readback tolerance; the maximum floating-point difference was 7.105427357601002e-15. A separate CSV calculation reproduced the method counts and paired summaries. The server had independently decoded all 59 scores; this local rerun did not decrypt messages. See [final closeout](final_closeout.json), [public recheck](final_public_recheck.json), [task rows](final_task_results.csv) and the updated [paper draft](../../docs/METHOD_COMPARISON_DRAFT.md). No new GPU job or repeated whole-repository audit was performed. The earlier checkpoint below is historical.
+
+## Original recovery snapshot
+
+Snapshot: 2026-10-19 17:39:06 UTC. The continuation was active at this historical checkpoint; the following paragraphs preserve its recovery context.
 
 The running experiment is `runs/27_method_resume_20261019T173017Z`, controlled by PID 21884 and accompanied by CPU postprocessor PID 23796. At the snapshot there were four completed attack tasks, one running task (`2/imprint`, PID 25550), thirty unstarted tasks, and one retained failure (`2/jain`). The latest completed continuation task, `2/delivery`, finished in 412.756438 seconds. At this rate the remaining serial attack work is approximately 3–4 hours, followed by three target-evaluation batches; resource waiting and runtime variation can extend that estimate.
 
