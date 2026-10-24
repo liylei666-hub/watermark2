@@ -41,3 +41,6 @@ CPU明确CUDA_VISIBLE_DEVICES为空。阶段09 seed103禁止重试或补样。�
 ## 接续入口
 
 [研究计划](docs/RESEARCH_PLAN.md) / [方法假设](docs/METHOD_HYPOTHESIS.md) / [机器状态](project_state.json) / [比较契约](docs/BASELINE_COMPARISON_CONTRACT.md) / [导师Word](docs/advisor_briefing.docx) / [原始证据](docs/ARTIFACT_GUIDE.md)。只发布确定、有用且复核过的进展；精简更新当前说明，保留所有原始证据。
+
+
+当前科学hold：阶段30模型启动暂停，输入生成与攻击均为0。先解决[PSNR版本与原生基线校准审查](reports/psnr_reproducibility/report.md)。官方旧uint8 PSNR bug已在2025-05-30修复；本项目当前版本含修复。现有10更新与受约束pixel变体不能代替原生150步整表复现。

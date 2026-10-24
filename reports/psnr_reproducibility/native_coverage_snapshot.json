@@ -1,0 +1,562 @@
+{
+  "checked_at_utc": "2026-10-24T18:28:43.182395+00:00",
+  "summary_files_scanned": 155,
+  "matching_summary_records": [
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/imprint/summary.json",
+      "sha256": "ba04f10b622ddbfcaea77902fab1a0744b3d319c28c7e21006fc196f7c5ef9a9",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/1/jain/summary.json",
+      "sha256": "194deca1d13841e1c05b0d7b4d391533694200cac3676ae0a346b2e88098eb18",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/2/imprint/summary.json",
+      "sha256": "8f1a29381fbd5f3f16405371d9acd7921ad3c1b6984790ed9d06fe25b94cacef",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/2/jain/summary.json",
+      "sha256": "6b489237f632644ac7d4a0d1a6e6e58d0729204312867cdbfff351e8839dd626",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/3/imprint/summary.json",
+      "sha256": "b9588f56569a9df09ef7aef07e0e5cbc8c698379322ec7bf6cdc13f49423eb61",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/17_cover_pilot_20261017T214442Z/attack_outputs/3/jain/summary.json",
+      "sha256": "35f3326da2f8ccd859138792aea3d9a562731d8b32c7ba2be98e132b2144d6dd",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_comparison_20261018T063355Z/attack_outputs/1/delivery/summary.json",
+      "sha256": "b451f7dd56c2a98a4c71caf442fe71ea3f7d8dcb834a64334edbfd5a3de8442c",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_comparison_20261018T063355Z/attack_outputs/1/imprint/summary.json",
+      "sha256": "3b96c56d636755217468b1f53708343511c34d43ebf8322bb62e6488e47b75ad",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_comparison_20261018T063355Z/attack_outputs/1/jain/summary.json",
+      "sha256": "7763e94ce4ac5e75ee5b6b028406a6435e73bcb618fe4478ba42cf4f8e51d2a4",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/1/delivery/summary.json",
+      "sha256": "b451f7dd56c2a98a4c71caf442fe71ea3f7d8dcb834a64334edbfd5a3de8442c",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/1/imprint/summary.json",
+      "sha256": "3b96c56d636755217468b1f53708343511c34d43ebf8322bb62e6488e47b75ad",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/1/jain/summary.json",
+      "sha256": "7763e94ce4ac5e75ee5b6b028406a6435e73bcb618fe4478ba42cf4f8e51d2a4",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/10/delivery/summary.json",
+      "sha256": "93454691f88bd8903d33850870adbf7a04bb5d2334f9af8ad0ac995cf4199e65",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/10/imprint/summary.json",
+      "sha256": "fde78eb5b7ec25633ffab180dc221d6fc0098aa00e8767172acfc41444765b48",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/10/jain/summary.json",
+      "sha256": "663db69786b6058cf817ae49665273523a0ea5ebafbbd2df1d494a5829911948",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/11/delivery/summary.json",
+      "sha256": "eaf35ed57f4549d3a2d4ebc3dbaf656d4c4f345413c2af0988fe29747514c254",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/11/imprint/summary.json",
+      "sha256": "a083832ed5615be3ee0f0b360c9d7054abfcfcd6b368e7502b5153c29b37d9fd",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/11/jain/summary.json",
+      "sha256": "8796fcb62bd7f3ff09b17a2d0bc6df6f4c4838c296f3a944adbd0dd914befaa7",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/12/delivery/summary.json",
+      "sha256": "b3afd0e305b6f789ecdb6bd976988bd4a63c9577695e30a6f8c42703779fa8a5",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/12/imprint/summary.json",
+      "sha256": "2e1e968212435c20a55d6388dd7a88f85cd30acd5d5ba3b224f219d533ba16d1",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/12/jain/summary.json",
+      "sha256": "f6453e4c0e510753cf34a3ec29b29d12a1b2b071de268100b9180ab91c52a078",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/2/delivery/summary.json",
+      "sha256": "f7785bc115dd46c1fd55743fa67be2c0de4752ba93edec1a1d0ba6baf2df015f",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/2/imprint/summary.json",
+      "sha256": "91eadd98b9f07a38767bf4c321734841a94e7f6f7214acd29bc3bca306e442ad",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/3/delivery/summary.json",
+      "sha256": "bd75ba0828696280e2c0cd517f482bea6c762cddbc5382792484e4b7a012e2b0",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/3/imprint/summary.json",
+      "sha256": "2ecf036ee744fea3f07aaabf3bf5db312e0f5a8de93c2e6b9816a444ca27db20",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/3/jain/summary.json",
+      "sha256": "db171b8d3c5829402b6196c6015a8f723b5c93920869dd5daacdd4bf2dd06096",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/4/delivery/summary.json",
+      "sha256": "ce7e6116ac9347e04a0426b2a148fc4076521ee69da3ec42750e5c239e2953ad",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/4/imprint/summary.json",
+      "sha256": "2166136686fde695b816f000ae4f4aded5b93d1d16fc8cc4319b8fbb4b872be1",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/4/jain/summary.json",
+      "sha256": "d825056135faede48b33bace1ead52dc7fcbb83de5e7593ca6ef617c19c58288",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/5/delivery/summary.json",
+      "sha256": "a735a69c08ed841b2781805fce36d655a6611ba28c053e919bec2fbda64e88b6",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/5/imprint/summary.json",
+      "sha256": "4c06894017329eaf1a4faa64f0bbeee56aaf143297f96a297f5d0d2ff0ac7a20",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/5/jain/summary.json",
+      "sha256": "643f3e00ef786fa140c2109275d43f2816f4830dc71d7d72b3d3e96956e6d79b",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/6/delivery/summary.json",
+      "sha256": "61ae415da26e6893312d4d1f4f1e692a3db5815efc95aa7d8c4b414a64916a54",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/6/imprint/summary.json",
+      "sha256": "693e8f26d2e6851bdfed70841bef8c84aad9dbd9f6c040c564ee1b114bdfa12b",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/6/jain/summary.json",
+      "sha256": "b37749e77511227e8b092185420d52750c751b7661461113f1643d88ca5c91b2",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/7/delivery/summary.json",
+      "sha256": "5b095ed2643cca277dd1506c050788fc5a1f7de65388ce8b5370b3805b2a89df",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/7/imprint/summary.json",
+      "sha256": "b43e17b7315df60fe08a8a1f58958eb4e08cfa881dd7a6b9ce2d66f178a51c26",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/7/jain/summary.json",
+      "sha256": "94c74a91f7c94fc2e9fd0965afa8fab99adb5ef847d2c6ed98cf0b8bb050bf7e",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/8/delivery/summary.json",
+      "sha256": "199f4fcfa3ba3790cbbf2f1096d1b9f5d761f2f2b91ac5bc242beb08eba848a6",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/8/imprint/summary.json",
+      "sha256": "d09b4476cb8f56a9d7dccf179e591f9ff6d594765d595fa2ac63ccd4c8813bb3",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/8/jain/summary.json",
+      "sha256": "ef587b8575ca93e854a172b5e443a90dd0775133a6d5d79f84b9f431868391fb",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/9/delivery/summary.json",
+      "sha256": "21d5c7018da4977cc3a6edefff760c885b75de610a65e088a6727b7d4734387a",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/9/imprint/summary.json",
+      "sha256": "95e661c3c6c73788728df677be7374e30663dba154ab8198bfcf3ece1e202d0e",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/27_method_resume_20261019T173017Z/attack_outputs/9/jain/summary.json",
+      "sha256": "95d0b76c6eee673b974d6f6fa8a0d7ae814b82316b47132f8770b57cdb0c3fb3",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 447
+        }
+      ]
+    },
+    {
+      "path": "runs/28_staged_inversion_20261019T215131Z/attack_1_native50/summary.json",
+      "sha256": "5c56006f8eb7c952f782d00403f41971ad3ae1bee64c546db7f273d415d62c49",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        },
+        {
+          "field": "schedule.0.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/28_staged_inversion_20261019T215131Z/attack_2_native50/summary.json",
+      "sha256": "3f8a8f46ef77846bcbffd07c71dc4ae7f572b2f549a931cb949d3fc346353c89",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        },
+        {
+          "field": "schedule.0.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/28_staged_inversion_20261019T215131Z/attack_3_native50/summary.json",
+      "sha256": "837ed833fe2707932586ed665a282a4cf111a3050564f8b96193c7aabb297aec",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        },
+        {
+          "field": "schedule.0.updates",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "path": "runs/28_staged_inversion_20261019T215131Z/attack_4_native50/summary.json",
+      "sha256": "1463897317c6a1bfcaa444f3c7f220406f51178f29d0fcff2663143107a6b78e",
+      "updates": [
+        {
+          "field": "timing.updates",
+          "value": 10
+        },
+        {
+          "field": "schedule.0.updates",
+          "value": 10
+        }
+      ]
+    }
+  ],
+  "official_source_sha256": "636dd0cb86f8b5d494e2b5213a9fdcf5001b1f4ba9705caae89ca14e9d71d12f",
+  "official_source_lines": [
+    {
+      "line": 52,
+      "text": "parser.add_argument(\"--num_inference_steps_target\", type=int, default=50)  # 20 for FLUX"
+    },
+    {
+      "line": 58,
+      "text": "parser.add_argument(\"--num_inference_steps_attacker\", type=int, default=50)"
+    },
+    {
+      "line": 65,
+      "text": "parser.add_argument(\"--lr\", type=float, default=1e-2)"
+    },
+    {
+      "line": 109,
+      "text": "diffpipe = imprint_utils.DiffPipe(pipe_attacker, scheduler=inverse_scheduler, device=pipe_attacker.device)"
+    },
+    {
+      "line": 118,
+      "text": "# set up optimization"
+    },
+    {
+      "line": 121,
+      "text": "optim = torch.optim.Adam([z0], lr=args.lr)"
+    },
+    {
+      "line": 135,
+      "text": "                                                   num_inference_steps=args.num_inference_steps_target,"
+    },
+    {
+      "line": 145,
+      "text": "                                num_inference_steps=args.num_inference_steps_attacker)"
+    },
+    {
+      "line": 157,
+      "text": "     num_inference_steps_target=args.num_inference_steps_target,"
+    },
+    {
+      "line": 187,
+      "text": "    optim.zero_grad()"
+    },
+    {
+      "line": 189,
+      "text": "    inverted_latent = diffpipe(z0, \"\", guidance_scale=1.)"
+    },
+    {
+      "line": 196,
+      "text": "    optim.step()"
+    },
+    {
+      "line": 207,
+      "text": "        image_from_z0 = imprint_utils.latent_to_pil(z0, pipe_attacker)[0]"
+    },
+    {
+      "line": 221,
+      "text": "            num_inference_steps_target=args.num_inference_steps_target,"
+    }
+  ],
+  "model_runs_started": 0
+}

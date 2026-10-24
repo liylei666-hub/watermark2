@@ -1,0 +1,211 @@
+{
+  "launch_state": {
+    "stage30_model_processes_started": 0,
+    "stage30_run_directory_exists": false,
+    "stage30_runtime_frozen": false,
+    "scientific_hold": true
+  },
+  "historical_old_source_blob": "c44801ba1e1027d0b2244ba5bc32198985f2cb61",
+  "fixed_source_blob": "5c8b98877d8f1d587beda80366a24d44c1457fb8",
+  "synthetic_actual_old_function": [
+    {
+      "byte_difference": 1,
+      "old_psnr": 48.1308036086791,
+      "corrected_psnr": 48.1308036086791,
+      "old_uint8_mse": 1.0,
+      "correct_float64_mse": 1
+    },
+    {
+      "byte_difference": 15,
+      "old_psnr": 24.60897842756548,
+      "corrected_psnr": 24.60897842756548,
+      "old_uint8_mse": 225.0,
+      "correct_float64_mse": 225
+    },
+    {
+      "byte_difference": 16,
+      "old_psnr": "inf",
+      "corrected_psnr": 24.04840395556061,
+      "old_uint8_mse": 0.0,
+      "correct_float64_mse": 256
+    },
+    {
+      "byte_difference": 20,
+      "old_psnr": 26.547178687726607,
+      "corrected_psnr": 22.11020369539948,
+      "old_uint8_mse": 144.0,
+      "correct_float64_mse": 400
+    },
+    {
+      "byte_difference": 64,
+      "old_psnr": "inf",
+      "corrected_psnr": 12.00720412900136,
+      "old_uint8_mse": 0.0,
+      "correct_float64_mse": 4096
+    },
+    {
+      "byte_difference": 255,
+      "old_psnr": 48.1308036086791,
+      "corrected_psnr": 0.0,
+      "old_uint8_mse": 1.0,
+      "correct_float64_mse": 65025
+    }
+  ],
+  "native27": {
+    "tasks": 12,
+    "updates_each": 10,
+    "rows": [
+      {
+        "task_id": 1,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\1\\imprint\\candidate.png",
+        "candidate_sha256": "544b21fad4144faa720a1cd4fcb940128c8a8b35c2a35168e5523533e278ef87",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\1\\cover.png",
+        "cover_sha256": "e5353910e5ea922de250b9509698c31d19d0797f8ecd338b0219b69f6ec29747",
+        "correct_psnr_to_cover": 28.364964562781083,
+        "old_buggy_psnr_to_cover": 31.15914780309842,
+        "wrong_pair_reference_psnr": 10.085841656737603,
+        "mse_rgb01": 0.001457147594600034
+      },
+      {
+        "task_id": 2,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\2\\imprint\\candidate.png",
+        "candidate_sha256": "6b8c3b92c512c9dd46c2aba52e4f4e919b2b3908a419c3ddeab03c5caae9419e",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\2\\cover.png",
+        "cover_sha256": "ef78cca9b7d9ac84be3338130bcd57a0e7e456c7ba840f569cb3d6532b24c185",
+        "correct_psnr_to_cover": 25.277396674363587,
+        "old_buggy_psnr_to_cover": 30.125602825606585,
+        "wrong_pair_reference_psnr": 9.916511014667691,
+        "mse_rgb01": 0.0029666091545444266
+      },
+      {
+        "task_id": 3,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\3\\imprint\\candidate.png",
+        "candidate_sha256": "d756d92e3c0cc127295ef0afceb840380b30ee4427981c55da4e18407fb7126e",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\3\\cover.png",
+        "cover_sha256": "b49d9c9e20fa28b493d27dd131a425b33821b854d01a6ee6c467253596ace476",
+        "correct_psnr_to_cover": 26.052813836293023,
+        "old_buggy_psnr_to_cover": 30.51904427120371,
+        "wrong_pair_reference_psnr": 8.685627795195025,
+        "mse_rgb01": 0.002481524780226505
+      },
+      {
+        "task_id": 4,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\4\\imprint\\candidate.png",
+        "candidate_sha256": "b829fd62c2b7f261723cf8ed6bbeae5573732cc0f92a90aebda9b160bb047c25",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\4\\cover.png",
+        "cover_sha256": "352224af6752b346a9de02651f0d6ec9ae6c5fa4e436e12e5b3c7f213e1fc9e4",
+        "correct_psnr_to_cover": 25.807493100714808,
+        "old_buggy_psnr_to_cover": 30.8986159605239,
+        "wrong_pair_reference_psnr": 7.813279887819818,
+        "mse_rgb01": 0.0026257337711719946
+      },
+      {
+        "task_id": 5,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\5\\imprint\\candidate.png",
+        "candidate_sha256": "1710cd97c94f543f02226f28ddc3b911572d3437d86ca1bdf31f8e234d36cbb4",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\5\\cover.png",
+        "cover_sha256": "b02a4c957d11f3224f0987301e21173c0ffef8b0f9436cf0fbfd84c0e1d48c1f",
+        "correct_psnr_to_cover": 29.82361894991945,
+        "old_buggy_psnr_to_cover": 33.422695498331024,
+        "wrong_pair_reference_psnr": 8.458323937340207,
+        "mse_rgb01": 0.0010414492343001588
+      },
+      {
+        "task_id": 6,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\6\\imprint\\candidate.png",
+        "candidate_sha256": "d70317e7ea4a023bfc5e1ddac6be9e3949fbf8e6914a5417488a37cbab1338f5",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\6\\cover.png",
+        "cover_sha256": "3037b5893f9ce09d9da13ab1d39891eb7d8a01368bf545ed2e9bac205f08fb85",
+        "correct_psnr_to_cover": 26.08049902123706,
+        "old_buggy_psnr_to_cover": 30.48952099632617,
+        "wrong_pair_reference_psnr": 8.102881968883832,
+        "mse_rgb01": 0.0024657559960098983
+      },
+      {
+        "task_id": 7,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\7\\imprint\\candidate.png",
+        "candidate_sha256": "440b5d877e85652425c81775b335523fa57049a728711ce0664a382dac7c727b",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\7\\cover.png",
+        "cover_sha256": "b77758f6c39b2ce63aec90cc33f9574fd4a2771744da3c9b1c82875b5a5ab117",
+        "correct_psnr_to_cover": 31.053809812371806,
+        "old_buggy_psnr_to_cover": 33.43442324572246,
+        "wrong_pair_reference_psnr": 6.77279928146358,
+        "mse_rgb01": 0.0007845470952052694
+      },
+      {
+        "task_id": 8,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\8\\imprint\\candidate.png",
+        "candidate_sha256": "110731c7abba34c5ff877b02c306996d5181ebb4d959bb8c7769fd19b3101aba",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\8\\cover.png",
+        "cover_sha256": "89e2db462c78297cdb70c7fb568a0df9fccd8c226d46317bcdffaed15f49baf4",
+        "correct_psnr_to_cover": 28.01301292842179,
+        "old_buggy_psnr_to_cover": 32.04816284886287,
+        "wrong_pair_reference_psnr": 6.955370153030035,
+        "mse_rgb01": 0.0015801514250703853
+      },
+      {
+        "task_id": 9,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\9\\imprint\\candidate.png",
+        "candidate_sha256": "52d389cdb7f5ff18b85cf4f1033d694c1ed9b7bb8ad96aa68244a9defcd225bd",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\9\\cover.png",
+        "cover_sha256": "438ba376d27319ac4224d1a4a252fc48a5b44c7df2aa637619ab327edd23213e",
+        "correct_psnr_to_cover": 32.133661914585176,
+        "old_buggy_psnr_to_cover": 34.70560924368389,
+        "wrong_pair_reference_psnr": 5.928037530015427,
+        "mse_rgb01": 0.000611834283457434
+      },
+      {
+        "task_id": 10,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\10\\imprint\\candidate.png",
+        "candidate_sha256": "4361b426e421834b10b76fe5ca49591df191d9ea56e11dce228eabe299079475",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\10\\cover.png",
+        "cover_sha256": "f7eca8aee0e3a25c929f3c0794e3faf582bae5e66c20642d9d3b547fbabea479",
+        "correct_psnr_to_cover": 28.839735789969808,
+        "old_buggy_psnr_to_cover": 33.76023845358942,
+        "wrong_pair_reference_psnr": 6.690891051514614,
+        "mse_rgb01": 0.0013062503535549227
+      },
+      {
+        "task_id": 11,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\11\\imprint\\candidate.png",
+        "candidate_sha256": "8a7ace4df91e104d7e6e63b36aa3dd4cf3296ba0eebb50f65b8121e0eaaeb303",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\11\\cover.png",
+        "cover_sha256": "d409223beb6d5bf9ebd0b93c8e5bc1fae4fbb96f12b226e751d1479ba3524f61",
+        "correct_psnr_to_cover": 29.3899101893143,
+        "old_buggy_psnr_to_cover": 32.78316783445598,
+        "wrong_pair_reference_psnr": 7.527767658013956,
+        "mse_rgb01": 0.001150824187368089
+      },
+      {
+        "task_id": 12,
+        "method": "native_imprint_10_updates",
+        "candidate_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_outputs\\12\\imprint\\candidate.png",
+        "candidate_sha256": "6d969756621fc94c4b490939061217db9356ab5fe5d90f599a064daee8b3fd60",
+        "cover_path": "watermark2\\runs\\27_method_resume_20261019T173017Z\\attack_inputs\\12\\cover.png",
+        "cover_sha256": "353608b9b23bcc6602d1a45634e42d3d566a26378feff3dddd01c27e21452305",
+        "correct_psnr_to_cover": 30.855833137648574,
+        "old_buggy_psnr_to_cover": 33.93320848855255,
+        "wrong_pair_reference_psnr": 8.627044753864585,
+        "mse_rgb01": 0.0008211390128521279
+      }
+    ],
+    "mean_per_image_db": 28.47439582646837,
+    "psnr_from_aggregate_mse": 27.93782227104358,
+    "mean_buggy_db": 32.27328645582975,
+    "paper_native150_reproduced": false
+  },
+  "implementation_note": "Old function executed by AST extraction; corrected values independent float64 reference formula, not a TorchMetrics execution.",
+  "model_weights_loaded": false,
+  "new_model_experiments": 0
+}

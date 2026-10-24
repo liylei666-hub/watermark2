@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-24T18:06:15.437137+00:00",
+  "as_of_utc": "2026-10-24T18:35:46.096685+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -122,7 +122,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Review the fixed crossed-reference/cover diagnostic proposal; complete passive telemetry noninterference checks and role runtime freeze only after scientific review. Stages28/29 remain closed; no model launch yet.",
+  "next_action": "Prepare faithful corrected native-Imprint full150-update small correctness calibration using existing natural COCO samples. Review exact settings/assets/metrics with parent before launching; independent100-pair reproduction follows only after calibration and asset verification. Stage30 remains held.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -281,7 +281,7 @@
     ],
     "outbound_messages_sent": 0
   },
-  "latest_static_audit": "reports/cross_generator_contract.json",
+  "latest_static_audit": "reports/psnr_reproducibility/report.md",
   "geometry_theoretical_rejection_region": {
     "source": "ICML 2026 final paper, appendix B.3 / Theorem 4.10",
     "rule": "SAD > tau_s AND LGI > tau_l",
@@ -959,7 +959,7 @@
   },
   "pending_design": {
     "stage": "30_crossed_reference_cover",
-    "status": "proposal_frozen_for_scientific_review_not_launch_runtime",
+    "status": "held_corrected_native_baseline_reproduction_priority",
     "protocol": "protocols/30_crossed_proposal.json",
     "report": "reports/30_crossed_proposal/proposal.md",
     "models_launched": 0,
