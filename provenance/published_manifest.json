@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 6355,
-      "sha256": "bd2d21fbe31ef22e0a029df55a74d2eddd50c1fe665af921598b8d63ba8bda86"
+      "bytes": 7385,
+      "sha256": "a72117b29f498a3b9fdf056f1529439f1ddd34a52032ea3475ece4331b0dd5dd"
     },
     {
       "path": "README.md",
@@ -298,8 +298,8 @@
     },
     {
       "path": "docs/COVER_BASELINE_CONTRACT.md",
-      "bytes": 11597,
-      "sha256": "ff92069935fcd06a36b62423fac0447493425293e4b834f4e0fa1ef042d1a4dc"
+      "bytes": 11652,
+      "sha256": "08026bfbd67ca9ad69d236c281c1b63bcc613f1e2930dd7752c357fa0ea86e6b"
     },
     {
       "path": "docs/CROSS_GENERATOR_CONTRACT.md",
@@ -368,8 +368,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 3720,
-      "sha256": "1c4c971987b4f689cb6d5de38103e44979bd4e9230ed623cb0a6fd58cef617b4"
+      "bytes": 4753,
+      "sha256": "d6248fec364fa989ae24d5c3d8be6f298247d2eceaae88b36ea11fd5b5baf164"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -403,8 +403,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 48718,
-      "sha256": "dce873d819d8312b067015eba36c08b88bb7d1c20c7daa4211000fb621860a59"
+      "bytes": 48883,
+      "sha256": "6cbf86e5df16be70fe9df1f7143df2aa25e4b5778a9941241b413c3e318c74cd"
     },
     {
       "path": "prompts/README.md",
@@ -1000,6 +1000,16 @@
       "path": "protocols/30_crossed_proposal.sha256",
       "bytes": 65,
       "sha256": "2e2796ba289cc4c9b748f5f9d7ef6aa84fd1efcfd2d7a7277fd16f8fa2dd178b"
+    },
+    {
+      "path": "protocols/31_native_calibration_execution.json",
+      "bytes": 10301,
+      "sha256": "7cc5f67987fa8553bb6c2c87dc18814bd944d8a043c27644d13f3e0675dcef14"
+    },
+    {
+      "path": "protocols/31_native_calibration_execution.sha256",
+      "bytes": 65,
+      "sha256": "90f7af82a0db7add7ddd69f3731b1bb93710fd71c65bc1e5b00aefbf89e767e9"
     },
     {
       "path": "protocols/31_native_calibration_proposal.json",
@@ -2505,6 +2515,11 @@
       "path": "reports/psnr_reproducibility/native_cpu_checks.json",
       "bytes": 494,
       "sha256": "51f0fe768adbbc1f2f1add248aba4ba6802408eb4383b0eafbaa548c2c8a4a77"
+    },
+    {
+      "path": "reports/psnr_reproducibility/native_execution_cpu_checks.json",
+      "bytes": 459,
+      "sha256": "6c91c150b53e85fb03a7a28b2e68e7fbee007ab5a4e350f4fb1b744f40105344"
     },
     {
       "path": "reports/psnr_reproducibility/report.md",
@@ -21517,6 +21532,51 @@
       "sha256": "94b2de8c03c2d9180b0209088006b60854ea1b7f674fc4051055eeee040c91f4"
     },
     {
+      "path": "scripts/native_calibration/analyze31.py",
+      "bytes": 2582,
+      "sha256": "9df85e84e3013cd8ccde70b54301fcdba45e952a4a22a33ab57d9dbebc7f81b4"
+    },
+    {
+      "path": "scripts/native_calibration/attack31.py",
+      "bytes": 5740,
+      "sha256": "7e7248a0b2ff71d21d86e6ada6f13f71a122e5e8cb9c498e0509b13afc76e5dd"
+    },
+    {
+      "path": "scripts/native_calibration/common31.py",
+      "bytes": 3131,
+      "sha256": "7cea44efa8d9ecb3c824ccdee7709b485e9b43ee539a9ebaa70f0b1e9d961217"
+    },
+    {
+      "path": "scripts/native_calibration/control31.py",
+      "bytes": 6210,
+      "sha256": "c8047cea63520cdcd3b29f803497b9a809e31bccdd7cda6fc795604501c67e6f"
+    },
+    {
+      "path": "scripts/native_calibration/evaluate31.py",
+      "bytes": 3264,
+      "sha256": "12a3cc983c552cee7a4a9bc0ea73fd5024fb95568dbd8a6b723581189948bdc9"
+    },
+    {
+      "path": "scripts/native_calibration/freeze31.py",
+      "bytes": 2929,
+      "sha256": "55c831c8021ca168562b836e5474303b7f21382d12ab1ffc3abf4ff013142e6d"
+    },
+    {
+      "path": "scripts/native_calibration/prepare31.py",
+      "bytes": 2624,
+      "sha256": "215884cfbe382253f6382dfe9f942d6336f8ba48265056395142b32df9967ad5"
+    },
+    {
+      "path": "scripts/native_calibration/start31.py",
+      "bytes": 1001,
+      "sha256": "d55fc234fe60d006f74d6081076ea88b67c21213df502ba7f96dd04520171eab"
+    },
+    {
+      "path": "scripts/native_calibration/test_execution_cpu.py",
+      "bytes": 5971,
+      "sha256": "77fd88ed84e9ba2b574a7a95354666a4144e5a4eb4e875b9aefd014fdb8c2229"
+    },
+    {
       "path": "scripts/native_calibration/test_native_cpu.py",
       "bytes": 6152,
       "sha256": "5a0daf371f80b3adcd37004c18ef94ebb4719faa5b1e4d42236b9eb8d644ceed"
@@ -21982,14 +22042,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 344535248,
+  "total_bytes": 344581808,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-24T18:47:36.409436+00:00",
+  "updated_at_utc": "2026-10-24T19:02:22.731629+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
   "previous_publication_commit": "a4a15be725f45f19eb65901d15a14bfdb12cf4eb"
 }

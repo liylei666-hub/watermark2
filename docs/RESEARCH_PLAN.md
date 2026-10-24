@@ -25,4 +25,11 @@
 当前科学hold：阶段30模型启动暂停，输入生成与攻击均为0。先解决[PSNR版本与原生基线校准审查](../reports/psnr_reproducibility/report.md)。官方旧uint8 PSNR bug已在2025-05-30修复；本项目当前版本含修复。现有10更新与受约束pixel变体不能代替原生150步整表复现。
 
 
-原生校准准入更新：4对自然COCO、150次实际Adam更新的[固定提案](../protocols/31_native_calibration_proposal.json)已准备，CPU4项通过；发现官方参考RGB01与项目PIL[-1,1]路径不等价，须先审阅明确复现对象。模型仍0次启动，阶段30继续hold。
+
+## 当前原生校准执行（2026-10-24 UTC）
+
+已完成科学审查，准备启动[固定执行修订1](../protocols/31_native_calibration_execution.json)：4对固定COCO载体，官方RGB01参考输入、载体[-1,1]、Adam0.01、无mask，原始官方更新代码执行151次。实际20/50/100/150/151各保存一次；151为官方CLI Step150主端点，150为论文文字端点，不择优。20张候选全部封存后统一评估28张图。8项CPU检查通过，真实GPU轨迹等价尚未验证。LPIPS缺权重，保留unknown。阶段30仍hold；本轮只校准SDXL/GS，不是100对完整复现。当前模型尚未启动；后续以run状态为准。
+
+## 当前原生校准执行（2026-10-24 UTC）
+
+已完成科学审查，准备启动[固定执行修订1](../protocols/31_native_calibration_execution.json)：4对固定COCO载体，官方RGB01参考输入、载体[-1,1]、Adam0.01、无mask，原始官方更新代码执行151次。实际20/50/100/150/151各保存一次；151为官方CLI Step150主端点，150为论文文字端点，不择优。20张候选全部封存后统一评估28张图。8项CPU检查通过，真实GPU轨迹等价尚未验证。LPIPS缺权重，保留unknown。阶段30仍hold；本轮只校准SDXL/GS，不是100对完整复现。当前模型尚未启动；后续以run状态为准。

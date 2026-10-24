@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-24T19:02:22.731629+00:00",
+  "host": "172.18.185.249",
+  "cuda_visible_devices": "",
+  "execution_tests": {
+    "passed": 4,
+    "seconds": 5.782
+  },
+  "native_tests": {
+    "passed": 4,
+    "seconds": 0.214
+  },
+  "scope": "CPU fixtures and mocked orchestration, not real-weight GPU trajectory equivalence",
+  "correction": "Native multi-checkpoint phase avoids generic candidate.png postprocessing",
+  "models_launched": 0
+}
