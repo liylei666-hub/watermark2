@@ -1,0 +1,26 @@
+{
+  "pid": 8826,
+  "command": [
+    "/data0/liyanlei/watermark_research/envs/semantic_forgery_py310/bin/python",
+    "/data0/liyanlei/watermark_research/scripts/quality_cost/prepare.py",
+    "/data0/liyanlei/watermark_research/protocols/29_quality_evaluator_runtime.json",
+    "reference",
+    "/data0/liyanlei/watermark_research/private_eval/29_quality_cost_20261020T000701Z",
+    "/data0/liyanlei/watermark_research/runs/29_quality_cost_20261020T000701Z/prepare_reference"
+  ],
+  "started_at_utc": "2026-10-20T00:08:42.087161+00:00",
+  "gpu_index": 0,
+  "gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
+  "environment": {
+    "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+    "CUDA_VISIBLE_DEVICES": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1",
+    "HF_HUB_DISABLE_IMPLICIT_TOKEN": "1",
+    "HF_HOME": "/data0/liyanlei/watermark_research/cache/huggingface",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "TOKENIZERS_PARALLELISM": "false",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "proc_start_ticks": "236927430"
+}

@@ -1,0 +1,22 @@
+{
+  "state": "completed",
+  "completed": [
+    "prepare_reference",
+    "prepare_cover",
+    "attack_1_native50",
+    "attack_1_short10",
+    "attack_1_staged10_50",
+    "attack_2_short10",
+    "attack_2_staged10_50",
+    "attack_2_native50",
+    "attack_3_staged10_50",
+    "attack_3_native50",
+    "attack_3_short10",
+    "attack_4_native50",
+    "attack_4_short10",
+    "attack_4_staged10_50",
+    "evaluate"
+  ],
+  "decision": "close_fixed_staged_candidate",
+  "finished_at_utc": "2026-10-19T23:17:17.980290+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "completed": true,
+  "rows": [
+    {
+      "inversion_steps": 50,
+      "timing": {
+        "model_load_seconds": 3.366424691863358,
+        "reference_and_cover_preparation_seconds": 4.164796533994377,
+        "optimization_seconds": 38.27542856615037,
+        "finalization_seconds": 0.12324697896838188,
+        "core_seconds": 42.563472079113126,
+        "updates": 1,
+        "quality": {
+          "squared_byte_error": 786411,
+          "squared_byte_allowance": 16171173,
+          "mse_rgb01": 1.537828984420055e-05,
+          "linf_levels": 1,
+          "feasible": true
+        },
+        "update_seconds": [
+          38.275121819227934
+        ],
+        "finalization_reserve_exceeded": false
+      }
+    },
+    {
+      "inversion_steps": 10,
+      "timing": {
+        "model_load_seconds": 3.366424691863358,
+        "reference_and_cover_preparation_seconds": 0.9207015540450811,
+        "optimization_seconds": 8.303584848996252,
+        "finalization_seconds": 0.11251758597791195,
+        "core_seconds": 9.336803989019245,
+        "updates": 1,
+        "quality": {
+          "squared_byte_error": 786375,
+          "squared_byte_allowance": 16171173,
+          "mse_rgb01": 1.5377585863159603e-05,
+          "linf_levels": 1,
+          "feasible": true
+        },
+        "update_seconds": [
+          8.303408286999911
+        ],
+        "finalization_reserve_exceeded": false
+      }
+    }
+  ],
+  "target_calls": 0,
+  "source": "deterministic procedural RGB patterns; not target-generated or benchmark tasks"
+}

@@ -1,0 +1,27 @@
+{
+  "started_at_utc": "2026-10-19T22:34:01.311400+00:00",
+  "outcome": {
+    "completed": true,
+    "exit_code": 0,
+    "stop_reason": null,
+    "process_wall_seconds": 391.75031407689676,
+    "artifacts": {
+      "candidate.png": "f5e3d077aeef898762da23f5821f571d78d0fe6dac224cf7d682e2051bb760be",
+      "candidate_frozen.json": "328a0d2bf3bb821ddf7af4c7f347015b552da3f896a48fd8733c72f672533347",
+      "claim.json": "94cacd7e210efded221959840cb909a1738aa306d182fac60b6729a3921b9818",
+      "device_preimport.json": "050aa4d48b9a997b22cbc13e965d9cfdcd3165c04af9c9edea33b6f59cd8b83a",
+      "final_latent.npy": "1b4c0717a0a1a5221d5bfcef88bf3c7550434e1c1eb73039fccd477b041364ab",
+      "optimization.json": "7e151bfae5ffc0bf285cf52e068336d005880b8b07e54d9542b84c3218d5a5e6",
+      "process.json": "543d34cf89ab63219b8f0ebe958b4e8cd88bdf28f8b3126c20b01f47c2809cc9",
+      "reference_proxy_noise_10.npy": "ed6e7937455559bcd9449d78be6bde64cd07cbf637f34b2f561d0022d6f623c7",
+      "reference_proxy_noise_50.npy": "934c7b4a59e87756551cee21933a69ca3a7e0c9587d47f7ceb13a98b327c9d14",
+      "stderr.log": "6965b4bf28ae2b50ffb3f0f1ab968738027becef702db342b51295d0c0719850",
+      "stdout.log": "d3e6e45f881233d8f9f2ebb603f1a295de1a7824a6a3c57aee55a117142e31c2",
+      "summary.json": "204f1ee931cedfd03675f9e92dffce341aaa9dc970c24ced288b7f104d6be6fa",
+      "supervisor_preflight.json": "628ddd15dad3b4102962621fa551b3181e7ca1daeafd54036e8317436f0e4425"
+    },
+    "candidate_sha256": "f5e3d077aeef898762da23f5821f571d78d0fe6dac224cf7d682e2051bb760be"
+  },
+  "gpu_index": 0,
+  "gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5"
+}

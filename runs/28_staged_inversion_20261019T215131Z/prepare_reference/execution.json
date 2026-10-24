@@ -1,0 +1,32 @@
+{
+  "started_at_utc": "2026-10-19T21:52:16.367346+00:00",
+  "outcome": {
+    "completed": true,
+    "exit_code": 0,
+    "stop_reason": null,
+    "process_wall_seconds": 63.966586558148265,
+    "artifacts": {
+      "1/original_noise.npy": "ebc067915f8a28e20e346c854f47097391d67ee1bb4e30e79dd854b69d4d9ad1",
+      "1/record.json": "69e145c1c601cf8e68050d4bcf5d83436031685d26d93d185f4f74320f53b373",
+      "1/reference.png": "c4d8d707a7b130f031294250f2753f3f22b041edfe081ab2c900b902569fed36",
+      "2/original_noise.npy": "ecedbb025653f461ecf9a7672683884dbf441616e1f0371790c33d2a059559b3",
+      "2/record.json": "5e19c7af34e7ae8dcc73c370bd3915ab00e5b7788c57b5fd945f219d0612e9b3",
+      "2/reference.png": "20b78c7b43b12105c373ae852c07f6746cbed9eb532180d22992c82a85acf490",
+      "3/original_noise.npy": "e1fdb8253cad7497e1a6da5e7afcd9e46e9d7805a15435613a776c2bd8bdae3e",
+      "3/record.json": "ca1bbed905c3aef49905fa1128861b2d0be7af799b9843f02784085f46738121",
+      "3/reference.png": "ca988443a8800f7a7cdcdfd34181f43acdca8eb80ce94cf8c38c1b6b517f6858",
+      "4/original_noise.npy": "a15c32ca929d678a530ff545bcdd81813eaf995139cfa8c62f2f8d53ba95851b",
+      "4/record.json": "d331485c9bcaf66453525becc4521216533ac1e73c72b3a48afdac65da797fc2",
+      "4/reference.png": "544679544efe86bddec30bb1fc131158fdf29334b32d0142f44f73330ec0115d",
+      "claim.json": "93da9e16610895b97822bb5b8346945daa4d20ba44ea6054dad03ce7813cdf35",
+      "device_preimport.json": "050aa4d48b9a997b22cbc13e965d9cfdcd3165c04af9c9edea33b6f59cd8b83a",
+      "process.json": "9a6dc48404a9aeb9ef1387f2bce747e2c5a4b65ac90d09e31acab93a88233dec",
+      "stderr.log": "c852e998214eb6c00099dc0c701f251bb2c2ed4ee5d441fd8cbb02c10d455826",
+      "stdout.log": "b139d13b8145352c3610346ef98302f2146817ebf9672eedc28a5409861500b0",
+      "summary.json": "afffe0e995b74144ce9b3d6768782ae30d1a12579ae156fb801f202d0010ae5a",
+      "supervisor_preflight.json": "5333bec98ab7d77431f9b6261d444e5ce649480f76ba0f6d1f63563aed4c6603"
+    }
+  },
+  "gpu_index": 0,
+  "gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5"
+}

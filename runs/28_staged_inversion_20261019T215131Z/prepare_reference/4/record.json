@@ -1,0 +1,28 @@
+{
+  "task_id": 4,
+  "role": "reference",
+  "prompt": "A photograph of a wooden spinning wheel beside a sunlit window, the entire wheel visible.",
+  "seed": 28104,
+  "image": {
+    "path": "reference.png",
+    "sha256": "544679544efe86bddec30bb1fc131158fdf29334b32d0142f44f73330ec0115d",
+    "bytes": 319788
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "a15c32ca929d678a530ff545bcdd81813eaf995139cfa8c62f2f8d53ba95851b",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "6ce9453d0722f800ffaaa41a86960ac0c47f13f3badfcc3bea064ea6a5da9b09",
+    "key": "de80c1a4d214ac3e9a075182503c9a4305bca62c66bcfb48ac12d673590983f8",
+    "nonce": "79b2e55ef404b87aef13bbbcb8692c8f59a339cb4e03aeac15938d48fdfbf179"
+  },
+  "generation_seconds": 10.166527638211846
+}

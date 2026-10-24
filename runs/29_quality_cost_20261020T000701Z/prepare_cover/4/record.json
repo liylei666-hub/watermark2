@@ -1,0 +1,24 @@
+{
+  "task_id": 4,
+  "role": "cover",
+  "prompt": "A detailed photograph of a metallic desk fan on a red table.",
+  "seed": 29204,
+  "image": {
+    "path": "cover.png",
+    "sha256": "4c1dd7e357c572fa69d8eb1fd151be1c03043013ccb5cb7e5fed8b5dfdb176c1",
+    "bytes": 473645
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "2ab9cb7f8f6ba69f3be29935437124967596dfd9aea6140ad30b10eaf898ea2b",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.0363311329856515
+}

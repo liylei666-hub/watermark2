@@ -1,0 +1,24 @@
+{
+  "task_id": 7,
+  "role": "cover",
+  "prompt": "A detailed photograph of a folded striped beach umbrella on sand.",
+  "seed": 29207,
+  "image": {
+    "path": "cover.png",
+    "sha256": "ebbdd69ebbfcc7d80c562e1722634a708fd171c6966a27c8462881102227e062",
+    "bytes": 505108
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "6ded550d597a3b954e4a468f9d888c9ffc4c2abef01b32d5fd3802c6196db660",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.051004433073103
+}

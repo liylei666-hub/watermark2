@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "task_id": 3,
+  "method": "short10",
+  "seed": 28303,
+  "proxy": {
+    "model_id": "Manojb/stable-diffusion-2-1-base",
+    "revision": "0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--Manojb--stable-diffusion-2-1-base/snapshots/0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "reference": {
+    "path": "reference.png",
+    "sha256": "ca988443a8800f7a7cdcdfd34181f43acdca8eb80ce94cf8c38c1b6b517f6858",
+    "bytes": 292906
+  },
+  "cover": {
+    "path": "cover.png",
+    "sha256": "34f8f12e6904259563329877d0757dc3f3e028fa9e02e09925c059dd4c45ea4a",
+    "bytes": 287179
+  },
+  "schedule": [
+    {
+      "inversion_steps": 10,
+      "updates": 50
+    }
+  ],
+  "learning_rate": 0.01
+}

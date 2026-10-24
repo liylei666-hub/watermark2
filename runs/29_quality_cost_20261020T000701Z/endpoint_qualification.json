@@ -1,0 +1,503 @@
+{
+  "qualified": true,
+  "problems": [],
+  "rows": [
+    {
+      "task_id": 1,
+      "arms": [
+        {
+          "task_id": 1,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 13,
+            "feasible": true
+          },
+          "core_seconds": 729.583945334889
+        },
+        {
+          "task_id": 1,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 15,
+            "feasible": true
+          },
+          "core_seconds": 742.3838478182442
+        }
+      ],
+      "time_ratio": 1.0175441120452287,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 2,
+      "arms": [
+        {
+          "task_id": 2,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 13,
+            "feasible": true
+          },
+          "core_seconds": 727.1345079778694
+        },
+        {
+          "task_id": 2,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 15,
+            "feasible": true
+          },
+          "core_seconds": 748.5152078950778
+        }
+      ],
+      "time_ratio": 1.0294040506709925,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 3,
+      "arms": [
+        {
+          "task_id": 3,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 12,
+            "feasible": true
+          },
+          "core_seconds": 727.1292542219162
+        },
+        {
+          "task_id": 3,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 15,
+            "feasible": true
+          },
+          "core_seconds": 749.7919405400753
+        }
+      ],
+      "time_ratio": 1.0311673422387742,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 4,
+      "arms": [
+        {
+          "task_id": 4,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 12,
+            "feasible": true
+          },
+          "core_seconds": 729.3992188656703
+        },
+        {
+          "task_id": 4,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 15,
+            "feasible": true
+          },
+          "core_seconds": 749.6115442137234
+        }
+      ],
+      "time_ratio": 1.0277109226679546,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 5,
+      "arms": [
+        {
+          "task_id": 5,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 14,
+            "feasible": true
+          },
+          "core_seconds": 729.6222878051922
+        },
+        {
+          "task_id": 5,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 16,
+            "feasible": true
+          },
+          "core_seconds": 743.9447403252125
+        }
+      ],
+      "time_ratio": 1.0196299547853784,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 6,
+      "arms": [
+        {
+          "task_id": 6,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 10,
+            "feasible": true
+          },
+          "core_seconds": 732.5602226760238
+        },
+        {
+          "task_id": 6,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 15,
+            "feasible": true
+          },
+          "core_seconds": 745.6797920810059
+        }
+      ],
+      "time_ratio": 1.0179092025459102,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 7,
+      "arms": [
+        {
+          "task_id": 7,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 11,
+            "feasible": true
+          },
+          "core_seconds": 732.2483048387803
+        },
+        {
+          "task_id": 7,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 15,
+            "feasible": true
+          },
+          "core_seconds": 746.0472406321205
+        }
+      ],
+      "time_ratio": 1.018844612820754,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 8,
+      "arms": [
+        {
+          "task_id": 8,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 12,
+            "feasible": true
+          },
+          "core_seconds": 732.8364562592469
+        },
+        {
+          "task_id": 8,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 15,
+            "feasible": true
+          },
+          "core_seconds": 745.5529307862744
+        }
+      ],
+      "time_ratio": 1.0173524043712816,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 9,
+      "arms": [
+        {
+          "task_id": 9,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 7,
+            "feasible": true
+          },
+          "core_seconds": 733.1398128378205
+        },
+        {
+          "task_id": 9,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 12,
+            "feasible": true
+          },
+          "core_seconds": 747.3385404790752
+        }
+      ],
+      "time_ratio": 1.0193670121205047,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 10,
+      "arms": [
+        {
+          "task_id": 10,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 12,
+            "feasible": true
+          },
+          "core_seconds": 736.4176578000188
+        },
+        {
+          "task_id": 10,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 15,
+            "feasible": true
+          },
+          "core_seconds": 749.4925165199675
+        }
+      ],
+      "time_ratio": 1.0177546784510962,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 11,
+      "arms": [
+        {
+          "task_id": 11,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 8,
+            "feasible": true
+          },
+          "core_seconds": 733.4360151761211
+        },
+        {
+          "task_id": 11,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 13,
+            "feasible": true
+          },
+          "core_seconds": 746.3644584850408
+        }
+      ],
+      "time_ratio": 1.0176272272446494,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 12,
+      "arms": [
+        {
+          "task_id": 12,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 9,
+            "feasible": true
+          },
+          "core_seconds": 733.1106848451309
+        },
+        {
+          "task_id": 12,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 14,
+            "feasible": true
+          },
+          "core_seconds": 745.0129536343738
+        }
+      ],
+      "time_ratio": 1.0162352957544976,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 13,
+      "arms": [
+        {
+          "task_id": 13,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 7,
+            "feasible": true
+          },
+          "core_seconds": 733.9613515022211
+        },
+        {
+          "task_id": 13,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 12,
+            "feasible": true
+          },
+          "core_seconds": 745.7986898631789
+        }
+      ],
+      "time_ratio": 1.0161280131940598,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 14,
+      "arms": [
+        {
+          "task_id": 14,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 10,
+            "feasible": true
+          },
+          "core_seconds": 731.9193820971996
+        },
+        {
+          "task_id": 14,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 15,
+            "feasible": true
+          },
+          "core_seconds": 744.8294951370917
+        }
+      ],
+      "time_ratio": 1.0176387090650616,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 15,
+      "arms": [
+        {
+          "task_id": 15,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 11,
+            "feasible": true
+          },
+          "core_seconds": 733.936578872148
+        },
+        {
+          "task_id": 15,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 15,
+            "feasible": true
+          },
+          "core_seconds": 745.9102949318476
+        }
+      ],
+      "time_ratio": 1.0163143742993432,
+      "mse_ratio": 1.0
+    },
+    {
+      "task_id": 16,
+      "arms": [
+        {
+          "task_id": 16,
+          "method": "pixel50",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 8,
+            "feasible": true
+          },
+          "core_seconds": 731.0381440916099
+        },
+        {
+          "task_id": 16,
+          "method": "pixel10",
+          "quality": {
+            "squared_byte_error": 16171173,
+            "squared_byte_allowance": 16171173,
+            "mse_rgb01": 0.0003162277556070682,
+            "linf_levels": 13,
+            "feasible": true
+          },
+          "core_seconds": 744.5085875950754
+        }
+      ],
+      "time_ratio": 1.0184264577879227,
+      "mse_ratio": 1.0
+    }
+  ],
+  "target_scores_used": false
+}

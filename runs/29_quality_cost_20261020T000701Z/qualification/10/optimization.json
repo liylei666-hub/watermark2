@@ -1,0 +1,16 @@
+{
+  "updates": [
+    {
+      "update": 1,
+      "loss_before_update": 0.9246652126312256,
+      "gradient_norm": 0.15591450035572052,
+      "seconds": 8.303408286999911,
+      "continuous_mse": 1.5356192307081074e-05
+    }
+  ],
+  "target_feedback": false,
+  "parameterization": "RGB01 pixels",
+  "continuous_objective": true,
+  "quantizer_differentiated": false,
+  "endpoint_selection": "last feasible update"
+}

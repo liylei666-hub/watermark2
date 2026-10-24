@@ -1,0 +1,24 @@
+{
+  "task_id": 6,
+  "role": "cover",
+  "prompt": "A detailed photograph of a turquoise watering can on a brick path.",
+  "seed": 29206,
+  "image": {
+    "path": "cover.png",
+    "sha256": "1554bbd66f14e9010d2a7faa1cb762f38637c43437d4c547e7e8d22de294b0d5",
+    "bytes": 519994
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "130caef49d31e7b6feddc72c710e6de45a4a69b2e041897a9b1920274d1540b2",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.050104178953916
+}

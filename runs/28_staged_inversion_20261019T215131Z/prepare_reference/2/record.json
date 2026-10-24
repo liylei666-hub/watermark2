@@ -1,0 +1,28 @@
+{
+  "task_id": 2,
+  "role": "reference",
+  "prompt": "A studio photograph of a green accordion standing upright on a pale gray floor, the complete instrument visible.",
+  "seed": 28102,
+  "image": {
+    "path": "reference.png",
+    "sha256": "20b78c7b43b12105c373ae852c07f6746cbed9eb532180d22992c82a85acf490",
+    "bytes": 353570
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "ecedbb025653f461ecf9a7672683884dbf441616e1f0371790c33d2a059559b3",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "d74691a930c9bc8f78344cda7d758fc13cde1eb32e1838689dc44082039a6399",
+    "key": "67db482e0599b852ae3d779e8c53d9cf330dc240bbc5ce8fd37a0640ba196987",
+    "nonce": "b0a15cdc59811c09a1637473848597427e0724813c98813035cf83e777b7d12d"
+  },
+  "generation_seconds": 10.128841588273644
+}

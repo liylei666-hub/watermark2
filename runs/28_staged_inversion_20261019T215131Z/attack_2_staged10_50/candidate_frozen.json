@@ -1,0 +1,10 @@
+{
+  "task_id": 2,
+  "method": "staged10_50",
+  "job_sha256": "0b5ddec75cdf9af7dcab4ade1b35d823d87c0be0b86085ad5a33c1aef7e7ab1b",
+  "image": {
+    "path": "candidate.png",
+    "sha256": "430103a799140b1fdde7c87f37afb9c266166c6baf9f52448145b75017f95c3d",
+    "bytes": 478137
+  }
+}

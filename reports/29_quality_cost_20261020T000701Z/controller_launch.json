@@ -1,0 +1,14 @@
+{
+  "pid": 8129,
+  "argv": [
+    "/data0/liyanlei/watermark_research/envs/semantic_forgery_py310/bin/python",
+    "/data0/liyanlei/watermark_research/scripts/quality_cost/control.py",
+    "--run",
+    "/data0/liyanlei/watermark_research/protocols/29_quality_controller_runtime.json"
+  ],
+  "started_at_utc": "2026-10-20T00:07:25.278502+00:00",
+  "run_dir": "runs/29_quality_cost_20261020T000701Z",
+  "runtime_sha256": "d05ff937ab0c2fb03b5017bc55beee229b8d26ca76bc207b4d77918fc45e50ff",
+  "source_commit": "4cbed8b7f097926dbcf7506906308323d6ede445",
+  "maximum_concurrent_gpu_children": 1
+}

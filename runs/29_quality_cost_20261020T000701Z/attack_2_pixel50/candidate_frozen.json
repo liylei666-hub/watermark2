@@ -1,0 +1,10 @@
+{
+  "task_id": 2,
+  "method": "pixel50",
+  "job_sha256": "9cfe6e273548b48c8ab8e9c05e7a0fe41f1f960110b40d0e6936c79c49268317",
+  "image": {
+    "path": "candidate.png",
+    "sha256": "fb5053bc9ddfa718789a91156a3763223e97f6eb920a57b0a3ed71e99b696eb3",
+    "bytes": 470612
+  }
+}

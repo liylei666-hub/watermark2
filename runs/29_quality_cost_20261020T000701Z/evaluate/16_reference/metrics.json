@@ -1,0 +1,23 @@
+{
+  "task_id": 16,
+  "kind": "reference",
+  "image": {
+    "path": "reference.png",
+    "sha256": "301bfa86e7538bc2d183ee493c2bf81ad3251ce51d4c3e405e454d6f88df5748",
+    "bytes": 426759
+  },
+  "inverse": {
+    "path": "target_inverse.npy",
+    "sha256": "974361579db0669eba88c982b542dde59cf4ba6de31962f092ea0c8c9ea52dc8",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "bit_accuracy": 1.0,
+  "gs_detected": true,
+  "inversion_seconds": 8.82954070204869
+}

@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "stage": "29_quality_cost",
+  "purpose": "Bottleneck discrimination, not a novel attack",
+  "methods": [
+    "pixel50",
+    "pixel10"
+  ],
+  "inversion_steps": {
+    "pixel50": 50,
+    "pixel10": 10
+  },
+  "policy": {
+    "mse_limit": 0.00031622776601683794,
+    "linf_levels": 16,
+    "minimum_mse_fraction": 0.95,
+    "core_budget_seconds": 760,
+    "minimum_budget_fraction": 0.9,
+    "finalization_reserve_seconds": 8,
+    "learning_rate": 0.00392156862745098,
+    "max_updates": 200
+  },
+  "decision_rule": {
+    "minimum_mean_accuracy_gain": 0.02,
+    "minimum_positive_pairs": 12,
+    "bootstrap_seed": 29029,
+    "bootstrap_resamples": 20000,
+    "ceiling_pair_count": 15
+  },
+  "tasks": [
+    {
+      "task_id": 1,
+      "prompt_group": 1,
+      "reference_seed": 29101,
+      "cover_seed": 29201,
+      "attack_seed": 29301,
+      "reference_prompt": "A detailed photograph of a blue ceramic teapot on a wooden shelf.",
+      "cover_prompt": "A detailed photograph of a yellow rain boot on a concrete step."
+    },
+    {
+      "task_id": 2,
+      "prompt_group": 2,
+      "reference_seed": 29102,
+      "cover_seed": 29202,
+      "attack_seed": 29302,
+      "reference_prompt": "A detailed photograph of a small bronze horse sculpture on a stone plinth.",
+      "cover_prompt": "A detailed photograph of a purple electric guitar against a white wall."
+    },
+    {
+      "task_id": 3,
+      "prompt_group": 3,
+      "reference_seed": 29103,
+      "cover_seed": 29203,
+      "attack_seed": 29303,
+      "reference_prompt": "A detailed photograph of a red toy fire engine on a gray floor.",
+      "cover_prompt": "A detailed photograph of a glass perfume bottle on a green cloth."
+    },
+    {
+      "task_id": 4,
+      "prompt_group": 4,
+      "reference_seed": 29104,
+      "cover_seed": 29204,
+      "attack_seed": 29304,
+      "reference_prompt": "A detailed photograph of a wicker picnic basket on a stone bench.",
+      "cover_prompt": "A detailed photograph of a metallic desk fan on a red table."
+    },
+    {
+      "task_id": 5,
+      "prompt_group": 5,
+      "reference_seed": 29105,
+      "cover_seed": 29205,
+      "attack_seed": 29305,
+      "reference_prompt": "A detailed photograph of a carved wooden owl on a cream pedestal.",
+      "cover_prompt": "A detailed photograph of a pair of orange boxing gloves on a blue mat."
+    },
+    {
+      "task_id": 6,
+      "prompt_group": 6,
+      "reference_seed": 29106,
+      "cover_seed": 29206,
+      "attack_seed": 29306,
+      "reference_prompt": "A detailed photograph of a white porcelain sailboat on a black display stand.",
+      "cover_prompt": "A detailed photograph of a turquoise watering can on a brick path."
+    },
+    {
+      "task_id": 7,
+      "prompt_group": 7,
+      "reference_seed": 29107,
+      "cover_seed": 29207,
+      "attack_seed": 29307,
+      "reference_prompt": "A detailed photograph of a silver coffee grinder on a marble counter.",
+      "cover_prompt": "A detailed photograph of a folded striped beach umbrella on sand."
+    },
+    {
+      "task_id": 8,
+      "prompt_group": 8,
+      "reference_seed": 29108,
+      "cover_seed": 29208,
+      "attack_seed": 29308,
+      "reference_prompt": "A detailed photograph of a black leather suitcase on a tiled floor.",
+      "cover_prompt": "A detailed photograph of a bowl of strawberries on a white table."
+    },
+    {
+      "task_id": 9,
+      "prompt_group": 9,
+      "reference_seed": 29109,
+      "cover_seed": 29209,
+      "attack_seed": 29309,
+      "reference_prompt": "A detailed photograph of a snowy mountain village with wooden houses and tall pine trees.",
+      "cover_prompt": "A detailed photograph of a crowded tropical fruit market with awnings and stacked crates."
+    },
+    {
+      "task_id": 10,
+      "prompt_group": 10,
+      "reference_seed": 29110,
+      "cover_seed": 29210,
+      "attack_seed": 29310,
+      "reference_prompt": "A detailed photograph of an old stone bridge spanning a river in an autumn forest.",
+      "cover_prompt": "A detailed photograph of a modern indoor swimming pool with blue lanes and glass walls."
+    },
+    {
+      "task_id": 11,
+      "prompt_group": 11,
+      "reference_seed": 29111,
+      "cover_seed": 29211,
+      "attack_seed": 29311,
+      "reference_prompt": "A detailed photograph of a fishing harbor at sunrise with boats and ropes.",
+      "cover_prompt": "A detailed photograph of a library reading room with tall bookshelves and green lamps."
+    },
+    {
+      "task_id": 12,
+      "prompt_group": 12,
+      "reference_seed": 29112,
+      "cover_seed": 29212,
+      "attack_seed": 29312,
+      "reference_prompt": "A detailed photograph of a field of sunflowers beneath a cloudy sky.",
+      "cover_prompt": "A detailed photograph of a busy railway station platform with benches and a red train."
+    },
+    {
+      "task_id": 13,
+      "prompt_group": 13,
+      "reference_seed": 29113,
+      "cover_seed": 29213,
+      "attack_seed": 29313,
+      "reference_prompt": "A detailed photograph of a desert canyon with layered orange cliffs.",
+      "cover_prompt": "A detailed photograph of a greenhouse filled with hanging plants and white flowers."
+    },
+    {
+      "task_id": 14,
+      "prompt_group": 14,
+      "reference_seed": 29114,
+      "cover_seed": 29214,
+      "attack_seed": 29314,
+      "reference_prompt": "A detailed photograph of a narrow medieval street lined with colorful doors.",
+      "cover_prompt": "A detailed photograph of a snowy ski slope with a chairlift and small skiers."
+    },
+    {
+      "task_id": 15,
+      "prompt_group": 15,
+      "reference_seed": 29115,
+      "cover_seed": 29215,
+      "attack_seed": 29315,
+      "reference_prompt": "A detailed photograph of a rocky coast with waves and a white lighthouse.",
+      "cover_prompt": "A detailed photograph of a rustic kitchen with copper pans and wooden cupboards."
+    },
+    {
+      "task_id": 16,
+      "prompt_group": 16,
+      "reference_seed": 29116,
+      "cover_seed": 29216,
+      "attack_seed": 29316,
+      "reference_prompt": "A detailed photograph of a tranquil Japanese garden with a pond and stone lanterns.",
+      "cover_prompt": "A detailed photograph of a large industrial workshop with pipes and yellow machinery."
+    }
+  ],
+  "task_selection": "All 16 predeclared content pairs; first 8 single-object and next 8 complex scenes; no score-based filtering or replacement",
+  "target": {
+    "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "proxy": {
+    "model_id": "Manojb/stable-diffusion-2-1-base",
+    "revision": "0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--Manojb--stable-diffusion-2-1-base/snapshots/0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "gs_threshold": 0.70703125,
+  "resource_policy": {
+    "initial_max_concurrent_gpu_processes": 1,
+    "selected_physical_gpu": 0,
+    "excluded_physical_gpu": 6,
+    "watchdog_seconds_each": 1200,
+    "new_model_downloads": false,
+    "max_new_bytes": 10737418240
+  },
+  "anticipated_worker_processes": 36,
+  "anticipated_candidates": 32,
+  "anticipated_target_inversions": 64,
+  "expected_wall_hours_one_idle_3090": [
+    7.5,
+    9
+  ],
+  "endpoint_qualification_before_target": true,
+  "information_boundary": "Attack inputs contain only two PNGs, proxy configuration, fixed policy and seed",
+  "independent_confirmation": false,
+  "novelty_established": false,
+  "formal_content_acceptance": null,
+  "full_defense_acceptance": null,
+  "budget_rationale": "760 seconds limits indivisible 50-step update slack; every actual pair must still qualify before target evaluation."
+}

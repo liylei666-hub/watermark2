@@ -1,0 +1,24 @@
+{
+  "task_id": 1,
+  "role": "cover",
+  "prompt": "A detailed photograph of a yellow rain boot on a concrete step.",
+  "seed": 29201,
+  "image": {
+    "path": "cover.png",
+    "sha256": "d06474a3e6ea2eb50f0bbc5b3d8981ffb2bd2f93c0d4c9b508988b2867d0dbb0",
+    "bytes": 416443
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "a62ab8fcb0d9ea1b52f75a7170ddf3d44a230c7a34ecad25854ee83c3ae0b2c9",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.392212628852576
+}

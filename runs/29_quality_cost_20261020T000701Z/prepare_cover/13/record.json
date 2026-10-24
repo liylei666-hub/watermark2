@@ -1,0 +1,24 @@
+{
+  "task_id": 13,
+  "role": "cover",
+  "prompt": "A detailed photograph of a greenhouse filled with hanging plants and white flowers.",
+  "seed": 29213,
+  "image": {
+    "path": "cover.png",
+    "sha256": "66e43ace9f7d325da40c854343fac470b07c776fd21c5a0bc673da99781ea88f",
+    "bytes": 569170
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "9d57b2cd57f4cb28afdce896330d3a01c498d8f7f3e2170cec0f0532f7024ef4",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.061532228719443
+}

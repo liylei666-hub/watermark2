@@ -1,0 +1,24 @@
+{
+  "task_id": 5,
+  "role": "cover",
+  "prompt": "A detailed photograph of a pair of orange boxing gloves on a blue mat.",
+  "seed": 29205,
+  "image": {
+    "path": "cover.png",
+    "sha256": "aaf2152ce5eefbe09f697f1bf60ce23990f364f377d812eaa23a2b9fde8c9ef5",
+    "bytes": 448268
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "2d904bc5a2c3a2321fa68d50e2d67dee9ed73ab22b49a0e25b1f789e9ea8c2a0",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.04125135531649
+}

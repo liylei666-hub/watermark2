@@ -1,0 +1,60 @@
+{
+  "completed": true,
+  "timing": {
+    "model_load_seconds": 3.638835108373314,
+    "reference_and_cover_preparation_seconds": 4.256948322057724,
+    "optimization_seconds": 728.289527325891,
+    "finalization_seconds": 0.28998061129823327,
+    "core_seconds": 732.8364562592469,
+    "updates": 19,
+    "quality": {
+      "squared_byte_error": 16171173,
+      "squared_byte_allowance": 16171173,
+      "mse_rgb01": 0.0003162277556070682,
+      "linf_levels": 12,
+      "feasible": true
+    },
+    "update_seconds": [
+      38.46274120733142,
+      38.45328105613589,
+      38.27519161300734,
+      38.28219968872145,
+      38.288656627293676,
+      38.259782765991986,
+      38.25545686297119,
+      38.25971832033247,
+      38.28808968607336,
+      38.44653102196753,
+      38.34313577180728,
+      38.30022399313748,
+      38.4134797709994,
+      38.311974856071174,
+      38.330753481946886,
+      38.35152465803549,
+      38.391969442833215,
+      38.290440143086016,
+      38.280147045850754
+    ],
+    "finalization_reserve_exceeded": false
+  },
+  "core_seconds": 732.8364562592469,
+  "candidate": {
+    "task_id": 8,
+    "method": "pixel50",
+    "job_sha256": "479f182cfb7f8843a1fc9f29658e5fc93647b44ed2e4e8fa1b5759a9807b9e8c",
+    "image": {
+      "path": "candidate.png",
+      "sha256": "c4720a290ad06458d7b33b155a86a6a65d87e8881a3a24a0eb4979acde2c8964",
+      "bytes": 497549
+    }
+  },
+  "target_scores_used": false,
+  "target_model_loaded": false,
+  "quality": {
+    "squared_byte_error": 16171173,
+    "squared_byte_allowance": 16171173,
+    "mse_rgb01": 0.0003162277556070682,
+    "linf_levels": 12,
+    "feasible": true
+  }
+}

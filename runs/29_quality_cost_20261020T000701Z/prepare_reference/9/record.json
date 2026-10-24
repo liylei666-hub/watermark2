@@ -1,0 +1,28 @@
+{
+  "task_id": 9,
+  "role": "reference",
+  "prompt": "A detailed photograph of a snowy mountain village with wooden houses and tall pine trees.",
+  "seed": 29109,
+  "image": {
+    "path": "reference.png",
+    "sha256": "453c8f018ac5978f3bbb1bbf6d0e0288b90512eebfefa60124b2610694f719b5",
+    "bytes": 445986
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "3de748d04c2169804fd3de34c0b5619465c79089d71505b888262c9a1b40106e",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "bdf88801aaa2ac32ee585225f7e35899278c7d881faf7cc8ea1069febf604e31",
+    "key": "c8ef6170514325ab7eb263eee9587ae77d35c9e90f1317101e8679607e37e3b9",
+    "nonce": "f7d891f5f52da770ca4eb78e52e41b62cd7d8cca84a259acf64ad736e126b998"
+  },
+  "generation_seconds": 10.244271263945848
+}

@@ -1,0 +1,24 @@
+{
+  "task_id": 14,
+  "role": "cover",
+  "prompt": "A detailed photograph of a snowy ski slope with a chairlift and small skiers.",
+  "seed": 29214,
+  "image": {
+    "path": "cover.png",
+    "sha256": "99163905ca97c1d721fefe37843db559f56e632337b7e060d86b13548a971a6a",
+    "bytes": 467522
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "5fe703d7353cf16fa4bfae3225020244f80ec17698d0023a1e1028c27d7b4771",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.069713743869215
+}

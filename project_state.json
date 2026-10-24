@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-18T06:38:40.944383+00:00",
+  "as_of_utc": "2026-10-24T18:06:15.437137+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -26,9 +26,12 @@
     "23",
     "24",
     "25",
-    "26"
+    "26",
+    "27",
+    "28",
+    "29"
   ],
-  "current_stage_status": "complete_method_comparison_running",
+  "current_stage_status": "stage28_29_closed_public_results_reconciled",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -56,13 +59,16 @@
     "23": 5,
     "24": 12,
     "25": 4,
-    "26": 0
+    "26": 0,
+    "27": 45,
+    "28": 15,
+    "29": 36
   },
   "historical_seed1_stage02_stage04_images_equal": true,
   "data_role": "development_pilot",
-  "latest_report": "reports/26_delivery_objectives/report.md",
-  "latest_status": "reports/26_delivery_objectives/status.json",
-  "latest_protocol": "protocols/26_delivery_objectives_cpu.json",
+  "latest_report": "reports/29_reconciliation/report.md",
+  "latest_status": "reports/29_reconciliation/public_recheck.json",
+  "latest_protocol": "protocols/29_quality_design.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -75,46 +81,48 @@
     "matched content/distortion and compute comparison",
     "official geometry scoring function numerical equivalence"
   ],
-  "as_of_local_date": "2026-10-18",
-  "as_of_timezone": "Asia/Shanghai",
+  "as_of_local_date": "2026-10-24",
+  "as_of_timezone": "UTC",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/26_delivery_objectives/cpu_checks.json",
+  "latest_completed_analysis": "reports/29_reconciliation/public_recheck.json",
   "experiments_paused": false,
   "experiment_resume_requires_user_instruction": false,
-  "current_round_gpu_seconds_used": 7375.2288702037185,
-  "current_round_model_processes_started": 63,
+  "current_round_gpu_seconds_used": 52157.23254724406,
+  "current_round_model_processes_started": 156,
   "allowed_gpu_physical_indices": [
     0,
     1,
-    2
-  ],
-  "excluded_gpu_physical_indices": [
+    2,
     3,
     4,
     5,
-    6,
     7
   ],
-  "selected_gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
+  "excluded_gpu_physical_indices": [
+    6
+  ],
+  "selected_gpu_uuid": null,
   "authorization": {
     "total_gpu_process_seconds": null,
     "max_process_seconds": null,
     "max_new_bytes": 10737418240,
     "new_model_downloads": false,
-    "serial": true,
+    "serial": false,
     "gpu_time_budget_removed_by_user_at_utc": "2026-10-17T06:13:57.675056+00:00",
     "amendment_user_text": "继续，之后不用考虑gpu用量时间",
     "exclusive_gpu_host": "liyanlei@172.18.185.249",
     "local_gpu_execution": false,
     "other_server_execution": false,
-    "host_scope_user_text": "以后只用249的空闲显卡"
+    "host_scope_user_text": "以后只用249的空闲显卡",
+    "max_concurrent_gpu_processes": 2,
+    "scope_source": "current user supplied transcript, supersedes historical device/concurrency scopes"
   },
   "research_feasibility": "conditional",
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Monitor the existing stage27 controller; do not launch a duplicate. Once all 36 candidates and 60 inversions complete, run independent CPU decoding, inspect all images, publish the complete paired result. Preserve failures; no unchanged retry.",
+  "next_action": "先基于已关闭结果形成一个有文献依据、可被否定的代理迁移机制假设，明确区别于更短反演、多做更新和已有Imprint；由父线程审阅具体科学问题后再冻结独立实验。当前没有新模型实验计划或活动run。",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -126,10 +134,10 @@
   "sembind_final_paper_reviewed": true,
   "sembind_end_to_end_adaptive_test_reported": true,
   "sembind_full_public_gs_s_verifier_available": false,
-  "selected_gpu_physical_index": 0,
-  "active_run": "runs/27_method_comparison_20261018T063355Z",
+  "selected_gpu_physical_index": null,
+  "active_run": null,
   "current_round_gpu_seconds_remaining": null,
-  "last_completed_run": "runs/23_reference_reliability_20261018T035244Z",
+  "last_completed_run": "runs/29_quality_cost_20261020T000701Z",
   "prompt_control_observation": {
     "paired_seeds": 3,
     "aggregates": {
@@ -193,7 +201,7 @@
       "bit_accuracy_same_minus_changed": 0.009114583333333334
     }
   },
-  "last_attempted_run": "runs/19_target_encoding_20261018T005251Z",
+  "last_attempted_run": "runs/29_quality_cost_20261020T000701Z",
   "autonomous_continuation_authorized": true,
   "target_roundtrip_observation": {
     "same_prompt": {
@@ -286,13 +294,9 @@
     "Actual score Lipschitz/normalization scaling sufficient for dimension-exponential tails"
   ],
   "remote_observation": {
-    "checked_at_utc": "2026-10-18T00:56:06.323803+00:00",
-    "host": "liyanlei@172.18.185.249",
+    "checked_at_utc": "2026-10-24T17:58:32.979271+00:00",
     "active_model_processes": [],
-    "compute_apps": "",
-    "execution_file_count": 32,
-    "gpu_process_seconds": 5428.92268636357,
-    "evidence": "reports/19_target_encoding/execution_recheck.json"
+    "evidence": "reports/29_reconciliation/server_snapshot.json"
   },
   "csi_audit": {
     "repository": "https://github.com/ZhengGao-30/CSI-Attack",
@@ -308,7 +312,7 @@
     "upstream_code_executed": false,
     "report": "docs/CSI_INFORMATION_CONTRACT.md"
   },
-  "automation_enabled": true,
+  "automation_enabled": false,
   "baseline_comparison_contract": {
     "path": "docs/BASELINE_COMPARISON_CONTRACT.md",
     "version": 1,
@@ -328,11 +332,9 @@
     "attribution_alarm_endpoints_separated": true
   },
   "latest_connection_attempt": {
-    "checked_at_utc": "2026-10-17T05:23:47.986479+00:00",
-    "host": "liyanlei@172.18.185.249",
-    "result": "connected_with_existing_server_specific_identity",
-    "user_model_processes_observed": 0,
-    "budget_reverified": true
+    "checked_at_utc": "2026-10-24T17:58:32.979271+00:00",
+    "result": "authenticated using existing user supplied identity",
+    "user_model_processes_observed": 0
   },
   "upstream_head_recheck": {
     "checked_at_utc": "2026-10-17T05:23:47.986479+00:00",
@@ -530,7 +532,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "Monitor the existing stage27 controller; do not launch a duplicate. Once all 36 candidates and 60 inversions complete, run independent CPU decoding, inspect all images, publish the complete paired result. Preserve failures; no unchanged retry.",
+  "next_step_proposal": "先基于已关闭结果形成一个有文献依据、可被否定的代理迁移机制假设，明确区别于更短反演、多做更新和已有Imprint；由父线程审阅具体科学问题后再冻结独立实验。当前没有新模型实验计划或活动run。",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -553,7 +555,7 @@
     "active_run": null,
     "next_step": "Freeze one 100-update original-state development timing and finiteness check with no target calls before independent-pair comparison design"
   },
-  "usage_note": "All 44 completed/failed stage07 onward model processes included and remotely hash-verified; final process status recorded in stage23 evidence.",
+  "usage_note": "Recorded GPU-worker process wall time includes setup/export; not GPU kernel time. Stage28/29 seals add 15/36 successful worker records to historical105.",
   "core_cost_calibration": {
     "status": "passed",
     "equal_files": [
@@ -623,7 +625,7 @@
     "protocol": "protocols/17_cover_pilot.json",
     "next_step": "Launch the frozen stage17 serial pilot after a fresh idle check; stop on any engineering failure."
   },
-  "last_updated_utc": "2026-10-18T00:32:28.850775+00:00",
+  "last_updated_utc": "2026-10-24T18:06:15.437137+00:00",
   "cover_pilot": {
     "stage": "17",
     "checked_at_utc": "2026-10-18T00:30:28.738802+00:00",
@@ -1222,23 +1224,35 @@
     "novelty_established": false
   },
   "stage27": {
-    "status": "running",
-    "run_dir": "runs/27_method_comparison_20261018T063355Z",
-    "controller_pid": 24430,
-    "source_commit": "563352db3abf7ed9cf5f240d5bf2e8f62b0e8572",
-    "runtime": "protocols/27_method_runtime_r2.json",
-    "planned_model_processes": 45,
-    "planned_candidates": 36,
-    "planned_target_inversions": 60,
-    "completed_model_processes": 2,
-    "active_processes": [
-      {
-        "path": "runs/27_method_comparison_20261018T063355Z/reference_2",
-        "pid": 25867,
-        "started_at_utc": "2026-10-18T06:37:55.298718+00:00"
-      }
-    ],
-    "postprocessor_pid": 26987,
-    "cpu_postprocessor": "scripts/method_comparison/finalize.py"
+    "status": "completed_fixed_delivery_closed",
+    "native_gs": 8,
+    "delivery_gs": 6,
+    "denominator": 12,
+    "jain_delivered": 11,
+    "jain_gs": 3,
+    "jain_planned": 12,
+    "failed_task2_preserved": true
+  },
+  "stage28": {
+    "status": "completed_fixed_candidate_closed",
+    "run_dir": "/data0/liyanlei/watermark_research/runs/28_staged_inversion_20261019T215131Z",
+    "source_commit_recorded": "d8dacc0757c7f6af5032520e5120e1242d390947",
+    "git_ancestry_verified": true,
+    "decision": "close_fixed_staged_candidate",
+    "work_process_records": 15,
+    "formal_human_labels": null,
+    "full_defense_acceptance": null,
+    "recorded_process_wall_seconds": 5003.480689750519
+  },
+  "stage29": {
+    "status": "completed_fixed_candidate_closed",
+    "run_dir": "/data0/liyanlei/watermark_research/runs/29_quality_cost_20261020T000701Z",
+    "source_commit_recorded": "4cbed8b7f097926dbcf7506906308323d6ede445",
+    "git_ancestry_verified": false,
+    "decision": "close_fixed_short_efficiency_claim",
+    "work_process_records": 36,
+    "formal_human_labels": null,
+    "full_defense_acceptance": null,
+    "recorded_process_wall_seconds": 25126.68590716971
   }
 }

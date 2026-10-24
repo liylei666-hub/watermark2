@@ -1,0 +1,23 @@
+{
+  "task_id": 10,
+  "kind": "cover",
+  "image": {
+    "path": "cover.png",
+    "sha256": "7a7eb49c529fe8af53f900756c33223678d0d514c212581b7126b40fdee74f4f",
+    "bytes": 413829
+  },
+  "inverse": {
+    "path": "target_inverse.npy",
+    "sha256": "7414b015d02e76769ba9208100671910ba062cb7f11c37a38d0f0227f5333645",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "bit_accuracy": 0.5234375,
+  "gs_detected": false,
+  "inversion_seconds": 9.739385170862079
+}

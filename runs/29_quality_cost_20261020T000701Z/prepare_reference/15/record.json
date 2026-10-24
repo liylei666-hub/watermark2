@@ -1,0 +1,28 @@
+{
+  "task_id": 15,
+  "role": "reference",
+  "prompt": "A detailed photograph of a rocky coast with waves and a white lighthouse.",
+  "seed": 29115,
+  "image": {
+    "path": "reference.png",
+    "sha256": "295724738c56bbb319ee5ba61b668232aa42e98e0ff3fb829ab3a65a45374a16",
+    "bytes": 408858
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "b6cabf244ef7cc11d2e29bfb7cea7fa71e1d526222031d0853ddf70f3b6d3f37",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "56b9524c35cb1e376b767fffc06539d057ba57256417051abc4c0bb5c469b0c7",
+    "key": "9224035fb2e922d73b7e4dc68d809a24c9882e09dcb4b00fca9873a313077592",
+    "nonce": "481d2f6d606d7f53dd943f834930e6727cd59b8bad475079db91afb4762e0d31"
+  },
+  "generation_seconds": 10.28102102316916
+}

@@ -1,0 +1,19 @@
+{
+  "cpu_regressions": {
+    "stage29": {
+      "passed": 15,
+      "elapsed_seconds": 90.944
+    },
+    "stage28": {
+      "passed": 9,
+      "elapsed_seconds": 11.782
+    }
+  },
+  "new_model_experiments": 0,
+  "concurrent_research_processes_observed": false,
+  "existing_ssh_sessions": true,
+  "private_decoder_rerun": false,
+  "source_bundle_sha256": "9f966e15914879dc85b3fd38dd197697235b740b08fdc4164ab1127b40402b1a",
+  "initial_bundle_design_preserved": "source_bundle_design.json",
+  "actual_runtime_design": "../../protocols/29_quality_design.json"
+}

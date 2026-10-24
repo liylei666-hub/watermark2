@@ -1,0 +1,24 @@
+{
+  "task_id": 9,
+  "role": "cover",
+  "prompt": "A detailed photograph of a crowded tropical fruit market with awnings and stacked crates.",
+  "seed": 29209,
+  "image": {
+    "path": "cover.png",
+    "sha256": "b6001564412d21f6bd6db3a0d1aa2006a07cdea05b61515054226abd531228b7",
+    "bytes": 524031
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "98078ee0ebf7310005f9865ab581d3d307ea3687c83c2b82cf5f3367ca5e5573",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.042247499804944
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": 5,
+  "role": "reference",
+  "prompt": "A detailed photograph of a carved wooden owl on a cream pedestal.",
+  "seed": 29105,
+  "image": {
+    "path": "reference.png",
+    "sha256": "14aa41c7e747c7bdbde79546852352b2eecae6974c2ca15ee0f994d22f01cf12",
+    "bytes": 339167
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "f0c728dff62c4f21b601f81698236d4dd48cace34b47a00c763aa2fb463d0ff7",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "3645746472043fd60dfdc170339454c0a51a5a89b023d521db747ac802cfed02",
+    "key": "d28ff4efb84f3c50d938abfcc2262016942ed410881befd68e282cf83be3b1ed",
+    "nonce": "b10ee584edbf48ff5cdd1187a2caa87120bf82b4e9454d0b0ba86fb7ea958d0a"
+  },
+  "generation_seconds": 10.220758717972785
+}

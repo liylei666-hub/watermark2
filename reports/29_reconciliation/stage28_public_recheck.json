@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "archive_sha256": "07925e57d56e6670d4d4f0696cad1bc0e2519e740d1e2f2d93727863ba736fd4",
+  "archive_files": 289,
+  "manifest_files_verified": 289,
+  "completed_executions_verified": 15,
+  "sealed_candidates_verified": 12,
+  "candidate_seal_precedes_evaluation": true,
+  "max_pixel_mse_abs_error": 0.0,
+  "public_reported_scores_only": true,
+  "private_decode_rerun": false,
+  "decision": "close_fixed_staged_candidate",
+  "summary": {
+    "native50": {
+      "delivered": 4,
+      "gs_passes": 4,
+      "mean_bit_accuracy": 0.765625,
+      "median_core_seconds": 376.58988495054655
+    },
+    "short10": {
+      "delivered": 4,
+      "gs_passes": 4,
+      "mean_bit_accuracy": 0.9306640625,
+      "median_core_seconds": 376.34674576227553
+    },
+    "staged10_50": {
+      "delivered": 4,
+      "gs_passes": 4,
+      "mean_bit_accuracy": 0.90625,
+      "median_core_seconds": 378.8835090154316
+    }
+  },
+  "median_staged_native_mse_ratio": 2.644049005389475,
+  "median_staged_native_time_ratio": 1.0059954962455349,
+  "mean_staged_short_ba_difference": -0.0244140625,
+  "models_loaded": false,
+  "new_model_experiments": 0
+}

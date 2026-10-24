@@ -1,0 +1,24 @@
+{
+  "task_id": 1,
+  "role": "cover",
+  "prompt": "A studio photograph of a black manual typewriter on a wooden desk, the complete keyboard visible.",
+  "seed": 28201,
+  "image": {
+    "path": "cover.png",
+    "sha256": "09c3b4a7d5a85057e4c5dc41bfff235ae9adaf51c01291bad5e3ee31346d5535",
+    "bytes": 450424
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "73fd655b87e12593babdca5a5e382f8532cbecdb1b4ef44a7da313ef60996da2",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.367276718374342
+}

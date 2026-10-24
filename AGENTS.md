@@ -87,3 +87,9 @@ One fixed-endpoint proxy process completed in 97.251185 seconds. All three refer
 ## Stage19 verified completion (2026-10-18)
 
 Twelve fixed images were encoded using the same official target provider. One process completed in15.559653 seconds;21 files and48 new/existing arrays verified. Localization differs by pair and metric; no single-component causal conclusion. Stage07 onward totals32 processes and5428.922686363570 seconds, with no active model process. Close further microprobes on these six outputs; next establish a distinct proxy-only mechanism and fair controls before an independent study. Target evaluation remains separate from candidate or parameter selection.
+
+## Current continuation authority (2026-10-24 UTC)
+
+仅在liyanlei@172.18.185.249:/data0/liyanlei/watermark_research执行模型；最多使用两张经逐子进程核对空闲的物理GPU，排除GPU6。每个独立单卡job在模型导入前按UUID绑定，内部cuda:0。CPU命令CUDA_VISIBLE_DEVICES为空；新增产物最多10GiB，不下载新模型，不干预其他用户进程。记录实际耗时与冻结协议watchdog；阶段09 seed103及阶段27 Jain任务2保持禁止重试。
+
+Stages28/29 are completed and their fixed hypotheses closed. Read reports/29_reconciliation/report.md before further work. No new model experiments in this reconciliation task. Current user instructions supersede historical device and concurrency scopes.

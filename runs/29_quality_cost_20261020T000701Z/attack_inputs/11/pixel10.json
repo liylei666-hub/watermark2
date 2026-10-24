@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "task_id": 11,
+  "method": "pixel10",
+  "seed": 29311,
+  "proxy": {
+    "model_id": "Manojb/stable-diffusion-2-1-base",
+    "revision": "0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--Manojb--stable-diffusion-2-1-base/snapshots/0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "reference": {
+    "path": "reference.png",
+    "sha256": "845d260d2fcaf2a0f933cfdd89b6d8306304751ca6ab88f35e0122a832432325",
+    "bytes": 382354
+  },
+  "cover": {
+    "path": "cover.png",
+    "sha256": "b43ac54b4a4758bf572e261e3512fa34d70d127d25085cd7ecc483e55478c43c",
+    "bytes": 512584
+  },
+  "inversion_steps": 10,
+  "policy": {
+    "mse_limit": 0.00031622776601683794,
+    "linf_levels": 16,
+    "minimum_mse_fraction": 0.95,
+    "core_budget_seconds": 760,
+    "minimum_budget_fraction": 0.9,
+    "finalization_reserve_seconds": 8,
+    "learning_rate": 0.00392156862745098,
+    "max_updates": 200
+  }
+}

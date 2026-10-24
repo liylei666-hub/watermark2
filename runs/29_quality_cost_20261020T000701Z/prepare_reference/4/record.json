@@ -1,0 +1,28 @@
+{
+  "task_id": 4,
+  "role": "reference",
+  "prompt": "A detailed photograph of a wicker picnic basket on a stone bench.",
+  "seed": 29104,
+  "image": {
+    "path": "reference.png",
+    "sha256": "8301111882aa5730a22175d97fe39baac3eac73e458dfbd899f5439f23512764",
+    "bytes": 440929
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "ff800ab4ee7ca9e83543eab367e7e27138df22e011633fb6dadedca4c8fc88d3",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "9d0af5a3b4681a065e899b8477b378e896a4478c422461b597edbcd94e020a68",
+    "key": "2e9c1b1c0b86f91866d1ca9bd502a0a6da449663ae15c687f7cf04e79af8f521",
+    "nonce": "0ed64a516f9a5a99b78cc5e4a112deea41e2fbed92b53ed751c7ad9381337b66"
+  },
+  "generation_seconds": 10.214515005238354
+}

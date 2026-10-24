@@ -1,0 +1,32 @@
+{
+  "started_at_utc": "2026-10-19T21:53:27.393151+00:00",
+  "outcome": {
+    "completed": true,
+    "exit_code": 0,
+    "stop_reason": null,
+    "process_wall_seconds": 38.750650133006275,
+    "artifacts": {
+      "1/cover.png": "09c3b4a7d5a85057e4c5dc41bfff235ae9adaf51c01291bad5e3ee31346d5535",
+      "1/original_noise.npy": "73fd655b87e12593babdca5a5e382f8532cbecdb1b4ef44a7da313ef60996da2",
+      "1/record.json": "7433657bb44c657d0f948b1c400b345973fb42eb34894efdc9313834ca5feb4c",
+      "2/cover.png": "4dd1c75930d55eb9e467d1bb655573e073f5d15f42af7b77efc0e6a472bd4d38",
+      "2/original_noise.npy": "7262d01574c67ae154a15d2475eaf3174380d24ee503fbef56b6f87081ae67a1",
+      "2/record.json": "5f22d6c0d66ce1406c2ad31f79e1834d3e5a992f00830e68d543f4992765ab55",
+      "3/cover.png": "34f8f12e6904259563329877d0757dc3f3e028fa9e02e09925c059dd4c45ea4a",
+      "3/original_noise.npy": "74e237e54fddb350bbb28da0cb93546aa64b90bb1598c6e41a55bbfe963526ad",
+      "3/record.json": "38d621f7129009dd15f4d19caf5c15522a3bb193c8028723ad554c84bb64a23f",
+      "4/cover.png": "d3f95be1e4c4ddce4c4a12fb12d83d6a49c2307afb030b33c25516707f76d3ac",
+      "4/original_noise.npy": "a352b2961b2a3f50b27ecf90d86c2af75f28fb825565a2ad108b5b549362c97a",
+      "4/record.json": "5986ff4bab549c06ef40462c669a30251e8f7bc7eb4419f5b35deec453d741e6",
+      "claim.json": "1faffb1af86e7e43ebdb99334c6441456316f8185753bff49b6824d3a5bfb3e5",
+      "device_preimport.json": "050aa4d48b9a997b22cbc13e965d9cfdcd3165c04af9c9edea33b6f59cd8b83a",
+      "process.json": "1d008e1246898a321cce3e656936cb2a184f83bc2ce3a4f97cf199b6e2f99d28",
+      "stderr.log": "a17540ec976e778d5bf4a21852803f4960542ba081d74a723b324dabb68272f0",
+      "stdout.log": "59d3a2fca7b4400b147e693c8e5025a5f53780b30eb77c25936a849de72e6a23",
+      "summary.json": "fa52a9dd4a2d1bb2bab2cb3578f309331b663f12986378acf54b9072746947c8",
+      "supervisor_preflight.json": "3e7ecbf4f49e03f54611d19a735b8b039958ed866ccb8fd4e63cddb4debdf2e2"
+    }
+  },
+  "gpu_index": 0,
+  "gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5"
+}

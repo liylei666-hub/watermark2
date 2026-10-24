@@ -1,0 +1,24 @@
+{
+  "task_id": 3,
+  "role": "cover",
+  "prompt": "A detailed photograph of a glass perfume bottle on a green cloth.",
+  "seed": 29203,
+  "image": {
+    "path": "cover.png",
+    "sha256": "5a07410a82b524eba04100ec8971e08c7b8d3ccfc0a3cdac11cb0eff3534ff7a",
+    "bytes": 417281
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "5fc71074e50cd063a0bd524916cccabac30c80a7d15ce0cf556e103fe2e9500f",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.0344448341056705
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": 2,
+  "kind": "staged10_50",
+  "image": {
+    "path": "candidate.png",
+    "sha256": "430103a799140b1fdde7c87f37afb9c266166c6baf9f52448145b75017f95c3d",
+    "bytes": 478137
+  },
+  "inverse": {
+    "path": "target_inverse.npy",
+    "sha256": "08df7edd8397e54b1a8df83ea1d66ed061f91381d41b76c022d4ca2262dfb295",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "bit_accuracy": 0.91015625,
+  "gs_detected": true,
+  "inversion_seconds": 9.252263617236167
+}

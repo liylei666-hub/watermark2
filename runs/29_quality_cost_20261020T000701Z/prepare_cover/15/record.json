@@ -1,0 +1,24 @@
+{
+  "task_id": 15,
+  "role": "cover",
+  "prompt": "A detailed photograph of a rustic kitchen with copper pans and wooden cupboards.",
+  "seed": 29215,
+  "image": {
+    "path": "cover.png",
+    "sha256": "2af75e260d74a17f73dcf3d8fdd032e17490b21d8e573d5d7fda5901ffd209b6",
+    "bytes": 444301
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "2fc8d26c3055bcac7734b05c98d17e6c5784709124152bab8df19a41d39a52b0",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.076664757914841
+}

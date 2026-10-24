@@ -1,0 +1,28 @@
+{
+  "task_id": 3,
+  "role": "reference",
+  "prompt": "A studio photograph of a white folded paper crane on a purple tabletop, plain background.",
+  "seed": 28103,
+  "image": {
+    "path": "reference.png",
+    "sha256": "ca988443a8800f7a7cdcdfd34181f43acdca8eb80ce94cf8c38c1b6b517f6858",
+    "bytes": 292906
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "e1fdb8253cad7497e1a6da5e7afcd9e46e9d7805a15435613a776c2bd8bdae3e",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "1ee8f8c33c0356065a6a8ae29f55bd181cb58b0dc5aaabfc3df05a9ac7755fc2",
+    "key": "e4e85879657904413231e0e0fb78f3419b9385ef222b58a91d3927d60ccf5b92",
+    "nonce": "e26a556e1ceb28ae7c3251ee8159771505fc12d43533862d2df2a016d7e1d9cb"
+  },
+  "generation_seconds": 10.11761626880616
+}

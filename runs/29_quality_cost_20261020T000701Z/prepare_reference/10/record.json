@@ -1,0 +1,28 @@
+{
+  "task_id": 10,
+  "role": "reference",
+  "prompt": "A detailed photograph of an old stone bridge spanning a river in an autumn forest.",
+  "seed": 29110,
+  "image": {
+    "path": "reference.png",
+    "sha256": "62910fa49d45b2cb08d0b8d8f2013438dc9e1d429b2dfab673a237fbb577c3dd",
+    "bytes": 444427
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "da3683514e4b17fa5e06966a661df7699d2cdbf6f765361d2e9da46af4d19911",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "18b1f2b3eb25bc1690245800d17ec668774ad7bb85cd59ce66636e5bf28dc10f",
+    "key": "8b71b4233e975494e874cddcfa8b17dff0d33e0b01166fb607a15d8c052a0271",
+    "nonce": "d24a1629b4ce0355d8ba31ff4ce88ae5544140df04f6846dfb4105e0c55063c9"
+  },
+  "generation_seconds": 10.252849660348147
+}

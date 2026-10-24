@@ -1,0 +1,28 @@
+{
+  "task_id": 1,
+  "role": "reference",
+  "prompt": "A detailed photograph of a blue ceramic teapot on a wooden shelf.",
+  "seed": 29101,
+  "image": {
+    "path": "reference.png",
+    "sha256": "30c4cd483058383cf96e42b4e3026c90c37920c9ccb758fd83de278ea020bbd5",
+    "bytes": 298886
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "5667504897787f7c708c6e3d812a94b76d27babc49cf8f8429147181f3b8be78",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "81d85eee95877bb01c34fdf7ce709512de10a99bd4c73ec61920c5f6de51409b",
+    "key": "dde0818f2e65b7c2b01156816ab1b0f42625659d5551d5ba8cf6ffeef14a79fc",
+    "nonce": "b137e044180abeb74ab6cc30cf3a988cadb7d690e2f6b5bfa8f3312dfa2beca0"
+  },
+  "generation_seconds": 10.522720094770193
+}

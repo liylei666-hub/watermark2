@@ -1,0 +1,28 @@
+{
+  "task_id": 1,
+  "role": "reference",
+  "prompt": "A studio photograph of a brass sextant resting on dark blue velvet, the complete instrument visible.",
+  "seed": 28101,
+  "image": {
+    "path": "reference.png",
+    "sha256": "c4d8d707a7b130f031294250f2753f3f22b041edfe081ab2c900b902569fed36",
+    "bytes": 390230
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "ebc067915f8a28e20e346c854f47097391d67ee1bb4e30e79dd854b69d4d9ad1",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "58683039f342d886311b45a6dde1d5b2d3ba1dcf49587ad3ff793a5a68fc94ce",
+    "key": "6ea6d3786121702b85d2a9ff8a1dd0fb67783b24c465001715d4c72802dd21ad",
+    "nonce": "225bdac1971623d0357708f4aef051f770a53d48b3edf24a76a7272eb7e1edd6"
+  },
+  "generation_seconds": 10.530564985238016
+}

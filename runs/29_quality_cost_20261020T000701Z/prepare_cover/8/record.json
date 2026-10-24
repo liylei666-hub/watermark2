@@ -1,0 +1,24 @@
+{
+  "task_id": 8,
+  "role": "cover",
+  "prompt": "A detailed photograph of a bowl of strawberries on a white table.",
+  "seed": 29208,
+  "image": {
+    "path": "cover.png",
+    "sha256": "d88ea43f1658b2a62fb50b0d05343138dd6b38febcb7e54b4343ed534580b13f",
+    "bytes": 430773
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "e2cd7c2894e7fcf51789caf75657dc6af06305e5f09a0e6800c4cdc86ea25e5d",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.055782586336136
+}

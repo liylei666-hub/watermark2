@@ -1,0 +1,24 @@
+{
+  "task_id": 2,
+  "role": "cover",
+  "prompt": "A photograph of a red kayak resting on a sandy lake shore, the complete kayak visible.",
+  "seed": 28202,
+  "image": {
+    "path": "cover.png",
+    "sha256": "4dd1c75930d55eb9e467d1bb655573e073f5d15f42af7b77efc0e6a472bd4d38",
+    "bytes": 483487
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "7262d01574c67ae154a15d2475eaf3174380d24ee503fbef56b6f87081ae67a1",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.014325523748994
+}

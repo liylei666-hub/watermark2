@@ -1,0 +1,461 @@
+{
+  "completed": true,
+  "rows": [
+    {
+      "task_id": 1,
+      "role": "reference",
+      "prompt": "A detailed photograph of a blue ceramic teapot on a wooden shelf.",
+      "seed": 29101,
+      "image": {
+        "path": "reference.png",
+        "sha256": "30c4cd483058383cf96e42b4e3026c90c37920c9ccb758fd83de278ea020bbd5",
+        "bytes": 298886
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "5667504897787f7c708c6e3d812a94b76d27babc49cf8f8429147181f3b8be78",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "81d85eee95877bb01c34fdf7ce709512de10a99bd4c73ec61920c5f6de51409b",
+        "key": "dde0818f2e65b7c2b01156816ab1b0f42625659d5551d5ba8cf6ffeef14a79fc",
+        "nonce": "b137e044180abeb74ab6cc30cf3a988cadb7d690e2f6b5bfa8f3312dfa2beca0"
+      },
+      "generation_seconds": 10.522720094770193
+    },
+    {
+      "task_id": 2,
+      "role": "reference",
+      "prompt": "A detailed photograph of a small bronze horse sculpture on a stone plinth.",
+      "seed": 29102,
+      "image": {
+        "path": "reference.png",
+        "sha256": "85eced3ef9d2fa11ea95d419d155c1ca9068950ed2b88491f29a55a2ee4d2a54",
+        "bytes": 416764
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "fb72312d42c8c548f4d339d6be39be2047fe9e3663875cb0afd3600241876752",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "1a8932b607991bdf8f761dae229da62a18d49e5efc777c8012de753bc87cd697",
+        "key": "8617a5583d4495f9690c94f08c669b3e553c0aab0d78adbdf08c5d8d7058d6c7",
+        "nonce": "0f84e9552587c9bdba8ef5c77b3d94069ac4cc0a94173f03b2c2221fb1323517"
+      },
+      "generation_seconds": 10.202420735731721
+    },
+    {
+      "task_id": 3,
+      "role": "reference",
+      "prompt": "A detailed photograph of a red toy fire engine on a gray floor.",
+      "seed": 29103,
+      "image": {
+        "path": "reference.png",
+        "sha256": "5c03d8d9f1f46813ccf8f2c33a435724009de0464b069013cc6a5d2173c155c2",
+        "bytes": 285849
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "86d9eb9c61928ed3d33a704337fb515f452883b30f0f17edfa70b825022cdd3e",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "85d304dea2f890985fa5b235fe8c20b341fc360abbcc637b6a5281f742cdef85",
+        "key": "fdb0f89d44bcf43963c4e15210cd85710568f095b2e2e7e6e29c9c5df0cd4656",
+        "nonce": "eaea7967838d8be74262a6604a45e9f30008c4b8f07215ab8253a7d699403b94"
+      },
+      "generation_seconds": 10.237163797020912
+    },
+    {
+      "task_id": 4,
+      "role": "reference",
+      "prompt": "A detailed photograph of a wicker picnic basket on a stone bench.",
+      "seed": 29104,
+      "image": {
+        "path": "reference.png",
+        "sha256": "8301111882aa5730a22175d97fe39baac3eac73e458dfbd899f5439f23512764",
+        "bytes": 440929
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "ff800ab4ee7ca9e83543eab367e7e27138df22e011633fb6dadedca4c8fc88d3",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "9d0af5a3b4681a065e899b8477b378e896a4478c422461b597edbcd94e020a68",
+        "key": "2e9c1b1c0b86f91866d1ca9bd502a0a6da449663ae15c687f7cf04e79af8f521",
+        "nonce": "0ed64a516f9a5a99b78cc5e4a112deea41e2fbed92b53ed751c7ad9381337b66"
+      },
+      "generation_seconds": 10.214515005238354
+    },
+    {
+      "task_id": 5,
+      "role": "reference",
+      "prompt": "A detailed photograph of a carved wooden owl on a cream pedestal.",
+      "seed": 29105,
+      "image": {
+        "path": "reference.png",
+        "sha256": "14aa41c7e747c7bdbde79546852352b2eecae6974c2ca15ee0f994d22f01cf12",
+        "bytes": 339167
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "f0c728dff62c4f21b601f81698236d4dd48cace34b47a00c763aa2fb463d0ff7",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "3645746472043fd60dfdc170339454c0a51a5a89b023d521db747ac802cfed02",
+        "key": "d28ff4efb84f3c50d938abfcc2262016942ed410881befd68e282cf83be3b1ed",
+        "nonce": "b10ee584edbf48ff5cdd1187a2caa87120bf82b4e9454d0b0ba86fb7ea958d0a"
+      },
+      "generation_seconds": 10.220758717972785
+    },
+    {
+      "task_id": 6,
+      "role": "reference",
+      "prompt": "A detailed photograph of a white porcelain sailboat on a black display stand.",
+      "seed": 29106,
+      "image": {
+        "path": "reference.png",
+        "sha256": "7bb22c37703501cc25d9a17fbf441c68bc40387b9736a05a6ea502764482f7ce",
+        "bytes": 334683
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "b352d8d9261f4640868b8066b6bc97b65f0e1a7a1bfc64ab5d924719c4328ffc",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "9b5225ab87c8ec091ba6a2176b739caa18864117801337890914b91dad1b1983",
+        "key": "d78d1227066321347a168f6ba1903a1a3c34ecc57eaf81f51af94f5207212f00",
+        "nonce": "b7633f980cfd16025e076190469618e75332f43fb8f8c70a586fb4f092576442"
+      },
+      "generation_seconds": 10.278243226930499
+    },
+    {
+      "task_id": 7,
+      "role": "reference",
+      "prompt": "A detailed photograph of a silver coffee grinder on a marble counter.",
+      "seed": 29107,
+      "image": {
+        "path": "reference.png",
+        "sha256": "b8afd067932bd5ea0ae6e944941c41d36578b13eead575c4bfdad21c0ab7002f",
+        "bytes": 324766
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "04701c024761e38aa281a7451d7f0c91ef8db242233b2c22e09c48bbbbd29591",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "7f2320cd437b841fe26510ddb1141d99f768fad4b7a1978f4cce0f5f198941a3",
+        "key": "4f9ba6fa9016e60df6d9c318c152e88d492399f354f6b39032fc9c5d14ede985",
+        "nonce": "5447260155315d034bf6d8133324e78ef3016be184548c2bd719b1fe3e191abb"
+      },
+      "generation_seconds": 10.245515531860292
+    },
+    {
+      "task_id": 8,
+      "role": "reference",
+      "prompt": "A detailed photograph of a black leather suitcase on a tiled floor.",
+      "seed": 29108,
+      "image": {
+        "path": "reference.png",
+        "sha256": "8971bea562606cf04a43bb7d18a5ae792c5dcc971644565653b3b5ca9648f78b",
+        "bytes": 318312
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "40f47ccd9120c21d4e919f390b0e3094ed4844e63de122552e4c5547682eb69b",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "30f704bdf72c92e5a23f2fb3e23f21fdf289f68b30faabc270eda6daedf3262c",
+        "key": "e489dbde145497fc4c5d5c1a393093f37dea480527bb7138907c8feeca121d8e",
+        "nonce": "96ef40e5800f88112396617c6432333df7f4c2823a701567a04ae62ca5abebd0"
+      },
+      "generation_seconds": 10.234042190946639
+    },
+    {
+      "task_id": 9,
+      "role": "reference",
+      "prompt": "A detailed photograph of a snowy mountain village with wooden houses and tall pine trees.",
+      "seed": 29109,
+      "image": {
+        "path": "reference.png",
+        "sha256": "453c8f018ac5978f3bbb1bbf6d0e0288b90512eebfefa60124b2610694f719b5",
+        "bytes": 445986
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "3de748d04c2169804fd3de34c0b5619465c79089d71505b888262c9a1b40106e",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "bdf88801aaa2ac32ee585225f7e35899278c7d881faf7cc8ea1069febf604e31",
+        "key": "c8ef6170514325ab7eb263eee9587ae77d35c9e90f1317101e8679607e37e3b9",
+        "nonce": "f7d891f5f52da770ca4eb78e52e41b62cd7d8cca84a259acf64ad736e126b998"
+      },
+      "generation_seconds": 10.244271263945848
+    },
+    {
+      "task_id": 10,
+      "role": "reference",
+      "prompt": "A detailed photograph of an old stone bridge spanning a river in an autumn forest.",
+      "seed": 29110,
+      "image": {
+        "path": "reference.png",
+        "sha256": "62910fa49d45b2cb08d0b8d8f2013438dc9e1d429b2dfab673a237fbb577c3dd",
+        "bytes": 444427
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "da3683514e4b17fa5e06966a661df7699d2cdbf6f765361d2e9da46af4d19911",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "18b1f2b3eb25bc1690245800d17ec668774ad7bb85cd59ce66636e5bf28dc10f",
+        "key": "8b71b4233e975494e874cddcfa8b17dff0d33e0b01166fb607a15d8c052a0271",
+        "nonce": "d24a1629b4ce0355d8ba31ff4ce88ae5544140df04f6846dfb4105e0c55063c9"
+      },
+      "generation_seconds": 10.252849660348147
+    },
+    {
+      "task_id": 11,
+      "role": "reference",
+      "prompt": "A detailed photograph of a fishing harbor at sunrise with boats and ropes.",
+      "seed": 29111,
+      "image": {
+        "path": "reference.png",
+        "sha256": "845d260d2fcaf2a0f933cfdd89b6d8306304751ca6ab88f35e0122a832432325",
+        "bytes": 382354
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "1552708265ae8680c830bb82755ec1fb0d2299bc9aa4a6f877f0f493830d4e11",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "42f95407879b8ab37f69b74e853556e5fb1f3b879b5f1b790f38c4dd925b6f0d",
+        "key": "127c1d5b7b403f9584f15126b51a845f04b5fd45b1db0f561e91297cc590e251",
+        "nonce": "2bc40a7325b07ca2d1f6bfcad922de0c208fcfc64daae5de3c32f6e00ce91739"
+      },
+      "generation_seconds": 10.264635383151472
+    },
+    {
+      "task_id": 12,
+      "role": "reference",
+      "prompt": "A detailed photograph of a field of sunflowers beneath a cloudy sky.",
+      "seed": 29112,
+      "image": {
+        "path": "reference.png",
+        "sha256": "577b2928767ad2ac14a60167086d249a6bbed73023c43600939c1db53425805c",
+        "bytes": 451883
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "dd6e8e35d8057c2d809c6e8d029d5f0a5f1eb8c1be4e0979a55cd144da6d6d21",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "d996964673c2f590ff4ba573d528e0fc7caa1bef1f373bdc6b1858b67be48d6d",
+        "key": "34f6cdd877a929cde40235fe85c2da86d5eb022650ebb187ef7ea9833ce30a9b",
+        "nonce": "2e1b43de397587237c38918d0d957374a463a1884da0186a47eebaa373d04a06"
+      },
+      "generation_seconds": 10.241224790923297
+    },
+    {
+      "task_id": 13,
+      "role": "reference",
+      "prompt": "A detailed photograph of a desert canyon with layered orange cliffs.",
+      "seed": 29113,
+      "image": {
+        "path": "reference.png",
+        "sha256": "cba066fdaad9ae4add0599d387c2c610fcc979dcd022ec97bc2ec9cf6f64ef82",
+        "bytes": 279025
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "de05b28f2070756e9086bce12ec6053700a259f71342495a6ecc3bdd9e37f666",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "d4f26e070bb4f9ea351a0b481a146c242d74059ac1483cbf3df4dd2548cadb08",
+        "key": "bd684755d2bf66937c438212edd5d8e9e50ac1d57ddd35f9d977f31121b81503",
+        "nonce": "132a404111f7da8e850fb149f6ad456bae9504ed5ea21d5da3ab301b7a36d530"
+      },
+      "generation_seconds": 10.300811488181353
+    },
+    {
+      "task_id": 14,
+      "role": "reference",
+      "prompt": "A detailed photograph of a narrow medieval street lined with colorful doors.",
+      "seed": 29114,
+      "image": {
+        "path": "reference.png",
+        "sha256": "99b90f327eb811168e7ae25b80bd46229787262e7c60513bad8f45ab0ca5b782",
+        "bytes": 449697
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "cc9f8f2fa6ae6f09ecd9108e5aa9c962e92a102fda2b80b1d98478f594951211",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "b957c48db5fb78650e483143dc4433b19096c0ba2ee41f392551172cf9b05f1c",
+        "key": "c13559f58af4a691215c5305efd4b9e8001275027be81cceeafeffd0712a061d",
+        "nonce": "612afcbb80d4507c2ba7cdc5c03bb1b0e4ce87a90cb0fb8ea5d4713383227c75"
+      },
+      "generation_seconds": 10.310184506699443
+    },
+    {
+      "task_id": 15,
+      "role": "reference",
+      "prompt": "A detailed photograph of a rocky coast with waves and a white lighthouse.",
+      "seed": 29115,
+      "image": {
+        "path": "reference.png",
+        "sha256": "295724738c56bbb319ee5ba61b668232aa42e98e0ff3fb829ab3a65a45374a16",
+        "bytes": 408858
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "b6cabf244ef7cc11d2e29bfb7cea7fa71e1d526222031d0853ddf70f3b6d3f37",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "56b9524c35cb1e376b767fffc06539d057ba57256417051abc4c0bb5c469b0c7",
+        "key": "9224035fb2e922d73b7e4dc68d809a24c9882e09dcb4b00fca9873a313077592",
+        "nonce": "481d2f6d606d7f53dd943f834930e6727cd59b8bad475079db91afb4762e0d31"
+      },
+      "generation_seconds": 10.28102102316916
+    },
+    {
+      "task_id": 16,
+      "role": "reference",
+      "prompt": "A detailed photograph of a tranquil Japanese garden with a pond and stone lanterns.",
+      "seed": 29116,
+      "image": {
+        "path": "reference.png",
+        "sha256": "301bfa86e7538bc2d183ee493c2bf81ad3251ce51d4c3e405e454d6f88df5748",
+        "bytes": 426759
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "03a4240341326a1282e733177e66448bb0f83a2fc1852f868937650e4f4d7df8",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "ccda6005b8e8788d6aeda4bbc73606cb3d9095ba6c17e71e5c50f0852e8ef9b0",
+        "key": "7286abd5313d2fd4b7128ed778178e02d722d80fcb7df6e108ad44081869b007",
+        "nonce": "c0cb8a4c17d498a78c43af7e60265c1151c96a17e46ac8e12030985b97905ae5"
+      },
+      "generation_seconds": 10.298413906712085
+    }
+  ],
+  "model": {
+    "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "model_load_seconds": 10.145460006780922
+}

@@ -1,0 +1,24 @@
+{
+  "task_id": 12,
+  "role": "cover",
+  "prompt": "A detailed photograph of a busy railway station platform with benches and a red train.",
+  "seed": 29212,
+  "image": {
+    "path": "cover.png",
+    "sha256": "b1a9bb9e62a25e6e52bafc25b276100ffb911ae775dc08664a48044c56e048c5",
+    "bytes": 482654
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "f1536f5715b367369edda9b6bfb4d5779db4ea3abd8305a75f25f6c8ddcd71c1",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.060406643897295
+}

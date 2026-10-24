@@ -1,0 +1,24 @@
+{
+  "task_id": 16,
+  "role": "cover",
+  "prompt": "A detailed photograph of a large industrial workshop with pipes and yellow machinery.",
+  "seed": 29216,
+  "image": {
+    "path": "cover.png",
+    "sha256": "a6dc8e2971caa5feb962013c446d5b5e56d3762e21b5f868d94098b10dc2d2e9",
+    "bytes": 485956
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "2dae73b1fcf58f4085107dab61f3876512e2664cf6c3e507eefae2a953b5ce3d",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.075487912166864
+}

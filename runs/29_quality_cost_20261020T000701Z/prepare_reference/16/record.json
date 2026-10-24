@@ -1,0 +1,28 @@
+{
+  "task_id": 16,
+  "role": "reference",
+  "prompt": "A detailed photograph of a tranquil Japanese garden with a pond and stone lanterns.",
+  "seed": 29116,
+  "image": {
+    "path": "reference.png",
+    "sha256": "301bfa86e7538bc2d183ee493c2bf81ad3251ce51d4c3e405e454d6f88df5748",
+    "bytes": 426759
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "03a4240341326a1282e733177e66448bb0f83a2fc1852f868937650e4f4d7df8",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "ccda6005b8e8788d6aeda4bbc73606cb3d9095ba6c17e71e5c50f0852e8ef9b0",
+    "key": "7286abd5313d2fd4b7128ed778178e02d722d80fcb7df6e108ad44081869b007",
+    "nonce": "c0cb8a4c17d498a78c43af7e60265c1151c96a17e46ac8e12030985b97905ae5"
+  },
+  "generation_seconds": 10.298413906712085
+}

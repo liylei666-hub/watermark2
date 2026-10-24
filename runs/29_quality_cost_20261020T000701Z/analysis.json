@@ -1,0 +1,635 @@
+{
+  "completed": true,
+  "rows": [
+    {
+      "task_id": 1,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 1,
+      "kind": "cover",
+      "bit_accuracy": 0.5,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 1,
+      "kind": "pixel50",
+      "bit_accuracy": 0.79296875,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706827,
+      "core_seconds": 729.583945334889
+    },
+    {
+      "task_id": 1,
+      "kind": "pixel10",
+      "bit_accuracy": 0.83984375,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0003162277556070683,
+      "core_seconds": 742.3838478182442
+    },
+    {
+      "task_id": 2,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 2,
+      "kind": "cover",
+      "bit_accuracy": 0.515625,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 2,
+      "kind": "pixel50",
+      "bit_accuracy": 0.84765625,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706816,
+      "core_seconds": 727.1345079778694
+    },
+    {
+      "task_id": 2,
+      "kind": "pixel10",
+      "bit_accuracy": 0.8984375,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706827,
+      "core_seconds": 748.5152078950778
+    },
+    {
+      "task_id": 3,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 3,
+      "kind": "cover",
+      "bit_accuracy": 0.4921875,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 3,
+      "kind": "pixel50",
+      "bit_accuracy": 0.8203125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706827,
+      "core_seconds": 727.1292542219162
+    },
+    {
+      "task_id": 3,
+      "kind": "pixel10",
+      "bit_accuracy": 0.81640625,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706816,
+      "core_seconds": 749.7919405400753
+    },
+    {
+      "task_id": 4,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 4,
+      "kind": "cover",
+      "bit_accuracy": 0.48046875,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 4,
+      "kind": "pixel50",
+      "bit_accuracy": 0.76953125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706827,
+      "core_seconds": 729.3992188656703
+    },
+    {
+      "task_id": 4,
+      "kind": "pixel10",
+      "bit_accuracy": 0.7890625,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706805,
+      "core_seconds": 749.6115442137234
+    },
+    {
+      "task_id": 5,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 5,
+      "kind": "cover",
+      "bit_accuracy": 0.48046875,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 5,
+      "kind": "pixel50",
+      "bit_accuracy": 0.84765625,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706827,
+      "core_seconds": 729.6222878051922
+    },
+    {
+      "task_id": 5,
+      "kind": "pixel10",
+      "bit_accuracy": 0.859375,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0003162277556070682,
+      "core_seconds": 743.9447403252125
+    },
+    {
+      "task_id": 6,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 6,
+      "kind": "cover",
+      "bit_accuracy": 0.51171875,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 6,
+      "kind": "pixel50",
+      "bit_accuracy": 0.6953125,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.0003162277556070682,
+      "core_seconds": 732.5602226760238
+    },
+    {
+      "task_id": 6,
+      "kind": "pixel10",
+      "bit_accuracy": 0.6953125,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.00031622775560706805,
+      "core_seconds": 745.6797920810059
+    },
+    {
+      "task_id": 7,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 7,
+      "kind": "cover",
+      "bit_accuracy": 0.54296875,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 7,
+      "kind": "pixel50",
+      "bit_accuracy": 0.74609375,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706827,
+      "core_seconds": 732.2483048387803
+    },
+    {
+      "task_id": 7,
+      "kind": "pixel10",
+      "bit_accuracy": 0.73046875,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706805,
+      "core_seconds": 746.0472406321205
+    },
+    {
+      "task_id": 8,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 8,
+      "kind": "cover",
+      "bit_accuracy": 0.50390625,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 8,
+      "kind": "pixel50",
+      "bit_accuracy": 0.74609375,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706827,
+      "core_seconds": 732.8364562592469
+    },
+    {
+      "task_id": 8,
+      "kind": "pixel10",
+      "bit_accuracy": 0.7578125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0003162277556070682,
+      "core_seconds": 745.5529307862744
+    },
+    {
+      "task_id": 9,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 9,
+      "kind": "cover",
+      "bit_accuracy": 0.4609375,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 9,
+      "kind": "pixel50",
+      "bit_accuracy": 0.59765625,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.00031622775560706816,
+      "core_seconds": 733.1398128378205
+    },
+    {
+      "task_id": 9,
+      "kind": "pixel10",
+      "bit_accuracy": 0.58203125,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.0003162277556070682,
+      "core_seconds": 747.3385404790752
+    },
+    {
+      "task_id": 10,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 10,
+      "kind": "cover",
+      "bit_accuracy": 0.5234375,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 10,
+      "kind": "pixel50",
+      "bit_accuracy": 0.76953125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706827,
+      "core_seconds": 736.4176578000188
+    },
+    {
+      "task_id": 10,
+      "kind": "pixel10",
+      "bit_accuracy": 0.80078125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0003162277556070682,
+      "core_seconds": 749.4925165199675
+    },
+    {
+      "task_id": 11,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 11,
+      "kind": "cover",
+      "bit_accuracy": 0.48828125,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 11,
+      "kind": "pixel50",
+      "bit_accuracy": 0.68359375,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.00031622775560706805,
+      "core_seconds": 733.4360151761211
+    },
+    {
+      "task_id": 11,
+      "kind": "pixel10",
+      "bit_accuracy": 0.66015625,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.00031622775560706805,
+      "core_seconds": 746.3644584850408
+    },
+    {
+      "task_id": 12,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 12,
+      "kind": "cover",
+      "bit_accuracy": 0.48828125,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 12,
+      "kind": "pixel50",
+      "bit_accuracy": 0.65625,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.00031622775560706816,
+      "core_seconds": 733.1106848451309
+    },
+    {
+      "task_id": 12,
+      "kind": "pixel10",
+      "bit_accuracy": 0.62890625,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.00031622775560706805,
+      "core_seconds": 745.0129536343738
+    },
+    {
+      "task_id": 13,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 13,
+      "kind": "cover",
+      "bit_accuracy": 0.50390625,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 13,
+      "kind": "pixel50",
+      "bit_accuracy": 0.5859375,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.0003162277556070681,
+      "core_seconds": 733.9613515022211
+    },
+    {
+      "task_id": 13,
+      "kind": "pixel10",
+      "bit_accuracy": 0.55078125,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.00031622775560706816,
+      "core_seconds": 745.7986898631789
+    },
+    {
+      "task_id": 14,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 14,
+      "kind": "cover",
+      "bit_accuracy": 0.46875,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 14,
+      "kind": "pixel50",
+      "bit_accuracy": 0.73828125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706816,
+      "core_seconds": 731.9193820971996
+    },
+    {
+      "task_id": 14,
+      "kind": "pixel10",
+      "bit_accuracy": 0.73828125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.00031622775560706827,
+      "core_seconds": 744.8294951370917
+    },
+    {
+      "task_id": 15,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 15,
+      "kind": "cover",
+      "bit_accuracy": 0.51953125,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 15,
+      "kind": "pixel50",
+      "bit_accuracy": 0.7578125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0003162277556070683,
+      "core_seconds": 733.936578872148
+    },
+    {
+      "task_id": 15,
+      "kind": "pixel10",
+      "bit_accuracy": 0.70703125,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.0003162277556070682,
+      "core_seconds": 745.9102949318476
+    },
+    {
+      "task_id": 16,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 16,
+      "kind": "cover",
+      "bit_accuracy": 0.50390625,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 16,
+      "kind": "pixel50",
+      "bit_accuracy": 0.65625,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.00031622775560706816,
+      "core_seconds": 731.0381440916099
+    },
+    {
+      "task_id": 16,
+      "kind": "pixel10",
+      "bit_accuracy": 0.6484375,
+      "gs_detected": false,
+      "cover_mse_rgb01": 0.00031622775560706816,
+      "core_seconds": 744.5085875950754
+    }
+  ],
+  "independent_cpu_decodes": 64,
+  "private_material_exported": false,
+  "gpu_used": false,
+  "models_loaded": false,
+  "decision": {
+    "decision": "close_fixed_short_efficiency_claim",
+    "gates": {
+      "mean_gain": false,
+      "interval_lower_positive": false,
+      "consistent_direction": false
+    },
+    "pairs": [
+      {
+        "task_id": 1,
+        "accuracy_difference": 0.046875,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 2,
+        "accuracy_difference": 0.05078125,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 3,
+        "accuracy_difference": -0.00390625,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 4,
+        "accuracy_difference": 0.01953125,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 5,
+        "accuracy_difference": 0.01171875,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 6,
+        "accuracy_difference": 0.0,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 7,
+        "accuracy_difference": -0.015625,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 8,
+        "accuracy_difference": 0.01171875,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 9,
+        "accuracy_difference": -0.015625,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 10,
+        "accuracy_difference": 0.03125,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 11,
+        "accuracy_difference": -0.0234375,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 12,
+        "accuracy_difference": -0.02734375,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 13,
+        "accuracy_difference": -0.03515625,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 14,
+        "accuracy_difference": 0.0,
+        "gs_pass_gain": 0
+      },
+      {
+        "task_id": 15,
+        "accuracy_difference": -0.05078125,
+        "gs_pass_gain": -1
+      },
+      {
+        "task_id": 16,
+        "accuracy_difference": -0.0078125,
+        "gs_pass_gain": 0
+      }
+    ],
+    "mean_accuracy_difference": -0.00048828125,
+    "descriptive_paired_bootstrap_95_interval": [
+      -0.013671875,
+      0.01318359375
+    ],
+    "positive_pairs": 6,
+    "continuous_ceiling_pairs": 0,
+    "summary": {
+      "pixel50": {
+        "delivered": 16,
+        "gs_passes": 10,
+        "mean_bit_accuracy": 0.73193359375
+      },
+      "pixel10": {
+        "delivered": 16,
+        "gs_passes": 9,
+        "mean_bit_accuracy": 0.7314453125
+      }
+    },
+    "inference_scope": "One quality/cost point, 16 independent prompt groups, development evidence only",
+    "original_imprint_reproduction": false,
+    "formal_content_acceptance": null,
+    "full_defense_acceptance": null,
+    "novelty_established": false
+  }
+}

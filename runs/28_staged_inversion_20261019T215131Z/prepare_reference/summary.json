@@ -1,0 +1,125 @@
+{
+  "completed": true,
+  "rows": [
+    {
+      "task_id": 1,
+      "role": "reference",
+      "prompt": "A studio photograph of a brass sextant resting on dark blue velvet, the complete instrument visible.",
+      "seed": 28101,
+      "image": {
+        "path": "reference.png",
+        "sha256": "c4d8d707a7b130f031294250f2753f3f22b041edfe081ab2c900b902569fed36",
+        "bytes": 390230
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "ebc067915f8a28e20e346c854f47097391d67ee1bb4e30e79dd854b69d4d9ad1",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "58683039f342d886311b45a6dde1d5b2d3ba1dcf49587ad3ff793a5a68fc94ce",
+        "key": "6ea6d3786121702b85d2a9ff8a1dd0fb67783b24c465001715d4c72802dd21ad",
+        "nonce": "225bdac1971623d0357708f4aef051f770a53d48b3edf24a76a7272eb7e1edd6"
+      },
+      "generation_seconds": 10.530564985238016
+    },
+    {
+      "task_id": 2,
+      "role": "reference",
+      "prompt": "A studio photograph of a green accordion standing upright on a pale gray floor, the complete instrument visible.",
+      "seed": 28102,
+      "image": {
+        "path": "reference.png",
+        "sha256": "20b78c7b43b12105c373ae852c07f6746cbed9eb532180d22992c82a85acf490",
+        "bytes": 353570
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "ecedbb025653f461ecf9a7672683884dbf441616e1f0371790c33d2a059559b3",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "d74691a930c9bc8f78344cda7d758fc13cde1eb32e1838689dc44082039a6399",
+        "key": "67db482e0599b852ae3d779e8c53d9cf330dc240bbc5ce8fd37a0640ba196987",
+        "nonce": "b0a15cdc59811c09a1637473848597427e0724813c98813035cf83e777b7d12d"
+      },
+      "generation_seconds": 10.128841588273644
+    },
+    {
+      "task_id": 3,
+      "role": "reference",
+      "prompt": "A studio photograph of a white folded paper crane on a purple tabletop, plain background.",
+      "seed": 28103,
+      "image": {
+        "path": "reference.png",
+        "sha256": "ca988443a8800f7a7cdcdfd34181f43acdca8eb80ce94cf8c38c1b6b517f6858",
+        "bytes": 292906
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "e1fdb8253cad7497e1a6da5e7afcd9e46e9d7805a15435613a776c2bd8bdae3e",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "1ee8f8c33c0356065a6a8ae29f55bd181cb58b0dc5aaabfc3df05a9ac7755fc2",
+        "key": "e4e85879657904413231e0e0fb78f3419b9385ef222b58a91d3927d60ccf5b92",
+        "nonce": "e26a556e1ceb28ae7c3251ee8159771505fc12d43533862d2df2a016d7e1d9cb"
+      },
+      "generation_seconds": 10.11761626880616
+    },
+    {
+      "task_id": 4,
+      "role": "reference",
+      "prompt": "A photograph of a wooden spinning wheel beside a sunlit window, the entire wheel visible.",
+      "seed": 28104,
+      "image": {
+        "path": "reference.png",
+        "sha256": "544679544efe86bddec30bb1fc131158fdf29334b32d0142f44f73330ec0115d",
+        "bytes": 319788
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "a15c32ca929d678a530ff545bcdd81813eaf995139cfa8c62f2f8d53ba95851b",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": {
+        "message": "6ce9453d0722f800ffaaa41a86960ac0c47f13f3badfcc3bea064ea6a5da9b09",
+        "key": "de80c1a4d214ac3e9a075182503c9a4305bca62c66bcfb48ac12d673590983f8",
+        "nonce": "79b2e55ef404b87aef13bbbcb8692c8f59a339cb4e03aeac15938d48fdfbf179"
+      },
+      "generation_seconds": 10.166527638211846
+    }
+  ],
+  "model": {
+    "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "model_load_seconds": 8.699623392429203
+}

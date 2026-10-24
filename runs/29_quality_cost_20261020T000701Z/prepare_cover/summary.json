@@ -1,0 +1,397 @@
+{
+  "completed": true,
+  "rows": [
+    {
+      "task_id": 1,
+      "role": "cover",
+      "prompt": "A detailed photograph of a yellow rain boot on a concrete step.",
+      "seed": 29201,
+      "image": {
+        "path": "cover.png",
+        "sha256": "d06474a3e6ea2eb50f0bbc5b3d8981ffb2bd2f93c0d4c9b508988b2867d0dbb0",
+        "bytes": 416443
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "a62ab8fcb0d9ea1b52f75a7170ddf3d44a230c7a34ecad25854ee83c3ae0b2c9",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.392212628852576
+    },
+    {
+      "task_id": 2,
+      "role": "cover",
+      "prompt": "A detailed photograph of a purple electric guitar against a white wall.",
+      "seed": 29202,
+      "image": {
+        "path": "cover.png",
+        "sha256": "2149f5b857e58a1604d269d1d73eb9438b1023eb0b646bd01908ccfe13e5826b",
+        "bytes": 386868
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "e33041dada706af83679beb6f72da183d5c26e2af191a27bfee353402fed79c2",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.024363876786083
+    },
+    {
+      "task_id": 3,
+      "role": "cover",
+      "prompt": "A detailed photograph of a glass perfume bottle on a green cloth.",
+      "seed": 29203,
+      "image": {
+        "path": "cover.png",
+        "sha256": "5a07410a82b524eba04100ec8971e08c7b8d3ccfc0a3cdac11cb0eff3534ff7a",
+        "bytes": 417281
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "5fc71074e50cd063a0bd524916cccabac30c80a7d15ce0cf556e103fe2e9500f",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.0344448341056705
+    },
+    {
+      "task_id": 4,
+      "role": "cover",
+      "prompt": "A detailed photograph of a metallic desk fan on a red table.",
+      "seed": 29204,
+      "image": {
+        "path": "cover.png",
+        "sha256": "4c1dd7e357c572fa69d8eb1fd151be1c03043013ccb5cb7e5fed8b5dfdb176c1",
+        "bytes": 473645
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "2ab9cb7f8f6ba69f3be29935437124967596dfd9aea6140ad30b10eaf898ea2b",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.0363311329856515
+    },
+    {
+      "task_id": 5,
+      "role": "cover",
+      "prompt": "A detailed photograph of a pair of orange boxing gloves on a blue mat.",
+      "seed": 29205,
+      "image": {
+        "path": "cover.png",
+        "sha256": "aaf2152ce5eefbe09f697f1bf60ce23990f364f377d812eaa23a2b9fde8c9ef5",
+        "bytes": 448268
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "2d904bc5a2c3a2321fa68d50e2d67dee9ed73ab22b49a0e25b1f789e9ea8c2a0",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.04125135531649
+    },
+    {
+      "task_id": 6,
+      "role": "cover",
+      "prompt": "A detailed photograph of a turquoise watering can on a brick path.",
+      "seed": 29206,
+      "image": {
+        "path": "cover.png",
+        "sha256": "1554bbd66f14e9010d2a7faa1cb762f38637c43437d4c547e7e8d22de294b0d5",
+        "bytes": 519994
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "130caef49d31e7b6feddc72c710e6de45a4a69b2e041897a9b1920274d1540b2",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.050104178953916
+    },
+    {
+      "task_id": 7,
+      "role": "cover",
+      "prompt": "A detailed photograph of a folded striped beach umbrella on sand.",
+      "seed": 29207,
+      "image": {
+        "path": "cover.png",
+        "sha256": "ebbdd69ebbfcc7d80c562e1722634a708fd171c6966a27c8462881102227e062",
+        "bytes": 505108
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "6ded550d597a3b954e4a468f9d888c9ffc4c2abef01b32d5fd3802c6196db660",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.051004433073103
+    },
+    {
+      "task_id": 8,
+      "role": "cover",
+      "prompt": "A detailed photograph of a bowl of strawberries on a white table.",
+      "seed": 29208,
+      "image": {
+        "path": "cover.png",
+        "sha256": "d88ea43f1658b2a62fb50b0d05343138dd6b38febcb7e54b4343ed534580b13f",
+        "bytes": 430773
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "e2cd7c2894e7fcf51789caf75657dc6af06305e5f09a0e6800c4cdc86ea25e5d",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.055782586336136
+    },
+    {
+      "task_id": 9,
+      "role": "cover",
+      "prompt": "A detailed photograph of a crowded tropical fruit market with awnings and stacked crates.",
+      "seed": 29209,
+      "image": {
+        "path": "cover.png",
+        "sha256": "b6001564412d21f6bd6db3a0d1aa2006a07cdea05b61515054226abd531228b7",
+        "bytes": 524031
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "98078ee0ebf7310005f9865ab581d3d307ea3687c83c2b82cf5f3367ca5e5573",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.042247499804944
+    },
+    {
+      "task_id": 10,
+      "role": "cover",
+      "prompt": "A detailed photograph of a modern indoor swimming pool with blue lanes and glass walls.",
+      "seed": 29210,
+      "image": {
+        "path": "cover.png",
+        "sha256": "7a7eb49c529fe8af53f900756c33223678d0d514c212581b7126b40fdee74f4f",
+        "bytes": 413829
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "fcf755d54311ed83647f091c5f179f9fefc889a38ed8e25bda260072ba18fee3",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.065149569883943
+    },
+    {
+      "task_id": 11,
+      "role": "cover",
+      "prompt": "A detailed photograph of a library reading room with tall bookshelves and green lamps.",
+      "seed": 29211,
+      "image": {
+        "path": "cover.png",
+        "sha256": "b43ac54b4a4758bf572e261e3512fa34d70d127d25085cd7ecc483e55478c43c",
+        "bytes": 512584
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "7dcfcf6246513cd0cde4b1f6af5e50b5257afbbb5de8761f032d43f6d981b2f2",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.073397922795266
+    },
+    {
+      "task_id": 12,
+      "role": "cover",
+      "prompt": "A detailed photograph of a busy railway station platform with benches and a red train.",
+      "seed": 29212,
+      "image": {
+        "path": "cover.png",
+        "sha256": "b1a9bb9e62a25e6e52bafc25b276100ffb911ae775dc08664a48044c56e048c5",
+        "bytes": 482654
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "f1536f5715b367369edda9b6bfb4d5779db4ea3abd8305a75f25f6c8ddcd71c1",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.060406643897295
+    },
+    {
+      "task_id": 13,
+      "role": "cover",
+      "prompt": "A detailed photograph of a greenhouse filled with hanging plants and white flowers.",
+      "seed": 29213,
+      "image": {
+        "path": "cover.png",
+        "sha256": "66e43ace9f7d325da40c854343fac470b07c776fd21c5a0bc673da99781ea88f",
+        "bytes": 569170
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "9d57b2cd57f4cb28afdce896330d3a01c498d8f7f3e2170cec0f0532f7024ef4",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.061532228719443
+    },
+    {
+      "task_id": 14,
+      "role": "cover",
+      "prompt": "A detailed photograph of a snowy ski slope with a chairlift and small skiers.",
+      "seed": 29214,
+      "image": {
+        "path": "cover.png",
+        "sha256": "99163905ca97c1d721fefe37843db559f56e632337b7e060d86b13548a971a6a",
+        "bytes": 467522
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "5fe703d7353cf16fa4bfae3225020244f80ec17698d0023a1e1028c27d7b4771",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.069713743869215
+    },
+    {
+      "task_id": 15,
+      "role": "cover",
+      "prompt": "A detailed photograph of a rustic kitchen with copper pans and wooden cupboards.",
+      "seed": 29215,
+      "image": {
+        "path": "cover.png",
+        "sha256": "2af75e260d74a17f73dcf3d8fdd032e17490b21d8e573d5d7fda5901ffd209b6",
+        "bytes": 444301
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "2fc8d26c3055bcac7734b05c98d17e6c5784709124152bab8df19a41d39a52b0",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.076664757914841
+    },
+    {
+      "task_id": 16,
+      "role": "cover",
+      "prompt": "A detailed photograph of a large industrial workshop with pipes and yellow machinery.",
+      "seed": 29216,
+      "image": {
+        "path": "cover.png",
+        "sha256": "a6dc8e2971caa5feb962013c446d5b5e56d3762e21b5f868d94098b10dc2d2e9",
+        "bytes": 485956
+      },
+      "original_noise": {
+        "path": "original_noise.npy",
+        "sha256": "2dae73b1fcf58f4085107dab61f3876512e2664cf6c3e507eefae2a953b5ce3d",
+        "shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      "encryption_fingerprints": null,
+      "generation_seconds": 6.075487912166864
+    }
+  ],
+  "model": {
+    "model_id": "Manojb/stable-diffusion-2-1-base",
+    "revision": "0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--Manojb--stable-diffusion-2-1-base/snapshots/0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "model_load_seconds": 5.834877295419574
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": 1,
+  "kind": "native50",
+  "image": {
+    "path": "candidate.png",
+    "sha256": "3d92f07e8e396cb1e3689fa1587fca73e935a7b3d5e9452a1d458f2b9e038f32",
+    "bytes": 454158
+  },
+  "inverse": {
+    "path": "target_inverse.npy",
+    "sha256": "0c795e8da33bedb2da9bf4c129bd592f13b5067e58a1b39003f0448a81585ec8",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "bit_accuracy": 0.7578125,
+  "gs_detected": true,
+  "inversion_seconds": 8.13996395515278
+}

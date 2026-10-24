@@ -1,0 +1,28 @@
+{
+  "task_id": 6,
+  "role": "reference",
+  "prompt": "A detailed photograph of a white porcelain sailboat on a black display stand.",
+  "seed": 29106,
+  "image": {
+    "path": "reference.png",
+    "sha256": "7bb22c37703501cc25d9a17fbf441c68bc40387b9736a05a6ea502764482f7ce",
+    "bytes": 334683
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "b352d8d9261f4640868b8066b6bc97b65f0e1a7a1bfc64ab5d924719c4328ffc",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "9b5225ab87c8ec091ba6a2176b739caa18864117801337890914b91dad1b1983",
+    "key": "d78d1227066321347a168f6ba1903a1a3c34ecc57eaf81f51af94f5207212f00",
+    "nonce": "b7633f980cfd16025e076190469618e75332f43fb8f8c70a586fb4f092576442"
+  },
+  "generation_seconds": 10.278243226930499
+}

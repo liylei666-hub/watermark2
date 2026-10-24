@@ -1,0 +1,10 @@
+{
+  "task_id": 2,
+  "method": "native50",
+  "job_sha256": "d30125d0acac581f9367063173b7bb820d0ac8008f100922f6ed91b4ebdf4c64",
+  "image": {
+    "path": "candidate.png",
+    "sha256": "30e66ac9f492ce998c3d62318d17ed21cfcc1985c0dac8bc5291de9adf83d2de",
+    "bytes": 472430
+  }
+}

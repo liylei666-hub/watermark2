@@ -1,0 +1,28 @@
+{
+  "task_id": 8,
+  "role": "reference",
+  "prompt": "A detailed photograph of a black leather suitcase on a tiled floor.",
+  "seed": 29108,
+  "image": {
+    "path": "reference.png",
+    "sha256": "8971bea562606cf04a43bb7d18a5ae792c5dcc971644565653b3b5ca9648f78b",
+    "bytes": 318312
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "40f47ccd9120c21d4e919f390b0e3094ed4844e63de122552e4c5547682eb69b",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "30f704bdf72c92e5a23f2fb3e23f21fdf289f68b30faabc270eda6daedf3262c",
+    "key": "e489dbde145497fc4c5d5c1a393093f37dea480527bb7138907c8feeca121d8e",
+    "nonce": "96ef40e5800f88112396617c6432333df7f4c2823a701567a04ae62ca5abebd0"
+  },
+  "generation_seconds": 10.234042190946639
+}

@@ -1,0 +1,16 @@
+CHILD_COMPLETED prepare_reference
+CHILD_COMPLETED prepare_cover
+CHILD_COMPLETED attack_1_native50
+CHILD_COMPLETED attack_1_short10
+CHILD_COMPLETED attack_1_staged10_50
+CHILD_COMPLETED attack_2_short10
+CHILD_COMPLETED attack_2_staged10_50
+CHILD_COMPLETED attack_2_native50
+CHILD_COMPLETED attack_3_staged10_50
+CHILD_COMPLETED attack_3_native50
+CHILD_COMPLETED attack_3_short10
+CHILD_COMPLETED attack_4_native50
+CHILD_COMPLETED attack_4_short10
+CHILD_COMPLETED attack_4_staged10_50
+CHILD_COMPLETED evaluate
+COMPLETED_STAGED_PILOT

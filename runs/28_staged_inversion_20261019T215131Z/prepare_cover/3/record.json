@@ -1,0 +1,24 @@
+{
+  "task_id": 3,
+  "role": "cover",
+  "prompt": "A studio photograph of a silver laboratory microscope on a white bench, the complete microscope visible.",
+  "seed": 28203,
+  "image": {
+    "path": "cover.png",
+    "sha256": "34f8f12e6904259563329877d0757dc3f3e028fa9e02e09925c059dd4c45ea4a",
+    "bytes": 287179
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "74e237e54fddb350bbb28da0cb93546aa64b90bb1598c6e41a55bbfe963526ad",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.005241158884019
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": 2,
+  "role": "reference",
+  "prompt": "A detailed photograph of a small bronze horse sculpture on a stone plinth.",
+  "seed": 29102,
+  "image": {
+    "path": "reference.png",
+    "sha256": "85eced3ef9d2fa11ea95d419d155c1ca9068950ed2b88491f29a55a2ee4d2a54",
+    "bytes": 416764
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "fb72312d42c8c548f4d339d6be39be2047fe9e3663875cb0afd3600241876752",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "1a8932b607991bdf8f761dae229da62a18d49e5efc777c8012de753bc87cd697",
+    "key": "8617a5583d4495f9690c94f08c669b3e553c0aab0d78adbdf08c5d8d7058d6c7",
+    "nonce": "0f84e9552587c9bdba8ef5c77b3d94069ac4cc0a94173f03b2c2221fb1323517"
+  },
+  "generation_seconds": 10.202420735731721
+}

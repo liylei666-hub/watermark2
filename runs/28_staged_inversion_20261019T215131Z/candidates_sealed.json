@@ -1,0 +1,126 @@
+{
+  "rows": [
+    {
+      "task_id": 1,
+      "method": "native50",
+      "path": "attack_1_native50/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "3d92f07e8e396cb1e3689fa1587fca73e935a7b3d5e9452a1d458f2b9e038f32",
+        "bytes": 454158
+      }
+    },
+    {
+      "task_id": 1,
+      "method": "short10",
+      "path": "attack_1_short10/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "6340e6c29f89c29aeb6823715a0ca799826d83a391cd6f07b356901baa50b232",
+        "bytes": 463887
+      }
+    },
+    {
+      "task_id": 1,
+      "method": "staged10_50",
+      "path": "attack_1_staged10_50/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "42bbf83ee6a7aadcaa167bdb09fc7476db0fb7df667d9252fed1101beeea48bc",
+        "bytes": 462048
+      }
+    },
+    {
+      "task_id": 2,
+      "method": "native50",
+      "path": "attack_2_native50/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "30e66ac9f492ce998c3d62318d17ed21cfcc1985c0dac8bc5291de9adf83d2de",
+        "bytes": 472430
+      }
+    },
+    {
+      "task_id": 2,
+      "method": "short10",
+      "path": "attack_2_short10/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "f2959f1585c5bc1b9351cadd5c3e9469fc1e709cdcc7051f4e556ca8572d3dea",
+        "bytes": 479597
+      }
+    },
+    {
+      "task_id": 2,
+      "method": "staged10_50",
+      "path": "attack_2_staged10_50/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "430103a799140b1fdde7c87f37afb9c266166c6baf9f52448145b75017f95c3d",
+        "bytes": 478137
+      }
+    },
+    {
+      "task_id": 3,
+      "method": "native50",
+      "path": "attack_3_native50/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "f21583f6d0922d45a6f4a62bd228b8a88505e38aca9bb2c84f17bcbbf5a650a2",
+        "bytes": 311268
+      }
+    },
+    {
+      "task_id": 3,
+      "method": "short10",
+      "path": "attack_3_short10/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "6c71c1536263d8a0f96753dc0b176753eb510cffa7364050da8f32b892bafb87",
+        "bytes": 307700
+      }
+    },
+    {
+      "task_id": 3,
+      "method": "staged10_50",
+      "path": "attack_3_staged10_50/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "f5e3d077aeef898762da23f5821f571d78d0fe6dac224cf7d682e2051bb760be",
+        "bytes": 311158
+      }
+    },
+    {
+      "task_id": 4,
+      "method": "native50",
+      "path": "attack_4_native50/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "1a62473fa673f20ed1ee1ef33f286c5f0e9ed6fad096a27e761b84734ca99c73",
+        "bytes": 380117
+      }
+    },
+    {
+      "task_id": 4,
+      "method": "short10",
+      "path": "attack_4_short10/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "e175e5efd02ddfe794ef635247a219b91805c7c7ddbbc16b7b5e9201873735cb",
+        "bytes": 392976
+      }
+    },
+    {
+      "task_id": 4,
+      "method": "staged10_50",
+      "path": "attack_4_staged10_50/candidate.png",
+      "image": {
+        "path": "candidate.png",
+        "sha256": "62642ed26c3efe51bde5d94ccaf9e5c4f3a5a9d56f36af6bc415c42f7e674b07",
+        "bytes": 388385
+      }
+    }
+  ],
+  "sealed_at_utc": "2026-10-19T23:13:38.623338+00:00",
+  "target_scores_seen_before_seal": 0
+}

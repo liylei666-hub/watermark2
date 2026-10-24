@@ -1,0 +1,28 @@
+{
+  "task_id": 3,
+  "role": "reference",
+  "prompt": "A detailed photograph of a red toy fire engine on a gray floor.",
+  "seed": 29103,
+  "image": {
+    "path": "reference.png",
+    "sha256": "5c03d8d9f1f46813ccf8f2c33a435724009de0464b069013cc6a5d2173c155c2",
+    "bytes": 285849
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "86d9eb9c61928ed3d33a704337fb515f452883b30f0f17edfa70b825022cdd3e",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "85d304dea2f890985fa5b235fe8c20b341fc360abbcc637b6a5281f742cdef85",
+    "key": "fdb0f89d44bcf43963c4e15210cd85710568f095b2e2e7e6e29c9c5df0cd4656",
+    "nonce": "eaea7967838d8be74262a6604a45e9f30008c4b8f07215ab8253a7d699403b94"
+  },
+  "generation_seconds": 10.237163797020912
+}

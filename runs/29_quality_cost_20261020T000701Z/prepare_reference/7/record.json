@@ -1,0 +1,28 @@
+{
+  "task_id": 7,
+  "role": "reference",
+  "prompt": "A detailed photograph of a silver coffee grinder on a marble counter.",
+  "seed": 29107,
+  "image": {
+    "path": "reference.png",
+    "sha256": "b8afd067932bd5ea0ae6e944941c41d36578b13eead575c4bfdad21c0ab7002f",
+    "bytes": 324766
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "04701c024761e38aa281a7451d7f0c91ef8db242233b2c22e09c48bbbbd29591",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "7f2320cd437b841fe26510ddb1141d99f768fad4b7a1978f4cce0f5f198941a3",
+    "key": "4f9ba6fa9016e60df6d9c318c152e88d492399f354f6b39032fc9c5d14ede985",
+    "nonce": "5447260155315d034bf6d8133324e78ef3016be184548c2bd719b1fe3e191abb"
+  },
+  "generation_seconds": 10.245515531860292
+}

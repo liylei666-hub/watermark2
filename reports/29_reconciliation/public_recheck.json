@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "manifest_files": 757,
+  "executions": 36,
+  "planned_tasks": 16,
+  "planned_candidates": 32,
+  "delivered_candidates": 32,
+  "evaluated_images": 64,
+  "references_valid": 16,
+  "summary": {
+    "pixel50": {
+      "gs_passes": 10,
+      "denominator": 16,
+      "mean_ba": 0.73193359375
+    },
+    "pixel10": {
+      "gs_passes": 9,
+      "denominator": 16,
+      "mean_ba": 0.7314453125
+    }
+  },
+  "mean_difference": -0.00048828125,
+  "positive_pairs": 6,
+  "ties": 2,
+  "bootstrap_95": [
+    -0.013671875,
+    0.01318359375
+  ],
+  "gates": {
+    "mean_gain": false,
+    "interval_lower_positive": false,
+    "consistent_direction": false
+  },
+  "decision": "close_fixed_short_efficiency_claim",
+  "max_mse_readback_error": 1.6263032587282567e-19,
+  "core_seconds_range": [
+    727.1292542219162,
+    749.7919405400753
+  ],
+  "linf_levels_range": [
+    7,
+    16
+  ],
+  "private_decoder_rerun": false,
+  "score_validation": "public sealed metrics binding, range, strict decision and arithmetic; private decryption not reproduced",
+  "new_model_experiments": 0,
+  "source_git_ancestry": "recorded stage29 SHAs unavailable from GitHub; byte hashes verified against runtime"
+}

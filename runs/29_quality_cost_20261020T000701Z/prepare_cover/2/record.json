@@ -1,0 +1,24 @@
+{
+  "task_id": 2,
+  "role": "cover",
+  "prompt": "A detailed photograph of a purple electric guitar against a white wall.",
+  "seed": 29202,
+  "image": {
+    "path": "cover.png",
+    "sha256": "2149f5b857e58a1604d269d1d73eb9438b1023eb0b646bd01908ccfe13e5826b",
+    "bytes": 386868
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "e33041dada706af83679beb6f72da183d5c26e2af191a27bfee353402fed79c2",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.024363876786083
+}

@@ -1,0 +1,31 @@
+{
+  "completed": true,
+  "timing": {
+    "model_load_seconds": 3.3397698649205267,
+    "reference_and_cover_preparation_seconds": 4.1132172560319304,
+    "optimization_seconds": 372.45265813404694,
+    "export_seconds": 0.2245680750347674,
+    "peak_allocated_bytes": 6779450880,
+    "updates": 10
+  },
+  "candidate": {
+    "task_id": 4,
+    "method": "native50",
+    "job_sha256": "18a205aef35e98bd11ff31f89a14d0b721ea5e3fbbb962d02d6d991c7f88cafe",
+    "image": {
+      "path": "candidate.png",
+      "sha256": "1a62473fa673f20ed1ee1ef33f286c5f0e9ed6fad096a27e761b84734ca99c73",
+      "bytes": 380117
+    }
+  },
+  "core_seconds": 376.5658753900789,
+  "target_scores_used": false,
+  "target_model_loaded": false,
+  "schedule": [
+    {
+      "inversion_steps": 50,
+      "updates": 10
+    }
+  ],
+  "optimization_forward_unet_calls": 500
+}

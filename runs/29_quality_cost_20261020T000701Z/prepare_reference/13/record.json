@@ -1,0 +1,28 @@
+{
+  "task_id": 13,
+  "role": "reference",
+  "prompt": "A detailed photograph of a desert canyon with layered orange cliffs.",
+  "seed": 29113,
+  "image": {
+    "path": "reference.png",
+    "sha256": "cba066fdaad9ae4add0599d387c2c610fcc979dcd022ec97bc2ec9cf6f64ef82",
+    "bytes": 279025
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "de05b28f2070756e9086bce12ec6053700a259f71342495a6ecc3bdd9e37f666",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "d4f26e070bb4f9ea351a0b481a146c242d74059ac1483cbf3df4dd2548cadb08",
+    "key": "bd684755d2bf66937c438212edd5d8e9e50ac1d57ddd35f9d977f31121b81503",
+    "nonce": "132a404111f7da8e850fb149f6ad456bae9504ed5ea21d5da3ab301b7a36d530"
+  },
+  "generation_seconds": 10.300811488181353
+}

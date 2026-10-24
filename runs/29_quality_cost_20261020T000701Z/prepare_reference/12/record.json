@@ -1,0 +1,28 @@
+{
+  "task_id": 12,
+  "role": "reference",
+  "prompt": "A detailed photograph of a field of sunflowers beneath a cloudy sky.",
+  "seed": 29112,
+  "image": {
+    "path": "reference.png",
+    "sha256": "577b2928767ad2ac14a60167086d249a6bbed73023c43600939c1db53425805c",
+    "bytes": 451883
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "dd6e8e35d8057c2d809c6e8d029d5f0a5f1eb8c1be4e0979a55cd144da6d6d21",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "d996964673c2f590ff4ba573d528e0fc7caa1bef1f373bdc6b1858b67be48d6d",
+    "key": "34f6cdd877a929cde40235fe85c2da86d5eb022650ebb187ef7ea9833ce30a9b",
+    "nonce": "2e1b43de397587237c38918d0d957374a463a1884da0186a47eebaa373d04a06"
+  },
+  "generation_seconds": 10.241224790923297
+}

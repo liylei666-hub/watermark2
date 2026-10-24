@@ -1,0 +1,25 @@
+{
+  "started_at_utc": "2026-10-20T04:39:59.970942+00:00",
+  "outcome": {
+    "completed": true,
+    "exit_code": 0,
+    "stop_reason": null,
+    "process_wall_seconds": 759.9267373089679,
+    "artifacts": {
+      "candidate.png": "d65fe01f6b5f11bd2c87e2db6f886ba2fee7b666549ad42b98d41a935906d01b",
+      "candidate_frozen.json": "d00c9bb9ec10a2474bdb7948abbb71c0fcb5c7cd4414e6a778084fec741e0621",
+      "claim.json": "324b7bac5693ab6f59f76a5e760419c3c20306de8d398c58b19e5f83bed8be08",
+      "device_preimport.json": "050aa4d48b9a997b22cbc13e965d9cfdcd3165c04af9c9edea33b6f59cd8b83a",
+      "optimization.json": "b46f5c44bf57dd18b717deeed07e44eb0c2be4a2accea61b04d993e4d1047aba",
+      "process.json": "c1524ebc751f23af40d522a8193d9f329e7b2616cbeb261d036cfc5739ff35f0",
+      "reference_proxy_noise.npy": "ec5fde170c587f56c62a031e89216dc9ca72e0c4c18ee94d1acb29a23b4e56fb",
+      "stderr.log": "183a390792eb8fb60da93b258e0b6c2727007b013555f6db4d230cfc187680b7",
+      "stdout.log": "ecff4181db31e3d67ad0062d6e76fa7415b324454e989e521612cf6d05f3b2ec",
+      "summary.json": "af9ac4ef024ab146e30eddc7a4c4141ccd9e7e6a282b2835ac34766a1d13c1e7",
+      "supervisor_preflight.json": "2d791eba3f23b1d7d1422344d352845348987e245d58b2173dd205d828f2bcdb"
+    },
+    "candidate_sha256": "d65fe01f6b5f11bd2c87e2db6f886ba2fee7b666549ad42b98d41a935906d01b"
+  },
+  "gpu_index": 0,
+  "gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5"
+}

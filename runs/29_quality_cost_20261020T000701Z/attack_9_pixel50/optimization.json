@@ -1,0 +1,142 @@
+{
+  "updates": [
+    {
+      "update": 1,
+      "loss_before_update": 1.955371379852295,
+      "gradient_norm": 0.15464825928211212,
+      "seconds": 38.44627558812499,
+      "continuous_mse": 1.5032272131065838e-05
+    },
+    {
+      "update": 2,
+      "loss_before_update": 1.7381675243377686,
+      "gradient_norm": 0.12552125751972198,
+      "seconds": 38.37111624609679,
+      "continuous_mse": 5.1221821195213124e-05
+    },
+    {
+      "update": 3,
+      "loss_before_update": 1.5817651748657227,
+      "gradient_norm": 0.1271393597126007,
+      "seconds": 38.35293704085052,
+      "continuous_mse": 0.00010435993317514658
+    },
+    {
+      "update": 4,
+      "loss_before_update": 1.4613186120986938,
+      "gradient_norm": 0.09557274729013443,
+      "seconds": 38.327460277825594,
+      "continuous_mse": 0.00017124449368566275
+    },
+    {
+      "update": 5,
+      "loss_before_update": 1.364365816116333,
+      "gradient_norm": 0.08361595124006271,
+      "seconds": 38.3280626940541,
+      "continuous_mse": 0.0002497694222256541
+    },
+    {
+      "update": 6,
+      "loss_before_update": 1.2866817712783813,
+      "gradient_norm": 0.3921003043651581,
+      "seconds": 38.32515421975404,
+      "continuous_mse": 0.0003162277571391314
+    },
+    {
+      "update": 7,
+      "loss_before_update": 1.2275105714797974,
+      "gradient_norm": 0.08167600631713867,
+      "seconds": 38.33260072674602,
+      "continuous_mse": 0.0003162277862429619
+    },
+    {
+      "update": 8,
+      "loss_before_update": 1.204737663269043,
+      "gradient_norm": 0.0704641044139862,
+      "seconds": 38.33953524008393,
+      "continuous_mse": 0.00031622772803530097
+    },
+    {
+      "update": 9,
+      "loss_before_update": 1.1832964420318604,
+      "gradient_norm": 0.05608275160193443,
+      "seconds": 38.33261395804584,
+      "continuous_mse": 0.0003162277571391314
+    },
+    {
+      "update": 10,
+      "loss_before_update": 1.1640958786010742,
+      "gradient_norm": 0.05192892625927925,
+      "seconds": 38.32227945700288,
+      "continuous_mse": 0.0003162277862429619
+    },
+    {
+      "update": 11,
+      "loss_before_update": 1.1475322246551514,
+      "gradient_norm": 0.05282134935259819,
+      "seconds": 38.3206083313562,
+      "continuous_mse": 0.0003162277571391314
+    },
+    {
+      "update": 12,
+      "loss_before_update": 1.1328076124191284,
+      "gradient_norm": 0.05234033241868019,
+      "seconds": 38.389646369963884,
+      "continuous_mse": 0.0003162277862429619
+    },
+    {
+      "update": 13,
+      "loss_before_update": 1.118492841720581,
+      "gradient_norm": 0.055736787617206573,
+      "seconds": 38.32485358975828,
+      "continuous_mse": 0.0003162277571391314
+    },
+    {
+      "update": 14,
+      "loss_before_update": 1.1077136993408203,
+      "gradient_norm": 0.07022159546613693,
+      "seconds": 38.34663419704884,
+      "continuous_mse": 0.0003162277862429619
+    },
+    {
+      "update": 15,
+      "loss_before_update": 1.0970982313156128,
+      "gradient_norm": 0.057697493582963943,
+      "seconds": 38.35052618291229,
+      "continuous_mse": 0.0003162277862429619
+    },
+    {
+      "update": 16,
+      "loss_before_update": 1.087636113166809,
+      "gradient_norm": 0.06401058286428452,
+      "seconds": 38.32616159925237,
+      "continuous_mse": 0.0003162277571391314
+    },
+    {
+      "update": 17,
+      "loss_before_update": 1.0786018371582031,
+      "gradient_norm": 0.061331856995821,
+      "seconds": 38.33213159721345,
+      "continuous_mse": 0.0003162277862429619
+    },
+    {
+      "update": 18,
+      "loss_before_update": 1.070199728012085,
+      "gradient_norm": 0.060852259397506714,
+      "seconds": 38.35669073089957,
+      "continuous_mse": 0.00031622772803530097
+    },
+    {
+      "update": 19,
+      "loss_before_update": 1.0628269910812378,
+      "gradient_norm": 0.08303376287221909,
+      "seconds": 38.33642303198576,
+      "continuous_mse": 0.0003162277571391314
+    }
+  ],
+  "target_feedback": false,
+  "parameterization": "RGB01 pixels",
+  "continuous_objective": true,
+  "quantizer_differentiated": false,
+  "endpoint_selection": "last feasible update"
+}

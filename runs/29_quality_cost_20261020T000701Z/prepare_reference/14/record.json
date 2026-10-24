@@ -1,0 +1,28 @@
+{
+  "task_id": 14,
+  "role": "reference",
+  "prompt": "A detailed photograph of a narrow medieval street lined with colorful doors.",
+  "seed": 29114,
+  "image": {
+    "path": "reference.png",
+    "sha256": "99b90f327eb811168e7ae25b80bd46229787262e7c60513bad8f45ab0ca5b782",
+    "bytes": 449697
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "cc9f8f2fa6ae6f09ecd9108e5aa9c962e92a102fda2b80b1d98478f594951211",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": {
+    "message": "b957c48db5fb78650e483143dc4433b19096c0ba2ee41f392551172cf9b05f1c",
+    "key": "c13559f58af4a691215c5305efd4b9e8001275027be81cceeafeffd0712a061d",
+    "nonce": "612afcbb80d4507c2ba7cdc5c03bb1b0e4ce87a90cb0fb8ea5d4713383227c75"
+  },
+  "generation_seconds": 10.310184506699443
+}

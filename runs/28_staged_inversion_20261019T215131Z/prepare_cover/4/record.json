@@ -1,0 +1,24 @@
+{
+  "task_id": 4,
+  "role": "cover",
+  "prompt": "A studio photograph of a vintage black sewing machine on a beige table, the complete machine visible.",
+  "seed": 28204,
+  "image": {
+    "path": "cover.png",
+    "sha256": "d3f95be1e4c4ddce4c4a12fb12d83d6a49c2307afb030b33c25516707f76d3ac",
+    "bytes": 368151
+  },
+  "original_noise": {
+    "path": "original_noise.npy",
+    "sha256": "a352b2961b2a3f50b27ecf90d86c2af75f28fb825565a2ad108b5b549362c97a",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "encryption_fingerprints": null,
+  "generation_seconds": 6.016444613691419
+}

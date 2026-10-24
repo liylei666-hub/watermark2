@@ -1,0 +1,247 @@
+{
+  "completed": true,
+  "rows": [
+    {
+      "task_id": 1,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 1,
+      "kind": "cover",
+      "bit_accuracy": 0.49609375,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 1,
+      "kind": "native50",
+      "bit_accuracy": 0.7578125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.001721511580738427,
+      "core_seconds": 376.6138945110142
+    },
+    {
+      "task_id": 1,
+      "kind": "short10",
+      "bit_accuracy": 0.91796875,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0063535487473079764,
+      "core_seconds": 376.4602376529947
+    },
+    {
+      "task_id": 1,
+      "kind": "staged10_50",
+      "bit_accuracy": 0.890625,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.004970823251542626,
+      "core_seconds": 378.9770317412913
+    },
+    {
+      "task_id": 2,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 2,
+      "kind": "cover",
+      "bit_accuracy": 0.4921875,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 2,
+      "kind": "native50",
+      "bit_accuracy": 0.73828125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0023992241362371645,
+      "core_seconds": 376.5494589917362
+    },
+    {
+      "task_id": 2,
+      "kind": "short10",
+      "bit_accuracy": 0.92578125,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0059245721117191,
+      "core_seconds": 376.1343954876065
+    },
+    {
+      "task_id": 2,
+      "kind": "staged10_50",
+      "bit_accuracy": 0.91015625,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.005082384945718994,
+      "core_seconds": 378.9267653678544
+    },
+    {
+      "task_id": 3,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 3,
+      "kind": "cover",
+      "bit_accuracy": 0.5234375,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 3,
+      "kind": "native50",
+      "bit_accuracy": 0.84375,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0004017564068845218,
+      "core_seconds": 376.6869976329617
+    },
+    {
+      "task_id": 3,
+      "kind": "short10",
+      "bit_accuracy": 0.96875,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.001401814626116607,
+      "core_seconds": 376.36133874952793
+    },
+    {
+      "task_id": 3,
+      "kind": "staged10_50",
+      "bit_accuracy": 0.96484375,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0010586515781315078,
+      "core_seconds": 378.84025266300887
+    },
+    {
+      "task_id": 4,
+      "kind": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 4,
+      "kind": "cover",
+      "bit_accuracy": 0.46875,
+      "gs_detected": false,
+      "cover_mse_rgb01": null,
+      "core_seconds": null
+    },
+    {
+      "task_id": 4,
+      "kind": "native50",
+      "bit_accuracy": 0.72265625,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0010085817870155104,
+      "core_seconds": 376.5658753900789
+    },
+    {
+      "task_id": 4,
+      "kind": "short10",
+      "bit_accuracy": 0.91015625,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.0034356473761156052,
+      "core_seconds": 376.33215277502313
+    },
+    {
+      "task_id": 4,
+      "kind": "staged10_50",
+      "bit_accuracy": 0.859375,
+      "gs_detected": true,
+      "cover_mse_rgb01": 0.002675807473293774,
+      "core_seconds": 378.6772000780329
+    }
+  ],
+  "independent_cpu_decodes": 20,
+  "private_material_exported": false,
+  "gpu_used": false,
+  "models_loaded": false,
+  "decision": {
+    "decision": "close_fixed_staged_candidate",
+    "gates": {
+      "all_references_valid": true,
+      "gain_over_native": false,
+      "mean_accuracy_gain": true,
+      "mean_gain_over_short": false,
+      "no_pass_loss_vs_short": true,
+      "distortion": false,
+      "measured_time": true
+    },
+    "pairs": [
+      {
+        "task_id": 1,
+        "pass_gain": 0,
+        "accuracy_gain": 0.1328125,
+        "gain_over_short": -0.02734375,
+        "pass_gain_over_short": 0,
+        "mse_ratio": 2.8874759293866825,
+        "time_ratio": 1.00627469475959,
+        "short_time_ratio": 0.9995920042774337
+      },
+      {
+        "task_id": 2,
+        "pass_gain": 0,
+        "accuracy_gain": 0.171875,
+        "gain_over_short": -0.015625,
+        "pass_gain_over_short": 0,
+        "mse_ratio": 2.1183452054171057,
+        "time_ratio": 1.0063133974019876,
+        "short_time_ratio": 0.9988977184956233
+      },
+      {
+        "task_id": 3,
+        "pass_gain": 0,
+        "accuracy_gain": 0.12109375,
+        "gain_over_short": -0.00390625,
+        "pass_gain_over_short": 0,
+        "mse_ratio": 2.6350583587228256,
+        "time_ratio": 1.0057162977314795,
+        "short_time_ratio": 0.9991354655576641
+      },
+      {
+        "task_id": 4,
+        "pass_gain": 0,
+        "accuracy_gain": 0.13671875,
+        "gain_over_short": -0.05078125,
+        "pass_gain_over_short": 0,
+        "mse_ratio": 2.6530396520561244,
+        "time_ratio": 1.0056067870880943,
+        "short_time_ratio": 0.9993793313990185
+      }
+    ],
+    "summary": {
+      "native50": {
+        "delivered": 4,
+        "gs_passes": 4,
+        "mean_bit_accuracy": 0.765625,
+        "median_core_seconds": 376.58988495054655
+      },
+      "short10": {
+        "delivered": 4,
+        "gs_passes": 4,
+        "mean_bit_accuracy": 0.9306640625,
+        "median_core_seconds": 376.34674576227553
+      },
+      "staged10_50": {
+        "delivered": 4,
+        "gs_passes": 4,
+        "mean_bit_accuracy": 0.90625,
+        "median_core_seconds": 378.8835090154316
+      }
+    },
+    "ordinary_gs_only": true,
+    "independent_confirmation": false,
+    "formal_content_acceptance": null,
+    "novelty_established": false
+  }
+}
