@@ -23,3 +23,6 @@
 
 
 当前科学hold：阶段30模型启动暂停，输入生成与攻击均为0。先解决[PSNR版本与原生基线校准审查](../reports/psnr_reproducibility/report.md)。官方旧uint8 PSNR bug已在2025-05-30修复；本项目当前版本含修复。现有10更新与受约束pixel变体不能代替原生150步整表复现。
+
+
+原生校准准入更新：4对自然COCO、150次实际Adam更新的[固定提案](../protocols/31_native_calibration_proposal.json)已准备，CPU4项通过；发现官方参考RGB01与项目PIL[-1,1]路径不等价，须先审阅明确复现对象。模型仍0次启动，阶段30继续hold。

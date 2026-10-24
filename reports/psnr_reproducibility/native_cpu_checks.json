@@ -1,0 +1,14 @@
+{
+  "passed": 4,
+  "elapsed_seconds": 0.257,
+  "models_loaded": false,
+  "gpu_used": false,
+  "scope": [
+    "actual installed standard pipeline vs original DiffPipe forward bitwise equivalence on CPU fixture",
+    "official AST150-update Adam loop equivalence",
+    "actual-update checkpoint fencepost",
+    "official reference RGB01 vs earlier project PIL minus1to1 mismatch proven"
+  ],
+  "real_gpu_trajectory_certified": false,
+  "source": "scripts/native_calibration/test_native_cpu.py"
+}

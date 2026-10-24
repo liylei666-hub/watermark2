@@ -90,3 +90,30 @@ There and Back Again当前核查更新至arXiv:2410.23530v5及ICLR2026正式出�
 | [DiffMark，2603.20304v2](https://arxiv.org/html/2603.20304v2)，摘要、§3.1–3.3 | 训练编码器/解码器，LCM短路径传梯度、全步DDIM监督解码，学习扰动逐步注入；属于嵌入与跨冻结模型迁移。短可微训练桥已有先例，未证明本项目新伪造机制。 |
 
 本轮只提出[参考×载体诊断](../reports/30_crossed_proposal/proposal.md)，不新增模型、训练或上述方法基线。阅读范围不等于穷尽新颖性审查。
+
+
+## 2026-10-24协作审阅增量：直接基线与作者后续
+
+父线程完成原始论文/官方仓库定向审阅，本节记录可改变研究决定的边界，不冒充本执行器新增全文精读或穷尽新颖性保证。共同基准差异见[比较契约](BASELINE_COMPARISON_CONTRACT.md)。
+
+| 一手来源 | 增量与当前边界 |
+|---|---|
+| [PnP2506.06018v1](https://arxiv.org/html/2506.06018v1)；[官方库4db4316](https://github.com/chaoyitud/PnP-Watermark-Forgery/tree/4db431692e73ff065ba6bd1659d016a44c9f5db8) | 单参考+预训练恢复，GS FPR1e−3、Imprint50步、LQ→HQ恢复任务；官方仅README，不能标完整可复现。 |
+| [作者AR后续2604.11720v1](https://arxiv.org/html/2604.11720v1) | LatentOpt-Forgery已用单参考、代理VQ-VAE匹配、像素预算；附录最多300步并报告最佳检查点，区别于零反馈固定终点。不能主张首次代理AE匹配。 |
+| [ClusterMark2508.06656v2](https://arxiv.org/abs/2508.06656) | 作者AR视觉token水印后续，不并入扩散伪造榜；代码部分组件仍待审计。 |
+| [作者Layout Control出版页](https://casa.rub.de/en/research/publications/detail/are-semantic-watermarks-for-diffusion-models-resilient-to-layout-control) | ControlNet下保留内容/水印已有评估；不是本项目新的跨模型伪造机制。 |
+| [WMCopier2503.22330v3](https://arxiv.org/html/2503.22330v3)；[WmForger2510.20468v1](https://arxiv.org/html/2510.20468v1) | 前者多图训练，后者主要后处理水印及内容限制；不直接纳入单参考无训练latent-noise主榜。 |
+| [Jain官方OpenReview](https://openreview.net/forum?id=yGNLtD7VQ2) | 存在重标题后续稿，完整材料访问遇验证；最终决定与全部修订未核实，不凭第三方状态标已接收。 |
+
+## 新防御与提取近邻（父线程审阅，未运行）
+
+| 一手来源 | 可执行/新颖性边界 |
+|---|---|
+| [ISTS2604.06662v1](https://arxiv.org/html/2604.06662v1)；[官方562ec0f](https://github.com/hala64/ISTS/tree/562ec0fa936a7852831534a841a3ec73ed28a3c0) | CVPR2026 Findings；有selector权重条目和入口，固定阈值分支及校准划分尚需静态契约。未来静态候选，不启动/下载。 |
+| [CSGuard2605.01479v1](https://arxiv.org/html/2605.01479v1) | 主设置FPR1e−10且有较高残余攻击成功的模型对；不能泛称抵抗全部伪造，本轮未定位官方实现。 |
+| [随机密钥2507.07871v5](https://arxiv.org/html/2507.07871v5) | 更新至2026-10-02：保证需blind/key-symmetric/independent，上界非密码学可忽略；多图averaging实验不能代替单参考迁移。 |
+| [MetaSeal2509.10766v2](https://arxiv.org/html/2509.10766v2) | INN后处理+caption签名；官方demo数据/缺模块与当前图语义比较未闭合，签名验证不等于完整内容认证。 |
+| [RAIN2609.14856v2](https://arxiv.org/html/2609.14856v2) | 成对图像/噪声监督、双NAFNet提取器；学习恢复区域/廉价反演已有近邻，提取FLOPs不等于端到端伪造加速；未下载。 |
+| [GS++2504.15026v2](https://arxiv.org/html/2504.15026v2) | 双通道与ECDSA签名事件不同于普通GS阈值，官方完整流程未确认，不拿原GS代码替代。 |
+
+完整几何与SemBind GS-S官方验证仍缺项，固定HEAD未更新；普通GS和独立余弦仍不能替代完整接受。新防御静态审计优先级低于当前修正版原生基线校准。

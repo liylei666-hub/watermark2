@@ -85,3 +85,14 @@ CSI 分母依据：[campaign.py:70–83](https://github.com/ZhengGao-30/CSI-Atta
 ## 可执行记账检查
 
 单输出字段和未知值处理已由`scripts/summarize_evaluation_events.py`实现，阶段07真实存档接入和复算见[报告](../reports/evaluation_events_20261017/report.md)。工具消费已有标签，不验证标签语义，不替代完整官方检测或权限隔离。
+
+
+## 2026-10-24直接基线与权限更新
+
+当前直接候选为修正版Imprint、Jain及PnP；Reprompt按提示词生成另设轨道。共同协议须统一目标snapshot、FPR、自然载体任务、最终PNG、零反馈单输出及实际计算预算，不能直接排名不同headline。
+
+- Imprint：[修正v3](https://arxiv.org/html/2412.03283v3)的SDXL/GS150为Det./Attr.1.00、PSNR19.77、LPIPS.253；旧CVF29.78不是当前质量目标。论文100对、GS FPR1e−6、TR1%；代码默认151次与论文150次分别报告。
+- Jain：[v1附录11.3](https://arxiv.org/html/2504.20111v1)为SD1.4 VAE、15000更新、学习率.020、200对；TR按p<.05，不与Imprint的TR1%混用。共同SD2.1代理仅为适配比较，PNG须重新检测。
+- PnP：[v1](https://arxiv.org/html/2506.06018v1)为恢复任务LQ128→HQ512、GS FPR1e−3且Imprint对照50步；[官方库4db4316](https://github.com/chaoyitud/PnP-Watermark-Forgery/tree/4db431692e73ff065ba6bd1659d016a44c9f5db8)仍仅README，完整代码不可忠实执行。
+
+以上增量来自父线程一手文献/官方源码审阅；本执行器未执行这些新方法或下载权重。不能据本项目低预算结果宣称超过其SOTA。

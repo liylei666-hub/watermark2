@@ -122,7 +122,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Prepare faithful corrected native-Imprint full150-update small correctness calibration using existing natural COCO samples. Review exact settings/assets/metrics with parent before launching; independent100-pair reproduction follows only after calibration and asset verification. Stage30 remains held.",
+  "next_action": "Parent scientific review of exact official RGB01 reference path versus earlier project PIL normalization; run full150 actual-update four-pair native calibration only after settings review. Stage30 remains held.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -958,14 +958,12 @@
     "next_step_proposal": "Audit which proxy-observable information can distinguish cross-model systematic bias from reference-bit uncertainty, and its difference from existing inversion/ensemble methods before another GPU protocol."
   },
   "pending_design": {
-    "stage": "30_crossed_reference_cover",
-    "status": "held_corrected_native_baseline_reproduction_priority",
-    "protocol": "protocols/30_crossed_proposal.json",
-    "report": "reports/30_crossed_proposal/proposal.md",
+    "stage": "31_corrected_native_calibration",
+    "status": "frozen_prelaunch_pending_parent_review_reference_range",
+    "protocol": "protocols/31_native_calibration_proposal.json",
     "models_launched": 0,
-    "independent_units": 4,
-    "attacks": 16,
-    "target_inversions": 40
+    "actual_updates": 150,
+    "pairs": 4
   },
   "stage24_source": {
     "stage": "24",
@@ -1263,5 +1261,15 @@
     "formal_human_labels": null,
     "full_defense_acceptance": null,
     "recorded_process_wall_seconds": 25126.68590716971
+  },
+  "held_stage30_design": {
+    "stage": "30_crossed_reference_cover",
+    "status": "held_corrected_native_baseline_reproduction_priority",
+    "protocol": "protocols/30_crossed_proposal.json",
+    "report": "reports/30_crossed_proposal/proposal.md",
+    "models_launched": 0,
+    "independent_units": 4,
+    "attacks": 16,
+    "target_inversions": 40
   }
 }

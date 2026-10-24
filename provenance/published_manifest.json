@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 6059,
-      "sha256": "de44014774a90a9835f44ad1e7a11be7cd0d36f747d9dbc919448f6237669875"
+      "bytes": 6355,
+      "sha256": "bd2d21fbe31ef22e0a029df55a74d2eddd50c1fe665af921598b8d63ba8bda86"
     },
     {
       "path": "README.md",
@@ -288,8 +288,8 @@
     },
     {
       "path": "docs/BASELINE_COMPARISON_CONTRACT.md",
-      "bytes": 12738,
-      "sha256": "c579eb00645b720aea4c816cbf2df4c8a762915603eb99a44716066ec042d6fe"
+      "bytes": 13941,
+      "sha256": "d9461e19f051a7b25bb14d47373dc42b4859d18edd98d1b1f66f16e414e875dd"
     },
     {
       "path": "docs/CONTENT_ADJUDICATION.md",
@@ -298,8 +298,8 @@
     },
     {
       "path": "docs/COVER_BASELINE_CONTRACT.md",
-      "bytes": 10773,
-      "sha256": "1258f750a1d2c3b93c5fc91824be87a3bb5d2cb3b08867952d77031b260884b4"
+      "bytes": 11597,
+      "sha256": "ff92069935fcd06a36b62423fac0447493425293e4b834f4e0fa1ef042d1a4dc"
     },
     {
       "path": "docs/CROSS_GENERATOR_CONTRACT.md",
@@ -328,8 +328,8 @@
     },
     {
       "path": "docs/LITERATURE.md",
-      "bytes": 14209,
-      "sha256": "8310f34944e32b6c744257e9701391bec709c49e8ad01e70e03a187f0661a582"
+      "bytes": 17624,
+      "sha256": "a1eadcaf7ae9a6d24a78030bd3798514d7da9a7aecbf6e225a4655db5f3d85b2"
     },
     {
       "path": "docs/METHOD_COMPARISON_DRAFT.md",
@@ -368,8 +368,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 3421,
-      "sha256": "0b242f467f37197e5f37c164cbba3154acb0f6c7dd430002f266d9919afa6cff"
+      "bytes": 3720,
+      "sha256": "1c4c971987b4f689cb6d5de38103e44979bd4e9230ed623cb0a6fd58cef617b4"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -403,8 +403,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 48523,
-      "sha256": "3a569abdfe445a71f86fc717f09ccfb4864d840fe4c7c27e641214bbd8b46820"
+      "bytes": 48718,
+      "sha256": "dce873d819d8312b067015eba36c08b88bb7d1c20c7daa4211000fb621860a59"
     },
     {
       "path": "prompts/README.md",
@@ -1000,6 +1000,16 @@
       "path": "protocols/30_crossed_proposal.sha256",
       "bytes": 65,
       "sha256": "2e2796ba289cc4c9b748f5f9d7ef6aa84fd1efcfd2d7a7277fd16f8fa2dd178b"
+    },
+    {
+      "path": "protocols/31_native_calibration_proposal.json",
+      "bytes": 9941,
+      "sha256": "197bd03d884d512655ba8c3caf20bbfe2c7e38865b4022381fde974636f1ddcf"
+    },
+    {
+      "path": "protocols/31_native_calibration_proposal.sha256",
+      "bytes": 65,
+      "sha256": "8e469053762addb7424fa4cf22f336f0d17b0fe263bba8b32a071e9b9be9884e"
     },
     {
       "path": "provenance/07_remote_manifest.json",
@@ -2492,9 +2502,14 @@
       "sha256": "77199e9b0ce47bb2702fe2f8042181871c06fd729aecd3cbb7bf61b5e2a97934"
     },
     {
+      "path": "reports/psnr_reproducibility/native_cpu_checks.json",
+      "bytes": 494,
+      "sha256": "51f0fe768adbbc1f2f1add248aba4ba6802408eb4383b0eafbaa548c2c8a4a77"
+    },
+    {
       "path": "reports/psnr_reproducibility/report.md",
-      "bytes": 8079,
-      "sha256": "59ec72f9ab74b0a397c32165b9eff28b8450f69f7de497fce8904f99b11190c2"
+      "bytes": 10159,
+      "sha256": "993da8cbe9eb0d4b3d08d52e9fdff5b00604fcc86e48abf1a7ef8100142d7e74"
     },
     {
       "path": "reports/psnr_reproducibility/source_manifest.json",
@@ -21502,6 +21517,11 @@
       "sha256": "94b2de8c03c2d9180b0209088006b60854ea1b7f674fc4051055eeee040c91f4"
     },
     {
+      "path": "scripts/native_calibration/test_native_cpu.py",
+      "bytes": 6152,
+      "sha256": "5a0daf371f80b3adcd37004c18ef94ebb4719faa5b1e4d42236b9eb8d644ceed"
+    },
+    {
       "path": "scripts/parallel_execution/README.md",
       "bytes": 9450,
       "sha256": "3ee5b5b9f9bf6c780955a6da2fb78f2db2130e6d9ef88f91352c39cd37b1c69b"
@@ -21962,14 +21982,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 344510284,
+  "total_bytes": 344535248,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-24T18:35:46.096685+00:00",
+  "updated_at_utc": "2026-10-24T18:47:36.409436+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
   "previous_publication_commit": "a4a15be725f45f19eb65901d15a14bfdb12cf4eb"
 }
