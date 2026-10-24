@@ -22057,6 +22057,11 @@
       "sha256": "20d27ef6cd982d19703cb629b0c112e8100d249c9bc224c797be6796ef2b9af0"
     },
     {
+      "path": "tools/analyze_native_calibration.py",
+      "bytes": 6781,
+      "sha256": "696681465bc72b461e480aa8bf8def2362e8ade37e33d8afd3089635d889a5d0"
+    },
+    {
       "path": "tools/audit_psnr_cpu.py",
       "bytes": 3735,
       "sha256": "d457ecafe02f031900e87814838af090d4ffeb3bf855ddc26af054b013af50d6"
@@ -22092,6 +22097,11 @@
       "sha256": "314e62ac798d58e1042515df0ed061a05b5388bdac514e8511dd9f93396e5cdd"
     },
     {
+      "path": "tools/test_native_postrun_cpu.py",
+      "bytes": 888,
+      "sha256": "db3071dc76566ca4ce8e035154e4a53571a36216487e46af7fcc7f0a0f14d2cc"
+    },
+    {
       "path": "tools/test_stage27_recovery_audit.py",
       "bytes": 2911,
       "sha256": "639097bb947e4cc11d8418ec61aff2519dcf394d5a4b51d0f448bf42e532d3ba"
@@ -22112,7 +22122,7 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 344721615,
+  "total_bytes": 344729284,
   "excludes": [
     ".git/",
     "third_party gitlinks",
