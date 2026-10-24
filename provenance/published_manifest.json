@@ -23,13 +23,13 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 6481,
-      "sha256": "54b0ce08008b68a0eb64cd7a11c000accbc668dc1911af72c9b90bdb90fec074"
+      "bytes": 7030,
+      "sha256": "99fb89d1310e37b4243b28144b090b9fe3386c52463ca09ea0983a6a07593afa"
     },
     {
       "path": "README.md",
-      "bytes": 7675,
-      "sha256": "09d54f26cbca5f17455075dc3e8af73425fa6cc128aa826fb077900441424069"
+      "bytes": 8462,
+      "sha256": "4d1a83eb22f537f06cb55fe25d0803e890713de7fd6dd15bc0ac2a94f06c64af"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -378,8 +378,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 55679,
-      "sha256": "e1f5e8f0137687b982db81301a8ee209aea30c14c9cc2d87cb35a8528356850a"
+      "bytes": 56408,
+      "sha256": "4bd862cc6c9cb001e89680420f40a7354ad79cb4d08d0a4a2e52385e7929daba"
     },
     {
       "path": "prompts/20261020_stage27_completion_request.txt",
@@ -22767,14 +22767,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 153700773,
+  "total_bytes": 426659679,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-19T21:27:15.331612+00:00",
+  "updated_at_utc": "2026-10-24T18:10:02.351426+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
   "previous_publication_commit": "a4bccffeb453c11b6c1f67d52878e926f5dec418"
 }

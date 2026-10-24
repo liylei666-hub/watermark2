@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-19T21:23:50.740821+00:00",
+  "as_of_utc": "2026-10-24T18:10:02.351426+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -29,7 +29,7 @@
     "26",
     "27"
   ],
-  "current_stage_status": "stage27_completed_fixed_delivery_candidate_closed",
+  "current_stage_status": "stage28_29_completed_closed_see_verified_research_pointer",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -87,34 +87,36 @@
   "allowed_gpu_physical_indices": [
     0,
     1,
-    2
-  ],
-  "excluded_gpu_physical_indices": [
+    2,
     3,
     4,
     5,
-    6,
     7
   ],
-  "selected_gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5",
+  "excluded_gpu_physical_indices": [
+    6
+  ],
+  "selected_gpu_uuid": null,
   "authorization": {
     "total_gpu_process_seconds": null,
     "max_process_seconds": null,
     "max_new_bytes": 10737418240,
     "new_model_downloads": false,
-    "serial": true,
+    "serial": false,
     "gpu_time_budget_removed_by_user_at_utc": "2026-10-17T06:13:57.675056+00:00",
     "amendment_user_text": "继续，之后不用考虑gpu用量时间",
     "exclusive_gpu_host": "liyanlei@172.18.185.249",
     "local_gpu_execution": false,
     "other_server_execution": false,
-    "host_scope_user_text": "以后只用249的空闲显卡"
+    "host_scope_user_text": "以后只用249的空闲显卡",
+    "max_concurrent_gpu_processes": 2,
+    "scope_source": "Current user supplied transcript supersedes historical device/concurrency scopes; see current_state_pointer"
   },
   "research_feasibility": "conditional",
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "下一项决定性工作：冻结并完成一次分阶段反演优化的独立开发比较，检验“早期短反演轨迹的便宜更新、末期50步目标精化”能否在实测核心计算预算匹配时改善最终PNG的普通GS结果。比较原生Imprint、分阶段候选和固定短轨迹消融；新任务、参数与去留规则在运行前冻结。该成本假设的有效性与新颖性尚未建立。",
+  "next_action": "Read the exact verified research commit84016dd report; stages28/29 are completed and closed. Develop and review an evidence-based independent transfer hypothesis before freezing any new experiment. Do not repeat the staged comparison.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -126,7 +128,7 @@
   "sembind_final_paper_reviewed": true,
   "sembind_end_to_end_adaptive_test_reported": true,
   "sembind_full_public_gs_s_verifier_available": false,
-  "selected_gpu_physical_index": 0,
+  "selected_gpu_physical_index": null,
   "active_run": null,
   "current_round_gpu_seconds_remaining": null,
   "last_completed_run": "runs/27_method_resume_20261019T173017Z",
@@ -1441,5 +1443,15 @@
   "cumulative_completed_execution_records": 105,
   "current_entry": "GPT_CONTEXT.md",
   "blockers_scope": "Full defense protocol gaps limit corresponding claims only; stage27 ordinary-GS comparison is complete.",
-  "current_execution_blockers": []
+  "current_execution_blockers": [],
+  "latest_reconciled_report": "https://github.com/liylei666-hub/watermark2/blob/84016dd348740e38e52b2624e98f72d6e058a64a/reports/29_reconciliation/report.md",
+  "current_state_pointer": {
+    "branch": "research/stage27-recovery-20261019",
+    "commit": "84016dd348740e38e52b2624e98f72d6e058a64a",
+    "report": "https://github.com/liylei666-hub/watermark2/blob/84016dd348740e38e52b2624e98f72d6e058a64a/reports/29_reconciliation/report.md",
+    "stage28": "completed_fixed_candidate_closed",
+    "stage29": "completed_fixed_short_efficiency_claim_closed",
+    "scope": "main retains its unique historical evidence; full reconciled runtime/results live at the pinned research commit"
+  },
+  "historical_execution_fields_as_of_utc": "2026-10-19T21:23:50.740821+00:00"
 }
