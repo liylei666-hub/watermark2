@@ -1,0 +1,446 @@
+{
+  "schema": 1,
+  "stage": "30_crossed_reference_cover",
+  "created_at_utc": "2026-10-24T18:16:30.730597+00:00",
+  "status": "proposal_frozen_for_scientific_review_not_launch_runtime",
+  "models_launched": 0,
+  "hypothesis": "With matched delivered PNG distortion and actual core time, simple covers produce greater identity-centered transfer gain than complex covers, averaged over crossed reference classes.",
+  "method": "unchanged_stage29_pixel50",
+  "policy": {
+    "mse_limit": 0.00031622776601683794,
+    "linf_levels": 16,
+    "minimum_mse_fraction": 0.95,
+    "core_budget_seconds": 760,
+    "minimum_budget_fraction": 0.9,
+    "finalization_reserve_seconds": 8,
+    "learning_rate": 0.00392156862745098,
+    "max_updates": 200
+  },
+  "proxy": {
+    "model_id": "Manojb/stable-diffusion-2-1-base",
+    "revision": "0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--Manojb--stable-diffusion-2-1-base/snapshots/0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "target": {
+    "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "core_source": "scripts/quality_cost/attack.py",
+  "core_sha256": "19f2ffee7613342302f8376714a04955d6bdb5839efbdb14d97689f685f128f8",
+  "core_quantizer": "scripts/quality_cost/quality.py",
+  "quantizer_sha256": "0daa3e3af13f15139c77f8e72cdc18a6e9f5ec81cd63dab46654d0be928fe6ec",
+  "blocks": [
+    {
+      "block": 1,
+      "attack_seed": 30301,
+      "references": {
+        "simple": {
+          "id": 1,
+          "seed": 30101,
+          "prompt": "A studio photograph of one red metal watering can on a plain light gray background."
+        },
+        "complex": {
+          "id": 2,
+          "seed": 30102,
+          "prompt": "A detailed photograph of a mountain railway station with travelers, luggage carts, tracks and forested hills."
+        }
+      },
+      "covers": {
+        "simple": {
+          "id": 1,
+          "seed": 30201,
+          "prompt": "A studio photograph of one blue office stapler on a plain cream background."
+        },
+        "complex": {
+          "id": 2,
+          "seed": 30202,
+          "prompt": "A detailed photograph of a harbor repair workshop with fishing nets, tools, ropes and several small boats."
+        }
+      }
+    },
+    {
+      "block": 2,
+      "attack_seed": 30302,
+      "references": {
+        "simple": {
+          "id": 3,
+          "seed": 30103,
+          "prompt": "A studio photograph of one clear glass hourglass on a plain dark blue background."
+        },
+        "complex": {
+          "id": 4,
+          "seed": 30104,
+          "prompt": "A detailed photograph of a lantern festival street with stalls, crowds, hanging lanterns and decorated shopfronts."
+        }
+      },
+      "covers": {
+        "simple": {
+          "id": 3,
+          "seed": 30203,
+          "prompt": "A studio photograph of one yellow rubber duck on a plain pale green background."
+        },
+        "complex": {
+          "id": 4,
+          "seed": 30204,
+          "prompt": "A detailed photograph of a busy pottery studio with shelves, clay vessels, worktables and ceramic tools."
+        }
+      }
+    },
+    {
+      "block": 3,
+      "attack_seed": 30303,
+      "references": {
+        "simple": {
+          "id": 5,
+          "seed": 30105,
+          "prompt": "A studio photograph of one pair of green scissors on a plain white background."
+        },
+        "complex": {
+          "id": 6,
+          "seed": 30106,
+          "prompt": "A detailed photograph of an old bakery interior with bread racks, flour sacks, tiled counters and copper lamps."
+        }
+      },
+      "covers": {
+        "simple": {
+          "id": 5,
+          "seed": 30205,
+          "prompt": "A studio photograph of one brass pocket compass on a plain burgundy background."
+        },
+        "complex": {
+          "id": 6,
+          "seed": 30206,
+          "prompt": "A detailed photograph of an outdoor campsite with tents, backpacks, folding chairs, trees and a cooking area."
+        }
+      }
+    },
+    {
+      "block": 4,
+      "attack_seed": 30304,
+      "references": {
+        "simple": {
+          "id": 7,
+          "seed": 30107,
+          "prompt": "A studio photograph of one carved wooden chess knight on a plain light blue background."
+        },
+        "complex": {
+          "id": 8,
+          "seed": 30108,
+          "prompt": "A detailed photograph of a railway museum hall with locomotives, signs, overhead beams and visitors."
+        }
+      },
+      "covers": {
+        "simple": {
+          "id": 7,
+          "seed": 30207,
+          "prompt": "A studio photograph of one white ceramic pitcher on a plain rust red background."
+        },
+        "complex": {
+          "id": 8,
+          "seed": 30208,
+          "prompt": "A detailed photograph of a riverside restaurant terrace with tables, plants, umbrellas, diners and distant buildings."
+        }
+      }
+    }
+  ],
+  "attack_order": [
+    [
+      2,
+      "complex",
+      "simple"
+    ],
+    [
+      4,
+      "complex",
+      "simple"
+    ],
+    [
+      3,
+      "simple",
+      "simple"
+    ],
+    [
+      1,
+      "complex",
+      "complex"
+    ],
+    [
+      1,
+      "simple",
+      "complex"
+    ],
+    [
+      4,
+      "complex",
+      "complex"
+    ],
+    [
+      2,
+      "simple",
+      "complex"
+    ],
+    [
+      3,
+      "complex",
+      "complex"
+    ],
+    [
+      4,
+      "simple",
+      "complex"
+    ],
+    [
+      2,
+      "complex",
+      "complex"
+    ],
+    [
+      4,
+      "simple",
+      "simple"
+    ],
+    [
+      1,
+      "simple",
+      "simple"
+    ],
+    [
+      2,
+      "simple",
+      "simple"
+    ],
+    [
+      1,
+      "complex",
+      "simple"
+    ],
+    [
+      3,
+      "simple",
+      "complex"
+    ],
+    [
+      3,
+      "complex",
+      "simple"
+    ]
+  ],
+  "randomization_seed": 30030,
+  "generation": {
+    "steps": 50,
+    "guidance": 7.5,
+    "resolution": 512,
+    "dtype": "float32",
+    "reference_model": "target SDXL",
+    "cover_model": "proxy SD2.1",
+    "single_draw_no_replacement": true
+  },
+  "inversion": {
+    "steps": 50,
+    "timesteps": [
+      1,
+      21,
+      41,
+      61,
+      81,
+      101,
+      121,
+      141,
+      161,
+      181,
+      201,
+      221,
+      241,
+      261,
+      281,
+      301,
+      321,
+      341,
+      361,
+      381,
+      401,
+      421,
+      441,
+      461,
+      481,
+      501,
+      521,
+      541,
+      561,
+      581,
+      601,
+      621,
+      641,
+      661,
+      681,
+      701,
+      721,
+      741,
+      761,
+      781,
+      801,
+      821,
+      841,
+      861,
+      881,
+      901,
+      921,
+      941,
+      961,
+      981
+    ],
+    "spacing": "leading",
+    "steps_offset": 1,
+    "last_timestep": 981,
+    "endpoint_alpha_cumprod_cpu_reconstruction": 0.005775495897978544,
+    "prompt": "",
+    "guidance": 1.0,
+    "eta": 0.0,
+    "record_actual_timesteps_per_call": true,
+    "fail_if_actual_array_differs": true,
+    "scope": "Exact array for proxy objective; target evaluator logs its own pinned50 array separately"
+  },
+  "gs": {
+    "message_width_in_bytes": 32,
+    "num_replications": 64,
+    "l": 1,
+    "offset": 0,
+    "independent_identities": 8,
+    "shared_identity_only_within_reference": true,
+    "threshold": 0.70703125,
+    "comparison": "strict_greater",
+    "distinct_fingerprints_required_for_all_eight_references": [
+      "key",
+      "message",
+      "nonce"
+    ]
+  },
+  "evaluation": {
+    "candidate_pngs": 16,
+    "reference_pngs": 8,
+    "unique_clean_covers": 8,
+    "clean_cover_identity_pairs": 16,
+    "target_inversion_calls": 40,
+    "target_inversions_reused": false,
+    "all_candidates_sealed_before_first_target_evaluation": true,
+    "evaluation_rows": 40,
+    "clean_cover_rule": "For every block/reference/cover cell evaluate the unchanged clean cover using exactly that reference identity; never pool or substitute identity scores."
+  },
+  "endpoints": {
+    "primary": "G_b = mean_r[(BA_attack(b,r,simple)-BA_clean(b,r,simple))-(BA_attack(b,r,complex)-BA_clean(b,r,complex))]",
+    "reference": "R_b = mean_c[gain(b,simple,c)-gain(b,complex,c)]",
+    "interaction": "I_b = [gain(b,simple,simple)-gain(b,simple,complex)]-[gain(b,complex,simple)-gain(b,complex,complex)]",
+    "independent_units": 4,
+    "raw_gs_pass_counts_secondary": true,
+    "statistical_significance_claim": false
+  },
+  "development_gate": {
+    "mean_cover_gap_at_least": 0.05,
+    "all_four_block_cover_gaps_strictly_positive": true,
+    "reference_and_interaction_descriptive_only": true,
+    "otherwise": "close_fixed_hypothesis_no_retuning_or_extra_samples",
+    "missing_or_failed_or_invalid_class_or_reference_or_cost_quality": "inconclusive_preserve_all_evidence_no_retry",
+    "novel_method_claim": false
+  },
+  "generated_content": {
+    "review_before_target_scores": true,
+    "review_all_16_unique_generated_images": true,
+    "rubric_simple": "One principal object, largely uniform background, no montage or multiple-scene composition.",
+    "rubric_complex": "Multiple recognizable entities with spatially structured scene/background; no montage.",
+    "per_image_fields": [
+      "intended_class",
+      "observed_class",
+      "valid_or_invalid_or_unknown",
+      "observation",
+      "reviewer_type"
+    ],
+    "independent_human_labels": null,
+    "class_failures_not_replaced": true,
+    "attack_content_retention_reported_separately": true
+  },
+  "telemetry": {
+    "existing": [
+      "loss_before_update",
+      "gradient_norm",
+      "continuous_mse",
+      "update_count",
+      "per_update_seconds",
+      "preparation_seconds",
+      "optimization_seconds",
+      "finalization_seconds",
+      "PNG_byte_MSE",
+      "PNG_Linf"
+    ],
+    "required_passive_additions": [
+      "before_after_projection_change_fraction",
+      "clamp_boundary_fraction",
+      "continuous_to_byte_MSE",
+      "quantizer_changed_pixel_fraction",
+      "quantizer_seconds"
+    ],
+    "interpretation": "Proxy loss and projection/quantization are explanatory process observations; no target-based checkpoint or tuning; not causal mediation.",
+    "adapter_status": "not implemented; requires CPU numerical noninterference checks and measured overhead before launch runtime freeze",
+    "diagnostic_overhead_counts_inside_core_budget": true
+  },
+  "resources": {
+    "host": "liyanlei@172.18.185.249",
+    "root": "/data0/liyanlei/watermark_research",
+    "max_concurrent_independent_single_gpu_jobs": 2,
+    "excluded_gpu": 6,
+    "idle_uuid_check_before_every_child": true,
+    "internal_device": "cuda:0",
+    "new_model_downloads": false,
+    "new_artifact_limit_bytes": 10737418240,
+    "attack_core_seconds": 760,
+    "total_attack_core_ceiling_seconds": 12160,
+    "worker_processes": 19,
+    "worker_breakdown": {
+      "reference_generation_batch": 1,
+      "cover_generation_batch": 1,
+      "independent_attacks": 16,
+      "post_seal_evaluator": 1
+    },
+    "generation_images": 16,
+    "proxy_reference_preparations_inside_attacks": 16,
+    "target_inverse_images": 40,
+    "expected_single_gpu_hours": [
+      3.6,
+      4.2
+    ],
+    "expected_two_idle_gpu_hours": [
+      1.9,
+      2.5
+    ],
+    "expected_new_storage_bytes_upper_estimate": 268435456,
+    "proposed_attack_watchdog_seconds": 1200,
+    "proposed_evaluator_watchdog_seconds": 1800,
+    "timing_estimate_basis": "Stage29 pixel50 actual core727–736s/attack; use conservative760 ceiling; generation/evaluation and loading allowance. Availability waits unbounded and excluded from ETA."
+  },
+  "information_boundary": "Attack job contains only authorized reference/cover PNGs, proxy config, fixed pixel50 policy and own seed. All target scores/keys/messages/noise/inversions evaluator-only.",
+  "launch_prerequisites": [
+    "parent scientific protocol review",
+    "passive telemetry integration CPU equivalence tests",
+    "fresh server Git/process/GPU audit",
+    "role-specific runtime/source hash and package freeze",
+    "actual scheduler-array checks",
+    "aggregate pretarget delivery qualification"
+  ],
+  "prior_stage29_strata_role": "posthoc descriptive attribution of predeclared task classes; reference and cover class changed together; cannot identify cover causation",
+  "pretarg_delivery_qualification": {
+    "all_16_endpoints_required": true,
+    "core_seconds_min": 684,
+    "core_seconds_max": 760,
+    "png_mse_fraction_min": 0.95,
+    "png_mse_limit": 0.00031622776601683794,
+    "linf_levels_max": 16,
+    "within_block_max_min_core_ratio_max": 1.1,
+    "within_block_max_min_mse_ratio_max": 1.05,
+    "before_target_evaluation": true,
+    "fail_or_missing": "inconclusive_no_retry"
+  }
+}

@@ -122,7 +122,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "先基于已关闭结果形成一个有文献依据、可被否定的代理迁移机制假设，明确区别于更短反演、多做更新和已有Imprint；由父线程审阅具体科学问题后再冻结独立实验。当前没有新模型实验计划或活动run。",
+  "next_action": "Review the fixed crossed-reference/cover diagnostic proposal; complete passive telemetry noninterference checks and role runtime freeze only after scientific review. Stages28/29 remain closed; no model launch yet.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -957,7 +957,16 @@
     "decision": "The frozen cross-step consistency score is not supported as an attack weighting mechanism; close this four-reference diagnostic without score tuning or added samples.",
     "next_step_proposal": "Audit which proxy-observable information can distinguish cross-model systematic bias from reference-bit uncertainty, and its difference from existing inversion/ensemble methods before another GPU protocol."
   },
-  "pending_design": null,
+  "pending_design": {
+    "stage": "30_crossed_reference_cover",
+    "status": "proposal_frozen_for_scientific_review_not_launch_runtime",
+    "protocol": "protocols/30_crossed_proposal.json",
+    "report": "reports/30_crossed_proposal/proposal.md",
+    "models_launched": 0,
+    "independent_units": 4,
+    "attacks": 16,
+    "target_inversions": 40
+  },
   "stage24_source": {
     "stage": "24",
     "status": "source_completed_verified_test_pending",

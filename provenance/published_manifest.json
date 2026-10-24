@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 5513,
-      "sha256": "82157d7d323272f7bc52b9024dcbdef7a0c36fe343b61f2e5023e40fab5c0182"
+      "bytes": 5729,
+      "sha256": "c819482e84df40b8becc2e91c042b28115076d1a1e986f76753a8887138c4be5"
     },
     {
       "path": "README.md",
@@ -313,8 +313,8 @@
     },
     {
       "path": "docs/LITERATURE.md",
-      "bytes": 13357,
-      "sha256": "5a24939e26f0f3ecf69e72627272b9dcaf8c0df7092bece1b7e7319293b9134d"
+      "bytes": 14209,
+      "sha256": "8310f34944e32b6c744257e9701391bec709c49e8ad01e70e03a187f0661a582"
     },
     {
       "path": "docs/METHOD_COMPARISON_DRAFT.md",
@@ -353,8 +353,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 2498,
-      "sha256": "83c34e13341fe20057a85f17de80b65cb1a3a7a51780bab3265ca2359a015bb5"
+      "bytes": 3088,
+      "sha256": "546d06441fdbbd383b6ec79836a21fff36decc2c9e2385d93efa21d229dd75b2"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -388,8 +388,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 48164,
-      "sha256": "a04ec50abb306ea2c4d647b907e2c191693cb6e8427416a9e5858be4a798344b"
+      "bytes": 48439,
+      "sha256": "00b066450b42accf543707c51c12a7a0d81f6a389c2cf4d08dce8b4fb51f12e8"
     },
     {
       "path": "prompts/README.md",
@@ -975,6 +975,16 @@
       "path": "protocols/29_quality_evaluator_runtime.sha256",
       "bytes": 65,
       "sha256": "e1478f80bd64a1516639ba29ffc51234920040d4e2cb676715968dae96a61cba"
+    },
+    {
+      "path": "protocols/30_crossed_proposal.json",
+      "bytes": 13024,
+      "sha256": "786574330df4d7be5cbd665f2d2009384e8a724e130328715f02e455d548b69b"
+    },
+    {
+      "path": "protocols/30_crossed_proposal.sha256",
+      "bytes": 65,
+      "sha256": "2e2796ba289cc4c9b748f5f9d7ef6aa84fd1efcfd2d7a7277fd16f8fa2dd178b"
     },
     {
       "path": "provenance/07_remote_manifest.json",
@@ -2300,6 +2310,21 @@
       "path": "reports/29_reconciliation/verification_scope.json",
       "bytes": 558,
       "sha256": "e34bf357fd424c42a561003799f4d40d6dcb8fb31c597fb3c27fe21d6cb02598"
+    },
+    {
+      "path": "reports/30_crossed_proposal/cpu_checks.json",
+      "bytes": 479,
+      "sha256": "7a6cc47fb2131abf08e6fbf89321f17a2a55ed2ca3ff931d442df3e7c4c326c0"
+    },
+    {
+      "path": "reports/30_crossed_proposal/proposal.md",
+      "bytes": 6789,
+      "sha256": "ae1035ea2ea7fcebf2c618417fe0a4c84f9d5d65710deba56c609662dbf26764"
+    },
+    {
+      "path": "reports/30_crossed_proposal/stage29_strata.json",
+      "bytes": 744,
+      "sha256": "3866a5a98e9e149ef6a2a10f6e94575dc8d00aae46f155f78e0d94693ff8e1e1"
     },
     {
       "path": "reports/cover_baseline_contract/cpu_checks.json",
@@ -21067,6 +21092,16 @@
       "sha256": "a978b73b8b2e2d1423b464298bcd333e28d6287b92979e0b321482debd9ef028"
     },
     {
+      "path": "scripts/crossed_diagnostic/contract.py",
+      "bytes": 4479,
+      "sha256": "04d903f037e2a58746f93ecfd5f3bdb1dfa096cbcf6cec64cdb0e464ca79c4a4"
+    },
+    {
+      "path": "scripts/crossed_diagnostic/test_contract.py",
+      "bytes": 4740,
+      "sha256": "5f3e3d0a6b694b086aa1e938af5eedd8edb33b4b0e9abc546d698bade3d9f06e"
+    },
+    {
       "path": "scripts/delivery_transfer/collect.py",
       "bytes": 1821,
       "sha256": "27ff67cd6d84db234e21f41cc181f9745f6d0f4ccd0b1d90499251934f2e6dac"
@@ -21887,14 +21922,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 344391625,
+  "total_bytes": 344423878,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-24T18:06:15.437137+00:00",
+  "updated_at_utc": "2026-10-24T18:19:14.936821+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
   "previous_publication_commit": "a4a15be725f45f19eb65901d15a14bfdb12cf4eb"
 }

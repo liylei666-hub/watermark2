@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.003s\n\nOK\n",
+  "models_loaded": false,
+  "new_model_experiments": 0,
+  "protocol_sha256": "786574330df4d7be5cbd665f2d2009384e8a724e130328715f02e455d548b69b",
+  "limitations": [
+    "Synthetic CPU contract and arithmetic checks; actual scheduler arrays, passive telemetry and model numerical equivalence not yet checked"
+  ]
+}
