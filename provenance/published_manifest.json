@@ -23,8 +23,8 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 6723,
-      "sha256": "a5bf83130830d7b87659afffe48fd3e92935ee9010b4b9c419b10299649872b4"
+      "bytes": 6904,
+      "sha256": "34aa15ef55fb14dd6328e9a340de75ae6b0afc684b4a16875ae3381db0213fa6"
     },
     {
       "path": "README.md",
@@ -368,8 +368,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 4088,
-      "sha256": "5b07f6765561cc3eb80bba9dce9a51ff76367a6b1f9b95f991cb9ca6237570dd"
+      "bytes": 4272,
+      "sha256": "450ac2c2bb596d2e4350eb01bdc8e5e4408bb8f65999359549ff4b105b4a5fe6"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -403,8 +403,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 48883,
-      "sha256": "6cbf86e5df16be70fe9df1f7143df2aa25e4b5778a9941241b413c3e318c74cd"
+      "bytes": 49348,
+      "sha256": "d49a5d9023a17678dbb25533a7a2d8376880eedbd89b0239a64e9e2e432e8ac6"
     },
     {
       "path": "prompts/README.md",
@@ -2410,6 +2410,26 @@
       "path": "reports/30_crossed_proposal/stage29_strata.json",
       "bytes": 744,
       "sha256": "3866a5a98e9e149ef6a2a10f6e94575dc8d00aae46f155f78e0d94693ff8e1e1"
+    },
+    {
+      "path": "reports/31_native_calibration/launch.json",
+      "bytes": 176,
+      "sha256": "38b8e9af689752b4521798c5f3b1d2a56c6fe3f8c503e842434b5fe071177bb0"
+    },
+    {
+      "path": "reports/31_native_calibration/launch_intent.json",
+      "bytes": 293,
+      "sha256": "96464cb44ac09deb5a7b5ac6fd80c4520c704de0c2d0f70d497bfdf50875908a"
+    },
+    {
+      "path": "reports/31_native_calibration/prepare_process.json",
+      "bytes": 1059,
+      "sha256": "68e5dafd7cb6af66c11782f58c70e85a5ece34a9b93a5af47d66020cff6a7d26"
+    },
+    {
+      "path": "reports/31_native_calibration/report.md",
+      "bytes": 2215,
+      "sha256": "2db68bf697de30d0ec5b1f863789e81cfbb468e1b5f87bfb88d6b67a32891f82"
     },
     {
       "path": "reports/cover_baseline_contract/cpu_checks.json",
@@ -22092,7 +22112,7 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 344717042,
+  "total_bytes": 344721615,
   "excludes": [
     ".git/",
     "third_party gitlinks",
