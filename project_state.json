@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-24T18:10:02.351426+00:00",
+  "as_of_utc": "2026-10-25T01:35:21.455845+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -116,7 +116,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Read the exact verified research commit84016dd report; stages28/29 are completed and closed. Develop and review an evidence-based independent transfer hypothesis before freezing any new experiment. Do not repeat the staged comparison.",
+  "next_action": "Read exact verified research commit a5aa77d171b7feb17625f725eaf0c1ace3005a8b stage31 report. Review independent100-pair assets and protocol; do not relaunch closed28/29 or held30. This main checkout is historical evidence plus current pointer.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -955,7 +955,10 @@
     "decision": "The frozen cross-step consistency score is not supported as an attack weighting mechanism; close this four-reference diagnostic without score tuning or added samples.",
     "next_step_proposal": "Audit which proxy-observable information can distinguish cross-model systematic bias from reference-bit uncertainty, and its difference from existing inversion/ensemble methods before another GPU protocol."
   },
-  "pending_design": null,
+  "pending_design": {
+    "status": "no_model_launch_read_current_research_pointer",
+    "stage30": "held"
+  },
   "stage24_source": {
     "stage": "24",
     "status": "source_completed_verified_test_pending",
@@ -1447,11 +1450,17 @@
   "latest_reconciled_report": "https://github.com/liylei666-hub/watermark2/blob/84016dd348740e38e52b2624e98f72d6e058a64a/reports/29_reconciliation/report.md",
   "current_state_pointer": {
     "branch": "research/stage27-recovery-20261019",
-    "commit": "84016dd348740e38e52b2624e98f72d6e058a64a",
-    "report": "https://github.com/liylei666-hub/watermark2/blob/84016dd348740e38e52b2624e98f72d6e058a64a/reports/29_reconciliation/report.md",
-    "stage28": "completed_fixed_candidate_closed",
-    "stage29": "completed_fixed_short_efficiency_claim_closed",
-    "scope": "main retains its unique historical evidence; full reconciled runtime/results live at the pinned research commit"
+    "commit": "a5aa77d171b7feb17625f725eaf0c1ace3005a8b",
+    "report_url": "https://github.com/liylei666-hub/watermark2/blob/a5aa77d171b7feb17625f725eaf0c1ace3005a8b/reports/31_native_calibration/report.md",
+    "stage31_status": "completed_four_pair_calibration_not_full_paper_replication",
+    "primary_actual_updates": 151,
+    "secondary_actual_updates": 150,
+    "pairs": 4,
+    "reference_passes": 4,
+    "clean_cover_passes": 0,
+    "primary_candidate_passes": 4,
+    "authority": "Research branch contains verified current artifacts; main preserves separate historical evidence"
   },
-  "historical_execution_fields_as_of_utc": "2026-10-19T21:23:50.740821+00:00"
+  "historical_execution_fields_as_of_utc": "2026-10-19T21:23:50.740821+00:00",
+  "historical_pending_design_main": null
 }
