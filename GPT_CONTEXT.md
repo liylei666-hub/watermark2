@@ -1,6 +1,6 @@
 # 研究接续入口
 
-**当前状态（2026-10-25 UTC）：**阶段31更正版Imprint原生代码校准已完成，实际151次更新主端点4/4普通GS通过，平均BA0.919921875、PSNR23.751050dB；参考4/4、清洁图0/4。只有4对共享身份校准，尚非100对完整论文复现或SOTA结论。权威状态与完整证据见[研究提交`a5aa77d`](https://github.com/liylei666-hub/watermark2/blob/a5aa77d171b7feb17625f725eaf0c1ace3005a8b/reports/31_native_calibration/report.md)，分支`research/stage27-recovery-20261019`。PSNR旧uint8错误与150/151索引区别已明确；阶段28/29关闭、阶段30继续hold。下一步先审查独立100对基线资产与协议，不自动启动模型。本main保留独有历史证据，下文旧阶段按历史阅读。
+**当前状态（2026-10-25 UTC）：**阶段31原生151次主端点维持4/4普通GS通过、平均BA0.919921875、PSNR23.751050dB；新增事后CPU LPIPS为0.197920425，非预注册主指标。既有AlexNet已在用户标准缓存核验，未下载模型、未改原候选/评分。完整来源与当前资产限制见[研究提交`e554c2e`](https://github.com/liylei666-hub/watermark2/blob/e554c2e6b89a1547f5d88766ef063be7620b41c0/reports/31_native_calibration_lpips_20261025/report.md)。4对共享身份不是100对完整复现或SOTA结论；六张无像素匹配不能证明未用于开发。阶段28/29关闭、阶段30和八攻击预处理对照hold。main保留独有历史证据，下文旧阶段按历史阅读。
 
 更新：2026-10-20（Asia/Shanghai）。目标为扩散语义水印黑盒伪造的方法、充分实验、可复现代码和论文初稿。用户授权自主研究、核验后正常推送GitHub。定时研究心跳已按用户要求移除。每次先核对真实进程、Git与机器账本。
 
@@ -12,7 +12,7 @@
 
 原始任务2 Jain在加载模型前失败，未重跑。r4只接续32个从未启动的攻击任务，算法未改；资源等待修复及CPU收尾均完成。整组45次工作进程启动（44成功、1失败），累计进程墙钟时间14775.389390秒。2026-10-19T21:20:54.039208+00:00实查：控制器、模型与CPU后处理均已结束，没有活动比较进程。原始run、失败和冻结文件保留。
 
-**当前下一项：**先阅读[已核验阶段31结果](https://github.com/liylei666-hub/watermark2/blob/a5aa77d171b7feb17625f725eaf0c1ace3005a8b/reports/31_native_calibration/report.md)并补齐独立基线资产/协议。阶段28/29已关闭，阶段30保持hold；本页历史计划不得视为启动指令。
+**当前下一项：**阅读[事后质量与资产审查](https://github.com/liylei666-hub/watermark2/blob/e554c2e6b89a1547f5d88766ef063be7620b41c0/reports/31_native_calibration_lpips_20261025/report.md)，审查独立100对数据及Jain原设置缺口；既有样本未获独立确认资格，不自动启动新GPU实验。
 
 ## 已验证的研究依据
 
