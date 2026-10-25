@@ -1,10 +1,12 @@
 # 扩散语义水印的黑盒伪造研究
 
-**当前状态（2026-10-25 UTC）：**阶段31四对原生校准及事后CPU质量补充已完成。完整COCO标注包已取得，大小、TFDS SHA256、ZIP CRC及双端完整流哈希通过，网络缺口已解决。冻结选择器误把静态Flickr字段当成作者路径，857张CC BY图片被该规则拒绝，单图下载0、100对确认集未完成；先审查归属字段协议修正。权威[取得链路与字段审计`188a885`](https://github.com/liylei666-hub/watermark2/blob/188a885ec4c3b0c700aa8b30b83960eacf8e524c/reports/confirmation100_assets_relay_v1/report.md)、[质量补充](https://github.com/liylei666-hub/watermark2/blob/188a885ec4c3b0c700aa8b30b83960eacf8e524c/reports/31_native_calibration_lpips_20261025/report.md)。无新模型/GPU执行，阶段30及八攻击对照保持未启动；4对校准不等于完整论文复现或SOTA。main独有历史证据保留，旧正文按历史阅读。
+**当前状态（2026-10-25 UTC）：**100 对确认资产 v1.1 已完成并发布：100 张载体、100 条唯一文本及固定配对。恢复核查通过服务器 200 份原图/PNG 的存在性、大小与 SHA256，以及315项执行封存文件哈希。[资产报告](https://github.com/liylei666-hub/watermark2/blob/e5c86c769dbb39853e8994367e4210045d782a54/reports/confirmation100_assets_v11_completed/report.md) / [恢复核验](https://github.com/liylei666-hub/watermark2/blob/e5c86c769dbb39853e8994367e4210045d782a54/reports/confirmation100_assets_v11_completed/recovery_verification_20261025.json)，研究提交 `e5c86c769dbb39853e8994367e4210045d782a54`。
+**模型实验边界：**100 对模型实验尚未启动。Stage31 已发布结果仅为4对共享身份原生校准及事后CPU LPIPS，不构成100对完整论文复现。[校准报告](https://github.com/liylei666-hub/watermark2/blob/e5c86c769dbb39853e8994367e4210045d782a54/reports/31_native_calibration/report.md) / [质量补充](https://github.com/liylei666-hub/watermark2/blob/e5c86c769dbb39853e8994367e4210045d782a54/reports/31_native_calibration_lpips_20261025/report.md)。确定性选择与像素检查采用历史服务器回执，本轮没有重跑。
+**下一项：**审阅完整 corrected native Imprint 100 对基线协议、独立私有 GS 材料及实际资源预算；100 对模型实验尚未启动。Stage30、八攻击对照和 Jain 原设置保持 hold。本轮仅发布及审阅，不启动GPU作业，不下载新模型。
 
 研究目标：在明确的攻击信息边界下研究伪造方法与误差来源，形成可复现代码、充分实验和论文初稿。
 
-**当前结果：完整方法比较已完成，交付路径Imprint的普通GS通过为6/12，原生Imprint为8/12。按冻结规则关闭该固定候选；已有证据尚未建立新方法贡献。**
+**阶段27历史结果：完整方法比较已完成，交付路径Imprint的普通GS通过为6/12，原生Imprint为8/12。按冻结规则关闭该固定候选；已有证据尚未建立新方法贡献。**
 
 - **[完整方法比较结果](reports/27_method_resume_20261019T173017Z/report.md)：** 12个独立身份任务，Imprint/delivery普通GS通过8/12与6/12；delivery平均BA低1.82个百分点，中位配对失真比0.909、核心时间比1.052。Jain交付11张、通过3张，1次原始工程失败保留。35候选封存后评估，59个分数经独立解码复核，附全部图片、逐任务表和实际时间。该历史下一项已由阶段28/29完成，最新关闭结论见页首。
 - [代理交付目标审查](docs/PROXY_DELIVERY_OBJECTIVE_CONTRACT.md)：核对Imprint、Reprompting、Jain和PnP，4项合成CPU检查通过；生成器参数化尚未建立新的跨模型迁移机制。
@@ -56,7 +58,7 @@ CUDA_VISIBLE_DEVICES="" python tools/verify_roundtrip_controls.py
 CUDA_VISIBLE_DEVICES="" python -m unittest discover -s scripts -p test_cpu_latent_audit.py -v
 ```
 
-PowerShell 先设置 `$env:CUDA_VISIBLE_DEVICES=''`。历史 GPU 脚本带有服务器路径，读取本仓库不授权执行。本轮设备为物理 GPU 0–2，单卡串行；预算与运行约束见 [AGENTS.md](AGENTS.md)。
+PowerShell 先设置 `$env:CUDA_VISIBLE_DEVICES=''`。历史 GPU 脚本带有服务器路径，读取本仓库不授权执行。本次工作为成果发布与协议审阅，不启动 GPU；历史设备范围见各阶段协议及 [AGENTS.md](AGENTS.md)，下一轮资源须另行审阅。
 
 [固定候选残差诊断](reports/18_endpoint_residual/report.md)：Imprint三对保留87%–94%的内部改善；两对出现代理与目标参考反演的候选排序反转。开发诊断已核验，完整防御接受仍未建立。
 

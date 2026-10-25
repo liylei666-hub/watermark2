@@ -23,13 +23,13 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 7153,
-      "sha256": "333cb67013b5fc7a24a5738ebad238525bf1dd3b892e41b49bd3e720e045cfed"
+      "bytes": 7619,
+      "sha256": "0a30664467ee3b2c7db3700e05cb9d699fc691ba25f39cd455fc2b86293e93cd"
     },
     {
       "path": "README.md",
-      "bytes": 8579,
-      "sha256": "1e700e22d14ce07840b0b47f9724ff394ab79f167c9f36927a837015fc7fae6c"
+      "bytes": 9242,
+      "sha256": "2d5b99756bfe2c27dbdd5ff3f1927e3c3f563a5096543722e6b1b9d06b246b39"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -348,8 +348,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 5483,
-      "sha256": "0d41d761f38f2cc0b6a362a4bd983536aca656eaceb103ff1ef8a284bce3d438"
+      "bytes": 7239,
+      "sha256": "5374a2b8bc09abc1b9c6d138aec39ba6e807815a3ab8ca83a5cd1566d7c20bb7"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -378,8 +378,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 57651,
-      "sha256": "04ab5e1c8c740dd58c3b114e9b08fed9c13ce8a396ef621548f267c60d365be4"
+      "bytes": 65987,
+      "sha256": "40c65f413d457ba476e6ddae489f120cd8017d8cc907e043e372cde0cf1cc7ec"
     },
     {
       "path": "prompts/20261020_stage27_completion_request.txt",
@@ -22767,14 +22767,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 426661162,
+  "total_bytes": 426672383,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-25T05:39:53.834722+00:00",
-  "scope": "Current published working tree; raw source manifests remain independently verified.",
-  "previous_publication_commit": "a4bccffeb453c11b6c1f67d52878e926f5dec418"
+  "updated_at_utc": "2026-10-25T17:55:18.840438+00:00",
+  "scope": "File integrity inventory for the prepared research tree; actual publication is established by Git commit and branch readback.",
+  "previous_publication_commit": "87374327d6704689db2a1686394da1bfbd80671b"
 }

@@ -1,8 +1,10 @@
 # 研究接续入口
 
-**当前状态（2026-10-25 UTC）：**阶段31四对原生校准及事后CPU质量补充已完成。完整COCO标注包已取得，大小、TFDS SHA256、ZIP CRC及双端完整流哈希通过，网络缺口已解决。冻结选择器误把静态Flickr字段当成作者路径，857张CC BY图片被该规则拒绝，单图下载0、100对确认集未完成；先审查归属字段协议修正。权威[取得链路与字段审计`188a885`](https://github.com/liylei666-hub/watermark2/blob/188a885ec4c3b0c700aa8b30b83960eacf8e524c/reports/confirmation100_assets_relay_v1/report.md)、[质量补充](https://github.com/liylei666-hub/watermark2/blob/188a885ec4c3b0c700aa8b30b83960eacf8e524c/reports/31_native_calibration_lpips_20261025/report.md)。无新模型/GPU执行，阶段30及八攻击对照保持未启动；4对校准不等于完整论文复现或SOTA。main独有历史证据保留，旧正文按历史阅读。
+**当前状态（2026-10-25 UTC）：**100 对确认资产 v1.1 已完成并发布：100 张载体、100 条唯一文本及固定配对。恢复核查通过服务器 200 份原图/PNG 的存在性、大小与 SHA256，以及315项执行封存文件哈希。[资产报告](https://github.com/liylei666-hub/watermark2/blob/e5c86c769dbb39853e8994367e4210045d782a54/reports/confirmation100_assets_v11_completed/report.md) / [恢复核验](https://github.com/liylei666-hub/watermark2/blob/e5c86c769dbb39853e8994367e4210045d782a54/reports/confirmation100_assets_v11_completed/recovery_verification_20261025.json)，研究提交 `e5c86c769dbb39853e8994367e4210045d782a54`。
+**模型实验边界：**100 对模型实验尚未启动。Stage31 已发布结果仅为4对共享身份原生校准及事后CPU LPIPS，不构成100对完整论文复现。[校准报告](https://github.com/liylei666-hub/watermark2/blob/e5c86c769dbb39853e8994367e4210045d782a54/reports/31_native_calibration/report.md) / [质量补充](https://github.com/liylei666-hub/watermark2/blob/e5c86c769dbb39853e8994367e4210045d782a54/reports/31_native_calibration_lpips_20261025/report.md)。确定性选择与像素检查采用历史服务器回执，本轮没有重跑。
+**下一项：**审阅完整 corrected native Imprint 100 对基线协议、独立私有 GS 材料及实际资源预算；100 对模型实验尚未启动。Stage30、八攻击对照和 Jain 原设置保持 hold。本轮仅发布及审阅，不启动GPU作业，不下载新模型。
 
-更新：2026-10-20（Asia/Shanghai）。目标为扩散语义水印黑盒伪造的方法、充分实验、可复现代码和论文初稿。用户授权自主研究、核验后正常推送GitHub。定时研究心跳已按用户要求移除。每次先核对真实进程、Git与机器账本。
+更新：2026-10-25 UTC。目标为扩散语义水印黑盒伪造的方法、充分实验、可复现代码和论文初稿。用户授权自主研究、核验后正常推送GitHub。定时研究心跳已按用户要求移除。每次先核对真实进程、Git与机器账本。
 
 ## 阶段27历史结果与当前接续指针
 
@@ -12,7 +14,7 @@
 
 原始任务2 Jain在加载模型前失败，未重跑。r4只接续32个从未启动的攻击任务，算法未改；资源等待修复及CPU收尾均完成。整组45次工作进程启动（44成功、1失败），累计进程墙钟时间14775.389390秒。2026-10-19T21:20:54.039208+00:00实查：控制器、模型与CPU后处理均已结束，没有活动比较进程。原始run、失败和冻结文件保留。
 
-**当前下一项：**审阅[实际元数据与冻结归属规则冲突](https://github.com/liylei666-hub/watermark2/blob/188a885ec4c3b0c700aa8b30b83960eacf8e524c/reports/confirmation100_assets_relay_v1/report.md)；保留已关闭的v1选择器失败，不放宽许可或伪造作者。先明确新协议，再考虑数据选择；不启动模型。
+**当前下一项：**审阅完整 corrected native Imprint 100 对基线协议、独立私有 GS 材料及实际资源预算；100 对模型实验尚未启动。Stage30、八攻击对照和 Jain 原设置保持 hold。
 
 ## 已验证的研究依据
 
@@ -21,7 +23,7 @@
 - [阶段21](reports/21_directional_study/report.md)：4对新图、2身份，同像素失真下反演方向相对VAE方向的目标MSE改善差均为正，但仅3/4改善载体、20候选GS均未通过。8项中心差分均超25%门槛，一阶机制未建立；正反方向只能作有限步长描述。本组关闭。
 - [阶段22](reports/22_decoder_contract/report.md)：MSE、取位、重复投票与最终阈值须分层。原论文已有bin resampling；逐图独立key/nonce与历史共享身份实验不同。
 - [目标函数审查](docs/METHOD_HYPOTHESIS.md)：最近同符号集合距离等价平方hinge，零间隔不保证负符号；半正态随机目标MSE平均等价固定均值目标加常数。基础恒等式不构成新方法或迁移保证。
-- [阶段10–15交付/成本与组件证据](docs/COVER_BASELINE_CONTRACT.md)以及[历史01–05](docs/PROJECT_STATE.md)保留原始结果和失败。[执行账本](reports/research_execution_ledger.json)现累计105进程、22027.065950秒，包含4个非零退出；原失败版本不重跑。
+- [阶段10–15交付/成本与组件证据](docs/COVER_BASELINE_CONTRACT.md)以及[历史01–05](docs/PROJECT_STATE.md)保留原始结果和失败。[执行账本](reports/research_execution_ledger.json)阶段27历史账本累计105进程、22027.065950秒，包含4个非零退出；原失败版本不重跑。
 
 ## 完整评估与新颖性边界
 
