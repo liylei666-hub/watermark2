@@ -1,9 +1,9 @@
 # 研究接续入口
 
-**当前状态（2026-10-25 UTC）：**阶段31更正版原生代码校准已完成：151次主端点4/4普通GS通过，平均BA0.919921875，PSNR23.751050dB；参考4/4、清洁图0/4。仅4对共享身份校准，不是100对完整论文复现或SOTA结论。阶段28/29关闭、阶段30继续hold，无活动模型。 [最终报告](reports/31_native_calibration/report.md)。下文旧阶段叙述按历史证据阅读。
-**2026-10-25质量补充：**CPU离线补算原封存PNG，151次平均LPIPS 0.197920425；原运行时未计算的历史保留。已有AlexNet已定位，无需新下载模型。该事后指标不改变原候选/评分，也不构成完整100对复现。[补充报告](reports/31_native_calibration_lpips_20261025/report.md)。六张无像素匹配不等于未用于开发；100对确认集、Jain原设置及阶段30/八攻击对照均未启动。
-**确认集资产状态（2026-10-25）：**完整COCO标注包已取得，TFDS SHA256、ZIP CRC及双端数据流哈希通过；网络缺口已解决。但冻结选择器错误假设Flickr字段含作者路径，857张CC BY图片均被该规则拒绝，单图下载0、100对未完成。保留失败，先审查归属字段协议修正；无模型/GPU执行。[取得链路与字段审计](reports/confirmation100_assets_relay_v1/report.md)。
-更新：2026-10-24 UTC。目标为扩散语义水印黑盒伪造的方法、充分实验、可复现代码和论文初稿。用户授权自主研究、核验后正常推送GitHub；研究心跳已按用户要求移除。每次先核对真实进程、Git与机器账本。
+**当前状态（2026-10-25 UTC）：**100 对确认资产 v1.1 已完成：100 张载体、100 条唯一文本和 100 个固定配对。恢复核查确认服务器 100 份原图、100 份 RGB512 PNG 的存在性、大小及 SHA256 全部匹配，315 项执行封存文件哈希通过。确定性选择与像素解码采用历史服务器回执，本次未重跑。[资产报告](reports/confirmation100_assets_v11_completed/report.md) / [恢复核验](reports/confirmation100_assets_v11_completed/recovery_verification_20261025.json).
+**模型实验边界：**100 对模型实验尚未启动；Stage31 已完成的结果仅为 4 对共享身份 corrected native Imprint 校准及事后 CPU LPIPS，主端点 151 次更新普通 GS 4/4、平均 BA 0.919921875、PSNR 23.751050 dB、LPIPS 0.197920425。[Stage31 报告](reports/31_native_calibration/report.md) / [质量补充](reports/31_native_calibration_lpips_20261025/report.md)。完整论文复现尚未完成。
+**下一项：**审阅完整 corrected native Imprint 100 对基线协议、独立私有 GS 材料及实际资源预算；资产按冻结清单使用，100 对模型实验尚未启动。Stage30、八攻击对照和 Jain 原设置保持 hold。
+更新：2026-10-25 UTC。目标为扩散语义水印黑盒伪造的方法、充分实验、可复现代码和论文初稿。用户授权自主研究、核验后正常推送GitHub；研究心跳已按用户要求移除。每次先核对真实进程、Git与机器账本。
 
 ## 当前结果与下一项
 
@@ -11,9 +11,9 @@
 
 完整证据与边界见[阶段28/29复核报告](reports/29_reconciliation/report.md)。阶段27也已关闭：原生Imprint/delivery为8/12、6/12；Jain任务2失败保留。
 
-先基于已关闭结果形成一个有文献依据、可被否定的代理迁移机制假设，明确区别于更短反演、多做更新和已有Imprint；由父线程审阅具体科学问题后再冻结独立实验。当前没有新模型实验计划或活动run。
+当前下一项：审阅完整 corrected native Imprint 100 对基线协议、独立私有 GS 材料及实际资源预算；资产按冻结清单使用，100 对模型实验尚未启动。Stage30、八攻击对照和 Jain 原设置保持 hold。
 
-当前具体提案：[参考×载体交叉诊断](reports/30_crossed_proposal/proposal.md)，4区组、16次固定pixel50攻击；仅CPU设计与分析检查完成，待科学审阅与执行适配，尚未启动。
+已保留的阶段30提案（hold）：[参考×载体交叉诊断](reports/30_crossed_proposal/proposal.md)，4区组、16次固定pixel50攻击；仅CPU设计与分析检查完成，待科学审阅与执行适配，尚未启动。
 
 ## 已验证的研究依据
 
@@ -35,7 +35,7 @@
 
 ## 执行范围
 
-仅在liyanlei@172.18.185.249:/data0/liyanlei/watermark_research执行模型；最多使用两张经逐子进程核对空闲的物理GPU，排除GPU6。每个独立单卡job在模型导入前按UUID绑定，内部cuda:0。CPU命令CUDA_VISIBLE_DEVICES为空；新增产物最多10GiB，不下载新模型，不干预其他用户进程。记录实际耗时与冻结协议watchdog；阶段09 seed103及阶段27 Jain任务2保持禁止重试。
+本次工作限定为成果发布与协议审阅，不启动 GPU 作业，不下载模型。历史模型工作仅位于指定服务器，设备及并发范围按各阶段记录保留；100 对模型运行需先审阅完整协议和实际资源计划。CPU 命令 CUDA_VISIBLE_DEVICES 为空。阶段09 seed103及阶段27 Jain任务2保持禁止重试。
 
 CPU明确CUDA_VISIBLE_DEVICES为空。阶段09 seed103禁止重试或补样。保护原始run、失败、配置、图片和张量；工程失败保留后先CPU检查修复，再单独冻结版本。不得扫描网络、攻击生产服务、绕过SSH/TLS验证、存凭据或联系他人。
 
@@ -46,10 +46,10 @@ CPU明确CUDA_VISIBLE_DEVICES为空。阶段09 seed103禁止重试或补样。�
 [研究计划](docs/RESEARCH_PLAN.md) / [方法假设](docs/METHOD_HYPOTHESIS.md) / [机器状态](project_state.json) / [比较契约](docs/BASELINE_COMPARISON_CONTRACT.md) / [导师Word](docs/advisor_briefing.docx) / [原始证据](docs/ARTIFACT_GUIDE.md)。只发布确定、有用且复核过的进展；精简更新当前说明，保留所有原始证据。
 
 
-当前科学hold：阶段30模型启动暂停，输入生成与攻击均为0。先解决[PSNR版本与原生基线校准审查](reports/psnr_reproducibility/report.md)。官方旧uint8 PSNR bug已在2025-05-30修复；本项目当前版本含修复。现有10更新与受约束pixel变体不能代替原生150步整表复现。
+阶段30继续hold，输入生成与攻击均为0。相关审查和已完成校准见[PSNR版本与原生基线校准审查](reports/psnr_reproducibility/report.md)。官方旧uint8 PSNR bug已在2025-05-30修复；本项目当前版本含修复。现有10更新与受约束pixel变体不能代替原生150步整表复现。
 
 
 
-## 当前原生校准执行（2026-10-24 UTC）
+## 已完成的阶段31原生校准
 
 阶段31已完成，见[最终报告](reports/31_native_calibration/report.md)。

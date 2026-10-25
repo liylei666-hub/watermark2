@@ -1,0 +1,33 @@
+--- frozen_v1_selector
++++ v1.1_selector
+@@ -3,7 +3,8 @@
+ if os.environ.get('CUDA_VISIBLE_DEVICES')!='':raise SystemExit('CPU-only data preparation')
+ import ast,collections,datetime,getpass,hashlib,json,shutil,signal,ssl,subprocess,sys,time,unicodedata,urllib.error,urllib.parse,urllib.request,zipfile
+ from pathlib import Path
+-ROOT=Path('/data0/liyanlei/watermark_research');DATA=ROOT/'datasets/confirmation100_v1';PUBLIC=ROOT/'reports/confirmation100_assets_v1';PROTOCOL=ROOT/'protocols/confirmation100_assets_v1.json'
++from confirmation_attribution import parse_flickr_source
++ROOT=Path('/data0/liyanlei/watermark_research');DATA=ROOT/'datasets/confirmation100_v11';PUBLIC=ROOT/'reports/confirmation100_assets_v11';PROTOCOL=ROOT/'protocols/confirmation100_assets_v11.json'
+ def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
+ def sha(p):
+  h=hashlib.sha256()
+@@ -125,17 +126,17 @@
+  if len(images)!=5000 or len({x['id'] for x in images})!=5000 or len(annotations)<25000:raise ValueError('Not expected COCO2017val caption metadata')
+  eligible=[];meta_rejections=[]
+  for image in images:
+-  ident=image['id'];lic=licenses.get(image.get('license'),{});u=urllib.parse.urlsplit(lic.get('url',''));flickr=urllib.parse.urlsplit(image.get('flickr_url',''));parts=flickr.path.strip('/').split('/')
++  ident=image['id'];lic=licenses.get(image.get('license'),{});u=urllib.parse.urlsplit(lic.get('url',''));source=parse_flickr_source(image.get('flickr_url'))
+   reason=None
+   if u.hostname not in ('creativecommons.org','www.creativecommons.org') or not u.path.startswith('/licenses/by/') or u.path.rstrip('/').split('/')[-1] not in ('2.0','3.0','4.0'):reason='license_not_frozen_CC_BY_allowlist'
+-  elif flickr.hostname not in ('flickr.com','www.flickr.com') or len(parts)<3 or parts[0]!='photos' or not parts[1] or not parts[2].isdigit():reason='attribution_owner_or_photo_id_missing'
++  elif source is None:reason='missing_or_unparseable_flickr_source_photo_id'
+   elif not isinstance(ident,int) or image.get('file_name')!=f'{ident:012d}.jpg' or image.get('width',0)<=0 or image.get('height',0)<=0 or image['width']*image['height']>20000000:reason='invalid_frozen_image_metadata'
+   elif ident in bank['known_explicit_coco_ids']:reason='known_historical_COCO_ID'
+   else:
+    expected=f'http://images.cocodataset.org/val2017/{ident:012d}.jpg'
+    if image.get('coco_url') not in (expected,expected.replace('http:','https:')):reason='unexpected_official_image_url'
+   if reason:meta_rejections.append(dict(coco_id=ident,reason=reason));continue
+-  eligible.append(dict(coco_id=ident,source_url=image['coco_url'],fetch_url=image['coco_url'].replace('http:','https:'),flickr_url=image['flickr_url'],creator_account_from_source_url=parts[1],creator_display_name=None,flickr_photo_id=parts[2],photo_key=parts[2],license=dict(id=lic['id'],name=lic.get('name'),url=lic['url'],basis='COCO2017 metadata declaration; not independent current-rights certification'),width=image['width'],height=image['height'],attribution=f"Flickr account {parts[1]}, photo {parts[2]}; source {image['flickr_url']}; license {lic['url']} as recorded by COCO2017"))
++  eligible.append(dict(coco_id=ident,source_url=image['coco_url'],fetch_url=image['coco_url'].replace('http:','https:'),flickr_url=image['flickr_url'],creator_account_from_source_url=source['creator_account_from_source_url'],creator_display_name=None,flickr_photo_id=source['flickr_photo_id'],photo_key=source['photo_key'],source_form=source['source_form'],creator_status=source['creator_status'],redistribution_status=source['redistribution_status'],license=dict(id=lic['id'],name=lic.get('name'),url=lic['url'],basis='COCO2017 metadata declaration; not independent current-rights certification'),width=image['width'],height=image['height'],attribution=f"COCO2017 source photo {source['flickr_photo_id']}; original URL {image['flickr_url']}; creator account {source['creator_account_from_source_url'] or 'unknown'}; license {lic['url']} as recorded by COCO2017; redistribution not cleared"))
+  write(PUBLIC/'metadata_audit.json',dict(metadata_download=meta_download,caption_metadata_sha256=sha(metadata_path),images=len(images),captions=len(annotations),eligible_images=len(eligible),rejections=meta_rejections,license_policy=protocol['license_policy']))
+  if len(eligible)<200:raise RuntimeError('Fewer than200 eligible source identities; do not relax frozen license rules')
+  known_files={x['file_sha256'] for x in bank['images']+bank['image_failures']};known_pixels={x['rgb_pixel_sha256'] for x in bank['images']};known_canonical={x['canonical_rgb512_pixel_sha256'] for x in bank['images']};phashes=[(int(x['phash64'],16),x['path']) for x in bank['images']]

@@ -1,0 +1,33 @@
+{
+  "cover_candidates": [],
+  "caption_sources": [
+    {
+      "coco_id": 365208,
+      "reason": "cover_or_caption_source_overlap"
+    },
+    {
+      "coco_id": 214205,
+      "reason": "cover_or_caption_source_overlap"
+    },
+    {
+      "coco_id": 143572,
+      "reason": "cover_or_caption_source_overlap"
+    },
+    {
+      "coco_id": 60899,
+      "reason": "cover_or_caption_source_overlap"
+    },
+    {
+      "coco_id": 11149,
+      "reason": "cover_or_caption_source_overlap"
+    },
+    {
+      "coco_id": 43737,
+      "reason": "cover_or_caption_source_overlap"
+    },
+    {
+      "coco_id": 382125,
+      "reason": "cover_or_caption_source_overlap"
+    }
+  ]
+}

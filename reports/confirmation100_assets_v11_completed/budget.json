@@ -1,0 +1,16 @@
+{
+  "before": {
+    "artifact_bytes_excluding_existing_cache_env_git": 1069152913,
+    "dataset_bytes": 64453427,
+    "free_disk_bytes": 547078037504
+  },
+  "after": {
+    "artifact_bytes_excluding_existing_cache_env_git": 1070917351,
+    "dataset_bytes": 64942727,
+    "free_disk_bytes": 547075551232
+  },
+  "actual_dataset_bytes": 64942727,
+  "limit_new_artifacts": 10737418240,
+  "dataset_limit": 536870912,
+  "existing_model_cache_env_git_excluded": true
+}

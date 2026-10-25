@@ -1,0 +1,11 @@
+{
+  "index": 23,
+  "canonical_url": "https://images.cocodataset.org/val2017/000000477288.jpg",
+  "actual_source_url": "https://s3.us-east-1.amazonaws.com/images.cocodataset.org/val2017/000000477288.jpg",
+  "http_status": 200,
+  "tls_verification_disabled": false,
+  "bytes": 163874,
+  "sha256": "b03abc9ddfb262030d239d7052951a776df42761d7d89cd598af9c434cfce94f",
+  "download_seconds": 1.358036,
+  "verified_at_utc": "2026-10-25T05:48:56.378238+00:00"
+}

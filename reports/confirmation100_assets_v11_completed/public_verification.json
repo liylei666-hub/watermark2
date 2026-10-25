@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "sealed_execution_artifacts": 315,
+  "covers": 100,
+  "unique_captions": 100,
+  "disjoint_source_identities": 200,
+  "parser_correction_diff_verified": true,
+  "frozen_seed_ranking_exclusions_preprocessing_unchanged": true,
+  "manifest_sha256": "a41bbad8a755418cbc06f83a6660f170dd0b48d5b9cb31d31d434d42657c8220",
+  "downloaded_image_candidates": 100,
+  "public_transfer_hash_bindings": 100,
+  "server_original_and_RGB512_file_hashes_attested": 200,
+  "combined_dataset_copy_bytes": 423966994,
+  "images_redistributed": false,
+  "unknown_creator_accounts": 100,
+  "model_or_GPU_experiments_started": 0,
+  "scope": "Public seal/protocol/selection/receipt checks. Actual original/PNG decoding and deterministic replay were executed on server and recorded separately. Finite historical exclusions do not prove all prior development or model-training use absent."
+}

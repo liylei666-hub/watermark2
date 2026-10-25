@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-25T05:46:31.999242+00:00",
+  "protocol_sha256": "3d89100585bacc14bffba10423d46a2d62c712fbc7d3a634d0b758c9f1496f7f",
+  "worker_sha256": "ef6fa9eb039fff19f1643ff67bc706740a9e343e8513a3e8600add8bec7d0796",
+  "relay_wrapper_sha256": "b222dc8861c9a96817582b633d32a15249cecd6d71c95dac4259f59ac5b3e3c0",
+  "coverage_sha256": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe",
+  "budget_before": {
+    "artifact_bytes_excluding_existing_cache_env_git": 1004110210,
+    "dataset_bytes": 793786,
+    "free_disk_bytes": 546620506112
+  },
+  "no_models": true,
+  "no_service_credentials": true,
+  "transport": "Windows verified HTTPS acquisition plus SSH/SCP; original selector unchanged; metadata container contains only byte-identical captions_val2017 member"
+}

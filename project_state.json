@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-25T05:37:13.850196+00:00",
+  "as_of_utc": "2026-10-25T17:47:26.677422+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -29,9 +29,10 @@
     "26",
     "27",
     "28",
-    "29"
+    "29",
+    "31"
   ],
-  "current_stage_status": "stage28_29_closed_public_results_reconciled",
+  "current_stage_status": "assets_ready_for_full_baseline_protocol_review_model_experiments_not_started",
   "new_experiment_authorized_by_archive": false,
   "formal_model_runs_by_stage": {
     "01": 0,
@@ -62,13 +63,14 @@
     "26": 0,
     "27": 45,
     "28": 15,
-    "29": 36
+    "29": 36,
+    "31": 6
   },
   "historical_seed1_stage02_stage04_images_equal": true,
-  "data_role": "development_pilot",
-  "latest_report": "reports/29_reconciliation/report.md",
-  "latest_status": "reports/29_reconciliation/public_recheck.json",
-  "latest_protocol": "protocols/29_quality_design.json",
+  "data_role": "frozen_baseline_confirmation_assets_with_finite_historical_exclusion_audit",
+  "latest_report": "reports/confirmation100_assets_v11_completed/report.md",
+  "latest_status": "reports/confirmation100_assets_v11_completed/recovery_verification_20261025.json",
+  "latest_protocol": "protocols/confirmation100_assets_v11.json",
   "geometry_threshold": null,
   "geometry_accepted": null,
   "full_official_geometry_evaluation_completed": false,
@@ -81,48 +83,35 @@
     "matched content/distortion and compute comparison",
     "official geometry scoring function numerical equivalence"
   ],
-  "as_of_local_date": "2026-10-24",
+  "as_of_local_date": "2026-10-25",
   "as_of_timezone": "UTC",
   "research_plan": "docs/RESEARCH_PLAN.md",
   "literature": "docs/LITERATURE.md",
-  "latest_completed_analysis": "reports/29_reconciliation/public_recheck.json",
-  "experiments_paused": false,
-  "experiment_resume_requires_user_instruction": false,
+  "latest_completed_analysis": "reports/confirmation100_assets_v11_completed/recovery_verification_20261025.json",
+  "experiments_paused": true,
+  "experiment_resume_requires_user_instruction": true,
   "current_round_gpu_seconds_used": 52157.23254724406,
   "current_round_model_processes_started": 156,
-  "allowed_gpu_physical_indices": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    7
-  ],
+  "allowed_gpu_physical_indices": [],
   "excluded_gpu_physical_indices": [
     6
   ],
   "selected_gpu_uuid": null,
   "authorization": {
-    "total_gpu_process_seconds": null,
-    "max_process_seconds": null,
-    "max_new_bytes": 10737418240,
+    "scope": "publication_and_protocol_planning_only",
+    "gpu_launch_authorized": false,
     "new_model_downloads": false,
-    "serial": false,
-    "gpu_time_budget_removed_by_user_at_utc": "2026-10-17T06:13:57.675056+00:00",
-    "amendment_user_text": "继续，之后不用考虑gpu用量时间",
+    "max_concurrent_gpu_processes": 0,
     "exclusive_gpu_host": "liyanlei@172.18.185.249",
     "local_gpu_execution": false,
     "other_server_execution": false,
-    "host_scope_user_text": "以后只用249的空闲显卡",
-    "max_concurrent_gpu_processes": 2,
-    "scope_source": "current user supplied transcript, supersedes historical device/concurrency scopes"
+    "scope_source": "Current publication task; full100-pair execution requires reviewed protocol and resources."
   },
   "research_feasibility": "conditional",
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Review a new attribution-schema protocol: real COCO flickr_url values are static image URLs, not owner/photos pages. Original selector closed with0 eligible despite857 metadata-declared CC BY images; preserve failure. Full archive/member and SSH stream hashes verified. No silent rule relaxation, no repeated selector or new model/GPU launch.",
+  "next_action": "审阅完整 corrected native Imprint 100 对基线协议、独立私有 GS 材料及实际资源预算；资产按冻结清单使用，100 对模型实验尚未启动。Stage30、八攻击对照和 Jain 原设置保持 hold。",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -137,7 +126,7 @@
   "selected_gpu_physical_index": null,
   "active_run": null,
   "current_round_gpu_seconds_remaining": null,
-  "last_completed_run": "runs/29_quality_cost_20261020T000701Z",
+  "last_completed_run": "runs/31_native_calibration_20261024T190323Z",
   "prompt_control_observation": {
     "paired_seeds": 3,
     "aggregates": {
@@ -201,7 +190,7 @@
       "bit_accuracy_same_minus_changed": 0.009114583333333334
     }
   },
-  "last_attempted_run": "runs/29_quality_cost_20261020T000701Z",
+  "last_attempted_run": "runs/31_native_calibration_20261024T190323Z",
   "autonomous_continuation_authorized": true,
   "target_roundtrip_observation": {
     "same_prompt": {
@@ -532,7 +521,7 @@
     "cumulative_gpu_process_seconds": 2206.407460845541,
     "next_step": "Freeze one minimal real cached-VAE core-equivalence and timing check on development inputs before a separately frozen independent comparison; do not run the upstream full entry."
   },
-  "next_step_proposal": "先基于已关闭结果形成一个有文献依据、可被否定的代理迁移机制假设，明确区别于更短反演、多做更新和已有Imprint；由父线程审阅具体科学问题后再冻结独立实验。当前没有新模型实验计划或活动run。",
+  "next_step_proposal": "审阅完整 corrected native Imprint 100 对基线协议、独立私有 GS 材料及实际资源预算；资产按冻结清单使用，100 对模型实验尚未启动。Stage30、八攻击对照和 Jain 原设置保持 hold。",
   "vae_core_equivalence": {
     "stage": "13",
     "checked_at_utc": "2026-10-17T20:33:24.452469+00:00",
@@ -625,7 +614,7 @@
     "protocol": "protocols/17_cover_pilot.json",
     "next_step": "Launch the frozen stage17 serial pilot after a fresh idle check; stop on any engineering failure."
   },
-  "last_updated_utc": "2026-10-24T18:06:15.437137+00:00",
+  "last_updated_utc": "2026-10-25T17:47:26.677422+00:00",
   "cover_pilot": {
     "stage": "17",
     "checked_at_utc": "2026-10-18T00:30:28.738802+00:00",
@@ -1269,7 +1258,7 @@
     "attacks": 16,
     "target_inversions": 40
   },
-  "current_stage": "31_corrected_native_calibration_completed",
+  "current_stage": "confirmation100_assets_v11_completed_stage31_calibration_only",
   "stage31": {
     "status": "completed_calibration_only",
     "run_dir": "/data0/liyanlei/watermark_research/runs/31_native_calibration_20261024T190323Z",
@@ -1315,30 +1304,27 @@
   "asset_review": {
     "receipt": "reports/31_native_calibration_lpips_20261025/asset_review.json",
     "alexnet_existing_cache_verified": true,
-    "independent100_pair_manifest_ready": false,
+    "independent100_pair_manifest_ready": true,
     "six_unmatched_images_prove_unused": false,
-    "jain_original_sd14_missing_in_reviewed_locations": true
+    "jain_original_sd14_missing_in_reviewed_locations": true,
+    "independence_scope": "200 source IDs disjoint; finite historical exclusions passed, not proof of all prior development/training absence"
   },
   "confirmation100_assets": {
-    "status": "metadata_verified_frozen_attribution_schema_invalid",
-    "protocol": "protocols/confirmation100_assets_v1.json",
-    "protocol_sha256": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648",
-    "report": "reports/confirmation100_assets_relay_v1/report.md",
+    "status": "assets_ready_for_baseline_protocol_review_not_model_launch",
+    "protocol": "protocols/confirmation100_assets_v11.json",
+    "protocol_sha256": "3d89100585bacc14bffba10423d46a2d62c712fbc7d3a634d0b758c9f1496f7f",
+    "report": "reports/confirmation100_assets_v11_completed/report.md",
     "metadata_attempts": 9,
-    "successful_downloads": 0,
-    "covers": 0,
-    "captions": 0,
-    "dataset_bytes": 4666640,
+    "successful_downloads": 101,
+    "covers": 100,
+    "captions": 100,
+    "dataset_bytes": 64942727,
     "coverage_images": 579,
     "independent_unused_proven": false,
     "model_experiments_started": 0,
     "watermark_or_service_credentials_generated": false,
-    "recovery_retry_used": true,
     "active_acquisition_processes": 0,
     "coverage_sha256": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe",
-    "windows_gateway_attempts": 1,
-    "windows_curl_exit_code": 60,
-    "windows_certificate_error": "SEC_E_WRONG_PRINCIPAL",
     "scp_started": true,
     "metadata_package_verified": true,
     "metadata_package_bytes": 252907541,
@@ -1347,8 +1333,82 @@
     "zip_CRC_passed": true,
     "server_stream_sha256_matches": true,
     "CC_BY_images": 857,
-    "eligible_under_frozen_rule": 0,
-    "combined_dataset_copy_bytes": 342095188,
-    "single_images_downloaded": 0
+    "eligible_under_frozen_rule": 857,
+    "combined_dataset_copy_bytes": 423966994,
+    "single_images_downloaded": 100,
+    "revision": "v1.1",
+    "manifest": "reports/confirmation100_assets_v11_completed/manifest.json",
+    "manifest_sha256": "a41bbad8a755418cbc06f83a6660f170dd0b48d5b9cb31d31d434d42657c8220",
+    "disjoint_source_identities": 200,
+    "verified_source_objects": 101,
+    "success_count_basis": "one assembled metadata package and100 individual cover images; HTTP attempt history kept separately",
+    "all_server_confirmation_dataset_bytes": 69609367,
+    "deterministic_selection_replay": "passed",
+    "original_and_RGB512_hashes_verified": 200,
+    "unknown_cover_creator_accounts": 100,
+    "image_redistribution_cleared": false,
+    "network_collector_closed_failure": true,
+    "offline_completion_passed": true,
+    "acquisition_history": {
+      "metadata_GET_attempts": 9,
+      "server_canonical_timeouts": 2,
+      "windows_canonical_certificate_failures": 2,
+      "Google_path_HTTP404": 1,
+      "SJTU_attempts": 3,
+      "official_S3_range_completion": 1,
+      "individual_image_HTTP200": 100,
+      "historical_failure_records_preserved": true
+    },
+    "current_recovery_receipt": "reports/confirmation100_assets_v11_completed/recovery_verification_20261025.json",
+    "current_file_integrity_check": "passed_200_files_2026-10-25T17:41:32.592168+00:00"
+  },
+  "historical_current_index_through_stage29": {
+    "current_stage_status": "stage28_29_closed_public_results_reconciled",
+    "latest_status": "reports/29_reconciliation/public_recheck.json",
+    "last_completed_run": "runs/29_quality_cost_20261020T000701Z",
+    "last_attempted_run": "runs/29_quality_cost_20261020T000701Z",
+    "current_round_model_processes_started": 156,
+    "current_round_gpu_seconds_used": 52157.23254724406,
+    "last_updated_utc": "2026-10-24T18:06:15.437137+00:00",
+    "next_step_proposal": "先基于已关闭结果形成一个有文献依据、可被否定的代理迁移机制假设，明确区别于更短反演、多做更新和已有Imprint；由父线程审阅具体科学问题后再冻结独立实验。当前没有新模型实验计划或活动run。",
+    "latest_report": "reports/29_reconciliation/report.md",
+    "latest_protocol": "protocols/29_quality_design.json",
+    "as_of_local_date": "2026-10-24",
+    "latest_completed_analysis": "reports/29_reconciliation/public_recheck.json",
+    "data_role": "development_pilot"
+  },
+  "current_round_usage_scope": "Historical ledger through stage29, excluding stage31 six processes and posthoc CPU metrics; not a current cumulative total. Original values preserved pending ledger-wide reconciliation.",
+  "full_100_pair_model_experiments_started": 0,
+  "current_task_scope": "publication_and_protocol_planning_only_no_model_launch",
+  "historical_execution_authorization_before_publication": {
+    "authorization": {
+      "total_gpu_process_seconds": null,
+      "max_process_seconds": null,
+      "max_new_bytes": 10737418240,
+      "new_model_downloads": false,
+      "serial": false,
+      "gpu_time_budget_removed_by_user_at_utc": "2026-10-17T06:13:57.675056+00:00",
+      "amendment_user_text": "继续，之后不用考虑gpu用量时间",
+      "exclusive_gpu_host": "liyanlei@172.18.185.249",
+      "local_gpu_execution": false,
+      "other_server_execution": false,
+      "host_scope_user_text": "以后只用249的空闲显卡",
+      "max_concurrent_gpu_processes": 2,
+      "scope_source": "current user supplied transcript, supersedes historical device/concurrency scopes"
+    },
+    "allowed_gpu_physical_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "excluded_gpu_physical_indices": [
+      6
+    ],
+    "experiments_paused": false,
+    "experiment_resume_requires_user_instruction": false
   }
 }

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/data0/liyanlei/watermark_research/tools/relay_confirmation100_assets_v11.py", line 94, in <module>
+    a.prepare()
+  File "/data0/liyanlei/watermark_research/tools/prepare_confirmation100_assets_v11.py", line 149, in prepare
+    ident=image['coco_id'];source=DATA/'originals'/f'{ident:012d}.jpg';download=fetch(image['fetch_url'],source,8*1024**2)
+  File "/data0/liyanlei/watermark_research/tools/relay_confirmation100_assets_v11.py", line 34, in fetch
+    receipt=a.read(ready);assert receipt['index']==ident and receipt['canonical_url']==url
+  File "/data0/liyanlei/watermark_research/tools/prepare_confirmation100_assets_v11.py", line 14, in read
+    def read(p):return json.loads(Path(p).read_text(encoding='utf8'))
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

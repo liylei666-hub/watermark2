@@ -1,0 +1,18 @@
+{
+  "parser_cases": 8,
+  "parser_windows_seconds": 0.001,
+  "parser_server_seconds": 0.001,
+  "relay_boundary_cases": 5,
+  "relay_windows_seconds": 0.265,
+  "atomic_receipt_cases": 4,
+  "atomic_receiver_server_seconds": 0.003,
+  "atomic_windows_result": "3 passed; complete-publication case denied by Windows sandbox hardlink permission. No Windows hardlink retry; atomic publisher executes on Linux receiver, where all4 cases passed.",
+  "real_metadata_parse": {
+    "images": 5000,
+    "reliable_photo_ids": 5000,
+    "creator_account_unknown": 5000
+  },
+  "same_original_seed_counts_ranking_exclusions_preprocessing_budgets": true,
+  "offline_replay_passed": true,
+  "new_model_or_GPU_experiments": 0
+}

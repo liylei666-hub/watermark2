@@ -1,14 +1,14 @@
 # 扩散语义水印的黑盒伪造研究
 
-**当前状态（2026-10-25 UTC）：**阶段31更正版原生代码校准已完成：151次主端点4/4普通GS通过，平均BA0.919921875，PSNR23.751050dB；参考4/4、清洁图0/4。仅4对共享身份校准，不是100对完整论文复现或SOTA结论。阶段28/29关闭、阶段30继续hold，无活动模型。 [最终报告](reports/31_native_calibration/report.md)。下文旧阶段叙述按历史证据阅读。
-**2026-10-25质量补充：**CPU离线补算原封存PNG，151次平均LPIPS 0.197920425；原运行时未计算的历史保留。已有AlexNet已定位，无需新下载模型。该事后指标不改变原候选/评分，也不构成完整100对复现。[补充报告](reports/31_native_calibration_lpips_20261025/report.md)。六张无像素匹配不等于未用于开发；100对确认集、Jain原设置及阶段30/八攻击对照均未启动。
-**确认集资产状态（2026-10-25）：**完整COCO标注包已取得，TFDS SHA256、ZIP CRC及双端数据流哈希通过；网络缺口已解决。但冻结选择器错误假设Flickr字段含作者路径，857张CC BY图片均被该规则拒绝，单图下载0、100对未完成。保留失败，先审查归属字段协议修正；无模型/GPU执行。[取得链路与字段审计](reports/confirmation100_assets_relay_v1/report.md)。
+**当前状态（2026-10-25 UTC）：**100 对确认资产 v1.1 已完成：100 张载体、100 条唯一文本和 100 个固定配对。恢复核查确认服务器 100 份原图、100 份 RGB512 PNG 的存在性、大小及 SHA256 全部匹配，315 项执行封存文件哈希通过。确定性选择与像素解码采用历史服务器回执，本次未重跑。[资产报告](reports/confirmation100_assets_v11_completed/report.md) / [恢复核验](reports/confirmation100_assets_v11_completed/recovery_verification_20261025.json).
+**模型实验边界：**100 对模型实验尚未启动；Stage31 已完成的结果仅为 4 对共享身份 corrected native Imprint 校准及事后 CPU LPIPS，主端点 151 次更新普通 GS 4/4、平均 BA 0.919921875、PSNR 23.751050 dB、LPIPS 0.197920425。[Stage31 报告](reports/31_native_calibration/report.md) / [质量补充](reports/31_native_calibration_lpips_20261025/report.md)。完整论文复现尚未完成。
+**下一项：**审阅完整 corrected native Imprint 100 对基线协议、独立私有 GS 材料及实际资源预算；资产按冻结清单使用，100 对模型实验尚未启动。Stage30、八攻击对照和 Jain 原设置保持 hold。
 研究目标：在明确的攻击信息边界下研究伪造方法与误差来源，形成可复现代码、充分实验和论文初稿。
 
-**当前状态：阶段27–29固定候选均已关闭，尚未建立新方法贡献。**
+**阶段27–29开发结果：固定候选已关闭，尚未建立新方法贡献。**
 
 - [阶段28/29结果与独立公共复核](reports/29_reconciliation/report.md)：阶段28和29已完成，两个固定假设均按冻结规则关闭。阶段28三组均4/4普通GS通过；分阶段平均BA为0.906250，低于固定短轨迹0.930664，相对native50的中位像素MSE比2.644049。阶段29在16对独立提示组、固定PNG质量与约760秒核心预算下，pixel50/pixel10通过10/16与9/16，平均BA差(pixel10−pixel50)为−0.00048828125，6对提高、2对持平，描述性配对bootstrap95%区间[−0.013671875,0.01318359375]。
-- 下一项：先基于已关闭结果形成一个有文献依据、可被否定的代理迁移机制假设，明确区别于更短反演、多做更新和已有Imprint；由父线程审阅具体科学问题后再冻结独立实验。当前没有新模型实验计划或活动run。
+- 下一项：审阅完整 corrected native Imprint 100 对基线协议、独立私有 GS 材料及实际资源预算；资产按冻结清单使用，100 对模型实验尚未启动。Stage30、八攻击对照和 Jain 原设置保持 hold。
 
 - [代理交付目标审查](docs/PROXY_DELIVERY_OBJECTIVE_CONTRACT.md)：核对Imprint、Reprompting、Jain和PnP，4项合成CPU检查通过；生成器参数化尚未建立新的跨模型迁移机制。
 - [固定校正配对交付](reports/25_delivery_transfer/report.md)：参考位恢复改善没有传递到最终图像，消息准确率均值0.937012→0.882812，7/8下降、1/8持平。普通GS两组均8/8通过；按预定规则关闭该映射。
@@ -59,7 +59,7 @@ CUDA_VISIBLE_DEVICES="" python tools/verify_roundtrip_controls.py
 CUDA_VISIBLE_DEVICES="" python -m unittest discover -s scripts -p test_cpu_latent_audit.py -v
 ```
 
-PowerShell 先设置 `$env:CUDA_VISIBLE_DEVICES=''`。历史 GPU 脚本带有服务器路径，读取本仓库不授权执行。本轮设备为物理 GPU 0–2，单卡串行；预算与运行约束见 [AGENTS.md](AGENTS.md)。
+PowerShell 先设置 `$env:CUDA_VISIBLE_DEVICES=''`。历史 GPU 脚本带有服务器路径，读取本仓库不授权执行。本次工作为成果发布与协议审阅，不启动 GPU；历史设备范围见各阶段协议及 [AGENTS.md](AGENTS.md)，下一轮资源须另行审阅。
 
 [固定候选残差诊断](reports/18_endpoint_residual/report.md)：Imprint三对保留87%–94%的内部改善；两对出现代理与目标参考反演的候选排序反转。开发诊断已核验，完整防御接受仍未建立。
 

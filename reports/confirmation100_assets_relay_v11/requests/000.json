@@ -1,0 +1,7 @@
+{
+  "index": 0,
+  "canonical_url": "https://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "destination": "datasets/confirmation100_relay_v11/metadata/annotations_trainval2017.zip",
+  "limit_bytes": 268435456,
+  "created_at_utc": "2026-10-25T05:46:33.893269+00:00"
+}

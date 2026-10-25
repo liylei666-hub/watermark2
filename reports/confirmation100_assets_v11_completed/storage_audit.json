@@ -1,0 +1,14 @@
+{
+  "observed_at_utc": "2026-10-25T06:16:02.533785+00:00",
+  "windows_gateway_bytes_including_failed_partials_and_logs": 354357627,
+  "all_server_confirmation_dataset_bytes": 69609367,
+  "combined_dataset_copy_bytes": 423966994,
+  "dataset_cap_bytes": 536870912,
+  "workspace_conservative_bytes_excluding_git_env_cache": 1246238419,
+  "server_project_bytes_excluding_existing_git_env_cache": 1071384845,
+  "conservative_combined_workspace_plus_server_bytes": 2317623264,
+  "artifact_cap_bytes": 10737418240,
+  "full_metadata_package_not_downloaded_again": true,
+  "offline_completion_image_downloads": 0,
+  "raw_images_not_redistributed": true
+}

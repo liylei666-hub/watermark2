@@ -1,0 +1,43 @@
+--- frozen_v1.1_selector
++++ offline_materialization_only
+@@ -115,13 +115,16 @@
+  if sha(PROTOCOL)!=PROTOCOL.with_suffix('.sha256').read_text().strip() or sha(PROTOCOL)!=read(PUBLIC/'launch.json')['protocol_sha256'] or sha(__file__)!=read(PUBLIC/'launch.json')['worker_sha256']:raise ValueError('Frozen protocol/source changed')
+  before=read(PUBLIC/'launch.json')['budget_before'];write(PUBLIC/'protocol_snapshot.json',protocol)
+  status('freezing_prior_coverage');bank=prior_coverage();write(PUBLIC/'prior_coverage.json',bank);event('rules_and_coverage_frozen',protocol_sha256=sha(PROTOCOL),coverage_sha256=sha(PUBLIC/'prior_coverage.json'))
+- status('fetching_metadata');meta=DATA/'metadata';meta.mkdir();archive=meta/'annotations_trainval2017.zip';meta_download=fetch(protocol['metadata_url'],archive,256*1024**2)
++ status('fetching_metadata');meta=DATA/'metadata';meta.mkdir(exist_ok=True);archive=meta/'annotations_trainval2017.zip';meta_download=fetch(protocol['metadata_url'],archive,256*1024**2)
+  with zipfile.ZipFile(archive) as z:
+   member=z.getinfo('annotations/captions_val2017.json')
+   if member.file_size>16*1024**2:raise ValueError('Metadata member too large')
+   raw=z.read(member)
+  budget(len(raw));metadata_path=meta/'captions_val2017.json'
+- with metadata_path.open('xb') as f:f.write(raw)
++ if metadata_path.exists():
++  if metadata_path.read_bytes()!=raw:raise ValueError('Existing metadata bytes differ; preserve and stop')
++ else:
++  with metadata_path.open('xb') as f:f.write(raw)
+  document=json.loads(raw);images=document['images'];annotations=document['annotations'];licenses={int(x['id']):x for x in document['licenses']}
+  if len(images)!=5000 or len({x['id'] for x in images})!=5000 or len(annotations)<25000:raise ValueError('Not expected COCO2017val caption metadata')
+  eligible=[];meta_rejections=[]
+@@ -140,7 +143,7 @@
+  write(PUBLIC/'metadata_audit.json',dict(metadata_download=meta_download,caption_metadata_sha256=sha(metadata_path),images=len(images),captions=len(annotations),eligible_images=len(eligible),rejections=meta_rejections,license_policy=protocol['license_policy']))
+  if len(eligible)<200:raise RuntimeError('Fewer than200 eligible source identities; do not relax frozen license rules')
+  known_files={x['file_sha256'] for x in bank['images']+bank['image_failures']};known_pixels={x['rgb_pixel_sha256'] for x in bank['images']};known_canonical={x['canonical_rgb512_pixel_sha256'] for x in bank['images']};phashes=[(int(x['phash64'],16),x['path']) for x in bank['images']]
+- selected=[];rejections=[];used_photos=set();(DATA/'originals').mkdir();(DATA/'rgb512').mkdir();status('fetching_cover_candidates')
++ selected=[];rejections=[];used_photos=set();(DATA/'originals').mkdir(exist_ok=True);(DATA/'rgb512').mkdir(exist_ok=True);status('fetching_cover_candidates')
+  from PIL import Image
+  for image in sorted(eligible,key=lambda x:rank(protocol['seed'],'cover',x['coco_id'])):
+   if len(selected)==100:break
+@@ -160,7 +163,11 @@
+    if nearest[0]<=4:hit='historical_or_selected_phash_le4'
+   if hit:rejections.append(dict(coco_id=ident,reason=hit,source_sha256=download['sha256'],features=features,nearest=nearest if hit.endswith('le4') else None));event('cover_excluded',coco_id=ident,reason=hit);continue
+   path=DATA/'rgb512'/f'{ident:012d}.png';budget(2*1024**2)
+-  with path.open('xb') as f:canonical.save(f,format='PNG')
++  if path.exists():
++   with Image.open(path) as previous_png:
++    if previous_png.mode!='RGB' or previous_png.size!=(512,512) or previous_png.tobytes()!=canonical.tobytes():raise ValueError('Existing PNG pixels differ; preserve and stop')
++  else:
++   with path.open('xb') as f:canonical.save(f,format='PNG')
+   row=dict(**image,rank_sha256=rank(protocol['seed'],'cover',ident),source_file=download,dedup_features=features,minimum_prior_or_selected_phash_distance=nearest[0],preprocessed=dict(path=path.relative_to(ROOT).as_posix(),bytes=path.stat().st_size,sha256=sha(path),rgb512_pixel_sha256=features['canonical_rgb512_pixel_sha256']))
+   selected.append(row);used_photos.add(image['photo_key']);known_files.add(download['sha256']);known_pixels.add(features['rgb_pixel_sha256']);known_canonical.add(features['canonical_rgb512_pixel_sha256']);phashes.append((int(features['phash64'],16),'selected:'+str(ident)))
+   if len(selected)%10==0:status('fetching_cover_candidates',accepted=len(selected),downloaded=sum(1 for _ in (DATA/'originals').glob('*.jpg')));print('COVERS_ACCEPTED',len(selected),flush=True)

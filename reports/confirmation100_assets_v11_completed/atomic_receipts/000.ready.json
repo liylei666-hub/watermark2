@@ -1,0 +1,14 @@
+{
+  "index": 0,
+  "canonical_url": "https://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "actual_source_url": "https://s3.us-east-1.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "http_status": 200,
+  "tls_verification_disabled": false,
+  "bytes": 792973,
+  "sha256": "af4d72f25572038f51fe26d96fd67d9f865f06c4b80d5f70dea2ba2e23736e2f",
+  "full_archive_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+  "member_sha256": "afe3b30e403dd7f228e2373023abbd60042a6e10ec6874d3652df034d289ebb9",
+  "transport_derivation": "Mechanically repack only verified captions_val2017.json bytes; not the original full ZIP",
+  "verified_at_utc": "2026-10-25T05:46:29.644258+00:00",
+  "full_zip_sha256_matches_server_stream": true
+}

@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-10-25T06:07:02.699863+00:00",
+  "protocol_sha256": "3d89100585bacc14bffba10423d46a2d62c712fbc7d3a634d0b758c9f1496f7f",
+  "worker_sha256": "1dd86e9b131493867059bfc6d5fe5a5fe8cf323287a8ac7bf233c7a4501ad280",
+  "relay_wrapper_sha256": "1a75c221947f84fe891a631db326e4b4ce63186034859ac7f0526184facf9145",
+  "completion_plan_sha256": "f2014cf414209631922e8768044cf30228f727a39baffc2417df33dd97730f9f",
+  "budget_before": {
+    "artifact_bytes_excluding_existing_cache_env_git": 1069152913,
+    "dataset_bytes": 64453427,
+    "free_disk_bytes": 547078037504
+  },
+  "no_models": true,
+  "no_service_credentials": true,
+  "network_requests": 0,
+  "scope": "Offline reuse of100 fully received original images; retain closed v1.1 failure and all prior file bytes"
+}
