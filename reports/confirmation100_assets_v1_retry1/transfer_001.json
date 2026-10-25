@@ -1,0 +1,17 @@
+{
+  "url": "https://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "exit_code": 28,
+  "http_code": "000",
+  "ssl_verify_result": "1",
+  "curl_time_total": "20.001442",
+  "wall_seconds": 20.022313850931823,
+  "partial_body_bytes": 0,
+  "partial_sha256": null,
+  "connect_timeout_seconds": 20,
+  "total_timeout_seconds": 120,
+  "tls_verification_disabled": false,
+  "redirects_followed": false,
+  "automatic_retries": 0,
+  "curl_stdout": "000\n1\n20.001442\n",
+  "stderr_path": "transfer_001.stderr.log"
+}

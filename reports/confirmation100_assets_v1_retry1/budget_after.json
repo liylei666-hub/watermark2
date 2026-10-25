@@ -1,0 +1,22 @@
+{
+  "observed_at_utc": "2026-10-25T03:36:40.057498+00:00",
+  "budget": {
+    "artifact_bytes_excluding_existing_cache_env_git": 997365029,
+    "dataset_bytes": 0,
+    "free_disk_bytes": 547845324800
+  },
+  "dataset_regular_files": 1,
+  "files": [
+    {
+      "path": "datasets/confirmation100_v1_retry1/metadata/annotations_trainval2017.zip.headers",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "first_attempt_regular_files": [],
+  "active_acquisition_processes": [],
+  "worker_sha256": "0432e5418d669059554a37e5d0aff28ee3b3b47e10d25510132008137eb76fa0",
+  "transport_wrapper_sha256": "69d7f72d0f59672ad83414dc731e2b6d679b4bf2361e6fbe1ddc794054b74117",
+  "first_execution_sha256": "e83b7c8fc1146603962b8226fb79d8f38e6399e00fa30982572974931d9fdee3",
+  "first_result_seal_sha256": "943601d6b6c0d434efd1a267930930d31f83aff2ca4b88977dbb4b7a41bd1982"
+}

@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-10-25T03:35:30.420258+00:00",
+  "protocol_sha256": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648",
+  "worker_sha256": "0432e5418d669059554a37e5d0aff28ee3b3b47e10d25510132008137eb76fa0",
+  "transport_wrapper_sha256": "69d7f72d0f59672ad83414dc731e2b6d679b4bf2361e6fbe1ddc794054b74117",
+  "coverage_sha256": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe",
+  "first_execution_sha256": "e83b7c8fc1146603962b8226fb79d8f38e6399e00fa30982572974931d9fdee3",
+  "budget_before": {
+    "artifact_bytes_excluding_existing_cache_env_git": 996601430,
+    "dataset_bytes": 0,
+    "free_disk_bytes": 547846144000
+  },
+  "no_models": true,
+  "no_service_credentials": true,
+  "recovery": "One parent-authorized same-URL HTTPS metadata retry; frozen selector/coverage unchanged",
+  "curl_version": "curl 7.58.0 (x86_64-pc-linux-gnu) libcurl/7.58.0 OpenSSL/1.1.1 zlib/1.2.11 libidn2/2.0.4 libpsl/0.19.1 (+libidn2/2.0.4) nghttp2/1.30.0 librtmp/2.3"
+}

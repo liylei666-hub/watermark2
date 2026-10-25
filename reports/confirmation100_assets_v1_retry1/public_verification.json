@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "metadata_attempts_total": 2,
+  "successful_downloads": 0,
+  "covers": 0,
+  "captions": 0,
+  "metadata_response_body_bytes": 0,
+  "first_sealed_artifacts": 8,
+  "recovery_sealed_artifacts": 10,
+  "protocol_sha256": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648",
+  "coverage_sha256": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe",
+  "selector_sha256": "0432e5418d669059554a37e5d0aff28ee3b3b47e10d25510132008137eb76fa0",
+  "transport_wrapper_sha256": "69d7f72d0f59672ad83414dc731e2b6d679b4bf2361e6fbe1ddc794054b74117",
+  "unchanged_first_failure": true,
+  "active_acquisition_processes": 0,
+  "models_started": 0,
+  "gpu_used": false,
+  "interpretation": "Both official HTTPS requests timed out without an HTTP response. No conclusion about certificate rejection, permission denial or all official routes. Acquisition stopped after the one authorized retry."
+}

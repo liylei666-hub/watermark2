@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/data0/liyanlei/watermark_research/tools/retry_confirmation100_assets.py", line 94, in <module>
+    a.prepare()
+  File "/data0/liyanlei/watermark_research/tools/prepare_confirmation100_assets.py", line 117, in prepare
+    status('fetching_metadata');meta=DATA/'metadata';meta.mkdir();archive=meta/'annotations_trainval2017.zip';meta_download=fetch(protocol['metadata_url'],archive,256*1024**2)
+  File "/data0/liyanlei/watermark_research/tools/retry_confirmation100_assets.py", line 41, in fetch
+    raise RuntimeError('Bounded official HTTPS GET failed; curl exit '+str(child.returncode)+'; HTTP '+str(record['http_code'])+'; see '+label+'.stderr.log; no further retry')
+RuntimeError: Bounded official HTTPS GET failed; curl exit 28; HTTP 000; see transfer_001.stderr.log; no further retry

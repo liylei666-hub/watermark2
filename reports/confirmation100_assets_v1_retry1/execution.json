@@ -1,0 +1,19 @@
+{
+  "completed": false,
+  "exit_code": 1,
+  "stop_reason": null,
+  "wall_seconds": 21.023651958908886,
+  "finished_at_utc": "2026-10-25T03:35:51.544162+00:00",
+  "files": {
+    "stderr.log": "6128be92c4b4f5f648d374262aec1dd896965f3f013c327ba7d153384aca2512",
+    "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prior_coverage.json": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe",
+    "status.json": "32a441cac22c31bb1f3b274e01d4c5c81413b7c51a5f4314e5f006b46b67104d",
+    "protocol_snapshot.json": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648",
+    "transfer_001.json": "ba70fd8c80fc17c335c50d4d2faad7b9384cb56b8026e053b187d9af601d4a46",
+    "launch.json": "81db1a9657b836ff68fee860fe5d8cc32eb5ddf80e22cc975287659ad8fbad54",
+    "events.jsonl": "e7d032a1719d08bd3f72445ce1cc9503a521dd966056ee1939fa5cec7e856a14",
+    "process.json": "a3bbfd4c1f0d68e5f7aa8b8b62bfb2823d5169d72d9c7b248112bab46acffd28",
+    "transfer_001.stderr.log": "69b8e5ef5e028131c319fab961bae21fc63c7dcab622caa6d9e0d563bc7f460c"
+  }
+}

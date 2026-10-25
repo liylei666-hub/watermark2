@@ -1,0 +1,7 @@
+{
+  "pid": 9038,
+  "started_at_utc": "2026-10-25T03:35:30.521251+00:00",
+  "cuda_visible_devices": "",
+  "worker_sha256": "0432e5418d669059554a37e5d0aff28ee3b3b47e10d25510132008137eb76fa0",
+  "transport_wrapper_sha256": "69d7f72d0f59672ad83414dc731e2b6d679b4bf2361e6fbe1ddc794054b74117"
+}
