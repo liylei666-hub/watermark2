@@ -1,6 +1,6 @@
 # 扩散语义水印的黑盒伪造研究
 
-**当前状态（2026-10-25 UTC）：**阶段31四对校准及事后CPU质量补充完成：151次BA0.919921875、PSNR23.751050dB、事后LPIPS0.197920425。100对确认数据的采样/排除规则及历史覆盖清单已冻结；同一官方标注HTTPS地址首次TLS握手超时，唯一获准恢复也以curl28/HTTP000、正文0字节超时结束，已停止获取。0张载体/0条caption，无活动获取进程，未启动模型/GPU。权威[两次获取证据与协议`ffb3e4f`](https://github.com/liylei666-hub/watermark2/blob/ffb3e4fa4e0d1d9fca570511867311560041db9a/reports/confirmation100_assets_v1_retry1/report.md)、[质量补充](https://github.com/liylei666-hub/watermark2/blob/ffb3e4fa4e0d1d9fca570511867311560041db9a/reports/31_native_calibration_lpips_20261025/report.md)。4对不代表完整论文复现/SOTA。阶段30、八攻击对照及100对模型实验均未启动。main保留独有历史证据，正文旧阶段按历史阅读。
+**当前状态（2026-10-25 UTC）：**阶段31四对原生校准及事后CPU质量补充已完成。完整COCO标注包已取得，大小、TFDS SHA256、ZIP CRC及双端完整流哈希通过，网络缺口已解决。冻结选择器误把静态Flickr字段当成作者路径，857张CC BY图片被该规则拒绝，单图下载0、100对确认集未完成；先审查归属字段协议修正。权威[取得链路与字段审计`188a885`](https://github.com/liylei666-hub/watermark2/blob/188a885ec4c3b0c700aa8b30b83960eacf8e524c/reports/confirmation100_assets_relay_v1/report.md)、[质量补充](https://github.com/liylei666-hub/watermark2/blob/188a885ec4c3b0c700aa8b30b83960eacf8e524c/reports/31_native_calibration_lpips_20261025/report.md)。无新模型/GPU执行，阶段30及八攻击对照保持未启动；4对校准不等于完整论文复现或SOTA。main独有历史证据保留，旧正文按历史阅读。
 
 研究目标：在明确的攻击信息边界下研究伪造方法与误差来源，形成可复现代码、充分实验和论文初稿。
 
