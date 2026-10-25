@@ -1,0 +1,41 @@
+{
+  "completed": true,
+  "helper_source_sha256": "99095d47638908c6b104797ea5bd99e41d57e98dbe00f77861f5e20b74f2d628",
+  "helper_git_blob": "43c6755a9b132e8ac33fbb63ab38b85506a2cf85",
+  "input_spy": {
+    "shape": [
+      1,
+      3,
+      512,
+      512
+    ],
+    "dtype": "torch.float32",
+    "device": "cpu",
+    "black_min": -1.0,
+    "black_max": -1.0,
+    "white_min": 1.0,
+    "white_max": 1.0
+  },
+  "same_image_lpips": 0.0,
+  "model_training": false,
+  "all_modules_eval": true,
+  "all_parameters_cpu": true,
+  "cuda_initialized": false,
+  "versions": {
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "lpips": "0.1.4",
+    "numpy": "2.2.6",
+    "Pillow": "11.0.0"
+  },
+  "network_attempts": 0,
+  "model_load_seconds": 0.6450059758499265,
+  "lpips_version": "0.1",
+  "pnet_rand": false,
+  "pretrained": true,
+  "resize_or_imagenet_crop": false,
+  "weights": {
+    "/home/liyanlei/.cache/torch/hub/checkpoints/alexnet-owt-7be5be79.pth": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02",
+    "/data0/liyanlei/watermark_research/envs/semantic_forgery_py310/lib/python3.10/site-packages/lpips/weights/v0.1/alex.pth": "df73285e35b22355a2df87cdb6b70b343713b667eddbda73e1977e0c860835c0"
+  }
+}

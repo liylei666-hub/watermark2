@@ -1,0 +1,282 @@
+{
+  "scope": "Designated research root, excluding envs/private_eval/cache from image search; LPIPS package plus current-user standard Torch cache metadata only; no torch imports or downloads.",
+  "image_files": 579,
+  "image_counts_by_top_directory": {
+    "reports": 13,
+    "third_party": 15,
+    "runs": 551
+  },
+  "official_assets": {
+    "COCO_6.png": {
+      "path": "third_party/semantic-forgery/images/COCO_6.png",
+      "sha256": "56fc8dd78eabbe04db7b38ca798e5c3fd3b52afcc299f3b649ab8c3fcae240d3",
+      "pixel_sha256": "b473264ac6784d378a1685a5626b451a4b2ed2a048bfafad21931b0d48ba093f",
+      "run_pixel_matches": []
+    },
+    "car.png": {
+      "path": "third_party/semantic-forgery/images/car.png",
+      "sha256": "a0a8ed989979d6e55d73ee98201b6fb5ceabea4d1a79bdc5330a2d90f2b117c8",
+      "pixel_sha256": "1918277f39fc5ec5f7cb8e58b7045e0701d8f24d140566b6509b877c5eeadcf2",
+      "run_pixel_matches": [
+        "runs/13_vae_core_20261017T202854Z/cover_rgb.png",
+        "runs/13_vae_original_replay_20261017T203109Z/cover_rgb.png",
+        "runs/14_vae_timing_20261017T203633Z/cover_rgb.png"
+      ]
+    },
+    "COCO_10.png": {
+      "path": "third_party/semantic-forgery/images/COCO_10.png",
+      "sha256": "528c27a155e2c2cbae7e617d1b562ede2f99d6fd49da3c8126135707268467a7",
+      "pixel_sha256": "200460a894bc21655a19b5a064dfc47351dc446b050f50aed25584e66ca95847",
+      "run_pixel_matches": []
+    },
+    "COCO_2.png": {
+      "path": "third_party/semantic-forgery/images/COCO_2.png",
+      "sha256": "38c36f20a0376dc619c7c85ffa441f7c680f2003eacac1dc88b0de617884c680",
+      "pixel_sha256": "68d50fec3902e6515eb38d9bc56bdfa8ded4a52e4fd0c4a419236a6e1552af72",
+      "run_pixel_matches": [
+        "runs/31_native_calibration_20261024T190323Z/prepare/2/cover.png",
+        "runs/31_native_calibration_20261024T190323Z/prepare/2/original_cover.png",
+        "runs/31_native_calibration_20261024T190323Z/attack_inputs/2/cover.png"
+      ]
+    },
+    "COCO_5.png": {
+      "path": "third_party/semantic-forgery/images/COCO_5.png",
+      "sha256": "75ab4d6d4b271ac815fab2fd95782fd6ccd41fdb71b3354971af72904dacf2c7",
+      "pixel_sha256": "e87b79aa7c97f0d8ad78dd9752326452662a36727c594188353ef7aca8c94516",
+      "run_pixel_matches": []
+    },
+    "COCO_7.png": {
+      "path": "third_party/semantic-forgery/images/COCO_7.png",
+      "sha256": "10cf76ca480c19405dad6fee58b3e4718d77ae949da22be9dd84aad233de8bac",
+      "pixel_sha256": "919d29143187ee2eefeb0486341183a6f8620dfe009aef5d21e14a98efa75fb9",
+      "run_pixel_matches": []
+    },
+    "COCO_4.png": {
+      "path": "third_party/semantic-forgery/images/COCO_4.png",
+      "sha256": "00e57b5d5a249389a0bdd19e98b0e00373d02a173155d02fffffd2523faf6340",
+      "pixel_sha256": "ec655f459e37a312b76544cfd8e08331c11f63d33b735db91617993471dfeac4",
+      "run_pixel_matches": [
+        "runs/31_native_calibration_20261024T190323Z/prepare/4/cover.png",
+        "runs/31_native_calibration_20261024T190323Z/prepare/4/original_cover.png",
+        "runs/31_native_calibration_20261024T190323Z/attack_inputs/4/cover.png"
+      ]
+    },
+    "stalin.jpg": {
+      "path": "third_party/semantic-forgery/images/stalin.jpg",
+      "sha256": "f3f56d05fc29657b0bfa0ec1b7a6f6a05ded816f675a4ff06891aef107251c96",
+      "pixel_sha256": "83194ccd151033ad3bab1d3c6fd06c56cf31b2c0e4aa16ffc14ba9fe17235d98",
+      "run_pixel_matches": []
+    },
+    "COCO_3.png": {
+      "path": "third_party/semantic-forgery/images/COCO_3.png",
+      "sha256": "8341caa43f5eb027cf2bb67b32acece7bc577baf89c93684cc2d2b17d97537b5",
+      "pixel_sha256": "c489ea26af8b059f7e752a666814b3a0984bd9106af1c7c29c91bff95d3a90f1",
+      "run_pixel_matches": [
+        "runs/31_native_calibration_20261024T190323Z/prepare/3/cover.png",
+        "runs/31_native_calibration_20261024T190323Z/prepare/3/original_cover.png",
+        "runs/31_native_calibration_20261024T190323Z/attack_inputs/3/cover.png"
+      ]
+    },
+    "COCO_8.png": {
+      "path": "third_party/semantic-forgery/images/COCO_8.png",
+      "sha256": "34fdbed394f4c5e72a39f8939d574afcea24e2477e2f8501ec524100f7c9cd93",
+      "pixel_sha256": "2f447b98d6ef276ac4ef78ac13fd7a2afd6e23650cfdd6d0aeefa5c922c41fdf",
+      "run_pixel_matches": []
+    },
+    "COCO_9.png": {
+      "path": "third_party/semantic-forgery/images/COCO_9.png",
+      "sha256": "c258c8b251180726cd534baf1ccae90cd30893d26ca6623960d9bd27b2aa6717",
+      "pixel_sha256": "41b103095e6da2b5fe72fb062ec4d8f3524a898f1175b1656ae1fea19ba02b5b",
+      "run_pixel_matches": []
+    },
+    "COCO_1.png": {
+      "path": "third_party/semantic-forgery/images/COCO_1.png",
+      "sha256": "7887a2c2b565eb203f57ebe4647e39ff6d00d783d4ae7741b2ca08d59ba71430",
+      "pixel_sha256": "8e3e70f0447e6a78392e4cf7e24bacf6fd25c7907a6f019ce759e570e4928382",
+      "run_pixel_matches": [
+        "runs/31_native_calibration_20261024T190323Z/prepare/1/cover.png",
+        "runs/31_native_calibration_20261024T190323Z/prepare/1/original_cover.png",
+        "runs/31_native_calibration_20261024T190323Z/attack_inputs/1/cover.png"
+      ]
+    }
+  },
+  "other_nonrun_image_paths": [
+    "third_party/semantic-forgery/masks/car.mask.png",
+    "third_party/semantic-forgery/masks/stalin.mask.png",
+    "third_party/semantic-forgery/media/frontpage.jpg"
+  ],
+  "decode_failures": [],
+  "sd_prompts": {
+    "count": 9,
+    "unique": 8,
+    "duplicates": [
+      [
+        1,
+        6
+      ]
+    ],
+    "usage": {
+      "0": [
+        "protocols/31_controller_runtime.json",
+        "protocols/31_evaluator_0_runtime.json",
+        "protocols/31_evaluator_1_runtime.json",
+        "protocols/31_native_calibration_execution.json",
+        "runs/31_native_calibration_20261024T190323Z/design.json",
+        "runs/31_native_calibration_20261024T190323Z/prepare/1/record.json",
+        "runs/31_native_calibration_20261024T190323Z/prepare/summary.json"
+      ],
+      "1": [
+        "protocols/31_controller_runtime.json",
+        "protocols/31_evaluator_0_runtime.json",
+        "protocols/31_evaluator_1_runtime.json",
+        "protocols/31_native_calibration_execution.json",
+        "runs/31_native_calibration_20261024T190323Z/design.json",
+        "runs/31_native_calibration_20261024T190323Z/prepare/2/record.json",
+        "runs/31_native_calibration_20261024T190323Z/prepare/summary.json"
+      ],
+      "2": [
+        "protocols/31_controller_runtime.json",
+        "protocols/31_evaluator_0_runtime.json",
+        "protocols/31_evaluator_1_runtime.json",
+        "protocols/31_native_calibration_execution.json",
+        "runs/31_native_calibration_20261024T190323Z/design.json",
+        "runs/31_native_calibration_20261024T190323Z/prepare/3/record.json",
+        "runs/31_native_calibration_20261024T190323Z/prepare/summary.json"
+      ],
+      "3": [
+        "protocols/31_controller_runtime.json",
+        "protocols/31_evaluator_0_runtime.json",
+        "protocols/31_evaluator_1_runtime.json",
+        "protocols/31_native_calibration_execution.json",
+        "runs/31_native_calibration_20261024T190323Z/design.json",
+        "runs/31_native_calibration_20261024T190323Z/prepare/4/record.json",
+        "runs/31_native_calibration_20261024T190323Z/prepare/summary.json"
+      ],
+      "4": [],
+      "5": [],
+      "6": [
+        "protocols/31_controller_runtime.json",
+        "protocols/31_evaluator_0_runtime.json",
+        "protocols/31_evaluator_1_runtime.json",
+        "protocols/31_native_calibration_execution.json",
+        "runs/31_native_calibration_20261024T190323Z/design.json",
+        "runs/31_native_calibration_20261024T190323Z/prepare/2/record.json",
+        "runs/31_native_calibration_20261024T190323Z/prepare/summary.json"
+      ],
+      "7": [],
+      "8": []
+    }
+  },
+  "lpips": {
+    "package_exists": true,
+    "linear_weight_files": [
+      {
+        "path": "/data0/liyanlei/watermark_research/envs/semantic_forgery_py310/lib/python3.10/site-packages/lpips/weights/v0.0/alex.pth",
+        "bytes": 5455,
+        "sha256": "18720f55913d0af89042f13faa7e536a6ce1444a0914e6db9461355ece1e8cd5"
+      },
+      {
+        "path": "/data0/liyanlei/watermark_research/envs/semantic_forgery_py310/lib/python3.10/site-packages/lpips/weights/v0.0/vgg.pth",
+        "bytes": 6735,
+        "sha256": "b9e4236260c3dd988fc79d2a48d645d885afcbb21f9fd595e6744cf7419b582c"
+      },
+      {
+        "path": "/data0/liyanlei/watermark_research/envs/semantic_forgery_py310/lib/python3.10/site-packages/lpips/weights/v0.0/squeeze.pth",
+        "bytes": 10057,
+        "sha256": "c27abd3a0145541baa50990817df58d3759c3f8154949f42af3b59b4e042d0bf"
+      },
+      {
+        "path": "/data0/liyanlei/watermark_research/envs/semantic_forgery_py310/lib/python3.10/site-packages/lpips/weights/v0.1/alex.pth",
+        "bytes": 6009,
+        "sha256": "df73285e35b22355a2df87cdb6b70b343713b667eddbda73e1977e0c860835c0"
+      },
+      {
+        "path": "/data0/liyanlei/watermark_research/envs/semantic_forgery_py310/lib/python3.10/site-packages/lpips/weights/v0.1/vgg.pth",
+        "bytes": 7289,
+        "sha256": "a78928a0af1e5f0fcb1f3b9e8f8c3a2a5a3de244d830ad5c1feddc79b8432868"
+      },
+      {
+        "path": "/data0/liyanlei/watermark_research/envs/semantic_forgery_py310/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth",
+        "bytes": 10811,
+        "sha256": "4a5350f23600cb79923ce65bb07cbf57dca461329894153e05a1346bd531cf76"
+      }
+    ],
+    "backbone_cache_directories": [
+      {
+        "path": "/data0/liyanlei/watermark_research/cache/torch/hub/checkpoints",
+        "exists": false
+      },
+      {
+        "path": "/home/liyanlei/.cache/torch/hub/checkpoints",
+        "exists": true
+      }
+    ],
+    "backbone_candidates": [
+      {
+        "path": "/home/liyanlei/.cache/torch/hub/checkpoints/alexnet-owt-7be5be79.pth",
+        "bytes": 244408911
+      },
+      {
+        "path": "/home/liyanlei/.cache/torch/hub/checkpoints/vgg16-397923af.pth",
+        "bytes": 553433881
+      }
+    ],
+    "verified_alexnet": {
+      "path": "/home/liyanlei/.cache/torch/hub/checkpoints/alexnet-owt-7be5be79.pth",
+      "bytes": 244408911,
+      "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02",
+      "mtime": "2026-08-02T23:28:57.749210085+08:00",
+      "verification": "Read-only sha256sum and stat; no model import/inference or download"
+    }
+  },
+  "model_snapshots": [
+    {
+      "path": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--Manojb--stable-diffusion-2-1-base/snapshots/0094d483a120f3f33dafbd187ea4aa60d10de75c",
+      "weight_files": [
+        {
+          "path": "vae/diffusion_pytorch_model.safetensors",
+          "bytes": 334643276
+        },
+        {
+          "path": "text_encoder/model.safetensors",
+          "bytes": 1361597018
+        },
+        {
+          "path": "unet/diffusion_pytorch_model.safetensors",
+          "bytes": 3463726498
+        }
+      ]
+    },
+    {
+      "path": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b",
+      "weight_files": [
+        {
+          "path": "text_encoder_2/model.safetensors",
+          "bytes": 2778702264
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.safetensors",
+          "bytes": 334643268
+        },
+        {
+          "path": "text_encoder/model.safetensors",
+          "bytes": 492265168
+        },
+        {
+          "path": "unet/diffusion_pytorch_model.safetensors",
+          "bytes": 10270077736
+        }
+      ]
+    }
+  ],
+  "cpu_seconds": 19.300387249793857,
+  "audit_recorded_at_utc": "2026-10-25T01:55:15.615074+00:00",
+  "standard_user_hf_cache_review": {
+    "path": "/home/liyanlei/.cache/huggingface/hub",
+    "checked_at_utc": "2026-10-25T01:56:16+00:00",
+    "directory_exists": true,
+    "stable_diffusion_or_vae_model_directories_found": 0,
+    "scope": "Only related cache directory names inspected; not a whole-server model search"
+  },
+  "interpretation_correction": "No pixel matches among551 run images does NOT prove no development use; transformed copies, unrecorded use and other locations are not ruled out. Prompt metadata absence likewise does not establish an unseen confirmation set."
+}

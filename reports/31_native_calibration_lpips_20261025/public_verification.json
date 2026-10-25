@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "scope": "Public file/input pairing and aggregation checks; no duplicate LPIPS inference",
+  "sealed_worker_artifacts": 8,
+  "evaluated_pairs": 28,
+  "candidate_pairs": 20,
+  "unchanged_original_score_and_seal_files": 4,
+  "checkpoints": {
+    "20": {
+      "n": 4,
+      "mean_lpips": 0.08726404886692762,
+      "values": [
+        0.09804751724004745,
+        0.09779367595911026,
+        0.10940578579902649,
+        0.04380921646952629
+      ]
+    },
+    "50": {
+      "n": 4,
+      "mean_lpips": 0.12454888969659805,
+      "values": [
+        0.13697972893714905,
+        0.1393936425447464,
+        0.15640215575695038,
+        0.06542003154754639
+      ]
+    },
+    "100": {
+      "n": 4,
+      "mean_lpips": 0.16598902456462383,
+      "values": [
+        0.18232858180999756,
+        0.18494278192520142,
+        0.20980697870254517,
+        0.08687775582075119
+      ]
+    },
+    "150": {
+      "n": 4,
+      "mean_lpips": 0.19738005474209785,
+      "values": [
+        0.21900947391986847,
+        0.22526535391807556,
+        0.23928453028202057,
+        0.10596086084842682
+      ]
+    },
+    "151": {
+      "n": 4,
+      "mean_lpips": 0.1979204248636961,
+      "values": [
+        0.21967962384223938,
+        0.2259051650762558,
+        0.2397783100605011,
+        0.10631860047578812
+      ]
+    }
+  },
+  "qa_sha256": "7e5844a2165cb354c906a8478cb679819e19405c5469055173939e25e91fbde8",
+  "metric_summary_sha256": "9cf3f3badc5094cf432ed3c3625c763ca199318eca67af6bc1e97fc93d06b1a4",
+  "cpu_process_wall_seconds": 9.522366937249899,
+  "gpu_used": false,
+  "network_attempts": 0,
+  "original_archive_rechecked": {
+    "status": "passed",
+    "artifact_bindings": 218,
+    "arrays": 100
+  }
+}

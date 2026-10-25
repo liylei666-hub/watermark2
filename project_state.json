@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-25T01:32:42.427675+00:00",
+  "as_of_utc": "2026-10-25T02:49:14.483312+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -122,7 +122,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Review independent100-pair baseline assets, quality metrics and exact shared comparison settings. Stage31 calibration complete, not full replication. Stage30 held;28/29 closed. No automatic model launch or failed-run retry.",
+  "next_action": "Review independent100-pair data/provenance and faithful versus adapted Jain configurations. Existing LPIPS assets found and CPU posthoc quality completed. No new attacks: stage30 and8-attack preprocessing diagnostic held;100-pair run not frozen or launched.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -1298,6 +1298,25 @@
     "full_paper_reproduction": false,
     "lpips": null,
     "formal_human_labels": null,
-    "retrospective_weight_seal_only": true
+    "retrospective_weight_seal_only": true,
+    "lpips_at_original_completion": null,
+    "lpips_posthoc": {
+      "status": "completed_cpu_only",
+      "report": "reports/31_native_calibration_lpips_20261025/report.md",
+      "primary151_mean": 0.1979204248636961,
+      "secondary150_mean": 0.19738005474209785,
+      "candidate_pairs": 20,
+      "total_pairs": 28,
+      "preregistered_primary_metric": false,
+      "network_attempts": 0,
+      "gpu_used": false
+    }
+  },
+  "asset_review": {
+    "receipt": "reports/31_native_calibration_lpips_20261025/asset_review.json",
+    "alexnet_existing_cache_verified": true,
+    "independent100_pair_manifest_ready": false,
+    "six_unmatched_images_prove_unused": false,
+    "jain_original_sd14_missing_in_reviewed_locations": true
   }
 }

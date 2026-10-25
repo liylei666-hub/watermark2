@@ -1,0 +1,17 @@
+{
+  "completed": true,
+  "exit_code": 0,
+  "stop_reason": null,
+  "process_wall_seconds": 9.522366937249899,
+  "finished_at_utc": "2026-10-25T02:43:18.306346+00:00",
+  "files": {
+    "stderr.log": "d204b1ab9ffe9d2d2aeede1ba81d3b4728b9dcbf55de75834d04b85764f4f20e",
+    "stdout.log": "7cbb23f414141ec63a822781bf809c460014d142f9dd01109d4b7d08a423ad96",
+    "rows.jsonl": "8858978b4f79368d5d8eea19ae0b08f794d3cc92a89cefadf856751a1eb2291a",
+    "summary.json": "9cf3f3badc5094cf432ed3c3625c763ca199318eca67af6bc1e97fc93d06b1a4",
+    "qa.json": "7e5844a2165cb354c906a8478cb679819e19405c5469055173939e25e91fbde8",
+    "plan.json": "073872ed01c90212a9e919b69dfa4b406d5d6da5af6af9e3d8effcc8e6e41cb7",
+    "launch.json": "44a45bc2aa4e1421005df79476391e99c94b02025ff04e06c4960a0f26233f3c",
+    "process.json": "1227615364654511e6379dc383466bc523d294db87ed13594013c06dd94385d4"
+  }
+}

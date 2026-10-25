@@ -1,0 +1,13 @@
+{
+  "pid": 40512,
+  "started_at_utc": "2026-10-25T02:43:08.784538+00:00",
+  "proc_start_ticks": "281054099",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "TORCH_HOME": "/home/liyanlei/.cache/torch",
+    "HF_HUB_OFFLINE": "1",
+    "OMP_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4"
+  },
+  "worker_sha256": "d79e3ab0061579a29af5c55b4bf1fbfcbd4b556b512c4a47938d7e7fee576515"
+}
