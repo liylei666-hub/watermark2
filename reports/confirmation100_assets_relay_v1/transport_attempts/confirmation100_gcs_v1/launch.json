@@ -1,0 +1,16 @@
+{
+  "started_at_utc": "2026-10-25T05:09:11.7243904Z",
+  "url": "https://storage.googleapis.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "connect_timeout_seconds": 20,
+  "total_timeout_seconds": 600,
+  "expected_bytes": 252907541,
+  "expected_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+  "max_bytes": 268435456,
+  "automatic_retries": 0,
+  "tls_verification_disabled": false,
+  "sources": [
+    "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/download.htm",
+    "https://docs.cloud.google.com/storage/docs/request-endpoints",
+    "https://raw.githubusercontent.com/tensorflow/datasets/master/tensorflow_datasets/url_checksums/coco_captions.txt"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-10-25T05:20:58.6588964Z",
+  "url": "https://scidata.sjtu.edu.cn/records/7rp0x-d6e31/files/annotations_trainval2017.zip?download=1",
+  "file": "annotations_trainval2017_retry2.zip.part",
+  "prior_partial_bytes": 138097663,
+  "prior_partial_sha256": "e56f1ee441bed365e88f6b2b708a16c34eb9f0daf79cdd5749d54698a3efcd40",
+  "reason": "Prior transfer incomplete and server rejected Range; preserve original partial; bounded fresh data GET",
+  "connect_timeout_seconds": 20,
+  "total_timeout_seconds": 1200,
+  "expected_bytes": 252907541,
+  "automatic_retries": 0,
+  "tls_verification_disabled": false,
+  "dataset_bytes_before": 138104060.0
+}

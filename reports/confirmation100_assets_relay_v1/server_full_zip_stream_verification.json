@@ -1,0 +1,11 @@
+{
+  "verified_at_utc": "2026-10-25T05:29:14.398489+00:00",
+  "bytes": 252907541,
+  "sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+  "complete_zip_stream_hashed": true,
+  "full_zip_copy_stored_on_server": false,
+  "chunk_bytes": 1048576,
+  "transport": "Existing verified SSH identity/host, stdin stream",
+  "models_started": 0,
+  "gpu_used": false
+}

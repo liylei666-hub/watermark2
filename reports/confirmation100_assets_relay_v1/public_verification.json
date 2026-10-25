@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "sealed_execution_files": 11,
+  "source_hashes_passed": true,
+  "original_sampling_protocol_unchanged": true,
+  "full_zip_bytes": 252907541,
+  "full_zip_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+  "full_zip_all_six_members_CRC_passed": true,
+  "metadata_member_sha256": "afe3b30e403dd7f228e2373023abbd60042a6e10ec6874d3652df034d289ebb9",
+  "images": 5000,
+  "captions": 25014,
+  "CC_BY_images": 857,
+  "eligible_under_frozen_owner_path_rule": 0,
+  "images_downloaded": 0,
+  "CPU_selector_exit_code": 1,
+  "dataset_copy_bytes": 342095188,
+  "model_or_GPU_experiments_started": 0,
+  "scope": "Local public hashes/record arithmetic plus captured Windows ZIP verification and server same-stream SHA; no new downloads or target calls"
+}

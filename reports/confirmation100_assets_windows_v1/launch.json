@@ -1,0 +1,10 @@
+{
+  "started_at_utc": "2026-10-25T05:01:17.3922880Z",
+  "url": "https://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "connect_timeout_seconds": 20,
+  "total_timeout_seconds": 600,
+  "max_bytes": 268435456,
+  "automatic_retries": 0,
+  "tls_verification_disabled": false,
+  "process_inventory": "CIM command-line query unavailable; Get-Process name inventory; no existing matching workspace file"
+}

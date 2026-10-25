@@ -1,0 +1,5 @@
+{
+  "Name": "images.cocodataset.org",
+  "NameHost": "images.cocodataset.org.s3.amazonaws.com",
+  "Type": 5
+}

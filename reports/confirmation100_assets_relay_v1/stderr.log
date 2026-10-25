@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/data0/liyanlei/watermark_research/tools/relay_confirmation100_assets.py", line 90, in <module>
+    assert a.sha(__file__)==a.read(a.PUBLIC/'launch.json')['relay_wrapper_sha256'];a.prepare()
+  File "/data0/liyanlei/watermark_research/tools/prepare_confirmation100_assets.py", line 140, in prepare
+    if len(eligible)<200:raise RuntimeError('Fewer than200 eligible source identities; do not relax frozen license rules')
+RuntimeError: Fewer than200 eligible source identities; do not relax frozen license rules

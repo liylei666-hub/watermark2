@@ -1,0 +1,14 @@
+{
+  "original_rules_tests": 4,
+  "relay_boundary_tests": 5,
+  "relay_windows_passed_seconds": 0.163,
+  "relay_server_passed_seconds": 0.032,
+  "earlier_fixture_failure": {
+    "platform": "Windows restricted temporary directory",
+    "result": "WinError5 during fixture rename; source bytes retained; no real-data launch",
+    "correction": "Place test fixture inside project workspace, not redirected sandbox Temp"
+  },
+  "real_metadata_end_to_end": "Reached real metadata and exposed frozen owner-path assumption; not a completed100-pair workflow",
+  "models_started": 0,
+  "gpu_used": false
+}

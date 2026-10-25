@@ -1,0 +1,34 @@
+{
+  "observed_at_utc": "2026-10-25T05:37:13.850196+00:00",
+  "windows_relay_directories_bytes_including_logs_and_failed_partials": 337428548,
+  "server_dataset_bytes": 4666640,
+  "combined_dataset_copy_bytes": 342095188,
+  "dataset_copy_cap_bytes": 536870912,
+  "retained_package_files": [
+    {
+      "path": "gateway-data/confirmation100_sjtu_v1/annotations_trainval2017.zip",
+      "bytes": 252907541,
+      "sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268"
+    },
+    {
+      "path": "gateway-data/confirmation100_sjtu_v1/annotations_trainval2017_retry2.zip.part",
+      "bytes": 79839232,
+      "sha256": "a1a21b4dacd9121fab9c27fb1ecab30ffa62ac92e421f97dfdd498e0b518be92"
+    },
+    {
+      "path": "gateway-data/confirmation100_sjtu_v1/captions_val2017_transport.zip",
+      "bytes": 792973,
+      "sha256": "af4d72f25572038f51fe26d96fd67d9f865f06c4b80d5f70dea2ba2e23736e2f"
+    }
+  ],
+  "full_archive_not_stored_twice": true,
+  "windows_zip_receipt_tally_scope_correction": "metadata_zip_verification.windows_data_bytes counts selected zip/json files, excludes retained failed .part; use this combined storage audit for total",
+  "workspace_conservative_bytes_excluding_git_env_cache": 1226056226,
+  "server_project_bytes_excluding_existing_git_env_cache": 1003270580,
+  "conservative_combined_workspace_plus_server_bytes": 2229326806,
+  "all_new_artifacts_cap_bytes": 10737418240,
+  "response_body_bytes_from_SJTU_and_S3": 332746773,
+  "complete_zip_stream_payload_bytes": 252907541,
+  "selected_subset_SCP_bytes": 792973,
+  "wire_protocol_overhead_not_measured": true
+}

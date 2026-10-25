@@ -1,0 +1,91 @@
+{
+  "observed_at_utc": "2026-10-25T05:34:27.443891+00:00",
+  "metadata_sha256": "afe3b30e403dd7f228e2373023abbd60042a6e10ec6874d3652df034d289ebb9",
+  "images": 5000,
+  "captions": 25014,
+  "license_records": 8,
+  "CC_BY_image_count": 857,
+  "license_counts": [
+    {
+      "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+        "id": 1,
+        "name": "Attribution-NonCommercial-ShareAlike License"
+      },
+      "images": 1431
+    },
+    {
+      "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+        "id": 2,
+        "name": "Attribution-NonCommercial License"
+      },
+      "images": 630
+    },
+    {
+      "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "id": 3,
+        "name": "Attribution-NonCommercial-NoDerivs License"
+      },
+      "images": 1414
+    },
+    {
+      "license": {
+        "url": "http://creativecommons.org/licenses/by/2.0/",
+        "id": 4,
+        "name": "Attribution License"
+      },
+      "images": 857
+    },
+    {
+      "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+        "id": 5,
+        "name": "Attribution-ShareAlike License"
+      },
+      "images": 417
+    },
+    {
+      "license": {
+        "url": "http://creativecommons.org/licenses/by-nd/2.0/",
+        "id": 6,
+        "name": "Attribution-NoDerivs License"
+      },
+      "images": 246
+    },
+    {
+      "license": {
+        "url": "http://flickr.com/commons/usage/",
+        "id": 7,
+        "name": "No known copyright restrictions"
+      },
+      "images": 5
+    }
+  ],
+  "flickr_hosts": {
+    "farm7.staticflickr.com": 266,
+    "farm9.staticflickr.com": 702,
+    "farm4.staticflickr.com": 940,
+    "farm8.staticflickr.com": 584,
+    "farm3.staticflickr.com": 735,
+    "farm1.staticflickr.com": 557,
+    "farm5.staticflickr.com": 503,
+    "farm6.staticflickr.com": 487,
+    "farm2.staticflickr.com": 226
+  },
+  "flickr_photos_account_path_count": 0,
+  "frozen_rejection_counts": {
+    "attribution_owner_or_photo_id_missing": 857,
+    "license_not_frozen_CC_BY_allowlist": 4143
+  },
+  "first_CC_BY_metadata_example": {
+    "id": 397133,
+    "license": 4,
+    "flickr_url": "http://farm7.staticflickr.com/6116/6255196340_da26cf2c9e_z.jpg",
+    "coco_url": "http://images.cocodataset.org/val2017/000000397133.jpg",
+    "width": 640,
+    "height": 427
+  },
+  "interpretation": "The frozen parser incorrectly assumed the original metadata flickr_url was an owner/photos page. All actual addresses are static images; no image was downloaded. Keep failure; do not relax owner or license requirements silently."
+}

@@ -1,0 +1,8 @@
+{
+  "started_at_utc": "2026-10-25T05:28:17.416724+00:00",
+  "controller_sha256": "6c0fc49e264ecef6d65918f8b50d107e938bd03e098d30dad076171819346548",
+  "metadata_verification_sha256": "544bb1aba39cdf4a19be0fcc863c70be2b7673c78ec4ba122e2a1ae70f8e73fc",
+  "local_data_bytes": 337425381,
+  "no_models": true,
+  "no_gpu": true
+}

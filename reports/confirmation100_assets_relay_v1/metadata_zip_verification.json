@@ -1,0 +1,83 @@
+{
+  "verified_at_utc": "2026-10-25T05:26:20.325278+00:00",
+  "source_url": "https://s3.us-east-1.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "institutional_record": "https://scidata.sjtu.edu.cn/records/7rp0x-d6e31",
+  "archive": {
+    "path": "annotations_trainval2017.zip",
+    "bytes": 252907541,
+    "sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+    "md5": "f4bbac642086de4f52a3fdda2de5fa2c",
+    "zip_crc_all_members_passed": true,
+    "members": [
+      {
+        "name": "annotations/instances_train2017.json",
+        "bytes": 469785474,
+        "compressed_bytes": 152757829,
+        "crc32": "3932cf47"
+      },
+      {
+        "name": "annotations/instances_val2017.json",
+        "bytes": 19987840,
+        "compressed_bytes": 6529031,
+        "crc32": "2e9b8b45"
+      },
+      {
+        "name": "annotations/captions_train2017.json",
+        "bytes": 91865115,
+        "compressed_bytes": 18816055,
+        "crc32": "cc4b2617"
+      },
+      {
+        "name": "annotations/captions_val2017.json",
+        "bytes": 3872473,
+        "compressed_bytes": 805705,
+        "crc32": "6d742f1d"
+      },
+      {
+        "name": "annotations/person_keypoints_train2017.json",
+        "bytes": 238884731,
+        "compressed_bytes": 71011080,
+        "crc32": "d74cdc51"
+      },
+      {
+        "name": "annotations/person_keypoints_val2017.json",
+        "bytes": 10020657,
+        "compressed_bytes": 2986607,
+        "crc32": "27d86024"
+      }
+    ]
+  },
+  "independent_sha256_source": "https://raw.githubusercontent.com/tensorflow/datasets/master/tensorflow_datasets/url_checksums/coco_captions.txt",
+  "mirror_md5_not_COCO_authentication": true,
+  "resumed": true,
+  "original_failure_and_partial_prefix_preserved": true,
+  "member": {
+    "name": "annotations/captions_val2017.json",
+    "bytes": 3872473,
+    "sha256": "afe3b30e403dd7f228e2373023abbd60042a6e10ec6874d3652df034d289ebb9",
+    "images": 5000,
+    "captions": 25014,
+    "licenses": 8,
+    "split": "val2017"
+  },
+  "transport_subset": {
+    "path": "captions_val2017_transport.zip",
+    "bytes": 792973,
+    "sha256": "af4d72f25572038f51fe26d96fd67d9f865f06c4b80d5f70dea2ba2e23736e2f",
+    "derivation": "Mechanically repack only verified captions_val2017.json bytes; not the original full ZIP",
+    "uncompressed_member_unchanged": true
+  },
+  "full_zip_retained_on_windows": true,
+  "entire_archive_not_extracted": true,
+  "models_started": 0,
+  "gpu_used": false,
+  "windows_data_bytes": 257575637,
+  "acquisition_lineage": {
+    "first_prefix_source": "https://scidata.sjtu.edu.cn/records/7rp0x-d6e31/files/annotations_trainval2017.zip?download=1",
+    "first_prefix_bytes": 138097663,
+    "first_prefix_sha256": "e56f1ee441bed365e88f6b2b708a16c34eb9f0daf79cdd5749d54698a3efcd40",
+    "remaining_source": "https://s3.us-east-1.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+    "remaining_HTTP_status": 206,
+    "source_identity": "COCO official DNS CNAME plus AWS documented path-style endpoint; original prefix unchanged; complete TFDS SHA256 matches"
+  }
+}

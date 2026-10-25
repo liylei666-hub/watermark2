@@ -1,0 +1,12 @@
+{
+  "started_at_utc": "2026-10-25T05:19:05.7347928Z",
+  "url": "https://scidata.sjtu.edu.cn/records/7rp0x-d6e31/files/annotations_trainval2017.zip?download=1",
+  "resume_offset": 138097663,
+  "original_partial_sha256": "e56f1ee441bed365e88f6b2b708a16c34eb9f0daf79cdd5749d54698a3efcd40",
+  "original_terminal_sha256": "a71170db11d8a4eff98642b9a689cfff7d74b122d70d1cdba1ecbace2ce352ba",
+  "connect_timeout_seconds": 20,
+  "total_timeout_seconds": 600,
+  "automatic_retries": 0,
+  "tls_verification_disabled": false,
+  "purpose": "One bounded same-source data-only recovery, append verified-original prefix; no repeated full download"
+}

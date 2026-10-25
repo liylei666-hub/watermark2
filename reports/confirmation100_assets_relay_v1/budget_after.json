@@ -1,0 +1,34 @@
+{
+  "observed_at_utc": "2026-10-25T05:34:27.511004+00:00",
+  "budget": {
+    "artifact_bytes_excluding_existing_cache_env_git": 1003270580,
+    "dataset_bytes": 4666640,
+    "free_disk_bytes": 547054370816
+  },
+  "dataset_files": [
+    {
+      "path": "datasets/confirmation100_relay_v1/full_zip_stream_verification.json",
+      "bytes": 381,
+      "sha256": "179b8ff89f134513053fd735e82f09bc2f85171aba589305c89d07ab041061ca"
+    },
+    {
+      "path": "datasets/confirmation100_relay_v1/metadata/annotations_trainval2017.zip",
+      "bytes": 792973,
+      "sha256": "af4d72f25572038f51fe26d96fd67d9f865f06c4b80d5f70dea2ba2e23736e2f"
+    },
+    {
+      "path": "datasets/confirmation100_relay_v1/metadata/captions_val2017.json",
+      "bytes": 3872473,
+      "sha256": "afe3b30e403dd7f228e2373023abbd60042a6e10ec6874d3652df034d289ebb9"
+    },
+    {
+      "path": "datasets/confirmation100_relay_v1/incoming/000.ready.json",
+      "bytes": 813,
+      "sha256": "22c35d31d8b7472704eae594f508549bc8c0ee7b62011e8cdfffbf9260675d4c"
+    }
+  ],
+  "images_downloaded": 0,
+  "model_experiments_started": 0,
+  "worker_sha256": "0432e5418d669059554a37e5d0aff28ee3b3b47e10d25510132008137eb76fa0",
+  "relay_wrapper_sha256": "a5913a3effc6a4cadd22fd511be1ebb24260f574cfd8ed8475e718da2f529ea8"
+}

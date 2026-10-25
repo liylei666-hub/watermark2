@@ -1,0 +1,55 @@
+{
+  "observed_at_utc": "2026-10-25T05:05:51.658469+00:00",
+  "kind": "post_terminal_windows_transport_verification",
+  "platform": "Windows gateway DESKTOP-4SBC3HL",
+  "curl_version": "8.21.0 Schannel",
+  "http_code": "000",
+  "raw_ssl_verify_result": "0",
+  "response_body_bytes": 0,
+  "curl_seconds": 0.618357,
+  "exit_code": 60,
+  "error": "schannel SEC_E_WRONG_PRINCIPAL (0x80090322): SNI or certificate target name check failed",
+  "tls_verification_disabled": false,
+  "redirects_followed": false,
+  "automatic_retries": 0,
+  "part_file_exists": false,
+  "zip_downloaded": false,
+  "zip_test_or_sha256_not_possible": true,
+  "scp_started": false,
+  "server_data_bytes_transferred": 0,
+  "covers": 0,
+  "captions": 0,
+  "models_started": 0,
+  "gpu_used": false,
+  "new_model_downloads": 0,
+  "protocol_sha256": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648",
+  "coverage_sha256": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe",
+  "windows_workspace_free_bytes": 48761036800,
+  "windows_regular_files_before_receipt": {
+    "launch.json": {
+      "bytes": 430,
+      "sha256": "9bf15f18bdc6d13b090faa03f4f63e32b510ea0d0012dcd46229455db282ce00"
+    },
+    "metadata.curl.txt": {
+      "bytes": 21,
+      "sha256": "8e5f891160bf3e3a83e963da792fbffb4f86ca2a6e718de6bf7ad023f0cd459e"
+    },
+    "metadata.headers": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "metadata.stderr.log": {
+      "bytes": 391,
+      "sha256": "9a3c95adcd48efa33865cf77c3607448acc5c8aab176d2d83d332982abafae11"
+    },
+    "terminal.json": {
+      "bytes": 84,
+      "sha256": "606c8bae3229ab4bf23d86bc75a2500473abd7b5bfff412b7fb34b090e0a04da"
+    }
+  },
+  "dataset_body_bytes_windows": 0,
+  "dataset_body_bytes_server": 0,
+  "duplicate_dataset_storage_bytes": 0,
+  "wire_bytes_not_measured": true,
+  "security_error_is_not_ordinary_timeout": true
+}

@@ -1,0 +1,49 @@
+{
+  "frozen_at_utc": "2026-10-25T05:27:55.595958+00:00",
+  "kind": "data_transport_addendum_only_no_new_model_experiment",
+  "original_sampling_protocol_sha256": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648",
+  "original_prior_coverage_sha256": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe",
+  "source_hashes": {
+    "tools/prepare_confirmation100_assets.py": "0432e5418d669059554a37e5d0aff28ee3b3b47e10d25510132008137eb76fa0",
+    "tools/relay_confirmation100_assets.py": "a5913a3effc6a4cadd22fd511be1ebb24260f574cfd8ed8475e718da2f529ea8",
+    "tools/windows_confirmation_relay.py": "6c0fc49e264ecef6d65918f8b50d107e938bd03e098d30dad076171819346548",
+    "tools/hash_confirmation_stream.py": "dab9c0cbc7497078ec2cb6606f3c30bd03b5145c21fc87b5c1dff71b4ad0666b"
+  },
+  "seed_and_sampling_rules_changed": false,
+  "authorities": [
+    "User requested Windows relay",
+    "User requested one retry after network recovery",
+    "User allowed verified mirrors",
+    "Parent verified SJTU and Google sources; executor independently verified official DNS CNAME and AWS documented path-style S3 endpoint"
+  ],
+  "actual_complete_metadata_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+  "metadata_bytes": 252907541,
+  "metadata_member_sha256": "afe3b30e403dd7f228e2373023abbd60042a6e10ec6874d3652df034d289ebb9",
+  "canonical_source": "https://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "metadata_acquisition": "SJTU138097663byte prefix plus validated Range from official regional S3 same object; original prefix hash and full TFDS SHA256 checked",
+  "image_source_template": "https://s3.us-east-1.amazonaws.com/images.cocodataset.org/val2017/{COCO_ID_12digits}.jpg",
+  "origin_evidence": [
+    "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/download.htm",
+    "DNS:images.cocodataset.org CNAME images.cocodataset.org.s3.amazonaws.com",
+    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html",
+    "https://scidata.sjtu.edu.cn/records/7rp0x-d6e31",
+    "https://raw.githubusercontent.com/tensorflow/datasets/master/tensorflow_datasets/url_checksums/coco_captions.txt"
+  ],
+  "tls_validation_disabled": false,
+  "redirects_followed": false,
+  "automatic_network_retries": 0,
+  "full_zip_stream_hashed_on_server": true,
+  "full_zip_not_stored_twice": true,
+  "transport_container": "Mechanically repack only byte-identical captions_val2017.json; keep full original ZIP on Windows",
+  "preprocessing": "Original server Pillow11 RGB512 helper unchanged",
+  "maximum_image_candidates": 150,
+  "combined_windows_and_server_dataset_copy_cap_bytes": 536870912,
+  "retained_failed_partials_charged_to_storage": true,
+  "wire_bytes_recorded_separately_from_storage": true,
+  "all_new_artifacts_cap_bytes": 10737418240,
+  "watchdog_seconds": 7200,
+  "confirmation_uses": "Baseline confirmation only; never development selection/tuning or target-score access",
+  "model_or_gpu_experiments_started": 0,
+  "new_models_downloaded": 0,
+  "credentials_or_watermark_secrets_generated": false
+}

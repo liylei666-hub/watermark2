@@ -1,0 +1,8 @@
+{
+  "state": "blocked_or_failed_data_acquisition",
+  "at_utc": "2026-10-25T05:29:18.141145+00:00",
+  "error_type": "RuntimeError",
+  "reason": "Fewer than200 eligible source identities; do not relax frozen license rules",
+  "models_started": 0,
+  "no_automatic_retry": true
+}

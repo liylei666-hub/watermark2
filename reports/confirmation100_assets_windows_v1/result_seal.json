@@ -1,0 +1,29 @@
+{
+  "sealed_at_utc": "2026-10-25T05:05:51.658469+00:00",
+  "files": {
+    "launch.json": {
+      "bytes": 430,
+      "sha256": "9bf15f18bdc6d13b090faa03f4f63e32b510ea0d0012dcd46229455db282ce00"
+    },
+    "metadata.curl.txt": {
+      "bytes": 21,
+      "sha256": "8e5f891160bf3e3a83e963da792fbffb4f86ca2a6e718de6bf7ad023f0cd459e"
+    },
+    "metadata.headers": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "metadata.stderr.log": {
+      "bytes": 391,
+      "sha256": "9a3c95adcd48efa33865cf77c3607448acc5c8aab176d2d83d332982abafae11"
+    },
+    "terminal.json": {
+      "bytes": 84,
+      "sha256": "606c8bae3229ab4bf23d86bc75a2500473abd7b5bfff412b7fb34b090e0a04da"
+    },
+    "verification.json": {
+      "bytes": 1935,
+      "sha256": "e7e42c88dc19ea80df358d5257749729a5aa4945606eb125194c31b9c7f56efa"
+    }
+  }
+}

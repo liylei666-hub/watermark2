@@ -1,0 +1,11 @@
+{
+  "started_at_utc": "2026-10-25T05:06:17.3419065Z",
+  "url": "https://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "connect_timeout_seconds": 20,
+  "total_timeout_seconds": 600,
+  "max_bytes": 268435456,
+  "automatic_retries": 0,
+  "tls_verification_disabled": false,
+  "authorization": "User reports network recovery and explicitly requests one fresh normal-certificate-check attempt",
+  "prior_failure_directory": "gateway-data/confirmation100_windows_v1"
+}

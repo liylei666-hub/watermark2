@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-25T03:38:05.228572+00:00",
+  "as_of_utc": "2026-10-25T05:37:13.850196+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -122,7 +122,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Data acquisition stopped after the one authorized recovery: two same-URL official HTTPS timeouts before any HTTP response. Review frozen protocol and terminal evidence;100-pair assets unavailable. No further requests or GPU/model launches under this execution;Jain/stage30/8-attack work remains unstarted.",
+  "next_action": "Review a new attribution-schema protocol: real COCO flickr_url values are static image URLs, not owner/photos pages. Original selector closed with0 eligible despite857 metadata-declared CC BY images; preserve failure. Full archive/member and SSH stream hashes verified. No silent rule relaxation, no repeated selector or new model/GPU launch.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -1320,21 +1320,35 @@
     "jain_original_sd14_missing_in_reviewed_locations": true
   },
   "confirmation100_assets": {
-    "status": "blocked_after_two_official_https_timeouts",
+    "status": "metadata_verified_frozen_attribution_schema_invalid",
     "protocol": "protocols/confirmation100_assets_v1.json",
     "protocol_sha256": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648",
-    "report": "reports/confirmation100_assets_v1_retry1/report.md",
-    "metadata_attempts": 2,
+    "report": "reports/confirmation100_assets_relay_v1/report.md",
+    "metadata_attempts": 9,
     "successful_downloads": 0,
     "covers": 0,
     "captions": 0,
-    "dataset_bytes": 0,
+    "dataset_bytes": 4666640,
     "coverage_images": 579,
     "independent_unused_proven": false,
     "model_experiments_started": 0,
     "watermark_or_service_credentials_generated": false,
     "recovery_retry_used": true,
     "active_acquisition_processes": 0,
-    "coverage_sha256": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe"
+    "coverage_sha256": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe",
+    "windows_gateway_attempts": 1,
+    "windows_curl_exit_code": 60,
+    "windows_certificate_error": "SEC_E_WRONG_PRINCIPAL",
+    "scp_started": true,
+    "metadata_package_verified": true,
+    "metadata_package_bytes": 252907541,
+    "metadata_package_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+    "metadata_member_sha256": "afe3b30e403dd7f228e2373023abbd60042a6e10ec6874d3652df034d289ebb9",
+    "zip_CRC_passed": true,
+    "server_stream_sha256_matches": true,
+    "CC_BY_images": 857,
+    "eligible_under_frozen_rule": 0,
+    "combined_dataset_copy_bytes": 342095188,
+    "single_images_downloaded": 0
   }
 }

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "server_metadata_attempts": 2,
+  "windows_metadata_attempts": 2,
+  "total_metadata_attempts": 4,
+  "successful_downloads": 0,
+  "covers": 0,
+  "captions": 0,
+  "source_protocol_unchanged": true,
+  "prior_coverage_unchanged": true,
+  "windows_attempts": [
+    {
+      "report": "confirmation100_assets_windows_v1",
+      "curl_exit_code": 60,
+      "http_code": "000",
+      "body_bytes": 0,
+      "seconds": 0.618357,
+      "error": "SEC_E_WRONG_PRINCIPAL"
+    },
+    {
+      "report": "confirmation100_assets_windows_retry1",
+      "curl_exit_code": 60,
+      "http_code": "000",
+      "body_bytes": 0,
+      "seconds": 0.687331,
+      "error": "SEC_E_WRONG_PRINCIPAL"
+    }
+  ],
+  "zip_integrity_and_scp_hash_checks": "not_applicable_no_zip_received",
+  "models_started": 0,
+  "gpu_used": false,
+  "no_security_bypass": true
+}

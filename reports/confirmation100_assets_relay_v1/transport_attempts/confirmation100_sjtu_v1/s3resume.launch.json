@@ -1,0 +1,12 @@
+{
+  "started_at_utc": "2026-10-25T05:25:02.6691510Z",
+  "url": "https://s3.us-east-1.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "resume_offset": 138097663,
+  "original_partial_sha256": "e56f1ee441bed365e88f6b2b708a16c34eb9f0daf79cdd5749d54698a3efcd40",
+  "connect_timeout_seconds": 20,
+  "total_timeout_seconds": 600,
+  "automatic_retries": 0,
+  "tls_verification_disabled": false,
+  "identity_evidence": "Official COCO DNS CNAME images.cocodataset.org.s3.amazonaws.com; AWS documented regional path-style endpoint; verified HEAD length252907541 and ETag f4bbac642086de4f52a3fdda2de5fa2c",
+  "expected_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268"
+}

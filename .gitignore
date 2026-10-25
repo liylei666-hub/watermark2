@@ -15,3 +15,4 @@ private_eval/
 # Confirmation images and source metadata stay on the research server.
 datasets/confirmation100_v1/
 datasets/confirmation100_v1_retry1/
+datasets/confirmation100_relay_v1/
