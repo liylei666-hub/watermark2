@@ -1,6 +1,6 @@
 # 扩散语义水印的黑盒伪造研究
 
-**当前状态（2026-10-25 UTC）：**阶段31原生151次主端点维持4/4普通GS通过、平均BA0.919921875、PSNR23.751050dB；新增事后CPU LPIPS为0.197920425，非预注册主指标。既有AlexNet已在用户标准缓存核验，未下载模型、未改原候选/评分。完整来源与当前资产限制见[研究提交`e554c2e`](https://github.com/liylei666-hub/watermark2/blob/e554c2e6b89a1547f5d88766ef063be7620b41c0/reports/31_native_calibration_lpips_20261025/report.md)。4对共享身份不是100对完整复现或SOTA结论；六张无像素匹配不能证明未用于开发。阶段28/29关闭、阶段30和八攻击预处理对照hold。main保留独有历史证据，下文旧阶段按历史阅读。
+**当前状态（2026-10-25 UTC）：**阶段31四对校准及事后CPU质量补充完成：151次BA0.919921875、PSNR23.751050dB、事后LPIPS0.197920425。100对确认数据的采样/排除规则及历史覆盖清单已冻结；同一官方标注HTTPS地址首次TLS握手超时，唯一获准恢复也以curl28/HTTP000、正文0字节超时结束，已停止获取。0张载体/0条caption，无活动获取进程，未启动模型/GPU。权威[两次获取证据与协议`ffb3e4f`](https://github.com/liylei666-hub/watermark2/blob/ffb3e4fa4e0d1d9fca570511867311560041db9a/reports/confirmation100_assets_v1_retry1/report.md)、[质量补充](https://github.com/liylei666-hub/watermark2/blob/ffb3e4fa4e0d1d9fca570511867311560041db9a/reports/31_native_calibration_lpips_20261025/report.md)。4对不代表完整论文复现/SOTA。阶段30、八攻击对照及100对模型实验均未启动。main保留独有历史证据，正文旧阶段按历史阅读。
 
 研究目标：在明确的攻击信息边界下研究伪造方法与误差来源，形成可复现代码、充分实验和论文初稿。
 

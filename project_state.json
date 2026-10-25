@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-25T02:52:30.633958+00:00",
+  "as_of_utc": "2026-10-25T03:39:40.638726+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -116,7 +116,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Review exact current research pointer: completed CPU-only posthoc LPIPS and asset scope correction.100-pair data and original Jain settings remain incomplete; no new GPU launches, stage30 and8-attack preprocessing diagnostic held.",
+  "next_action": "Data acquisition stopped after the one authorized recovery: two same-URL official HTTPS timeouts before any HTTP response. Review frozen protocol and terminal evidence;100-pair assets unavailable. No further requests or new GPU/model runs under this execution;Jain/stage30/8-attack work unstarted.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -1450,8 +1450,8 @@
   "latest_reconciled_report": "https://github.com/liylei666-hub/watermark2/blob/84016dd348740e38e52b2624e98f72d6e058a64a/reports/29_reconciliation/report.md",
   "current_state_pointer": {
     "branch": "research/stage27-recovery-20261019",
-    "commit": "e554c2e6b89a1547f5d88766ef063be7620b41c0",
-    "report_url": "https://github.com/liylei666-hub/watermark2/blob/e554c2e6b89a1547f5d88766ef063be7620b41c0/reports/31_native_calibration_lpips_20261025/report.md",
+    "commit": "ffb3e4fa4e0d1d9fca570511867311560041db9a",
+    "report_url": "https://github.com/liylei666-hub/watermark2/blob/ffb3e4fa4e0d1d9fca570511867311560041db9a/reports/confirmation100_assets_v1_retry1/report.md",
     "stage31_status": "completed_four_pair_calibration_not_full_paper_replication",
     "primary_actual_updates": 151,
     "secondary_actual_updates": 150,
@@ -1463,7 +1463,13 @@
     "original_report_url": "https://github.com/liylei666-hub/watermark2/blob/e554c2e6b89a1547f5d88766ef063be7620b41c0/reports/31_native_calibration/report.md",
     "lpips_posthoc_151_mean": 0.1979204248636961,
     "lpips_preregistered_primary_metric": false,
-    "original_scores_unchanged": true
+    "original_scores_unchanged": true,
+    "quality_report_url": "https://github.com/liylei666-hub/watermark2/blob/ffb3e4fa4e0d1d9fca570511867311560041db9a/reports/31_native_calibration_lpips_20261025/report.md",
+    "confirmation_assets_status": "blocked_after_two_official_https_timeouts",
+    "confirmation_covers": 0,
+    "confirmation_captions": 0,
+    "metadata_attempts": 2,
+    "recovery_retry_used": true
   },
   "historical_execution_fields_as_of_utc": "2026-10-19T21:23:50.740821+00:00",
   "historical_pending_design_main": null

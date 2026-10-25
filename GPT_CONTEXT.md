@@ -1,6 +1,6 @@
 # 研究接续入口
 
-**当前状态（2026-10-25 UTC）：**阶段31原生151次主端点维持4/4普通GS通过、平均BA0.919921875、PSNR23.751050dB；新增事后CPU LPIPS为0.197920425，非预注册主指标。既有AlexNet已在用户标准缓存核验，未下载模型、未改原候选/评分。完整来源与当前资产限制见[研究提交`e554c2e`](https://github.com/liylei666-hub/watermark2/blob/e554c2e6b89a1547f5d88766ef063be7620b41c0/reports/31_native_calibration_lpips_20261025/report.md)。4对共享身份不是100对完整复现或SOTA结论；六张无像素匹配不能证明未用于开发。阶段28/29关闭、阶段30和八攻击预处理对照hold。main保留独有历史证据，下文旧阶段按历史阅读。
+**当前状态（2026-10-25 UTC）：**阶段31四对校准及事后CPU质量补充完成：151次BA0.919921875、PSNR23.751050dB、事后LPIPS0.197920425。100对确认数据的采样/排除规则及历史覆盖清单已冻结；同一官方标注HTTPS地址首次TLS握手超时，唯一获准恢复也以curl28/HTTP000、正文0字节超时结束，已停止获取。0张载体/0条caption，无活动获取进程，未启动模型/GPU。权威[两次获取证据与协议`ffb3e4f`](https://github.com/liylei666-hub/watermark2/blob/ffb3e4fa4e0d1d9fca570511867311560041db9a/reports/confirmation100_assets_v1_retry1/report.md)、[质量补充](https://github.com/liylei666-hub/watermark2/blob/ffb3e4fa4e0d1d9fca570511867311560041db9a/reports/31_native_calibration_lpips_20261025/report.md)。4对不代表完整论文复现/SOTA。阶段30、八攻击对照及100对模型实验均未启动。main保留独有历史证据，正文旧阶段按历史阅读。
 
 更新：2026-10-20（Asia/Shanghai）。目标为扩散语义水印黑盒伪造的方法、充分实验、可复现代码和论文初稿。用户授权自主研究、核验后正常推送GitHub。定时研究心跳已按用户要求移除。每次先核对真实进程、Git与机器账本。
 
@@ -12,7 +12,7 @@
 
 原始任务2 Jain在加载模型前失败，未重跑。r4只接续32个从未启动的攻击任务，算法未改；资源等待修复及CPU收尾均完成。整组45次工作进程启动（44成功、1失败），累计进程墙钟时间14775.389390秒。2026-10-19T21:20:54.039208+00:00实查：控制器、模型与CPU后处理均已结束，没有活动比较进程。原始run、失败和冻结文件保留。
 
-**当前下一项：**阅读[事后质量与资产审查](https://github.com/liylei666-hub/watermark2/blob/e554c2e6b89a1547f5d88766ef063be7620b41c0/reports/31_native_calibration_lpips_20261025/report.md)，审查独立100对数据及Jain原设置缺口；既有样本未获独立确认资格，不自动启动新GPU实验。
+**当前下一项：**审阅[两次终端结果及冻结资产协议](https://github.com/liylei666-hub/watermark2/blob/ffb3e4fa4e0d1d9fca570511867311560041db9a/reports/confirmation100_assets_v1_retry1/report.md)；当前获取停止，100对数据尚未就绪。保持原规则及失败证据，不再请求或启动模型。
 
 ## 已验证的研究依据
 
