@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-10-25T03:13:42.989256+00:00",
+  "protocol_sha256": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648",
+  "worker_sha256": "0432e5418d669059554a37e5d0aff28ee3b3b47e10d25510132008137eb76fa0",
+  "budget_before": {
+    "artifact_bytes_excluding_existing_cache_env_git": 995831336,
+    "dataset_bytes": 0,
+    "free_disk_bytes": 547846967296
+  },
+  "no_models": true,
+  "no_service_credentials": true
+}

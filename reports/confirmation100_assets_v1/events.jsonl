@@ -1,0 +1,3 @@
+{"event": "rules_and_coverage_frozen", "at_utc": "2026-10-25T03:13:55.288421+00:00", "protocol_sha256": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648", "coverage_sha256": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe"}
+{"event": "fetch_started", "at_utc": "2026-10-25T03:13:55.401097+00:00", "url": "https://images.cocodataset.org/annotations/annotations_trainval2017.zip", "destination": "datasets/confirmation100_v1/metadata/annotations_trainval2017.zip"}
+{"event": "acquisition_stopped_no_retry", "at_utc": "2026-10-25T03:14:41.337029+00:00", "error_type": "URLError", "reason": "<urlopen error _ssl.c:1000: The handshake operation timed out>"}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "acquisition_status": "blocked_at_official_metadata_tls_not_assets_ready",
+  "protocol_sha256": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648",
+  "coverage_sha256": "a8bbd98d20797e58da8edd4f949f75d779078437cc9cb159c6eb3216daae48fe",
+  "worker_sha256": "0432e5418d669059554a37e5d0aff28ee3b3b47e10d25510132008137eb76fa0",
+  "sealed_artifacts": 8,
+  "prior_image_count": 579,
+  "prior_image_decode_failures": 0,
+  "metadata_documents_scanned": 2626,
+  "known_prompt_hashes": 109,
+  "known_explicit_COCO_IDs": 0,
+  "metadata_attempts": 1,
+  "successful_downloads": 0,
+  "dataset_files": 0,
+  "dataset_bytes": 0,
+  "models_started": 0,
+  "gpu_used": false,
+  "service_credentials_or_watermark_material_generated": false,
+  "independence_scope": "Finite hash/pHash/metadata exclusions are not proof that all prior development use is absent."
+}

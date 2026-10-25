@@ -1,0 +1,43 @@
+Traceback (most recent call last):
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/http/client.py", line 1455, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:1000: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data0/liyanlei/watermark_research/tools/prepare_confirmation100_assets.py", line 224, in <module>
+    try:prepare()
+  File "/data0/liyanlei/watermark_research/tools/prepare_confirmation100_assets.py", line 117, in prepare
+    status('fetching_metadata');meta=DATA/'metadata';meta.mkdir();archive=meta/'annotations_trainval2017.zip';meta_download=fetch(protocol['metadata_url'],archive,256*1024**2)
+  File "/data0/liyanlei/watermark_research/tools/prepare_confirmation100_assets.py", line 94, in fetch
+    with opener.open(urllib.request.Request(url,headers={'User-Agent':'watermark2-confirmation-assets/1.0'}),timeout=45) as response:
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/data0/liyanlei/ceramic_watermark/envs/miniconda/lib/python3.10/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error _ssl.c:1000: The handshake operation timed out>

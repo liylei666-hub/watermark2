@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "unique_cases": 4,
+  "local_seconds": 4.685,
+  "server_seconds": 0.434,
+  "source": "tools/test_confirmation_assets_cpu.py",
+  "scope": "Origin/redirect guards,Unicode caption dedup,lossless pixel hashes and no model imports. Full official-metadata/image acquisition was not exercised because TLS failed."
+}

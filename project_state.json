@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-25T02:49:14.483312+00:00",
+  "as_of_utc": "2026-10-25T03:23:08.710416+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -122,7 +122,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Review independent100-pair data/provenance and faithful versus adapted Jain configurations. Existing LPIPS assets found and CPU posthoc quality completed. No new attacks: stage30 and8-attack preprocessing diagnostic held;100-pair run not frozen or launched.",
+  "next_action": "Resolve/review official COCO metadata connectivity while preserving frozen rules, coverage and failed acquisition. No automatic retries, no alternate-origin workaround, no model or GPU launch;100-pair/Jain/stage30/8-attack work remains unstarted.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -1318,5 +1318,20 @@
     "independent100_pair_manifest_ready": false,
     "six_unmatched_images_prove_unused": false,
     "jain_original_sd14_missing_in_reviewed_locations": true
+  },
+  "confirmation100_assets": {
+    "status": "blocked_at_official_metadata_tls",
+    "protocol": "protocols/confirmation100_assets_v1.json",
+    "protocol_sha256": "561fd8b5be87e364a59b3b09a941ef4cf0409da52c27a3656e23699df8c65648",
+    "report": "reports/confirmation100_assets_v1/report.md",
+    "metadata_attempts": 1,
+    "successful_downloads": 0,
+    "covers": 0,
+    "captions": 0,
+    "dataset_bytes": 0,
+    "coverage_images": 579,
+    "independent_unused_proven": false,
+    "model_experiments_started": 0,
+    "watermark_or_service_credentials_generated": false
   }
 }

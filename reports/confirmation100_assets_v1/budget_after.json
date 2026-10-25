@@ -1,0 +1,16 @@
+{
+  "observed_at_utc": "2026-10-25T03:18:55.491201+00:00",
+  "budget": {
+    "artifact_bytes_excluding_existing_cache_env_git": 996593973,
+    "dataset_bytes": 0,
+    "free_disk_bytes": 547846152192
+  },
+  "dataset_regular_files": 0,
+  "worker_sha256": "0432e5418d669059554a37e5d0aff28ee3b3b47e10d25510132008137eb76fa0",
+  "versions_observed_after_attempt": {
+    "Pillow": "11.0.0",
+    "numpy": "2.2.6",
+    "scipy": "1.13.1"
+  },
+  "scope": "Read-only post-acquisition accounting; not a new download or model run"
+}

@@ -11,3 +11,6 @@ tmp/
 .env
 
 private_eval/
+
+# Confirmation images and source metadata stay on the research server.
+datasets/confirmation100_v1/

@@ -1,0 +1,8 @@
+{
+  "state": "blocked_or_failed_data_acquisition",
+  "at_utc": "2026-10-25T03:14:41.337209+00:00",
+  "error_type": "URLError",
+  "reason": "<urlopen error _ssl.c:1000: The handshake operation timed out>",
+  "models_started": 0,
+  "no_automatic_retry": true
+}
