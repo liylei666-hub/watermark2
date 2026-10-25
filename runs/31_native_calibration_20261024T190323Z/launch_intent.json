@@ -1,0 +1,8 @@
+{
+  "source_commit": "bb3642f32df998b4f0c880ba58a3fb574ed6a76e",
+  "runtime_sha256": "d1749a198fd94e7ba33eb69cb09dd85f404c7cc07697142df6dabec8d09b035d",
+  "controller_pid": 7784,
+  "started_at_utc": "2026-10-24T19:04:16.266557+00:00",
+  "max_children": 2,
+  "storage_before_bytes": 811119062
+}

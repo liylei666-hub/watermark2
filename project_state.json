@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-24T19:10:28.688365+00:00",
+  "as_of_utc": "2026-10-25T01:32:42.427675+00:00",
   "research_topic": "Black-box forgery attacks on diffusion-model semantic watermarks",
   "completed_stages": [
     "01",
@@ -122,7 +122,7 @@
   "top_tier_contribution_demonstrated": false,
   "novel_attack_method": null,
   "literature_review_scope": "targeted_primary_source_review_not_exhaustive",
-  "next_action": "Monitor the existing fixed151 calibration through terminal state. Seal all20 candidates before28 target inversions; no best-checkpoint selection or unchanged failed retry. Stage30 held;100-pair replication not launched.",
+  "next_action": "Review independent100-pair baseline assets, quality metrics and exact shared comparison settings. Stage31 calibration complete, not full replication. Stage30 held;28/29 closed. No automatic model launch or failed-run retry.",
   "remote_execution_rules": {
     "path": "/data0/liyanlei/watermark_research/AGENTS.md",
     "sha256": "e4b44de12898530634de05c3efe46ffb1c0b73c8191b883cc601a1b953820a6a",
@@ -958,27 +958,9 @@
     "next_step_proposal": "Audit which proxy-observable information can distinguish cross-model systematic bias from reference-bit uncertainty, and its difference from existing inversion/ensemble methods before another GPU protocol."
   },
   "pending_design": {
-    "stage": "31_corrected_native_calibration",
-    "status": "running_fixed151_calibration",
-    "protocol": "protocols/31_native_calibration_execution.json",
-    "models_launched": 3,
-    "actual_updates": 151,
-    "paper_text_checkpoint": 150,
-    "checkpoints": [
-      20,
-      50,
-      100,
-      150,
-      151
-    ],
-    "pairs": 4,
-    "candidate_pngs": 20,
-    "target_images": 28,
-    "run_dir": "/data0/liyanlei/watermark_research/runs/31_native_calibration_20261024T190323Z",
-    "controller_pid": 7784,
-    "source_commit": "bb3642f32df998b4f0c880ba58a3fb574ed6a76e",
-    "runtime_commit": "a8912952e7a1520df58d200033f935b58e723986",
-    "last_observed_state": "Reference preparation completed; attack1 PID8949 GPU0 and attack2 PID8947 GPU1 each executed at least2 actual updates. Remaining jobs pending. This is a timestamped checkpoint, not final result."
+    "stage": "independent_full_baseline_protocol",
+    "status": "assets_and_protocol_review_no_model_launch",
+    "stage30": "held"
   },
   "stage24_source": {
     "stage": "24",
@@ -1286,5 +1268,36 @@
     "independent_units": 4,
     "attacks": 16,
     "target_inversions": 40
+  },
+  "current_stage": "31_corrected_native_calibration_completed",
+  "stage31": {
+    "status": "completed_calibration_only",
+    "run_dir": "/data0/liyanlei/watermark_research/runs/31_native_calibration_20261024T190323Z",
+    "report": "reports/31_native_calibration/report.md",
+    "primary_actual_updates": 151,
+    "secondary_actual_updates": 150,
+    "pairs": 4,
+    "shared_identity": true,
+    "candidate_pngs": 20,
+    "target_images": 28,
+    "model_processes": 6,
+    "failures": 0,
+    "primary": {
+      "n": 4,
+      "mean_mse_rgb01": 0.004356093518507567,
+      "mean_per_image_psnr_db": 23.751050258952787,
+      "aggregate_mse_psnr_db": 23.609028051936217,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.919921875,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.681183866449427,
+      "mean_ms_ssim_rgb": 0.8204570710659027
+    },
+    "reference_passes": 4,
+    "clean_cover_passes": 0,
+    "full_paper_reproduction": false,
+    "lpips": null,
+    "formal_human_labels": null,
+    "retrospective_weight_seal_only": true
   }
 }

@@ -1,0 +1,31 @@
+{
+  "task_id": 1,
+  "job_sha256": "80f8260a822398e5f0305573be1a1b7d060b31034b879f9e421437f273e9dc78",
+  "images": {
+    "20": {
+      "path": "update_20.png",
+      "sha256": "4f4d122605b9b319029283099d16c6b84304e9a712e24904f5d99c6a61a3a8da",
+      "bytes": 458376
+    },
+    "50": {
+      "path": "update_50.png",
+      "sha256": "cafb5a629dfe556af437aba21866f747a51ce834aa422d96afc7cb4a76183fc3",
+      "bytes": 455994
+    },
+    "100": {
+      "path": "update_100.png",
+      "sha256": "d0bd9727df89742f1b4aa0321a61ca6a7e50373a09405e8801057f2550889550",
+      "bytes": 454838
+    },
+    "150": {
+      "path": "update_150.png",
+      "sha256": "260bd9f5e552c23c2b881ddc89023ef56fc6509e9de74a3d94fd9691dce95186",
+      "bytes": 452150
+    },
+    "151": {
+      "path": "update_151.png",
+      "sha256": "8eb6563c462846c4a1192ba034a677935767832f9fd11c099142d71f0d257651",
+      "bytes": 451991
+    }
+  }
+}

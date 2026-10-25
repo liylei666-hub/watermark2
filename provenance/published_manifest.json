@@ -23,13 +23,13 @@
     },
     {
       "path": "GPT_CONTEXT.md",
-      "bytes": 6904,
-      "sha256": "34aa15ef55fb14dd6328e9a340de75ae6b0afc684b4a16875ae3381db0213fa6"
+      "bytes": 6619,
+      "sha256": "1def750d8967963821a00d298ff27e55b084e0eb41184f62ba173769f38e3c7c"
     },
     {
       "path": "README.md",
-      "bytes": 7893,
-      "sha256": "c3365fabd0091eaf9c8d78e7dab358545ca95269f04e90f55f3931062a6a9a46"
+      "bytes": 8319,
+      "sha256": "2ef93c7e991ab833101cbba453c25dd6a2b72543f7bc9a240823640ca982188e"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -298,8 +298,8 @@
     },
     {
       "path": "docs/COVER_BASELINE_CONTRACT.md",
-      "bytes": 11652,
-      "sha256": "08026bfbd67ca9ad69d236c281c1b63bcc613f1e2930dd7752c357fa0ea86e6b"
+      "bytes": 12209,
+      "sha256": "ddd5900721c018e26663eca6b6d6edcb29188ffc1b314da653190c88f06c9958"
     },
     {
       "path": "docs/CROSS_GENERATOR_CONTRACT.md",
@@ -368,8 +368,8 @@
     },
     {
       "path": "docs/RESEARCH_PLAN.md",
-      "bytes": 4272,
-      "sha256": "450ac2c2bb596d2e4350eb01bdc8e5e4408bb8f65999359549ff4b105b4a5fe6"
+      "bytes": 3987,
+      "sha256": "887e376424bd327eece19d8f57c9a664c3f8b07fc86463d1dedbed745e9c640a"
     },
     {
       "path": "docs/SEAL_EVALUATION_CONTRACT.md",
@@ -403,8 +403,8 @@
     },
     {
       "path": "project_state.json",
-      "bytes": 49348,
-      "sha256": "d49a5d9023a17678dbb25533a7a2d8376880eedbd89b0239a64e9e2e432e8ac6"
+      "bytes": 49667,
+      "sha256": "e0e72ee4cad6a30033a9104c3d47022fca823b889f4da24dea3ce3d61ed1302b"
     },
     {
       "path": "prompts/README.md",
@@ -2412,6 +2412,11 @@
       "sha256": "3866a5a98e9e149ef6a2a10f6e94575dc8d00aae46f155f78e0d94693ff8e1e1"
     },
     {
+      "path": "reports/31_native_calibration/final_public_verification.json",
+      "bytes": 10747,
+      "sha256": "5a6ce0ae67c1a439cc40b2125399c1798d3cd987949b27e4fdd7c939e7c4d97d"
+    },
+    {
       "path": "reports/31_native_calibration/launch.json",
       "bytes": 176,
       "sha256": "38b8e9af689752b4521798c5f3b1d2a56c6fe3f8c503e842434b5fe071177bb0"
@@ -2428,8 +2433,33 @@
     },
     {
       "path": "reports/31_native_calibration/report.md",
-      "bytes": 2215,
-      "sha256": "2db68bf697de30d0ec5b1f863789e81cfbb468e1b5f87bfb88d6b67a32891f82"
+      "bytes": 6367,
+      "sha256": "61aa66d811fcb4a3c1d117a4c66b01779edb3eefa389e3c2bdb434e56160e9a1"
+    },
+    {
+      "path": "reports/31_native_calibration_20261024T190323Z/launch.json",
+      "bytes": 176,
+      "sha256": "38b8e9af689752b4521798c5f3b1d2a56c6fe3f8c503e842434b5fe071177bb0"
+    },
+    {
+      "path": "reports/31_native_calibration_20261024T190323Z/status_once.py",
+      "bytes": 1850,
+      "sha256": "7dcaa09732869d11b2b20b083c722b4a2f2da1b66632ea243eb0ab713f8e6e7e"
+    },
+    {
+      "path": "reports/31_native_calibration_20261024T190323Z/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/31_native_calibration_20261024T190323Z/stdout.log",
+      "bytes": 149,
+      "sha256": "a5cf6ae50b1d835fb044a2d4f01beec8c709287399f33d5860e3cee05ff4017c"
+    },
+    {
+      "path": "reports/31_native_calibration_20261024T190323Z/watch_public.py",
+      "bytes": 889,
+      "sha256": "33c45400bad1bb9c6830e59d2a643cfa59bf2ab095039b416f6eb94599cc9f93"
     },
     {
       "path": "reports/cover_baseline_contract/cpu_checks.json",
@@ -20877,6 +20907,1271 @@
       "sha256": "d87078dc06bdcb8e377e44641f51c1b97fec3fa779d42c64bee5f5798c1a2120"
     },
     {
+      "path": "runs/31_native_calibration_20261024T190323Z/analysis.json",
+      "bytes": 25726,
+      "sha256": "ca3d5b69763fb04d1e1c8940d8e1720a4655b39ec4841f10adcae613d93d9a12"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/candidates_frozen.json",
+      "bytes": 906,
+      "sha256": "878437d3f6a1606c98b585b17c6c4a76c3c9a2b555d04397647b43452c6dec9a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/claim.json",
+      "bytes": 138,
+      "sha256": "0a531dd7280efd27b2ddc46a96f2752b4d7d2493a22d1a72da9982da53a0690a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/device_preimport.json",
+      "bytes": 1143,
+      "sha256": "050aa4d48b9a997b22cbc13e965d9cfdcd3165c04af9c9edea33b6f59cd8b83a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/execution.json",
+      "bytes": 3381,
+      "sha256": "833551a8b942b2ba60bf14b4a539b4979a5dff4efe272a5da740adb6b24177a7"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/execution_seal.json",
+      "bytes": 82,
+      "sha256": "a962662729243c6b4233f15fbd3794da32bcc6037494ba0e1cc375b8a04a9223"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/initial_z0.npy",
+      "bytes": 65664,
+      "sha256": "ee1c55440a28d30e7242b359fbc4be4f4bb48c98715c1af611eb4fda1ef52fe7"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/optimization.json",
+      "bytes": 142418,
+      "sha256": "e03b761187cb8f2dcb32e14f7cb3af1ef843d507780155ea64298887d4d6c617"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/parameter_flags.json",
+      "bytes": 187,
+      "sha256": "3329893e3364ce8f6ff8b936ba8f88654199b7ba3bb9f550b05f54cd4ca572a7"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/process.json",
+      "bytes": 1075,
+      "sha256": "48cdca138b6b38be32617afd37f48198241f46b62883978363fbf1e47b3f088b"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/reference_proxy_inverse.npy",
+      "bytes": 65664,
+      "sha256": "4942da864a0ef56088d1d22aab7bf9c34e2926c5826dbbe974e52fee53d68615"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/stderr.log",
+      "bytes": 968,
+      "sha256": "139b28664fcb97e3b3cfde414ac1cbe71c6df3144b056cc0a71eb46658151ae9"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/stdout.log",
+      "bytes": 6315,
+      "sha256": "b85d94f385a8df66f9aef55d92cb65c24fa4bcf4a01c04507968862f71c3e4e4"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/summary.json",
+      "bytes": 1176,
+      "sha256": "de58c0089bffb76b471effb0b7250d6f9b6bda0d33d70fe9d36c8411e6b57cd0"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/supervisor_preflight.json",
+      "bytes": 898,
+      "sha256": "5333bec98ab7d77431f9b6261d444e5ce649480f76ba0f6d1f63563aed4c6603"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_100.png",
+      "bytes": 454838,
+      "sha256": "d0bd9727df89742f1b4aa0321a61ca6a7e50373a09405e8801057f2550889550"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_100_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "6e9bbb8c8951e84d25e2545937fffce15480104ee948fcd5fbceb58b9f14bff4"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_100_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "4dba50aa5a67453470dfd6e0c4f247cc20d45159ec39afed11f8452f4178fe76"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_100_latent.npy",
+      "bytes": 65664,
+      "sha256": "be3b1f28288f9322bc202307e791955493d57da2219d81735198cf5f51445fb4"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_150.png",
+      "bytes": 452150,
+      "sha256": "260bd9f5e552c23c2b881ddc89023ef56fc6509e9de74a3d94fd9691dce95186"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_150_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "39fb0aec059f54b21a5e28ad5a781ba6b779c983c24465a59786a3c742ad0279"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_150_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "c237c7a678128faaa8043cbac253a9f710b237219fe67728dfb7adf0a27c5938"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_150_latent.npy",
+      "bytes": 65664,
+      "sha256": "88972beb85a186300ce6b618f4d147cae53d23982a7215bf756942329171bc8d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_151.png",
+      "bytes": 451991,
+      "sha256": "8eb6563c462846c4a1192ba034a677935767832f9fd11c099142d71f0d257651"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_151_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "5aef9c214f62cb7e1c89efa09d9552553b2076c39e16804e54e8bc61a63ab525"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_151_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "2cda2c1708df7dbebc2fe854bd2a599305734114c23d8a25050a6d5b79af74b1"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_151_latent.npy",
+      "bytes": 65664,
+      "sha256": "2462cea8b51768d85356f809e016b8aabd937dbe39b47ad71d064c84d73ede25"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_20.png",
+      "bytes": 458376,
+      "sha256": "4f4d122605b9b319029283099d16c6b84304e9a712e24904f5d99c6a61a3a8da"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_20_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "2223fb3a9a7b68e1151da0d0be1ce11dd372780962f2a0561d3b28f4546e0f11"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_20_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "28a431625f03ab1f878080157cc9355988f153f41ad30c695af0806438becabd"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_20_latent.npy",
+      "bytes": 65664,
+      "sha256": "41aa5a555b8f36951fe38cb4e45c48605f23b9e3ea1e36392a353380846ca013"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_50.png",
+      "bytes": 455994,
+      "sha256": "cafb5a629dfe556af437aba21866f747a51ce834aa422d96afc7cb4a76183fc3"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_50_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "47abff16e676ec489d66bfa5236be7863e5cc55e3a957445a03a1416e3fd1c6d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_50_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "03cdcbc77a832cb402487bd46d2e17180d02a83da9455bbde09f6b17b5afeac4"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_1/update_50_latent.npy",
+      "bytes": 65664,
+      "sha256": "4220f34dadeb8fa04779fa20dde6b0e1332b204fd0fb11826f9adca67cc70258"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/candidates_frozen.json",
+      "bytes": 906,
+      "sha256": "dd258e57d46db647225aee5af326bf009e539d5828a663964b094d50a0f35213"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/claim.json",
+      "bytes": 138,
+      "sha256": "5a45d85243c0ff7a253e523581a8fed9d9c5632bb9f47402f3104eebe46ba78d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/device_preimport.json",
+      "bytes": 1143,
+      "sha256": "63ff461dd5508abc6f254674ff897045b9f5d65b192b4286117a3f4565fb47e2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/execution.json",
+      "bytes": 3381,
+      "sha256": "ca7df655e5ece5dc521b8ea40a1aaf2217a1c6bd6c6392f7dd4f573014bc8e0b"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/execution_seal.json",
+      "bytes": 82,
+      "sha256": "c4c32f2be582cd7b73872c29ce53134b9621cf0d9cf98dcba2a254783e604b35"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/initial_z0.npy",
+      "bytes": 65664,
+      "sha256": "285b6b0a00772c3422effbdd35e64c73297167b2c44e0fb11e8ff8d6f53b4fa0"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/optimization.json",
+      "bytes": 142428,
+      "sha256": "dd086440a5d733661917c016473b5c509de9349facf44ac96cfeaa952cb1f725"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/parameter_flags.json",
+      "bytes": 187,
+      "sha256": "3329893e3364ce8f6ff8b936ba8f88654199b7ba3bb9f550b05f54cd4ca572a7"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/process.json",
+      "bytes": 1075,
+      "sha256": "266513e81c9bddce7217deb07295fdfd7a2e2182233ac1f45f028e21c45b2991"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/reference_proxy_inverse.npy",
+      "bytes": 65664,
+      "sha256": "88234fd156208fe05c36bd96583a6c903eb82c2d9baabdc14e76946afe786447"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/stderr.log",
+      "bytes": 970,
+      "sha256": "6e060a78b36806cf774d946c375318116c6643702d57e008f10fda927517b4a5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/stdout.log",
+      "bytes": 6298,
+      "sha256": "6e519572f28104076fc39e2108985146ed83e68058811ef9cc259e02b3c8c9e8"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/summary.json",
+      "bytes": 1177,
+      "sha256": "3fc5f11bf045c0d2b629a28dfa9141217929c1ee6aa0372b0924f34f19d299e5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/supervisor_preflight.json",
+      "bytes": 898,
+      "sha256": "73d70e4f3b2a87641b077d8a1d4197cadc04831fe0123a64c5cb03a0ea881392"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_100.png",
+      "bytes": 414977,
+      "sha256": "b846c7a61bdc46f481b812845841da1ab9acaf6ea0259882ef1137f9e7686219"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_100_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "08ff29848c1dbd9eb4a2e995bc90690e37b300d557d0019cbc0f71ad4fff93ae"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_100_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "c256084982bc56d984c1fd8eb1e5b6e73efd6793d9ceb74deeb87006a04660d4"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_100_latent.npy",
+      "bytes": 65664,
+      "sha256": "8cd535409fe01f3a5e9f387b17fd23b55ad645418c246775f6467523777fbab7"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_150.png",
+      "bytes": 413356,
+      "sha256": "0a74272173b44cf80459af876cc4a3ce051092a71e46827ffa96271272cca3b8"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_150_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "061aebc9f74c6582e6f256b45ee5829332993d51cd67b777551f6253fdc7f693"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_150_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "fa55b36eeb3994a828f7fcd776c6322d657790124cc345e397f5db347115e76a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_150_latent.npy",
+      "bytes": 65664,
+      "sha256": "452f956e8a8bdf131f32c7d345db2e571b24593236dfd6a1faaacffc9a318f92"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_151.png",
+      "bytes": 413528,
+      "sha256": "5e068dca721fc92bde00a2ac165fd2e91e3608131590fd5406114b35898f64c4"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_151_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "f2f53684b3973ed8ab0a7dd5db20e77e4e03f5558fdb93ecb4b404e50a578d2d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_151_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "0fc1ecc5132a32fea8bbe12d36cbe2c4f296eb4836a895abeded0ab465947007"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_151_latent.npy",
+      "bytes": 65664,
+      "sha256": "afe8a74f3b43230947282decf410ea11dac1cac79fa7f87f4e25da7be79800b4"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_20.png",
+      "bytes": 416566,
+      "sha256": "ad0469402774b300100ac0fbbe76aa5b7be47b4407693ef76165b39be378de81"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_20_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "9e3fca6cc39e3293e11374501bb784c215218c8bff18d95d2731797839a5a77e"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_20_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "5b2c4a82e355f72ddcda49f0a0bd5aa882c72fcf1a447427374c1bf1ae339cf8"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_20_latent.npy",
+      "bytes": 65664,
+      "sha256": "f443a54774227c343915a678c874f8eeb596a970a4624aa6a8e2345f80aa5db6"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_50.png",
+      "bytes": 418016,
+      "sha256": "f5c0d3301311e4422f7fd1f0b920d3e942d045bad8979f9fb8c186d695b39014"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_50_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "5d8d85eccb38ef9fab48851b5ed5a93c2d72541b781384c72382956a0b5dc26c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_50_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "0c6e44973d05894f51b5ebbfcc83057b2df8f5bc81389b77a600f117e127efd2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_2/update_50_latent.npy",
+      "bytes": 65664,
+      "sha256": "4f90f2144ef4f895d8600f54f7a416031d7a8c4fd1155f30613d8eb4ea5598da"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/candidates_frozen.json",
+      "bytes": 906,
+      "sha256": "f2f591a0285d969cb41cd159e359617d4b772455362bbd70561971c27cd80121"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/claim.json",
+      "bytes": 138,
+      "sha256": "861a558ade4973b53cb117567b4b5995a1890934bd603ee7a6d0d94965a97ba1"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/device_preimport.json",
+      "bytes": 1143,
+      "sha256": "050aa4d48b9a997b22cbc13e965d9cfdcd3165c04af9c9edea33b6f59cd8b83a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/execution.json",
+      "bytes": 3381,
+      "sha256": "96fdebf0e6c5d71d35f40831431f4a635f0aa63176c44581aaa4fdfd73b75df2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/execution_seal.json",
+      "bytes": 82,
+      "sha256": "9e9b0920598d5b188b89286cb6c341fc975ac56fa4e699f3652c62065b4158ed"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/initial_z0.npy",
+      "bytes": 65664,
+      "sha256": "3dcce90a5aa18938ff66bd69e55dfcc651c7501d9f6ae9cf22fbeb9fff21b73e"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/optimization.json",
+      "bytes": 142444,
+      "sha256": "06466c1078c0f28f5fc28d8120ec10ff355748f2d8aff2d60e4ff9a4d7564ffb"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/parameter_flags.json",
+      "bytes": 187,
+      "sha256": "3329893e3364ce8f6ff8b936ba8f88654199b7ba3bb9f550b05f54cd4ca572a7"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/process.json",
+      "bytes": 1076,
+      "sha256": "f6946ed08b51c5529ebe3a429a97741f83c28c8b091fec7bdd75cd0518d200a0"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/reference_proxy_inverse.npy",
+      "bytes": 65664,
+      "sha256": "475beb3e06ff288758951a90d5f054be389c35b519d6670f898be4e6d786bb2a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/stderr.log",
+      "bytes": 872,
+      "sha256": "9bca6a59778f047a5874ac1485cceeffbf409fc33aa440e18a6a1b49e8177b72"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/stdout.log",
+      "bytes": 6308,
+      "sha256": "3f6c9dafd3300a9b9e048a9f2180ca68bbcaf480120b5221ea4c8d9094f33389"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/summary.json",
+      "bytes": 1177,
+      "sha256": "137d497258f6dde431983d577780c41b7763f7d1e65cde902dc57f84ea185094"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/supervisor_preflight.json",
+      "bytes": 1180,
+      "sha256": "3e7ecbf4f49e03f54611d19a735b8b039958ed866ccb8fd4e63cddb4debdf2e2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_100.png",
+      "bytes": 424710,
+      "sha256": "d32643736edd2d965728d39f904879ae8392e00426c5781c8111815839914199"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_100_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "5d4606bfedaea83bcd3ff74c03b59cc4f4941e5474205921bf4eee2a7169979b"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_100_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "27139a788fd25d3a7cf51ca06e296d55176dd047e963c902e8409399bce2d09f"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_100_latent.npy",
+      "bytes": 65664,
+      "sha256": "2b8f2e42ddb92f3974a135e729bf5035b705886b06223f934753a68f85dca94e"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_150.png",
+      "bytes": 422094,
+      "sha256": "633e4b4b28bb538c0fd7575a72d46e3a87c639c7a55cc9f6c8c4ce640e830908"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_150_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "d7a55ebbbacd3f4a4e733d7a5f538c6fb59ae16995b7799ef85179c69286377e"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_150_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "093087d495db9ec7b791d49a04205572d0573e913233e7a8782f2305d24eb036"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_150_latent.npy",
+      "bytes": 65664,
+      "sha256": "cc353fbfd8fe1b68ed784a440b6923d50dfb9ce7ee644939f7251595fb26ec04"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_151.png",
+      "bytes": 421961,
+      "sha256": "7f4bfaf204c3122d714e25ba732bd9eec51721349e3fe9f6d4b0028611f22f35"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_151_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "e6aa2259f5e91fc945815cfde742d94d2a44e2c4a5366aa033dcf91fba2a9b20"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_151_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "887f828e4c4e2794c3bf17dd5eb0743cec836468dbe554ccba5422db219babc5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_151_latent.npy",
+      "bytes": 65664,
+      "sha256": "a3fa6c7020f38621af812d8327bef822e8062678cbb07b0e55a90cb08fe7ed17"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_20.png",
+      "bytes": 425238,
+      "sha256": "9cfbd9f29e10f31c5d8242dc225d805154486954e579c1660a6d15323b6da327"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_20_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "45fa28f74bac5e10f4121effead0276c9ccbd113f812ea91d37254cdd371db26"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_20_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "dd5a0c6a98c12ad244c8cd1e2e141d7878e525d149b07687e5c69344151abc57"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_20_latent.npy",
+      "bytes": 65664,
+      "sha256": "f6b08e0748f4d94a3c1b02aeabef0d7d5a979f732dfdfd7105ffe01779982dd5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_50.png",
+      "bytes": 427430,
+      "sha256": "23dbae4b9e1edf0acdd4b9b4b0998d45b60ae6ea38b953fc9859b0a6ffb846fa"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_50_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "6ea5b0e8a166ebbdf3fe87a7aff84d24f5b0e58217d7e3e8f208eec9911e4102"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_50_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "ce04be16ae390e59adabaabb413cf2c416626692ce7d52b9ed5f98fffeb5d59f"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_3/update_50_latent.npy",
+      "bytes": 65664,
+      "sha256": "552fa2f91e5cecbf688b69aaeabf6410fff7d269b40ee48ac025f034044253af"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/candidates_frozen.json",
+      "bytes": 906,
+      "sha256": "4b8b8a55146440bd4298a92facc852c7fe6f46d97cf00542da4339e85e7a5d8d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/claim.json",
+      "bytes": 138,
+      "sha256": "3d908d356bd6ef2fb32871f41e9e5a4a96a369cbebc91af4c56b022f843f98e4"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/device_preimport.json",
+      "bytes": 1143,
+      "sha256": "63ff461dd5508abc6f254674ff897045b9f5d65b192b4286117a3f4565fb47e2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/execution.json",
+      "bytes": 3381,
+      "sha256": "0d2c46936840ad89f8116de2c37f09c06539efd6ee110f4cae5bf724e632add1"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/execution_seal.json",
+      "bytes": 82,
+      "sha256": "3f7c23638e29482f16a26544205e7b817ede9f6e7052aa6cfa34578af56b706c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/initial_z0.npy",
+      "bytes": 65664,
+      "sha256": "4c0d246fc3edb9d69a9b8001a434b6d7650f8385f18b6d19aa3feaf606cbf73b"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/optimization.json",
+      "bytes": 142424,
+      "sha256": "538d069f4c515a76de6abf171b9a7f963c06c146034957984c86aa1f7846ee4a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/parameter_flags.json",
+      "bytes": 187,
+      "sha256": "3329893e3364ce8f6ff8b936ba8f88654199b7ba3bb9f550b05f54cd4ca572a7"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/process.json",
+      "bytes": 1076,
+      "sha256": "e8d03d976081c6067468cffb52761f7631d6bdbc18339cf873419f27f0535db2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/reference_proxy_inverse.npy",
+      "bytes": 65664,
+      "sha256": "78e3f9875b6820a6d8fe70832e08f4cf6315972875dd4e3495718b8e8c7983e4"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/stderr.log",
+      "bytes": 868,
+      "sha256": "177e1899557ab6c76f26432d3b5e3946a4eabeedd42654e5505c617301321e24"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/stdout.log",
+      "bytes": 6309,
+      "sha256": "c44365d37dc8c3ef5a8e3cf2160606a32c78dffed335884fc6b38b783a6bf2a2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/summary.json",
+      "bytes": 1177,
+      "sha256": "90ce41915cc7a1090b2d1d17ac1334cc7a5068de2d37867300b679654321421e"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/supervisor_preflight.json",
+      "bytes": 1180,
+      "sha256": "b761dd6142cfd0d6d5996a9ac9835a18ed1259ee0703433d46b9aaab54660c21"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_100.png",
+      "bytes": 334170,
+      "sha256": "b2033bd56177470a8c210df27084d85379b336d573dea598bc328e801ba76826"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_100_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "1755e519de9cdf72d11fed3e316ad30f5a03a1c49e4285a1e37fb50f944974fa"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_100_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "edda68bb9a60ea4cfb9a67c8a8ae93f4dfcb88fb0e3263fb26a022c27842c4d6"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_100_latent.npy",
+      "bytes": 65664,
+      "sha256": "acc3d45c49ba7f100dd97b55a1b15267ab90cd89193c18431db671c9b14900c9"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_150.png",
+      "bytes": 332194,
+      "sha256": "0362ae8a7ffe500bb0a4e3f897317d1fba784c6c2e2f47f995d6ef07483cd736"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_150_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "e383cd05b995a36543384994288e6009b65916e0c44e3354482de932071385c9"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_150_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "70608c78e9ea7cc25bdb2d566dc4168f1bdfa5f642f8f980caff7073b234e57e"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_150_latent.npy",
+      "bytes": 65664,
+      "sha256": "9c8103ce5ff015701d3ef9e015646665fcaa16dbb547e886a1100da9a9baa044"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_151.png",
+      "bytes": 332381,
+      "sha256": "0453c0ab08e421ae9942737d5fe624d0d4d40df1a16296032e561257295428d5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_151_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "4b8174dd037e0683395978caf3aceebdc5d6c2edcb51b9fdcd0c8ace18d31bc0"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_151_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "e061b56f6a9e5751ab9cae4cd508bec6cf2c9d387114b103ee356312eb827b15"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_151_latent.npy",
+      "bytes": 65664,
+      "sha256": "56d740664a8acdff210fb187ab0eed623b706e399f93a70f3958521e0d0c696e"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_20.png",
+      "bytes": 333637,
+      "sha256": "0d1959fe9d8730ac350a19faf9c5309d18d43da71aa1c363dd78a954b0ae276c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_20_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "88851fa5ee8db4941fecd63775cfd6ca2c9975bcc6bbfb9e8c5b6b6c71634a49"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_20_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "7490c644bc961277a5e266a50242bd2529e7663cecc6a4057e2c37375f72aae5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_20_latent.npy",
+      "bytes": 65664,
+      "sha256": "fb3fbe084fc0923de75ea05a7f656ca92da9ce7ce142621e61f986e60367f42e"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_50.png",
+      "bytes": 336075,
+      "sha256": "9955272ee16517edc8c2bc7c3445ff003b35c70c562b91f787a67b0025cac1f7"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_50_adam_avg.npy",
+      "bytes": 65664,
+      "sha256": "18569c69dd4bf9ce35d4a00502fcd5a6c8a51660625d8ddaed138caca710b6bd"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_50_adam_sq.npy",
+      "bytes": 65664,
+      "sha256": "8815c5d012b879c3980ff9b5a1de43752c2625bae43ccb757574ace788c25a0d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_4/update_50_latent.npy",
+      "bytes": 65664,
+      "sha256": "407e897b5200f9769a9b720dfaa4dc3a80ca63c2517aa27545a121579dd67cc7"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/1/cover.png",
+      "bytes": 429064,
+      "sha256": "7887a2c2b565eb203f57ebe4647e39ff6d00d783d4ae7741b2ca08d59ba71430"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/1/job.json",
+      "bytes": 2854,
+      "sha256": "80f8260a822398e5f0305573be1a1b7d060b31034b879f9e421437f273e9dc78"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/1/reference.png",
+      "bytes": 328185,
+      "sha256": "7e92762b49f30a888a0f11cf64a15e2aa93c9d33d475e9fd92dcbf3f73f1558d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/2/cover.png",
+      "bytes": 381958,
+      "sha256": "38c36f20a0376dc619c7c85ffa441f7c680f2003eacac1dc88b0de617884c680"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/2/job.json",
+      "bytes": 2854,
+      "sha256": "37e6404a6cde422205b043927f500898fa5daebf421a52029540918237f06447"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/2/reference.png",
+      "bytes": 396996,
+      "sha256": "90399d4073aac13e3e17d58b2dbf6181471d44d574d18fe6ce4c1ac36d8459c1"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/3/cover.png",
+      "bytes": 436626,
+      "sha256": "8341caa43f5eb027cf2bb67b32acece7bc577baf89c93684cc2d2b17d97537b5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/3/job.json",
+      "bytes": 2854,
+      "sha256": "4a7f76a526ed06ba34c7464d69b3ace5bef07d4ce11e7983a3b8bc97806823ac"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/3/reference.png",
+      "bytes": 399324,
+      "sha256": "eb2d096178cbdcbfdfb3afa34e71f28c49deb0efce1ebfb48968701723b0d91b"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/4/cover.png",
+      "bytes": 252372,
+      "sha256": "00e57b5d5a249389a0bdd19e98b0e00373d02a173155d02fffffd2523faf6340"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/4/job.json",
+      "bytes": 2854,
+      "sha256": "b0ca858f9d2a16822dc38670b3947b6f74265ece7f37f81d8f824692fd09b70f"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs/4/reference.png",
+      "bytes": 380769,
+      "sha256": "5c94f6cea1d442af3ce6ec537071e48ebd27af57b5ca17380d5797bcfb8c95a5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/attack_inputs_sealed.json",
+      "bytes": 1034,
+      "sha256": "0469abdb486521d73b97e8824bbfb4e1a12504fdad8374c041bab30b70100266"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/candidates_sealed.json",
+      "bytes": 5496,
+      "sha256": "b526f615e32835132dc5e5e606b372bf16be0761ccd11e7ec50b8cc72ec09ad2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/design.json",
+      "bytes": 10303,
+      "sha256": "0f15578054a499292795258987bad1114371a72a40c6f2936efe1831d3ad83b9"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_100/metrics.json",
+      "bytes": 741,
+      "sha256": "d3a4e0bfc102995cb67fab723614fe1869b7457ca60691ebf1cd868157019588"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_100/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "80934556ee3e1a1d5b288dea2863180d5163ddd17282b8d93d75fe8e0b9d491c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_150/metrics.json",
+      "bytes": 743,
+      "sha256": "ed3fecac2d8f3d45e555cd6379d50cb8aa3ffb2097f8a438b03c430efba71894"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_150/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "093c0f036951ab4b6d2ae9db6bb8873660daa18eaaf1b4eac14e00ee9401626c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_151/metrics.json",
+      "bytes": 744,
+      "sha256": "49af595c7320ea4608f0bbc4b234499dca1ea273a6f0be5edb82cb405923a5f0"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_151/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "648d7b9a1b6c0ced323c809c2bb6299d5276a8bca35368515a7c8060d8040d8b"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_20/metrics.json",
+      "bytes": 740,
+      "sha256": "c6530056c500647658e2bf1f22a4222b9c799b96aa473889262ac3e491922f7e"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_20/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "99aede47530c66f121f2fe792131ae5bf3e48201ff113925a66a4097a0ecb583"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_50/metrics.json",
+      "bytes": 742,
+      "sha256": "a97f674ccc47f763befc31b7563c2e5635c67e72fc99bf2c4031cbdad5cc7715"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_50/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "c5ccbf78a0dfaac70d9dc3fff2d0dcef81604a5a50e6d514932b5e69a92f86f2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_cover/metrics.json",
+      "bytes": 666,
+      "sha256": "a3d0f200885c159f5f26031b62203afb6b26758cab90cf09898933120009af3c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_cover/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "a7e112b83222d4cd0a13d2d35b0f933f58b57d59cf2a5518c6c9b0f8aa395fe0"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_reference/metrics.json",
+      "bytes": 740,
+      "sha256": "830138fa5d5635481b054198486c6f8ab8ef74a04567dcbae9c2a95b5d4434e9"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/1_reference/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "c127d9185d1dd0669f47fd35b792e04e6ae081de0f60081d7c0e55405f89cfc2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_100/metrics.json",
+      "bytes": 741,
+      "sha256": "a03b1113ef2e65b54d7086d9f2759a2a1ec1e17c370085ce1220c388eaff6d1f"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_100/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "6ad8ddd688c3e20e9dd1899bf574b4e765c83278a66a118de0a9e786eaa7aa3f"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_150/metrics.json",
+      "bytes": 742,
+      "sha256": "02d7e124f13fd63f0a24dfe2817ff7bcc2fed73e67d521c382f6e6e1896fd224"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_150/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "2a86975874cf349582f43900719ae45a2ab569b2eaa04b9d615c9e4786d82522"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_151/metrics.json",
+      "bytes": 744,
+      "sha256": "ac851b529c8c1ea7db88570cbd759d142804921cb49e1f3da2dff1adee95eb83"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_151/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "df26fb5b4c55bd550a78c91d94d78f3cf53db47deeff6f9b0ded2ddf1431c346"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_20/metrics.json",
+      "bytes": 741,
+      "sha256": "6428f8ef4da5fc43136b40357ec307c7f568ddab5a2f6b0761b5b16aba542cf6"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_20/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "84899e189c73b8cbd4265824ea89069dc2d5409ab159d7bd07332de8ca94d319"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_50/metrics.json",
+      "bytes": 740,
+      "sha256": "7289ca018ff0bf67ee6b4007e1c2b03feb9d0b1b55abd8a5515b149c46fda6ae"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_50/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "e3b4540a4fcf00e144228d7f47828eddfa0cdeacca64d9d2e1e86004bf23ee1b"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_cover/metrics.json",
+      "bytes": 666,
+      "sha256": "66ae2c1261ac916b755e06f547767f73e821c7dfff36eb667d32481daff7252b"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_cover/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "9bb2c394d4282e0ff8a1ffc49459e3c681499024a0add24ee9fddce2dc6495e8"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_reference/metrics.json",
+      "bytes": 742,
+      "sha256": "1737e74db65703aae938aab6cac4cbdd159ed46436c74d91b0526abd84eb87fb"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/2_reference/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "a20c0462992352cbe785cbbafd817f5a419a84378960181429dd2e9bfc4d3798"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_100/metrics.json",
+      "bytes": 744,
+      "sha256": "224d29907e6af994d8c3116a99a813eac68c96d59e33147cb3eb82756b908c94"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_100/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "5aeba86458577137b7696b1e20686a74e52ffda3596c21727e84acddc020207e"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_150/metrics.json",
+      "bytes": 740,
+      "sha256": "4e86f018dd6bbb2dd37f060457081088dc10458cc6fc27c557e4c25f0c964b9b"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_150/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "2cb1a0e8c04a6239881ea2fcd4f528f2bc2f856203b2b806613cb4e891716242"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_151/metrics.json",
+      "bytes": 745,
+      "sha256": "78770c20343b6f30783b726bc4dec601501a98714df4e1f43bf5508e71b58fe9"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_151/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "2577903720c58d62fcd66568b6704d04baf8b3029576bc5d30447e72e101cb24"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_20/metrics.json",
+      "bytes": 741,
+      "sha256": "8d7f4921052dd4cb7f8c126e42cb895be60f0a4da2a4bb829d79c73f776544e6"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_20/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "a61560d498b413c2a114891a71164ead940c5f2d7449b07442d904ce11b09b7f"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_50/metrics.json",
+      "bytes": 742,
+      "sha256": "1bd667a6a08a3163ff95baaea3f38b0ae062e78843c94897929515d94b65e1bf"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_50/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "12bdf8eba84e5771e753e5fbc7bd8d87982d84f1dde787d663ca17f5537be7a4"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_cover/metrics.json",
+      "bytes": 666,
+      "sha256": "87c3f7158f45959ffaaacda85637766422d529f306f64f7dab5f59a547065c74"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_cover/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "1d2a37b8c7d21a437d339e2339115fb66557485eee4f65ea6045ef9d84dfba67"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_reference/metrics.json",
+      "bytes": 740,
+      "sha256": "926bafbe38671cea39397ad2bbbda5e84612cfeda34e21a109dd5d6b4f8b8de1"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/3_reference/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "fc13fc7e58bf329cd0f1da4da1a6a81519ffac84627468b79b6c6161d133103c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_100/metrics.json",
+      "bytes": 741,
+      "sha256": "b729095b3b98006473ef33608f8522e861919e73b9fac7f64456281df0710c7a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_100/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "1d316869588a77422588928a9383892fe17e6e5c97c4a614740bc43d386ee4a2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_150/metrics.json",
+      "bytes": 740,
+      "sha256": "635b5aa326331ce04163f6efb3ed534bf56c86983588c0119fdcc46a4953623d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_150/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "2d4bb64fabf5d8356259085e59faeccea8506aca60e7982c69ca9c1f4f4f7c51"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_151/metrics.json",
+      "bytes": 744,
+      "sha256": "e14123e32be953b6284c02c08130d12852699e04e369e3b2c407a41b27b3dea3"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_151/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "aaab2aedbe56b2c17d9271408ad85dd56975824c1202b077769b292c13358449"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_20/metrics.json",
+      "bytes": 741,
+      "sha256": "2ef5dfd2c5718cf8ded60b56d4bd6f4f98048ee55707d1ea5cd22ec809fce5aa"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_20/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "0c44b92ad071a1b2fc87a8ddb4c16100a88277e14bc52110c158d5d6763ee0f0"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_50/metrics.json",
+      "bytes": 741,
+      "sha256": "130b6158f1eadba16291059535751b703fd203a30f4c4853bce763c425355df7"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_50/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "5f519bd482eb925c1dcac177292e6cdbf4390fd345a3eb4b9c6821ddec131b87"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_cover/metrics.json",
+      "bytes": 665,
+      "sha256": "062337c68082d0c5f0016f356df0700b481d8a6a6d695bb51c653820c02c41d0"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_cover/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "693c5a11a0f368b853592d19427e95afede68a95f3ea726cbc568349be8d178c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_reference/metrics.json",
+      "bytes": 725,
+      "sha256": "0f754889b978eb9504a364faaa812eec0601aeb6ecf20d523aad65a6f8aedc4c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/4_reference/target_inverse.npy",
+      "bytes": 65664,
+      "sha256": "078005a9640ebb5042193262eb227025d4e96fbfbc55e2d861585beed9a5eed9"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/claim.json",
+      "bytes": 138,
+      "sha256": "2fd635c183049d95fcfa94e422d7037d7299ed46fa6ed1fb8241313d6d1f8644"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/device_preimport.json",
+      "bytes": 1143,
+      "sha256": "050aa4d48b9a997b22cbc13e965d9cfdcd3165c04af9c9edea33b6f59cd8b83a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/execution.json",
+      "bytes": 6531,
+      "sha256": "aea4c3eff59027111b6b2b7c78fff16829b1b15212d15460b868737f5a46dc8d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/execution_seal.json",
+      "bytes": 82,
+      "sha256": "c120e4fd68ef92db44926b28b6e4d3f4f8dfdfd36c69c19a5c06cecb21dca9d2"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/process.json",
+      "bytes": 1148,
+      "sha256": "8f30f9444fc098dea11f28e91390b8c2644522a7ea07eb74fa1ed1e11a502e90"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/stderr.log",
+      "bytes": 941,
+      "sha256": "3e9c36a9103bf560b6982d31755d1fb402432518e9b71a10afa6b09fd48cbfe5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/stdout.log",
+      "bytes": 494,
+      "sha256": "ada34bcef614656e6ab665270e249a200f6295ad6ac66619f26d18e3725e5609"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/summary.json",
+      "bytes": 46229,
+      "sha256": "ebdd7dd190aa45f60259d28c21b45a2c01527ffcb93d91744916195d2a816ad3"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/evaluate/supervisor_preflight.json",
+      "bytes": 898,
+      "sha256": "5333bec98ab7d77431f9b6261d444e5ce649480f76ba0f6d1f63563aed4c6603"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/gpu0_status.json",
+      "bytes": 103,
+      "sha256": "70ee558ffccf29e456c963176a951084d3c534c5e9a93dfa1ac28f4a91adab79"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/gpu1_status.json",
+      "bytes": 103,
+      "sha256": "df81824adbca196b3e12ee3012cde71f865757fb29f269b5f28854e198ce6771"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/launch_intent.json",
+      "bytes": 293,
+      "sha256": "96464cb44ac09deb5a7b5ac6fd80c4520c704de0c2d0f70d497bfdf50875908a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/postrun_analysis_v2.json",
+      "bytes": 2606,
+      "sha256": "3a1df0e6a7da9884ddfa168e68c3b0e0ba71bcdc844d9103279278cd4580c786"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/1/cover.png",
+      "bytes": 429064,
+      "sha256": "7887a2c2b565eb203f57ebe4647e39ff6d00d783d4ae7741b2ca08d59ba71430"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/1/original_cover.png",
+      "bytes": 429064,
+      "sha256": "7887a2c2b565eb203f57ebe4647e39ff6d00d783d4ae7741b2ca08d59ba71430"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/1/original_noise.npy",
+      "bytes": 65664,
+      "sha256": "2504a7b1e93831026dcdf9199ff34d58159cfb9ddfb2384b7b3949ea5ba28ba3"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/1/record.json",
+      "bytes": 1670,
+      "sha256": "99274dc302acead1a2c072cd65a537b821fdfdffb633eafdac65d61b7d14272c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/1/reference.png",
+      "bytes": 328185,
+      "sha256": "7e92762b49f30a888a0f11cf64a15e2aa93c9d33d475e9fd92dcbf3f73f1558d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/2/cover.png",
+      "bytes": 381958,
+      "sha256": "38c36f20a0376dc619c7c85ffa441f7c680f2003eacac1dc88b0de617884c680"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/2/original_cover.png",
+      "bytes": 381958,
+      "sha256": "38c36f20a0376dc619c7c85ffa441f7c680f2003eacac1dc88b0de617884c680"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/2/original_noise.npy",
+      "bytes": 65664,
+      "sha256": "a43268be8b25c34aa131a4d349c9d7eb77022855d19b786449547130cbebca61"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/2/record.json",
+      "bytes": 1742,
+      "sha256": "233a6227a07ac0bb8f7e18ff59fb9b9928c95b9f9225b2475509db17f04765d5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/2/reference.png",
+      "bytes": 396996,
+      "sha256": "90399d4073aac13e3e17d58b2dbf6181471d44d574d18fe6ce4c1ac36d8459c1"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/3/cover.png",
+      "bytes": 436626,
+      "sha256": "8341caa43f5eb027cf2bb67b32acece7bc577baf89c93684cc2d2b17d97537b5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/3/original_cover.png",
+      "bytes": 436626,
+      "sha256": "8341caa43f5eb027cf2bb67b32acece7bc577baf89c93684cc2d2b17d97537b5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/3/original_noise.npy",
+      "bytes": 65664,
+      "sha256": "9dabb47ac5904da6a6ff1e31552bfbdec59576bb664ea98b7a9e66ab2d949220"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/3/record.json",
+      "bytes": 1693,
+      "sha256": "19c842ca0105e9e2ac4994f8557137d120e1e5db5c180abcc2154a539bd56e9f"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/3/reference.png",
+      "bytes": 399324,
+      "sha256": "eb2d096178cbdcbfdfb3afa34e71f28c49deb0efce1ebfb48968701723b0d91b"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/4/cover.png",
+      "bytes": 252372,
+      "sha256": "00e57b5d5a249389a0bdd19e98b0e00373d02a173155d02fffffd2523faf6340"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/4/original_cover.png",
+      "bytes": 252372,
+      "sha256": "00e57b5d5a249389a0bdd19e98b0e00373d02a173155d02fffffd2523faf6340"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/4/original_noise.npy",
+      "bytes": 65664,
+      "sha256": "7e0d6c100634844424d22dc7585d0691c207069b9b8be33276ab85e551c79fdd"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/4/record.json",
+      "bytes": 1654,
+      "sha256": "68815d0508ff57c2d45306338779c2b750268508cefbdf9d4d8f01a3399f265c"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/4/reference.png",
+      "bytes": 380769,
+      "sha256": "5c94f6cea1d442af3ce6ec537071e48ebd27af57b5ca17380d5797bcfb8c95a5"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/claim.json",
+      "bytes": 137,
+      "sha256": "f912d08acf7f447fe67d5890cfff3759780b9f1c33e43e03ef1e6dfc9b47432a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/device_preimport.json",
+      "bytes": 1143,
+      "sha256": "050aa4d48b9a997b22cbc13e965d9cfdcd3165c04af9c9edea33b6f59cd8b83a"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/execution.json",
+      "bytes": 2815,
+      "sha256": "bce207912e52fd5dc90b4350e2107dad9c59a3069d653f87989a151a8f64e208"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/execution_seal.json",
+      "bytes": 82,
+      "sha256": "c583eb5c1e614f5c3b6346d600a221a9305f039fbdbe82eb7d91a8820bae0e58"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/process.json",
+      "bytes": 1059,
+      "sha256": "68e5dafd7cb6af66c11782f58c70e85a5ece34a9b93a5af47d66020cff6a7d26"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/stderr.log",
+      "bytes": 1039,
+      "sha256": "9c36fb88b277d02b1c3321ea34a2157a59f421eaa51ed0bcdec58ccf9e2bf955"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/stdout.log",
+      "bytes": 69,
+      "sha256": "d17c6767d0276bec6eca2d67b26595871c25e14e63e2f7d2ba6c9420295226f3"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/summary.json",
+      "bytes": 8182,
+      "sha256": "0d1db489b7eb5fcc4219075f958eb0145a07a91f7440de15797efae7532fb54d"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/prepare/supervisor_preflight.json",
+      "bytes": 898,
+      "sha256": "5333bec98ab7d77431f9b6261d444e5ce649480f76ba0f6d1f63563aed4c6603"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/results_sealed.json",
+      "bytes": 673,
+      "sha256": "a9a0c985ec25be717be2df5701106b435bfcc0ce7f8cd4e0604071ab82294ecd"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/scheduler_status.json",
+      "bytes": 143,
+      "sha256": "8f1124095401c80cb356371076e12281cdce1227f35587b2d289b938f78d6e99"
+    },
+    {
+      "path": "runs/31_native_calibration_20261024T190323Z/weight_integrity_retrospective.json",
+      "bytes": 4911,
+      "sha256": "236d6770184ac6fcbd894c80931dac71738ba838a7fd0b65b165de3b19cb251b"
+    },
+    {
       "path": "scripts/02_run_smoke.py",
       "bytes": 7122,
       "sha256": "1cfc7debfa4aa0eefd7afff4683879d62cd3106709590f589111e49b1deaaeec"
@@ -22117,19 +23412,24 @@
       "sha256": "cba1c8329b18a86b6e907e571b1e0b48fbffd353bdc7b7694b817502da82e773"
     },
     {
+      "path": "tools/verify_native31_archive.py",
+      "bytes": 6849,
+      "sha256": "f367a02e2fb29e404bf04b905178e33a72f0c52b553bdb45df119b39592ebc98"
+    },
+    {
       "path": "tools/verify_roundtrip_controls.py",
       "bytes": 1454,
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 344729284,
+  "total_bytes": 367769694,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-24T19:02:22.731629+00:00",
+  "updated_at_utc": "2026-10-25T01:32:42.427675+00:00",
   "scope": "Current published working tree; raw source manifests remain independently verified.",
   "previous_publication_commit": "a4a15be725f45f19eb65901d15a14bfdb12cf4eb"
 }

@@ -1,0 +1,40 @@
+{
+  "started_at_utc": "2026-10-24T19:04:21.190459+00:00",
+  "outcome": {
+    "completed": true,
+    "exit_code": 0,
+    "stop_reason": null,
+    "process_wall_seconds": 142.5230081290938,
+    "artifacts": {
+      "1/cover.png": "7887a2c2b565eb203f57ebe4647e39ff6d00d783d4ae7741b2ca08d59ba71430",
+      "1/original_cover.png": "7887a2c2b565eb203f57ebe4647e39ff6d00d783d4ae7741b2ca08d59ba71430",
+      "1/original_noise.npy": "2504a7b1e93831026dcdf9199ff34d58159cfb9ddfb2384b7b3949ea5ba28ba3",
+      "1/record.json": "99274dc302acead1a2c072cd65a537b821fdfdffb633eafdac65d61b7d14272c",
+      "1/reference.png": "7e92762b49f30a888a0f11cf64a15e2aa93c9d33d475e9fd92dcbf3f73f1558d",
+      "2/cover.png": "38c36f20a0376dc619c7c85ffa441f7c680f2003eacac1dc88b0de617884c680",
+      "2/original_cover.png": "38c36f20a0376dc619c7c85ffa441f7c680f2003eacac1dc88b0de617884c680",
+      "2/original_noise.npy": "a43268be8b25c34aa131a4d349c9d7eb77022855d19b786449547130cbebca61",
+      "2/record.json": "233a6227a07ac0bb8f7e18ff59fb9b9928c95b9f9225b2475509db17f04765d5",
+      "2/reference.png": "90399d4073aac13e3e17d58b2dbf6181471d44d574d18fe6ce4c1ac36d8459c1",
+      "3/cover.png": "8341caa43f5eb027cf2bb67b32acece7bc577baf89c93684cc2d2b17d97537b5",
+      "3/original_cover.png": "8341caa43f5eb027cf2bb67b32acece7bc577baf89c93684cc2d2b17d97537b5",
+      "3/original_noise.npy": "9dabb47ac5904da6a6ff1e31552bfbdec59576bb664ea98b7a9e66ab2d949220",
+      "3/record.json": "19c842ca0105e9e2ac4994f8557137d120e1e5db5c180abcc2154a539bd56e9f",
+      "3/reference.png": "eb2d096178cbdcbfdfb3afa34e71f28c49deb0efce1ebfb48968701723b0d91b",
+      "4/cover.png": "00e57b5d5a249389a0bdd19e98b0e00373d02a173155d02fffffd2523faf6340",
+      "4/original_cover.png": "00e57b5d5a249389a0bdd19e98b0e00373d02a173155d02fffffd2523faf6340",
+      "4/original_noise.npy": "7e0d6c100634844424d22dc7585d0691c207069b9b8be33276ab85e551c79fdd",
+      "4/record.json": "68815d0508ff57c2d45306338779c2b750268508cefbdf9d4d8f01a3399f265c",
+      "4/reference.png": "5c94f6cea1d442af3ce6ec537071e48ebd27af57b5ca17380d5797bcfb8c95a5",
+      "claim.json": "f912d08acf7f447fe67d5890cfff3759780b9f1c33e43e03ef1e6dfc9b47432a",
+      "device_preimport.json": "050aa4d48b9a997b22cbc13e965d9cfdcd3165c04af9c9edea33b6f59cd8b83a",
+      "process.json": "68e5dafd7cb6af66c11782f58c70e85a5ece34a9b93a5af47d66020cff6a7d26",
+      "stderr.log": "9c36fb88b277d02b1c3321ea34a2157a59f421eaa51ed0bcdec58ccf9e2bf955",
+      "stdout.log": "d17c6767d0276bec6eca2d67b26595871c25e14e63e2f7d2ba6c9420295226f3",
+      "summary.json": "0d1db489b7eb5fcc4219075f958eb0145a07a91f7440de15797efae7532fb54d",
+      "supervisor_preflight.json": "5333bec98ab7d77431f9b6261d444e5ce649480f76ba0f6d1f63563aed4c6603"
+    }
+  },
+  "gpu_index": 0,
+  "gpu_uuid": "GPU-aafaf524-a6f4-f646-a2b5-7d243e80c8a5"
+}

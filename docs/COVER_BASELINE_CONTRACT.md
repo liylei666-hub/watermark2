@@ -81,3 +81,8 @@ Jain的表示`mode/s`、λ、梯度步长与像素范围应原样保留。其原
 [PSNR及原生路径审查](../reports/psnr_reproducibility/report.md)已确认旧PSNR uint8回绕并定位其官方修复。另有真实CPU函数证据表明：官方入口PIL_to_torch→invert_image(image_pt)把RGB01直接送入参考VAE，而项目pixel_to_latent(PIL)送入[-1,1]。此前项目native10只复用了原生优化结构，不能因此声称完整CLI参考路径等价。既有实验保持其实际实现及开发结果，不重写历史。
 
 原生校准执行修订1已获科学审查：固定151次实际更新、Adam0.01、无mask，保存同轨迹实际150和151端点；151为官方CLI Step150主端点，150为论文文字端点，不择优。保留官方RGB01参考路径。全100对复现尚缺齐备资产。参见[执行协议](../protocols/31_native_calibration_execution.json)。
+
+
+## 阶段31原生完整预算校准已完成
+
+阶段31更正版原生代码校准已完成：151次主端点4/4普通GS通过，平均BA0.919921875，PSNR23.751050dB；参考4/4、清洁图0/4。仅4对共享身份校准，不是100对完整论文复现或SOTA结论。阶段28/29关闭、阶段30继续hold，无活动模型。 [核验报告](../reports/31_native_calibration/report.md)。官方参考RGB01和载体[-1,1]保留；151主端点与150次端点分别报告。启动前未完整哈希权重，事后缓存权重哈希不得倒称预封存。

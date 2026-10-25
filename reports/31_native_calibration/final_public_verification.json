@@ -1,0 +1,390 @@
+{
+  "status": "passed",
+  "raw_files": 253,
+  "execution_artifact_bindings_verified": 218,
+  "model_processes": 6,
+  "float32_arrays_verified": 100,
+  "candidate_pngs": 20,
+  "evaluated_images": 28,
+  "independent_public_pixel_mse_error": 0.0,
+  "private_decoder_receipt_count": 28,
+  "private_decoder_scope": "Server private28-redecode receipt preserved; public verification cannot independently recover secret messages.",
+  "checkpoints": {
+    "20": {
+      "n": 4,
+      "mean_mse_rgb01": 0.0020474557657815026,
+      "mean_per_image_psnr_db": 27.279178485101568,
+      "aggregate_mse_psnr_db": 26.88785472172927,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.80078125,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.7721393340659952,
+      "mean_ms_ssim_rgb": 0.9097789078950882
+    },
+    "50": {
+      "n": 4,
+      "mean_mse_rgb01": 0.00280909042426841,
+      "mean_per_image_psnr_db": 25.793126734304153,
+      "aggregate_mse_psnr_db": 25.514342806885132,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.8662109375,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.7325792649541858,
+      "mean_ms_ssim_rgb": 0.8764561414718628
+    },
+    "100": {
+      "n": 4,
+      "mean_mse_rgb01": 0.0036213379805781335,
+      "mean_per_image_psnr_db": 24.607036131333516,
+      "aggregate_mse_psnr_db": 24.41130940454956,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.9052734375,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.7008510857883471,
+      "mean_ms_ssim_rgb": 0.8446560651063919
+    },
+    "150": {
+      "n": 4,
+      "mean_mse_rgb01": 0.004342111408840336,
+      "mean_per_image_psnr_db": 23.765948165510743,
+      "aggregate_mse_psnr_db": 23.622990377162665,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.9208984375,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.6815037602949048,
+      "mean_ms_ssim_rgb": 0.8208835422992706
+    },
+    "151": {
+      "n": 4,
+      "mean_mse_rgb01": 0.004356093518507567,
+      "mean_per_image_psnr_db": 23.751050258952787,
+      "aggregate_mse_psnr_db": 23.609028051936217,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.919921875,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.681183866449427,
+      "mean_ms_ssim_rgb": 0.8204570710659027
+    }
+  },
+  "controls": [
+    {
+      "task_id": 1,
+      "label": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true
+    },
+    {
+      "task_id": 1,
+      "label": "cover",
+      "bit_accuracy": 0.51171875,
+      "gs_detected": false
+    },
+    {
+      "task_id": 2,
+      "label": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true
+    },
+    {
+      "task_id": 2,
+      "label": "cover",
+      "bit_accuracy": 0.51171875,
+      "gs_detected": false
+    },
+    {
+      "task_id": 3,
+      "label": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true
+    },
+    {
+      "task_id": 3,
+      "label": "cover",
+      "bit_accuracy": 0.48046875,
+      "gs_detected": false
+    },
+    {
+      "task_id": 4,
+      "label": "reference",
+      "bit_accuracy": 1.0,
+      "gs_detected": true
+    },
+    {
+      "task_id": 4,
+      "label": "cover",
+      "bit_accuracy": 0.5234375,
+      "gs_detected": false
+    }
+  ],
+  "costs": {
+    "prepare": {
+      "process_wall_seconds": 142.5230081290938
+    },
+    "attack_1": {
+      "process_wall_seconds": 5722.430695510935,
+      "model_load_seconds": 31.62285264302045,
+      "reference_and_cover_preparation_seconds": 4.456365577876568,
+      "optimization_and_export_seconds": 5675.734718453139,
+      "core_seconds": 5680.191084031016,
+      "peak_allocated_bytes": 11455443968,
+      "synchronized_update_seconds": 5674.0901785083115
+    },
+    "attack_2": {
+      "process_wall_seconds": 5774.651477938984,
+      "model_load_seconds": 32.17680963082239,
+      "reference_and_cover_preparation_seconds": 4.3369114603847265,
+      "optimization_and_export_seconds": 5728.130448705051,
+      "core_seconds": 5732.467360165436,
+      "peak_allocated_bytes": 11455443968,
+      "synchronized_update_seconds": 5726.5954235908575
+    },
+    "attack_3": {
+      "process_wall_seconds": 5717.578525374178,
+      "model_load_seconds": 3.303634046111256,
+      "reference_and_cover_preparation_seconds": 4.321671890094876,
+      "optimization_and_export_seconds": 5699.973409941886,
+      "core_seconds": 5704.2950818319805,
+      "peak_allocated_bytes": 11462935552,
+      "synchronized_update_seconds": 5698.386398063507
+    },
+    "attack_4": {
+      "process_wall_seconds": 5730.994096350856,
+      "model_load_seconds": 3.2566473139449954,
+      "reference_and_cover_preparation_seconds": 4.338547328021377,
+      "optimization_and_export_seconds": 5713.145903822966,
+      "core_seconds": 5717.484451150987,
+      "peak_allocated_bytes": 11462935552,
+      "synchronized_update_seconds": 5711.568269559648
+    },
+    "evaluate": {
+      "process_wall_seconds": 328.8630191939883
+    }
+  },
+  "scheduler_calls": {
+    "attack_1": {
+      "count": 153,
+      "endpoint_alphas": [
+        0.005775495897978544
+      ]
+    },
+    "attack_2": {
+      "count": 153,
+      "endpoint_alphas": [
+        0.005775495897978544
+      ]
+    },
+    "attack_3": {
+      "count": 153,
+      "endpoint_alphas": [
+        0.005775495897978544
+      ]
+    },
+    "attack_4": {
+      "count": 153,
+      "endpoint_alphas": [
+        0.005775495897978544
+      ]
+    },
+    "evaluate": {
+      "count": 29,
+      "endpoint_alphas": [
+        0.005775495897978544
+      ]
+    }
+  },
+  "parameter_flags": {
+    "attack_1": {
+      "unet": {
+        "total": 686,
+        "requires_grad": 0
+      },
+      "vae": {
+        "total": 248,
+        "requires_grad": 248
+      },
+      "text_encoder": {
+        "total": 372,
+        "requires_grad": 372
+      }
+    },
+    "attack_2": {
+      "unet": {
+        "total": 686,
+        "requires_grad": 0
+      },
+      "vae": {
+        "total": 248,
+        "requires_grad": 248
+      },
+      "text_encoder": {
+        "total": 372,
+        "requires_grad": 372
+      }
+    },
+    "attack_3": {
+      "unet": {
+        "total": 686,
+        "requires_grad": 0
+      },
+      "vae": {
+        "total": 248,
+        "requires_grad": 248
+      },
+      "text_encoder": {
+        "total": 372,
+        "requires_grad": 372
+      }
+    },
+    "attack_4": {
+      "unet": {
+        "total": 686,
+        "requires_grad": 0
+      },
+      "vae": {
+        "total": 248,
+        "requires_grad": 248
+      },
+      "text_encoder": {
+        "total": 372,
+        "requires_grad": 372
+      }
+    }
+  },
+  "max_float64_vs_official_float32_psnr_difference": 3.343827380319908e-06,
+  "old_metric_replay": {
+    "source_sha256": "f043b39795a3915342c2f3a4fc38e982391b8f7170deda95d1507b5cf625a00a",
+    "rows": [
+      {
+        "task_id": 1,
+        "actual_update": 20,
+        "old_buggy_psnr_db": 30.959950317510557,
+        "correct_psnr_db": 26.1795626572624
+      },
+      {
+        "task_id": 1,
+        "actual_update": 50,
+        "old_buggy_psnr_db": 30.50434501306328,
+        "correct_psnr_db": 24.815348380038017
+      },
+      {
+        "task_id": 1,
+        "actual_update": 100,
+        "old_buggy_psnr_db": 30.171890780965327,
+        "correct_psnr_db": 23.77752775829716
+      },
+      {
+        "task_id": 1,
+        "actual_update": 150,
+        "old_buggy_psnr_db": 29.916210647272507,
+        "correct_psnr_db": 23.07431375604625
+      },
+      {
+        "task_id": 1,
+        "actual_update": 151,
+        "old_buggy_psnr_db": 29.91027690449975,
+        "correct_psnr_db": 23.061933952622983
+      },
+      {
+        "task_id": 2,
+        "actual_update": 20,
+        "old_buggy_psnr_db": 32.02402231595745,
+        "correct_psnr_db": 27.476402351461935
+      },
+      {
+        "task_id": 2,
+        "actual_update": 50,
+        "old_buggy_psnr_db": 31.308116085802325,
+        "correct_psnr_db": 26.147130172726122
+      },
+      {
+        "task_id": 2,
+        "actual_update": 100,
+        "old_buggy_psnr_db": 30.827616198511592,
+        "correct_psnr_db": 25.09776499323546
+      },
+      {
+        "task_id": 2,
+        "actual_update": 150,
+        "old_buggy_psnr_db": 30.541569409788863,
+        "correct_psnr_db": 24.26240448153221
+      },
+      {
+        "task_id": 2,
+        "actual_update": 151,
+        "old_buggy_psnr_db": 30.537605918542532,
+        "correct_psnr_db": 24.245434131872592
+      },
+      {
+        "task_id": 3,
+        "actual_update": 20,
+        "old_buggy_psnr_db": 31.590182628278974,
+        "correct_psnr_db": 25.138092697364414
+      },
+      {
+        "task_id": 3,
+        "actual_update": 50,
+        "old_buggy_psnr_db": 30.800987675857087,
+        "correct_psnr_db": 23.969695424193247
+      },
+      {
+        "task_id": 3,
+        "actual_update": 100,
+        "old_buggy_psnr_db": 30.32058122525543,
+        "correct_psnr_db": 23.031892428682887
+      },
+      {
+        "task_id": 3,
+        "actual_update": 150,
+        "old_buggy_psnr_db": 30.09795341879315,
+        "correct_psnr_db": 22.38975287080492
+      },
+      {
+        "task_id": 3,
+        "actual_update": 151,
+        "old_buggy_psnr_db": 30.096424019097675,
+        "correct_psnr_db": 22.379408023809958
+      },
+      {
+        "task_id": 4,
+        "actual_update": 20,
+        "old_buggy_psnr_db": 35.222570264102565,
+        "correct_psnr_db": 30.322656234317517
+      },
+      {
+        "task_id": 4,
+        "actual_update": 50,
+        "old_buggy_psnr_db": 34.464611852025534,
+        "correct_psnr_db": 28.240332960259224
+      },
+      {
+        "task_id": 4,
+        "actual_update": 100,
+        "old_buggy_psnr_db": 33.929733014295756,
+        "correct_psnr_db": 26.52095934511855
+      },
+      {
+        "task_id": 4,
+        "actual_update": 150,
+        "old_buggy_psnr_db": 33.47860797122781,
+        "correct_psnr_db": 25.337321553659585
+      },
+      {
+        "task_id": 4,
+        "actual_update": 151,
+        "old_buggy_psnr_db": 33.47348388260816,
+        "correct_psnr_db": 25.317424927505616
+      }
+    ],
+    "primary151_mean_buggy_psnr_db": 31.004447681187028
+  },
+  "weights_manifest_sha256": "236d6770184ac6fcbd894c80931dac71738ba838a7fd0b65b165de3b19cb251b",
+  "retrospective_weight_files": 7,
+  "retrospective_weight_bytes": 19035655228,
+  "end_to_end_wall_seconds": 12002.210829,
+  "model_process_wall_seconds": 23417.040822498035,
+  "attack_core_seconds": 22834.43797717942,
+  "candidate_seal_sha256": "b526f615e32835132dc5e5e606b372bf16be0761ccd11e7ec50b8cc72ec09ad2",
+  "result_seal_sha256": "a9a0c985ec25be717be2df5701106b435bfcc0ce7f8cd4e0604071ab82294ecd",
+  "source_runtime_sha256": "d1749a198fd94e7ba33eb69cb09dd85f404c7cc07697142df6dabec8d09b035d",
+  "new_models_loaded_by_verifier": 0
+}

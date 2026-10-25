@@ -1,0 +1,206 @@
+{
+  "rows": [
+    {
+      "task_id": 1,
+      "actual_update": 20,
+      "path": "attack_1/update_20.png",
+      "image": {
+        "path": "update_20.png",
+        "sha256": "4f4d122605b9b319029283099d16c6b84304e9a712e24904f5d99c6a61a3a8da",
+        "bytes": 458376
+      }
+    },
+    {
+      "task_id": 1,
+      "actual_update": 50,
+      "path": "attack_1/update_50.png",
+      "image": {
+        "path": "update_50.png",
+        "sha256": "cafb5a629dfe556af437aba21866f747a51ce834aa422d96afc7cb4a76183fc3",
+        "bytes": 455994
+      }
+    },
+    {
+      "task_id": 1,
+      "actual_update": 100,
+      "path": "attack_1/update_100.png",
+      "image": {
+        "path": "update_100.png",
+        "sha256": "d0bd9727df89742f1b4aa0321a61ca6a7e50373a09405e8801057f2550889550",
+        "bytes": 454838
+      }
+    },
+    {
+      "task_id": 1,
+      "actual_update": 150,
+      "path": "attack_1/update_150.png",
+      "image": {
+        "path": "update_150.png",
+        "sha256": "260bd9f5e552c23c2b881ddc89023ef56fc6509e9de74a3d94fd9691dce95186",
+        "bytes": 452150
+      }
+    },
+    {
+      "task_id": 1,
+      "actual_update": 151,
+      "path": "attack_1/update_151.png",
+      "image": {
+        "path": "update_151.png",
+        "sha256": "8eb6563c462846c4a1192ba034a677935767832f9fd11c099142d71f0d257651",
+        "bytes": 451991
+      }
+    },
+    {
+      "task_id": 2,
+      "actual_update": 20,
+      "path": "attack_2/update_20.png",
+      "image": {
+        "path": "update_20.png",
+        "sha256": "ad0469402774b300100ac0fbbe76aa5b7be47b4407693ef76165b39be378de81",
+        "bytes": 416566
+      }
+    },
+    {
+      "task_id": 2,
+      "actual_update": 50,
+      "path": "attack_2/update_50.png",
+      "image": {
+        "path": "update_50.png",
+        "sha256": "f5c0d3301311e4422f7fd1f0b920d3e942d045bad8979f9fb8c186d695b39014",
+        "bytes": 418016
+      }
+    },
+    {
+      "task_id": 2,
+      "actual_update": 100,
+      "path": "attack_2/update_100.png",
+      "image": {
+        "path": "update_100.png",
+        "sha256": "b846c7a61bdc46f481b812845841da1ab9acaf6ea0259882ef1137f9e7686219",
+        "bytes": 414977
+      }
+    },
+    {
+      "task_id": 2,
+      "actual_update": 150,
+      "path": "attack_2/update_150.png",
+      "image": {
+        "path": "update_150.png",
+        "sha256": "0a74272173b44cf80459af876cc4a3ce051092a71e46827ffa96271272cca3b8",
+        "bytes": 413356
+      }
+    },
+    {
+      "task_id": 2,
+      "actual_update": 151,
+      "path": "attack_2/update_151.png",
+      "image": {
+        "path": "update_151.png",
+        "sha256": "5e068dca721fc92bde00a2ac165fd2e91e3608131590fd5406114b35898f64c4",
+        "bytes": 413528
+      }
+    },
+    {
+      "task_id": 3,
+      "actual_update": 20,
+      "path": "attack_3/update_20.png",
+      "image": {
+        "path": "update_20.png",
+        "sha256": "9cfbd9f29e10f31c5d8242dc225d805154486954e579c1660a6d15323b6da327",
+        "bytes": 425238
+      }
+    },
+    {
+      "task_id": 3,
+      "actual_update": 50,
+      "path": "attack_3/update_50.png",
+      "image": {
+        "path": "update_50.png",
+        "sha256": "23dbae4b9e1edf0acdd4b9b4b0998d45b60ae6ea38b953fc9859b0a6ffb846fa",
+        "bytes": 427430
+      }
+    },
+    {
+      "task_id": 3,
+      "actual_update": 100,
+      "path": "attack_3/update_100.png",
+      "image": {
+        "path": "update_100.png",
+        "sha256": "d32643736edd2d965728d39f904879ae8392e00426c5781c8111815839914199",
+        "bytes": 424710
+      }
+    },
+    {
+      "task_id": 3,
+      "actual_update": 150,
+      "path": "attack_3/update_150.png",
+      "image": {
+        "path": "update_150.png",
+        "sha256": "633e4b4b28bb538c0fd7575a72d46e3a87c639c7a55cc9f6c8c4ce640e830908",
+        "bytes": 422094
+      }
+    },
+    {
+      "task_id": 3,
+      "actual_update": 151,
+      "path": "attack_3/update_151.png",
+      "image": {
+        "path": "update_151.png",
+        "sha256": "7f4bfaf204c3122d714e25ba732bd9eec51721349e3fe9f6d4b0028611f22f35",
+        "bytes": 421961
+      }
+    },
+    {
+      "task_id": 4,
+      "actual_update": 20,
+      "path": "attack_4/update_20.png",
+      "image": {
+        "path": "update_20.png",
+        "sha256": "0d1959fe9d8730ac350a19faf9c5309d18d43da71aa1c363dd78a954b0ae276c",
+        "bytes": 333637
+      }
+    },
+    {
+      "task_id": 4,
+      "actual_update": 50,
+      "path": "attack_4/update_50.png",
+      "image": {
+        "path": "update_50.png",
+        "sha256": "9955272ee16517edc8c2bc7c3445ff003b35c70c562b91f787a67b0025cac1f7",
+        "bytes": 336075
+      }
+    },
+    {
+      "task_id": 4,
+      "actual_update": 100,
+      "path": "attack_4/update_100.png",
+      "image": {
+        "path": "update_100.png",
+        "sha256": "b2033bd56177470a8c210df27084d85379b336d573dea598bc328e801ba76826",
+        "bytes": 334170
+      }
+    },
+    {
+      "task_id": 4,
+      "actual_update": 150,
+      "path": "attack_4/update_150.png",
+      "image": {
+        "path": "update_150.png",
+        "sha256": "0362ae8a7ffe500bb0a4e3f897317d1fba784c6c2e2f47f995d6ef07483cd736",
+        "bytes": 332194
+      }
+    },
+    {
+      "task_id": 4,
+      "actual_update": 151,
+      "path": "attack_4/update_151.png",
+      "image": {
+        "path": "update_151.png",
+        "sha256": "0453c0ab08e421ae9942737d5fe624d0d4d40df1a16296032e561257295428d5",
+        "bytes": 332381
+      }
+    }
+  ],
+  "sealed_at_utc": "2026-10-24T22:18:42.822958+00:00",
+  "target_scores_seen": 0
+}

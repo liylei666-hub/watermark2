@@ -1,0 +1,30 @@
+{
+  "task_id": 4,
+  "label": "20",
+  "image": {
+    "path": "update_20.png",
+    "sha256": "0d1959fe9d8730ac350a19faf9c5309d18d43da71aa1c363dd78a954b0ae276c",
+    "bytes": 333637
+  },
+  "inverse": {
+    "path": "target_inverse.npy",
+    "sha256": "0c44b92ad071a1b2fc87a8ddb4c16100a88277e14bc52110c158d5d6763ee0f0",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "bit_accuracy": 0.83203125,
+  "gs_detected": true,
+  "mse_rgb01": 0.000928398385561843,
+  "psnr_db": 30.322656234317517,
+  "official_torchmetrics_psnr_db": 30.322654724121094,
+  "psnr_infinite": false,
+  "ssim_grayscale": 0.9396063662033616,
+  "ms_ssim_rgb": 0.9689692258834839,
+  "lpips": null,
+  "inversion_seconds": 8.71679617324844
+}

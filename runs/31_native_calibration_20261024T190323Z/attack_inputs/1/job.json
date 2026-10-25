@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "task_id": 1,
+  "seed": 31301,
+  "reference": {
+    "path": "reference.png",
+    "sha256": "7e92762b49f30a888a0f11cf64a15e2aa93c9d33d475e9fd92dcbf3f73f1558d",
+    "bytes": 328185
+  },
+  "cover": {
+    "path": "cover.png",
+    "sha256": "7887a2c2b565eb203f57ebe4647e39ff6d00d783d4ae7741b2ca08d59ba71430",
+    "bytes": 429064
+  },
+  "proxy": {
+    "model_id": "Manojb/stable-diffusion-2-1-base",
+    "revision": "0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--Manojb--stable-diffusion-2-1-base/snapshots/0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "native": {
+    "actual_adam_updates": 151,
+    "learning_rate": 0.01,
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "adam_eps": 1e-08,
+    "variable": "proxy z0 latent",
+    "loss": "MSE(DiffPipe(z0,empty_prompt,CFG1,50),detached_reference_proxy_inverse)",
+    "mask": null,
+    "pixel_constraint": null,
+    "cover_preprocessing": "Exact upstream PIL.Image.open(path).resize((512,512)).convert(RGB), Pillow version pinned",
+    "cover_encoding_range": [
+      -1,
+      1
+    ],
+    "reference_encoding_range": [
+      0,
+      1
+    ],
+    "reference_path": "Exact CLI: target_provider.PIL_to_torch([generated_PIL]) givesRGB01; invert_image(image_pt=generated_pt) forwards it to VAE without another range map. Preserve this asymmetric code behavior; do not silently substitute project PIL path.",
+    "proxy_parameter_flags": "Retain original load_attacker_pipe flags; DiffPipe freezes UNet only. Do not additionally freeze text_encoder/VAE to claim full entry equivalence.",
+    "inversion_steps": 50,
+    "inversion_prompt": "",
+    "inversion_cfg": 1.0,
+    "expected_proxy_timesteps": [
+      1,
+      21,
+      41,
+      61,
+      81,
+      101,
+      121,
+      141,
+      161,
+      181,
+      201,
+      221,
+      241,
+      261,
+      281,
+      301,
+      321,
+      341,
+      361,
+      381,
+      401,
+      421,
+      441,
+      461,
+      481,
+      501,
+      521,
+      541,
+      561,
+      581,
+      601,
+      621,
+      641,
+      661,
+      681,
+      701,
+      721,
+      741,
+      761,
+      781,
+      801,
+      821,
+      841,
+      861,
+      881,
+      901,
+      921,
+      941,
+      961,
+      981
+    ],
+    "endpoint": "Actual151 official CLI Step150 primary; actual150 paper-text secondary; both retained from same trajectory",
+    "checkpoint_actual_updates": [
+      20,
+      50,
+      100,
+      150,
+      151
+    ],
+    "checkpoint_label_note": "Official default151 loops index0..150 and evaluates after each update: Step150 is actual151. Primary151 and paper-text150 are saved from the same trajectory; no checkpoint selection.",
+    "save_all_checkpoints_and_seal_before_any_target_scores": true
+  }
+}

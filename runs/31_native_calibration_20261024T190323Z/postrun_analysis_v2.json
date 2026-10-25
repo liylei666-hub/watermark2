@@ -1,0 +1,71 @@
+{
+  "analysis_revision": 2,
+  "created_at_utc": "2026-10-24T23:14:47.581358+00:00",
+  "run_analysis_sha256": "ca3d5b69763fb04d1e1c8940d8e1720a4655b39ec4841f10adcae613d93d9a12",
+  "candidate_seal_sha256": "b526f615e32835132dc5e5e606b372bf16be0761ccd11e7ec50b8cc72ec09ad2",
+  "checkpoints": {
+    "20": {
+      "n": 4,
+      "mean_mse_rgb01": 0.0020474557657815026,
+      "mean_per_image_psnr_db": 27.279178485101568,
+      "aggregate_mse_psnr_db": 26.88785472172927,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.80078125,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.7721393340659952,
+      "mean_ms_ssim_rgb": 0.9097789078950882
+    },
+    "50": {
+      "n": 4,
+      "mean_mse_rgb01": 0.00280909042426841,
+      "mean_per_image_psnr_db": 25.793126734304153,
+      "aggregate_mse_psnr_db": 25.514342806885132,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.8662109375,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.7325792649541858,
+      "mean_ms_ssim_rgb": 0.8764561414718628
+    },
+    "100": {
+      "n": 4,
+      "mean_mse_rgb01": 0.0036213379805781335,
+      "mean_per_image_psnr_db": 24.607036131333516,
+      "aggregate_mse_psnr_db": 24.41130940454956,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.9052734375,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.7008510857883471,
+      "mean_ms_ssim_rgb": 0.8446560651063919
+    },
+    "150": {
+      "n": 4,
+      "mean_mse_rgb01": 0.004342111408840336,
+      "mean_per_image_psnr_db": 23.765948165510743,
+      "aggregate_mse_psnr_db": 23.622990377162665,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.9208984375,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.6815037602949048,
+      "mean_ms_ssim_rgb": 0.8208835422992706
+    },
+    "151": {
+      "n": 4,
+      "mean_mse_rgb01": 0.004356093518507567,
+      "mean_per_image_psnr_db": 23.751050258952787,
+      "aggregate_mse_psnr_db": 23.609028051936217,
+      "aggregate_psnr_infinite": false,
+      "mean_ba": 0.919921875,
+      "gs_passes": 4,
+      "mean_ssim_grayscale": 0.681183866449427,
+      "mean_ms_ssim_rgb": 0.8204570710659027
+    }
+  },
+  "primary_actual_update": 151,
+  "secondary_paper_text_actual_update": 150,
+  "checkpoint_selection": false,
+  "max_mse_readback_error": 0.0,
+  "public_verification": "PNG and inverse hashes, distortion arithmetic and denominators independently checked; BA is recorded evaluator output. Private28-redecode assertion belongs to the server evaluator receipt, not this public check.",
+  "lpips": null,
+  "formal_human_labels": null,
+  "full_paper_reproduction": false
+}

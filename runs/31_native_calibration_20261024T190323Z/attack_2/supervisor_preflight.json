@@ -1,0 +1,42 @@
+[
+  {
+    "event": "sample",
+    "attempt": 0,
+    "observation": {
+      "index": 1,
+      "uuid": "GPU-af8ecfa2-a36f-798c-9762-0a3cfb8a1fcd",
+      "model": "NVIDIA GeForce RTX 3090",
+      "memory_used_mib": 4,
+      "utilization_percent": 0,
+      "compute_apps": []
+    }
+  },
+  {
+    "event": "sample",
+    "attempt": 1,
+    "observation": {
+      "index": 1,
+      "uuid": "GPU-af8ecfa2-a36f-798c-9762-0a3cfb8a1fcd",
+      "model": "NVIDIA GeForce RTX 3090",
+      "memory_used_mib": 4,
+      "utilization_percent": 0,
+      "compute_apps": []
+    }
+  },
+  {
+    "event": "sample",
+    "attempt": 2,
+    "observation": {
+      "index": 1,
+      "uuid": "GPU-af8ecfa2-a36f-798c-9762-0a3cfb8a1fcd",
+      "model": "NVIDIA GeForce RTX 3090",
+      "memory_used_mib": 4,
+      "utilization_percent": 0,
+      "compute_apps": []
+    }
+  },
+  {
+    "event": "idle_verified",
+    "samples": 3
+  }
+]

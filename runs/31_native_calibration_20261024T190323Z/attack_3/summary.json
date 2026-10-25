@@ -1,0 +1,40 @@
+{
+  "completed": true,
+  "actual_updates": 151,
+  "candidate_checkpoints": 5,
+  "timing": {
+    "model_load_seconds": 3.303634046111256,
+    "reference_and_cover_preparation_seconds": 4.321671890094876,
+    "optimization_and_export_seconds": 5699.973409941886,
+    "core_seconds": 5704.2950818319805,
+    "peak_allocated_bytes": 11462935552
+  },
+  "images": {
+    "20": {
+      "path": "update_20.png",
+      "sha256": "9cfbd9f29e10f31c5d8242dc225d805154486954e579c1660a6d15323b6da327",
+      "bytes": 425238
+    },
+    "50": {
+      "path": "update_50.png",
+      "sha256": "23dbae4b9e1edf0acdd4b9b4b0998d45b60ae6ea38b953fc9859b0a6ffb846fa",
+      "bytes": 427430
+    },
+    "100": {
+      "path": "update_100.png",
+      "sha256": "d32643736edd2d965728d39f904879ae8392e00426c5781c8111815839914199",
+      "bytes": 424710
+    },
+    "150": {
+      "path": "update_150.png",
+      "sha256": "633e4b4b28bb538c0fd7575a72d46e3a87c639c7a55cc9f6c8c4ce640e830908",
+      "bytes": 422094
+    },
+    "151": {
+      "path": "update_151.png",
+      "sha256": "7f4bfaf204c3122d714e25ba732bd9eec51721349e3fe9f6d4b0028611f22f35",
+      "bytes": 421961
+    }
+  },
+  "target_scores_seen": 0
+}

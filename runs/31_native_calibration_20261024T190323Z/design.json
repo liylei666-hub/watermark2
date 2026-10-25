@@ -1,0 +1,260 @@
+{
+  "schema": 1,
+  "stage": "31_corrected_native_calibration",
+  "status": "approved_execution_revision1",
+  "created_at_utc": "2026-10-24T18:45:44.184137+00:00",
+  "purpose": "Four-pair corrected published-code correctness calibration; not100-pair paper replication or SOTA claim",
+  "upstream_commit": "ca68950cd7b53b8438a49580f134b2a0db28d778",
+  "psnr_fix_commit": "d5885a3a01f0ea4ce8cd9afc0dabb56df77e7a90",
+  "tasks": [
+    {
+      "id": 1,
+      "reference_seed": 31101,
+      "attack_seed": 31301,
+      "prompt_source": "utils/prompt_utils.py:PROMPTS_SD_LIST",
+      "prompt_index": 0,
+      "reference_prompt": "bonsai acacia! tree but minimalistic concept art by frank stella gilleard james whalen tom, colorful, soft light, trending on artstation, minimalism",
+      "cover": "third_party/semantic-forgery/images/COCO_1.png",
+      "cover_sha256": "7887a2c2b565eb203f57ebe4647e39ff6d00d783d4ae7741b2ca08d59ba71430"
+    },
+    {
+      "id": 2,
+      "reference_seed": 31102,
+      "attack_seed": 31302,
+      "prompt_source": "utils/prompt_utils.py:PROMPTS_SD_LIST",
+      "prompt_index": 1,
+      "reference_prompt": "brutalist architecture on mars, by zdzislaw beksinski, by dariusz zawadzki, by wayne barlowe, gothic, surrealism, cosmic horror, lovecraftian, cold hue's, warm tone gradient background, concept art, beautiful composition",
+      "cover": "third_party/semantic-forgery/images/COCO_2.png",
+      "cover_sha256": "38c36f20a0376dc619c7c85ffa441f7c680f2003eacac1dc88b0de617884c680"
+    },
+    {
+      "id": 3,
+      "reference_seed": 31103,
+      "attack_seed": 31303,
+      "prompt_source": "utils/prompt_utils.py:PROMPTS_SD_LIST",
+      "prompt_index": 2,
+      "reference_prompt": "official Portrait of a smiling WWI admiral, male, cheerful, happy, detailed face, 20th century, highly detailed, cinematic lighting, digital art painting by greg rutkowski",
+      "cover": "third_party/semantic-forgery/images/COCO_3.png",
+      "cover_sha256": "8341caa43f5eb027cf2bb67b32acece7bc577baf89c93684cc2d2b17d97537b5"
+    },
+    {
+      "id": 4,
+      "reference_seed": 31104,
+      "attack_seed": 31304,
+      "prompt_source": "utils/prompt_utils.py:PROMPTS_SD_LIST",
+      "prompt_index": 3,
+      "reference_prompt": "highly detailed concept art of a sakura plum tree made with water, overgrowth, Tristan Eaton, Artgerm, Studio Ghibli, Makoto Shinkai",
+      "cover": "third_party/semantic-forgery/images/COCO_4.png",
+      "cover_sha256": "00e57b5d5a249389a0bdd19e98b0e00373d02a173155d02fffffd2523faf6340"
+    }
+  ],
+  "selection": "First four numeric official COCO sample IDs and first four official bundled SD prompt indices, fixed before any new reference generation or score; no replacements",
+  "target": {
+    "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "proxy": {
+    "model_id": "Manojb/stable-diffusion-2-1-base",
+    "revision": "0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "snapshot": "/data0/liyanlei/watermark_research/cache/huggingface/hub/models--Manojb--stable-diffusion-2-1-base/snapshots/0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "dtype": "float32",
+    "resolution": 512
+  },
+  "model_difference": "Official Nov2025 commit replaces unavailable stabilityai SD2.1 ID with Manojb mirror; byte equivalence to paper original checkpoint not established",
+  "watermark": {
+    "type": "GS",
+    "message_width_in_bytes": 32,
+    "num_replications": 64,
+    "l": 1,
+    "offset": 0,
+    "identity_policy": "Official CLI default offset0 shared across four calibration examples; all actual material evaluator-only",
+    "threshold": 0.70703125,
+    "decision": "strict_greater",
+    "nominal_fpr": 1e-06,
+    "TR_in_this_calibration": false,
+    "TR_status": "Official code exists; no TR model execution in this four-pair GS calibration"
+  },
+  "generation": {
+    "steps": 50,
+    "guidance": 7.5,
+    "resolution": 512,
+    "dtype": "float32",
+    "scheduler": "official pinned DDIM"
+  },
+  "native": {
+    "actual_adam_updates": 151,
+    "learning_rate": 0.01,
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "adam_eps": 1e-08,
+    "variable": "proxy z0 latent",
+    "loss": "MSE(DiffPipe(z0,empty_prompt,CFG1,50),detached_reference_proxy_inverse)",
+    "mask": null,
+    "pixel_constraint": null,
+    "cover_preprocessing": "Exact upstream PIL.Image.open(path).resize((512,512)).convert(RGB), Pillow version pinned",
+    "cover_encoding_range": [
+      -1,
+      1
+    ],
+    "reference_encoding_range": [
+      0,
+      1
+    ],
+    "reference_path": "Exact CLI: target_provider.PIL_to_torch([generated_PIL]) givesRGB01; invert_image(image_pt=generated_pt) forwards it to VAE without another range map. Preserve this asymmetric code behavior; do not silently substitute project PIL path.",
+    "proxy_parameter_flags": "Retain original load_attacker_pipe flags; DiffPipe freezes UNet only. Do not additionally freeze text_encoder/VAE to claim full entry equivalence.",
+    "inversion_steps": 50,
+    "inversion_prompt": "",
+    "inversion_cfg": 1.0,
+    "expected_proxy_timesteps": [
+      1,
+      21,
+      41,
+      61,
+      81,
+      101,
+      121,
+      141,
+      161,
+      181,
+      201,
+      221,
+      241,
+      261,
+      281,
+      301,
+      321,
+      341,
+      361,
+      381,
+      401,
+      421,
+      441,
+      461,
+      481,
+      501,
+      521,
+      541,
+      561,
+      581,
+      601,
+      621,
+      641,
+      661,
+      681,
+      701,
+      721,
+      741,
+      761,
+      781,
+      801,
+      821,
+      841,
+      861,
+      881,
+      901,
+      921,
+      941,
+      961,
+      981
+    ],
+    "endpoint": "Actual151 official CLI Step150 primary; actual150 paper-text secondary; both retained from same trajectory",
+    "checkpoint_actual_updates": [
+      20,
+      50,
+      100,
+      150,
+      151
+    ],
+    "checkpoint_label_note": "Official default151 loops index0..150 and evaluates after each update: Step150 is actual151. Primary151 and paper-text150 are saved from the same trajectory; no checkpoint selection.",
+    "save_all_checkpoints_and_seal_before_any_target_scores": true
+  },
+  "evaluation": {
+    "primary": "Actual151 fixed official CLI Step150 endpoint; actual150 separately reported; no best checkpoint",
+    "secondary": "Prespecified20/50/100/150 trajectories each separately reported, no best-of",
+    "target_inverse_images": 28,
+    "candidate_pngs": 20,
+    "reference_images": 4,
+    "clean_cover_images": 4,
+    "psnr": "Corrected metric on rereadRGB PNG versus same preprocessed original cover; mean per-image dB and aggregate-MSE-derived dB separately",
+    "metrics": [
+      "GS_BA",
+      "GS_strict_pass",
+      "PSNR_RGB01",
+      "SSIM_official_grayscale",
+      "MS_SSIM_official_RGB"
+    ],
+    "lpips": "Not admitted: no AlexNet perceptual backbone weights found in designated project cache; no automatic downloads; report unknown unless already-authorized asset located and hashed",
+    "original_cover_source_and_preprocessed_and_candidate_hashes": true,
+    "independent_human_labels": null,
+    "full_geometric_or_SemBind_acceptance": null
+  },
+  "equivalence": {
+    "cpu_checks": 8,
+    "actual_installed_standard_pipeline_vs_upstream_DiffPipe_CPU_fixture": "bitwise_equal_forward_and_finite_input_gradient",
+    "official_AST_150_update_loop": "bitwise_equal_final_latent_to_independent_Adam_loop",
+    "normalization": "Actual upstream helper fixture: official image_pt black0, project PIL black-1; paths not equivalent",
+    "boundary": "CPU fixtures do not certify real-weight GPU trajectory identity. Existing project native10 outputs must not be called full official CLI equivalents.",
+    "official_AST_151_update_loop": "bitwise_equal_CPU_final_latent_to_independent_Adam; actual150 and151 both retained and distinct"
+  },
+  "resources": {
+    "host": "liyanlei@172.18.185.249",
+    "root": "/data0/liyanlei/watermark_research",
+    "max_gpus": 2,
+    "excluded_gpu": 6,
+    "uuid_idle_check_before_every_child": true,
+    "internal_device": "cuda:0",
+    "proposed_assignment": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 1
+    },
+    "model_workers": 6,
+    "breakdown": {
+      "reference_preparation": 1,
+      "native_attacks": 4,
+      "post_seal_evaluation": 1
+    },
+    "historical_cost_basis": "Stage27 actual10 updates\u2248373 optimization seconds on3090 =>37.3s/update; no assumption that A40 paper40min/job holds here;151 actualupdates retained including paper150 checkpoint",
+    "expected_gpu_process_seconds_aggregate": [
+      22400,
+      30000
+    ],
+    "expected_elapsed_hours_two_idle_cards": [
+      3.2,
+      4.5
+    ],
+    "attack_watchdog_seconds": 9000,
+    "preparation_watchdog_seconds": 1800,
+    "evaluation_watchdog_seconds": 1800,
+    "expected_new_storage_bytes_ceiling": 268435456,
+    "hard_new_artifact_limit_bytes": 10737418240,
+    "no_new_models": true
+  },
+  "next_large_stage": {
+    "independent_pairs": 100,
+    "not_started": true,
+    "prerequisites": [
+      "Current bounded151-update calibration authorized; scientific review and assets required before a separate100-pair launch",
+      "All four calibrated runs verified without changing scientific parameters",
+      "Complete independent100 naturalcover/prompt pair inventory and provenance",
+      "Required target/watermark scope and perceptual assets explicitly available"
+    ],
+    "missing_assets": [
+      "100 natural covers: only10 bundled COCO samples currently available",
+      "Full original100 prompt/pairing list not verified",
+      "Original paper proxy checkpoint byte identity unknown",
+      "PixArt/FLUX/SD2.1-Anime and SD1.4 not cached",
+      "LPIPS AlexNet backbone not found in designated cache"
+    ]
+  },
+  "stage30": "held; no generation/attacks/controller/runtime",
+  "failure_policy": "Preserve launched failures and stop, no automatic unchanged retry or score-driven replacement",
+  "models_launched": 0,
+  "proposal_source_sha256": "197bd03d884d512655ba8c3caf20bbfe2c7e38865b4022381fde974636f1ddcf"
+}

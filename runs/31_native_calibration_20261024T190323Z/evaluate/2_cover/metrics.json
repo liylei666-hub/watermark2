@@ -1,0 +1,30 @@
+{
+  "task_id": 2,
+  "label": "cover",
+  "image": {
+    "path": "cover.png",
+    "sha256": "38c36f20a0376dc619c7c85ffa441f7c680f2003eacac1dc88b0de617884c680",
+    "bytes": 381958
+  },
+  "inverse": {
+    "path": "target_inverse.npy",
+    "sha256": "9bb2c394d4282e0ff8a1ffc49459e3c681499024a0add24ee9fddce2dc6495e8",
+    "shape": [
+      1,
+      4,
+      64,
+      64
+    ],
+    "dtype": "float32"
+  },
+  "bit_accuracy": 0.51171875,
+  "gs_detected": false,
+  "mse_rgb01": 0.0,
+  "psnr_db": null,
+  "official_torchmetrics_psnr_db": null,
+  "psnr_infinite": true,
+  "ssim_grayscale": 1.0,
+  "ms_ssim_rgb": 1.0,
+  "lpips": null,
+  "inversion_seconds": 8.606705517042428
+}
