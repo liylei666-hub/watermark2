@@ -3,11 +3,14 @@
 **创建：** 2026-10-28（Asia/Shanghai）
 **作者：** WorkBuddy AI（自动化研究执行），研究者：Li YanLei
 **性质：** 探索性归档，非冻结协议、非正式阶段报告
+**归属：** **WorkBuddy AI 研究内容** —— 独立分支 `workbuddy/exploration-pgsmf-mttgi-20261027`，**不合并进 `main`**
+**声明：** 见同目录 [`WORKBUDDY.md`](WORKBUDDY.md)
 
 ## 目录内容
 
 | 文件 | 内容 |
 |---|---|
+| `WORKBUDDY.md` | **归属与性质声明**（WorkBuddy AI 产出、不合并进 main、边界与引用约定） |
 | `README.md` | 全部五个阶段的合并记录（含所有关键数值表与结论） |
 | `reports/stage31_imprint_code_audit_20261027.md` | Stage31 原生 Imprint 代码审计（路径、超参、z_T 对齐、张量清单） |
 | `reports/stage31_crossmodel_transfer_diag_20261027.md` | 跨模型传递诊断 v1（逐任务、逐通道、分位、FFT 三档） |
