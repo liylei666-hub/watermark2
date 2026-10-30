@@ -37,6 +37,11 @@
       "sha256": "402cfc2a17616a91fe29ca7a026a23156a7b5a17300ed161f08ce84fd5dd1c26"
     },
     {
+      "path": "archive/README.md",
+      "bytes": 9101,
+      "sha256": "cb38818e7e621ebbbbbf436443ab24ac43f25080596286ed6c8efb9b80ce7fc7"
+    },
+    {
       "path": "archive/local_work/stage01/AGENTS.md",
       "bytes": 1038,
       "sha256": "7c9c9821e52ae2ef2513f3ff2d3d299bad96b3f9e2a32a5f74c21d935488f359"
@@ -22772,14 +22777,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 426687942,
+  "total_bytes": 426697043,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-30T04:16:57.710518+00:00",
+  "updated_at_utc": "2026-10-30T04:21:52.739373+00:00",
   "scope": "File integrity inventory for the prepared research tree; actual publication is established by Git commit and branch readback.",
   "previous_publication_commit": "e457085a53da2211fdd5d52943723685aca4fbfd"
 }
