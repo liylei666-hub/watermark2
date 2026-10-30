@@ -15,6 +15,8 @@
 - [参考可靠性诊断](reports/23_reference_reliability/report.md)：4张独立加密参考，跨步数一致性在50%覆盖下四图均未优于幅值排序，平均位错误率高0.247个百分点；参考GS均1.0，代码、原始数据与独立复算齐备。
 - [解码与采样契约](reports/22_decoder_contract/report.md)：区分连续距离、取位、重复投票与GS接受；明确逐图key/nonce与历史开发组的差异。
 - [固定方向迁移诊断](reports/21_directional_study/report.md)：4对新图中反演方向相对VAE方向均更好，但只有3对改善原载体；20候选普通GS全部未通过，8项中心差分均超容差。一阶机制与新方法尚未建立。
+- [目标编码定位](reports/19_target_encoding/report.md)完成12张固定图，发现候选排序差异的出现阶段依赖任务和指标；报告附四种表示空间的对比图。
+- [固定候选残差诊断](reports/18_endpoint_residual/report.md)：Imprint三对保留87%–94%的内部改善；两对出现代理与目标参考反演的候选排序反转。开发诊断已核验，完整防御接受仍未建立。
 - [三对载体试验](reports/17_cover_pilot/report.md)：约376秒核心预算下，Imprint普通GS通过2/3，适配的Jain通过0/3；全部候选固定后评估，192文件及12个分数核验通过。完整防御与正式内容标签仍未知。
 - [基线计算成本](reports/15_imprint_timing/report.md)：Imprint参考准备+10步375.33秒，Jain参考编码+100步83.91秒；阶段17采用10/447步近似预算，完整输出轨迹核对通过。
 - [真实VAE核心核验](reports/13_vae_core/report.md)：原参数状态三步输出跨进程一致；参数冻结等价检查未通过，保留原核心执行状态。
@@ -32,6 +34,7 @@
 - [当前计划](docs/RESEARCH_PLAN.md)：正在解决的问题与证据门槛。
 - [文献矩阵](docs/LITERATURE.md)：截至 2026-10-17 的核查范围、版本状态和实现缺项。
 - [GPT 接续入口](GPT_CONTEXT.md) / [机器可读状态](project_state.json)。
+- [跨分支统一口径](docs/RESEARCH_STATUS_UNIFIED.md)：main、stage27-recovery、instance-authenticity、workbuddy 四个分支的阶段时间线，以及冲突说法的并列对照与证据来源。
 
 ## 已有证据
 
@@ -59,7 +62,3 @@ CUDA_VISIBLE_DEVICES="" python -m unittest discover -s scripts -p test_cpu_laten
 ```
 
 PowerShell 先设置 `$env:CUDA_VISIBLE_DEVICES=''`。历史 GPU 脚本带有服务器路径，读取本仓库不授权执行。本次工作为成果发布与协议审阅，不启动 GPU；历史设备范围见各阶段协议及 [AGENTS.md](AGENTS.md)，下一轮资源须另行审阅。
-
-[固定候选残差诊断](reports/18_endpoint_residual/report.md)：Imprint三对保留87%–94%的内部改善；两对出现代理与目标参考反演的候选排序反转。开发诊断已核验，完整防御接受仍未建立。
-
-[目标编码定位](reports/19_target_encoding/report.md)完成12张固定图，发现候选排序差异的出现阶段依赖任务和指标；报告附四种表示空间的对比图。
