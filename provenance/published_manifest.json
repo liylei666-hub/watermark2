@@ -22,6 +22,11 @@
       "sha256": "a22cc89a2b0c0acd587d65aab3d779f331bd7858ae716fb02cb5b309b9619aa6"
     },
     {
+      "path": "CLEANUP_2026-10-30.md",
+      "bytes": 8647,
+      "sha256": "2d4f941bf276d66e1f34879270187310bbadc00f69e500f5f646b6af4a420d67"
+    },
+    {
       "path": "GPT_CONTEXT.md",
       "bytes": 7678,
       "sha256": "daf30837658a1a4a69d129e32b929d296b7493542ebe7d0f01c7febffd47ddae"
@@ -22777,14 +22782,14 @@
       "sha256": "0ef3c8f65d2282df9db30c7bd9d23494ec625f6ec6de0c62c68c87a537309a8c"
     }
   ],
-  "total_bytes": 426697043,
+  "total_bytes": 426705690,
   "excludes": [
     ".git/",
     "third_party gitlinks",
     "provenance/published_manifest.json",
     "provenance/verification.json"
   ],
-  "updated_at_utc": "2026-10-30T04:21:52.739373+00:00",
+  "updated_at_utc": "2026-10-30T04:25:25.738725+00:00",
   "scope": "File integrity inventory for the prepared research tree; actual publication is established by Git commit and branch readback.",
   "previous_publication_commit": "e457085a53da2211fdd5d52943723685aca4fbfd"
 }
